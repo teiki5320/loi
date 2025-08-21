@@ -1,0 +1,22 @@
+/* Barre du haut de la page députés */
+.topbar{padding:1rem 1rem 0;border-bottom:1px solid var(--border)}
+.topbar .muted{color:var(--muted);font-size:.95rem}
+
+/* Outils de filtre/recherche */
+.toolbar{display:grid;grid-template-columns: 1fr 200px 200px;gap:.75rem;margin:.75rem 0}
+.toolbar input,.toolbar select{
+  padding:.6rem .7rem;border:1px solid var(--border);border-radius:.5rem
+}
+
+/* Tableau */
+table{width:100%;border-collapse:collapse;margin-top:1rem}
+th,td{padding:.6rem .5rem;border-bottom:1px solid var(--border);vertical-align:top}
+th{font-weight:600;text-align:left;white-space:nowrap;cursor:pointer}
+tr:hover{background:#f9fafb}
+.muted{color:var(--muted)}
+.chip{display:inline-block;padding:.15rem .45rem;border:1px solid var(--border);border-radius:999px;font-size:.8rem}
+
+@media (max-width:760px){
+  .toolbar{grid-template-columns:1fr}
+  table{display:block;overflow-x:auto;white-space:nowrap}
+}
