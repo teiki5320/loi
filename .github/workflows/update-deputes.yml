@@ -1,0 +1,62 @@
+name: Update deputes.json (daily, AMO10 L17)
+
+on:
+  workflow_dispatch:        # lancement manuel possible
+  schedule:
+    - cron: "17 3 * * *"    # tous les jours à 03:17 UTC
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install unzip + jq
+        run: sudo apt-get update && sudo apt-get install -y unzip jq
+
+      - name: Download AMO10 (L17) ZIP
+        run: |
+          set -eux
+          mkdir -p data
+          curl -fsSL \
+            "https://data.assemblee-nationale.fr/static/openData/repository/17/amo/deputes_actifs_mandats_actifs_organes/AMO10_deputes_actifs_mandats_actifs_organes.json.zip" \
+            -o data/AMO10.zip
+          unzip -o data/AMO10.zip -d data/
+          JSONFILE="$(ls data/*.json | head -n1)"
+          echo "JSONFILE=$JSONFILE" >> $GITHUB_ENV
+
+      - name: Build deputes.json (simplifié)
+        run: |
+          set -eux
+          mkdir -p deputes
+          jq '
+            ( .acteurs // .deputes // .listeActeurs // [] )
+            | map({
+                id:    (.uid // .id // .identifiant // ""),
+                nom: (
+                  (
+                    (.etatCivil?.prenom // .identite?.prenom // .prenom // "") + " " +
+                    (.etatCivil?.nom    // .identite?.nom    // .nom    // "")
+                  ) | gsub("^\\s+|\\s+$";"")
+                ),
+                _m: (
+                  (.mandats // .mandat // [])
+                  | ( map(select((.dateFin == null) or (.dateFin == ""))) + . )
+                  | .[0]
+                ),
+                circo:  (._m.circonscription // ._m.libelleCirco // ._m.libelle // ""),
+                dept:   (._m.departement // ._m.libelleDepartement // ._m.departementLibelle // ""),
+                groupe: (._m.organe?.acronyme // ._m.organe?.libelleAbrege // ""),
+                email:  (.adresses?.emails?[0] // .mails?[0] // .email // "")
+              })
+            | del(.[]._m)
+          ' "$JSONFILE" > deputes/deputes.json
+          jq 'length' deputes/deputes.json
+
+      - name: Commit & push if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update deputes.json from AMO10 L17"
+          file_pattern: deputes/deputes.json
