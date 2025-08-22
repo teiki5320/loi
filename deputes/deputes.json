@@ -1,4594 +1,4594 @@
 [
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
-  },
-  {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
-  },
-  {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
-  },
-  {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
-  },
-  {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
-  },
-  {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
-  },
-  {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
-  },
-  {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
-  },
-  {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
-  },
-  {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
-  },
-  {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
-  },
-  {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
-  },
-  {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA1008",
+    "nom": "Alain David",
+    "email": "Alain.David@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Gironde",
+    "groupe": "PO845419"
+  },
+  {
+    "id": "PA1327",
+    "nom": "Nicolas Forissier",
+    "email": "Nicolas.Forissier@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Indre",
+    "groupe": "PO845425"
+  },
+  {
+    "id": "PA1567",
+    "nom": "Jérôme Guedj",
+    "email": "jerome.guedj@assemblee-nationale.fr",
+    "circo": "6",
+    "dept": "Essonne",
+    "groupe": "PO845419"
+  },
+  {
+    "id": "PA1592",
+    "nom": "David Habib",
+    "email": "David.Habib@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Pyrénées-Atlantiques",
+    "groupe": "PO845485"
+  },
+  {
+    "id": "PA1630",
+    "nom": "Michel Herbillon",
+    "email": "Michel.Herbillon@assemblee-nationale.fr",
+    "circo": "8",
+    "dept": "Val-de-Marne",
+    "groupe": "PO845425"
+  },
+  {
+    "id": "PA1654",
+    "nom": "François Hollande",
+    "email": "francois.hollande@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Corrèze",
+    "groupe": "PO845419"
+  },
+  {
+    "id": "PA266793",
+    "nom": "Jean-Yves Bony",
+    "email": "Jean-Yves.Bony@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Cantal",
+    "groupe": "PO845425"
+  },
+  {
+    "id": "PA266797",
+    "nom": "Philippe Gosselin",
+    "email": "philippe.gosselin@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Manche",
+    "groupe": "PO845425"
+  },
+  {
+    "id": "PA266808",
+    "nom": "Vincent Rolland",
+    "email": "Vincent.Rolland@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Savoie",
+    "groupe": "PO845425"
+  },
+  {
+    "id": "PA267042",
+    "nom": "Yannick Favennec-Bécot",
+    "email": "Yannick.Favennec@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Mayenne",
+    "groupe": "PO845485"
+  },
+  {
+    "id": "PA267200",
+    "nom": "Sébastien Huyghe",
+    "email": "sebastien.huyghe@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Nord",
+    "groupe": "PO845407"
+  },
+  {
+    "id": "PA267285",
+    "nom": "Laurent Wauquiez",
+    "email": "laurent.wauquiez@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Haute-Loire",
+    "groupe": "PO845425"
+  },
+  {
+    "id": "PA267318",
+    "nom": "Jean-Carles Grelier",
+    "email": "Jean-Carles.Grelier@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Sarthe",
+    "groupe": "PO845454"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA267763",
+    "nom": "Jean-Pierre Bataille",
+    "email": "jean-pierre.bataille@assemblee-nationale.fr",
+    "circo": "15",
+    "dept": "Nord",
+    "groupe": "PO845485"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA267780",
+    "nom": "Agnès Firmin Le Bodo",
+    "email": "Agnes.FirminLeBodo@assemblee-nationale.fr",
+    "circo": "7",
+    "dept": "Seine-Maritime",
+    "groupe": "PO845470"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA267794",
+    "nom": "Michèle Tabarot",
+    "email": "Michele.Tabarot@assemblee-nationale.fr",
+    "circo": "9",
+    "dept": "Alpes-Maritimes",
+    "groupe": "PO845425"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA2940",
+    "nom": "Dominique Voynet",
+    "email": "dominique.voynet@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Doubs",
+    "groupe": "PO845439"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA2952",
+    "nom": "Jean-Luc Warsmann",
+    "email": "Jean-Luc.Warsmann@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Ardennes",
+    "groupe": "PO845485"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA2960",
+    "nom": "Éric Woerth",
+    "email": "Eric.Woerth@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Oise",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA309643",
+    "nom": "Véronique Besse",
+    "email": "veronique.besse@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Vendée",
+    "groupe": "PO840056"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA330008",
+    "nom": "Xavier Breton",
+    "email": "Xavier.Breton@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Ain",
+    "groupe": "PO845425"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA330240",
+    "nom": "Éric Ciotti",
+    "email": "Eric.Ciotti@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Alpes-Maritimes",
+    "groupe": "PO847173"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA330909",
+    "nom": "Vincent Descoeur",
+    "email": "Vincent.Descoeur@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Cantal",
+    "groupe": "PO845425"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA331582",
+    "nom": "Philippe Vigier",
+    "email": "Philippe.Vigier@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Eure-et-Loir",
+    "groupe": "PO845454"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA331973",
+    "nom": "Pascale Got",
+    "email": "pascale.got@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Gironde",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA332228",
+    "nom": "Thierry Benoit",
+    "email": "Thierry.Benoit@assemblee-nationale.fr",
+    "circo": "6",
+    "dept": "Ille-et-Vilaine",
+    "groupe": "PO845470"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA332523",
+    "nom": "Marie-Christine Dalloz",
+    "email": "Marie-Christine.Dalloz@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Jura",
+    "groupe": "PO845425"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA333285",
+    "nom": "Guillaume Garot",
+    "email": "Guillaume.Garot@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Mayenne",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA335054",
+    "nom": "Marietta Karamanli",
+    "email": "Marietta.Karamanli@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Sarthe",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA335612",
+    "nom": "Jean-Paul Lecoq",
+    "email": "Jean-Paul.Lecoq@assemblee-nationale.fr",
+    "circo": "8",
+    "dept": "Seine-Maritime",
+    "groupe": "PO845514"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA335758",
+    "nom": "Franck Riester",
+    "email": "franck.riester@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Seine-et-Marne",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA335999",
+    "nom": "Delphine Batho",
+    "email": "Delphine.Batho@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Deux-Sèvres",
+    "groupe": "PO845439"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA340343",
+    "nom": "Hervé Saulignac",
+    "email": "Herve.Saulignac@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Ardèche",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA341981",
+    "nom": "Marie Récalde",
+    "email": "marie.recalde@assemblee-nationale.fr",
+    "circo": "6",
+    "dept": "Gironde",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA342196",
+    "nom": "Claudia Rouaux",
+    "email": "claudia.rouaux@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Ille-et-Vilaine",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA342240",
+    "nom": "Jean-Luc Bourgeaux",
+    "email": "jean-luc.bourgeaux@assemblee-nationale.fr",
+    "circo": "7",
+    "dept": "Ille-et-Vilaine",
+    "groupe": "PO845425"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA342384",
+    "nom": "Élisa Martin",
+    "email": "elisa.martin@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Isère",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA342415",
+    "nom": "Marie-Noëlle Battistel",
+    "email": "Marie-Noelle.Battistel@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Isère",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA345722",
+    "nom": "Constance Le Grip",
+    "email": "Constance.LeGrip@assemblee-nationale.fr",
+    "circo": "6",
+    "dept": "Hauts-de-Seine",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA346782",
+    "nom": "Philippe Juvin",
+    "email": "philippe.juvin@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Hauts-de-Seine",
+    "groupe": "PO845425"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA408578",
+    "nom": "Jean-Didier Berger",
+    "email": "jean-didier.berger@assemblee-nationale.fr",
+    "circo": "12",
+    "dept": "Hauts-de-Seine",
+    "groupe": "PO845425"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA569",
+    "nom": "Philippe Bonnecarrère",
+    "email": "philippe.bonnecarrere@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Tarn",
+    "groupe": "PO840056"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA588884",
+    "nom": "Clémentine Autain",
+    "email": "Clementine.Autain@assemblee-nationale.fr",
+    "circo": "11",
+    "dept": "Seine-Saint-Denis",
+    "groupe": "PO845439"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA605694",
+    "nom": "Olivier Falorni",
+    "email": "Olivier.Falorni@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Charente-Maritime",
+    "groupe": "PO845454"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA605745",
+    "nom": "Nicolas Sansu",
+    "email": "nicolas.sansu@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Cher",
+    "groupe": "PO845514"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA606507",
+    "nom": "Florent Boudié",
+    "email": "Florent.Boudie@assemblee-nationale.fr",
+    "circo": "10",
+    "dept": "Gironde",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA606545",
+    "nom": "Jean-Louis Roumégas",
+    "email": "jean-louis.roumegas@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Hérault",
+    "groupe": "PO845439"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA606573",
+    "nom": "Fanny Dombre Coste",
+    "email": "fanny.dombrecoste@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Hérault",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA606793",
+    "nom": "Laurent Baumel",
+    "email": "laurent.baumel@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Indre-et-Loire",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA607090",
+    "nom": "Jean-Pierre Vigier",
+    "email": "Jean-Pierre.Vigier@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Haute-Loire",
+    "groupe": "PO845425"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA607193",
+    "nom": "Sophie Errante",
+    "email": "Sophie.Errante@assemblee-nationale.fr",
+    "circo": "10",
+    "dept": "Loire-Atlantique",
+    "groupe": "PO840056"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA607395",
+    "nom": "Stéphane Travert",
+    "email": "Stephane.Travert@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Manche",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA607553",
+    "nom": "Dominique Potier",
+    "email": "Dominique.Potier@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Meurthe-et-Moselle",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA607619",
+    "nom": "Paul Molac",
+    "email": "Paul.Molac@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Morbihan",
+    "groupe": "PO845485"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA608172",
+    "nom": "Christine Pirès Beaune",
+    "email": "Christine.PiresBeaune@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Puy-de-Dôme",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA608264",
+    "nom": "Colette Capdevielle",
+    "email": "colette.capdevielle@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Pyrénées-Atlantiques",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA608416",
+    "nom": "Patrick Hetzel",
+    "email": "Patrick.Hetzel@assemblee-nationale.fr",
+    "circo": "7",
+    "dept": "Bas-Rhin",
+    "groupe": "PO845425"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA608826",
+    "nom": "Virginie Duby-Muller",
+    "email": "Virginie.Duby-Muller@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Haute-Savoie",
+    "groupe": "PO845425"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA609332",
+    "nom": "Olivier Faure",
+    "email": "Olivier.Faure@assemblee-nationale.fr",
+    "circo": "11",
+    "dept": "Seine-et-Marne",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA610002",
+    "nom": "Eva Sas",
+    "email": "eva.sas@assemblee-nationale.fr",
+    "circo": "8",
+    "dept": "Paris",
+    "groupe": "PO845439"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA610654",
+    "nom": "Jean-Philippe Nilor",
+    "email": "Jean-Philippe.Nilor@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Martinique",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA610968",
+    "nom": "Pouria Amirshahi",
+    "email": "pouria.amirshahi@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Paris",
+    "groupe": "PO845439"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA642695",
+    "nom": "Éric Bothorel",
+    "email": "Eric.Bothorel@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Côtes-d'Armor",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA642725",
+    "nom": "Eric Liégeon",
+    "email": "eric.liegeon@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Doubs",
+    "groupe": "PO845425"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA642764",
+    "nom": "Joël Aviragnet",
+    "email": "Joel.Aviragnet@assemblee-nationale.fr",
+    "circo": "8",
+    "dept": "Haute-Garonne",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA642847",
+    "nom": "Thibault Bazin",
+    "email": "Thibault.Bazin@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Meurthe-et-Moselle",
+    "groupe": "PO845425"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA642868",
+    "nom": "Paul Christophe",
+    "email": "Paul.Christophe@assemblee-nationale.fr",
+    "circo": "14",
+    "dept": "Nord",
+    "groupe": "PO845470"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA642935",
+    "nom": "Olivier Becht",
+    "email": "olivier.becht@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Haut-Rhin",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA642988",
+    "nom": "Hervé de Lépinau",
+    "email": "herve.delepinau@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Vaucluse",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA643089",
+    "nom": "Jean-Louis Thiériot",
+    "email": "Jean-Louis.Thieriot@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Seine-et-Marne",
+    "groupe": "PO845425"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA643104",
+    "nom": "Christelle Minard",
+    "email": "christelle.minard@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Eure-et-Loir",
+    "groupe": "PO845425"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA643143",
+    "nom": "Christian Baptiste",
+    "email": "christian.baptiste@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Guadeloupe",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA643157",
+    "nom": "Philippe Naillet",
+    "email": "philippe.naillet@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Réunion",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA643175",
+    "nom": "Stella Dupont",
+    "email": "Stella.Dupont@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Maine-et-Loire",
+    "groupe": "PO840056"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA643184",
+    "nom": "Brigitte Klinkert",
+    "email": "brigitte.klinkert@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Haut-Rhin",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA643192",
+    "nom": "Chantal Jourdan",
+    "email": "chantal.jourdan@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Orne",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA677483",
+    "nom": "Stéphane Mazars",
+    "email": "Stephane.Mazars@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Aveyron",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA687214",
+    "nom": "Sylvain Berrios",
+    "email": "sylvain.berrios@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Val-de-Marne",
+    "groupe": "PO845470"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA695512",
+    "nom": "Guillaume Lepers",
+    "email": "guillaume.lepers@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Lot-et-Garonne",
+    "groupe": "PO845425"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA712014",
+    "nom": "Vincent Ledoux",
+    "email": "Vincent.Ledoux@assemblee-nationale.fr",
+    "circo": "10",
+    "dept": "Nord",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA712015",
+    "nom": "Julien Dive",
+    "email": "Julien.Dive@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Aisne",
+    "groupe": "PO845425"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA717379",
+    "nom": "Sylvain Maillard",
+    "email": "Sylvain.Maillard@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Paris",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA718674",
+    "nom": "Olga Givernet",
+    "email": "Olga.Givernet@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Ain",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA718784",
+    "nom": "Éric Pauget",
+    "email": "Eric.Pauget@assemblee-nationale.fr",
+    "circo": "7",
+    "dept": "Alpes-Maritimes",
+    "groupe": "PO845425"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA718838",
+    "nom": "Fabrice Brun",
+    "email": "Fabrice.Brun@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Ardèche",
+    "groupe": "PO845425"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA718850",
+    "nom": "Pierre Cordier",
+    "email": "Pierre.Cordier@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Ardennes",
+    "groupe": "PO845425"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA718884",
+    "nom": "Valérie Bazin-Malgras",
+    "email": "Valerie.Bazin-Malgras@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Aube",
+    "groupe": "PO845425"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA719024",
+    "nom": "Christophe Blanchet",
+    "email": "Christophe.Blanchet@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Calvados",
+    "groupe": "PO845454"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA719032",
+    "nom": "Bertrand Bouyx",
+    "email": "Bertrand.Bouyx@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Calvados",
+    "groupe": "PO845470"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA719052",
+    "nom": "Loïc Kervran",
+    "email": "Loic.Kervran@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Cher",
+    "groupe": "PO845470"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA719080",
+    "nom": "Sandra Marsaud",
+    "email": "Sandra.Marsaud@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Charente",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA719118",
+    "nom": "François Cormier-Bouligeon",
+    "email": "Francois.Cormier-Bouligeon@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Cher",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA719138",
+    "nom": "Michel Castellani",
+    "email": "Michel.Castellani@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Haute-Corse",
+    "groupe": "PO845485"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA719218",
+    "nom": "Hervé Berville",
+    "email": "herve.berville@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Côtes-d'Armor",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA719272",
+    "nom": "Frédérique Meunier",
+    "email": "Frederique.Meunier@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Corrèze",
+    "groupe": "PO845425"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA719282",
+    "nom": "Xavier Lacombe",
+    "email": "xavier.lacombe@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Corse-du-Sud",
+    "groupe": "PO845470"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA719286",
+    "nom": "Paul-André Colombani",
+    "email": "Paul-Andre.Colombani@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Corse-du-Sud",
+    "groupe": "PO845485"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA719338",
+    "nom": "Graziella Melchior",
+    "email": "Graziella.Melchior@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Finistère",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA719372",
+    "nom": "Guillaume Kasbarian",
+    "email": "Guillaume.Kasbarian@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Eure-et-Loir",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA719388",
+    "nom": "Annaïg Le Meur",
+    "email": "Annaig.LeMeur@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Finistère",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA719404",
+    "nom": "Didier Le Gac",
+    "email": "Didier.LeGac@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Finistère",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA719412",
+    "nom": "Sandrine Le Feur",
+    "email": "Sandrine.LeFeur@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Finistère",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA719436",
+    "nom": "Nicolas Meizonnet",
+    "email": "nicolas.meizonnet@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Gard",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA719472",
+    "nom": "Jean-René Cazeneuve",
+    "email": "Jean-Rene.Cazeneuve@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Gers",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA719512",
+    "nom": "Corinne Vignon",
+    "email": "Corinne.Vignon@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Haute-Garonne",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA719528",
+    "nom": "Jean-François Portarrieu",
+    "email": "Jean-Francois.Portarrieu@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Haute-Garonne",
+    "groupe": "PO845470"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA719550",
+    "nom": "Liliana Tanguy",
+    "email": "Liliana.Tanguy@assemblee-nationale.fr",
+    "circo": "7",
+    "dept": "Finistère",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA719558",
+    "nom": "Erwan Balanant",
+    "email": "Erwan.Balanant@assemblee-nationale.fr",
+    "circo": "8",
+    "dept": "Finistère",
+    "groupe": "PO845454"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA719578",
+    "nom": "Loïc Prud'homme",
+    "email": "Loic.Prudhomme@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Gironde",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA719632",
+    "nom": "Sophie Panonacle",
+    "email": "Sophie.Panonacle@assemblee-nationale.fr",
+    "circo": "8",
+    "dept": "Gironde",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA719640",
+    "nom": "Sophie Mette",
+    "email": "Sophie.Mette@assemblee-nationale.fr",
+    "circo": "9",
+    "dept": "Gironde",
+    "groupe": "PO845454"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA719736",
+    "nom": "Camille Galliard-Minier",
+    "email": "camille.galliard-minier@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Isère",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA719756",
+    "nom": "Christine Le Nabour",
+    "email": "Christine.lenabour@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Ille-et-Vilaine",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA719778",
+    "nom": "François Jolivet",
+    "email": "Francois.Jolivet@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Indre",
+    "groupe": "PO845470"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA719798",
+    "nom": "Daniel Labaronne",
+    "email": "Daniel.Labaronne@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Indre-et-Loire",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA719822",
+    "nom": "Sabine Thillaye",
+    "email": "Sabine.Thillaye@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Indre-et-Loire",
+    "groupe": "PO845454"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA719890",
+    "nom": "Danielle Brulebois",
+    "email": "Danielle.Brulebois@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Jura",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA719914",
+    "nom": "Geneviève Darrieussecq",
+    "email": "genevieve.darrieussecq@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Landes",
+    "groupe": "PO845454"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA719922",
+    "nom": "Lionel Causse",
+    "email": "Lionel.Causse@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Landes",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA719930",
+    "nom": "Boris Vallaud",
+    "email": "Boris.Vallaud@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Landes",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA719938",
+    "nom": "Marc Fesneau",
+    "email": "marc.fesneau@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Loir-et-Cher",
+    "groupe": "PO845454"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA719968",
+    "nom": "Sylvie Bonnet",
+    "email": "sylvie.bonnet@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Loire",
+    "groupe": "PO845425"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA720022",
+    "nom": "Michel Lauzzana",
+    "email": "Michel.Lauzzana@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Lot-et-Garonne",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA720038",
+    "nom": "Sandrine Josso",
+    "email": "Sandrine.Josso@assemblee-nationale.fr",
+    "circo": "7",
+    "dept": "Loire-Atlantique",
+    "groupe": "PO845454"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA720066",
+    "nom": "Stéphanie Rist",
+    "email": "Stephanie.Rist@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Loiret",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA720092",
+    "nom": "Richard Ramos",
+    "email": "Richard.Ramos@assemblee-nationale.fr",
+    "circo": "6",
+    "dept": "Loiret",
+    "groupe": "PO845454"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA720100",
+    "nom": "Aurélien Pradié",
+    "email": "Aurelien.Pradie@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Lot",
+    "groupe": "PO840056"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA720138",
+    "nom": "Laetitia Saint-Paul",
+    "email": "Laetitia.Saint-Paul@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Maine-et-Loire",
+    "groupe": "PO845470"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA720146",
+    "nom": "Denis Masséglia",
+    "email": "Denis.Masseglia@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Maine-et-Loire",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA720154",
+    "nom": "Nicole Dubré-Chirat",
+    "email": "Nicole.Dubre-Chirat@assemblee-nationale.fr",
+    "circo": "6",
+    "dept": "Maine-et-Loire",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA720162",
+    "nom": "Philippe Bolo",
+    "email": "Philippe.Bolo@assemblee-nationale.fr",
+    "circo": "7",
+    "dept": "Maine-et-Loire",
+    "groupe": "PO845454"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA720190",
+    "nom": "Bertrand Sorre",
+    "email": "Bertrand.Sorre@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Manche",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA720230",
+    "nom": "Lise Magnier",
+    "email": "Lise.Magnier@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Marne",
+    "groupe": "PO845470"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA720256",
+    "nom": "Géraldine Bannier",
+    "email": "Geraldine.Bannier@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Mayenne",
+    "groupe": "PO845454"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA720334",
+    "nom": "Jimmy Pahun",
+    "email": "Jimmy.Pahun@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Morbihan",
+    "groupe": "PO845454"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA720342",
+    "nom": "Nicole Le Peih",
+    "email": "Nicole.LePeih@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Morbihan",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA720354",
+    "nom": "Jean-Michel Jacques",
+    "email": "Jean-Michel.Jacques@assemblee-nationale.fr",
+    "circo": "6",
+    "dept": "Morbihan",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA720362",
+    "nom": "Belkhir Belhaddad",
+    "email": "Belkhir.Belhaddad@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Moselle",
+    "groupe": "PO840056"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA720370",
+    "nom": "Ludovic Mendes",
+    "email": "Ludovic.Mendes@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Moselle",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA720386",
+    "nom": "Fabien Di Filippo",
+    "email": "Fabien.DiFilippo@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Moselle",
+    "groupe": "PO845425"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA720430",
+    "nom": "Ugo Bernalicis",
+    "email": "Ugo.Bernalicis@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Nord",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA720446",
+    "nom": "Brigitte Liso",
+    "email": "Brigitte.Liso@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Nord",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA720468",
+    "nom": "Sébastien Chenu",
+    "email": "Sebastien.Chenu@assemblee-nationale.fr",
+    "circo": "19",
+    "dept": "Nord",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA720552",
+    "nom": "Isabelle Rauch",
+    "email": "Isabelle.Rauch@assemblee-nationale.fr",
+    "circo": "9",
+    "dept": "Moselle",
+    "groupe": "PO845470"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA720560",
+    "nom": "Perrine Goulet",
+    "email": "Perrine.Goulet@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Nièvre",
+    "groupe": "PO845454"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA720614",
+    "nom": "Marine Le Pen",
+    "email": "Marine.LePen@assemblee-nationale.fr",
+    "circo": "11",
+    "dept": "Pas-de-Calais",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA720644",
+    "nom": "Jérôme Nury",
+    "email": "Jerome.Nury@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Orne",
+    "groupe": "PO845425"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA720668",
+    "nom": "Emmanuel Blairy",
+    "email": "emmanuel.blairy@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Pas-de-Calais",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA720720",
+    "nom": "Josy Poueyto",
+    "email": "Josy.Poueyto@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Pyrénées-Atlantiques",
+    "groupe": "PO845454"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA720728",
+    "nom": "Jean-Paul Mattei",
+    "email": "Jean-Paul.Mattei@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Pyrénées-Atlantiques",
+    "groupe": "PO845454"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA720822",
+    "nom": "Bruno Bilde",
+    "email": "Bruno.Bilde@assemblee-nationale.fr",
+    "circo": "12",
+    "dept": "Pas-de-Calais",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA720838",
+    "nom": "Soumya Bourouaha",
+    "email": "soumya.bourouaha@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Seine-Saint-Denis",
+    "groupe": "PO845514"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA720846",
+    "nom": "Bastien Lachaud",
+    "email": "Bastien.Lachaud@assemblee-nationale.fr",
+    "circo": "6",
+    "dept": "Seine-Saint-Denis",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA720892",
+    "nom": "Mathilde Panot",
+    "email": "Mathilde.Panot@assemblee-nationale.fr",
+    "circo": "10",
+    "dept": "Val-de-Marne",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA720908",
+    "nom": "Naïma Moutchou",
+    "email": "Naima.Moutchou@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Val-d'Oise",
+    "groupe": "PO845470"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA720952",
+    "nom": "Aurélien Taché",
+    "email": "Aurelien.Tache@assemblee-nationale.fr",
+    "circo": "10",
+    "dept": "Val-d'Oise",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA720960",
+    "nom": "Olivier Serva",
+    "email": "Olivier.Serva@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Guadeloupe",
+    "groupe": "PO845485"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA720976",
+    "nom": "Max Mathiasin",
+    "email": "Max.Mathiasin@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Guadeloupe",
+    "groupe": "PO845485"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA720992",
+    "nom": "Jiovanny William",
+    "email": "jiovanny.william@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Martinique",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA721004",
+    "nom": "Amélia Lakrafi",
+    "email": "amelia.lakrafi@assemblee-nationale.fr",
+    "circo": "10",
+    "dept": "Français établis hors de France",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA721024",
+    "nom": "Anne Genetet",
+    "email": "Anne.Genetet@assemblee-nationale.fr",
+    "circo": "11",
+    "dept": "Français établis hors de France",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA721062",
+    "nom": "Jean-Hugues Ratenon",
+    "email": "Jean-Hugues.Ratenon@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Réunion",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA721110",
+    "nom": "Nicole Sanquer",
+    "email": "nicole.sanquer@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Polynésie Française",
+    "groupe": "PO845485"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA721134",
+    "nom": "Roland Lescure",
+    "email": "roland.lescure@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Français établis hors de France",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA721158",
+    "nom": "Pieyre-Alexandre Anglade",
+    "email": "Pieyre-Alexandre.Anglade@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Français établis hors de France",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA721182",
+    "nom": "Frédéric Petit",
+    "email": "Frederic.Petit@assemblee-nationale.fr",
+    "circo": "7",
+    "dept": "Français établis hors de France",
+    "groupe": "PO845454"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA721202",
+    "nom": "Éric Coquerel",
+    "email": "Eric.Coquerel@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Seine-Saint-Denis",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA721210",
+    "nom": "Alexis Corbière",
+    "email": "Alexis.Corbiere@assemblee-nationale.fr",
+    "circo": "7",
+    "dept": "Seine-Saint-Denis",
+    "groupe": "PO845439"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA721234",
+    "nom": "Maud Petit",
+    "email": "Maud.Petit@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Val-de-Marne",
+    "groupe": "PO845454"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA721270",
+    "nom": "Stéphane Peu",
+    "email": "Stephane.Peu@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Seine-Saint-Denis",
+    "groupe": "PO845514"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA721296",
+    "nom": "Guillaume Gouffier Valente",
+    "email": "guillaume.gouffier-valente@assemblee-nationale.fr",
+    "circo": "6",
+    "dept": "Val-de-Marne",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA721314",
+    "nom": "Raphaël Schellenberger",
+    "email": "Raphael.Schellenberger@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Haut-Rhin",
+    "groupe": "PO840056"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA721336",
+    "nom": "Blandine Brocard",
+    "email": "Blandine.Brocard@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Rhône",
+    "groupe": "PO845454"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA721410",
+    "nom": "Émilie Bonnivard",
+    "email": "Emilie.Bonnivard@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Savoie",
+    "groupe": "PO845425"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA721426",
+    "nom": "Véronique Riotton",
+    "email": "Veronique.Riotton@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Haute-Savoie",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA721442",
+    "nom": "Christelle Petex",
+    "email": "christelle.petex-levet@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Haute-Savoie",
+    "groupe": "PO845425"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA721458",
+    "nom": "Xavier Roseren",
+    "email": "Xavier.Roseren@assemblee-nationale.fr",
+    "circo": "6",
+    "dept": "Haute-Savoie",
+    "groupe": "PO845470"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA721474",
+    "nom": "Stéphane Viry",
+    "email": "Stephane.Viry@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Vosges",
+    "groupe": "PO845485"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA721486",
+    "nom": "Christophe Naegelen",
+    "email": "Christophe.Naegelen@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Vosges",
+    "groupe": "PO845485"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA721584",
+    "nom": "Jean Terlier",
+    "email": "Jean.Terlier@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Tarn",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA721750",
+    "nom": "Céline Calvez",
+    "email": "Celine.Calvez@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Hauts-de-Seine",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA721764",
+    "nom": "Olivia Grégoire",
+    "email": "olivia.gregoire@assemblee-nationale.fr",
+    "circo": "12",
+    "dept": "Paris",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA721816",
+    "nom": "Ian Boucard",
+    "email": "Ian.Boucard@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Territoire de Belfort",
+    "groupe": "PO845425"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA721844",
+    "nom": "Béatrice Piron",
+    "email": "Beatrice.Piron@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Yvelines",
+    "groupe": "PO845470"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA721852",
+    "nom": "Marie Lebec",
+    "email": "Marie.Lebec@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Yvelines",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA721896",
+    "nom": "Elsa Faucillon",
+    "email": "Elsa.Faucillon@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Hauts-de-Seine",
+    "groupe": "PO845514"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA721908",
+    "nom": "Yaël Braun-Pivet",
+    "email": "Yael.Braun-Pivet@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Yvelines",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA721916",
+    "nom": "Natalia Pouzyreff",
+    "email": "Natalia.Pouzyreff@assemblee-nationale.fr",
+    "circo": "6",
+    "dept": "Yvelines",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA721932",
+    "nom": "Marie-France Lorho",
+    "email": "Marie-France.Lorho@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Vaucluse",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA721960",
+    "nom": "Danièle Obono",
+    "email": "Daniele.Obono@assemblee-nationale.fr",
+    "circo": "17",
+    "dept": "Paris",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA721984",
+    "nom": "Philippe Latombe",
+    "email": "Philippe.Latombe@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Vendée",
+    "groupe": "PO845454"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA722000",
+    "nom": "Stéphane Buchou",
+    "email": "Stephane.Buchou@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Vendée",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA722070",
+    "nom": "Pierre Henriet",
+    "email": "Pierre.Henriet@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Vendée",
+    "groupe": "PO845470"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA722102",
+    "nom": "Annie Vidal",
+    "email": "Annie.Vidal@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Seine-Maritime",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA722134",
+    "nom": "Jean-Marie Fiévet",
+    "email": "Jean-Marie.Fievet@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Deux-Sèvres",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA722142",
+    "nom": "François Ruffin",
+    "email": "Francois.Ruffin@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Somme",
+    "groupe": "PO845439"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA722150",
+    "nom": "Sacha Houlié",
+    "email": "Sacha.Houlie@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Vienne",
+    "groupe": "PO840056"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA722162",
+    "nom": "Nicolas Turquois",
+    "email": "Nicolas.Turquois@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Vienne",
+    "groupe": "PO845454"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA722190",
+    "nom": "Gabriel Attal",
+    "email": "gabriel.attal@assemblee-nationale.fr",
+    "circo": "10",
+    "dept": "Hauts-de-Seine",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA722252",
+    "nom": "Marie-Pierre Rixain",
+    "email": "Marie-Pierre.Rixain@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Essonne",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA722284",
+    "nom": "Bruno Fuchs",
+    "email": "Bruno.Fuchs@assemblee-nationale.fr",
+    "circo": "6",
+    "dept": "Haut-Rhin",
+    "groupe": "PO845454"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA722336",
+    "nom": "Vincent Thiébaut",
+    "email": "Vincent.Thiebaut@assemblee-nationale.fr",
+    "circo": "9",
+    "dept": "Bas-Rhin",
+    "groupe": "PO845470"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA722358",
+    "nom": "Thomas Gassilloud",
+    "email": "Thomas.Gassilloud@assemblee-nationale.fr",
+    "circo": "10",
+    "dept": "Rhône",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA722366",
+    "nom": "Jean-Luc Fugit",
+    "email": "Jean-Luc.Fugit@assemblee-nationale.fr",
+    "circo": "11",
+    "dept": "Rhône",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA722374",
+    "nom": "Cyrille Isaac-Sibille",
+    "email": "Cyrille.Isaac-Sibille@assemblee-nationale.fr",
+    "circo": "12",
+    "dept": "Rhône",
+    "groupe": "PO845454"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA722382",
+    "nom": "Benjamin Dirx",
+    "email": "Benjamin.Dirx@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Saône-et-Loire",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA722390",
+    "nom": "Josiane Corneloup",
+    "email": "Josiane.Corneloup@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Saône-et-Loire",
+    "groupe": "PO845425"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA736201",
+    "nom": "Sophie Taillé-Polian",
+    "email": "sophie.taille-polian@assemblee-nationale.fr",
+    "circo": "11",
+    "dept": "Val-de-Marne",
+    "groupe": "PO845439"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA757225",
+    "nom": "Mikaele Seo",
+    "email": "mikaele.seo@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Wallis-et-Futuna",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA774954",
+    "nom": "Anne-Laure Blin",
+    "email": "anne-laure.blin@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Maine-et-Loire",
+    "groupe": "PO845425"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA774958",
+    "nom": "Gérard Leseul",
+    "email": "gerard.leseul@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Seine-Maritime",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA774960",
+    "nom": "Isabelle Santiago",
+    "email": "isabelle.santiago@assemblee-nationale.fr",
+    "circo": "9",
+    "dept": "Val-de-Marne",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA774962",
+    "nom": "Karine Lebon",
+    "email": "karine.lebon@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Réunion",
+    "groupe": "PO845514"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA791812",
+    "nom": "Sophia Chikirou",
+    "email": "sophia.chikirou@assemblee-nationale.fr",
+    "circo": "6",
+    "dept": "Paris",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA791824",
+    "nom": "Sarah Legrain",
+    "email": "sarah.legrain@assemblee-nationale.fr",
+    "circo": "16",
+    "dept": "Paris",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793094",
+    "nom": "Nicolas Ray",
+    "email": "nicolas.ray@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Allier",
+    "groupe": "PO845425"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793102",
+    "nom": "Christian Girard",
+    "email": "christian.girard@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Alpes-de-Haute-Provence",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793122",
+    "nom": "Romain Daubié",
+    "email": "romain.daubie@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Ain",
+    "groupe": "PO845454"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793134",
+    "nom": "Jérôme Buisson",
+    "email": "jerome.buisson@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Ain",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793146",
+    "nom": "Nicolas Dragon",
+    "email": "nicolas.dragon@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Aisne",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793158",
+    "nom": "José Beaurain",
+    "email": "jose.beaurain@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Aisne",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793166",
+    "nom": "Jocelyn Dessigny",
+    "email": "jocelyn.dessigny@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Aisne",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793174",
+    "nom": "Yannick Monnet",
+    "email": "yannick.monnet@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Allier",
+    "groupe": "PO845514"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793182",
+    "nom": "Jorys Bovet",
+    "email": "jorys.bovet@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Allier",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793194",
+    "nom": "Lionel Vuibert",
+    "email": "lionel.vuibert@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Ardennes",
+    "groupe": "PO840056"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793210",
+    "nom": "Laurent Panifous",
+    "email": "laurent.panifous@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Ariège",
+    "groupe": "PO845485"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793218",
+    "nom": "Jordan Guitton",
+    "email": "jordan.guitton@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Aube",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793230",
+    "nom": "Angélique Ranc",
+    "email": "angelique.ranc@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Aube",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793238",
+    "nom": "Christophe Barthès",
+    "email": "christophe.barthes@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Aude",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793246",
+    "nom": "Frédéric Falcon",
+    "email": "frederic.falcon@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Aude",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793254",
+    "nom": "Julien Rancoule",
+    "email": "julien.rancoule@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Aude",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793262",
+    "nom": "Laurent Alexandre",
+    "email": "laurent.alexandre@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Aveyron",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793270",
+    "nom": "Jean-François Rousset",
+    "email": "jean-francois.rousset@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Aveyron",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793290",
+    "nom": "Gisèle Lelouis",
+    "email": "gisele.lelouis@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Bouches-du-Rhône",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793298",
+    "nom": "Lionel Tivoli",
+    "email": "lionel.tivoli@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Alpes-Maritimes",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793314",
+    "nom": "Alexandra Masson",
+    "email": "alexandra.masson@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Alpes-Maritimes",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793322",
+    "nom": "Christelle D'Intorni",
+    "email": "christelle.dintorni@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Alpes-Maritimes",
+    "groupe": "PO847173"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793330",
+    "nom": "Bryan Masson",
+    "email": "bryan.masson@assemblee-nationale.fr",
+    "circo": "6",
+    "dept": "Alpes-Maritimes",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793342",
+    "nom": "Alexandra Martin",
+    "email": "alexandra.martin@assemblee-nationale.fr",
+    "circo": "8",
+    "dept": "Alpes-Maritimes",
+    "groupe": "PO845425"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793354",
+    "nom": "Joëlle Mélin",
+    "email": "joelle.melin@assemblee-nationale.fr",
+    "circo": "9",
+    "dept": "Bouches-du-Rhône",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793362",
+    "nom": "José Gonzalez",
+    "email": "jose.gonzalez@assemblee-nationale.fr",
+    "circo": "10",
+    "dept": "Bouches-du-Rhône",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793374",
+    "nom": "Romain Baubry",
+    "email": "romain.baubry@assemblee-nationale.fr",
+    "circo": "15",
+    "dept": "Bouches-du-Rhône",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793382",
+    "nom": "Emmanuel Taché de la Pagerie",
+    "email": "emmanuel.tachedelapagerie@assemblee-nationale.fr",
+    "circo": "16",
+    "dept": "Bouches-du-Rhône",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793394",
+    "nom": "Arthur Delaporte",
+    "email": "arthur.delaporte@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Calvados",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793398",
+    "nom": "Jérémie Patrier-Leitus",
+    "email": "jeremie.patrier-leitus@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Calvados",
+    "groupe": "PO845470"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793416",
+    "nom": "Freddy Sertin",
+    "email": "freddy.sertin@assemblee-nationale.fr",
+    "circo": "6",
+    "dept": "Calvados",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793432",
+    "nom": "Franck Allisio",
+    "email": "franck.allisio@assemblee-nationale.fr",
+    "circo": "12",
+    "dept": "Bouches-du-Rhône",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793444",
+    "nom": "Manuel Bompard",
+    "email": "manuel.bompard@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Bouches-du-Rhône",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793452",
+    "nom": "Hendrik Davi",
+    "email": "hendrik.davi@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Bouches-du-Rhône",
+    "groupe": "PO845439"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793464",
+    "nom": "Sébastien Delogu",
+    "email": "sebastien.delogu@assemblee-nationale.fr",
+    "circo": "7",
+    "dept": "Bouches-du-Rhône",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793508",
+    "nom": "Hubert Brigand",
+    "email": "hubert.brigand@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Côte-d'Or",
+    "groupe": "PO845425"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793520",
+    "nom": "Mickaël Cosson",
+    "email": "mickael.cosson@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Côtes-d'Armor",
+    "groupe": "PO845454"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793532",
+    "nom": "Murielle Lepvraud",
+    "email": "murielle.lepvraud@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Côtes-d'Armor",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793548",
+    "nom": "Caroline Colombier",
+    "email": "caroline.colombier@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Charente",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793572",
+    "nom": "Christophe Plassard",
+    "email": "christophe.plassard@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Charente-Maritime",
+    "groupe": "PO845470"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793592",
+    "nom": "Géraldine Grangier",
+    "email": "geraldine.grangier@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Doubs",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793608",
+    "nom": "Katiana Levavasseur",
+    "email": "katiana.levavasseur@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Eure",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793616",
+    "nom": "Kévin Mauvieux",
+    "email": "kevin.mauvieux@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Eure",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793624",
+    "nom": "Philippe Brun",
+    "email": "philippe.brun@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Eure",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793632",
+    "nom": "Timothée Houssin",
+    "email": "timothee.houssin@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Eure",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793656",
+    "nom": "Lisette Pollet",
+    "email": "lisette.pollet@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Drôme",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793664",
+    "nom": "Marie Pochon",
+    "email": "marie.pochon@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Drôme",
+    "groupe": "PO845439"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793672",
+    "nom": "Christine Loir",
+    "email": "christine.loir@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Eure",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793696",
+    "nom": "Serge Muller",
+    "email": "serge.muller@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Dordogne",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793708",
+    "nom": "Sébastien Peytavie",
+    "email": "sebastien.peytavie@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Dordogne",
+    "groupe": "PO845439"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793716",
+    "nom": "Laurent Croizier",
+    "email": "laurent.croizier@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Doubs",
+    "groupe": "PO845454"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793736",
+    "nom": "Hadrien Clouet",
+    "email": "hadrien.clouet@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Haute-Garonne",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793744",
+    "nom": "Anne Stambach-Terrenoir",
+    "email": "anne.stambach-terrenoir@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Haute-Garonne",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793756",
+    "nom": "François Piquemal",
+    "email": "francois.piquemal@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Haute-Garonne",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793772",
+    "nom": "Christophe Bex",
+    "email": "christophe.bex@assemblee-nationale.fr",
+    "circo": "7",
+    "dept": "Haute-Garonne",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793780",
+    "nom": "Christine Arrighi",
+    "email": "christine.arrighi@assemblee-nationale.fr",
+    "circo": "9",
+    "dept": "Haute-Garonne",
+    "groupe": "PO845439"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793796",
+    "nom": "David Taupiac",
+    "email": "david.taupiac@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Gers",
+    "groupe": "PO845485"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793816",
+    "nom": "Mélanie Thomin",
+    "email": "melanie.thomin@assemblee-nationale.fr",
+    "circo": "6",
+    "dept": "Finistère",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793832",
+    "nom": "Yoann Gillet",
+    "email": "yoann.gillet@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Gard",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793844",
+    "nom": "Pascale Bordes",
+    "email": "pascale.bordes@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Gard",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793852",
+    "nom": "Pierre Meurin",
+    "email": "pierre.meurin@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Gard",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793872",
+    "nom": "Nathalie Oziol",
+    "email": "nathalie.oziol@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Hérault",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793892",
+    "nom": "Stéphanie Galzy",
+    "email": "stephanie.galzy@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Hérault",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793904",
+    "nom": "Aurélien Lopez-Liguori",
+    "email": "aurelien.lopezliguori@assemblee-nationale.fr",
+    "circo": "7",
+    "dept": "Hérault",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793912",
+    "nom": "Sylvain Carrière",
+    "email": "sylvain.carriere@assemblee-nationale.fr",
+    "circo": "8",
+    "dept": "Hérault",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793928",
+    "nom": "Edwige Diaz",
+    "email": "edwige.diaz@assemblee-nationale.fr",
+    "circo": "11",
+    "dept": "Gironde",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793940",
+    "nom": "Thomas Cazenave",
+    "email": "thomas.cazenave@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Gironde",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793948",
+    "nom": "Nicolas Thierry",
+    "email": "nicolas.thierry@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Gironde",
+    "groupe": "PO845439"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793980",
+    "nom": "Charles Fournier",
+    "email": "charles.fournier@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Indre-et-Loire",
+    "groupe": "PO845439"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA793992",
+    "nom": "Henri Alfandari",
+    "email": "henri.alfandari@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Indre-et-Loire",
+    "groupe": "PO845470"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794008",
+    "nom": "Cyrielle Chatelain",
+    "email": "cyrielle.chatelain@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Isère",
+    "groupe": "PO845439"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794022",
+    "nom": "Jérémie Iordanoff",
+    "email": "jeremie.iordanoff@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Isère",
+    "groupe": "PO845439"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794030",
+    "nom": "Alexis Jolly",
+    "email": "alexis.jolly@assemblee-nationale.fr",
+    "circo": "6",
+    "dept": "Isère",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794042",
+    "nom": "Sylvie Dezarnaud",
+    "email": "sylvie.dezarnaud@assemblee-nationale.fr",
+    "circo": "7",
+    "dept": "Isère",
+    "groupe": "PO845425"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794058",
+    "nom": "Justine Gruet",
+    "email": "justine.gruet@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Jura",
+    "groupe": "PO845425"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794082",
+    "nom": "Mathilde Hignet",
+    "email": "mathilde.hignet@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Ille-et-Vilaine",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794094",
+    "nom": "Mickaël Bouloux",
+    "email": "mickael.bouloux@assemblee-nationale.fr",
+    "circo": "8",
+    "dept": "Ille-et-Vilaine",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794106",
+    "nom": "Andrée Taurinya",
+    "email": "andree.taurinya@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Loire",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794114",
+    "nom": "Emmanuel Mandon",
+    "email": "emmanuel.mandon@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Loire",
+    "groupe": "PO845454"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794118",
+    "nom": "Antoine Vermorel-Marques",
+    "email": "antoine.vermorel@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Loire",
+    "groupe": "PO845425"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794130",
+    "nom": "Andy Kerbrat",
+    "email": "andy.kerbrat@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Loire-Atlantique",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794138",
+    "nom": "Ségolène Amiot",
+    "email": "segolene.amiot@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Loire-Atlantique",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794146",
+    "nom": "Julie Laernoes",
+    "email": "julie.laernoes@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Loire-Atlantique",
+    "groupe": "PO845439"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794154",
+    "nom": "Jean-Claude Raux",
+    "email": "jean-claude.raux@assemblee-nationale.fr",
+    "circo": "6",
+    "dept": "Loire-Atlantique",
+    "groupe": "PO845439"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794166",
+    "nom": "Matthias Tavel",
+    "email": "matthias.tavel@assemblee-nationale.fr",
+    "circo": "8",
+    "dept": "Loire-Atlantique",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794178",
+    "nom": "Jean-Pierre Taite",
+    "email": "jean-pierre.taite@assemblee-nationale.fr",
+    "circo": "6",
+    "dept": "Loire",
+    "groupe": "PO845425"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794198",
+    "nom": "Roger Chudeau",
+    "email": "roger.chudeau@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Loir-et-Cher",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794206",
+    "nom": "Christophe Marion",
+    "email": "christophe.marion@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Loir-et-Cher",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794234",
+    "nom": "François Gernigon",
+    "email": "francois.gernigon@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Maine-et-Loire",
+    "groupe": "PO845470"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794270",
+    "nom": "Anna Pic",
+    "email": "anna.pic@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Manche",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794278",
+    "nom": "Xavier Albertini",
+    "email": "xavier.albertini@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Marne",
+    "groupe": "PO845470"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794322",
+    "nom": "Thomas Ménagé",
+    "email": "thomas.menage@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Loiret",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794330",
+    "nom": "Anthony Brosse",
+    "email": "anthony.brosse@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Loiret",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794354",
+    "nom": "Hélène Laporte",
+    "email": "helene.laporte@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Lot-et-Garonne",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794418",
+    "nom": "Florence Goulet",
+    "email": "florence.goulet@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Meuse",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794426",
+    "nom": "Anne Le Hénanff",
+    "email": "anne.lehenanff@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Morbihan",
+    "groupe": "PO845470"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794434",
+    "nom": "Christophe Bentz",
+    "email": "christophe.bentz@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Haute-Marne",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794442",
+    "nom": "Laurence Robert-Dehault",
+    "email": "laurence.robert-dehault@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Haute-Marne",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794466",
+    "nom": "Jean Moulliere",
+    "email": "jean.moulliere@assemblee-nationale.fr",
+    "circo": "6",
+    "dept": "Nord",
+    "groupe": "PO845470"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794470",
+    "nom": "Félicie Gérard",
+    "email": "felicie.gerard@assemblee-nationale.fr",
+    "circo": "7",
+    "dept": "Nord",
+    "groupe": "PO845470"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794478",
+    "nom": "David Guiraud",
+    "email": "david.guiraud@assemblee-nationale.fr",
+    "circo": "8",
+    "dept": "Nord",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794486",
+    "nom": "Violette Spillebout",
+    "email": "violette.spillebout@assemblee-nationale.fr",
+    "circo": "9",
+    "dept": "Nord",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794494",
+    "nom": "Roger Vicot",
+    "email": "roger.vicot@assemblee-nationale.fr",
+    "circo": "11",
+    "dept": "Nord",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794502",
+    "nom": "Michaël Taverne",
+    "email": "michael.taverne@assemblee-nationale.fr",
+    "circo": "12",
+    "dept": "Nord",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794530",
+    "nom": "Matthieu Marchio",
+    "email": "matthieu.marchio@assemblee-nationale.fr",
+    "circo": "16",
+    "dept": "Nord",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794554",
+    "nom": "Salvatore Castiglione",
+    "email": "salvatore.castiglione@assemblee-nationale.fr",
+    "circo": "21",
+    "dept": "Nord",
+    "groupe": "PO845485"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794562",
+    "nom": "Philippe Ballard",
+    "email": "philippe.ballard@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Oise",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794570",
+    "nom": "Alexandre Sabatou",
+    "email": "alexandre.sabatou@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Oise",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794582",
+    "nom": "Kévin Pfeffer",
+    "email": "kevin.pfeffer@assemblee-nationale.fr",
+    "circo": "6",
+    "dept": "Moselle",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794590",
+    "nom": "Alexandre Loubet",
+    "email": "alexandre.loubet@assemblee-nationale.fr",
+    "circo": "7",
+    "dept": "Moselle",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794598",
+    "nom": "Laurent Jacobelli",
+    "email": "laurent.jacobelli@assemblee-nationale.fr",
+    "circo": "8",
+    "dept": "Moselle",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794658",
+    "nom": "Philippe Fait",
+    "email": "philippe.fait@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Pas-de-Calais",
+    "groupe": "PO845470"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794670",
+    "nom": "Caroline Parmentier",
+    "email": "caroline.parmentier@assemblee-nationale.fr",
+    "circo": "9",
+    "dept": "Pas-de-Calais",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794678",
+    "nom": "Thierry Frappé",
+    "email": "thierry.frappe@assemblee-nationale.fr",
+    "circo": "10",
+    "dept": "Pas-de-Calais",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794686",
+    "nom": "Marianne Maximi",
+    "email": "marianne.maximi@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Puy-de-Dôme",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794702",
+    "nom": "Delphine Lingemann",
+    "email": "delphine.lingemann@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Puy-de-Dôme",
+    "groupe": "PO845454"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794710",
+    "nom": "Julien Brugerolles",
+    "email": "julien.brugerolles@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Puy-de-Dôme",
+    "groupe": "PO845514"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794718",
+    "nom": "Christine Engrand",
+    "email": "christine.engrand@assemblee-nationale.fr",
+    "circo": "6",
+    "dept": "Pas-de-Calais",
+    "groupe": "PO840056"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794734",
+    "nom": "Michel Guiniot",
+    "email": "michel.guiniot@assemblee-nationale.fr",
+    "circo": "6",
+    "dept": "Oise",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794750",
+    "nom": "Thierry Liger",
+    "email": "thierry.liger@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Orne",
+    "groupe": "PO845425"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794762",
+    "nom": "Sandrine Dogor-Such",
+    "email": "sandrine.dogor-such@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Pyrénées-Orientales",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794770",
+    "nom": "Michèle Martinez",
+    "email": "michele.martinez@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Pyrénées-Orientales",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794778",
+    "nom": "Sandra Regol",
+    "email": "sandra.regol@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Bas-Rhin",
+    "groupe": "PO845439"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794786",
+    "nom": "Emmanuel Fernandes",
+    "email": "emmanuel.fernandes@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Bas-Rhin",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794798",
+    "nom": "Françoise Buffet",
+    "email": "francoise.buffet@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Bas-Rhin",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794802",
+    "nom": "Charles Sitzenstuhl",
+    "email": "charles.sitzenstuhl@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Bas-Rhin",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794810",
+    "nom": "Louise Morel",
+    "email": "louise.morel@assemblee-nationale.fr",
+    "circo": "6",
+    "dept": "Bas-Rhin",
+    "groupe": "PO845454"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794830",
+    "nom": "Hubert Ott",
+    "email": "hubert.ott@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Haut-Rhin",
+    "groupe": "PO845454"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794838",
+    "nom": "Didier Lemaire",
+    "email": "didier.lemaire@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Haut-Rhin",
+    "groupe": "PO845470"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794854",
+    "nom": "Inaki Echaniz",
+    "email": "inaki.echaniz@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Pyrénées-Atlantiques",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794870",
+    "nom": "Sylvie Ferrer",
+    "email": "sylvie.ferrer@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Hautes-Pyrénées",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794886",
+    "nom": "Sophie Blanc",
+    "email": "sophie.blanc@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Pyrénées-Orientales",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794894",
+    "nom": "Anaïs Sabatini",
+    "email": "anais.sabatini@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Pyrénées-Orientales",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794906",
+    "nom": "Gabriel Amard",
+    "email": "gabriel.amard@assemblee-nationale.fr",
+    "circo": "6",
+    "dept": "Rhône",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794938",
+    "nom": "Idir Boumertit",
+    "email": "idir.boumertit@assemblee-nationale.fr",
+    "circo": "14",
+    "dept": "Rhône",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794946",
+    "nom": "Antoine Villedieu",
+    "email": "antoine.villedieu@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Haute-Saône",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794954",
+    "nom": "Emeric Salmon",
+    "email": "emeric.salmon@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Haute-Saône",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794982",
+    "nom": "Julie Delpech",
+    "email": "julie.delpech@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Sarthe",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA794994",
+    "nom": "Alexandre Portier",
+    "email": "alexandre.portier@assemblee-nationale.fr",
+    "circo": "9",
+    "dept": "Rhône",
+    "groupe": "PO845425"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795010",
+    "nom": "Marie-Charlotte Garin",
+    "email": "marie-charlotte.garin@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Rhône",
+    "groupe": "PO845439"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795026",
+    "nom": "Anne-Cécile Violland",
+    "email": "anne-cecile.violland@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Haute-Savoie",
+    "groupe": "PO845470"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795046",
+    "nom": "Caroline Yadan",
+    "email": "caroline.yadan@assemblee-nationale.fr",
+    "circo": "8",
+    "dept": "Français établis hors de France",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795076",
+    "nom": "Sandrine Rousseau",
+    "email": "sandrine.rousseau@assemblee-nationale.fr",
+    "circo": "9",
+    "dept": "Paris",
+    "groupe": "PO845439"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795084",
+    "nom": "Rodrigo Arenas",
+    "email": "rodrigo.arenas@assemblee-nationale.fr",
+    "circo": "10",
+    "dept": "Paris",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795100",
+    "nom": "Éric Martineau",
+    "email": "eric.martineau@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Sarthe",
+    "groupe": "PO845454"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795108",
+    "nom": "Élise Leboucher",
+    "email": "elise.leboucher@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Sarthe",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795120",
+    "nom": "Marina Ferrari",
+    "email": "marina.ferrari@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Savoie",
+    "groupe": "PO845454"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795136",
+    "nom": "Jean-François Coulomme",
+    "email": "jean-francois.coulomme@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Savoie",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795144",
+    "nom": "Antoine Armand",
+    "email": "antoine.armand@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Haute-Savoie",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795156",
+    "nom": "Fatiha Keloua Hachi",
+    "email": "fatiha.kelouahachi@assemblee-nationale.fr",
+    "circo": "8",
+    "dept": "Seine-Saint-Denis",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795164",
+    "nom": "Aurélie Trouvé",
+    "email": "aurelie.trouve@assemblee-nationale.fr",
+    "circo": "9",
+    "dept": "Seine-Saint-Denis",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795176",
+    "nom": "Nicolas Metzdorf",
+    "email": "nicolas.metzdorf@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Nouvelle-Calédonie",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795200",
+    "nom": "Alma Dufour",
+    "email": "alma.dufour@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Seine-Maritime",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795228",
+    "nom": "Nadège Abomangoli",
+    "email": "nadege.abomangoli@assemblee-nationale.fr",
+    "circo": "10",
+    "dept": "Seine-Saint-Denis",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795240",
+    "nom": "Mereana Reid Arbelot",
+    "email": "mereana.reidarbelot@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Polynésie Française",
+    "groupe": "PO845514"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795244",
+    "nom": "Stéphane Lenormand",
+    "email": "stephane.lenormand@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Saint-Pierre-et-Miquelon",
+    "groupe": "PO845485"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795258",
+    "nom": "Frantz Gumbs",
+    "email": "frantz.gumbs@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Saint-Barthélemy et Saint-Martin",
+    "groupe": "PO845454"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795270",
+    "nom": "Marie-Agnès Poussier-Winsback",
+    "email": "marieagnes.poussier-winsback@assemblee-nationale.fr",
+    "circo": "9",
+    "dept": "Seine-Maritime",
+    "groupe": "PO845470"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795278",
+    "nom": "Béatrice Bellamy",
+    "email": "beatrice.bellamy@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Vendée",
+    "groupe": "PO845470"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795298",
+    "nom": "Jérôme Legavre",
+    "email": "jerome.legavre@assemblee-nationale.fr",
+    "circo": "12",
+    "dept": "Seine-Saint-Denis",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795310",
+    "nom": "Clémence Guetté",
+    "email": "clemence.guette@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Val-de-Marne",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795318",
+    "nom": "Louis Boyard",
+    "email": "louis.boyard@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Val-de-Marne",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795330",
+    "nom": "Eléonore Caroit",
+    "email": "eleonore.caroit@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Français établis hors de France",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795350",
+    "nom": "Frédéric Valletoux",
+    "email": "frederic.valletoux@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Seine-et-Marne",
+    "groupe": "PO845470"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795362",
+    "nom": "Lisa Belluco",
+    "email": "lisa.belluco@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Vienne",
+    "groupe": "PO845439"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795374",
+    "nom": "Pascal Lecamp",
+    "email": "pascal.lecamp@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Vienne",
+    "groupe": "PO845454"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795386",
+    "nom": "Mathieu Lefèvre",
+    "email": "mathieu.lefevre@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Val-de-Marne",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795410",
+    "nom": "Béatrice Roullaud",
+    "email": "beatrice.roullaud@assemblee-nationale.fr",
+    "circo": "6",
+    "dept": "Seine-et-Marne",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795422",
+    "nom": "Damien Maudet",
+    "email": "damien.maudet@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Haute-Vienne",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795430",
+    "nom": "Stéphane Delautrette",
+    "email": "stephane.delautrette@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Haute-Vienne",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795454",
+    "nom": "Karim Ben Cheikh",
+    "email": "karim.bencheikh@assemblee-nationale.fr",
+    "circo": "9",
+    "dept": "Français établis hors de France",
+    "groupe": "PO845439"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795466",
+    "nom": "Ersilia Soudais",
+    "email": "ersilia.soudais@assemblee-nationale.fr",
+    "circo": "7",
+    "dept": "Seine-et-Marne",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795482",
+    "nom": "Manon Meunier",
+    "email": "manon.meunier@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Haute-Vienne",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795516",
+    "nom": "Maxime Laisney",
+    "email": "maxime.laisney@assemblee-nationale.fr",
+    "circo": "10",
+    "dept": "Seine-et-Marne",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795528",
+    "nom": "Charles Rodwell",
+    "email": "charles.rodwell@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Yvelines",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795540",
+    "nom": "Daniel Grenon",
+    "email": "daniel.grenon@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Yonne",
+    "groupe": "PO840056"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795552",
+    "nom": "Julien Odoul",
+    "email": "julien.odoul@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Yonne",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795588",
+    "nom": "Farida Amrani",
+    "email": "farida.amrani@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Essonne",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795596",
+    "nom": "Paul Vannier",
+    "email": "paul.vannier@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Val-d'Oise",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795616",
+    "nom": "Carlos Martens Bilongo",
+    "email": "carlosmartens.bilongo@assemblee-nationale.fr",
+    "circo": "8",
+    "dept": "Val-d'Oise",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795636",
+    "nom": "Benjamin Lucas-Lundy",
+    "email": "benjamin.lucas@assemblee-nationale.fr",
+    "circo": "8",
+    "dept": "Yvelines",
+    "groupe": "PO845439"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795644",
+    "nom": "Nathalie Da Conceicao Carvalho",
+    "email": "nathalie.daconceicaocarvalho@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Essonne",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795664",
+    "nom": "Paul Midy",
+    "email": "paul.midy@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Essonne",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795672",
+    "nom": "Arnaud Le Gall",
+    "email": "arnaud.legall@assemblee-nationale.fr",
+    "circo": "9",
+    "dept": "Val-d'Oise",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795722",
+    "nom": "Karl Olive",
+    "email": "karl.olive@assemblee-nationale.fr",
+    "circo": "12",
+    "dept": "Yvelines",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795730",
+    "nom": "Bastien Marchive",
+    "email": "bastien.marchive@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Deux-Sèvres",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795746",
+    "nom": "Antoine Léaument",
+    "email": "antoine.leaument@assemblee-nationale.fr",
+    "circo": "10",
+    "dept": "Essonne",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795762",
+    "nom": "Elie Califer",
+    "email": "elie.califer@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Guadeloupe",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795778",
+    "nom": "Jean-Philippe Tanguy",
+    "email": "jean-philippe.tanguy@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Somme",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795786",
+    "nom": "Yaël Ménaché",
+    "email": "yael.menache@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Somme",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795808",
+    "nom": "Sabrina Sebaihi",
+    "email": "sabrina.sebaihi@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Hauts-de-Seine",
+    "groupe": "PO845439"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795820",
+    "nom": "Marcellin Nadeau",
+    "email": "marcellin.nadeau@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Martinique",
+    "groupe": "PO845514"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795844",
+    "nom": "Karen Erodi",
+    "email": "karen.erodi@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Tarn",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795864",
+    "nom": "Pierre Cazeneuve",
+    "email": "pierre.cazeneuve@assemblee-nationale.fr",
+    "circo": "7",
+    "dept": "Hauts-de-Seine",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795868",
+    "nom": "Jean-Victor Castor",
+    "email": "jean-victor.castor@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Guyane",
+    "groupe": "PO845514"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795876",
+    "nom": "Davy Rimane",
+    "email": "davy.rimane@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Guyane",
+    "groupe": "PO845514"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795888",
+    "nom": "Marie-Ange Rousselot",
+    "email": "marie-ange.rousselot@assemblee-nationale.fr",
+    "circo": "6",
+    "dept": "Français établis hors de France",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795900",
+    "nom": "Marine Hamelet",
+    "email": "marine.hamelet@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Tarn-et-Garonne",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795908",
+    "nom": "Yannick Chenevard",
+    "email": "yannick.chenevard@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Var",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795912",
+    "nom": "Laure Lavalette",
+    "email": "laure.lavalette@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Var",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795920",
+    "nom": "Prisca Thevenot",
+    "email": "prisca.thevenot@assemblee-nationale.fr",
+    "circo": "8",
+    "dept": "Hauts-de-Seine",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795950",
+    "nom": "David Amiel",
+    "email": "david.amiel@assemblee-nationale.fr",
+    "circo": "13",
+    "dept": "Paris",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795962",
+    "nom": "Joséphine Missoffe",
+    "email": "josephine.missoffe@assemblee-nationale.fr",
+    "circo": "14",
+    "dept": "Paris",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795966",
+    "nom": "Stéphane Rambaud",
+    "email": "stephane.rambaud@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Var",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795974",
+    "nom": "Philippe Lottiaux",
+    "email": "philippe.lottiaux@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Var",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795982",
+    "nom": "Aurélien Saintoul",
+    "email": "aurelien.saintoul@assemblee-nationale.fr",
+    "circo": "11",
+    "dept": "Hauts-de-Seine",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795990",
+    "nom": "Maud Bregeon",
+    "email": "maud.bregeon@assemblee-nationale.fr",
+    "circo": "13",
+    "dept": "Hauts-de-Seine",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA795998",
+    "nom": "Émeline K/Bidi",
+    "email": "emeline.kbidi@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Réunion",
+    "groupe": "PO845514"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA796010",
+    "nom": "Frédéric Maillot",
+    "email": "frederic.maillot@assemblee-nationale.fr",
+    "circo": "6",
+    "dept": "Réunion",
+    "groupe": "PO845514"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA796018",
+    "nom": "Danielle Simonnet",
+    "email": "danielle.simonnet@assemblee-nationale.fr",
+    "circo": "15",
+    "dept": "Paris",
+    "groupe": "PO845439"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA796026",
+    "nom": "Julie Lechanteux",
+    "email": "julie.lechanteux@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Var",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA796034",
+    "nom": "Frank Giletti",
+    "email": "frank.giletti@assemblee-nationale.fr",
+    "circo": "6",
+    "dept": "Var",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA796042",
+    "nom": "Frédéric Boccaletti",
+    "email": "frederic.boccaletti@assemblee-nationale.fr",
+    "circo": "7",
+    "dept": "Var",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA796050",
+    "nom": "Philippe Schreck",
+    "email": "philippe.schreck@assemblee-nationale.fr",
+    "circo": "8",
+    "dept": "Var",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA796062",
+    "nom": "Thomas Portes",
+    "email": "thomas.portes@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Seine-Saint-Denis",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA796070",
+    "nom": "Perceval Gaillard",
+    "email": "perceval.gaillard@assemblee-nationale.fr",
+    "circo": "7",
+    "dept": "Réunion",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA796078",
+    "nom": "Estelle Youssouffa",
+    "email": "estelle.youssouffa@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Mayotte",
+    "groupe": "PO845485"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA796090",
+    "nom": "Aymeric Caron",
+    "email": "aymeric.caron@assemblee-nationale.fr",
+    "circo": "18",
+    "dept": "Paris",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA796106",
+    "nom": "Édouard Bénard",
+    "email": "edouard.benard@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Seine-Maritime",
+    "groupe": "PO845514"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA796118",
+    "nom": "Bénédicte Auzanot",
+    "email": "benedicte.auzanot@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Vaucluse",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA805166",
+    "nom": "Anne Bergantz",
+    "email": "anne.bergantz@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Yvelines",
+    "groupe": "PO845454"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA817203",
+    "nom": "Laure Miller",
+    "email": "laure.miller@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Marne",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA817211",
+    "nom": "René Pilato",
+    "email": "rene.pilato@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Charente",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA822617",
+    "nom": "Martine Froger",
+    "email": "martine.froger@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Ariège",
+    "groupe": "PO845485"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA826635",
+    "nom": "Aurélien Rousseau",
+    "email": "aurelien.rousseau@assemblee-nationale.fr",
+    "circo": "7",
+    "dept": "Yvelines",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA840075",
+    "nom": "Eddy Casterman",
+    "email": "eddy.casterman@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Aisne",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA840119",
+    "nom": "Sandra Delannoy",
+    "email": "sandra.delannoy@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Nord",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA840135",
+    "nom": "Alexandre Dufosset",
+    "email": "alexandre.dufosset@assemblee-nationale.fr",
+    "circo": "18",
+    "dept": "Nord",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA840143",
+    "nom": "Guillaume Florquin",
+    "email": "guillaume.florquin@assemblee-nationale.fr",
+    "circo": "20",
+    "dept": "Nord",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA840159",
+    "nom": "Bruno Clavet",
+    "email": "bruno.clavet@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Pas-de-Calais",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA840171",
+    "nom": "Emmanuel Grégoire",
+    "email": "emmanuel.gregoire@assemblee-nationale.fr",
+    "circo": "7",
+    "dept": "Paris",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA840235",
+    "nom": "Moerani Frébault",
+    "email": "moerani.frebault@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Polynésie Française",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA840657",
+    "nom": "Sophie Ricourt Vaginay",
+    "email": "sophie.vaginay@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Alpes-de-Haute-Provence",
+    "groupe": "PO847173"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA840665",
+    "nom": "Marie-José Allemand",
+    "email": "marie-jose.allemand@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Hautes-Alpes",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA840673",
+    "nom": "Valérie Rossi",
+    "email": "valerie.rossi@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Hautes-Alpes",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA840685",
+    "nom": "Vincent Trébuchet",
+    "email": "vincent.trebuchet@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Ardèche",
+    "groupe": "PO847173"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA840701",
+    "nom": "Bernard Chaix",
+    "email": "bernard.chaix@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Alpes-Maritimes",
+    "groupe": "PO847173"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA840721",
+    "nom": "Marc Chavent",
+    "email": "marc.chavent@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Ain",
+    "groupe": "PO847173"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA840757",
+    "nom": "Monique Griseti",
+    "email": "monique.griseti@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Bouches-du-Rhône",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA840765",
+    "nom": "Laurent Lhardit",
+    "email": "laurent.lhardit@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Bouches-du-Rhône",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA840773",
+    "nom": "Olivier Fayssat",
+    "email": "olivier.fayssat@assemblee-nationale.fr",
+    "circo": "6",
+    "dept": "Bouches-du-Rhône",
+    "groupe": "PO847173"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA840781",
+    "nom": "Romain Tonussi",
+    "email": "romain.tonussi@assemblee-nationale.fr",
+    "circo": "8",
+    "dept": "Bouches-du-Rhône",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA840793",
+    "nom": "Marc Pena",
+    "email": "marc.pena@assemblee-nationale.fr",
+    "circo": "11",
+    "dept": "Bouches-du-Rhône",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA840801",
+    "nom": "Emmanuel Fouquart",
+    "email": "emmanuel.fouquart@assemblee-nationale.fr",
+    "circo": "13",
+    "dept": "Bouches-du-Rhône",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA840809",
+    "nom": "Gérault Verny",
+    "email": "gerault.verny@assemblee-nationale.fr",
+    "circo": "14",
+    "dept": "Bouches-du-Rhône",
+    "groupe": "PO847173"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA840817",
+    "nom": "Joël Bruneau",
+    "email": "joel.bruneau@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Calvados",
+    "groupe": "PO845485"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA840829",
+    "nom": "Fabrice Barusseau",
+    "email": "fabrice.barusseau@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Charente-Maritime",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA840837",
+    "nom": "Pascal Markowsky",
+    "email": "pascal.markowsky@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Charente-Maritime",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA840857",
+    "nom": "Nadine Lechon",
+    "email": "nadine.lechon@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Dordogne",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA840869",
+    "nom": "Florence Joubert",
+    "email": "florence.joubert@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Dordogne",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA840889",
+    "nom": "Matthieu Bloch",
+    "email": "matthieu.bloch@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Doubs",
+    "groupe": "PO847173"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA840903",
+    "nom": "Paul Christophle",
+    "email": "paul.christophle@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Drôme",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA840915",
+    "nom": "Thibaut Monnier",
+    "email": "thibaut.monnier@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Drôme",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA840939",
+    "nom": "Océane Godard",
+    "email": "oceane.godard@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Côte-d'Or",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA840947",
+    "nom": "Catherine Hervieu",
+    "email": "catherine.hervieu@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Côte-d'Or",
+    "groupe": "PO845439"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA840955",
+    "nom": "Pierre Pribetich",
+    "email": "pierre.pribetich@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Côte-d'Or",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA840967",
+    "nom": "René Lioret",
+    "email": "rene.lioret@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Côte-d'Or",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA840979",
+    "nom": "Corentin Le Fur",
+    "email": "corentin.lefur@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Côtes-d'Armor",
+    "groupe": "PO845425"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA840983",
+    "nom": "Bartolomé Lenoir",
+    "email": "bartolome.lenoir@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Creuse",
+    "groupe": "PO847173"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA840997",
+    "nom": "Benoît Biteau",
+    "email": "benoit.biteau@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Charente-Maritime",
+    "groupe": "PO845439"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841017",
+    "nom": "Harold Huwart",
+    "email": "harold.huwart@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Eure-et-Loir",
+    "groupe": "PO845485"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841023",
+    "nom": "Pierre-Yves Cadalen",
+    "email": "pierre-yves.cadalen@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Finistère",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841047",
+    "nom": "François-Xavier Ceccoli",
+    "email": "francois-xavier.ceccoli@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Haute-Corse",
+    "groupe": "PO845425"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841067",
+    "nom": "Alexandre Allegret-Pilot",
+    "email": "alexandre.allegret-pilot@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Gard",
+    "groupe": "PO847173"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841075",
+    "nom": "Sylvie Josserand",
+    "email": "sylvie.josserand@assemblee-nationale.fr",
+    "circo": "6",
+    "dept": "Gard",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841091",
+    "nom": "Arnaud Simion",
+    "email": "arnaud.simion@assemblee-nationale.fr",
+    "circo": "6",
+    "dept": "Haute-Garonne",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841107",
+    "nom": "Jacques Oberti",
+    "email": "jacques.oberti@assemblee-nationale.fr",
+    "circo": "10",
+    "dept": "Haute-Garonne",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841131",
+    "nom": "Manon Bouquin",
+    "email": "manon.bouquin@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Hérault",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841139",
+    "nom": "Julien Gabarron",
+    "email": "julien.gabarron@assemblee-nationale.fr",
+    "circo": "6",
+    "dept": "Hérault",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841183",
+    "nom": "Hanane Mansouri",
+    "email": "hanane.mansouri@assemblee-nationale.fr",
+    "circo": "8",
+    "dept": "Isère",
+    "groupe": "PO847173"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841191",
+    "nom": "Sandrine Nosbé",
+    "email": "sandrine.nosbe@assemblee-nationale.fr",
+    "circo": "9",
+    "dept": "Isère",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841199",
+    "nom": "Thierry Perez",
+    "email": "thierry.perez@assemblee-nationale.fr",
+    "circo": "10",
+    "dept": "Isère",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841207",
+    "nom": "Charles Alloncle",
+    "email": "charles.alloncle@assemblee-nationale.fr",
+    "circo": "9",
+    "dept": "Hérault",
+    "groupe": "PO847173"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841215",
+    "nom": "Marie Mesmeur",
+    "email": "marie.mesmeur@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Ille-et-Vilaine",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841223",
+    "nom": "Tristan Lahais",
+    "email": "tristan.lahais@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Ille-et-Vilaine",
+    "groupe": "PO845439"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841243",
+    "nom": "Sébastien Saint-Pasteur",
+    "email": "sebastien.saint-pasteur@assemblee-nationale.fr",
+    "circo": "7",
+    "dept": "Gironde",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841251",
+    "nom": "Mathilde Feld",
+    "email": "mathilde.feld@assemblee-nationale.fr",
+    "circo": "12",
+    "dept": "Gironde",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841295",
+    "nom": "Pierrick Courbon",
+    "email": "pierrick.courbon@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Loire",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841315",
+    "nom": "Karim Benbrahim",
+    "email": "karim.benbrahim@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Loire-Atlantique",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841327",
+    "nom": "Fabrice Roussel",
+    "email": "fabrice.roussel@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Loire-Atlantique",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841339",
+    "nom": "Jean-Michel Brard",
+    "email": "jean-michel.brard@assemblee-nationale.fr",
+    "circo": "9",
+    "dept": "Loire-Atlantique",
+    "groupe": "PO845470"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841351",
+    "nom": "Emmanuel Duplessy",
+    "email": "emmanuel.duplessy@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Loiret",
+    "groupe": "PO845439"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841359",
+    "nom": "Constance de Pélichy",
+    "email": "constance.depelichy@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Loiret",
+    "groupe": "PO845485"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841367",
+    "nom": "Christophe Proença",
+    "email": "christophe.proenca@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Lot",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841381",
+    "nom": "Sophie Pantel",
+    "email": "sophie.pantel@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Lozère",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841395",
+    "nom": "Maxime Michelet",
+    "email": "maxime.michelet@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Marne",
+    "groupe": "PO847173"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841419",
+    "nom": "Damien Girard",
+    "email": "damien.girard@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Morbihan",
+    "groupe": "PO845439"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841431",
+    "nom": "Nathalie Colin-Oesterlé",
+    "email": "nathalie.colin-oesterle@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Moselle",
+    "groupe": "PO845470"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841439",
+    "nom": "Pascal Jenft",
+    "email": "pascal.jenft@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Moselle",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841451",
+    "nom": "Julien Guibert",
+    "email": "julien.guibert@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Nièvre",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841463",
+    "nom": "Estelle Mercier",
+    "email": "estelle.mercier@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Meurthe-et-Moselle",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841471",
+    "nom": "Stéphane Hablot",
+    "email": "stephane.hablot@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Meurthe-et-Moselle",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841479",
+    "nom": "Frédéric Weber",
+    "email": "frederic.weber@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Meurthe-et-Moselle",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841487",
+    "nom": "Anthony Boulogne",
+    "email": "anthony.boulogne@assemblee-nationale.fr",
+    "circo": "6",
+    "dept": "Meurthe-et-Moselle",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841495",
+    "nom": "Maxime Amblard",
+    "email": "maxime.amblard@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Meuse",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841507",
+    "nom": "Nicolas Bonnet",
+    "email": "nicolas.bonnet@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Puy-de-Dôme",
+    "groupe": "PO845439"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841515",
+    "nom": "Aurélien Le Coq",
+    "email": "aurelien.lecoq@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Nord",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841539",
+    "nom": "Julien Gokel",
+    "email": "julien.gokel@assemblee-nationale.fr",
+    "circo": "13",
+    "dept": "Nord",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841553",
+    "nom": "Thierry Tesson",
+    "email": "thierry.tesson@assemblee-nationale.fr",
+    "circo": "17",
+    "dept": "Nord",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841563",
+    "nom": "Claire Marais-Beuil",
+    "email": "claire.marais-beuil@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Oise",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841575",
+    "nom": "Frédéric-Pierre Vos",
+    "email": "fredericpierre.vos@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Oise",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841587",
+    "nom": "David Magnier",
+    "email": "david.magnier@assemblee-nationale.fr",
+    "circo": "7",
+    "dept": "Oise",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841601",
+    "nom": "Pauline Levasseur",
+    "email": "pauline.levasseur@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Pas-de-Calais",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841605",
+    "nom": "Antoine Golliot",
+    "email": "antoine.golliot@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Pas-de-Calais",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841613",
+    "nom": "Marc de Fleurian",
+    "email": "marc.defleurian@assemblee-nationale.fr",
+    "circo": "7",
+    "dept": "Pas-de-Calais",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841621",
+    "nom": "Auguste Evrard",
+    "email": "auguste.evrard@assemblee-nationale.fr",
+    "circo": "8",
+    "dept": "Pas-de-Calais",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841633",
+    "nom": "Peio Dufau",
+    "email": "peio.dufau@assemblee-nationale.fr",
+    "circo": "6",
+    "dept": "Pyrénées-Atlantiques",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841645",
+    "nom": "Théo Bernhardt",
+    "email": "theo.bernhardt@assemblee-nationale.fr",
+    "circo": "8",
+    "dept": "Bas-Rhin",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841657",
+    "nom": "Anaïs Belouassa-Cherifi",
+    "email": "anais.belouassa@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Rhône",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841665",
+    "nom": "Denis Fégné",
+    "email": "denis.fegne@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Hautes-Pyrénées",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841681",
+    "nom": "Thierry Sother",
+    "email": "thierry.sother@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Bas-Rhin",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841701",
+    "nom": "Léa Balage El Mariky",
+    "email": "lea.balage@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Paris",
+    "groupe": "PO845439"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841709",
+    "nom": "Emmanuelle Hoffman",
+    "email": "emmanuelle.hoffman@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Paris",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841713",
+    "nom": "Boris Tavernier",
+    "email": "boris.tavernier@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Rhône",
+    "groupe": "PO845439"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841717",
+    "nom": "Sandrine Runel",
+    "email": "sandrine.runel@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Rhône",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841729",
+    "nom": "Abdelkader Lahmar",
+    "email": "abdelkader.lahmar@assemblee-nationale.fr",
+    "circo": "7",
+    "dept": "Rhône",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841737",
+    "nom": "Jonathan Gery",
+    "email": "jonathan.gery@assemblee-nationale.fr",
+    "circo": "8",
+    "dept": "Rhône",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841749",
+    "nom": "Tiffany Joncour",
+    "email": "tiffany.joncour@assemblee-nationale.fr",
+    "circo": "13",
+    "dept": "Rhône",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841761",
+    "nom": "Aurélien Dutremble",
+    "email": "aurelien.dutremble@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Saône-et-Loire",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841769",
+    "nom": "Éric Michoux",
+    "email": "eric.michoux@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Saône-et-Loire",
+    "groupe": "PO847173"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841813",
+    "nom": "Florence Herouin-Léautey",
+    "email": "florence.herouin-leautey@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Seine-Maritime",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841825",
+    "nom": "Patrice Martin",
+    "email": "patrice.martin@assemblee-nationale.fr",
+    "circo": "6",
+    "dept": "Seine-Maritime",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841837",
+    "nom": "Robert Le Bourgeois",
+    "email": "robert.lebourgeois@assemblee-nationale.fr",
+    "circo": "10",
+    "dept": "Seine-Maritime",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841845",
+    "nom": "Arnaud Saint-Martin",
+    "email": "arnaud.saint-martin@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Seine-et-Marne",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841853",
+    "nom": "Céline Hervieu",
+    "email": "celine.hervieu@assemblee-nationale.fr",
+    "circo": "11",
+    "dept": "Paris",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841873",
+    "nom": "Julien Limongi",
+    "email": "julien.limongi@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Seine-et-Marne",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841885",
+    "nom": "Arnaud Bonnet",
+    "email": "arnaud.bonnet@assemblee-nationale.fr",
+    "circo": "8",
+    "dept": "Seine-et-Marne",
+    "groupe": "PO845439"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841893",
+    "nom": "Céline Thiébault-Martinez",
+    "email": "celine.thiebault-martinez@assemblee-nationale.fr",
+    "circo": "9",
+    "dept": "Seine-et-Marne",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841919",
+    "nom": "Dieynaba Diop",
+    "email": "dieynaba.diop@assemblee-nationale.fr",
+    "circo": "9",
+    "dept": "Yvelines",
+    "groupe": "PO845419"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841927",
+    "nom": "Anne-Sophie Ronceret",
+    "email": "anne-sophie.ronceret@assemblee-nationale.fr",
+    "circo": "10",
+    "dept": "Yvelines",
+    "groupe": "PO845407"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841931",
+    "nom": "Laurent Mazaury",
+    "email": "laurent.mazaury@assemblee-nationale.fr",
+    "circo": "11",
+    "dept": "Yvelines",
+    "groupe": "PO845485"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841947",
+    "nom": "Zahia Hamdane",
+    "email": "zahia.hamdane@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Somme",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841955",
+    "nom": "Matthias Renault",
+    "email": "matthias.renault@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Somme",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA841981",
+    "nom": "Catherine Rimbert",
+    "email": "catherine.rimbert@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Vaucluse",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA842001",
+    "nom": "Guillaume Bigot",
+    "email": "guillaume.bigot@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Territoire de Belfort",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA842013",
+    "nom": "Steevy Gustave",
+    "email": "steevy.gustave@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Essonne",
+    "groupe": "PO845439"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA842029",
+    "nom": "Claire Lejeune",
+    "email": "claire.lejeune@assemblee-nationale.fr",
+    "circo": "7",
+    "dept": "Essonne",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA842037",
+    "nom": "Bérenger Cernon",
+    "email": "berenger.cernon@assemblee-nationale.fr",
+    "circo": "8",
+    "dept": "Essonne",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA842045",
+    "nom": "Julie Ozenne",
+    "email": "julie.ozenne@assemblee-nationale.fr",
+    "circo": "9",
+    "dept": "Essonne",
+    "groupe": "PO845439"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA842073",
+    "nom": "Gaëtan Dussausaye",
+    "email": "gaetan.dussausaye@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Vosges",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA842085",
+    "nom": "Sébastien Humbert",
+    "email": "sebastien.humbert@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Vosges",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA842097",
+    "nom": "Sophie-Laurence Roy",
+    "email": "sophie-laurence.roy@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Yonne",
+    "groupe": "PO845401"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA842105",
+    "nom": "Raphaël Arnault",
+    "email": "raphael.arnault@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Vaucluse",
+    "groupe": "PO845413"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA842117",
+    "nom": "Vincent Jeanbrun",
+    "email": "vincent.jeanbrun@assemblee-nationale.fr",
+    "circo": "7",
+    "dept": "Val-de-Marne",
+    "groupe": "PO845425"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA842125",
+    "nom": "Thomas Lam",
+    "email": "thomas.lam@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Hauts-de-Seine",
+    "groupe": "PO845470"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA842141",
+    "nom": "Élisabeth de Maistre",
+    "email": "elisabeth.demaistre@assemblee-nationale.fr",
+    "circo": "9",
+    "dept": "Hauts-de-Seine",
+    "groupe": "PO845425"
   },
   {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
-  },
-  {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
-  },
-  {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
-  },
-  {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
-  },
-  {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
-  },
-  {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
-  },
-  {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
-  },
-  {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
-  },
-  {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
-  },
-  {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
-  },
-  {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
-  },
-  {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
-  },
-  {
-    "id": "",
-    "nom": "",
-    "circo": "",
-    "dept": "",
-    "groupe": "",
-    "email": ""
+    "id": "PA842155",
+    "nom": "Aly Diouara",
+    "email": "aly.diouara@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Seine-Saint-Denis",
+    "groupe": "PO845413"
+  },
+  {
+    "id": "PA842187",
+    "nom": "Gabrielle Cathala",
+    "email": "gabrielle.cathala@assemblee-nationale.fr",
+    "circo": "6",
+    "dept": "Val-d'Oise",
+    "groupe": "PO845413"
+  },
+  {
+    "id": "PA842195",
+    "nom": "Romain Eskenazi",
+    "email": "romain.eskenazi@assemblee-nationale.fr",
+    "circo": "7",
+    "dept": "Val-d'Oise",
+    "groupe": "PO845419"
+  },
+  {
+    "id": "PA842211",
+    "nom": "Béatrice Bellay",
+    "email": "beatrice.bellay@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Martinique",
+    "groupe": "PO845419"
+  },
+  {
+    "id": "PA842227",
+    "nom": "Joseph Rivière",
+    "email": "joseph.riviere@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Réunion",
+    "groupe": "PO845401"
+  },
+  {
+    "id": "PA842255",
+    "nom": "Anne Sicard",
+    "email": "anne.sicard@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Val-d'Oise",
+    "groupe": "PO845401"
+  },
+  {
+    "id": "PA842263",
+    "nom": "Ayda Hadizadeh",
+    "email": "ayda.hadizadeh@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Val-d'Oise",
+    "groupe": "PO845419"
+  },
+  {
+    "id": "PA842271",
+    "nom": "Emmanuel Maurel",
+    "email": "emmanuel.maurel@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Val-d'Oise",
+    "groupe": "PO845514"
+  },
+  {
+    "id": "PA842279",
+    "nom": "Anchya Bamana",
+    "email": "anchya.bamana@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Mayotte",
+    "groupe": "PO845401"
+  },
+  {
+    "id": "PA842299",
+    "nom": "Emmanuel Tjibaou",
+    "email": "emmanuel.tjibaou@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Nouvelle-Calédonie",
+    "groupe": "PO845514"
+  },
+  {
+    "id": "PA842311",
+    "nom": "Vincent Caure",
+    "email": "vincent.caure@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Français établis hors de France",
+    "groupe": "PO845407"
+  },
+  {
+    "id": "PA870010",
+    "nom": "Sébastien Martin",
+    "email": "sebastien.martin@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Saône-et-Loire",
+    "groupe": "PO845425"
+  },
+  {
+    "id": "PA942",
+    "nom": "Charles de Courson",
+    "email": "Charles.deCourson@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Marne",
+    "groupe": "PO845485"
   }
 ]
