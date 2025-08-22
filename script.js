@@ -1,48 +1,43 @@
-async function chargerLois() {
-  try {
-    const response = await fetch("lois/lois.json");
-    const lois = await response.json();
+// Page d'accueil = Lois
+const JSON_URL = "./lois/lois.json?v=" + Date.now(); // généré par le workflow
 
-    const container = document.getElementById("lois");
-    const searchInput = document.getElementById("search");
+const $ = s => document.querySelector(s);
+const el = { search: $('#search'), list: $('#lois') };
 
-    function afficherLois(data) {
-      container.innerHTML = "";
-      data.forEach(l => {
-        const card = document.createElement("div");
-        card.className = "card loi-card";
-
-        card.innerHTML = `
-          <h3>${l.titre}</h3>
-          <p><strong>Type :</strong> ${l.type}</p>
-          <p><strong>Auteur :</strong> ${l.auteur}</p>
-          <p><strong>Date :</strong> ${l.date}</p>
-          <p><strong>État :</strong> ${l.etat}</p>
-          <p><a href="${l.url}" target="_blank">Voir le dossier</a></p>
-        `;
-        container.appendChild(card);
-      });
-    }
-
-    // Première affichage
-    afficherLois(lois);
-
-    // Recherche en direct
-    searchInput.addEventListener("input", () => {
-      const q = searchInput.value.toLowerCase();
-      const filtres = lois.filter(l =>
-        (l.titre || "").toLowerCase().includes(q) ||
-        (l.type || "").toLowerCase().includes(q) ||
-        (l.auteur || "").toLowerCase().includes(q) ||
-        (l.etat || "").toLowerCase().includes(q)
-      );
-      afficherLois(filtres);
-    });
-
-  } catch (e) {
-    document.getElementById("lois").innerHTML =
-      `<p style="color:red">Erreur de chargement des lois : ${e}</p>`;
-  }
+function card(l) {
+  const url = l.url ? `<a href="${l.url}" target="_blank" rel="noopener">Voir le dossier</a>` : "";
+  return `
+    <div class="card-link" style="display:block">
+      <h2>${(l.titre||"").trim()}</h2>
+      <p><strong>Type :</strong> ${l.type || "--"}</p>
+      <p><strong>Auteur :</strong> ${l.auteur || "--"}</p>
+      <p><strong>Date :</strong> ${l.date || "--"} &nbsp; • &nbsp; <strong>État :</strong> ${l.etat || "--"}</p>
+      ${url}
+    </div>
+  `;
 }
 
-chargerLois();
+function render(lois, q="") {
+  const Q = q.toLowerCase();
+  const data = lois.filter(l =>
+    (l.titre||"").toLowerCase().includes(Q) ||
+    (l.type||"").toLowerCase().includes(Q) ||
+    (l.auteur||"").toLowerCase().includes(Q) ||
+    (l.etat||"").toLowerCase().includes(Q)
+  );
+  el.list.innerHTML = data.map(card).join('') || `<p>Aucun résultat.</p>`;
+}
+
+(async function init() {
+  try {
+    const r = await fetch(JSON_URL, { cache: "no-cache" });
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    const lois = await r.json();
+    render(lois);
+
+    el.search.addEventListener('input', () => render(lois, el.search.value));
+  } catch (e) {
+    el.list.innerHTML = `<p style="color:#c00">Erreur de chargement des lois. ${e.message || e}</p>`;
+    console.error(e);
+  }
+})();

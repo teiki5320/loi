@@ -2,27 +2,27 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8" />
-  <title>Accueil -- Lois & Députés</title>
+  <title>Lois -- Assemblée nationale</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- CSS spécifique à l’accueil -->
   <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
   <header>
-    <h1>Accueil</h1>
-    <p style="margin:.5rem 0 0; opacity:.9">Parcourez les données des lois et des députés</p>
+    <h1>📜 Lois</h1>
+    <p style="margin:.5rem 0 0; opacity:.9">Données mises à jour automatiquement depuis l’Assemblée nationale.</p>
   </header>
 
   <main>
-    <a class="card-link" href="./lois/index_lois.html">
-      <h2>📜 Lois</h2>
-      <p>Cartes des dossiers législatifs (recherche, filtres). Données mises à jour automatiquement.</p>
-    </a>
-
-    <a class="card-link" href="./deputes/index_depute.html">
-      <h2>👤 Députés</h2>
-      <p>Liste des députés en exercice avec filtres, groupes colorés et photos officielles.</p>
-    </a>
+    <input id="search" type="text" placeholder="Rechercher une loi (titre, type, auteur, état)…" />
+    <div id="lois"></div>
   </main>
+
+  <footer style="margin:2rem auto; max-width:900px; padding:0 1rem; text-align:center">
+    <a class="card-link" href="./deputes/index_depute.html">
+      👤 Voir les députés
+    </a>
+  </footer>
+
+  <script src="./script.js" defer></script>
 </body>
 </html>
