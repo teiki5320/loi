@@ -1,100 +1,125 @@
-/* ====== Layout de la liste ====== */
-#deputes-list {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  margin: 20px 0;
+/* =====================================
+   Style pour index_depute.html (Députés)
+   cohérent avec l'accueil
+   ===================================== */
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  margin: 0;
+  background: #f8f9fa;
+  color: #222;
 }
 
-/* ====== Carte d’un député ====== */
-.depute-card {
-  display: grid;
-  grid-template-columns: 92px 1fr;
-  gap: 14px;
-  border: 1px solid #e5e5e5;
-  border-radius: 10px;
-  background: #fff;
-  padding: 12px;
-  box-shadow: 0 2px 6px rgba(0,0,0,.06);
+header {
+  background: #0066cc;
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
 }
 
-.depute-photo {
-  width: 92px;
-  height: 92px;
-  border-radius: 8px;          /* mets 50% pour des avatars ronds */
-  object-fit: cover;
-  background: #f3f3f3;
-  border: 1px solid #eee;
+header h1 {
+  margin: 0;
+  font-size: 2rem;
 }
 
-.depute-header {
-  font-weight: 700;
-  font-size: 1.06rem;
-  margin-bottom: 4px;
-}
-
-.depute-meta {
-  font-size: .92rem;
-  color: #555;
-  margin: 2px 0;
-}
-
-.depute-meta .chip {
-  display: inline-block;
-  padding: 2px 8px;
-  border-radius: 999px;
-  background: #f6f6f6;
-  border: 1px solid #eee;
-  font-size: .85rem;
-  margin-right: 6px;
-}
-
-.depute-groupe {
-  font-weight: 700;
-}
-
-/* ====== Légende des groupes ====== */
-#groupes-legend {
+section {
+  max-width: 1100px;
+  margin: 1.5rem auto;
+  padding: 0 1rem;
   display: flex;
   flex-wrap: wrap;
-  gap: 8px 12px;
-  align-items: center;
-  margin: 8px 0 14px;
+  gap: 1rem;
 }
 
-.legend-item {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  font-size: .9rem;
-  border: 1px solid #eee;
+section input,
+section select {
+  flex: 1;
+  min-width: 200px;
+  padding: .6rem .8rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: .95rem;
+}
+
+#groupes-legend {
+  max-width: 1100px;
+  margin: 0 auto 1rem;
+  padding: 0 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .6rem;
+}
+
+.groupe-chip {
+  padding: .4rem .8rem;
   border-radius: 999px;
-  padding: 2px 8px;
-  background: #fff;
+  font-size: .85rem;
+  font-weight: bold;
+  color: white;
 }
 
-.legend-dot {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-}
-
-/* ====== Barre d’info ====== */
 #count {
-  font-size: .92rem;
-  color: #333;
-  margin: 6px 0 10px;
+  max-width: 1100px;
+  margin: 0 auto 1rem;
+  padding: 0 1rem;
+  font-size: .9rem;
+  color: #444;
 }
 
-#err {
-  white-space: pre-wrap;
-  color: #b00020;
-  margin: 8px 0;
-  font-size: .92rem;
+/* Liste des députés en cartes */
+#deputes-list {
+  max-width: 1100px;
+  margin: 0 auto 2rem;
+  padding: 0 1rem;
+  display: grid;
+  gap: 1rem;
 }
 
-/* ====== Responsive ====== */
-@media (max-width: 520px) {
-  .depute-card { grid-template-columns: 72px 1fr; }
-  .depute-photo { width: 72px; height: 72px; }
+.depute-card {
+  background: white;
+  border-radius: 10px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.depute-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+.depute-card img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ddd;
+}
+
+.depute-info {
+  flex: 1;
+}
+
+.depute-info h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #0066cc;
+}
+
+.depute-info p {
+  margin: .2rem 0;
+  font-size: .9rem;
+  color: #555;
+}
+
+.depute-info a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.depute-info a:hover {
+  text-decoration: underline;
 }
