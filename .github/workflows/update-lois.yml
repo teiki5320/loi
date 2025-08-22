@@ -1,0 +1,90 @@
+name: Update lois.json (L17 dossiers législatifs)
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "23 4 * * *"   # tous les jours à 04:23 UTC
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    env:
+      LOIS_ZIP_URL: "http://data.assemblee-nationale.fr/static/openData/repository/17/loi/dossiers_legislatifs/Dossiers_Legislatifs.json.zip"
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install unzip + jq
+        run: sudo apt-get update && sudo apt-get install -y unzip jq
+
+      - name: Download dossiers législatifs (L17)
+        run: |
+          set -eux
+          curl -fsSL "$LOIS_ZIP_URL" -o lois.zip
+
+      - name: Extract JSON files
+        run: |
+          set -eux
+          rm -rf data_lois
+          mkdir -p data_lois
+          unzip -o lois.zip -d data_lois
+          echo "== Aperçu des fichiers extraits =="
+          find data_lois -type f -name '*.json' | head -50
+
+      - name: Build lois/lois.json (normalize)
+        run: |
+          set -eux
+          mkdir -p lois
+          # On agrège tous les JSON trouvés, et on normalise vers un schéma simple
+          FILES="$(find data_lois -type f -name '*.json')"
+          if [ -z "$FILES" ]; then
+            echo "Aucun JSON trouvé dans l’archive" >&2
+            exit 1
+          fi
+          jq -s '
+            # Lire tous les fichiers et extraire les dossiers législatifs
+            [ .[]
+              | .. | objects
+              | select(has("dossierLegislatif") or has("DossierLegislatif") or has("dossier"))
+              | ( .dossierLegislatif // .DossierLegislatif // .dossier )
+            ]
+            | map({
+                id: (
+                  .uid?["#text"] // .uid // .id // .numero // ""
+                ),
+                type: (
+                  .type? // .nature? // .typeDossier? // ""
+                ),
+                titre: (
+                  .titre? // .titreDossier? // .intitule? // .libelle? // ""
+                ),
+                etat: (
+                  .etat? // .etatDuDossier? // .statut? // ""
+                ),
+                date: (
+                  .dateDerniereModification? // .dateCreation? // .dateDepot? // ""
+                ),
+                auteur: (
+                  .auteur? // .origine? // .initiative? // ""
+                ),
+                url: (
+                  .lienDossier? // .url? // .lien? // ""
+                ),
+                nor: (
+                  .nor? // .NOR? // ""
+                )
+              })
+            | map(select((.titre // "") != ""))
+            | unique_by(.id, .titre)
+            | sort_by(.date) | reverse
+          ' $FILES > lois/lois.json
+
+          echo "Total dossiers: $(jq 'length' lois/lois.json)"
+
+      - name: Commit & push if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update lois.json (L17 dossiers législatifs)"
+          file_pattern: lois/lois.json
