@@ -5,37 +5,48 @@
   <title>Lois -- Assemblée nationale</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="./style.css" />
-  <style>
-    nav {
-      background:#f5f5f5;
-      padding:.5rem 1rem;
-      display:flex;
-      justify-content:flex-end;
-      border-bottom:1px solid #ddd;
-    }
-    nav a {
-      text-decoration:none;
-      color:#333;
-      font-weight:bold;
-    }
-  </style>
 </head>
 <body>
-  <!-- Barre de navigation -->
-  <nav>
-    <a href="/loi/deputes/index_depute.html">👤 Députés</a>
+  <!-- Barre de navigation avec menu déroulant à gauche -->
+  <nav class="topbar">
+    <div class="nav-left">
+      <label for="nav-select" class="sr-only">Navigation</label>
+      <select id="nav-select">
+        <option value="./" selected>🏠 Accueil (Lois)</option>
+        <option value="./deputes/index_depute.html">👤 Députés</option>
+      </select>
+    </div>
+    <div class="nav-right">
+      <!-- tu peux mettre ton logo ou rien -->
+    </div>
   </nav>
 
-  <header>
+  <header class="page-header">
     <h1>📜 Lois</h1>
-    <p style="margin:.5rem 0 0; opacity:.9">Données mises à jour automatiquement depuis l’Assemblée nationale.</p>
+    <p>Données mises à jour automatiquement depuis l’Assemblée nationale.</p>
   </header>
 
-  <main>
-    <!-- IDs attendus par ton script.js -->
-    <input type="text" id="search" placeholder="Rechercher une loi (titre, type, auteur, état)…">
-    <div id="lois"></div>
+  <main class="container">
+    <!-- IDs attendus par ton script.js existant -->
+    <input type="search" id="search" placeholder="Rechercher (titre, type, auteur, état)…" />
+
+    <!-- Grille de cartes compactes -->
+    <div id="lois" class="cards-grid"></div>
   </main>
+
+  <script>
+    // Redirige quand on change la sélection du menu déroulant
+    document.addEventListener('DOMContentLoaded', () => {
+      const sel = document.getElementById('nav-select');
+      // Marquer la bonne option si on arrive depuis /deputes/
+      if (location.pathname.includes('/deputes/')) {
+        sel.value = './deputes/index_depute.html';
+      }
+      sel.addEventListener('change', () => {
+        location.href = sel.value;
+      });
+    });
+  </script>
 
   <script src="./script.js" defer></script>
 </body>
