@@ -1,44 +1,63 @@
 name: Update deputes.json (daily, AMO10 L17)
 
 on:
-  workflow_dispatch:   # Permet de lancer à la main
+  workflow_dispatch:            # lancement manuel
   schedule:
-    - cron: "0 2 * * *"   # Tous les jours à 2h du matin (UTC)
+    - cron: "17 3 * * *"        # tous les jours à 03:17 UTC
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Install unzip + jq
         run: sudo apt-get update && sudo apt-get install -y unzip jq
 
       - name: Download AMO10 (L17) ZIP
-        run: curl -L "https://data.assemblee-nationale.fr/static/openData/repository/17/amo/deputes_actifs_mandats_actifs_organes/AMO10_deputes_actifs_mandats_actifs_organes.json.zip" -o data.zip
+        run: |
+          set -eux
+          curl -fsSL \
+            "https://data.assemblee-nationale.fr/static/openData/repository/17/amo/deputes_actifs_mandats_actifs_organes/AMO10_deputes_actifs_mandats_actifs_organes.json.zip" \
+            -o data.zip
 
       - name: Extract JSON files
-        run: unzip -o data.zip -d data
+        run: |
+          set -eux
+          mkdir -p data
+          unzip -o data.zip -d data
+          echo "=== Arborescence extraite (max 3 niveaux) ==="
+          find data -maxdepth 3 -type f -print
 
+      # >>> Partie clé : fusion de TOUS les fichiers 'acteur' en un seul JSON simplifié
       - name: Build deputes.json (simplifié)
         run: |
+          set -eux
           mkdir -p deputes
+          # Agrège tous les fichiers d'acteurs en un tableau d'objets simples
           jq -s '
-            map(.acteurs? // []) | add |
             map({
-              id: (.uid // .id // .identifiant // ""),
-              nom: ((.etatCivil?.prenom // "") + " " + (.etatCivil?.nom // "")),
-              circo: (.mandats? | map(select(.dateFin == null)) | .[0].libelleCirco // ""),
-              dept: (.mandats? | map(select(.dateFin == null)) | .[0].libelleDepartement // ""),
-              groupe: (.mandats? | map(select(.dateFin == null)) | .[0].organes?[0]?.libelleAbrege // ""),
-              email: (.adresses?.emails?[0]?.email // "")
+              id:     (.uid // .id // .identifiant // ""),
+              nom:    ((.etatCivil?.prenom // "") + " " + (.etatCivil?.nom // "")) | gsub("^\\s+|\\s+$";""),
+              # mandat actif prioritaire, sinon premier
+              _m:     (
+                        (.mandats // .mandat // [])
+                        | ( map(select((.dateFin // "") == "")) + . )
+                        | .[0]
+                      ),
+              circo:  (._m.libelleCirco       // ._m.circonscription   // ._m.libelle            // ""),
+              dept:   (._m.libelleDepartement // ._m.departement       // ._m.departementLibelle // ""),
+              groupe: (._m.organe?.libelleAbrege // ._m.organe?.acronyme // ""),
+              email:  (.adresses?.emails?[0]?.email // .mails?[0] // .email // "")
             })
+            | map(del(._m))
           ' data/json/acteur/*.json > deputes/deputes.json
+          jq 'length' deputes/deputes.json
 
       - name: Commit & push if changed
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: update deputes.json from AMO10"
+          commit_message: "chore: update deputes.json from AMO10 L17"
           file_pattern: deputes/deputes.json
