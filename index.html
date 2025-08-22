@@ -5,23 +5,37 @@
   <title>Lois -- Assemblée nationale</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="./style.css" />
+  <style>
+    nav {
+      background:#f5f5f5;
+      padding:.5rem 1rem;
+      display:flex;
+      justify-content:flex-end;
+      border-bottom:1px solid #ddd;
+    }
+    nav a {
+      text-decoration:none;
+      color:#333;
+      font-weight:bold;
+    }
+  </style>
 </head>
 <body>
+  <!-- Barre de navigation -->
+  <nav>
+    <a href="/loi/deputes/index_depute.html">👤 Députés</a>
+  </nav>
+
   <header>
     <h1>📜 Lois</h1>
     <p style="margin:.5rem 0 0; opacity:.9">Données mises à jour automatiquement depuis l’Assemblée nationale.</p>
   </header>
 
   <main>
-    <input id="search" type="text" placeholder="Rechercher une loi (titre, type, auteur, état)…" />
+    <!-- IDs attendus par ton script.js -->
+    <input type="text" id="search" placeholder="Rechercher une loi (titre, type, auteur, état)…">
     <div id="lois"></div>
   </main>
-
-  <footer style="margin:2rem auto; max-width:900px; padding:0 1rem; text-align:center">
-    <a class="card-link" href="./deputes/index_depute.html">
-      👤 Voir les députés
-    </a>
-  </footer>
 
   <script src="./script.js" defer></script>
 </body>
