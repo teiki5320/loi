@@ -1,11 +1,14 @@
 /*************************************************
  * Députés -- cartes avec photo + mapping groupes
- * Source locale : /deputes/deputes.json (généré par Actions)
+ * JSON généré par GitHub Actions : /deputes/deputes.json
  *************************************************/
 
-const URL_DEPUTES = "./deputes.json";   // depuis /deputes/index_depute.html
+// Détection auto : en prod (github.io) => chemin relatif ; en local => URL absolue
+const IS_PAGES = location.hostname.endsWith("github.io");
+const ABS_BASE = "https://teiki5320.github.io/loi";
+const URL_DEPUTES = (IS_PAGES ? "" : ABS_BASE) + "/deputes/deputes.json?v=" + Date.now();
 
-/* === Mapping manuel des groupes (tel que fourni) === */
+/* === Mapping manuel des groupes (fourni) === */
 const GROUPES = {
   "PO800490": { sigle: "RE",   couleur: "#ffd700" }, // Renaissance
   "PO800491": { sigle: "RN",   couleur: "#1e90ff" }, // Rassemblement National
@@ -21,7 +24,7 @@ const GROUPES = {
   "PO845470": { sigle: "NUP",  couleur: "#ff4500" }, // NUPES divers
 };
 
-// === DOM ===
+// --- DOM
 const el = {
   q:       document.getElementById("q"),
   groupe:  document.getElementById("groupe"),
@@ -29,23 +32,25 @@ const el = {
   count:   document.getElementById("count"),
   err:     document.getElementById("err"),
   list:    document.getElementById("deputes-list"),
-  legend:  document.getElementById("groupes-legend") // optionnel : si pas présent, on ignore
+  legend:  document.getElementById("groupes-legend") // optionnel
 };
 
-let rows = [];             // [{id, nom, circo, dept, groupe, email}]
-let sortK = "nom";         // tri alpha par défaut
-let sortAsc = true;
+let rows = [];                  // [{id, nom, circo, dept, groupe, email}]
+let sortK = "nom", sortAsc = true;
 
-// === Utils ===
+// --- Utils
 const noDia = s => (s||"").normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 const esc   = s => (s||"").replace(/[&<>"]/g, m => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]));
-const showError = (msg,e) => { el.err && (el.err.textContent = msg + (e? "\n"+(e.message||e):"")); console.error(msg,e); };
+const showError = (msg,e) => {
+  const detail = e?.message || (e?.status ? `HTTP ${e.status}` : "");
+  if (el.err) el.err.textContent = `${msg} ${detail}`.trim();
+  console.error(msg, e);
+};
 
-// helper photo : candidate URLs + fallback
+// --- Photos AN : 17 -> 16 -> 15 -> fallback
 function buildPhoto(id) {
   if (!id) return "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='92' height='92'><rect width='100%' height='100%' fill='%23f0f0f0'/><text x='50%' y='54%' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='12' fill='%23999'>photo</text></svg>";
-  const base = "https://www2.assemblee-nationale.fr/static/tribun";
-  return `${base}/17/photos/${id}.jpg`; // onerror => chainOnError gèrera 16, 15, puis fallback
+  return `https://www2.assemblee-nationale.fr/static/tribun/17/photos/${id}.jpg`;
 }
 function chainOnError(img, id) {
   const order = [
@@ -61,27 +66,24 @@ function chainOnError(img, id) {
   };
 }
 
-// === Filtres ===
+// --- Filtres
 function hydrateFilters() {
   if (!el.groupe || !el.dept) return;
   const uniq = a => [...new Set(a.filter(Boolean))].sort((x,y)=>x.localeCompare(y,"fr",{sensitivity:"base"}));
 
-  // Groupes : utiliser des sigles lisibles si connus
   const groupesSigles = uniq(rows.map(r => GROUPES[r.groupe]?.sigle || r.groupe));
   el.groupe.innerHTML = `<option value="">Tous groupes</option>` + groupesSigles.map(s=>`<option>${esc(s)}</option>`).join("");
 
-  // Départements
   const depts = uniq(rows.map(r => r.dept));
   el.dept.innerHTML = `<option value="">Tous départements</option>` + depts.map(d=>`<option>${esc(d)}</option>`).join("");
 }
 
-// === Légende dynamique (optionnelle) ===
+// --- Légende (optionnelle)
 function renderLegend() {
   if (!el.legend) return;
-  // ne montrer que les groupes présents dans rows
-  const idsPresents = new Set(rows.map(r => r.groupe).filter(Boolean));
+  const ids = new Set(rows.map(r => r.groupe).filter(Boolean));
   const items = [];
-  idsPresents.forEach(id => {
+  ids.forEach(id => {
     const g = GROUPES[id];
     if (!g) return;
     items.push(`<span class="legend-item"><span class="legend-dot" style="background:${g.couleur}"></span>${esc(g.sigle)}</span>`);
@@ -89,13 +91,13 @@ function renderLegend() {
   el.legend.innerHTML = items.join("") || "";
 }
 
-// === Rendu des cartes ===
+// --- Rendu cartes
 function render() {
   if (!el.list) return;
 
-  const q     = (el.q?.value || "").trim().toLowerCase();
-  const gsel  = (el.groupe?.value || "");
-  const dsel  = (el.dept?.value || "");
+  const q    = (el.q?.value || "").trim().toLowerCase();
+  const gsel = (el.groupe?.value || "");
+  const dsel = (el.dept?.value || "");
 
   let filtered = rows.filter(r =>
     (!gsel || (GROUPES[r.groupe]?.sigle || r.groupe) === gsel) &&
@@ -103,7 +105,6 @@ function render() {
     (!q || [r.nom, r.circo, r.dept, r.groupe, r.email].some(x => (x||"").toLowerCase().includes(q)))
   );
 
-  // tri simple
   filtered.sort((a,b)=>{
     const va = noDia((a[sortK]||"")+"").toLowerCase();
     const vb = noDia((b[sortK]||"")+"").toLowerCase();
@@ -126,18 +127,15 @@ function render() {
             <span class="chip">${esc(r.dept || "--")}</span>
           </div>
           <div class="depute-meta">
-            Groupe :
-            <span class="depute-groupe" style="color:${g.couleur}">${esc(g.sigle)}</span>
+            Groupe : <span class="depute-groupe" style="color:${g.couleur}">${esc(g.sigle)}</span>
           </div>
-          <div class="depute-meta">
-            ${mail}
-          </div>
+          <div class="depute-meta">${mail}</div>
         </div>
       </div>
     `;
   }).join("");
 
-  // bascule photo 17→16→15→fallback si 404
+  // Chaîne de fallback pour les photos
   filtered.forEach(r => {
     const img = document.getElementById(`img-${r.id}`);
     if (img) chainOnError(img, r.id);
@@ -146,22 +144,23 @@ function render() {
   if (el.count) el.count.textContent = `${filtered.length} député·e·s affiché·e·s`;
 }
 
-// === Listeners ===
-el.q     && el.q.addEventListener("input", render);
-el.groupe&& el.groupe.addEventListener("change", render);
-el.dept  && el.dept.addEventListener("change", render);
+// --- Listeners
+el.q      && el.q.addEventListener("input", render);
+el.groupe && el.groupe.addEventListener("change", render);
+el.dept   && el.dept.addEventListener("change", render);
 
-// === Init ===
+// --- Init
 (async function init(){
   try{
-    const r = await fetch(`${URL_DEPUTES}?v=${Date.now()}`, { cache:"no-cache" });
+    console.log("FETCH", URL_DEPUTES); // pour debugger les chemins si besoin
+    const r = await fetch(URL_DEPUTES, { cache:"no-cache" });
     if (!r.ok) throw new Error(`HTTP ${r.status}`);
     rows = await r.json();
 
-    // fallback: si structure différente (objets vides), filtrer ceux qui ont un nom
+    // Garder uniquement ceux qui ont un nom
     rows = (rows || []).filter(d => d && (d.nom || "").trim().length);
 
-    // dédoublonnage
+    // Dédoublonnage
     const seen = new Set();
     rows = rows.filter(d => {
       const key = d.id || `${d.nom}|${d.circo||""}|${d.dept||""}`;
@@ -172,7 +171,7 @@ el.dept  && el.dept.addEventListener("change", render);
     renderLegend();
     render();
   } catch(e){
-    showError("Impossible de charger le fichier local deputes.json.", e);
+    showError("Impossible de charger deputes.json.", e);
     if (el.count) el.count.textContent = "Erreur de chargement";
   }
 })();
