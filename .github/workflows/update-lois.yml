@@ -1,0 +1,111 @@
+name: Update lois.json (L17)
+
+on:
+  workflow_dispatch:            # lancement manuel
+  schedule:
+    - cron: "23 4 * * *"        # tous les jours à 04:23 UTC
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    env:
+      LOIS_ZIP_URL: "http://data.assemblee-nationale.fr/static/openData/repository/17/loi/dossiers_legislatifs/Dossiers_Legislatifs.json.zip"
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install unzip + jq
+        run: sudo apt-get update && sudo apt-get install -y unzip jq
+
+      - name: Download L17 dossiers législatifs (ZIP)
+        run: |
+          set -eux
+          curl -fsSL "$LOIS_ZIP_URL" -o lois.zip
+
+      - name: Extract JSON files
+        run: |
+          set -eux
+          rm -rf data_lois
+          mkdir -p data_lois
+          unzip -o lois.zip -d data_lois
+          echo "== Aperçu des JSON extraits =="
+          find data_lois -maxdepth 2 -type f -name '*.json' | head -50
+
+      - name: Build lois/lois.json (simplifié)
+        run: |
+          set -eux
+          mkdir -p lois
+
+          # Dans le ZIP, les dossiers parlementaires sont dans ce dossier.
+          FILES="data_lois/dossierParlementaire/*.json"
+          # Si la structure change, fallback sur tous les JSON.
+          if ! ls $FILES >/dev/null 2>&1; then
+            FILES="$(find data_lois -type f -name '*.json')"
+          fi
+
+          jq -s '
+            # Normalise "2024-07-23T00:00:00.000+02:00" -> "2024-07-23"
+            def normdate($s):
+              if ($s // "") == "" then "" else ($s | sub("T.*$"; "")) end;
+
+            # Liste aplatie des actes législatifs {d, etat}
+            def all_acts:
+              .. | objects
+              | select(has("dateActe") or has("libelleActe"))
+              | { d: (.dateActe // ""),
+                  etat: (.libelleActe.libelleCourt // .libelleActe.nomCanonique // .libelleActe // "")
+                };
+
+            # Récupère un "auteur" robuste :
+            # 1) organe initiateur (uid)
+            # 2) acteur initiateur (acteurRef) si objet
+            # 3) premier acteur initiateur si tableau
+            def auteur_robuste:
+              .initiateur.organes?.organe?.organeRef?.uid
+              // (if (.initiateur.acteurs?.acteur | type) == "object"
+                  then .initiateur.acteurs.acteur.acteurRef
+                  else .initiateur.acteurs?.acteur?[0]?.acteurRef
+                 end)
+              // "";
+
+            [
+              .[] | .dossierParlementaire
+              | {
+                  id:    (.uid // ""),
+                  titre: (.titreDossier.titre // .titre // ""),
+                  type:  (.procedureParlementaire.libelle // .nature // ""),
+                  auteur: (auteur_robuste),
+                  url:   (.lienDossier // .url // .titreDossier.senatChemin // ""),
+                  nor:   (.nor // "")
+                }
+              as $base
+              | (
+                  [ all_acts ]            # actes {d, etat}
+                  | sort_by(.d)           # tri par date ISO
+                  | last?                 # le plus récent
+                ) as $last
+              | {
+                  id:     $base.id,
+                  titre:  $base.titre,
+                  type:   $base.type,
+                  auteur: $base.auteur,
+                  url:    $base.url,
+                  nor:    $base.nor,
+                  date:   ( $last.d | normdate(.) ),
+                  etat:   ( $last.etat // "" )
+                }
+            ]
+            | map(select((.titre // "") != ""))     # garder les dossiers avec un titre
+            | unique_by(.id, .titre)                # dédoublonner
+            | sort_by(.date) | reverse              # date décroissante
+          ' $FILES > lois/lois.json
+
+          echo "Total dossiers: $(jq 'length' lois/lois.json)"
+
+      - name: Commit & push if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update lois.json (L17)"
+          file_pattern: lois/lois.json

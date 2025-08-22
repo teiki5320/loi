@@ -1,44 +1,87 @@
 name: Update deputes.json (daily, AMO10 L17)
 
 on:
-  workflow_dispatch:   # Permet de lancer à la main
+  workflow_dispatch:            # lancement manuel possible
   schedule:
-    - cron: "0 2 * * *"   # Tous les jours à 2h du matin (UTC)
+    - cron: "17 3 * * *"        # tous les jours à 03:17 UTC
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Install unzip + jq
         run: sudo apt-get update && sudo apt-get install -y unzip jq
 
       - name: Download AMO10 (L17) ZIP
-        run: curl -L "https://data.assemblee-nationale.fr/static/openData/repository/17/amo/deputes_actifs_mandats_actifs_organes/AMO10_deputes_actifs_mandats_actifs_organes.json.zip" -o data.zip
+        run: |
+          set -eux
+          curl -fsSL \
+            "https://data.assemblee-nationale.fr/static/openData/repository/17/amo/deputes_actifs_mandats_actifs_organes/AMO10_deputes_actifs_mandats_actifs_organes.json.zip" \
+            -o data.zip
 
       - name: Extract JSON files
-        run: unzip -o data.zip -d data
-
-      - name: Build deputes.json (simplifié)
         run: |
+          set -eux
+          rm -rf data
+          mkdir -p data
+          unzip -o data.zip -d data
+          echo "Contenu extrait :"
+          find data -maxdepth 3 -type f -print
+
+      - name: Build deputes.json (parser AMO10)
+        run: |
+          set -eux
           mkdir -p deputes
           jq -s '
-            map(.acteurs? // []) | add |
-            map({
-              id: (.uid // .id // .identifiant // ""),
-              nom: ((.etatCivil?.prenom // "") + " " + (.etatCivil?.nom // "")),
-              circo: (.mandats? | map(select(.dateFin == null)) | .[0].libelleCirco // ""),
-              dept: (.mandats? | map(select(.dateFin == null)) | .[0].libelleDepartement // ""),
-              groupe: (.mandats? | map(select(.dateFin == null)) | .[0].organes?[0]?.libelleAbrege // ""),
-              email: (.adresses?.emails?[0]?.email // "")
-            })
+            # Chaque fichier a la racine `acteur`
+            map(
+              .acteur
+              | {
+                  id:     (.uid["#text"] // ""),
+                  # "Prénom Nom"
+                  nom:    (
+                            ((.etatCivil.ident.prenom // "") + " " + (.etatCivil.ident.nom // ""))
+                            | gsub("^\\s+|\\s+$";"")
+                          ),
+
+                  # Email : on préfère l’adresse AN si présente, sinon la première "Mèl"
+                  email: (
+                    ( [ (.adresses.adresse[]?
+                          | select(.typeLibelle=="Mèl")
+                          | .valElec) ] ) as $mails
+                    | ( $mails[] | select(test("assemblee-nationale\\.fr$")) )
+                      // ($mails[0] // "")
+                  ),
+
+                  # Mandat ASSEMBLÉE pour récupérer circo/département
+                  _mAss: (
+                    ( .mandats.mandat // [] )
+                    | map(select(.typeOrgane=="ASSEMBLEE"))
+                    | .[0]
+                  ),
+
+                  # Mandat GP pour récupérer la ref du groupe
+                  _mGp: (
+                    ( .mandats.mandat // [] )
+                    | map(select(.typeOrgane=="GP"))
+                    | .[0]
+                  )
+                }
+              | .circo  = (._mAss.election.lieu.numCirco   // "")
+              | .dept   = (._mAss.election.lieu.departement // "")
+              | .groupe = (._mGp.organes.organeRef // "")
+              | del(._mAss, ._mGp)
+            )
           ' data/json/acteur/*.json > deputes/deputes.json
+
+          jq 'length' deputes/deputes.json
 
       - name: Commit & push if changed
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: update deputes.json from AMO10"
+          commit_message: "chore: update deputes.json from AMO10 L17"
           file_pattern: deputes/deputes.json
