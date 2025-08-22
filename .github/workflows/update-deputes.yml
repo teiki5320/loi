@@ -1,7 +1,7 @@
 name: Update deputes.json (daily, AMO10 L17)
 
 on:
-  workflow_dispatch:            # lancement manuel
+  workflow_dispatch:            # lancement manuel possible
   schedule:
     - cron: "17 3 * * *"        # tous les jours à 03:17 UTC
 
@@ -26,34 +26,58 @@ jobs:
       - name: Extract JSON files
         run: |
           set -eux
+          rm -rf data
           mkdir -p data
           unzip -o data.zip -d data
-          echo "=== Arborescence extraite (max 3 niveaux) ==="
+          echo "Contenu extrait :"
           find data -maxdepth 3 -type f -print
 
-      # >>> Partie clé : fusion de TOUS les fichiers 'acteur' en un seul JSON simplifié
-      - name: Build deputes.json (simplifié)
+      - name: Build deputes.json (parser AMO10)
         run: |
           set -eux
           mkdir -p deputes
-          # Agrège tous les fichiers d'acteurs en un tableau d'objets simples
           jq -s '
-            map({
-              id:     (.uid // .id // .identifiant // ""),
-              nom:    ((.etatCivil?.prenom // "") + " " + (.etatCivil?.nom // "")) | gsub("^\\s+|\\s+$";""),
-              # mandat actif prioritaire, sinon premier
-              _m:     (
-                        (.mandats // .mandat // [])
-                        | ( map(select((.dateFin // "") == "")) + . )
-                        | .[0]
-                      ),
-              circo:  (._m.libelleCirco       // ._m.circonscription   // ._m.libelle            // ""),
-              dept:   (._m.libelleDepartement // ._m.departement       // ._m.departementLibelle // ""),
-              groupe: (._m.organe?.libelleAbrege // ._m.organe?.acronyme // ""),
-              email:  (.adresses?.emails?[0]?.email // .mails?[0] // .email // "")
-            })
-            | map(del(._m))
+            # Chaque fichier a la racine `acteur`
+            map(
+              .acteur
+              | {
+                  id:     (.uid["#text"] // ""),
+                  # "Prénom Nom"
+                  nom:    (
+                            ((.etatCivil.ident.prenom // "") + " " + (.etatCivil.ident.nom // ""))
+                            | gsub("^\\s+|\\s+$";"")
+                          ),
+
+                  # Email : on préfère l’adresse AN si présente, sinon la première "Mèl"
+                  email: (
+                    ( [ (.adresses.adresse[]?
+                          | select(.typeLibelle=="Mèl")
+                          | .valElec) ] ) as $mails
+                    | ( $mails[] | select(test("assemblee-nationale\\.fr$")) )
+                      // ($mails[0] // "")
+                  ),
+
+                  # Mandat ASSEMBLÉE pour récupérer circo/département
+                  _mAss: (
+                    ( .mandats.mandat // [] )
+                    | map(select(.typeOrgane=="ASSEMBLEE"))
+                    | .[0]
+                  ),
+
+                  # Mandat GP pour récupérer la ref du groupe
+                  _mGp: (
+                    ( .mandats.mandat // [] )
+                    | map(select(.typeOrgane=="GP"))
+                    | .[0]
+                  )
+                }
+              | .circo  = (._mAss.election.lieu.numCirco   // "")
+              | .dept   = (._mAss.election.lieu.departement // "")
+              | .groupe = (._mGp.organes.organeRef // "")
+              | del(._mAss, ._mGp)
+            )
           ' data/json/acteur/*.json > deputes/deputes.json
+
           jq 'length' deputes/deputes.json
 
       - name: Commit & push if changed
