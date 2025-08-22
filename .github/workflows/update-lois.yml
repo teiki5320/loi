@@ -1,90 +1,66 @@
-name: Update lois.json (L17 dossiers législatifs)
-
-on:
-  workflow_dispatch:
-  schedule:
-    - cron: "23 4 * * *"   # tous les jours à 04:23 UTC
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    env:
-      LOIS_ZIP_URL: "http://data.assemblee-nationale.fr/static/openData/repository/17/loi/dossiers_legislatifs/Dossiers_Legislatifs.json.zip"
-
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Install unzip + jq
-        run: sudo apt-get update && sudo apt-get install -y unzip jq
-
-      - name: Download dossiers législatifs (L17)
-        run: |
-          set -eux
-          curl -fsSL "$LOIS_ZIP_URL" -o lois.zip
-
-      - name: Extract JSON files
-        run: |
-          set -eux
-          rm -rf data_lois
-          mkdir -p data_lois
-          unzip -o lois.zip -d data_lois
-          echo "== Aperçu des fichiers extraits =="
-          find data_lois -type f -name '*.json' | head -50
-
-      - name: Build lois/lois.json (normalize)
+      - name: Build lois/lois.json (simplifié depuis dossierParlementaire)
         run: |
           set -eux
           mkdir -p lois
-          # On agrège tous les JSON trouvés, et on normalise vers un schéma simple
-          FILES="$(find data_lois -type f -name '*.json')"
-          if [ -z "$FILES" ]; then
-            echo "Aucun JSON trouvé dans l’archive" >&2
-            exit 1
-          fi
+
+          FILES="data_lois/dossierParlementaire/*.json"
+
           jq -s '
-            # Lire tous les fichiers et extraire les dossiers législatifs
-            [ .[]
-              | .. | objects
-              | select(has("dossierLegislatif") or has("DossierLegislatif") or has("dossier"))
-              | ( .dossierLegislatif // .DossierLegislatif // .dossier )
+            def normdate($s):
+              # $s comme "1987-05-25T00:00:00.000+02:00" -> "1987-05-25"
+              if ($s // "") == "" then ""
+              else ($s | sub("T.*$"; ""))
+              end;
+
+            def all_acts:
+              .. | objects
+              | select(has("codeActe") and has("libelleActe"));
+
+            [
+              .[] | .dossierParlementaire
+              | {
+                  id:    (.uid // ""),
+                  titre: (.titreDossier.titre // ""),
+                  type:  (.procedureParlementaire.libelle // ""),
+                  # auteur : on tente d’abord un organe initiateur, sinon acteur
+                  auteur: (
+                    .initiateur.organes?.organe?.organeRef?.uid
+                    // .initiateur.acteurs?.acteur?.acteurRef
+                    // ""
+                  ),
+                  # url : on prend ce qu’on a ; à défaut on retient la piste Sénat si fournie
+                  url: (
+                    .lienDossier // .url // .titreDossier.senatChemin // ""
+                  ),
+                  nor:   (.nor // "")
+                }
+              # on cherche l’acte le plus récent pour date & état
+              as $base
+              | (
+                  [ all_acts
+                    | { d: (.dateActe // ""), 
+                        etat: (.libelleActe.libelleCourt // .libelleActe.nomCanonique // "") }
+                  ]
+                  # on trie par date (chaîne ISO), les vides partent en bas,
+                  # puis on prend le dernier (max)
+                  | sort_by(.d) 
+                  | last? 
+                ) as $last
+              | {
+                  id: $base.id,
+                  titre: $base.titre,
+                  type: $base.type,
+                  auteur: $base.auteur,
+                  url: $base.url,
+                  nor: $base.nor,
+                  date: ( $last.d | normdate(.) ),
+                  etat: ( $last.etat // "" )
+                }
             ]
-            | map({
-                id: (
-                  .uid?["#text"] // .uid // .id // .numero // ""
-                ),
-                type: (
-                  .type? // .nature? // .typeDossier? // ""
-                ),
-                titre: (
-                  .titre? // .titreDossier? // .intitule? // .libelle? // ""
-                ),
-                etat: (
-                  .etat? // .etatDuDossier? // .statut? // ""
-                ),
-                date: (
-                  .dateDerniereModification? // .dateCreation? // .dateDepot? // ""
-                ),
-                auteur: (
-                  .auteur? // .origine? // .initiative? // ""
-                ),
-                url: (
-                  .lienDossier? // .url? // .lien? // ""
-                ),
-                nor: (
-                  .nor? // .NOR? // ""
-                )
-              })
+            # on garde ceux avec un titre non vide, on dédoublonne et on trie par date desc
             | map(select((.titre // "") != ""))
             | unique_by(.id, .titre)
             | sort_by(.date) | reverse
           ' $FILES > lois/lois.json
 
           echo "Total dossiers: $(jq 'length' lois/lois.json)"
-
-      - name: Commit & push if changed
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "chore: update lois.json (L17 dossiers législatifs)"
-          file_pattern: lois/lois.json
