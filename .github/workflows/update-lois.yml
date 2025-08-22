@@ -30,29 +30,45 @@ jobs:
           rm -rf data_lois
           mkdir -p data_lois
           unzip -o lois.zip -d data_lois
-          echo "Extraits (aperçu) :"
+          echo "== Aperçu des JSON extraits =="
           find data_lois -maxdepth 2 -type f -name '*.json' | head -50
 
       - name: Build lois/lois.json (simplifié)
         run: |
           set -eux
           mkdir -p lois
+
+          # Dans le ZIP, les dossiers parlementaires sont dans ce dossier.
           FILES="data_lois/dossierParlementaire/*.json"
-          # Si jamais le dossier s'appelle différemment, on retombe en mode 'find'
+          # Si la structure change, fallback sur tous les JSON.
           if ! ls $FILES >/dev/null 2>&1; then
             FILES="$(find data_lois -type f -name '*.json')"
           fi
 
           jq -s '
+            # Normalise "2024-07-23T00:00:00.000+02:00" -> "2024-07-23"
             def normdate($s):
               if ($s // "") == "" then "" else ($s | sub("T.*$"; "")) end;
 
+            # Liste aplatie des actes législatifs {d, etat}
             def all_acts:
               .. | objects
               | select(has("dateActe") or has("libelleActe"))
-              | { d: (.dateActe // ""), etat:
-                    (.libelleActe.libelleCourt // .libelleActe.nomCanonique // .libelleActe // "")
+              | { d: (.dateActe // ""),
+                  etat: (.libelleActe.libelleCourt // .libelleActe.nomCanonique // .libelleActe // "")
                 };
+
+            # Récupère un "auteur" robuste :
+            # 1) organe initiateur (uid)
+            # 2) acteur initiateur (acteurRef) si objet
+            # 3) premier acteur initiateur si tableau
+            def auteur_robuste:
+              .initiateur.organes?.organe?.organeRef?.uid
+              // (if (.initiateur.acteurs?.acteur | type) == "object"
+                  then .initiateur.acteurs.acteur.acteurRef
+                  else .initiateur.acteurs?.acteur?[0]?.acteurRef
+                 end)
+              // "";
 
             [
               .[] | .dossierParlementaire
@@ -60,22 +76,15 @@ jobs:
                   id:    (.uid // ""),
                   titre: (.titreDossier.titre // .titre // ""),
                   type:  (.procedureParlementaire.libelle // .nature // ""),
-                  # auteur : organe initiateur (uid) ou acteurRef si dispo, sinon ""
-                  auteur: (
-                    .initiateur.organes?.organe?.organeRef?.uid
-                    // .initiateur.acteurs?.acteur?.acteurRef
-                    // ""
-                  ),
-                  url: (
-                    .lienDossier // .url // .titreDossier.senatChemin // ""
-                  ),
-                  nor: (.nor // "")
+                  auteur: (auteur_robuste),
+                  url:   (.lienDossier // .url // .titreDossier.senatChemin // ""),
+                  nor:   (.nor // "")
                 }
               as $base
               | (
-                  [ all_acts ]        # liste d actes {d, etat}
-                  | sort_by(.d)       # trie par date ISO (chaîne)
-                  | last?             # prend le + récent
+                  [ all_acts ]            # actes {d, etat}
+                  | sort_by(.d)           # tri par date ISO
+                  | last?                 # le plus récent
                 ) as $last
               | {
                   id:     $base.id,
@@ -88,9 +97,9 @@ jobs:
                   etat:   ( $last.etat // "" )
                 }
             ]
-            | map(select((.titre // "") != ""))         # au moins un titre
-            | unique_by(.id, .titre)                    # dédoublonne
-            | sort_by(.date) | reverse                  # plus récents d abord
+            | map(select((.titre // "") != ""))     # garder les dossiers avec un titre
+            | unique_by(.id, .titre)                # dédoublonner
+            | sort_by(.date) | reverse              # date décroissante
           ' $FILES > lois/lois.json
 
           echo "Total dossiers: $(jq 'length' lois/lois.json)"
