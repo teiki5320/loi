@@ -1,103 +1,81 @@
-/* ==============
-   Variables & base (synchro avec style.css)
-   ============== */
-:root{
-  --bg: #f5f7fb;
-  --panel:#ffffff;
-  --text:#0f172a;
-  --muted:#475569;
-  --border:#e5e7eb;
-  --accent:#2563eb;
-  --radius:12px;
-  --shadow:0 2px 8px rgba(17,24,39,.08);
-}
-*{box-sizing:border-box}
-html,body{margin:0;padding:0}
-body{
-  font-family: system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Arial,sans-serif;
-  color:var(--text); background:var(--bg);
+/* ----- Reset ----- */
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Arial, sans-serif;
+  background: #f6f8fb; color: #111827; line-height: 1.45;
 }
 
-/* ==============
-   Header bandeau bleu
-   ============== */
-header{
-  background:#0b63d1; color:#fff; padding:18px 12px; text-align:center;
-  position:sticky; top:0; z-index:20;
-  box-shadow:0 2px 6px rgba(0,0,0,.08);
+/* ----- Header bleu ----- */
+header {
+  background: #0b63e5; color: #fff; padding: 16px 12px; text-align: center;
+  box-shadow: 0 1px 6px rgba(0,0,0,.08);
 }
-header h1{margin:0; font-size:28px}
+header h1 { margin: 0; font-size: clamp(1.25rem, 3.5vw, 1.8rem); }
 
-/* ==============
-   Barre outils (recherche + filtres)
-   ============== */
-section{
-  width:min(1100px, 92%);
-  margin:12px auto 10px;
-  display:grid; grid-template-columns: 1fr 240px 240px; gap:10px;
+/* ----- Barre outils ----- */
+section.tools { max-width: 1200px; margin: 10px auto 0; padding: 0 12px 6px; }
+.tools input[type="search"], .tools select {
+  width: 100%; max-width: 520px; margin: 6px 8px 6px 0;
+  padding: .65rem .85rem; border-radius: .6rem;
+  background: #fff; border: 1px solid #d6dde7; outline: none;
 }
-input[type="search"], select{
-  padding:12px 12px; border:1px solid var(--border); border-radius:10px; background:#fff;
-  font:inherit; outline:0;
-}
-@media (max-width:860px){
-  section{ grid-template-columns:1fr; }
+.tools input[type="search"]:focus, .tools select:focus {
+  border-color: #0b63e5; box-shadow: 0 0 0 3px rgba(11,99,229,.15);
 }
 
 /* Légende des groupes */
-#groupes-legend{
-  width:min(1100px, 92%);
-  margin:4px auto 4px;
-  display:flex; flex-wrap:wrap; gap:10px 14px; color:#364150; font-size:.92rem;
+#groupes-legend {
+  max-width: 1200px; margin: 6px auto 2px; padding: 0 12px; color: #334155;
+  display: flex; flex-wrap: wrap; gap: 10px;
 }
-.legend-item{ display:inline-flex; gap:6px; align-items:center; }
-.legend-dot{ width:10px; height:10px; border-radius:50%; display:inline-block; }
+.legend-item { font-size: .9rem; display: inline-flex; align-items: center; gap: 6px; }
+.legend-dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
 
 /* Compteur + erreurs */
-#count{ width:min(1100px, 92%); margin:2px auto 8px; color:#374151; font-size:.92rem }
-#err{ width:min(1100px, 92%); margin:0 auto 8px; color:#b91c1c; white-space:pre-wrap }
+#count { max-width: 1200px; margin: 6px auto; padding: 0 12px; color: #475569; }
+#err   { max-width: 1200px; margin: 4px auto 0; padding: 0 12px; color: #b91c1c; white-space: pre-wrap; }
 
-/* ==============
-   Grille des cartes
-   ============== */
-main#deputes-list{
-  width:min(1100px, 92%);
-  margin: 6px auto 36px;
-  display:grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px,1fr));
-  gap:16px;
-  align-items:start;
+/* ----- Grille de cartes députés ----- */
+#deputes-list {
+  max-width: 1200px; margin: 8px auto 36px; padding: 0 12px;
+  display: grid; gap: 14px;
+  grid-template-columns: repeat(12, 1fr);
+}
+@media (max-width: 520px)  { #deputes-list { grid-template-columns: repeat(1, 1fr); } }
+@media (min-width: 521px) and (max-width: 760px)  { #deputes-list { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 761px) and (max-width: 1023px) { #deputes-list { grid-template-columns: repeat(3, 1fr); } }
+@media (min-width: 1024px)                          { #deputes-list { grid-template-columns: repeat(4, 1fr); } }
+
+/* Carte */
+.depute-card {
+  grid-column: span 1;
+  display: grid; grid-template-columns: 84px 1fr; gap: 12px;
+  background:#fff; border: 1px solid #e6ecf3; border-radius: 12px;
+  padding: 12px; align-items: center;
+  box-shadow: 0 6px 20px rgba(16,24,40,.06);
+  transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease;
+}
+.depute-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 28px rgba(16,24,40,.12);
+  border-color: #d7e2f2;
 }
 
-/* Carte député -- classes attendues par le JS existant */
-.depute-card{
-  display:flex; gap:12px; align-items:flex-start;
-  background:var(--panel);
-  border:1px solid var(--border);
-  border-radius:var(--radius);
-  padding:12px;
-  box-shadow:var(--shadow);
-  min-height:96px;
+/* Photo */
+.depute-photo {
+  width: 84px; height: 84px; border-radius: 10px; object-fit: cover;
+  background: #eef2f7; border: 1px solid #e5eaf2;
 }
-.depute-photo{
-  width:72px; height:72px; flex:0 0 72px;
-  border-radius:50%; object-fit:cover; object-position:center;
-  background:#eef2f7; display:block;
-}
-.depute-header{ margin:.1rem 0 .25rem; font-size:1rem; font-weight:700; line-height:1.2 }
-.depute-meta{ color:#364150; font-size:.92rem; margin:.15rem 0 }
-.chip{
-  display:inline-block; padding:.15rem .5rem; border-radius:999px;
-  background:#eef2ff; border:1px solid #e5e7eb; font-size:.86rem; color:#374151
-}
-.depute-groupe{ font-weight:700 }
 
-/* liens e‑mail */
-a{ color:var(--accent); text-decoration:none; font-weight:600 }
-a:hover{ text-decoration:underline }
-
-/* petits écrans */
-@media (max-width:420px){
-  header h1{font-size:22px}
-  .depute-photo{ width:64px; height:64px; flex-basis:64px }
+/* Contenu */
+.depute-header { font-weight: 700; margin: 0 0 4px; }
+.depute-meta { color: #475569; font-size: .92rem; margin: 2px 0; }
+.chip {
+  display: inline-block; background: #eef3ff; color: #1e3a8a;
+  padding: 2px 8px; border-radius: 999px; font-size: .78rem; font-weight: 600;
 }
+
+/* Lien email */
+.depute-card a { color: #0b63e5; text-decoration: none; }
+.depute-card a:hover { text-decoration: underline; }
