@@ -1,89 +1,141 @@
-<!-- index.html garde #search et #lois -->
-<script>
-const URL_LOIS      = "/loi/lois/lois.json";
-const URL_DEPUTES   = "/loi/deputes/deputes.json"; // pour résoudre les codes auteur (PAxxxx)
+/*************************************************
+ * Députés -- cartes + photos + mapping groupes
+ * Données : ./deputes.json (généré par Actions)
+ *************************************************/
 
-const esc=s=>String(s??"").replace(/[&<>"]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[m]));
-const norm=s=>(s||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
+const URL_DEPUTES = "./deputes.json";
 
-const state={ lois:[], mapAuteur:new Map() };
+/* Codes groupe → sigle + nom + couleur */
+const GROUPES = {
+  "PO800490": { sigle: "RE",  nom: "Renaissance",                             couleur: "#ffd700" },
+  "PO800491": { sigle: "RN",  nom: "Rassemblement national",                  couleur: "#1e90ff" },
+  "PO800492": { sigle: "LFI", nom: "La France insoumise",                     couleur: "#ff1493" },
+  "PO800493": { sigle: "SOC", nom: "Socialistes et apparentés",               couleur: "#dc143c" },
+  "PO800494": { sigle: "LR",  nom: "Les Républicains",                        couleur: "#4169e1" },
+  "PO800495": { sigle: "EELV",nom: "Écologistes",                             couleur: "#228b22" },
+  "PO845485": { sigle: "HOR", nom: "Horizons & Indépendants",                 couleur: "#8a2be2" },
+  "PO845454": { sigle: "UDI", nom: "UDI et Indépendants",                     couleur: "#6495ed" },
+  "PO845429": { sigle: "LIOT",nom: "Libertés, Indépendants, Outre‑mer…",      couleur: "#8b4513" },
+  "PO800496": { sigle: "DEM", nom: "Les Démocrates (MoDem & Ind.)",           couleur: "#20b2aa" },
+  "PO845452": { sigle: "GDR", nom: "Gauche Démocrate et Républicaine",        couleur: "#b22222" },
+  "PO845470": { sigle: "NUP", nom: "Non‑inscrits proches NUPES / divers NUPES",couleur: "#ff4500" },
+};
 
-async function loadJSON(url){
-  const r=await fetch(url,{cache:"no-cache"});
-  if(!r.ok) throw new Error(url+" → HTTP "+r.status);
-  return r.json();
+/* ===== Photo fallback fiable (inline onerror) ===== */
+window.__imgFallback = function(img){
+  const id = img.dataset.id;
+  const order = [
+    `https://www2.assemblee-nationale.fr/static/tribun/17/photos/${id}.jpg`,
+    `https://www2.assemblee-nationale.fr/static/tribun/16/photos/${id}.jpg`,
+    `https://www2.assemblee-nationale.fr/static/tribun/15/photos/${id}.jpg`,
+    "data:image/svg+xml;utf8," + encodeURIComponent(
+      `<svg xmlns='http://www.w3.org/2000/svg' width='92' height='92'>
+         <rect width='100%' height='100%' rx='8' ry='8' fill='#eef1f5'/>
+         <text x='50%' y='52%' text-anchor='middle' font-family='system-ui' font-size='12' fill='#9aa3ae'>photo</text>
+       </svg>`
+    )
+  ];
+  const idx = Number(img.dataset.idx||"0")+1;
+  img.dataset.idx = String(idx);
+  if(idx < order.length){ img.src = order[idx]; }
+};
+
+const $ = s => document.querySelector(s);
+const els = {
+  q: $("#q"), groupe: $("#groupe"), dept: $("#dept"),
+  legend: $("#groupes-legend"), count: $("#count"), err: $("#err"), list: $("#deputes-list")
+};
+
+let rows = [];
+
+/* Utils */
+const esc = s => (s||"").replace(/[&<>"]/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
+const noDia = s => (s||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"");
+const uniqSort = a => [...new Set(a.filter(Boolean))].sort((x,y)=>x.localeCompare(y,'fr',{sensitivity:'base'}));
+
+function hydrateFilters(){
+  if(!els.groupe || !els.dept) return;
+  const groupesAff = uniqSort(rows.map(r => GROUPES[r.groupe]?.nom || GROUPES[r.groupe]?.sigle || r.groupe));
+  els.groupe.innerHTML = `<option value="">Tous groupes</option>` + groupesAff.map(g=>`<option>${esc(g)}</option>`).join("");
+  const depts = uniqSort(rows.map(r=>r.dept));
+  els.dept.innerHTML   = `<option value="">Tous départements</option>` + depts.map(d=>`<option>${esc(d)}</option>`).join("");
 }
 
-function buildAuteurMap(deputes){
-  // deputes: [{id:"PA1008", nom:"…", …}]
-  const m=new Map();
-  (deputes||[]).forEach(d=>{
-    if(d?.id && d?.nom) m.set(String(d.id), d.nom);
-  });
-  return m;
-}
-
-function card(loi){
-  const titre = esc(loi.titre || "--");
-  const type  = esc(loi.type  || "--");
-  const url   = esc(loi.url   || "#");
-  const date  = esc(loi.date  || "--");
-  const etat  = esc(loi.etat  || "--");
-
-  // auteur peut valoir "PA410", "PO78718", "--", etc.
-  let auteurAff = loi.auteur || "--";
-  // Si c’est un PAxxxx, on résout via la map
-  const m = state.mapAuteur;
-  if (/^PA\d+$/.test(auteurAff) && m.has(auteurAff)) {
-    auteurAff = m.get(auteurAff);
-  }
-
-  return `
-  <article class="card">
-    <h3 class="card-title">${titre}</h3>
-    <div class="card-meta">
-      <div><b>Type :</b> ${type}</div>
-      <div><b>Auteur :</b> ${esc(auteurAff)}</div>
-      <div><b>Date :</b> ${date}</div>
-      <div><b>État :</b> ${etat}</div>
-    </div>
-    <a class="card-link" href="${url}" target="_blank" rel="noopener">Voir le dossier</a>
-  </article>`;
+function renderLegend(){
+  if(!els.legend) return;
+  const seen = new Set(rows.map(r=>r.groupe).filter(Boolean));
+  els.legend.innerHTML = [...seen].map(id=>{
+    const g = GROUPES[id]; if(!g) return "";
+    return `<span class="legend-item"><span class="legend-dot" style="background:${g.couleur}"></span>${esc(g.nom||g.sigle)}</span>`;
+  }).join("");
 }
 
 function render(){
-  const q = document.getElementById("search")?.value || "";
-  const nq = norm(q);
-  const list = document.getElementById("lois");
-  if(!list) return;
+  if(!els.list) return;
+  const q = (els.q?.value||"").toLowerCase().trim();
+  const gsel = (els.groupe?.value||"");
+  const dsel = (els.dept?.value||"");
 
-  const data = nq
-    ? state.lois.filter(l =>
-        [l.titre,l.type,l.auteur,l.etat].some(v=>norm(v).includes(nq))
-      )
-    : state.lois;
+  let filt = rows.filter(r =>
+    (!gsel || (GROUPES[r.groupe]?.nom || GROUPES[r.groupe]?.sigle || r.groupe) === gsel) &&
+    (!dsel || r.dept === dsel) &&
+    (!q || [r.nom, r.circo, r.dept, GROUPES[r.groupe]?.nom, GROUPES[r.groupe]?.sigle, r.email]
+          .some(v => (v||"").toLowerCase().includes(q)))
+  );
 
-  list.innerHTML = data.map(card).join("") || "<p>Aucune loi.</p>";
+  // Tri par nom
+  filt.sort((a,b)=> noDia(a.nom).localeCompare(noDia(b.nom),'fr',{sensitivity:'base'}));
+
+  els.list.innerHTML = filt.map(r=>{
+    const g = GROUPES[r.groupe] || { sigle:r.groupe, nom:r.groupe, couleur:"#777" };
+    const mail = r.email ? `<a href="mailto:${encodeURI(r.email)}">${esc(r.email)}</a>` : "";
+    const firstSrc = `https://www2.assemblee-nationale.fr/static/tribun/17/photos/${r.id}.jpg`;
+    return `
+      <article class="depute-card">
+        <div class="depute-photo-wrap">
+          <img class="depute-photo"
+               data-id="${esc(r.id)}" data-idx="0"
+               src="${firstSrc}"
+               alt="Photo ${esc(r.nom)}"
+               onerror="__imgFallback(this)">
+        </div>
+        <div class="depute-body">
+          <h3 class="depute-name">${esc(r.nom)}</h3>
+          <div class="depute-lines">
+            <div>Circo <strong>${esc(r.circo||"--")}</strong> · ${esc(r.dept||"--")}</div>
+            <div>Groupe : <span class="depute-groupe" style="color:${g.couleur}">${esc(g.nom||g.sigle)}</span></div>
+            <div>${mail}</div>
+          </div>
+        </div>
+      </article>
+    `;
+  }).join("");
+
+  els.count && (els.count.textContent = `${filt.length} député·e·s affiché·e·s`);
 }
 
-(async function init(){
+/* Listeners */
+els.q?.addEventListener("input", render);
+els.groupe?.addEventListener("change", render);
+els.dept?.addEventListener("change", render);
+
+/* Init */
+(async function(){
   try{
-    const [lois, deputes] = await Promise.all([
-      loadJSON(URL_LOIS),
-      loadJSON(URL_DEPUTES).catch(()=>[]) // si indispo, on continue
-    ]);
-    state.lois = Array.isArray(lois) ? lois : [];
-    state.mapAuteur = buildAuteurMap(deputes);
+    const res = await fetch(`${URL_DEPUTES}?v=${Date.now()}`, {cache:"no-cache"});
+    if(!res.ok) throw new Error(`HTTP ${res.status}`);
+    rows = await res.json();
+    rows = (rows||[]).filter(d => d && d.nom);
 
-    // Filtre rapide
-    const s = document.getElementById("search");
-    s && s.addEventListener("input", render);
+    // dédoublonnage
+    const seen = new Set();
+    rows = rows.filter(d=>{ const k = d.id || `${d.nom}|${d.circo||""}|${d.dept||""}`; if(seen.has(k)) return false; seen.add(k); return true; });
 
+    hydrateFilters();
+    renderLegend();
     render();
   }catch(e){
+    els.err && (els.err.textContent = `Erreur de chargement : ${e.message||e}`);
     console.error(e);
-    const list = document.getElementById("lois");
-    if(list) list.innerHTML = "<p>Erreur de chargement des lois.</p>";
   }
 })();
-</script>
