@@ -5,6 +5,9 @@ on:
   schedule:
     - cron: "17 3 * * *"        # tous les jours à 03:17 UTC
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -32,6 +35,7 @@ jobs:
           echo "Contenu extrait :"
           find data -maxdepth 3 -type f -print
 
+      # === 1) Construit le fichier simplifié des députés (ta logique actuelle) ===
       - name: Build deputes.json (parser AMO10)
         run: |
           set -eux
@@ -73,15 +77,55 @@ jobs:
                 }
               | .circo  = (._mAss.election.lieu.numCirco   // "")
               | .dept   = (._mAss.election.lieu.departement // "")
-              | .groupe = (._mGp.organes.organeRef // "")
+              | .groupe = (._mGp.organes.organeRef // "")   # <- POxxxxx (clé stable)
               | del(._mAss, ._mGp)
             )
           ' data/json/acteur/*.json > deputes/deputes.json
 
           jq 'length' deputes/deputes.json
 
+      # === 2) Map des personnes : PAxxxxx -> "Prénom Nom" ===
+      - name: Build deputes_map.json (PA → Nom)
+        run: |
+          set -eux
+          mkdir -p maps
+          jq -s '
+            map(.acteur)
+            | map({
+                key:   (.uid["#text"] // ""),
+                value: (
+                  ((.etatCivil.ident.prenom // "") + " " + (.etatCivil.ident.nom // ""))
+                  | gsub("^\\s+|\\s+$";"")
+                )
+              })
+            | from_entries
+          ' data/json/acteur/*.json > maps/deputes_map.json
+          jq length maps/deputes_map.json
+
+      # === 3) Map des organes : POxxxxx -> { nom, sigle } ===
+      - name: Build organes_map.json (PO → {nom, sigle})
+        run: |
+          set -eux
+          jq -s '
+            map(.organe)
+            | map(select(.uid?))
+            | map({
+                key:   (.uid["#text"] // ""),
+                value: {
+                  nom:   (.libelle // .libelleEdition // .libelleAbrege // .acronyme // .sigle // (.uid["#text"] // "")),
+                  sigle: (.libelleAbrege // .acronyme // .sigle // (.uid["#text"] // ""))
+                }
+              })
+            | from_entries
+          ' data/json/organe/*.json > maps/organes_map.json
+          jq length maps/organes_map.json
+
+      # === 4) Commit & push si changements ===
       - name: Commit & push if changed
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: update deputes.json from AMO10 L17"
-          file_pattern: deputes/deputes.json
+          commit_message: "chore: update deputes & maps from AMO10 L17"
+          file_pattern: |
+            deputes/deputes.json
+            maps/deputes_map.json
+            maps/organes_map.json
