@@ -5,8 +5,8 @@
  * - Pour les POxxxxx (groupes), montre le sigle (ou le nom complet)
  *************************************************/
 
-const URL_LOIS    = "./lois/lois.json";        // si la page Lois est à la racine
-const URL_DEPUTES = "./deputes/deputes.json";   // idem
+const URL_LOIS = "./lois/lois.json";
+const URL_DEPUTES = "./deputes/deputes.json";
 
 // Sélecteurs (doivent exister dans l’index des lois)
 const el = {
