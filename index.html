@@ -4,33 +4,28 @@
   <meta charset="utf-8" />
   <title>Lois -- Assemblée nationale</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- ton style.css actuel suffit ; garde-le tel quel -->
+  <!-- Ton style général (cartes, grille, etc.) -->
   <link rel="stylesheet" href="./style.css" />
-  <style>
-    /* filet minimal si jamais style.css ne charge pas */
-    .cards-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
-    .law-card{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:12px}
-    .law-title{margin:0 0 .5rem;font-size:1rem;line-height:1.25}
-    .law-meta{font-size:.92rem;color:#4b5563;margin:.15rem 0}
-    .law-link{display:inline-block;margin-top:.35rem}
-    #empty,#err{margin-top:.75rem;color:#6b7280;white-space:pre-wrap}
-    #err{color:#b91c1c}
-  </style>
 </head>
 <body>
   <header class="page-header">
+    <div class="nav">
+      <a class="btn" href="./deputes/index_depute.html">👤 Députés</a>
+    </div>
     <h1>📜 Lois</h1>
     <p>Données mises à jour automatiquement depuis l’Assemblée nationale.</p>
   </header>
 
   <main class="container">
-    <input type="search" id="search" placeholder="Rechercher (titre, type, auteur, état)…" />
+    <input id="search" type="search"
+           placeholder="Rechercher (titre, type, auteur, état)…"
+           aria-label="Rechercher" />
+
     <div id="lois" class="cards-grid"></div>
-    <div id="empty" hidden>Aucune loi trouvée.</div>
-    <pre id="err" hidden></pre>
+
+    <pre id="err" style="white-space:pre-wrap;color:#b00020"></pre>
   </main>
 
-  <!-- IMPORTANT: cache-buster pour forcer le rechargement -->
-  <script src="./script.js?v=2025-08-24-1" defer></script>
+  <script src="./script.js" defer></script>
 </body>
 </html>
