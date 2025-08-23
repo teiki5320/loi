@@ -1,147 +1,98 @@
-/* ===========================
-   Variables & fondations
-   =========================== */
+/* ==============
+   Variables & base
+   ============== */
 :root{
-  --bg:        #f6f7fb;
-  --panel:     #ffffff;
-  --border:    #e6e6ef;
-  --text:      #1f2430;
-  --muted:     #6b7280;
-  --primary:   #2563eb;      /* bleu liens */
-  --accent:    #0ea5e9;
-  --shadow:    0 2px 8px rgba(17,24,39,.08);
-  --radius:    12px;
+  --bg: #f5f7fb;
+  --panel:#ffffff;
+  --text:#0f172a;
+  --muted:#475569;
+  --border:#e5e7eb;
+  --accent:#2563eb;
+  --radius:12px;
+  --shadow:0 2px 8px rgba(17,24,39,.08);
 }
 
-*{ box-sizing: border-box; }
-html,body{ height:100%; }
-html{ scroll-behavior:smooth; }
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
 body{
-  margin:0;
-  font: 16px/1.45 system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  font-family: system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Arial,sans-serif;
   color:var(--text);
   background:var(--bg);
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
 }
 
-/* ===========================
-   Barre haute (sélecteur ou badge)
-   =========================== */
+/* ==============
+   Barre du haut (accueil/lois)
+   ============== */
 .topbar{
   position:sticky; top:0; z-index:20;
-  display:flex; align-items:center; justify-content:space-between;
-  padding:10px 16px;
-  background:#ffffffd9; backdrop-filter: blur(8px);
-  border-bottom:1px solid var(--border);
+  display:flex; justify-content:space-between; align-items:center;
+  padding:10px 14px; background:#fff; border-bottom:1px solid var(--border);
 }
-.topbar .nav-left{ display:flex; gap:10px; align-items:center; }
-.sr-only{ position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0 0 0 0); border:0; }
-
-/* petit select compact pour le menu déroulant */
-.topbar select{
-  appearance:none;
-  border:1px solid var(--border);
-  border-radius:999px;
-  padding:8px 12px;
-  background:#fff;
-  font-size:.9rem;
-  color:var(--text);
+.topbar .nav-left select{
+  padding:8px 10px; border:1px solid var(--border); border-radius:8px; background:#fff;
+  font:inherit;
 }
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
 
-/* badge-lien alternatif (si utilisé) */
-.badge-link{
-  display:inline-flex; align-items:center; gap:.4rem;
-  background:#fff; border:1px solid var(--border);
-  color:var(--text); text-decoration:none;
-  padding:.35rem .7rem; border-radius:999px;
-  box-shadow: var(--shadow);
-}
-.badge-link:hover{ border-color:#d5d7e3; }
-
-/* ===========================
-   En‑tête de page
-   =========================== */
+/* ==============
+   En-tête de page
+   ============== */
 .page-header{
-  text-align:center;
-  padding:28px 16px 10px;
+  text-align:center; padding:18px 0 10px;
 }
-.page-header h1{
-  margin:0 0 .25rem;
-  font-size: clamp(1.25rem, 2vw + 1rem, 1.6rem);
-}
-.page-header p{
-  margin:.25rem 0 0;
-  color:var(--muted);
-  font-size:.95rem;
-}
+.page-header h1{ margin:0 0 6px; font-size:28px }
+.page-header p{ margin:0; color:var(--muted) }
 
-/* ===========================
-   Containers
-   =========================== */
+/* ==============
+   Conteneur
+   ============== */
 .container{
-  width:min(1100px, 92%);
-  margin: 0 auto 36px;
+  width:min(1200px,94%);
+  margin:10px auto 42px;
 }
 
-/* Champ de recherche (Lois) */
-#search{
-  width:100%;
-  padding:12px 14px;
-  border:1px solid var(--border);
-  border-radius:999px;
-  background:#fff;
-  outline:none;
-  transition:border-color .15s ease;
-  margin: 4px 0 18px;
+/* Champ de recherche commun */
+input[type="search"]{
+  width:100%; padding:12px 14px; margin:6px 0 14px;
+  border:1px solid var(--border); border-radius:10px; background:#fff;
+  font:inherit; outline:0;
 }
-#search:focus{ border-color: var(--accent); }
+input[type="search"]::placeholder{color:#94a3b8}
 
-/* ===========================
-   Grille & cartes (Lois)
-   =========================== */
-.cards-grid{
-  display:grid;
-  gap:16px;
+/* ==============
+   Grille de cartes LOIS
+   ============== */
+#lois{
+  display:grid; gap:16px;
   grid-template-columns: repeat(auto-fill, minmax(260px,1fr));
-  align-items: start;
+  align-items:start;
 }
 
-.card{
+/* compat: selon le HTML rendu, on couvre plusieurs cas */
+#lois .card,
+#lois .loi-card,
+#lois > div{
   background:var(--panel);
   border:1px solid var(--border);
-  border-radius: var(--radius);
+  border-radius:var(--radius);
   padding:14px 16px;
-  box-shadow: var(--shadow);
+  box-shadow:var(--shadow);
 }
-.card-title{
-  margin:0 0 .4rem;
-  font-weight:700;
-  font-size:1rem;
-}
-.card-meta{
-  display:grid;
-  gap:.2rem;
-  color:#364150;
-  font-size:.92rem;
-  margin:.3rem 0 .6rem;
-}
-.card-link{
-  display:inline-block;
-  color:var(--primary);
-  text-decoration:none;
-  font-weight:600;
-}
-.card-link:hover{ text-decoration:underline; }
 
-/* ===========================
-   Utilitaires
-   =========================== */
-.text-muted{ color:var(--muted); }
-.center{ text-align:center; }
+#lois .card h3,
+#lois .loi-card h3,
+#lois > div h3{
+  margin:0 0 .5rem; font-weight:700; font-size:1rem; line-height:1.25;
+}
 
-/* ===========================
-   Responsive légers
-   =========================== */
-@media (max-width: 520px){
-  .topbar{ padding:8px 12px; }
-  .container{ width:min(100%, 94%); }
+#lois .meta{ display:grid; gap:.25rem; color:#374151; font-size:.92rem; margin:.3rem 0 .6rem; }
+
+#lois a{ color:var(--accent); text-decoration:none; font-weight:600 }
+#lois a:hover{ text-decoration:underline }
+
+/* petits écrans */
+@media (max-width:540px){
+  .page-header h1{font-size:22px}
 }

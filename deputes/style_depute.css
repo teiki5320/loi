@@ -1,141 +1,103 @@
-/* === Style Députés (proche des cartes Lois) === */
-
-body {
-  margin: 0;
-  font-family: system-ui, sans-serif;
-  background: #f8f9fa;
-  color: #222;
+/* ==============
+   Variables & base (synchro avec style.css)
+   ============== */
+:root{
+  --bg: #f5f7fb;
+  --panel:#ffffff;
+  --text:#0f172a;
+  --muted:#475569;
+  --border:#e5e7eb;
+  --accent:#2563eb;
+  --radius:12px;
+  --shadow:0 2px 8px rgba(17,24,39,.08);
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  font-family: system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Arial,sans-serif;
+  color:var(--text); background:var(--bg);
 }
 
-header {
-  background: #0078d7;
-  color: #fff;
-  padding: 1rem;
-  text-align: center;
+/* ==============
+   Header bandeau bleu
+   ============== */
+header{
+  background:#0b63d1; color:#fff; padding:18px 12px; text-align:center;
+  position:sticky; top:0; z-index:20;
+  box-shadow:0 2px 6px rgba(0,0,0,.08);
+}
+header h1{margin:0; font-size:28px}
+
+/* ==============
+   Barre outils (recherche + filtres)
+   ============== */
+section{
+  width:min(1100px, 92%);
+  margin:12px auto 10px;
+  display:grid; grid-template-columns: 1fr 240px 240px; gap:10px;
+}
+input[type="search"], select{
+  padding:12px 12px; border:1px solid var(--border); border-radius:10px; background:#fff;
+  font:inherit; outline:0;
+}
+@media (max-width:860px){
+  section{ grid-template-columns:1fr; }
 }
 
-header h1 {
-  margin: 0;
-  font-size: 1.8rem;
+/* Légende des groupes */
+#groupes-legend{
+  width:min(1100px, 92%);
+  margin:4px auto 4px;
+  display:flex; flex-wrap:wrap; gap:10px 14px; color:#364150; font-size:.92rem;
+}
+.legend-item{ display:inline-flex; gap:6px; align-items:center; }
+.legend-dot{ width:10px; height:10px; border-radius:50%; display:inline-block; }
+
+/* Compteur + erreurs */
+#count{ width:min(1100px, 92%); margin:2px auto 8px; color:#374151; font-size:.92rem }
+#err{ width:min(1100px, 92%); margin:0 auto 8px; color:#b91c1c; white-space:pre-wrap }
+
+/* ==============
+   Grille des cartes
+   ============== */
+main#deputes-list{
+  width:min(1100px, 92%);
+  margin: 6px auto 36px;
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px,1fr));
+  gap:16px;
+  align-items:start;
 }
 
-section, #count, #err {
-  margin: 1rem auto;
-  max-width: 1100px;
-  padding: 0 1rem;
+/* Carte député -- classes attendues par le JS existant */
+.depute-card{
+  display:flex; gap:12px; align-items:flex-start;
+  background:var(--panel);
+  border:1px solid var(--border);
+  border-radius:var(--radius);
+  padding:12px;
+  box-shadow:var(--shadow);
+  min-height:96px;
 }
+.depute-photo{
+  width:72px; height:72px; flex:0 0 72px;
+  border-radius:50%; object-fit:cover; object-position:center;
+  background:#eef2f7; display:block;
+}
+.depute-header{ margin:.1rem 0 .25rem; font-size:1rem; font-weight:700; line-height:1.2 }
+.depute-meta{ color:#364150; font-size:.92rem; margin:.15rem 0 }
+.chip{
+  display:inline-block; padding:.15rem .5rem; border-radius:999px;
+  background:#eef2ff; border:1px solid #e5e7eb; font-size:.86rem; color:#374151
+}
+.depute-groupe{ font-weight:700 }
 
-input[type="search"], select {
-  padding: 0.5rem;
-  margin: 0.25rem;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  font-size: 1rem;
-}
+/* liens e‑mail */
+a{ color:var(--accent); text-decoration:none; font-weight:600 }
+a:hover{ text-decoration:underline }
 
-#count {
-  font-size: 0.9rem;
-  color: #444;
-}
-
-#err {
-  color: red;
-  white-space: pre-wrap;
-  font-size: 0.85rem;
-}
-
-/* === Grille de cartes === */
-#deputes-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 1rem;
-  max-width: 1200px;
-  margin: 1rem auto;
-  padding: 0 1rem;
-}
-
-/* === Carte député === */
-.depute-card {
-  display: flex;
-  align-items: flex-start;
-  gap: 0.8rem;
-  background: #fff;
-  border: 1px solid #e1e1e1;
-  border-radius: 10px;
-  padding: 0.8rem;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.08);
-  transition: transform 0.15s ease;
-}
-
-.depute-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 4px 10px rgba(0,0,0,0.12);
-}
-
-.depute-photo {
-  width: 72px;
-  height: 92px;
-  object-fit: cover;
-  border-radius: 6px;
-  background: #eee;
-  flex-shrink: 0;
-}
-
-.depute-header {
-  font-weight: bold;
-  font-size: 1.05rem;
-  margin-bottom: 0.25rem;
-}
-
-.depute-meta {
-  font-size: 0.9rem;
-  margin: 0.15rem 0;
-  color: #444;
-}
-
-a {
-  color: #0078d7;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
-}
-
-/* Chips (circo / dept) */
-.chip {
-  display: inline-block;
-  padding: 0.1rem 0.4rem;
-  margin-right: 0.3rem;
-  font-size: 0.8rem;
-  border-radius: 12px;
-  background: #eef3f8;
-  color: #333;
-}
-
-/* Groupe */
-.depute-groupe {
-  font-weight: bold;
-}
-
-/* Légende */
-#groupes-legend {
-  margin: 0.5rem auto;
-  max-width: 1100px;
-  font-size: 0.85rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.8rem;
-}
-
-.legend-item {
-  display: flex;
-  align-items: center;
-  gap: 0.3rem;
-}
-
-.legend-dot {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  display: inline-block;
+/* petits écrans */
+@media (max-width:420px){
+  header h1{font-size:22px}
+  .depute-photo{ width:64px; height:64px; flex-basis:64px }
 }
