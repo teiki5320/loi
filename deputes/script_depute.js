@@ -1,141 +1,165 @@
 /*************************************************
- * Députés -- cartes + groupes + photos
- * Données : /loi/deputes/deputes.json
+ * Députés -- cartes + photos + mapping groupes
+ * Données locales : ./deputes.json (généré par Actions)
  *************************************************/
-const URL_DEPUTES = "/loi/deputes/deputes.json";
 
-/* PO → {sigle, nom, couleur}  (exhaustif côté AN non garanti) */
+const URL_DEPUTES = "./deputes.json";
+
+/* Groupes (codes → sigle + nom + couleur) */
 const GROUPES = {
-  "PO800490": { sigle:"RE",  nom:"Renaissance",                              couleur:"#ffd700" },
-  "PO800491": { sigle:"RN",  nom:"Rassemblement National",                   couleur:"#1e90ff" },
-  "PO800492": { sigle:"LFI", nom:"La France insoumise",                      couleur:"#ff1493" },
-  "PO800493": { sigle:"SOC", nom:"Socialistes et apparentés (SOC)",          couleur:"#c62535" },
-  "PO800494": { sigle:"LR",  nom:"Les Républicains",                          couleur:"#4169e1" },
-  "PO800495": { sigle:"EELV",nom:"Écologiste et Social (ÉcoS)",              couleur:"#228b22" },
-  "PO845485": { sigle:"HOR", nom:"Horizons & Indépendants (HOR)",             couleur:"#8a2be2" },
-  "PO845454": { sigle:"UDI", nom:"UDI et Indépendants (UDI)",                 couleur:"#6495ed" },
-  "PO845429": { sigle:"LIOT",nom:"Libertés, Indépendants, Outre‑mer, Territoires (LIOT)", couleur:"#8b4513" },
-  "PO800496": { sigle:"DEM", nom:"Les Démocrates (MoDem & Ind.)",             couleur:"#20b2aa" },
-  "PO845452": { sigle:"GDR", nom:"Gauche Démocrate et Républicaine (GDR)",    couleur:"#b22222" },
-  "PO845470": { sigle:"NUP", nom:"Non‑inscrits proches NUPES / divers NUPES", couleur:"#ff4500" },
+  "PO800490": { sigle: "RE",  nom: "Renaissance",                             couleur: "#ffd700" },
+  "PO800491": { sigle: "RN",  nom: "Rassemblement national",                  couleur: "#1e90ff" },
+  "PO800492": { sigle: "LFI", nom: "La France insoumise",                     couleur: "#ff1493" },
+  "PO800493": { sigle: "SOC", nom: "Socialistes et apparentés",               couleur: "#dc143c" },
+  "PO800494": { sigle: "LR",  nom: "Les Républicains",                        couleur: "#4169e1" },
+  "PO800495": { sigle: "EELV",nom: "Écologistes",                             couleur: "#228b22" },
+  "PO845485": { sigle: "HOR", nom: "Horizons & Indépendants",                 couleur: "#8a2be2" },
+  "PO845454": { sigle: "UDI", nom: "UDI et Indépendants",                     couleur: "#6495ed" },
+  "PO845429": { sigle: "LIOT",nom: "Libertés, Indépendants, Outre‑mer…",      couleur: "#8b4513" },
+  "PO800496": { sigle: "DEM", nom: "Les Démocrates (MoDem & Ind.)",           couleur: "#20b2aa" },
+  "PO845452": { sigle: "GDR", nom: "Gauche Démocrate et Républicaine",        couleur: "#b22222" },
+  "PO845470": { sigle: "NUP", nom: "Non‑inscrits proches NUPES / divers NUPES",couleur: "#ff4500" },
 };
 
+const $ = sel => document.querySelector(sel);
 const els = {
-  q:       document.getElementById("q"),
-  g:       document.getElementById("groupe"),
-  d:       document.getElementById("dept"),
-  legend:  document.getElementById("groupes-legend"),
-  count:   document.getElementById("count"),
-  err:     document.getElementById("err"),
-  list:    document.getElementById("deputes-list"),
+  q:       $("#q"),
+  groupe:  $("#groupe"),
+  dept:    $("#dept"),
+  legend:  $("#groupes-legend"),
+  count:   $("#count"),
+  err:     $("#err"),
+  list:    $("#deputes-list"),
 };
-
-const noDia = s => (s||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
-const esc   = s => (s??"").toString().replace(/[&<>"]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[m]));
 
 let rows = [];
+let sortK = "nom";
+let sortAsc = true;
 
-/* Photos AN : on essaye 17 puis 16 puis 15, sinon placeholder */
-function photoURL(id, serie=17){
-  if(!id) return "";
-  return `https://www2.assemblee-nationale.fr/static/tribun/${serie}/photos/${id}.jpg`;
+/* Helpers */
+const esc = s => (s||"").replace(/[&<>"]/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
+const noDia = s => (s||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"");
+
+function photoSrc17(id){ return `https://www2.assemblee-nationale.fr/static/tribun/17/photos/${id}.jpg`; }
+function photoSrc16(id){ return `https://www2.assemblee-nationale.fr/static/tribun/16/photos/${id}.jpg`; }
+function photoSrc15(id){ return `https://www2.assemblee-nationale.fr/static/tribun/15/photos/${id}.jpg`; }
+function fallbackSvg(){
+  return "data:image/svg+xml;utf8," + encodeURIComponent(
+    `<svg xmlns='http://www.w3.org/2000/svg' width='92' height='92'>
+       <rect width='100%' height='100%' rx='8' ry='8' fill='#eef1f5'/>
+       <text x='50%' y='52%' text-anchor='middle' font-family='system-ui' font-size='12' fill='#9aa3ae'>photo</text>
+     </svg>`
+  );
 }
-function attachFallback(img, id){
-  const series=[17,16,15];
-  let i=0;
-  img.onerror=()=>{ i++; if(i<series.length) img.src=photoURL(id,series[i]); else img.src=placeholder(); };
-}
-function placeholder(){
-  return "data:image/svg+xml;utf8,"+
-    encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" width="92" height="92"><rect width="100%" height="100%" fill="#f1f3f6"/><text x="50%" y="52%" font-family="system-ui, sans-serif" text-anchor="middle" dominant-baseline="middle" font-size="12" fill="#9aa3ad">photo</text></svg>`);
+function chainOnError(img,id){
+  const chain = [photoSrc17(id), photoSrc16(id), photoSrc15(id), fallbackSvg()];
+  let i = 1;
+  img.onerror = () => { if(i < chain.length){ img.src = chain[i++]; } else { img.onerror=null; } };
 }
 
 /* Filtres */
 function hydrateFilters(){
-  if(els.g){
-    const sigles=[...new Set(rows.map(r=>GROUPES[r.groupe]?.nom || GROUPES[r.groupe]?.sigle || r.groupe).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"fr"));
-    els.g.innerHTML = `<option value="">Tous groupes</option>` + sigles.map(s=>`<option>${esc(s)}</option>`).join("");
-  }
-  if(els.d){
-    const depts=[...new Set(rows.map(r=>r.dept).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"fr"));
-    els.d.innerHTML = `<option value="">Tous départements</option>` + depts.map(d=>`<option>${esc(d)}</option>`).join("");
-  }
+  if(!els.groupe || !els.dept) return;
+  const uniqSort = a => [...new Set(a.filter(Boolean))].sort((x,y)=>x.localeCompare(y,'fr',{sensitivity:'base'}));
+
+  const groupesAff = uniqSort(rows.map(r => GROUPES[r.groupe]?.nom || GROUPES[r.groupe]?.sigle || r.groupe));
+  els.groupe.innerHTML = `<option value="">Tous groupes</option>` + groupesAff.map(g => `<option>${esc(g)}</option>`).join("");
+
+  const depts = uniqSort(rows.map(r => r.dept));
+  els.dept.innerHTML = `<option value="">Tous départements</option>` + depts.map(d => `<option>${esc(d)}</option>`).join("");
 }
+
 function renderLegend(){
   if(!els.legend) return;
-  const seen=new Set(rows.map(r=>r.groupe).filter(Boolean));
-  els.legend.innerHTML = [...seen].map(id=>{
-    const g=GROUPES[id]; if(!g) return "";
-    return `<span class="legend-item"><span class="legend-dot" style="background:${g.couleur}"></span>${esc(g.nom)}</span>`;
-  }).join("");
+  const seen = new Set(rows.map(r => r.groupe).filter(Boolean));
+  const items = [];
+  seen.forEach(id => {
+    const g = GROUPES[id];
+    if(!g) return;
+    items.push(`<span class="legend-item"><span class="legend-dot" style="background:${g.couleur}"></span>${esc(g.nom || g.sigle)}</span>`);
+  });
+  els.legend.innerHTML = items.join(" ");
 }
 
 /* Rendu cartes */
 function render(){
   if(!els.list) return;
-  const q=noDia(els.q?.value||"");
-  const gs=els.g?.value||"";
-  const ds=els.d?.value||"";
 
-  const data = rows.filter(r=>{
-    const gLabel = GROUPES[r.groupe]?.nom || GROUPES[r.groupe]?.sigle || r.groupe || "";
-    return (!gs || gLabel===gs)
-        && (!ds || r.dept===ds)
-        && (!q || [r.nom,r.circo,r.dept,gLabel,r.email].some(x=>noDia(x).includes(q)));
+  const q = (els.q?.value || "").toLowerCase().trim();
+  const gsel = (els.groupe?.value || "");
+  const dsel = (els.dept?.value || "");
+
+  let filt = rows.filter(r =>
+    (!gsel || (GROUPES[r.groupe]?.nom || GROUPES[r.groupe]?.sigle || r.groupe) === gsel) &&
+    (!dsel || r.dept === dsel) &&
+    (!q || [r.nom, r.circo, r.dept, GROUPES[r.groupe]?.nom, GROUPES[r.groupe]?.sigle, r.email]
+          .some(v => (v||"").toLowerCase().includes(q)))
+  );
+
+  // tri simple
+  filt.sort((a,b)=>{
+    const A = noDia((a[sortK]||"")+"").toLowerCase();
+    const B = noDia((b[sortK]||"")+"").toLowerCase();
+    return sortAsc ? (A>B?1:A<B?-1:0) : (A<B?1:A>B?-1:0);
   });
 
-  els.list.innerHTML = data.map(r=>{
-    const g = GROUPES[r.groupe] || { sigle:(r.groupe||"--"), nom:(r.groupe||"--"), couleur:"#999" };
-    const mail = r.email ? `<a href="mailto:${encodeURIComponent(r.email)}">${esc(r.email)}</a>` : "--";
-    const id = esc(r.id||"");
-    const src = photoURL(id,17) || placeholder();
+  els.list.innerHTML = filt.map(r=>{
+    const g = GROUPES[r.groupe] || { sigle: r.groupe, nom: r.groupe, couleur:"#777" };
+    const mail = r.email ? `<a href="mailto:${encodeURI(r.email)}">${esc(r.email)}</a>` : "";
+    const pid = `img-${esc(r.id)}`;
     return `
-      <article class="dp-card">
-        <img class="dp-photo" id="p-${id}" src="${src}" alt="Photo ${esc(r.nom)}" />
-        <div class="dp-body">
-          <h3 class="dp-name">${esc(r.nom||"--")}</h3>
-          <div class="dp-chips">
-            <span class="chip">Circo ${esc(r.circo||"--")}</span>
-            <span class="chip">${esc(r.dept||"--")}</span>
-          </div>
-          <div class="dp-group">Groupe : <b style="color:${g.couleur}">${esc(g.nom)}</b></div>
-          <div class="dp-mail">${mail}</div>
+      <article class="depute-card">
+        <div class="depute-photo-wrap">
+          <img id="${pid}" class="depute-photo" alt="Photo ${esc(r.nom)}" src="${photoSrc17(r.id)}">
         </div>
-      </article>`;
+        <div class="depute-body">
+          <h3 class="depute-name">${esc(r.nom)}</h3>
+          <div class="depute-lines">
+            <div>Circo <strong>${esc(r.circo || "--")}</strong> · ${esc(r.dept || "--")}</div>
+            <div>Groupe :
+              <span class="depute-groupe" style="color:${g.couleur}">${esc(g.nom || g.sigle)}</span>
+            </div>
+            <div>${mail}</div>
+          </div>
+        </div>
+      </article>
+    `;
   }).join("");
 
-  data.forEach(r=>{
-    const img=document.getElementById("p-"+(r.id||""));
-    if(img) attachFallback(img, r.id);
+  // chaînage des photos
+  filt.forEach(r=>{
+    const img = document.getElementById(`img-${r.id}`);
+    if(img) chainOnError(img, r.id);
   });
 
-  els.count && (els.count.textContent = `${data.length} député·e·s affiché·e·s`);
+  if(els.count) els.count.textContent = `${filt.length} député·e·s affiché·e·s`;
 }
+
+/* Listeners */
+els.q?.addEventListener("input", render);
+els.groupe?.addEventListener("change", render);
+els.dept?.addEventListener("change", render);
 
 /* Init */
 (async function init(){
   try{
-    const r = await fetch(`${URL_DEPUTES}?v=${Date.now()}`,{cache:"no-cache"});
-    if(!r.ok) throw new Error(`HTTP ${r.status}`);
-    const arr = await r.json();
-    rows = (arr||[]).filter(d=>d?.nom);
+    const res = await fetch(`${URL_DEPUTES}?v=${Date.now()}`, {cache:"no-cache"});
+    if(!res.ok) throw new Error(`HTTP ${res.status}`);
+    rows = await res.json();
 
-    // dédoublonnage par id
-    const seen=new Set();
+    // filtrer les entrées vides, dédoublonner
+    rows = (rows||[]).filter(d => d && d.nom);
+    const seen = new Set();
     rows = rows.filter(d=>{
-      const k=d.id||d.nom; if(seen.has(k)) return false; seen.add(k); return true;
+      const k = d.id || `${d.nom}|${d.circo||""}|${d.dept||""}`;
+      if(seen.has(k)) return false; seen.add(k); return true;
     });
 
     hydrateFilters();
     renderLegend();
-
-    els.q     && els.q.addEventListener("input",  render);
-    els.g     && els.g.addEventListener("change", render);
-    els.d     && els.d.addEventListener("change", render);
-
     render();
   }catch(e){
+    els.err && (els.err.textContent = `Erreur de chargement : ${e.message||e}`);
     console.error(e);
-    els.err && (els.err.textContent="Erreur de chargement des députés. "+(e?.message||e));
   }
 })();
