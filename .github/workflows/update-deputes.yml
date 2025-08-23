@@ -1,9 +1,9 @@
 name: Update deputes.json (daily, AMO10 L17)
 
 on:
-  workflow_dispatch:            # lancement manuel possible
+  workflow_dispatch:
   schedule:
-    - cron: "17 3 * * *"        # tous les jours à 03:17 UTC
+    - cron: "17 3 * * *"
 
 permissions:
   contents: write
@@ -11,7 +11,6 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -32,95 +31,90 @@ jobs:
           rm -rf data
           mkdir -p data
           unzip -o data.zip -d data
-          echo "Contenu extrait :"
-          find data -maxdepth 3 -type f -print
+          echo "=== Arborescence extraite ==="
+          find data -maxdepth 4 -type d -print | sed 's/^/DIR: /'
+          echo "=== Fichiers JSON (premiers 20) ==="
+          find data -type f -name '*.json' | head -20
 
-      # === 1) Construit le fichier simplifié des députés (ta logique actuelle) ===
+      # -------- deputes/deputes.json ----------
       - name: Build deputes.json (parser AMO10)
         run: |
           set -eux
           mkdir -p deputes
+          # Cherche les fichiers "acteur"
+          mapfile -t ACTEUR_FILES < <(find data -type f -path '*/json/acteur/*.json' | sort)
+          echo "Nb fichiers acteur: ${#ACTEUR_FILES[@]}"
+          if [ ${#ACTEUR_FILES[@]} -eq 0 ]; then
+            echo "ERREUR: aucun fichier acteur trouvé sous */json/acteur/*.json"
+            exit 1
+          fi
+
           jq -s '
-            # Chaque fichier a la racine `acteur`
-            map(
-              .acteur
-              | {
-                  id:     (.uid["#text"] // ""),
-                  # "Prénom Nom"
-                  nom:    (
-                            ((.etatCivil.ident.prenom // "") + " " + (.etatCivil.ident.nom // ""))
-                            | gsub("^\\s+|\\s+$";"")
-                          ),
+            map(.acteur)
+            | map({
+                id:     (.uid["#text"] // ""),
+                nom:    (((.etatCivil.ident.prenom // "") + " " + (.etatCivil.ident.nom // "")) | gsub("^\\s+|\\s+$";"")),
+                email: (
+                  ( [ (.adresses.adresse[]? | select(.typeLibelle=="Mèl") | .valElec) ] ) as $mails
+                  | ( $mails[] | select(test("assemblee-nationale\\.fr$")) ) // ($mails[0] // "")
+                ),
+                _mAss: ((.mandats.mandat // []) | map(select(.typeOrgane=="ASSEMBLEE")) | .[0]),
+                _mGp:  ((.mandats.mandat // []) | map(select(.typeOrgane=="GP"))         | .[0])
+              })
+            | map(
+                .circo  = (._mAss.election.lieu.numCirco   // "") |
+                .dept   = (._mAss.election.lieu.departement // "") |
+                .groupe = (._mGp.organes.organeRef // "") |
+                del(._mAss, ._mGp)
+              )
+          ' "${ACTEUR_FILES[@]}" > deputes/deputes.json
 
-                  # Email : on préfère l’adresse AN si présente, sinon la première "Mèl"
-                  email: (
-                    ( [ (.adresses.adresse[]?
-                          | select(.typeLibelle=="Mèl")
-                          | .valElec) ] ) as $mails
-                    | ( $mails[] | select(test("assemblee-nationale\\.fr$")) )
-                      // ($mails[0] // "")
-                  ),
+          echo "Taille deputes.json : $(jq length deputes/deputes.json)"
 
-                  # Mandat ASSEMBLÉE pour récupérer circo/département
-                  _mAss: (
-                    ( .mandats.mandat // [] )
-                    | map(select(.typeOrgane=="ASSEMBLEE"))
-                    | .[0]
-                  ),
-
-                  # Mandat GP pour récupérer la ref du groupe
-                  _mGp: (
-                    ( .mandats.mandat // [] )
-                    | map(select(.typeOrgane=="GP"))
-                    | .[0]
-                  )
-                }
-              | .circo  = (._mAss.election.lieu.numCirco   // "")
-              | .dept   = (._mAss.election.lieu.departement // "")
-              | .groupe = (._mGp.organes.organeRef // "")   # <- POxxxxx (clé stable)
-              | del(._mAss, ._mGp)
-            )
-          ' data/json/acteur/*.json > deputes/deputes.json
-
-          jq 'length' deputes/deputes.json
-
-      # === 2) Map des personnes : PAxxxxx -> "Prénom Nom" ===
+      # -------- maps/deputes_map.json (PA -> "Prénom Nom") ----------
       - name: Build deputes_map.json (PA → Nom)
         run: |
           set -eux
           mkdir -p maps
-          jq -s '
-            map(.acteur)
-            | map({
-                key:   (.uid["#text"] // ""),
-                value: (
-                  ((.etatCivil.ident.prenom // "") + " " + (.etatCivil.ident.nom // ""))
-                  | gsub("^\\s+|\\s+$";"")
-                )
-              })
-            | from_entries
-          ' data/json/acteur/*.json > maps/deputes_map.json
-          jq length maps/deputes_map.json
+          mapfile -t ACTEUR_FILES < <(find data -type f -path '*/json/acteur/*.json' | sort)
+          if [ ${#ACTEUR_FILES[@]} -eq 0 ]; then
+            echo "{}" > maps/deputes_map.json
+          else
+            jq -s '
+              map(.acteur)
+              | map({
+                  key: (.uid["#text"] // ""),
+                  value: (((.etatCivil.ident.prenom // "") + " " + (.etatCivil.ident.nom // "")) | gsub("^\\s+|\\s+$";""))
+                })
+              | from_entries
+            ' "${ACTEUR_FILES[@]}" > maps/deputes_map.json
+          fi
+          echo "Entrées PA: $(jq length maps/deputes_map.json)"
 
-      # === 3) Map des organes : POxxxxx -> { nom, sigle } ===
+      # -------- maps/organes_map.json (PO -> {nom,sigle}) ----------
       - name: Build organes_map.json (PO → {nom, sigle})
         run: |
           set -eux
-          jq -s '
-            map(.organe)
-            | map(select(.uid?))
-            | map({
-                key:   (.uid["#text"] // ""),
-                value: {
-                  nom:   (.libelle // .libelleEdition // .libelleAbrege // .acronyme // .sigle // (.uid["#text"] // "")),
-                  sigle: (.libelleAbrege // .acronyme // .sigle // (.uid["#text"] // ""))
-                }
-              })
-            | from_entries
-          ' data/json/organe/*.json > maps/organes_map.json
-          jq length maps/organes_map.json
+          mkdir -p maps
+          mapfile -t ORG_FILES < <(find data -type f -path '*/json/organe/*.json' | sort)
+          if [ ${#ORG_FILES[@]} -eq 0 ]; then
+            echo "{}" > maps/organes_map.json
+          else
+            jq -s '
+              map(.organe)
+              | map(select(.uid?))
+              | map({
+                  key: (.uid["#text"] // ""),
+                  value: {
+                    nom:   (.libelle // .libelleEdition // .libelleAbrege // .acronyme // .sigle // (.uid["#text"] // "")),
+                    sigle: (.libelleAbrege // .acronyme // .sigle // (.uid["#text"] // ""))
+                  }
+                })
+              | from_entries
+            ' "${ORG_FILES[@]}" > maps/organes_map.json
+          fi
+          echo "Entrées PO: $(jq length maps/organes_map.json)"
 
-      # === 4) Commit & push si changements ===
       - name: Commit & push if changed
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
