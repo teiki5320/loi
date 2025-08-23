@@ -1,125 +1,83 @@
-/* =====================================
-   Style pour index_depute.html (Députés)
-   cohérent avec l'accueil
-   ===================================== */
-
-body {
-  font-family: system-ui, -apple-system, sans-serif;
-  margin: 0;
-  background: #f8f9fa;
-  color: #222;
+:root{
+  --bg:#f5f7fb; --card:#fff; --text:#1f2937; --muted:#6b7280;
+  --primary:#0b66ff; --ring:rgba(11,102,255,.15); --br:14px;
+  --shadow:0 6px 24px rgba(0,0,0,.08);
 }
 
-header {
-  background: #0066cc;
-  color: white;
-  padding: 1.5rem;
-  text-align: center;
+*{box-sizing:border-box}
+html,body{margin:0}
+body{
+  font:16px/1.5 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, "Helvetica Neue", Arial, "Apple Color Emoji","Segoe UI Emoji";
+  color:var(--text);
+  background:var(--bg);
 }
 
-header h1 {
-  margin: 0;
-  font-size: 2rem;
+/* topbar */
+header{
+  background:var(--primary);
+  color:#fff;
+  padding:18px 16px;
+  position:sticky; top:0; z-index:20;
+  box-shadow:0 2px 12px rgba(0,0,0,.12);
+}
+h1{margin:0; font-weight:700; letter-spacing:.2px; text-align:center}
+
+section.toolbar{
+  padding:12px 16px 4px;
+  display:grid; gap:10px;
+  grid-template-columns:1fr 240px 240px;
+}
+@media (max-width:900px){ section.toolbar{ grid-template-columns:1fr 1fr; } }
+@media (max-width:640px){ section.toolbar{ grid-template-columns:1fr; } }
+
+input[type="search"], select{
+  width:100%; height:40px; padding:8px 12px; border-radius:10px;
+  border:1px solid #d5d8e1; background:#fff; color:var(--text);
+  outline:none;
+}
+input[type="search"]:focus, select:focus{ box-shadow:0 0 0 6px var(--ring); border-color:#b8c6ff }
+
+/* compteur + erreurs */
+#count{ padding:0 16px; color:var(--muted) }
+#err{ padding:0 16px; color:#b42318; white-space:pre-wrap }
+
+/* légende */
+#groupes-legend{ padding:2px 16px 12px }
+.legend-item{ display:inline-flex; align-items:center; gap:.5ch; margin-right:12px; color:var(--muted); font-size:.95rem }
+.legend-dot{ width:10px; height:10px; border-radius:50% }
+
+/* GRILLE DE CARTES */
+#deputes-list{
+  padding:8px 16px 40px;
+  display:grid; gap:14px;
+  grid-template-columns: repeat(4, minmax(0,1fr));
+}
+@media (max-width:1200px){ #deputes-list{ grid-template-columns:repeat(3, minmax(0,1fr)); } }
+@media (max-width:900px){  #deputes-list{ grid-template-columns:repeat(2, minmax(0,1fr)); } }
+@media (max-width:600px){  #deputes-list{ grid-template-columns:repeat(1, minmax(0,1fr)); } }
+
+.card{
+  background:var(--card); border-radius:var(--br);
+  box-shadow:var(--shadow); padding:14px; display:flex; gap:12px;
+  min-height:116px;
+  transition:transform .12s ease, box-shadow .12s ease;
+}
+.card:hover{ transform:translateY(-2px); box-shadow:0 10px 28px rgba(0,0,0,.12) }
+
+.photo{
+  width:72px; height:72px; border-radius:50%; object-fit:cover; flex:0 0 72px;
+  background:#eef1f6;
+  box-shadow:inset 0 0 0 1px rgba(0,0,0,.06);
 }
 
-section {
-  max-width: 1100px;
-  margin: 1.5rem auto;
-  padding: 0 1rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
+.title{ font-weight:700; margin:0 0 6px }
+.meta{ color:var(--muted); font-size:.93rem; margin:.1rem 0 }
+.chips{ display:flex; gap:6px; flex-wrap:wrap; margin:.35rem 0 }
+.chip{
+  background:#f0f3fa; color:#445;
+  border-radius:999px; padding:.2rem .6rem; font-size:.86rem;
 }
+.groupe{ font-weight:700 }
 
-section input,
-section select {
-  flex: 1;
-  min-width: 200px;
-  padding: .6rem .8rem;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  font-size: .95rem;
-}
-
-#groupes-legend {
-  max-width: 1100px;
-  margin: 0 auto 1rem;
-  padding: 0 1rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: .6rem;
-}
-
-.groupe-chip {
-  padding: .4rem .8rem;
-  border-radius: 999px;
-  font-size: .85rem;
-  font-weight: bold;
-  color: white;
-}
-
-#count {
-  max-width: 1100px;
-  margin: 0 auto 1rem;
-  padding: 0 1rem;
-  font-size: .9rem;
-  color: #444;
-}
-
-/* Liste des députés en cartes */
-#deputes-list {
-  max-width: 1100px;
-  margin: 0 auto 2rem;
-  padding: 0 1rem;
-  display: grid;
-  gap: 1rem;
-}
-
-.depute-card {
-  background: white;
-  border-radius: 10px;
-  padding: 1rem;
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
-}
-
-.depute-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
-}
-
-.depute-card img {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 2px solid #ddd;
-}
-
-.depute-info {
-  flex: 1;
-}
-
-.depute-info h3 {
-  margin: 0;
-  font-size: 1.1rem;
-  color: #0066cc;
-}
-
-.depute-info p {
-  margin: .2rem 0;
-  font-size: .9rem;
-  color: #555;
-}
-
-.depute-info a {
-  color: #0066cc;
-  text-decoration: none;
-}
-
-.depute-info a:hover {
-  text-decoration: underline;
-}
+a{ color:var(--primary); text-decoration:none }
+a:hover{ text-decoration:underline }
