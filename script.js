@@ -1,206 +1,121 @@
 /*************************************************
- * Députés -- cartes + filtres (JSON enrichi)
- * JSON attendu: /loi/deputes/deputes.json
- * Champs utilisés: id, nom, email, circo, dept, groupe, sigle, groupeNom
+ * Lois -- cartes + remplacement des auteurs (PA/PO)
+ * Ingrédients :
+ *   - ./lois/lois.json
+ *   - ./deputes/deputes.json            (map PA → Nom)
+ *   - ./organes_map.json  (optionnel)   (map PO → {nom, sigle})
  *************************************************/
 
-const URL_DEPUTES = "./deputes.json";   // depuis /loi/deputes/index_depute.html
+const URL_LOIS     = "./lois/lois.json";
+const URL_DEPUTES  = "./deputes/deputes.json";
+const URL_ORGANES1 = "./organes_map.json";   // selon ton workflow
+const URL_ORGANES2 = "./organes/organes_map.json"; // fallback si rangé ailleurs
 
-/* Couleurs par SIGLE (modifiable à souhait) */
-const GROUP_COLORS = {
-  RE:   "#ffd700",
-  RN:   "#1e90ff",
-  LFI:  "#ff1493",
-  SOC:  "#dc143c",
-  LR:   "#4169e1",
-  EELV: "#228b22",
-  HOR:  "#8a2be2",
-  UDI:  "#6495ed",
-  LIOT: "#8b4513",
-  DEM:  "#20b2aa",
-  GDR:  "#b22222",
-  NUP:  "#ff4500"
-};
-
+// DOM
+const $ = (s) => document.querySelector(s);
 const el = {
-  q:       document.getElementById("q"),
-  groupe:  document.getElementById("groupe"),
-  dept:    document.getElementById("dept"),
-  count:   document.getElementById("count"),
-  err:     document.getElementById("err"),
-  list:    document.getElementById("deputes-list"),
-  legend:  document.getElementById("groupes-legend")
+  grid:   $("#lois"),
+  search: $("#search"),
 };
 
-let rows = [];
-let sortK = "nom";
-let sortAsc = true;
+// stockages
+let LOIS = [];
+const MAP_PA = Object.create(null);   // { "PA4100": "Nom Prénom" }
+const MAP_PO = Object.create(null);   // { "PO845485": {nom, sigle} }
 
-/* Utils */
-const noDia = s => (s||"").normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-const esc   = s => (s||"").replace(/[&<>"]/g, m => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]));
-const showError = (msg,e) => { el.err && (el.err.textContent = msg + (e? "\n"+(e.message||e):"")); console.error(msg,e); };
+// utils
+const esc = s => (s ?? "").replace(/[&<>"]/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
+const includesQ = (val, q) => (val||"").toLowerCase().includes(q);
 
-/* Photos */
-function buildPhoto(id) {
-  if (!id) {
-    return "data:image/svg+xml;utf8," +
-      "<svg xmlns='http://www.w3.org/2000/svg' width='92' height='92'>" +
-      "<rect width='100%' height='100%' fill='%23f0f0f0'/>" +
-      "<text x='50%' y='54%' dominant-baseline='middle' text-anchor='middle' " +
-      "font-family='sans-serif' font-size='12' fill='%23999'>photo</text></svg>";
+// --- charge organes_map.json si présent (optionnel) ---
+async function tryLoadOrganes() {
+  // essaie chemin 1 puis 2 ; si erreur → ignorer
+  for (const u of [URL_ORGANES1, URL_ORGANES2]) {
+    try {
+      const r = await fetch(u, { cache: "no-cache" });
+      if (!r.ok) continue;
+      const data = await r.json();
+      Object.entries(data || {}).forEach(([po, obj]) => { MAP_PO[po] = obj; });
+      return; // chargé
+    } catch {}
   }
-  return `https://www2.assemblee-nationale.fr/static/tribun/17/photos/${id}.jpg`;
-}
-function chainOnError(img, id) {
-  const order = [
-    `https://www2.assemblee-nationale.fr/static/tribun/17/photos/${id}.jpg`,
-    `https://www2.assemblee-nationale.fr/static/tribun/16/photos/${id}.jpg`,
-    `https://www2.assemblee-nationale.fr/static/tribun/15/photos/${id}.jpg`
-  ];
-  let i = 0;
-  img.onerror = () => {
-    i++;
-    if (i < order.length) img.src = order[i];
-    else { img.onerror = null; img.src = buildPhoto(""); }
-  };
 }
 
-/* Filtres (menu groupe = libellé long + sigle) */
-function hydrateFilters() {
-  if (!el.groupe || !el.dept) return;
+// --- traduit une chaîne "auteur" en libellé humain ---
+function normalizeAuteurs(auteur) {
+  if (!auteur) return "";
+  // extrait tous les tokens style PA/PO + digits
+  const tokens = String(auteur).match(/\bP[AO]\d+\b/g) || [];
+  if (tokens.length === 0) return auteur; // rien à mapper
 
-  const uniq = a => [...new Set(a.filter(Boolean))];
-
-  // options groupes visibles (présents dans les données)
-  const gs = uniq(rows.map(r => `${r.groupeNom || r.sigle || r.groupe || "Autre"}|||${r.sigle || ""}`));
-  gs.sort((a,b) => {
-    const an = a.split("|||")[0], bn = b.split("|||")[0];
-    return an.localeCompare(bn, "fr", {sensitivity:"base"});
+  const labels = tokens.map(code => {
+    if (code.startsWith("PA") && MAP_PA[code]) {
+      return MAP_PA[code];
+    }
+    if (code.startsWith("PO") && MAP_PO[code]) {
+      const { sigle, nom } = MAP_PO[code];
+      // Affiche le sigle s’il existe, sinon le nom complet
+      return sigle ? `${sigle} -- ${nom}` : (nom || code);
+    }
+    return code; // inconnu, on garde le code
   });
 
-  el.groupe.innerHTML =
-    `<option value="">Tous groupes</option>` +
-    gs.map(s => {
-      const [nom, sig] = s.split("|||");
-      const label = sig ? `${esc(nom)} (${esc(sig)})` : esc(nom);
-      // on filtre par sigle si dispo, sinon par nom long
-      const value = sig || nom;
-      return `<option value="${esc(value)}">${label}</option>`;
-    }).join("");
-
-  const depts = uniq(rows.map(r => r.dept)).sort((a,b)=>a.localeCompare(b,"fr",{sensitivity:"base"}));
-  el.dept.innerHTML =
-    `<option value="">Tous départements</option>` +
-    depts.map(d=>`<option>${esc(d)}</option>`).join("");
+  // déduplique et recombine proprement
+  const uniq = [...new Set(labels)];
+  return uniq.join(", ");
 }
 
-/* Légende (optionnelle) */
-function renderLegend() {
-  if (!el.legend) return;
-  const seen = new Set();
-  const items = [];
-  rows.forEach(r => {
-    const sig = r.sigle || "";
-    if (!sig || seen.has(sig)) return;
-    seen.add(sig);
-    const col = GROUP_COLORS[sig] || "#999";
-    const nom = r.groupeNom || sig;
-    items.push(`<span class="legend-item"><span class="legend-dot" style="background:${col}"></span>${esc(nom)} (${esc(sig)})</span>`);
-  });
-  el.legend.innerHTML = items.join(" ");
-}
-
-/* Rendu */
+// --- rendu des cartes ---
 function render() {
-  if (!el.list) return;
+  if (!el.grid) return;
+  const q = (el.search?.value || "").trim().toLowerCase();
 
-  const q = (el.q?.value || "").trim().toLowerCase();
-  const gsel = (el.groupe?.value || "");
-  const dsel = (el.dept?.value || "");
+  const list = LOIS.filter(l =>
+    !q ||
+    includesQ(l.titre, q) ||
+    includesQ(l.type, q)  ||
+    includesQ(l.auteurNom, q) ||
+    includesQ(l.etat, q)
+  );
 
-  let filtered = rows.filter(r => {
-    const sig = r.sigle || "";
-    const nomLong = r.groupeNom || "";
-    const matchGroup = !gsel || sig === gsel || nomLong === gsel;
-    const matchDept  = !dsel || r.dept === dsel;
-    const hay = [r.nom, r.circo, r.dept, sig, nomLong, r.email].join(" ").toLowerCase();
-    const matchQ = !q || hay.includes(q);
-    return matchGroup && matchDept && matchQ;
-  });
-
-  // tri alphabétique par défaut (nom)
-  filtered.sort((a,b)=>{
-    const va = noDia((a[sortK]||"")+"").toLowerCase();
-    const vb = noDia((b[sortK]||"")+"").toLowerCase();
-    return sortAsc ? (va>vb?1:va<vb?-1:0) : (va<vb?1:va>vb?-1:0);
-  });
-
-  el.list.innerHTML = filtered.map(r => {
-    const sig = r.sigle || r.groupe || "";
-    const col = GROUP_COLORS[sig] || "#999";
-    const nomG = r.groupeNom || sig || "--";
-    const mail = r.email ? `<a href="mailto:${encodeURI(r.email)}">${esc(r.email)}</a>` : "--";
-    const photo = buildPhoto(r.id);
-    return `
-      <div class="depute-card">
-        <div>
-          <img class="depute-photo" src="${photo}" alt="Photo ${esc(r.nom)}" id="img-${esc(r.id)}">
-        </div>
-        <div>
-          <div class="depute-header">${esc(r.nom)}</div>
-          <div class="depute-meta">
-            <span class="chip">Circo ${esc(r.circo || "--")}</span>
-            <span class="chip">${esc(r.dept || "--")}</span>
-          </div>
-          <div class="depute-meta">
-            Groupe :
-            <span class="depute-groupe" title="${esc(nomG)}" style="color:${col}">${esc(sig || "--")}</span>
-            <span class="muted" style="margin-left:.35rem">${esc(nomG)}</span>
-          </div>
-          <div class="depute-meta">
-            ${mail}
-          </div>
-        </div>
-      </div>
-    `;
-  }).join("");
-
-  // fallback photo
-  filtered.forEach(r => {
-    const img = document.getElementById(`img-${r.id}`);
-    if (img) chainOnError(img, r.id);
-  });
-
-  if (el.count) el.count.textContent = `${filtered.length} député·e·s affiché·e·s`;
+  el.grid.innerHTML = list.map(l => `
+    <div class="card">
+      <h3 class="card-title" title="${esc(l.titre || "")}">${esc(l.titre || "Sans titre")}</h3>
+      <p><b>Type :</b> ${esc(l.type || "")}</p>
+      <p><b>Auteur :</b> ${esc(l.auteurNom || l.auteur || "--")}</p>
+      ${l.date ? `<p><b>Date :</b> ${esc(l.date)}</p>` : ""}
+      ${l.etat ? `<p><b>État :</b> ${esc(l.etat)}</p>` : ""}
+      ${l.url  ? `<p><a href="${esc(l.url)}" target="_blank" rel="noopener">Voir le dossier</a></p>` : ""}
+    </div>
+  `).join("");
 }
 
-/* Listeners */
-el.q     && el.q.addEventListener("input", render);
-el.groupe&& el.groupe.addEventListener("change", render);
-el.dept  && el.dept.addEventListener("change", render);
+// --- init ---
+(async function init() {
+  try {
+    // 1) charger députés → map PA
+    const depRes = await fetch(URL_DEPUTES, { cache: "no-cache" });
+    if (depRes.ok) {
+      const deps = await depRes.json();
+      (deps || []).forEach(d => { if (d?.id && d?.nom) MAP_PA[d.id] = d.nom; });
+    }
 
-/* Init */
-(async function init(){
-  try{
-    const r = await fetch(`${URL_DEPUTES}?v=${Date.now()}`, { cache:"no-cache" });
-    if (!r.ok) throw new Error(`HTTP ${r.status}`);
-    rows = await r.json();
+    // 2) charger organes (optionnel)
+    await tryLoadOrganes();
 
-    // garde-fous
-    rows = (rows || []).filter(d => d && (d.nom || "").trim().length);
-    // dédoublonnage
-    const seen = new Set();
-    rows = rows.filter(d => {
-      const key = d.id || `${d.nom}|${d.circo||""}|${d.dept||""}`;
-      if (seen.has(key)) return false; seen.add(key); return true;
-    });
+    // 3) charger lois
+    const loisRes = await fetch(URL_LOIS, { cache: "no-cache" });
+    if (!loisRes.ok) throw new Error(`Chargement lois.json: HTTP ${loisRes.status}`);
+    LOIS = await loisRes.json();
 
-    hydrateFilters();
-    renderLegend();
+    // 4) enrichir auteurs
+    LOIS.forEach(l => { l.auteurNom = normalizeAuteurs(l.auteur); });
+
+    // 5) premier rendu + recherche live
     render();
-  } catch(e){
-    showError("Impossible de charger deputes.json.", e);
-    if (el.count) el.count.textContent = "Erreur de chargement";
+    el.search && el.search.addEventListener("input", render);
+  } catch (e) {
+    console.error(e);
+    if (el.grid) el.grid.innerHTML = `<p style="color:#c00">Erreur de chargement des données.</p>`;
   }
 })();
