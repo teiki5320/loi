@@ -5,7 +5,9 @@
     "email": "Alain.David@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Gironde",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA1327",
@@ -13,7 +15,9 @@
     "email": "Nicolas.Forissier@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Indre",
-    "groupe": "PO845425"
+    "groupe": "PO845425",
+    "sigle": "DR",
+    "groupeNom": "Droite Républicaine"
   },
   {
     "id": "PA1567",
@@ -21,7 +25,9 @@
     "email": "jerome.guedj@assemblee-nationale.fr",
     "circo": "6",
     "dept": "Essonne",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA1592",
@@ -29,7 +35,9 @@
     "email": "David.Habib@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Pyrénées-Atlantiques",
-    "groupe": "PO845485"
+    "groupe": "PO845485",
+    "sigle": "LIOT",
+    "groupeNom": "Libertés, Indépendants, Outre-mer et Territoires"
   },
   {
     "id": "PA1630",
@@ -37,7 +45,9 @@
     "email": "Michel.Herbillon@assemblee-nationale.fr",
     "circo": "8",
     "dept": "Val-de-Marne",
-    "groupe": "PO845425"
+    "groupe": "PO845425",
+    "sigle": "DR",
+    "groupeNom": "Droite Républicaine"
   },
   {
     "id": "PA1654",
@@ -45,7 +55,9 @@
     "email": "francois.hollande@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Corrèze",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA266793",
@@ -53,7 +65,9 @@
     "email": "Jean-Yves.Bony@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Cantal",
-    "groupe": "PO845425"
+    "groupe": "PO845425",
+    "sigle": "DR",
+    "groupeNom": "Droite Républicaine"
   },
   {
     "id": "PA266797",
@@ -61,7 +75,9 @@
     "email": "philippe.gosselin@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Manche",
-    "groupe": "PO845425"
+    "groupe": "PO845425",
+    "sigle": "DR",
+    "groupeNom": "Droite Républicaine"
   },
   {
     "id": "PA266808",
@@ -69,7 +85,9 @@
     "email": "Vincent.Rolland@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Savoie",
-    "groupe": "PO845425"
+    "groupe": "PO845425",
+    "sigle": "DR",
+    "groupeNom": "Droite Républicaine"
   },
   {
     "id": "PA267042",
@@ -77,7 +95,9 @@
     "email": "Yannick.Favennec@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Mayenne",
-    "groupe": "PO845485"
+    "groupe": "PO845485",
+    "sigle": "LIOT",
+    "groupeNom": "Libertés, Indépendants, Outre-mer et Territoires"
   },
   {
     "id": "PA267200",
@@ -85,7 +105,9 @@
     "email": "sebastien.huyghe@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Nord",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA267285",
@@ -93,7 +115,9 @@
     "email": "laurent.wauquiez@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Haute-Loire",
-    "groupe": "PO845425"
+    "groupe": "PO845425",
+    "sigle": "DR",
+    "groupeNom": "Droite Républicaine"
   },
   {
     "id": "PA267318",
@@ -101,7 +125,9 @@
     "email": "Jean-Carles.Grelier@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Sarthe",
-    "groupe": "PO845454"
+    "groupe": "PO845454",
+    "sigle": "Dem",
+    "groupeNom": "Les Démocrates"
   },
   {
     "id": "PA267763",
@@ -109,7 +135,9 @@
     "email": "jean-pierre.bataille@assemblee-nationale.fr",
     "circo": "15",
     "dept": "Nord",
-    "groupe": "PO845485"
+    "groupe": "PO845485",
+    "sigle": "LIOT",
+    "groupeNom": "Libertés, Indépendants, Outre-mer et Territoires"
   },
   {
     "id": "PA267780",
@@ -117,7 +145,9 @@
     "email": "Agnes.FirminLeBodo@assemblee-nationale.fr",
     "circo": "7",
     "dept": "Seine-Maritime",
-    "groupe": "PO845470"
+    "groupe": "PO845470",
+    "sigle": "HOR",
+    "groupeNom": "Horizons & Indépendants"
   },
   {
     "id": "PA267794",
@@ -125,7 +155,9 @@
     "email": "Michele.Tabarot@assemblee-nationale.fr",
     "circo": "9",
     "dept": "Alpes-Maritimes",
-    "groupe": "PO845425"
+    "groupe": "PO845425",
+    "sigle": "DR",
+    "groupeNom": "Droite Républicaine"
   },
   {
     "id": "PA2940",
@@ -133,7 +165,9 @@
     "email": "dominique.voynet@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Doubs",
-    "groupe": "PO845439"
+    "groupe": "PO845439",
+    "sigle": "EcoS",
+    "groupeNom": "Écologiste et Social"
   },
   {
     "id": "PA2952",
@@ -141,7 +175,9 @@
     "email": "Jean-Luc.Warsmann@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Ardennes",
-    "groupe": "PO845485"
+    "groupe": "PO845485",
+    "sigle": "LIOT",
+    "groupeNom": "Libertés, Indépendants, Outre-mer et Territoires"
   },
   {
     "id": "PA2960",
@@ -149,7 +185,9 @@
     "email": "Eric.Woerth@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Oise",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA309643",
@@ -157,7 +195,9 @@
     "email": "veronique.besse@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Vendée",
-    "groupe": "PO840056"
+    "groupe": "PO840056",
+    "sigle": "NI",
+    "groupeNom": "Non inscrit"
   },
   {
     "id": "PA330008",
@@ -165,7 +205,9 @@
     "email": "Xavier.Breton@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Ain",
-    "groupe": "PO845425"
+    "groupe": "PO845425",
+    "sigle": "DR",
+    "groupeNom": "Droite Républicaine"
   },
   {
     "id": "PA330240",
@@ -173,7 +215,9 @@
     "email": "Eric.Ciotti@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Alpes-Maritimes",
-    "groupe": "PO847173"
+    "groupe": "PO847173",
+    "sigle": "UDR",
+    "groupeNom": "UDR"
   },
   {
     "id": "PA330909",
@@ -181,7 +225,9 @@
     "email": "Vincent.Descoeur@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Cantal",
-    "groupe": "PO845425"
+    "groupe": "PO845425",
+    "sigle": "DR",
+    "groupeNom": "Droite Républicaine"
   },
   {
     "id": "PA331582",
@@ -189,7 +235,9 @@
     "email": "Philippe.Vigier@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Eure-et-Loir",
-    "groupe": "PO845454"
+    "groupe": "PO845454",
+    "sigle": "Dem",
+    "groupeNom": "Les Démocrates"
   },
   {
     "id": "PA331973",
@@ -197,7 +245,9 @@
     "email": "pascale.got@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Gironde",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA332228",
@@ -205,7 +255,9 @@
     "email": "Thierry.Benoit@assemblee-nationale.fr",
     "circo": "6",
     "dept": "Ille-et-Vilaine",
-    "groupe": "PO845470"
+    "groupe": "PO845470",
+    "sigle": "HOR",
+    "groupeNom": "Horizons & Indépendants"
   },
   {
     "id": "PA332523",
@@ -213,7 +265,9 @@
     "email": "Marie-Christine.Dalloz@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Jura",
-    "groupe": "PO845425"
+    "groupe": "PO845425",
+    "sigle": "DR",
+    "groupeNom": "Droite Républicaine"
   },
   {
     "id": "PA333285",
@@ -221,7 +275,9 @@
     "email": "Guillaume.Garot@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Mayenne",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA335054",
@@ -229,7 +285,9 @@
     "email": "Marietta.Karamanli@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Sarthe",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA335612",
@@ -237,7 +295,9 @@
     "email": "Jean-Paul.Lecoq@assemblee-nationale.fr",
     "circo": "8",
     "dept": "Seine-Maritime",
-    "groupe": "PO845514"
+    "groupe": "PO845514",
+    "sigle": "GDR",
+    "groupeNom": "Gauche Démocrate et Républicaine"
   },
   {
     "id": "PA335758",
@@ -245,7 +305,9 @@
     "email": "franck.riester@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Seine-et-Marne",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA335999",
@@ -253,7 +315,9 @@
     "email": "Delphine.Batho@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Deux-Sèvres",
-    "groupe": "PO845439"
+    "groupe": "PO845439",
+    "sigle": "EcoS",
+    "groupeNom": "Écologiste et Social"
   },
   {
     "id": "PA340343",
@@ -261,7 +325,9 @@
     "email": "Herve.Saulignac@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Ardèche",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA341981",
@@ -269,7 +335,9 @@
     "email": "marie.recalde@assemblee-nationale.fr",
     "circo": "6",
     "dept": "Gironde",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA342196",
@@ -277,7 +345,9 @@
     "email": "claudia.rouaux@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Ille-et-Vilaine",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA342240",
@@ -285,7 +355,9 @@
     "email": "jean-luc.bourgeaux@assemblee-nationale.fr",
     "circo": "7",
     "dept": "Ille-et-Vilaine",
-    "groupe": "PO845425"
+    "groupe": "PO845425",
+    "sigle": "DR",
+    "groupeNom": "Droite Républicaine"
   },
   {
     "id": "PA342384",
@@ -293,7 +365,9 @@
     "email": "elisa.martin@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Isère",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA342415",
@@ -301,7 +375,9 @@
     "email": "Marie-Noelle.Battistel@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Isère",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA345722",
@@ -309,7 +385,9 @@
     "email": "Constance.LeGrip@assemblee-nationale.fr",
     "circo": "6",
     "dept": "Hauts-de-Seine",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA346782",
@@ -317,7 +395,9 @@
     "email": "philippe.juvin@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Hauts-de-Seine",
-    "groupe": "PO845425"
+    "groupe": "PO845425",
+    "sigle": "DR",
+    "groupeNom": "Droite Républicaine"
   },
   {
     "id": "PA408578",
@@ -325,7 +405,9 @@
     "email": "jean-didier.berger@assemblee-nationale.fr",
     "circo": "12",
     "dept": "Hauts-de-Seine",
-    "groupe": "PO845425"
+    "groupe": "PO845425",
+    "sigle": "DR",
+    "groupeNom": "Droite Républicaine"
   },
   {
     "id": "PA569",
@@ -333,7 +415,9 @@
     "email": "philippe.bonnecarrere@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Tarn",
-    "groupe": "PO840056"
+    "groupe": "PO840056",
+    "sigle": "NI",
+    "groupeNom": "Non inscrit"
   },
   {
     "id": "PA588884",
@@ -341,7 +425,9 @@
     "email": "Clementine.Autain@assemblee-nationale.fr",
     "circo": "11",
     "dept": "Seine-Saint-Denis",
-    "groupe": "PO845439"
+    "groupe": "PO845439",
+    "sigle": "EcoS",
+    "groupeNom": "Écologiste et Social"
   },
   {
     "id": "PA605694",
@@ -349,7 +435,9 @@
     "email": "Olivier.Falorni@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Charente-Maritime",
-    "groupe": "PO845454"
+    "groupe": "PO845454",
+    "sigle": "Dem",
+    "groupeNom": "Les Démocrates"
   },
   {
     "id": "PA605745",
@@ -357,7 +445,9 @@
     "email": "nicolas.sansu@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Cher",
-    "groupe": "PO845514"
+    "groupe": "PO845514",
+    "sigle": "GDR",
+    "groupeNom": "Gauche Démocrate et Républicaine"
   },
   {
     "id": "PA606507",
@@ -365,7 +455,9 @@
     "email": "Florent.Boudie@assemblee-nationale.fr",
     "circo": "10",
     "dept": "Gironde",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA606545",
@@ -373,7 +465,9 @@
     "email": "jean-louis.roumegas@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Hérault",
-    "groupe": "PO845439"
+    "groupe": "PO845439",
+    "sigle": "EcoS",
+    "groupeNom": "Écologiste et Social"
   },
   {
     "id": "PA606573",
@@ -381,7 +475,9 @@
     "email": "fanny.dombrecoste@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Hérault",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA606793",
@@ -389,7 +485,9 @@
     "email": "laurent.baumel@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Indre-et-Loire",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA607090",
@@ -397,7 +495,9 @@
     "email": "Jean-Pierre.Vigier@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Haute-Loire",
-    "groupe": "PO845425"
+    "groupe": "PO845425",
+    "sigle": "DR",
+    "groupeNom": "Droite Républicaine"
   },
   {
     "id": "PA607193",
@@ -405,7 +505,9 @@
     "email": "Sophie.Errante@assemblee-nationale.fr",
     "circo": "10",
     "dept": "Loire-Atlantique",
-    "groupe": "PO840056"
+    "groupe": "PO840056",
+    "sigle": "NI",
+    "groupeNom": "Non inscrit"
   },
   {
     "id": "PA607395",
@@ -413,7 +515,9 @@
     "email": "Stephane.Travert@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Manche",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA607553",
@@ -421,7 +525,9 @@
     "email": "Dominique.Potier@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Meurthe-et-Moselle",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA607619",
@@ -429,7 +535,9 @@
     "email": "Paul.Molac@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Morbihan",
-    "groupe": "PO845485"
+    "groupe": "PO845485",
+    "sigle": "LIOT",
+    "groupeNom": "Libertés, Indépendants, Outre-mer et Territoires"
   },
   {
     "id": "PA608172",
@@ -437,7 +545,9 @@
     "email": "Christine.PiresBeaune@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Puy-de-Dôme",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA608264",
@@ -445,7 +555,9 @@
     "email": "colette.capdevielle@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Pyrénées-Atlantiques",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA608416",
@@ -453,7 +565,9 @@
     "email": "Patrick.Hetzel@assemblee-nationale.fr",
     "circo": "7",
     "dept": "Bas-Rhin",
-    "groupe": "PO845425"
+    "groupe": "PO845425",
+    "sigle": "DR",
+    "groupeNom": "Droite Républicaine"
   },
   {
     "id": "PA608826",
@@ -461,7 +575,9 @@
     "email": "Virginie.Duby-Muller@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Haute-Savoie",
-    "groupe": "PO845425"
+    "groupe": "PO845425",
+    "sigle": "DR",
+    "groupeNom": "Droite Républicaine"
   },
   {
     "id": "PA609332",
@@ -469,7 +585,9 @@
     "email": "Olivier.Faure@assemblee-nationale.fr",
     "circo": "11",
     "dept": "Seine-et-Marne",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA610002",
@@ -477,7 +595,9 @@
     "email": "eva.sas@assemblee-nationale.fr",
     "circo": "8",
     "dept": "Paris",
-    "groupe": "PO845439"
+    "groupe": "PO845439",
+    "sigle": "EcoS",
+    "groupeNom": "Écologiste et Social"
   },
   {
     "id": "PA610654",
@@ -485,7 +605,9 @@
     "email": "Jean-Philippe.Nilor@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Martinique",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA610968",
@@ -493,7 +615,9 @@
     "email": "pouria.amirshahi@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Paris",
-    "groupe": "PO845439"
+    "groupe": "PO845439",
+    "sigle": "EcoS",
+    "groupeNom": "Écologiste et Social"
   },
   {
     "id": "PA642695",
@@ -501,7 +625,9 @@
     "email": "Eric.Bothorel@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Côtes-d'Armor",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA642725",
@@ -509,7 +635,9 @@
     "email": "eric.liegeon@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Doubs",
-    "groupe": "PO845425"
+    "groupe": "PO845425",
+    "sigle": "DR",
+    "groupeNom": "Droite Républicaine"
   },
   {
     "id": "PA642764",
@@ -517,7 +645,9 @@
     "email": "Joel.Aviragnet@assemblee-nationale.fr",
     "circo": "8",
     "dept": "Haute-Garonne",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA642847",
@@ -525,7 +655,9 @@
     "email": "Thibault.Bazin@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Meurthe-et-Moselle",
-    "groupe": "PO845425"
+    "groupe": "PO845425",
+    "sigle": "DR",
+    "groupeNom": "Droite Républicaine"
   },
   {
     "id": "PA642868",
@@ -533,7 +665,9 @@
     "email": "Paul.Christophe@assemblee-nationale.fr",
     "circo": "14",
     "dept": "Nord",
-    "groupe": "PO845470"
+    "groupe": "PO845470",
+    "sigle": "HOR",
+    "groupeNom": "Horizons & Indépendants"
   },
   {
     "id": "PA642935",
@@ -541,7 +675,9 @@
     "email": "olivier.becht@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Haut-Rhin",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA642988",
@@ -549,7 +685,9 @@
     "email": "herve.delepinau@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Vaucluse",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA643089",
@@ -557,7 +695,9 @@
     "email": "Jean-Louis.Thieriot@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Seine-et-Marne",
-    "groupe": "PO845425"
+    "groupe": "PO845425",
+    "sigle": "DR",
+    "groupeNom": "Droite Républicaine"
   },
   {
     "id": "PA643104",
@@ -565,7 +705,9 @@
     "email": "christelle.minard@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Eure-et-Loir",
-    "groupe": "PO845425"
+    "groupe": "PO845425",
+    "sigle": "DR",
+    "groupeNom": "Droite Républicaine"
   },
   {
     "id": "PA643143",
@@ -573,7 +715,9 @@
     "email": "christian.baptiste@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Guadeloupe",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA643157",
@@ -581,7 +725,9 @@
     "email": "philippe.naillet@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Réunion",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA643175",
@@ -589,7 +735,9 @@
     "email": "Stella.Dupont@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Maine-et-Loire",
-    "groupe": "PO840056"
+    "groupe": "PO840056",
+    "sigle": "NI",
+    "groupeNom": "Non inscrit"
   },
   {
     "id": "PA643184",
@@ -597,7 +745,9 @@
     "email": "brigitte.klinkert@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Haut-Rhin",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA643192",
@@ -605,7 +755,9 @@
     "email": "chantal.jourdan@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Orne",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA677483",
@@ -613,7 +765,9 @@
     "email": "Stephane.Mazars@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Aveyron",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA687214",
@@ -621,7 +775,9 @@
     "email": "sylvain.berrios@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Val-de-Marne",
-    "groupe": "PO845470"
+    "groupe": "PO845470",
+    "sigle": "HOR",
+    "groupeNom": "Horizons & Indépendants"
   },
   {
     "id": "PA695512",
@@ -629,7 +785,9 @@
     "email": "guillaume.lepers@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Lot-et-Garonne",
-    "groupe": "PO845425"
+    "groupe": "PO845425",
+    "sigle": "DR",
+    "groupeNom": "Droite Républicaine"
   },
   {
     "id": "PA712014",
@@ -637,7 +795,9 @@
     "email": "Vincent.Ledoux@assemblee-nationale.fr",
     "circo": "10",
     "dept": "Nord",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA712015",
@@ -645,7 +805,9 @@
     "email": "Julien.Dive@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Aisne",
-    "groupe": "PO845425"
+    "groupe": "PO845425",
+    "sigle": "DR",
+    "groupeNom": "Droite Républicaine"
   },
   {
     "id": "PA717379",
@@ -653,7 +815,9 @@
     "email": "Sylvain.Maillard@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Paris",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA718674",
@@ -661,7 +825,9 @@
     "email": "Olga.Givernet@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Ain",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA718784",
@@ -669,7 +835,9 @@
     "email": "Eric.Pauget@assemblee-nationale.fr",
     "circo": "7",
     "dept": "Alpes-Maritimes",
-    "groupe": "PO845425"
+    "groupe": "PO845425",
+    "sigle": "DR",
+    "groupeNom": "Droite Républicaine"
   },
   {
     "id": "PA718838",
@@ -677,7 +845,9 @@
     "email": "Fabrice.Brun@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Ardèche",
-    "groupe": "PO845425"
+    "groupe": "PO845425",
+    "sigle": "DR",
+    "groupeNom": "Droite Républicaine"
   },
   {
     "id": "PA718850",
@@ -685,7 +855,9 @@
     "email": "Pierre.Cordier@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Ardennes",
-    "groupe": "PO845425"
+    "groupe": "PO845425",
+    "sigle": "DR",
+    "groupeNom": "Droite Républicaine"
   },
   {
     "id": "PA718884",
@@ -693,7 +865,9 @@
     "email": "Valerie.Bazin-Malgras@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Aube",
-    "groupe": "PO845425"
+    "groupe": "PO845425",
+    "sigle": "DR",
+    "groupeNom": "Droite Républicaine"
   },
   {
     "id": "PA719024",
@@ -701,7 +875,9 @@
     "email": "Christophe.Blanchet@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Calvados",
-    "groupe": "PO845454"
+    "groupe": "PO845454",
+    "sigle": "Dem",
+    "groupeNom": "Les Démocrates"
   },
   {
     "id": "PA719032",
@@ -709,7 +885,9 @@
     "email": "Bertrand.Bouyx@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Calvados",
-    "groupe": "PO845470"
+    "groupe": "PO845470",
+    "sigle": "HOR",
+    "groupeNom": "Horizons & Indépendants"
   },
   {
     "id": "PA719052",
@@ -717,7 +895,9 @@
     "email": "Loic.Kervran@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Cher",
-    "groupe": "PO845470"
+    "groupe": "PO845470",
+    "sigle": "HOR",
+    "groupeNom": "Horizons & Indépendants"
   },
   {
     "id": "PA719080",
@@ -725,7 +905,9 @@
     "email": "Sandra.Marsaud@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Charente",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA719118",
@@ -733,7 +915,9 @@
     "email": "Francois.Cormier-Bouligeon@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Cher",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA719138",
@@ -741,7 +925,9 @@
     "email": "Michel.Castellani@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Haute-Corse",
-    "groupe": "PO845485"
+    "groupe": "PO845485",
+    "sigle": "LIOT",
+    "groupeNom": "Libertés, Indépendants, Outre-mer et Territoires"
   },
   {
     "id": "PA719218",
@@ -749,7 +935,9 @@
     "email": "herve.berville@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Côtes-d'Armor",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA719272",
@@ -757,7 +945,9 @@
     "email": "Frederique.Meunier@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Corrèze",
-    "groupe": "PO845425"
+    "groupe": "PO845425",
+    "sigle": "DR",
+    "groupeNom": "Droite Républicaine"
   },
   {
     "id": "PA719282",
@@ -765,7 +955,9 @@
     "email": "xavier.lacombe@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Corse-du-Sud",
-    "groupe": "PO845470"
+    "groupe": "PO845470",
+    "sigle": "HOR",
+    "groupeNom": "Horizons & Indépendants"
   },
   {
     "id": "PA719286",
@@ -773,7 +965,9 @@
     "email": "Paul-Andre.Colombani@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Corse-du-Sud",
-    "groupe": "PO845485"
+    "groupe": "PO845485",
+    "sigle": "LIOT",
+    "groupeNom": "Libertés, Indépendants, Outre-mer et Territoires"
   },
   {
     "id": "PA719338",
@@ -781,7 +975,9 @@
     "email": "Graziella.Melchior@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Finistère",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA719372",
@@ -789,7 +985,9 @@
     "email": "Guillaume.Kasbarian@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Eure-et-Loir",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA719388",
@@ -797,7 +995,9 @@
     "email": "Annaig.LeMeur@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Finistère",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA719404",
@@ -805,7 +1005,9 @@
     "email": "Didier.LeGac@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Finistère",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA719412",
@@ -813,7 +1015,9 @@
     "email": "Sandrine.LeFeur@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Finistère",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA719436",
@@ -821,7 +1025,9 @@
     "email": "nicolas.meizonnet@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Gard",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA719472",
@@ -829,7 +1035,9 @@
     "email": "Jean-Rene.Cazeneuve@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Gers",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA719512",
@@ -837,7 +1045,9 @@
     "email": "Corinne.Vignon@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Haute-Garonne",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA719528",
@@ -845,7 +1055,9 @@
     "email": "Jean-Francois.Portarrieu@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Haute-Garonne",
-    "groupe": "PO845470"
+    "groupe": "PO845470",
+    "sigle": "HOR",
+    "groupeNom": "Horizons & Indépendants"
   },
   {
     "id": "PA719550",
@@ -853,7 +1065,9 @@
     "email": "Liliana.Tanguy@assemblee-nationale.fr",
     "circo": "7",
     "dept": "Finistère",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA719558",
@@ -861,7 +1075,9 @@
     "email": "Erwan.Balanant@assemblee-nationale.fr",
     "circo": "8",
     "dept": "Finistère",
-    "groupe": "PO845454"
+    "groupe": "PO845454",
+    "sigle": "Dem",
+    "groupeNom": "Les Démocrates"
   },
   {
     "id": "PA719578",
@@ -869,7 +1085,9 @@
     "email": "Loic.Prudhomme@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Gironde",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA719632",
@@ -877,7 +1095,9 @@
     "email": "Sophie.Panonacle@assemblee-nationale.fr",
     "circo": "8",
     "dept": "Gironde",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA719640",
@@ -885,7 +1105,9 @@
     "email": "Sophie.Mette@assemblee-nationale.fr",
     "circo": "9",
     "dept": "Gironde",
-    "groupe": "PO845454"
+    "groupe": "PO845454",
+    "sigle": "Dem",
+    "groupeNom": "Les Démocrates"
   },
   {
     "id": "PA719736",
@@ -893,7 +1115,9 @@
     "email": "camille.galliard-minier@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Isère",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA719756",
@@ -901,7 +1125,9 @@
     "email": "Christine.lenabour@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Ille-et-Vilaine",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA719778",
@@ -909,7 +1135,9 @@
     "email": "Francois.Jolivet@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Indre",
-    "groupe": "PO845470"
+    "groupe": "PO845470",
+    "sigle": "HOR",
+    "groupeNom": "Horizons & Indépendants"
   },
   {
     "id": "PA719798",
@@ -917,7 +1145,9 @@
     "email": "Daniel.Labaronne@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Indre-et-Loire",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA719822",
@@ -925,7 +1155,9 @@
     "email": "Sabine.Thillaye@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Indre-et-Loire",
-    "groupe": "PO845454"
+    "groupe": "PO845454",
+    "sigle": "Dem",
+    "groupeNom": "Les Démocrates"
   },
   {
     "id": "PA719890",
@@ -933,7 +1165,9 @@
     "email": "Danielle.Brulebois@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Jura",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA719914",
@@ -941,7 +1175,9 @@
     "email": "genevieve.darrieussecq@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Landes",
-    "groupe": "PO845454"
+    "groupe": "PO845454",
+    "sigle": "Dem",
+    "groupeNom": "Les Démocrates"
   },
   {
     "id": "PA719922",
@@ -949,7 +1185,9 @@
     "email": "Lionel.Causse@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Landes",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA719930",
@@ -957,7 +1195,9 @@
     "email": "Boris.Vallaud@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Landes",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA719938",
@@ -965,7 +1205,9 @@
     "email": "marc.fesneau@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Loir-et-Cher",
-    "groupe": "PO845454"
+    "groupe": "PO845454",
+    "sigle": "Dem",
+    "groupeNom": "Les Démocrates"
   },
   {
     "id": "PA719968",
@@ -973,7 +1215,9 @@
     "email": "sylvie.bonnet@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Loire",
-    "groupe": "PO845425"
+    "groupe": "PO845425",
+    "sigle": "DR",
+    "groupeNom": "Droite Républicaine"
   },
   {
     "id": "PA720022",
@@ -981,7 +1225,9 @@
     "email": "Michel.Lauzzana@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Lot-et-Garonne",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA720038",
@@ -989,7 +1235,9 @@
     "email": "Sandrine.Josso@assemblee-nationale.fr",
     "circo": "7",
     "dept": "Loire-Atlantique",
-    "groupe": "PO845454"
+    "groupe": "PO845454",
+    "sigle": "Dem",
+    "groupeNom": "Les Démocrates"
   },
   {
     "id": "PA720066",
@@ -997,7 +1245,9 @@
     "email": "Stephanie.Rist@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Loiret",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA720092",
@@ -1005,7 +1255,9 @@
     "email": "Richard.Ramos@assemblee-nationale.fr",
     "circo": "6",
     "dept": "Loiret",
-    "groupe": "PO845454"
+    "groupe": "PO845454",
+    "sigle": "Dem",
+    "groupeNom": "Les Démocrates"
   },
   {
     "id": "PA720100",
@@ -1013,7 +1265,9 @@
     "email": "Aurelien.Pradie@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Lot",
-    "groupe": "PO840056"
+    "groupe": "PO840056",
+    "sigle": "NI",
+    "groupeNom": "Non inscrit"
   },
   {
     "id": "PA720138",
@@ -1021,7 +1275,9 @@
     "email": "Laetitia.Saint-Paul@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Maine-et-Loire",
-    "groupe": "PO845470"
+    "groupe": "PO845470",
+    "sigle": "HOR",
+    "groupeNom": "Horizons & Indépendants"
   },
   {
     "id": "PA720146",
@@ -1029,7 +1285,9 @@
     "email": "Denis.Masseglia@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Maine-et-Loire",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA720154",
@@ -1037,7 +1295,9 @@
     "email": "Nicole.Dubre-Chirat@assemblee-nationale.fr",
     "circo": "6",
     "dept": "Maine-et-Loire",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA720162",
@@ -1045,7 +1305,9 @@
     "email": "Philippe.Bolo@assemblee-nationale.fr",
     "circo": "7",
     "dept": "Maine-et-Loire",
-    "groupe": "PO845454"
+    "groupe": "PO845454",
+    "sigle": "Dem",
+    "groupeNom": "Les Démocrates"
   },
   {
     "id": "PA720190",
@@ -1053,7 +1315,9 @@
     "email": "Bertrand.Sorre@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Manche",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA720230",
@@ -1061,7 +1325,9 @@
     "email": "Lise.Magnier@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Marne",
-    "groupe": "PO845470"
+    "groupe": "PO845470",
+    "sigle": "HOR",
+    "groupeNom": "Horizons & Indépendants"
   },
   {
     "id": "PA720256",
@@ -1069,7 +1335,9 @@
     "email": "Geraldine.Bannier@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Mayenne",
-    "groupe": "PO845454"
+    "groupe": "PO845454",
+    "sigle": "Dem",
+    "groupeNom": "Les Démocrates"
   },
   {
     "id": "PA720334",
@@ -1077,7 +1345,9 @@
     "email": "Jimmy.Pahun@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Morbihan",
-    "groupe": "PO845454"
+    "groupe": "PO845454",
+    "sigle": "Dem",
+    "groupeNom": "Les Démocrates"
   },
   {
     "id": "PA720342",
@@ -1085,7 +1355,9 @@
     "email": "Nicole.LePeih@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Morbihan",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA720354",
@@ -1093,7 +1365,9 @@
     "email": "Jean-Michel.Jacques@assemblee-nationale.fr",
     "circo": "6",
     "dept": "Morbihan",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA720362",
@@ -1101,7 +1375,9 @@
     "email": "Belkhir.Belhaddad@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Moselle",
-    "groupe": "PO840056"
+    "groupe": "PO840056",
+    "sigle": "NI",
+    "groupeNom": "Non inscrit"
   },
   {
     "id": "PA720370",
@@ -1109,7 +1385,9 @@
     "email": "Ludovic.Mendes@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Moselle",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA720386",
@@ -1117,7 +1395,9 @@
     "email": "Fabien.DiFilippo@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Moselle",
-    "groupe": "PO845425"
+    "groupe": "PO845425",
+    "sigle": "DR",
+    "groupeNom": "Droite Républicaine"
   },
   {
     "id": "PA720430",
@@ -1125,7 +1405,9 @@
     "email": "Ugo.Bernalicis@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Nord",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA720446",
@@ -1133,7 +1415,9 @@
     "email": "Brigitte.Liso@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Nord",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA720468",
@@ -1141,7 +1425,9 @@
     "email": "Sebastien.Chenu@assemblee-nationale.fr",
     "circo": "19",
     "dept": "Nord",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA720552",
@@ -1149,7 +1435,9 @@
     "email": "Isabelle.Rauch@assemblee-nationale.fr",
     "circo": "9",
     "dept": "Moselle",
-    "groupe": "PO845470"
+    "groupe": "PO845470",
+    "sigle": "HOR",
+    "groupeNom": "Horizons & Indépendants"
   },
   {
     "id": "PA720560",
@@ -1157,7 +1445,9 @@
     "email": "Perrine.Goulet@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Nièvre",
-    "groupe": "PO845454"
+    "groupe": "PO845454",
+    "sigle": "Dem",
+    "groupeNom": "Les Démocrates"
   },
   {
     "id": "PA720614",
@@ -1165,7 +1455,9 @@
     "email": "Marine.LePen@assemblee-nationale.fr",
     "circo": "11",
     "dept": "Pas-de-Calais",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA720644",
@@ -1173,7 +1465,9 @@
     "email": "Jerome.Nury@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Orne",
-    "groupe": "PO845425"
+    "groupe": "PO845425",
+    "sigle": "DR",
+    "groupeNom": "Droite Républicaine"
   },
   {
     "id": "PA720668",
@@ -1181,7 +1475,9 @@
     "email": "emmanuel.blairy@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Pas-de-Calais",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA720720",
@@ -1189,7 +1485,9 @@
     "email": "Josy.Poueyto@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Pyrénées-Atlantiques",
-    "groupe": "PO845454"
+    "groupe": "PO845454",
+    "sigle": "Dem",
+    "groupeNom": "Les Démocrates"
   },
   {
     "id": "PA720728",
@@ -1197,7 +1495,9 @@
     "email": "Jean-Paul.Mattei@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Pyrénées-Atlantiques",
-    "groupe": "PO845454"
+    "groupe": "PO845454",
+    "sigle": "Dem",
+    "groupeNom": "Les Démocrates"
   },
   {
     "id": "PA720822",
@@ -1205,7 +1505,9 @@
     "email": "Bruno.Bilde@assemblee-nationale.fr",
     "circo": "12",
     "dept": "Pas-de-Calais",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA720838",
@@ -1213,7 +1515,9 @@
     "email": "soumya.bourouaha@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Seine-Saint-Denis",
-    "groupe": "PO845514"
+    "groupe": "PO845514",
+    "sigle": "GDR",
+    "groupeNom": "Gauche Démocrate et Républicaine"
   },
   {
     "id": "PA720846",
@@ -1221,7 +1525,9 @@
     "email": "Bastien.Lachaud@assemblee-nationale.fr",
     "circo": "6",
     "dept": "Seine-Saint-Denis",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA720892",
@@ -1229,7 +1535,9 @@
     "email": "Mathilde.Panot@assemblee-nationale.fr",
     "circo": "10",
     "dept": "Val-de-Marne",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA720908",
@@ -1237,7 +1545,9 @@
     "email": "Naima.Moutchou@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Val-d'Oise",
-    "groupe": "PO845470"
+    "groupe": "PO845470",
+    "sigle": "HOR",
+    "groupeNom": "Horizons & Indépendants"
   },
   {
     "id": "PA720952",
@@ -1245,7 +1555,9 @@
     "email": "Aurelien.Tache@assemblee-nationale.fr",
     "circo": "10",
     "dept": "Val-d'Oise",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA720960",
@@ -1253,7 +1565,9 @@
     "email": "Olivier.Serva@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Guadeloupe",
-    "groupe": "PO845485"
+    "groupe": "PO845485",
+    "sigle": "LIOT",
+    "groupeNom": "Libertés, Indépendants, Outre-mer et Territoires"
   },
   {
     "id": "PA720976",
@@ -1261,7 +1575,9 @@
     "email": "Max.Mathiasin@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Guadeloupe",
-    "groupe": "PO845485"
+    "groupe": "PO845485",
+    "sigle": "LIOT",
+    "groupeNom": "Libertés, Indépendants, Outre-mer et Territoires"
   },
   {
     "id": "PA720992",
@@ -1269,7 +1585,9 @@
     "email": "jiovanny.william@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Martinique",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA721004",
@@ -1277,7 +1595,9 @@
     "email": "amelia.lakrafi@assemblee-nationale.fr",
     "circo": "10",
     "dept": "Français établis hors de France",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA721024",
@@ -1285,7 +1605,9 @@
     "email": "Anne.Genetet@assemblee-nationale.fr",
     "circo": "11",
     "dept": "Français établis hors de France",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA721062",
@@ -1293,7 +1615,9 @@
     "email": "Jean-Hugues.Ratenon@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Réunion",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA721110",
@@ -1301,7 +1625,9 @@
     "email": "nicole.sanquer@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Polynésie Française",
-    "groupe": "PO845485"
+    "groupe": "PO845485",
+    "sigle": "LIOT",
+    "groupeNom": "Libertés, Indépendants, Outre-mer et Territoires"
   },
   {
     "id": "PA721134",
@@ -1309,7 +1635,9 @@
     "email": "roland.lescure@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Français établis hors de France",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA721158",
@@ -1317,7 +1645,9 @@
     "email": "Pieyre-Alexandre.Anglade@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Français établis hors de France",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA721182",
@@ -1325,7 +1655,9 @@
     "email": "Frederic.Petit@assemblee-nationale.fr",
     "circo": "7",
     "dept": "Français établis hors de France",
-    "groupe": "PO845454"
+    "groupe": "PO845454",
+    "sigle": "Dem",
+    "groupeNom": "Les Démocrates"
   },
   {
     "id": "PA721202",
@@ -1333,7 +1665,9 @@
     "email": "Eric.Coquerel@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Seine-Saint-Denis",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA721210",
@@ -1341,7 +1675,9 @@
     "email": "Alexis.Corbiere@assemblee-nationale.fr",
     "circo": "7",
     "dept": "Seine-Saint-Denis",
-    "groupe": "PO845439"
+    "groupe": "PO845439",
+    "sigle": "EcoS",
+    "groupeNom": "Écologiste et Social"
   },
   {
     "id": "PA721234",
@@ -1349,7 +1685,9 @@
     "email": "Maud.Petit@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Val-de-Marne",
-    "groupe": "PO845454"
+    "groupe": "PO845454",
+    "sigle": "Dem",
+    "groupeNom": "Les Démocrates"
   },
   {
     "id": "PA721270",
@@ -1357,7 +1695,9 @@
     "email": "Stephane.Peu@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Seine-Saint-Denis",
-    "groupe": "PO845514"
+    "groupe": "PO845514",
+    "sigle": "GDR",
+    "groupeNom": "Gauche Démocrate et Républicaine"
   },
   {
     "id": "PA721296",
@@ -1365,7 +1705,9 @@
     "email": "guillaume.gouffier-valente@assemblee-nationale.fr",
     "circo": "6",
     "dept": "Val-de-Marne",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA721314",
@@ -1373,7 +1715,9 @@
     "email": "Raphael.Schellenberger@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Haut-Rhin",
-    "groupe": "PO840056"
+    "groupe": "PO840056",
+    "sigle": "NI",
+    "groupeNom": "Non inscrit"
   },
   {
     "id": "PA721336",
@@ -1381,7 +1725,9 @@
     "email": "Blandine.Brocard@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Rhône",
-    "groupe": "PO845454"
+    "groupe": "PO845454",
+    "sigle": "Dem",
+    "groupeNom": "Les Démocrates"
   },
   {
     "id": "PA721410",
@@ -1389,7 +1735,9 @@
     "email": "Emilie.Bonnivard@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Savoie",
-    "groupe": "PO845425"
+    "groupe": "PO845425",
+    "sigle": "DR",
+    "groupeNom": "Droite Républicaine"
   },
   {
     "id": "PA721426",
@@ -1397,7 +1745,9 @@
     "email": "Veronique.Riotton@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Haute-Savoie",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA721442",
@@ -1405,7 +1755,9 @@
     "email": "christelle.petex-levet@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Haute-Savoie",
-    "groupe": "PO845425"
+    "groupe": "PO845425",
+    "sigle": "DR",
+    "groupeNom": "Droite Républicaine"
   },
   {
     "id": "PA721458",
@@ -1413,7 +1765,9 @@
     "email": "Xavier.Roseren@assemblee-nationale.fr",
     "circo": "6",
     "dept": "Haute-Savoie",
-    "groupe": "PO845470"
+    "groupe": "PO845470",
+    "sigle": "HOR",
+    "groupeNom": "Horizons & Indépendants"
   },
   {
     "id": "PA721474",
@@ -1421,7 +1775,9 @@
     "email": "Stephane.Viry@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Vosges",
-    "groupe": "PO845485"
+    "groupe": "PO845485",
+    "sigle": "LIOT",
+    "groupeNom": "Libertés, Indépendants, Outre-mer et Territoires"
   },
   {
     "id": "PA721486",
@@ -1429,7 +1785,9 @@
     "email": "Christophe.Naegelen@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Vosges",
-    "groupe": "PO845485"
+    "groupe": "PO845485",
+    "sigle": "LIOT",
+    "groupeNom": "Libertés, Indépendants, Outre-mer et Territoires"
   },
   {
     "id": "PA721584",
@@ -1437,7 +1795,9 @@
     "email": "Jean.Terlier@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Tarn",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA721750",
@@ -1445,7 +1805,9 @@
     "email": "Celine.Calvez@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Hauts-de-Seine",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA721764",
@@ -1453,7 +1815,9 @@
     "email": "olivia.gregoire@assemblee-nationale.fr",
     "circo": "12",
     "dept": "Paris",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA721816",
@@ -1461,7 +1825,9 @@
     "email": "Ian.Boucard@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Territoire de Belfort",
-    "groupe": "PO845425"
+    "groupe": "PO845425",
+    "sigle": "DR",
+    "groupeNom": "Droite Républicaine"
   },
   {
     "id": "PA721844",
@@ -1469,7 +1835,9 @@
     "email": "Beatrice.Piron@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Yvelines",
-    "groupe": "PO845470"
+    "groupe": "PO845470",
+    "sigle": "HOR",
+    "groupeNom": "Horizons & Indépendants"
   },
   {
     "id": "PA721852",
@@ -1477,7 +1845,9 @@
     "email": "Marie.Lebec@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Yvelines",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA721896",
@@ -1485,7 +1855,9 @@
     "email": "Elsa.Faucillon@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Hauts-de-Seine",
-    "groupe": "PO845514"
+    "groupe": "PO845514",
+    "sigle": "GDR",
+    "groupeNom": "Gauche Démocrate et Républicaine"
   },
   {
     "id": "PA721908",
@@ -1493,7 +1865,9 @@
     "email": "Yael.Braun-Pivet@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Yvelines",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA721916",
@@ -1501,7 +1875,9 @@
     "email": "Natalia.Pouzyreff@assemblee-nationale.fr",
     "circo": "6",
     "dept": "Yvelines",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA721932",
@@ -1509,7 +1885,9 @@
     "email": "Marie-France.Lorho@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Vaucluse",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA721960",
@@ -1517,7 +1895,9 @@
     "email": "Daniele.Obono@assemblee-nationale.fr",
     "circo": "17",
     "dept": "Paris",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA721984",
@@ -1525,7 +1905,9 @@
     "email": "Philippe.Latombe@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Vendée",
-    "groupe": "PO845454"
+    "groupe": "PO845454",
+    "sigle": "Dem",
+    "groupeNom": "Les Démocrates"
   },
   {
     "id": "PA722000",
@@ -1533,7 +1915,9 @@
     "email": "Stephane.Buchou@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Vendée",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA722070",
@@ -1541,7 +1925,9 @@
     "email": "Pierre.Henriet@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Vendée",
-    "groupe": "PO845470"
+    "groupe": "PO845470",
+    "sigle": "HOR",
+    "groupeNom": "Horizons & Indépendants"
   },
   {
     "id": "PA722102",
@@ -1549,7 +1935,9 @@
     "email": "Annie.Vidal@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Seine-Maritime",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA722134",
@@ -1557,7 +1945,9 @@
     "email": "Jean-Marie.Fievet@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Deux-Sèvres",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA722142",
@@ -1565,7 +1955,9 @@
     "email": "Francois.Ruffin@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Somme",
-    "groupe": "PO845439"
+    "groupe": "PO845439",
+    "sigle": "EcoS",
+    "groupeNom": "Écologiste et Social"
   },
   {
     "id": "PA722150",
@@ -1573,7 +1965,9 @@
     "email": "Sacha.Houlie@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Vienne",
-    "groupe": "PO840056"
+    "groupe": "PO840056",
+    "sigle": "NI",
+    "groupeNom": "Non inscrit"
   },
   {
     "id": "PA722162",
@@ -1581,7 +1975,9 @@
     "email": "Nicolas.Turquois@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Vienne",
-    "groupe": "PO845454"
+    "groupe": "PO845454",
+    "sigle": "Dem",
+    "groupeNom": "Les Démocrates"
   },
   {
     "id": "PA722190",
@@ -1589,7 +1985,9 @@
     "email": "gabriel.attal@assemblee-nationale.fr",
     "circo": "10",
     "dept": "Hauts-de-Seine",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA722252",
@@ -1597,7 +1995,9 @@
     "email": "Marie-Pierre.Rixain@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Essonne",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA722284",
@@ -1605,7 +2005,9 @@
     "email": "Bruno.Fuchs@assemblee-nationale.fr",
     "circo": "6",
     "dept": "Haut-Rhin",
-    "groupe": "PO845454"
+    "groupe": "PO845454",
+    "sigle": "Dem",
+    "groupeNom": "Les Démocrates"
   },
   {
     "id": "PA722336",
@@ -1613,7 +2015,9 @@
     "email": "Vincent.Thiebaut@assemblee-nationale.fr",
     "circo": "9",
     "dept": "Bas-Rhin",
-    "groupe": "PO845470"
+    "groupe": "PO845470",
+    "sigle": "HOR",
+    "groupeNom": "Horizons & Indépendants"
   },
   {
     "id": "PA722358",
@@ -1621,7 +2025,9 @@
     "email": "Thomas.Gassilloud@assemblee-nationale.fr",
     "circo": "10",
     "dept": "Rhône",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA722366",
@@ -1629,7 +2035,9 @@
     "email": "Jean-Luc.Fugit@assemblee-nationale.fr",
     "circo": "11",
     "dept": "Rhône",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA722374",
@@ -1637,7 +2045,9 @@
     "email": "Cyrille.Isaac-Sibille@assemblee-nationale.fr",
     "circo": "12",
     "dept": "Rhône",
-    "groupe": "PO845454"
+    "groupe": "PO845454",
+    "sigle": "Dem",
+    "groupeNom": "Les Démocrates"
   },
   {
     "id": "PA722382",
@@ -1645,7 +2055,9 @@
     "email": "Benjamin.Dirx@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Saône-et-Loire",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA722390",
@@ -1653,7 +2065,9 @@
     "email": "Josiane.Corneloup@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Saône-et-Loire",
-    "groupe": "PO845425"
+    "groupe": "PO845425",
+    "sigle": "DR",
+    "groupeNom": "Droite Républicaine"
   },
   {
     "id": "PA736201",
@@ -1661,7 +2075,9 @@
     "email": "sophie.taille-polian@assemblee-nationale.fr",
     "circo": "11",
     "dept": "Val-de-Marne",
-    "groupe": "PO845439"
+    "groupe": "PO845439",
+    "sigle": "EcoS",
+    "groupeNom": "Écologiste et Social"
   },
   {
     "id": "PA757225",
@@ -1669,7 +2085,9 @@
     "email": "mikaele.seo@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Wallis-et-Futuna",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA774954",
@@ -1677,7 +2095,9 @@
     "email": "anne-laure.blin@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Maine-et-Loire",
-    "groupe": "PO845425"
+    "groupe": "PO845425",
+    "sigle": "DR",
+    "groupeNom": "Droite Républicaine"
   },
   {
     "id": "PA774958",
@@ -1685,7 +2105,9 @@
     "email": "gerard.leseul@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Seine-Maritime",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA774960",
@@ -1693,7 +2115,9 @@
     "email": "isabelle.santiago@assemblee-nationale.fr",
     "circo": "9",
     "dept": "Val-de-Marne",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA774962",
@@ -1701,7 +2125,9 @@
     "email": "karine.lebon@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Réunion",
-    "groupe": "PO845514"
+    "groupe": "PO845514",
+    "sigle": "GDR",
+    "groupeNom": "Gauche Démocrate et Républicaine"
   },
   {
     "id": "PA791812",
@@ -1709,7 +2135,9 @@
     "email": "sophia.chikirou@assemblee-nationale.fr",
     "circo": "6",
     "dept": "Paris",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA791824",
@@ -1717,7 +2145,9 @@
     "email": "sarah.legrain@assemblee-nationale.fr",
     "circo": "16",
     "dept": "Paris",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA793094",
@@ -1725,7 +2155,9 @@
     "email": "nicolas.ray@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Allier",
-    "groupe": "PO845425"
+    "groupe": "PO845425",
+    "sigle": "DR",
+    "groupeNom": "Droite Républicaine"
   },
   {
     "id": "PA793102",
@@ -1733,7 +2165,9 @@
     "email": "christian.girard@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Alpes-de-Haute-Provence",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA793122",
@@ -1741,7 +2175,9 @@
     "email": "romain.daubie@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Ain",
-    "groupe": "PO845454"
+    "groupe": "PO845454",
+    "sigle": "Dem",
+    "groupeNom": "Les Démocrates"
   },
   {
     "id": "PA793134",
@@ -1749,7 +2185,9 @@
     "email": "jerome.buisson@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Ain",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA793146",
@@ -1757,7 +2195,9 @@
     "email": "nicolas.dragon@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Aisne",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA793158",
@@ -1765,7 +2205,9 @@
     "email": "jose.beaurain@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Aisne",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA793166",
@@ -1773,7 +2215,9 @@
     "email": "jocelyn.dessigny@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Aisne",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA793174",
@@ -1781,7 +2225,9 @@
     "email": "yannick.monnet@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Allier",
-    "groupe": "PO845514"
+    "groupe": "PO845514",
+    "sigle": "GDR",
+    "groupeNom": "Gauche Démocrate et Républicaine"
   },
   {
     "id": "PA793182",
@@ -1789,7 +2235,9 @@
     "email": "jorys.bovet@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Allier",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA793194",
@@ -1797,7 +2245,9 @@
     "email": "lionel.vuibert@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Ardennes",
-    "groupe": "PO840056"
+    "groupe": "PO840056",
+    "sigle": "NI",
+    "groupeNom": "Non inscrit"
   },
   {
     "id": "PA793210",
@@ -1805,7 +2255,9 @@
     "email": "laurent.panifous@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Ariège",
-    "groupe": "PO845485"
+    "groupe": "PO845485",
+    "sigle": "LIOT",
+    "groupeNom": "Libertés, Indépendants, Outre-mer et Territoires"
   },
   {
     "id": "PA793218",
@@ -1813,7 +2265,9 @@
     "email": "jordan.guitton@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Aube",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA793230",
@@ -1821,7 +2275,9 @@
     "email": "angelique.ranc@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Aube",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA793238",
@@ -1829,7 +2285,9 @@
     "email": "christophe.barthes@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Aude",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA793246",
@@ -1837,7 +2295,9 @@
     "email": "frederic.falcon@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Aude",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA793254",
@@ -1845,7 +2305,9 @@
     "email": "julien.rancoule@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Aude",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA793262",
@@ -1853,7 +2315,9 @@
     "email": "laurent.alexandre@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Aveyron",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA793270",
@@ -1861,7 +2325,9 @@
     "email": "jean-francois.rousset@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Aveyron",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA793290",
@@ -1869,7 +2335,9 @@
     "email": "gisele.lelouis@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Bouches-du-Rhône",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA793298",
@@ -1877,7 +2345,9 @@
     "email": "lionel.tivoli@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Alpes-Maritimes",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA793314",
@@ -1885,7 +2355,9 @@
     "email": "alexandra.masson@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Alpes-Maritimes",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA793322",
@@ -1893,7 +2365,9 @@
     "email": "christelle.dintorni@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Alpes-Maritimes",
-    "groupe": "PO847173"
+    "groupe": "PO847173",
+    "sigle": "UDR",
+    "groupeNom": "UDR"
   },
   {
     "id": "PA793330",
@@ -1901,7 +2375,9 @@
     "email": "bryan.masson@assemblee-nationale.fr",
     "circo": "6",
     "dept": "Alpes-Maritimes",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA793342",
@@ -1909,7 +2385,9 @@
     "email": "alexandra.martin@assemblee-nationale.fr",
     "circo": "8",
     "dept": "Alpes-Maritimes",
-    "groupe": "PO845425"
+    "groupe": "PO845425",
+    "sigle": "DR",
+    "groupeNom": "Droite Républicaine"
   },
   {
     "id": "PA793354",
@@ -1917,7 +2395,9 @@
     "email": "joelle.melin@assemblee-nationale.fr",
     "circo": "9",
     "dept": "Bouches-du-Rhône",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA793362",
@@ -1925,7 +2405,9 @@
     "email": "jose.gonzalez@assemblee-nationale.fr",
     "circo": "10",
     "dept": "Bouches-du-Rhône",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA793374",
@@ -1933,7 +2415,9 @@
     "email": "romain.baubry@assemblee-nationale.fr",
     "circo": "15",
     "dept": "Bouches-du-Rhône",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA793382",
@@ -1941,7 +2425,9 @@
     "email": "emmanuel.tachedelapagerie@assemblee-nationale.fr",
     "circo": "16",
     "dept": "Bouches-du-Rhône",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA793394",
@@ -1949,7 +2435,9 @@
     "email": "arthur.delaporte@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Calvados",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA793398",
@@ -1957,7 +2445,9 @@
     "email": "jeremie.patrier-leitus@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Calvados",
-    "groupe": "PO845470"
+    "groupe": "PO845470",
+    "sigle": "HOR",
+    "groupeNom": "Horizons & Indépendants"
   },
   {
     "id": "PA793416",
@@ -1965,7 +2455,9 @@
     "email": "freddy.sertin@assemblee-nationale.fr",
     "circo": "6",
     "dept": "Calvados",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA793432",
@@ -1973,7 +2465,9 @@
     "email": "franck.allisio@assemblee-nationale.fr",
     "circo": "12",
     "dept": "Bouches-du-Rhône",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA793444",
@@ -1981,7 +2475,9 @@
     "email": "manuel.bompard@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Bouches-du-Rhône",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA793452",
@@ -1989,7 +2485,9 @@
     "email": "hendrik.davi@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Bouches-du-Rhône",
-    "groupe": "PO845439"
+    "groupe": "PO845439",
+    "sigle": "EcoS",
+    "groupeNom": "Écologiste et Social"
   },
   {
     "id": "PA793464",
@@ -1997,7 +2495,9 @@
     "email": "sebastien.delogu@assemblee-nationale.fr",
     "circo": "7",
     "dept": "Bouches-du-Rhône",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA793508",
@@ -2005,7 +2505,9 @@
     "email": "hubert.brigand@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Côte-d'Or",
-    "groupe": "PO845425"
+    "groupe": "PO845425",
+    "sigle": "DR",
+    "groupeNom": "Droite Républicaine"
   },
   {
     "id": "PA793520",
@@ -2013,7 +2515,9 @@
     "email": "mickael.cosson@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Côtes-d'Armor",
-    "groupe": "PO845454"
+    "groupe": "PO845454",
+    "sigle": "Dem",
+    "groupeNom": "Les Démocrates"
   },
   {
     "id": "PA793532",
@@ -2021,7 +2525,9 @@
     "email": "murielle.lepvraud@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Côtes-d'Armor",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA793548",
@@ -2029,7 +2535,9 @@
     "email": "caroline.colombier@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Charente",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA793572",
@@ -2037,7 +2545,9 @@
     "email": "christophe.plassard@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Charente-Maritime",
-    "groupe": "PO845470"
+    "groupe": "PO845470",
+    "sigle": "HOR",
+    "groupeNom": "Horizons & Indépendants"
   },
   {
     "id": "PA793592",
@@ -2045,7 +2555,9 @@
     "email": "geraldine.grangier@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Doubs",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA793608",
@@ -2053,7 +2565,9 @@
     "email": "katiana.levavasseur@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Eure",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA793616",
@@ -2061,7 +2575,9 @@
     "email": "kevin.mauvieux@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Eure",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA793624",
@@ -2069,7 +2585,9 @@
     "email": "philippe.brun@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Eure",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA793632",
@@ -2077,7 +2595,9 @@
     "email": "timothee.houssin@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Eure",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA793656",
@@ -2085,7 +2605,9 @@
     "email": "lisette.pollet@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Drôme",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA793664",
@@ -2093,7 +2615,9 @@
     "email": "marie.pochon@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Drôme",
-    "groupe": "PO845439"
+    "groupe": "PO845439",
+    "sigle": "EcoS",
+    "groupeNom": "Écologiste et Social"
   },
   {
     "id": "PA793672",
@@ -2101,7 +2625,9 @@
     "email": "christine.loir@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Eure",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA793696",
@@ -2109,7 +2635,9 @@
     "email": "serge.muller@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Dordogne",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA793708",
@@ -2117,7 +2645,9 @@
     "email": "sebastien.peytavie@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Dordogne",
-    "groupe": "PO845439"
+    "groupe": "PO845439",
+    "sigle": "EcoS",
+    "groupeNom": "Écologiste et Social"
   },
   {
     "id": "PA793716",
@@ -2125,7 +2655,9 @@
     "email": "laurent.croizier@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Doubs",
-    "groupe": "PO845454"
+    "groupe": "PO845454",
+    "sigle": "Dem",
+    "groupeNom": "Les Démocrates"
   },
   {
     "id": "PA793736",
@@ -2133,7 +2665,9 @@
     "email": "hadrien.clouet@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Haute-Garonne",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA793744",
@@ -2141,7 +2675,9 @@
     "email": "anne.stambach-terrenoir@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Haute-Garonne",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA793756",
@@ -2149,7 +2685,9 @@
     "email": "francois.piquemal@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Haute-Garonne",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA793772",
@@ -2157,7 +2695,9 @@
     "email": "christophe.bex@assemblee-nationale.fr",
     "circo": "7",
     "dept": "Haute-Garonne",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA793780",
@@ -2165,7 +2705,9 @@
     "email": "christine.arrighi@assemblee-nationale.fr",
     "circo": "9",
     "dept": "Haute-Garonne",
-    "groupe": "PO845439"
+    "groupe": "PO845439",
+    "sigle": "EcoS",
+    "groupeNom": "Écologiste et Social"
   },
   {
     "id": "PA793796",
@@ -2173,7 +2715,9 @@
     "email": "david.taupiac@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Gers",
-    "groupe": "PO845485"
+    "groupe": "PO845485",
+    "sigle": "LIOT",
+    "groupeNom": "Libertés, Indépendants, Outre-mer et Territoires"
   },
   {
     "id": "PA793816",
@@ -2181,7 +2725,9 @@
     "email": "melanie.thomin@assemblee-nationale.fr",
     "circo": "6",
     "dept": "Finistère",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA793832",
@@ -2189,7 +2735,9 @@
     "email": "yoann.gillet@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Gard",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA793844",
@@ -2197,7 +2745,9 @@
     "email": "pascale.bordes@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Gard",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA793852",
@@ -2205,7 +2755,9 @@
     "email": "pierre.meurin@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Gard",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA793872",
@@ -2213,7 +2765,9 @@
     "email": "nathalie.oziol@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Hérault",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA793892",
@@ -2221,7 +2775,9 @@
     "email": "stephanie.galzy@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Hérault",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA793904",
@@ -2229,7 +2785,9 @@
     "email": "aurelien.lopezliguori@assemblee-nationale.fr",
     "circo": "7",
     "dept": "Hérault",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA793912",
@@ -2237,7 +2795,9 @@
     "email": "sylvain.carriere@assemblee-nationale.fr",
     "circo": "8",
     "dept": "Hérault",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA793928",
@@ -2245,7 +2805,9 @@
     "email": "edwige.diaz@assemblee-nationale.fr",
     "circo": "11",
     "dept": "Gironde",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA793940",
@@ -2253,7 +2815,9 @@
     "email": "thomas.cazenave@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Gironde",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA793948",
@@ -2261,7 +2825,9 @@
     "email": "nicolas.thierry@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Gironde",
-    "groupe": "PO845439"
+    "groupe": "PO845439",
+    "sigle": "EcoS",
+    "groupeNom": "Écologiste et Social"
   },
   {
     "id": "PA793980",
@@ -2269,7 +2835,9 @@
     "email": "charles.fournier@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Indre-et-Loire",
-    "groupe": "PO845439"
+    "groupe": "PO845439",
+    "sigle": "EcoS",
+    "groupeNom": "Écologiste et Social"
   },
   {
     "id": "PA793992",
@@ -2277,7 +2845,9 @@
     "email": "henri.alfandari@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Indre-et-Loire",
-    "groupe": "PO845470"
+    "groupe": "PO845470",
+    "sigle": "HOR",
+    "groupeNom": "Horizons & Indépendants"
   },
   {
     "id": "PA794008",
@@ -2285,7 +2855,9 @@
     "email": "cyrielle.chatelain@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Isère",
-    "groupe": "PO845439"
+    "groupe": "PO845439",
+    "sigle": "EcoS",
+    "groupeNom": "Écologiste et Social"
   },
   {
     "id": "PA794022",
@@ -2293,7 +2865,9 @@
     "email": "jeremie.iordanoff@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Isère",
-    "groupe": "PO845439"
+    "groupe": "PO845439",
+    "sigle": "EcoS",
+    "groupeNom": "Écologiste et Social"
   },
   {
     "id": "PA794030",
@@ -2301,7 +2875,9 @@
     "email": "alexis.jolly@assemblee-nationale.fr",
     "circo": "6",
     "dept": "Isère",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA794042",
@@ -2309,7 +2885,9 @@
     "email": "sylvie.dezarnaud@assemblee-nationale.fr",
     "circo": "7",
     "dept": "Isère",
-    "groupe": "PO845425"
+    "groupe": "PO845425",
+    "sigle": "DR",
+    "groupeNom": "Droite Républicaine"
   },
   {
     "id": "PA794058",
@@ -2317,7 +2895,9 @@
     "email": "justine.gruet@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Jura",
-    "groupe": "PO845425"
+    "groupe": "PO845425",
+    "sigle": "DR",
+    "groupeNom": "Droite Républicaine"
   },
   {
     "id": "PA794082",
@@ -2325,7 +2905,9 @@
     "email": "mathilde.hignet@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Ille-et-Vilaine",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA794094",
@@ -2333,7 +2915,9 @@
     "email": "mickael.bouloux@assemblee-nationale.fr",
     "circo": "8",
     "dept": "Ille-et-Vilaine",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA794106",
@@ -2341,7 +2925,9 @@
     "email": "andree.taurinya@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Loire",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA794114",
@@ -2349,7 +2935,9 @@
     "email": "emmanuel.mandon@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Loire",
-    "groupe": "PO845454"
+    "groupe": "PO845454",
+    "sigle": "Dem",
+    "groupeNom": "Les Démocrates"
   },
   {
     "id": "PA794118",
@@ -2357,7 +2945,9 @@
     "email": "antoine.vermorel@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Loire",
-    "groupe": "PO845425"
+    "groupe": "PO845425",
+    "sigle": "DR",
+    "groupeNom": "Droite Républicaine"
   },
   {
     "id": "PA794130",
@@ -2365,7 +2955,9 @@
     "email": "andy.kerbrat@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Loire-Atlantique",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA794138",
@@ -2373,7 +2965,9 @@
     "email": "segolene.amiot@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Loire-Atlantique",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA794146",
@@ -2381,7 +2975,9 @@
     "email": "julie.laernoes@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Loire-Atlantique",
-    "groupe": "PO845439"
+    "groupe": "PO845439",
+    "sigle": "EcoS",
+    "groupeNom": "Écologiste et Social"
   },
   {
     "id": "PA794154",
@@ -2389,7 +2985,9 @@
     "email": "jean-claude.raux@assemblee-nationale.fr",
     "circo": "6",
     "dept": "Loire-Atlantique",
-    "groupe": "PO845439"
+    "groupe": "PO845439",
+    "sigle": "EcoS",
+    "groupeNom": "Écologiste et Social"
   },
   {
     "id": "PA794166",
@@ -2397,7 +2995,9 @@
     "email": "matthias.tavel@assemblee-nationale.fr",
     "circo": "8",
     "dept": "Loire-Atlantique",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA794178",
@@ -2405,7 +3005,9 @@
     "email": "jean-pierre.taite@assemblee-nationale.fr",
     "circo": "6",
     "dept": "Loire",
-    "groupe": "PO845425"
+    "groupe": "PO845425",
+    "sigle": "DR",
+    "groupeNom": "Droite Républicaine"
   },
   {
     "id": "PA794198",
@@ -2413,7 +3015,9 @@
     "email": "roger.chudeau@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Loir-et-Cher",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA794206",
@@ -2421,7 +3025,9 @@
     "email": "christophe.marion@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Loir-et-Cher",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA794234",
@@ -2429,7 +3035,9 @@
     "email": "francois.gernigon@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Maine-et-Loire",
-    "groupe": "PO845470"
+    "groupe": "PO845470",
+    "sigle": "HOR",
+    "groupeNom": "Horizons & Indépendants"
   },
   {
     "id": "PA794270",
@@ -2437,7 +3045,9 @@
     "email": "anna.pic@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Manche",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA794278",
@@ -2445,7 +3055,9 @@
     "email": "xavier.albertini@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Marne",
-    "groupe": "PO845470"
+    "groupe": "PO845470",
+    "sigle": "HOR",
+    "groupeNom": "Horizons & Indépendants"
   },
   {
     "id": "PA794322",
@@ -2453,7 +3065,9 @@
     "email": "thomas.menage@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Loiret",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA794330",
@@ -2461,7 +3075,9 @@
     "email": "anthony.brosse@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Loiret",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA794354",
@@ -2469,7 +3085,9 @@
     "email": "helene.laporte@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Lot-et-Garonne",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA794418",
@@ -2477,7 +3095,9 @@
     "email": "florence.goulet@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Meuse",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA794426",
@@ -2485,7 +3105,9 @@
     "email": "anne.lehenanff@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Morbihan",
-    "groupe": "PO845470"
+    "groupe": "PO845470",
+    "sigle": "HOR",
+    "groupeNom": "Horizons & Indépendants"
   },
   {
     "id": "PA794434",
@@ -2493,7 +3115,9 @@
     "email": "christophe.bentz@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Haute-Marne",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA794442",
@@ -2501,7 +3125,9 @@
     "email": "laurence.robert-dehault@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Haute-Marne",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA794466",
@@ -2509,7 +3135,9 @@
     "email": "jean.moulliere@assemblee-nationale.fr",
     "circo": "6",
     "dept": "Nord",
-    "groupe": "PO845470"
+    "groupe": "PO845470",
+    "sigle": "HOR",
+    "groupeNom": "Horizons & Indépendants"
   },
   {
     "id": "PA794470",
@@ -2517,7 +3145,9 @@
     "email": "felicie.gerard@assemblee-nationale.fr",
     "circo": "7",
     "dept": "Nord",
-    "groupe": "PO845470"
+    "groupe": "PO845470",
+    "sigle": "HOR",
+    "groupeNom": "Horizons & Indépendants"
   },
   {
     "id": "PA794478",
@@ -2525,7 +3155,9 @@
     "email": "david.guiraud@assemblee-nationale.fr",
     "circo": "8",
     "dept": "Nord",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA794486",
@@ -2533,7 +3165,9 @@
     "email": "violette.spillebout@assemblee-nationale.fr",
     "circo": "9",
     "dept": "Nord",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA794494",
@@ -2541,7 +3175,9 @@
     "email": "roger.vicot@assemblee-nationale.fr",
     "circo": "11",
     "dept": "Nord",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA794502",
@@ -2549,7 +3185,9 @@
     "email": "michael.taverne@assemblee-nationale.fr",
     "circo": "12",
     "dept": "Nord",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA794530",
@@ -2557,7 +3195,9 @@
     "email": "matthieu.marchio@assemblee-nationale.fr",
     "circo": "16",
     "dept": "Nord",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA794554",
@@ -2565,7 +3205,9 @@
     "email": "salvatore.castiglione@assemblee-nationale.fr",
     "circo": "21",
     "dept": "Nord",
-    "groupe": "PO845485"
+    "groupe": "PO845485",
+    "sigle": "LIOT",
+    "groupeNom": "Libertés, Indépendants, Outre-mer et Territoires"
   },
   {
     "id": "PA794562",
@@ -2573,7 +3215,9 @@
     "email": "philippe.ballard@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Oise",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA794570",
@@ -2581,7 +3225,9 @@
     "email": "alexandre.sabatou@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Oise",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA794582",
@@ -2589,7 +3235,9 @@
     "email": "kevin.pfeffer@assemblee-nationale.fr",
     "circo": "6",
     "dept": "Moselle",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA794590",
@@ -2597,7 +3245,9 @@
     "email": "alexandre.loubet@assemblee-nationale.fr",
     "circo": "7",
     "dept": "Moselle",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA794598",
@@ -2605,7 +3255,9 @@
     "email": "laurent.jacobelli@assemblee-nationale.fr",
     "circo": "8",
     "dept": "Moselle",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA794658",
@@ -2613,7 +3265,9 @@
     "email": "philippe.fait@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Pas-de-Calais",
-    "groupe": "PO845470"
+    "groupe": "PO845470",
+    "sigle": "HOR",
+    "groupeNom": "Horizons & Indépendants"
   },
   {
     "id": "PA794670",
@@ -2621,7 +3275,9 @@
     "email": "caroline.parmentier@assemblee-nationale.fr",
     "circo": "9",
     "dept": "Pas-de-Calais",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA794678",
@@ -2629,7 +3285,9 @@
     "email": "thierry.frappe@assemblee-nationale.fr",
     "circo": "10",
     "dept": "Pas-de-Calais",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA794686",
@@ -2637,7 +3295,9 @@
     "email": "marianne.maximi@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Puy-de-Dôme",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA794702",
@@ -2645,7 +3305,9 @@
     "email": "delphine.lingemann@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Puy-de-Dôme",
-    "groupe": "PO845454"
+    "groupe": "PO845454",
+    "sigle": "Dem",
+    "groupeNom": "Les Démocrates"
   },
   {
     "id": "PA794710",
@@ -2653,7 +3315,9 @@
     "email": "julien.brugerolles@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Puy-de-Dôme",
-    "groupe": "PO845514"
+    "groupe": "PO845514",
+    "sigle": "GDR",
+    "groupeNom": "Gauche Démocrate et Républicaine"
   },
   {
     "id": "PA794718",
@@ -2661,7 +3325,9 @@
     "email": "christine.engrand@assemblee-nationale.fr",
     "circo": "6",
     "dept": "Pas-de-Calais",
-    "groupe": "PO840056"
+    "groupe": "PO840056",
+    "sigle": "NI",
+    "groupeNom": "Non inscrit"
   },
   {
     "id": "PA794734",
@@ -2669,7 +3335,9 @@
     "email": "michel.guiniot@assemblee-nationale.fr",
     "circo": "6",
     "dept": "Oise",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA794750",
@@ -2677,7 +3345,9 @@
     "email": "thierry.liger@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Orne",
-    "groupe": "PO845425"
+    "groupe": "PO845425",
+    "sigle": "DR",
+    "groupeNom": "Droite Républicaine"
   },
   {
     "id": "PA794762",
@@ -2685,7 +3355,9 @@
     "email": "sandrine.dogor-such@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Pyrénées-Orientales",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA794770",
@@ -2693,7 +3365,9 @@
     "email": "michele.martinez@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Pyrénées-Orientales",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA794778",
@@ -2701,7 +3375,9 @@
     "email": "sandra.regol@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Bas-Rhin",
-    "groupe": "PO845439"
+    "groupe": "PO845439",
+    "sigle": "EcoS",
+    "groupeNom": "Écologiste et Social"
   },
   {
     "id": "PA794786",
@@ -2709,7 +3385,9 @@
     "email": "emmanuel.fernandes@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Bas-Rhin",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA794798",
@@ -2717,7 +3395,9 @@
     "email": "francoise.buffet@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Bas-Rhin",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA794802",
@@ -2725,7 +3405,9 @@
     "email": "charles.sitzenstuhl@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Bas-Rhin",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA794810",
@@ -2733,7 +3415,9 @@
     "email": "louise.morel@assemblee-nationale.fr",
     "circo": "6",
     "dept": "Bas-Rhin",
-    "groupe": "PO845454"
+    "groupe": "PO845454",
+    "sigle": "Dem",
+    "groupeNom": "Les Démocrates"
   },
   {
     "id": "PA794830",
@@ -2741,7 +3425,9 @@
     "email": "hubert.ott@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Haut-Rhin",
-    "groupe": "PO845454"
+    "groupe": "PO845454",
+    "sigle": "Dem",
+    "groupeNom": "Les Démocrates"
   },
   {
     "id": "PA794838",
@@ -2749,7 +3435,9 @@
     "email": "didier.lemaire@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Haut-Rhin",
-    "groupe": "PO845470"
+    "groupe": "PO845470",
+    "sigle": "HOR",
+    "groupeNom": "Horizons & Indépendants"
   },
   {
     "id": "PA794854",
@@ -2757,7 +3445,9 @@
     "email": "inaki.echaniz@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Pyrénées-Atlantiques",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA794870",
@@ -2765,7 +3455,9 @@
     "email": "sylvie.ferrer@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Hautes-Pyrénées",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA794886",
@@ -2773,7 +3465,9 @@
     "email": "sophie.blanc@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Pyrénées-Orientales",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA794894",
@@ -2781,7 +3475,9 @@
     "email": "anais.sabatini@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Pyrénées-Orientales",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA794906",
@@ -2789,7 +3485,9 @@
     "email": "gabriel.amard@assemblee-nationale.fr",
     "circo": "6",
     "dept": "Rhône",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA794938",
@@ -2797,7 +3495,9 @@
     "email": "idir.boumertit@assemblee-nationale.fr",
     "circo": "14",
     "dept": "Rhône",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA794946",
@@ -2805,7 +3505,9 @@
     "email": "antoine.villedieu@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Haute-Saône",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA794954",
@@ -2813,7 +3515,9 @@
     "email": "emeric.salmon@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Haute-Saône",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA794982",
@@ -2821,7 +3525,9 @@
     "email": "julie.delpech@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Sarthe",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA794994",
@@ -2829,7 +3535,9 @@
     "email": "alexandre.portier@assemblee-nationale.fr",
     "circo": "9",
     "dept": "Rhône",
-    "groupe": "PO845425"
+    "groupe": "PO845425",
+    "sigle": "DR",
+    "groupeNom": "Droite Républicaine"
   },
   {
     "id": "PA795010",
@@ -2837,7 +3545,9 @@
     "email": "marie-charlotte.garin@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Rhône",
-    "groupe": "PO845439"
+    "groupe": "PO845439",
+    "sigle": "EcoS",
+    "groupeNom": "Écologiste et Social"
   },
   {
     "id": "PA795026",
@@ -2845,7 +3555,9 @@
     "email": "anne-cecile.violland@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Haute-Savoie",
-    "groupe": "PO845470"
+    "groupe": "PO845470",
+    "sigle": "HOR",
+    "groupeNom": "Horizons & Indépendants"
   },
   {
     "id": "PA795046",
@@ -2853,7 +3565,9 @@
     "email": "caroline.yadan@assemblee-nationale.fr",
     "circo": "8",
     "dept": "Français établis hors de France",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA795076",
@@ -2861,7 +3575,9 @@
     "email": "sandrine.rousseau@assemblee-nationale.fr",
     "circo": "9",
     "dept": "Paris",
-    "groupe": "PO845439"
+    "groupe": "PO845439",
+    "sigle": "EcoS",
+    "groupeNom": "Écologiste et Social"
   },
   {
     "id": "PA795084",
@@ -2869,7 +3585,9 @@
     "email": "rodrigo.arenas@assemblee-nationale.fr",
     "circo": "10",
     "dept": "Paris",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA795100",
@@ -2877,7 +3595,9 @@
     "email": "eric.martineau@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Sarthe",
-    "groupe": "PO845454"
+    "groupe": "PO845454",
+    "sigle": "Dem",
+    "groupeNom": "Les Démocrates"
   },
   {
     "id": "PA795108",
@@ -2885,7 +3605,9 @@
     "email": "elise.leboucher@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Sarthe",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA795120",
@@ -2893,7 +3615,9 @@
     "email": "marina.ferrari@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Savoie",
-    "groupe": "PO845454"
+    "groupe": "PO845454",
+    "sigle": "Dem",
+    "groupeNom": "Les Démocrates"
   },
   {
     "id": "PA795136",
@@ -2901,7 +3625,9 @@
     "email": "jean-francois.coulomme@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Savoie",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA795144",
@@ -2909,7 +3635,9 @@
     "email": "antoine.armand@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Haute-Savoie",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA795156",
@@ -2917,7 +3645,9 @@
     "email": "fatiha.kelouahachi@assemblee-nationale.fr",
     "circo": "8",
     "dept": "Seine-Saint-Denis",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA795164",
@@ -2925,7 +3655,9 @@
     "email": "aurelie.trouve@assemblee-nationale.fr",
     "circo": "9",
     "dept": "Seine-Saint-Denis",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA795176",
@@ -2933,7 +3665,9 @@
     "email": "nicolas.metzdorf@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Nouvelle-Calédonie",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA795200",
@@ -2941,7 +3675,9 @@
     "email": "alma.dufour@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Seine-Maritime",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA795228",
@@ -2949,7 +3685,9 @@
     "email": "nadege.abomangoli@assemblee-nationale.fr",
     "circo": "10",
     "dept": "Seine-Saint-Denis",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA795240",
@@ -2957,7 +3695,9 @@
     "email": "mereana.reidarbelot@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Polynésie Française",
-    "groupe": "PO845514"
+    "groupe": "PO845514",
+    "sigle": "GDR",
+    "groupeNom": "Gauche Démocrate et Républicaine"
   },
   {
     "id": "PA795244",
@@ -2965,7 +3705,9 @@
     "email": "stephane.lenormand@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Saint-Pierre-et-Miquelon",
-    "groupe": "PO845485"
+    "groupe": "PO845485",
+    "sigle": "LIOT",
+    "groupeNom": "Libertés, Indépendants, Outre-mer et Territoires"
   },
   {
     "id": "PA795258",
@@ -2973,7 +3715,9 @@
     "email": "frantz.gumbs@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Saint-Barthélemy et Saint-Martin",
-    "groupe": "PO845454"
+    "groupe": "PO845454",
+    "sigle": "Dem",
+    "groupeNom": "Les Démocrates"
   },
   {
     "id": "PA795270",
@@ -2981,7 +3725,9 @@
     "email": "marieagnes.poussier-winsback@assemblee-nationale.fr",
     "circo": "9",
     "dept": "Seine-Maritime",
-    "groupe": "PO845470"
+    "groupe": "PO845470",
+    "sigle": "HOR",
+    "groupeNom": "Horizons & Indépendants"
   },
   {
     "id": "PA795278",
@@ -2989,7 +3735,9 @@
     "email": "beatrice.bellamy@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Vendée",
-    "groupe": "PO845470"
+    "groupe": "PO845470",
+    "sigle": "HOR",
+    "groupeNom": "Horizons & Indépendants"
   },
   {
     "id": "PA795298",
@@ -2997,7 +3745,9 @@
     "email": "jerome.legavre@assemblee-nationale.fr",
     "circo": "12",
     "dept": "Seine-Saint-Denis",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA795310",
@@ -3005,7 +3755,9 @@
     "email": "clemence.guette@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Val-de-Marne",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA795318",
@@ -3013,7 +3765,9 @@
     "email": "louis.boyard@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Val-de-Marne",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA795330",
@@ -3021,7 +3775,9 @@
     "email": "eleonore.caroit@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Français établis hors de France",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA795350",
@@ -3029,7 +3785,9 @@
     "email": "frederic.valletoux@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Seine-et-Marne",
-    "groupe": "PO845470"
+    "groupe": "PO845470",
+    "sigle": "HOR",
+    "groupeNom": "Horizons & Indépendants"
   },
   {
     "id": "PA795362",
@@ -3037,7 +3795,9 @@
     "email": "lisa.belluco@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Vienne",
-    "groupe": "PO845439"
+    "groupe": "PO845439",
+    "sigle": "EcoS",
+    "groupeNom": "Écologiste et Social"
   },
   {
     "id": "PA795374",
@@ -3045,7 +3805,9 @@
     "email": "pascal.lecamp@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Vienne",
-    "groupe": "PO845454"
+    "groupe": "PO845454",
+    "sigle": "Dem",
+    "groupeNom": "Les Démocrates"
   },
   {
     "id": "PA795386",
@@ -3053,7 +3815,9 @@
     "email": "mathieu.lefevre@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Val-de-Marne",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA795410",
@@ -3061,7 +3825,9 @@
     "email": "beatrice.roullaud@assemblee-nationale.fr",
     "circo": "6",
     "dept": "Seine-et-Marne",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA795422",
@@ -3069,7 +3835,9 @@
     "email": "damien.maudet@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Haute-Vienne",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA795430",
@@ -3077,7 +3845,9 @@
     "email": "stephane.delautrette@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Haute-Vienne",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA795454",
@@ -3085,7 +3855,9 @@
     "email": "karim.bencheikh@assemblee-nationale.fr",
     "circo": "9",
     "dept": "Français établis hors de France",
-    "groupe": "PO845439"
+    "groupe": "PO845439",
+    "sigle": "EcoS",
+    "groupeNom": "Écologiste et Social"
   },
   {
     "id": "PA795466",
@@ -3093,7 +3865,9 @@
     "email": "ersilia.soudais@assemblee-nationale.fr",
     "circo": "7",
     "dept": "Seine-et-Marne",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA795482",
@@ -3101,7 +3875,9 @@
     "email": "manon.meunier@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Haute-Vienne",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA795516",
@@ -3109,7 +3885,9 @@
     "email": "maxime.laisney@assemblee-nationale.fr",
     "circo": "10",
     "dept": "Seine-et-Marne",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA795528",
@@ -3117,7 +3895,9 @@
     "email": "charles.rodwell@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Yvelines",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA795540",
@@ -3125,7 +3905,9 @@
     "email": "daniel.grenon@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Yonne",
-    "groupe": "PO840056"
+    "groupe": "PO840056",
+    "sigle": "NI",
+    "groupeNom": "Non inscrit"
   },
   {
     "id": "PA795552",
@@ -3133,7 +3915,9 @@
     "email": "julien.odoul@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Yonne",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA795588",
@@ -3141,7 +3925,9 @@
     "email": "farida.amrani@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Essonne",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA795596",
@@ -3149,7 +3935,9 @@
     "email": "paul.vannier@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Val-d'Oise",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA795616",
@@ -3157,7 +3945,9 @@
     "email": "carlosmartens.bilongo@assemblee-nationale.fr",
     "circo": "8",
     "dept": "Val-d'Oise",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA795636",
@@ -3165,7 +3955,9 @@
     "email": "benjamin.lucas@assemblee-nationale.fr",
     "circo": "8",
     "dept": "Yvelines",
-    "groupe": "PO845439"
+    "groupe": "PO845439",
+    "sigle": "EcoS",
+    "groupeNom": "Écologiste et Social"
   },
   {
     "id": "PA795644",
@@ -3173,7 +3965,9 @@
     "email": "nathalie.daconceicaocarvalho@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Essonne",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA795664",
@@ -3181,7 +3975,9 @@
     "email": "paul.midy@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Essonne",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA795672",
@@ -3189,7 +3985,9 @@
     "email": "arnaud.legall@assemblee-nationale.fr",
     "circo": "9",
     "dept": "Val-d'Oise",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA795722",
@@ -3197,7 +3995,9 @@
     "email": "karl.olive@assemblee-nationale.fr",
     "circo": "12",
     "dept": "Yvelines",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA795730",
@@ -3205,7 +4005,9 @@
     "email": "bastien.marchive@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Deux-Sèvres",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA795746",
@@ -3213,7 +4015,9 @@
     "email": "antoine.leaument@assemblee-nationale.fr",
     "circo": "10",
     "dept": "Essonne",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA795762",
@@ -3221,7 +4025,9 @@
     "email": "elie.califer@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Guadeloupe",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA795778",
@@ -3229,7 +4035,9 @@
     "email": "jean-philippe.tanguy@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Somme",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA795786",
@@ -3237,7 +4045,9 @@
     "email": "yael.menache@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Somme",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA795808",
@@ -3245,7 +4055,9 @@
     "email": "sabrina.sebaihi@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Hauts-de-Seine",
-    "groupe": "PO845439"
+    "groupe": "PO845439",
+    "sigle": "EcoS",
+    "groupeNom": "Écologiste et Social"
   },
   {
     "id": "PA795820",
@@ -3253,7 +4065,9 @@
     "email": "marcellin.nadeau@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Martinique",
-    "groupe": "PO845514"
+    "groupe": "PO845514",
+    "sigle": "GDR",
+    "groupeNom": "Gauche Démocrate et Républicaine"
   },
   {
     "id": "PA795844",
@@ -3261,7 +4075,9 @@
     "email": "karen.erodi@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Tarn",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA795864",
@@ -3269,7 +4085,9 @@
     "email": "pierre.cazeneuve@assemblee-nationale.fr",
     "circo": "7",
     "dept": "Hauts-de-Seine",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA795868",
@@ -3277,7 +4095,9 @@
     "email": "jean-victor.castor@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Guyane",
-    "groupe": "PO845514"
+    "groupe": "PO845514",
+    "sigle": "GDR",
+    "groupeNom": "Gauche Démocrate et Républicaine"
   },
   {
     "id": "PA795876",
@@ -3285,7 +4105,9 @@
     "email": "davy.rimane@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Guyane",
-    "groupe": "PO845514"
+    "groupe": "PO845514",
+    "sigle": "GDR",
+    "groupeNom": "Gauche Démocrate et Républicaine"
   },
   {
     "id": "PA795888",
@@ -3293,7 +4115,9 @@
     "email": "marie-ange.rousselot@assemblee-nationale.fr",
     "circo": "6",
     "dept": "Français établis hors de France",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA795900",
@@ -3301,7 +4125,9 @@
     "email": "marine.hamelet@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Tarn-et-Garonne",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA795908",
@@ -3309,7 +4135,9 @@
     "email": "yannick.chenevard@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Var",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA795912",
@@ -3317,7 +4145,9 @@
     "email": "laure.lavalette@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Var",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA795920",
@@ -3325,7 +4155,9 @@
     "email": "prisca.thevenot@assemblee-nationale.fr",
     "circo": "8",
     "dept": "Hauts-de-Seine",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA795950",
@@ -3333,7 +4165,9 @@
     "email": "david.amiel@assemblee-nationale.fr",
     "circo": "13",
     "dept": "Paris",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA795962",
@@ -3341,7 +4175,9 @@
     "email": "josephine.missoffe@assemblee-nationale.fr",
     "circo": "14",
     "dept": "Paris",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA795966",
@@ -3349,7 +4185,9 @@
     "email": "stephane.rambaud@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Var",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA795974",
@@ -3357,7 +4195,9 @@
     "email": "philippe.lottiaux@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Var",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA795982",
@@ -3365,7 +4205,9 @@
     "email": "aurelien.saintoul@assemblee-nationale.fr",
     "circo": "11",
     "dept": "Hauts-de-Seine",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA795990",
@@ -3373,7 +4215,9 @@
     "email": "maud.bregeon@assemblee-nationale.fr",
     "circo": "13",
     "dept": "Hauts-de-Seine",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA795998",
@@ -3381,7 +4225,9 @@
     "email": "emeline.kbidi@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Réunion",
-    "groupe": "PO845514"
+    "groupe": "PO845514",
+    "sigle": "GDR",
+    "groupeNom": "Gauche Démocrate et Républicaine"
   },
   {
     "id": "PA796010",
@@ -3389,7 +4235,9 @@
     "email": "frederic.maillot@assemblee-nationale.fr",
     "circo": "6",
     "dept": "Réunion",
-    "groupe": "PO845514"
+    "groupe": "PO845514",
+    "sigle": "GDR",
+    "groupeNom": "Gauche Démocrate et Républicaine"
   },
   {
     "id": "PA796018",
@@ -3397,7 +4245,9 @@
     "email": "danielle.simonnet@assemblee-nationale.fr",
     "circo": "15",
     "dept": "Paris",
-    "groupe": "PO845439"
+    "groupe": "PO845439",
+    "sigle": "EcoS",
+    "groupeNom": "Écologiste et Social"
   },
   {
     "id": "PA796026",
@@ -3405,7 +4255,9 @@
     "email": "julie.lechanteux@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Var",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA796034",
@@ -3413,7 +4265,9 @@
     "email": "frank.giletti@assemblee-nationale.fr",
     "circo": "6",
     "dept": "Var",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA796042",
@@ -3421,7 +4275,9 @@
     "email": "frederic.boccaletti@assemblee-nationale.fr",
     "circo": "7",
     "dept": "Var",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA796050",
@@ -3429,7 +4285,9 @@
     "email": "philippe.schreck@assemblee-nationale.fr",
     "circo": "8",
     "dept": "Var",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA796062",
@@ -3437,7 +4295,9 @@
     "email": "thomas.portes@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Seine-Saint-Denis",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA796070",
@@ -3445,7 +4305,9 @@
     "email": "perceval.gaillard@assemblee-nationale.fr",
     "circo": "7",
     "dept": "Réunion",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA796078",
@@ -3453,7 +4315,9 @@
     "email": "estelle.youssouffa@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Mayotte",
-    "groupe": "PO845485"
+    "groupe": "PO845485",
+    "sigle": "LIOT",
+    "groupeNom": "Libertés, Indépendants, Outre-mer et Territoires"
   },
   {
     "id": "PA796090",
@@ -3461,7 +4325,9 @@
     "email": "aymeric.caron@assemblee-nationale.fr",
     "circo": "18",
     "dept": "Paris",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA796106",
@@ -3469,7 +4335,9 @@
     "email": "edouard.benard@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Seine-Maritime",
-    "groupe": "PO845514"
+    "groupe": "PO845514",
+    "sigle": "GDR",
+    "groupeNom": "Gauche Démocrate et Républicaine"
   },
   {
     "id": "PA796118",
@@ -3477,7 +4345,9 @@
     "email": "benedicte.auzanot@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Vaucluse",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA805166",
@@ -3485,7 +4355,9 @@
     "email": "anne.bergantz@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Yvelines",
-    "groupe": "PO845454"
+    "groupe": "PO845454",
+    "sigle": "Dem",
+    "groupeNom": "Les Démocrates"
   },
   {
     "id": "PA817203",
@@ -3493,7 +4365,9 @@
     "email": "laure.miller@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Marne",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA817211",
@@ -3501,7 +4375,9 @@
     "email": "rene.pilato@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Charente",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA822617",
@@ -3509,7 +4385,9 @@
     "email": "martine.froger@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Ariège",
-    "groupe": "PO845485"
+    "groupe": "PO845485",
+    "sigle": "LIOT",
+    "groupeNom": "Libertés, Indépendants, Outre-mer et Territoires"
   },
   {
     "id": "PA826635",
@@ -3517,7 +4395,9 @@
     "email": "aurelien.rousseau@assemblee-nationale.fr",
     "circo": "7",
     "dept": "Yvelines",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA840075",
@@ -3525,7 +4405,9 @@
     "email": "eddy.casterman@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Aisne",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA840119",
@@ -3533,7 +4415,9 @@
     "email": "sandra.delannoy@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Nord",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA840135",
@@ -3541,7 +4425,9 @@
     "email": "alexandre.dufosset@assemblee-nationale.fr",
     "circo": "18",
     "dept": "Nord",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA840143",
@@ -3549,7 +4435,9 @@
     "email": "guillaume.florquin@assemblee-nationale.fr",
     "circo": "20",
     "dept": "Nord",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA840159",
@@ -3557,7 +4445,9 @@
     "email": "bruno.clavet@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Pas-de-Calais",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA840171",
@@ -3565,7 +4455,9 @@
     "email": "emmanuel.gregoire@assemblee-nationale.fr",
     "circo": "7",
     "dept": "Paris",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA840235",
@@ -3573,7 +4465,9 @@
     "email": "moerani.frebault@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Polynésie Française",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA840657",
@@ -3581,7 +4475,9 @@
     "email": "sophie.vaginay@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Alpes-de-Haute-Provence",
-    "groupe": "PO847173"
+    "groupe": "PO847173",
+    "sigle": "UDR",
+    "groupeNom": "UDR"
   },
   {
     "id": "PA840665",
@@ -3589,7 +4485,9 @@
     "email": "marie-jose.allemand@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Hautes-Alpes",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA840673",
@@ -3597,7 +4495,9 @@
     "email": "valerie.rossi@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Hautes-Alpes",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA840685",
@@ -3605,7 +4505,9 @@
     "email": "vincent.trebuchet@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Ardèche",
-    "groupe": "PO847173"
+    "groupe": "PO847173",
+    "sigle": "UDR",
+    "groupeNom": "UDR"
   },
   {
     "id": "PA840701",
@@ -3613,7 +4515,9 @@
     "email": "bernard.chaix@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Alpes-Maritimes",
-    "groupe": "PO847173"
+    "groupe": "PO847173",
+    "sigle": "UDR",
+    "groupeNom": "UDR"
   },
   {
     "id": "PA840721",
@@ -3621,7 +4525,9 @@
     "email": "marc.chavent@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Ain",
-    "groupe": "PO847173"
+    "groupe": "PO847173",
+    "sigle": "UDR",
+    "groupeNom": "UDR"
   },
   {
     "id": "PA840757",
@@ -3629,7 +4535,9 @@
     "email": "monique.griseti@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Bouches-du-Rhône",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA840765",
@@ -3637,7 +4545,9 @@
     "email": "laurent.lhardit@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Bouches-du-Rhône",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA840773",
@@ -3645,7 +4555,9 @@
     "email": "olivier.fayssat@assemblee-nationale.fr",
     "circo": "6",
     "dept": "Bouches-du-Rhône",
-    "groupe": "PO847173"
+    "groupe": "PO847173",
+    "sigle": "UDR",
+    "groupeNom": "UDR"
   },
   {
     "id": "PA840781",
@@ -3653,7 +4565,9 @@
     "email": "romain.tonussi@assemblee-nationale.fr",
     "circo": "8",
     "dept": "Bouches-du-Rhône",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA840793",
@@ -3661,7 +4575,9 @@
     "email": "marc.pena@assemblee-nationale.fr",
     "circo": "11",
     "dept": "Bouches-du-Rhône",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA840801",
@@ -3669,7 +4585,9 @@
     "email": "emmanuel.fouquart@assemblee-nationale.fr",
     "circo": "13",
     "dept": "Bouches-du-Rhône",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA840809",
@@ -3677,7 +4595,9 @@
     "email": "gerault.verny@assemblee-nationale.fr",
     "circo": "14",
     "dept": "Bouches-du-Rhône",
-    "groupe": "PO847173"
+    "groupe": "PO847173",
+    "sigle": "UDR",
+    "groupeNom": "UDR"
   },
   {
     "id": "PA840817",
@@ -3685,7 +4605,9 @@
     "email": "joel.bruneau@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Calvados",
-    "groupe": "PO845485"
+    "groupe": "PO845485",
+    "sigle": "LIOT",
+    "groupeNom": "Libertés, Indépendants, Outre-mer et Territoires"
   },
   {
     "id": "PA840829",
@@ -3693,7 +4615,9 @@
     "email": "fabrice.barusseau@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Charente-Maritime",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA840837",
@@ -3701,7 +4625,9 @@
     "email": "pascal.markowsky@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Charente-Maritime",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA840857",
@@ -3709,7 +4635,9 @@
     "email": "nadine.lechon@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Dordogne",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA840869",
@@ -3717,7 +4645,9 @@
     "email": "florence.joubert@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Dordogne",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA840889",
@@ -3725,7 +4655,9 @@
     "email": "matthieu.bloch@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Doubs",
-    "groupe": "PO847173"
+    "groupe": "PO847173",
+    "sigle": "UDR",
+    "groupeNom": "UDR"
   },
   {
     "id": "PA840903",
@@ -3733,7 +4665,9 @@
     "email": "paul.christophle@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Drôme",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA840915",
@@ -3741,7 +4675,9 @@
     "email": "thibaut.monnier@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Drôme",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA840939",
@@ -3749,7 +4685,9 @@
     "email": "oceane.godard@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Côte-d'Or",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA840947",
@@ -3757,7 +4695,9 @@
     "email": "catherine.hervieu@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Côte-d'Or",
-    "groupe": "PO845439"
+    "groupe": "PO845439",
+    "sigle": "EcoS",
+    "groupeNom": "Écologiste et Social"
   },
   {
     "id": "PA840955",
@@ -3765,7 +4705,9 @@
     "email": "pierre.pribetich@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Côte-d'Or",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA840967",
@@ -3773,7 +4715,9 @@
     "email": "rene.lioret@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Côte-d'Or",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA840979",
@@ -3781,7 +4725,9 @@
     "email": "corentin.lefur@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Côtes-d'Armor",
-    "groupe": "PO845425"
+    "groupe": "PO845425",
+    "sigle": "DR",
+    "groupeNom": "Droite Républicaine"
   },
   {
     "id": "PA840983",
@@ -3789,7 +4735,9 @@
     "email": "bartolome.lenoir@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Creuse",
-    "groupe": "PO847173"
+    "groupe": "PO847173",
+    "sigle": "UDR",
+    "groupeNom": "UDR"
   },
   {
     "id": "PA840997",
@@ -3797,7 +4745,9 @@
     "email": "benoit.biteau@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Charente-Maritime",
-    "groupe": "PO845439"
+    "groupe": "PO845439",
+    "sigle": "EcoS",
+    "groupeNom": "Écologiste et Social"
   },
   {
     "id": "PA841017",
@@ -3805,7 +4755,9 @@
     "email": "harold.huwart@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Eure-et-Loir",
-    "groupe": "PO845485"
+    "groupe": "PO845485",
+    "sigle": "LIOT",
+    "groupeNom": "Libertés, Indépendants, Outre-mer et Territoires"
   },
   {
     "id": "PA841023",
@@ -3813,7 +4765,9 @@
     "email": "pierre-yves.cadalen@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Finistère",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA841047",
@@ -3821,7 +4775,9 @@
     "email": "francois-xavier.ceccoli@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Haute-Corse",
-    "groupe": "PO845425"
+    "groupe": "PO845425",
+    "sigle": "DR",
+    "groupeNom": "Droite Républicaine"
   },
   {
     "id": "PA841067",
@@ -3829,7 +4785,9 @@
     "email": "alexandre.allegret-pilot@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Gard",
-    "groupe": "PO847173"
+    "groupe": "PO847173",
+    "sigle": "UDR",
+    "groupeNom": "UDR"
   },
   {
     "id": "PA841075",
@@ -3837,7 +4795,9 @@
     "email": "sylvie.josserand@assemblee-nationale.fr",
     "circo": "6",
     "dept": "Gard",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA841091",
@@ -3845,7 +4805,9 @@
     "email": "arnaud.simion@assemblee-nationale.fr",
     "circo": "6",
     "dept": "Haute-Garonne",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA841107",
@@ -3853,7 +4815,9 @@
     "email": "jacques.oberti@assemblee-nationale.fr",
     "circo": "10",
     "dept": "Haute-Garonne",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA841131",
@@ -3861,7 +4825,9 @@
     "email": "manon.bouquin@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Hérault",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA841139",
@@ -3869,7 +4835,9 @@
     "email": "julien.gabarron@assemblee-nationale.fr",
     "circo": "6",
     "dept": "Hérault",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA841183",
@@ -3877,7 +4845,9 @@
     "email": "hanane.mansouri@assemblee-nationale.fr",
     "circo": "8",
     "dept": "Isère",
-    "groupe": "PO847173"
+    "groupe": "PO847173",
+    "sigle": "UDR",
+    "groupeNom": "UDR"
   },
   {
     "id": "PA841191",
@@ -3885,7 +4855,9 @@
     "email": "sandrine.nosbe@assemblee-nationale.fr",
     "circo": "9",
     "dept": "Isère",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA841199",
@@ -3893,7 +4865,9 @@
     "email": "thierry.perez@assemblee-nationale.fr",
     "circo": "10",
     "dept": "Isère",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA841207",
@@ -3901,7 +4875,9 @@
     "email": "charles.alloncle@assemblee-nationale.fr",
     "circo": "9",
     "dept": "Hérault",
-    "groupe": "PO847173"
+    "groupe": "PO847173",
+    "sigle": "UDR",
+    "groupeNom": "UDR"
   },
   {
     "id": "PA841215",
@@ -3909,7 +4885,9 @@
     "email": "marie.mesmeur@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Ille-et-Vilaine",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA841223",
@@ -3917,7 +4895,9 @@
     "email": "tristan.lahais@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Ille-et-Vilaine",
-    "groupe": "PO845439"
+    "groupe": "PO845439",
+    "sigle": "EcoS",
+    "groupeNom": "Écologiste et Social"
   },
   {
     "id": "PA841243",
@@ -3925,7 +4905,9 @@
     "email": "sebastien.saint-pasteur@assemblee-nationale.fr",
     "circo": "7",
     "dept": "Gironde",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA841251",
@@ -3933,7 +4915,9 @@
     "email": "mathilde.feld@assemblee-nationale.fr",
     "circo": "12",
     "dept": "Gironde",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA841295",
@@ -3941,7 +4925,9 @@
     "email": "pierrick.courbon@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Loire",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA841315",
@@ -3949,7 +4935,9 @@
     "email": "karim.benbrahim@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Loire-Atlantique",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA841327",
@@ -3957,7 +4945,9 @@
     "email": "fabrice.roussel@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Loire-Atlantique",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA841339",
@@ -3965,7 +4955,9 @@
     "email": "jean-michel.brard@assemblee-nationale.fr",
     "circo": "9",
     "dept": "Loire-Atlantique",
-    "groupe": "PO845470"
+    "groupe": "PO845470",
+    "sigle": "HOR",
+    "groupeNom": "Horizons & Indépendants"
   },
   {
     "id": "PA841351",
@@ -3973,7 +4965,9 @@
     "email": "emmanuel.duplessy@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Loiret",
-    "groupe": "PO845439"
+    "groupe": "PO845439",
+    "sigle": "EcoS",
+    "groupeNom": "Écologiste et Social"
   },
   {
     "id": "PA841359",
@@ -3981,7 +4975,9 @@
     "email": "constance.depelichy@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Loiret",
-    "groupe": "PO845485"
+    "groupe": "PO845485",
+    "sigle": "LIOT",
+    "groupeNom": "Libertés, Indépendants, Outre-mer et Territoires"
   },
   {
     "id": "PA841367",
@@ -3989,7 +4985,9 @@
     "email": "christophe.proenca@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Lot",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA841381",
@@ -3997,7 +4995,9 @@
     "email": "sophie.pantel@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Lozère",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA841395",
@@ -4005,7 +5005,9 @@
     "email": "maxime.michelet@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Marne",
-    "groupe": "PO847173"
+    "groupe": "PO847173",
+    "sigle": "UDR",
+    "groupeNom": "UDR"
   },
   {
     "id": "PA841419",
@@ -4013,7 +5015,9 @@
     "email": "damien.girard@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Morbihan",
-    "groupe": "PO845439"
+    "groupe": "PO845439",
+    "sigle": "EcoS",
+    "groupeNom": "Écologiste et Social"
   },
   {
     "id": "PA841431",
@@ -4021,7 +5025,9 @@
     "email": "nathalie.colin-oesterle@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Moselle",
-    "groupe": "PO845470"
+    "groupe": "PO845470",
+    "sigle": "HOR",
+    "groupeNom": "Horizons & Indépendants"
   },
   {
     "id": "PA841439",
@@ -4029,7 +5035,9 @@
     "email": "pascal.jenft@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Moselle",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA841451",
@@ -4037,7 +5045,9 @@
     "email": "julien.guibert@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Nièvre",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA841463",
@@ -4045,7 +5055,9 @@
     "email": "estelle.mercier@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Meurthe-et-Moselle",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA841471",
@@ -4053,7 +5065,9 @@
     "email": "stephane.hablot@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Meurthe-et-Moselle",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA841479",
@@ -4061,7 +5075,9 @@
     "email": "frederic.weber@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Meurthe-et-Moselle",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA841487",
@@ -4069,7 +5085,9 @@
     "email": "anthony.boulogne@assemblee-nationale.fr",
     "circo": "6",
     "dept": "Meurthe-et-Moselle",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA841495",
@@ -4077,7 +5095,9 @@
     "email": "maxime.amblard@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Meuse",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA841507",
@@ -4085,7 +5105,9 @@
     "email": "nicolas.bonnet@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Puy-de-Dôme",
-    "groupe": "PO845439"
+    "groupe": "PO845439",
+    "sigle": "EcoS",
+    "groupeNom": "Écologiste et Social"
   },
   {
     "id": "PA841515",
@@ -4093,7 +5115,9 @@
     "email": "aurelien.lecoq@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Nord",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA841539",
@@ -4101,7 +5125,9 @@
     "email": "julien.gokel@assemblee-nationale.fr",
     "circo": "13",
     "dept": "Nord",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA841553",
@@ -4109,7 +5135,9 @@
     "email": "thierry.tesson@assemblee-nationale.fr",
     "circo": "17",
     "dept": "Nord",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA841563",
@@ -4117,7 +5145,9 @@
     "email": "claire.marais-beuil@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Oise",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA841575",
@@ -4125,7 +5155,9 @@
     "email": "fredericpierre.vos@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Oise",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA841587",
@@ -4133,7 +5165,9 @@
     "email": "david.magnier@assemblee-nationale.fr",
     "circo": "7",
     "dept": "Oise",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA841601",
@@ -4141,7 +5175,9 @@
     "email": "pauline.levasseur@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Pas-de-Calais",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA841605",
@@ -4149,7 +5185,9 @@
     "email": "antoine.golliot@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Pas-de-Calais",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA841613",
@@ -4157,7 +5195,9 @@
     "email": "marc.defleurian@assemblee-nationale.fr",
     "circo": "7",
     "dept": "Pas-de-Calais",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA841621",
@@ -4165,7 +5205,9 @@
     "email": "auguste.evrard@assemblee-nationale.fr",
     "circo": "8",
     "dept": "Pas-de-Calais",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA841633",
@@ -4173,7 +5215,9 @@
     "email": "peio.dufau@assemblee-nationale.fr",
     "circo": "6",
     "dept": "Pyrénées-Atlantiques",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA841645",
@@ -4181,7 +5225,9 @@
     "email": "theo.bernhardt@assemblee-nationale.fr",
     "circo": "8",
     "dept": "Bas-Rhin",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA841657",
@@ -4189,7 +5235,9 @@
     "email": "anais.belouassa@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Rhône",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA841665",
@@ -4197,7 +5245,9 @@
     "email": "denis.fegne@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Hautes-Pyrénées",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA841681",
@@ -4205,7 +5255,9 @@
     "email": "thierry.sother@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Bas-Rhin",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA841701",
@@ -4213,7 +5265,9 @@
     "email": "lea.balage@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Paris",
-    "groupe": "PO845439"
+    "groupe": "PO845439",
+    "sigle": "EcoS",
+    "groupeNom": "Écologiste et Social"
   },
   {
     "id": "PA841709",
@@ -4221,7 +5275,9 @@
     "email": "emmanuelle.hoffman@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Paris",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA841713",
@@ -4229,7 +5285,9 @@
     "email": "boris.tavernier@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Rhône",
-    "groupe": "PO845439"
+    "groupe": "PO845439",
+    "sigle": "EcoS",
+    "groupeNom": "Écologiste et Social"
   },
   {
     "id": "PA841717",
@@ -4237,7 +5295,9 @@
     "email": "sandrine.runel@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Rhône",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA841729",
@@ -4245,7 +5305,9 @@
     "email": "abdelkader.lahmar@assemblee-nationale.fr",
     "circo": "7",
     "dept": "Rhône",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA841737",
@@ -4253,7 +5315,9 @@
     "email": "jonathan.gery@assemblee-nationale.fr",
     "circo": "8",
     "dept": "Rhône",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA841749",
@@ -4261,7 +5325,9 @@
     "email": "tiffany.joncour@assemblee-nationale.fr",
     "circo": "13",
     "dept": "Rhône",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA841761",
@@ -4269,7 +5335,9 @@
     "email": "aurelien.dutremble@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Saône-et-Loire",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA841769",
@@ -4277,7 +5345,9 @@
     "email": "eric.michoux@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Saône-et-Loire",
-    "groupe": "PO847173"
+    "groupe": "PO847173",
+    "sigle": "UDR",
+    "groupeNom": "UDR"
   },
   {
     "id": "PA841813",
@@ -4285,7 +5355,9 @@
     "email": "florence.herouin-leautey@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Seine-Maritime",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA841825",
@@ -4293,7 +5365,9 @@
     "email": "patrice.martin@assemblee-nationale.fr",
     "circo": "6",
     "dept": "Seine-Maritime",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA841837",
@@ -4301,7 +5375,9 @@
     "email": "robert.lebourgeois@assemblee-nationale.fr",
     "circo": "10",
     "dept": "Seine-Maritime",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA841845",
@@ -4309,7 +5385,9 @@
     "email": "arnaud.saint-martin@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Seine-et-Marne",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA841853",
@@ -4317,7 +5395,9 @@
     "email": "celine.hervieu@assemblee-nationale.fr",
     "circo": "11",
     "dept": "Paris",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA841873",
@@ -4325,7 +5405,9 @@
     "email": "julien.limongi@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Seine-et-Marne",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA841885",
@@ -4333,7 +5415,9 @@
     "email": "arnaud.bonnet@assemblee-nationale.fr",
     "circo": "8",
     "dept": "Seine-et-Marne",
-    "groupe": "PO845439"
+    "groupe": "PO845439",
+    "sigle": "EcoS",
+    "groupeNom": "Écologiste et Social"
   },
   {
     "id": "PA841893",
@@ -4341,7 +5425,9 @@
     "email": "celine.thiebault-martinez@assemblee-nationale.fr",
     "circo": "9",
     "dept": "Seine-et-Marne",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA841919",
@@ -4349,7 +5435,9 @@
     "email": "dieynaba.diop@assemblee-nationale.fr",
     "circo": "9",
     "dept": "Yvelines",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA841927",
@@ -4357,7 +5445,9 @@
     "email": "anne-sophie.ronceret@assemblee-nationale.fr",
     "circo": "10",
     "dept": "Yvelines",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA841931",
@@ -4365,7 +5455,9 @@
     "email": "laurent.mazaury@assemblee-nationale.fr",
     "circo": "11",
     "dept": "Yvelines",
-    "groupe": "PO845485"
+    "groupe": "PO845485",
+    "sigle": "LIOT",
+    "groupeNom": "Libertés, Indépendants, Outre-mer et Territoires"
   },
   {
     "id": "PA841947",
@@ -4373,7 +5465,9 @@
     "email": "zahia.hamdane@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Somme",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA841955",
@@ -4381,7 +5475,9 @@
     "email": "matthias.renault@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Somme",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA841981",
@@ -4389,7 +5485,9 @@
     "email": "catherine.rimbert@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Vaucluse",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA842001",
@@ -4397,7 +5495,9 @@
     "email": "guillaume.bigot@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Territoire de Belfort",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA842013",
@@ -4405,7 +5505,9 @@
     "email": "steevy.gustave@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Essonne",
-    "groupe": "PO845439"
+    "groupe": "PO845439",
+    "sigle": "EcoS",
+    "groupeNom": "Écologiste et Social"
   },
   {
     "id": "PA842029",
@@ -4413,7 +5515,9 @@
     "email": "claire.lejeune@assemblee-nationale.fr",
     "circo": "7",
     "dept": "Essonne",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA842037",
@@ -4421,7 +5525,9 @@
     "email": "berenger.cernon@assemblee-nationale.fr",
     "circo": "8",
     "dept": "Essonne",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA842045",
@@ -4429,7 +5535,9 @@
     "email": "julie.ozenne@assemblee-nationale.fr",
     "circo": "9",
     "dept": "Essonne",
-    "groupe": "PO845439"
+    "groupe": "PO845439",
+    "sigle": "EcoS",
+    "groupeNom": "Écologiste et Social"
   },
   {
     "id": "PA842073",
@@ -4437,7 +5545,9 @@
     "email": "gaetan.dussausaye@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Vosges",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA842085",
@@ -4445,7 +5555,9 @@
     "email": "sebastien.humbert@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Vosges",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA842097",
@@ -4453,7 +5565,9 @@
     "email": "sophie-laurence.roy@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Yonne",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA842105",
@@ -4461,7 +5575,9 @@
     "email": "raphael.arnault@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Vaucluse",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA842117",
@@ -4469,7 +5585,9 @@
     "email": "vincent.jeanbrun@assemblee-nationale.fr",
     "circo": "7",
     "dept": "Val-de-Marne",
-    "groupe": "PO845425"
+    "groupe": "PO845425",
+    "sigle": "DR",
+    "groupeNom": "Droite Républicaine"
   },
   {
     "id": "PA842125",
@@ -4477,7 +5595,9 @@
     "email": "thomas.lam@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Hauts-de-Seine",
-    "groupe": "PO845470"
+    "groupe": "PO845470",
+    "sigle": "HOR",
+    "groupeNom": "Horizons & Indépendants"
   },
   {
     "id": "PA842141",
@@ -4485,7 +5605,9 @@
     "email": "elisabeth.demaistre@assemblee-nationale.fr",
     "circo": "9",
     "dept": "Hauts-de-Seine",
-    "groupe": "PO845425"
+    "groupe": "PO845425",
+    "sigle": "DR",
+    "groupeNom": "Droite Républicaine"
   },
   {
     "id": "PA842155",
@@ -4493,7 +5615,9 @@
     "email": "aly.diouara@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Seine-Saint-Denis",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA842187",
@@ -4501,7 +5625,9 @@
     "email": "gabrielle.cathala@assemblee-nationale.fr",
     "circo": "6",
     "dept": "Val-d'Oise",
-    "groupe": "PO845413"
+    "groupe": "PO845413",
+    "sigle": "LFI-NFP",
+    "groupeNom": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA842195",
@@ -4509,7 +5635,9 @@
     "email": "romain.eskenazi@assemblee-nationale.fr",
     "circo": "7",
     "dept": "Val-d'Oise",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA842211",
@@ -4517,7 +5645,9 @@
     "email": "beatrice.bellay@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Martinique",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA842227",
@@ -4525,7 +5655,9 @@
     "email": "joseph.riviere@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Réunion",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA842255",
@@ -4533,7 +5665,9 @@
     "email": "anne.sicard@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Val-d'Oise",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA842263",
@@ -4541,7 +5675,9 @@
     "email": "ayda.hadizadeh@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Val-d'Oise",
-    "groupe": "PO845419"
+    "groupe": "PO845419",
+    "sigle": "SOC",
+    "groupeNom": "Socialistes et apparentés"
   },
   {
     "id": "PA842271",
@@ -4549,7 +5685,9 @@
     "email": "emmanuel.maurel@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Val-d'Oise",
-    "groupe": "PO845514"
+    "groupe": "PO845514",
+    "sigle": "GDR",
+    "groupeNom": "Gauche Démocrate et Républicaine"
   },
   {
     "id": "PA842279",
@@ -4557,7 +5695,9 @@
     "email": "anchya.bamana@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Mayotte",
-    "groupe": "PO845401"
+    "groupe": "PO845401",
+    "sigle": "RN",
+    "groupeNom": "Rassemblement National"
   },
   {
     "id": "PA842299",
@@ -4565,7 +5705,9 @@
     "email": "emmanuel.tjibaou@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Nouvelle-Calédonie",
-    "groupe": "PO845514"
+    "groupe": "PO845514",
+    "sigle": "GDR",
+    "groupeNom": "Gauche Démocrate et Républicaine"
   },
   {
     "id": "PA842311",
@@ -4573,7 +5715,9 @@
     "email": "vincent.caure@assemblee-nationale.fr",
     "circo": "3",
     "dept": "Français établis hors de France",
-    "groupe": "PO845407"
+    "groupe": "PO845407",
+    "sigle": "EPR",
+    "groupeNom": "Ensemble pour la République"
   },
   {
     "id": "PA870010",
@@ -4581,7 +5725,9 @@
     "email": "sebastien.martin@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Saône-et-Loire",
-    "groupe": "PO845425"
+    "groupe": "PO845425",
+    "sigle": "DR",
+    "groupeNom": "Droite Républicaine"
   },
   {
     "id": "PA942",
@@ -4589,6 +5735,8 @@
     "email": "Charles.deCourson@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Marne",
-    "groupe": "PO845485"
+    "groupe": "PO845485",
+    "sigle": "LIOT",
+    "groupeNom": "Libertés, Indépendants, Outre-mer et Territoires"
   }
 ]
