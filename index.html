@@ -2,30 +2,33 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8" />
-  <title>Lois -- Assemblée nationale</title>
+  <title>📜 Lois -- Assemblée nationale</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- Ton style général (cartes, grille, etc.) -->
   <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
+  <nav class="topbar">
+    <select id="nav-select">
+      <option value="./" selected>📜 Lois</option>
+      <option value="./deputes/index_depute.html">👤 Députés</option>
+    </select>
+  </nav>
+
   <header class="page-header">
-    <div class="nav">
-      <a class="btn" href="./deputes/index_depute.html">👤 Députés</a>
-    </div>
     <h1>📜 Lois</h1>
     <p>Données mises à jour automatiquement depuis l’Assemblée nationale.</p>
   </header>
 
   <main class="container">
-    <input id="search" type="search"
-           placeholder="Rechercher (titre, type, auteur, état)…"
-           aria-label="Rechercher" />
-
+    <input type="search" id="search" placeholder="Rechercher (titre, type, auteur, état)…" />
     <div id="lois" class="cards-grid"></div>
-
-    <pre id="err" style="white-space:pre-wrap;color:#b00020"></pre>
   </main>
 
+  <script>
+    document.getElementById("nav-select").addEventListener("change", e => {
+      location.href = e.target.value;
+    });
+  </script>
   <script src="./script.js" defer></script>
 </body>
 </html>

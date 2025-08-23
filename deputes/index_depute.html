@@ -2,34 +2,38 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8" />
-  <title>Députés en exercice</title>
+  <title>👤 Députés en exercice</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- CSS spécifique à la page députés -->
   <link rel="stylesheet" href="./style_depute.css" />
 </head>
 <body>
-  <header>
-    <h1>Députés en exercice</h1>
+  <nav class="topbar">
+    <select id="nav-select">
+      <option value="../index.html">📜 Lois</option>
+      <option value="./index_depute.html" selected>👤 Députés</option>
+    </select>
+  </nav>
+
+  <header class="page-header">
+    <h1>👤 Députés en exercice</h1>
   </header>
 
-  <!-- Barre d’outils : recherche + filtres -->
   <section>
-    <input id="q" type="search" placeholder="Recherche (nom, circo, groupe, e‑mail…)" aria-label="Recherche" />
-    <select id="groupe" aria-label="Filtrer par groupe"></select>
-    <select id="dept" aria-label="Filtrer par département"></select>
+    <input id="q" type="search" placeholder="Recherche (nom, circo, groupe, e-mail…)" />
+    <select id="groupe"></select>
+    <select id="dept"></select>
   </section>
 
-  <!-- Légende des groupes (sigles colorés) -- générée par le JS si présent -->
   <section id="groupes-legend"></section>
-
-  <!-- Compteur + erreurs -->
   <div id="count"></div>
   <pre id="err"></pre>
+  <main id="deputes-list"></main>
 
-  <!-- Liste en cartes -->
-  <main id="deputes-list" aria-live="polite"></main>
-
-  <!-- JS spécifique à la page députés -->
+  <script>
+    document.getElementById("nav-select").addEventListener("change", e => {
+      location.href = e.target.value;
+    });
+  </script>
   <script src="./script_depute.js" defer></script>
 </body>
 </html>
