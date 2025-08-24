@@ -1,7 +1,7 @@
 name: Update deputes.json (daily, AMO10 L17)
 
 on:
-  workflow_dispatch:            # lancement manuel possible
+  workflow_dispatch:            # lancement manuel
   schedule:
     - cron: "17 3 * * *"        # tous les jours à 03:17 UTC
 
@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Install unzip + jq
@@ -29,100 +29,66 @@ jobs:
           rm -rf data
           mkdir -p data
           unzip -o data.zip -d data
-          echo "Contenu extrait :"
-          find data -maxdepth 3 -type f | sort | head -n 40
+          echo "Aperçu des fichiers extraits :"
+          find data -maxdepth 3 -type f | head -n 50
 
-      # ------------------------------------------------------------------
-      # 1) Construire la map des groupes (POxxxxx -> {sigle, nom})
-      #    Correction : uid peut être un objet {"#text": "PO..."} OU une string "PO..."
-      # ------------------------------------------------------------------
-      - name: Build organes_map.json (PO → {nom, sigle})
-        run: |
-          set -eux
-          mkdir -p maps
-          mapfile -t ORG_FILES < <(find data -type f -path '*/json/organe/*.json' | sort)
-
-          if [ ${#ORG_FILES[@]} -eq 0 ]; then
-            echo '{}' > maps/organes_map.json
-          else
-            jq -s '
-              map(.organe)
-              | map(select((.codeType // "") == "GP"))
-              | map({
-                  key: (
-                    if (.uid | type) == "object" then .uid["#text"] else .uid end
-                  ),
-                  value: {
-                    sigle: (.libelleAbrege // .acronyme // ""),
-                    nom:   (.libelle       // .libelleAbrege // .acronyme // "")
-                  }
-                })
-              | from_entries
-            ' "${ORG_FILES[@]}" > maps/organes_map.json
-          fi
-
-          echo "Groupes trouvés : $(jq 'length' maps/organes_map.json)"
-
-      # ------------------------------------------------------------------
-      # 2) Générer deputes/deputes.json à partir des fichiers acteurs,
-      #    enrichi avec sigle/nom du groupe via maps/organes_map.json
-      # ------------------------------------------------------------------
-      - name: Build deputes.json (parser AMO10 + enrichissement groupe)
+      # --- Mapping auto des groupes à partir des ORGANES (GP) ---
+      - name: Build groupes.json (codes PO -> sigle/libellé)
         run: |
           set -eux
           mkdir -p deputes
+          jq -s '
+            map(.organe)                                   |
+            map(select(.codeType == "GP"))                 |
+            map({
+              code:    (.uid?["#text"] // .uid // ""),
+              sigle:   (.libelleAbrege // .acronyme // .libelle // ""),
+              libelle: (.libelle // .libelleAbrege // .acronyme // "")
+            })                                             |
+            map(select(.code != ""))                       |
+            unique_by(.code)
+          ' data/json/organe/*.json > deputes/groupes.json
 
-          # Lister les fichiers acteurs
-          mapfile -t ACT_FILES < <(find data -type f -path '*/json/acteur/*.json' | sort)
+          jq 'length' deputes/groupes.json
 
-          if [ ${#ACT_FILES[@]} -eq 0 ]; then
-            echo '[]' > deputes/deputes.json
-          else
-            jq -s --slurpfile GMAP maps/organes_map.json '
-              # $GMAP[0] = objet {"POxxxxx": {"sigle": "...", "nom": "..."}}
-              map(.acteur)
-              | map({
-                  id: (
-                        if (.uid | type) == "object" then .uid["#text"] else .uid end
-                      ),
-                  nom: (
-                        ((.etatCivil.ident.prenom // "") + " " + (.etatCivil.ident.nom // ""))
-                        | gsub("^\\s+|\\s+$";"")
-                      ),
-                  email: (
-                    ( [ (.adresses.adresse[]?
-                          | select(.typeLibelle=="Mèl")
-                          | .valElec) ] ) as $mails
-                    | ( $mails[] | select(test("assemblee-nationale\\.fr$")) )
-                      // ($mails[0] // "")
-                  ),
-                  _mAss: (
-                    ( .mandats.mandat // [] )
-                    | map(select(.typeOrgane=="ASSEMBLEE"))
-                    | .[0]
-                  ),
-                  _mGp: (
-                    ( .mandats.mandat // [] )
-                    | map(select(.typeOrgane=="GP"))
-                    | .[0]
-                  )
+      # --- Liste simplifiée des députés à partir des ACTEURS ---
+      - name: Build deputes.json (parser AMO10)
+        run: |
+          set -eux
+          mkdir -p deputes
+          jq -s '
+            map(
+              .acteur
+              | ( [ ((.adresses?.adresse? // [])
+                      | map(select(.typeLibelle=="Mèl") | .valElec)
+                    )[] ] ) as $mails
+              | {
+                  id:     (.uid?["#text"] // .uid // .identifiant // ""),
+                  nom:    (
+                           ((.etatCivil.ident?.prenom // .etatCivil?.prenom // "")
+                            + " " +
+                            (.etatCivil.ident?.nom    // .etatCivil?.nom    // ""))
+                           | gsub("^\\s+|\\s+$";"")
+                          ),
+                  email:  (
+                           ( $mails[] | select(test("assemblee-nationale\\.fr$")) )
+                           // ($mails[0] // .mails?[0] // .email // "")
+                          ),
+                  _mandats: (.mandats?.mandat // [])
                 }
-                | .circo   = (._mAss.election.lieu.numCirco   // "")
-                | .dept    = (._mAss.election.lieu.departement // "")
-                | .groupe  = (._mGp.organes.organeRef // "")
-                | .sigle   = ($GMAP[0][.groupe].sigle // "")
-                | .groupeNom = ($GMAP[0][.groupe].nom // "")
-                | del(._mAss, ._mGp)
-              )
-            ' "${ACT_FILES[@]}" > deputes/deputes.json
-          fi
+              | .circo  = ( ._mandats | map(select(.typeOrgane=="ASSEMBLEE")) | .[0]?.election?.lieu?.numCirco    // "" )
+              | .dept   = ( ._mandats | map(select(.typeOrgane=="ASSEMBLEE")) | .[0]?.election?.lieu?.departement // "" )
+              | .groupe = ( ._mandats | map(select(.typeOrgane=="GP"))        | .[0]?.organes?.organeRef           // "" )
+              | del(._mandats)
+            )
+          ' data/json/acteur/*.json > deputes/deputes.json
 
           jq 'length' deputes/deputes.json
 
       - name: Commit & push if changed
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: update deputes.json from AMO10 L17 (with group names)"
+          commit_message: "chore: update deputes/ (groupes.json + deputes.json) from AMO10 L17"
           file_pattern: |
+            deputes/groupes.json
             deputes/deputes.json
-            maps/organes_map.json
