@@ -4,28 +4,77 @@
   <meta charset="utf-8" />
   <title>Détail de la loi</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="./detail.css" />
+  <!-- Style intégré (sobre, clair) -->
+  <style>
+    :root{
+      --bg:#f5f6fa; --panel:#ffffff; --ink:#1c1c1c; --muted:#60646c;
+      --border:#e3e6eb; --accent:#0a66c2; --ring:rgba(10,102,194,.22);
+      --radius:12px;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:var(--ink);font:500 16px/1.55 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+    a{color:var(--accent);text-decoration:none}
+    a:focus{outline:3px solid var(--ring)}
+
+    .hero{
+      padding:24px max(16px,5vw) 10px;
+      background:#ffffff;
+      border-bottom:1px solid var(--border);
+    }
+    .hero .back{display:inline-block;font-size:14px;margin-bottom:10px}
+    .hero h1{margin:0 0 6px;font-size:clamp(22px,3.2vw,34px)}
+    .hero .sub{margin:0;color:var(--muted)}
+
+    .wrap{padding:20px max(16px,5vw) 60px;display:grid;gap:16px}
+    .block{
+      background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);padding:16px
+    }
+    .block h2{margin:0 0 10px;font-size:18px}
+    .para{margin:0}
+    .muted{color:var(--muted)}
+
+    .grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+    .badge{display:inline-block;background:#f7f8fb;border:1px solid var(--border);border-radius:10px;padding:8px 10px}
+    .list{margin:0;padding-left:20px}
+    .list li{margin:6px 0}
+    .chips{display:flex;flex-wrap:wrap;gap:8px}
+    .chip{background:#f7f8fb;border:1px solid var(--border);border-radius:999px;padding:6px 10px}
+
+    .actions{display:flex;gap:10px;flex-wrap:wrap}
+    .button{
+      display:inline-block;padding:10px 14px;border-radius:10px;background:var(--accent);color:#fff;font-weight:700
+    }
+
+    /* petit squelette de chargement */
+    .skeleton{position:relative;overflow:hidden;background:#eef1f6;border-radius:8px}
+    .skeleton::after{
+      content:"";position:absolute;inset:0;background:linear-gradient(90deg, transparent, rgba(255,255,255,.55), transparent);
+      transform:translateX(-100%);animation:shimmer 1.2s infinite
+    }
+    @keyframes shimmer{to{transform:translateX(100%)}}
+  </style>
 </head>
 <body>
   <header class="hero">
-    <h1 id="title">Chargement…</h1>
-    <p id="subtitle" class="muted"></p>
+    <a class="back" href="./">← Retour à la liste</a>
+    <h1 id="title" class="skeleton" style="height:1.8em"></h1>
+    <p id="subtitle" class="sub"></p>
   </header>
 
   <main class="wrap">
     <section class="block">
       <h2>Députés porteurs</h2>
-      <div id="deputes" class="chips"></div>
+      <div id="deputes" class="chips muted">Chargement…</div>
     </section>
 
     <section class="block">
       <h2>Résumé</h2>
-      <p id="resume" class="para muted">Résumé en cours de génération…</p>
+      <p id="resume" class="para muted">Chargement…</p>
     </section>
 
     <section class="block">
       <h2>Impact dans la vie quotidienne</h2>
-      <ul id="impacts" class="list"></ul>
+      <ul id="impacts" class="list"><li class="muted">Chargement…</li></ul>
     </section>
 
     <section class="grid">
@@ -39,18 +88,20 @@
       </div>
       <div class="block">
         <h2>Dates importantes</h2>
-        <ul id="dates" class="list"></ul>
+        <ul id="dates" class="list"><li class="muted">--</li></ul>
       </div>
     </section>
 
     <section class="block">
       <h2>Texte officiel</h2>
-      <a id="legifrance" class="button" href="#" target="_blank" rel="noopener">Consulter sur Légifrance</a>
+      <div class="actions">
+        <a id="legifrance" class="button" href="#" target="_blank" rel="noopener">Consulter sur Légifrance</a>
+      </div>
     </section>
   </main>
 
+  <!-- Règle ici (si besoin) l’URL de TON Worker ; sinon ajoute ?api=... dans l’URL -->
   <script>
-    // >>> règle l'URL de ton Worker ici si besoin :
     window.API_BASE = window.API_BASE || "https://loi-api.teiki5320.workers.dev";
   </script>
   <script src="./detail.js" defer></script>

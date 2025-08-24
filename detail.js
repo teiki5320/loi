@@ -1,26 +1,121 @@
-:root{
-  --bg:#0b1020; --panel:#0f1830; --ink:#e8ecf8; --muted:#a9b3c7;
-  --border:#1b2c5c; --accent:#6aa8ff; --radius:12px;
-  color-scheme: dark;
-}
-*{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--ink);font:500 16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+// detail.js -- lit ?id=... puis affiche la fiche en appelant TON Worker
+(() => {
+  const $ = (s) => document.querySelector(s);
+  const set = (sel, val, placeholder = "--") => {
+    const el = $(sel); if (!el) return;
+    el.textContent = (val == null || val === "") ? placeholder : val;
+    // retire le squelette si présent
+    el.classList.remove("skeleton");
+    el.style.removeProperty("height");
+  };
 
-.hero{padding:28px max(16px,5vw) 8px;background:linear-gradient(135deg,#123 0%,#1b2c5c 100%)}
-.hero h1{margin:0 0 6px;font-size:clamp(22px,3.2vw,34px)}
-.hero .muted{color:var(--muted);margin:0}
+  const params = new URLSearchParams(location.search);
+  const id = (params.get("id") || "").toUpperCase();
 
-.wrap{padding:20px max(16px,5vw) 60px;display:grid;gap:16px}
-.block{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);padding:16px}
-.block h2{margin:0 0 10px;font-size:18px;color:var(--ink)}
-.para{margin:0}
-.muted{color:var(--muted)}
+  // permet d'override l’API via ?api=... pour tester
+  const apiOverride = params.get("api");
+  const API = (apiOverride || window.API_BASE || "").replace(/\/$/,"");
 
-.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
-.badge{background:#0b1533;border:1px solid var(--border);border-radius:10px;padding:10px}
-.list{margin:0;padding-left:20px}
-.list li{margin:6px 0}
-.chips{display:flex;flex-wrap:wrap;gap:8px}
-.chips .chip{background:#0b1533;border:1px solid var(--border);border-radius:999px;padding:6px 10px}
+  if (!id) {
+    set("#title", "Loi introuvable");
+    set("#subtitle", "");
+    return;
+  }
 
-.button{display:inline-block;padding:10px 14px;border-radius:10px;background:var(--accent);color:#081021;text-decoration:none;font-weight:700}
-.button:focus{outline:3px solid rgba(106,168,255,.35)}
+  async function fetchJSON(url) {
+    const r = await fetch(url, { cache: "no-store" });
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    return r.json();
+  }
+
+  function normalize(item) {
+    if (!item) return null;
+    const idStr = String(item.ref || item.id || item.numero || item.code || item.reference || "").toUpperCase();
+    return {
+      id: idStr,
+      titre: item.titre || item.intitule || "Sans titre",
+      type:  item.type || item.nature || "",
+      auteur:item.auteur || item.author || "",
+      date:  item.date || item.dateEvenement || item.derniere_date || "",
+      etat:  item.etat || item.statut || item.phase || "",
+      url:   item.legifranceUrl || item.url || item.lien || ""
+    };
+  }
+
+  async function loadFromWorker() {
+    // Attendu côté Worker: /lois/:id -> { titre, type/nature, auteur, date, etat/statut, resume, impacts[], url/legifranceUrl, deputes[]?, dates[]? }
+    const data = await fetchJSON(`${API}/lois/${encodeURIComponent(id)}`);
+    const base = normalize(data);
+    const resume  = data.resume || null;
+    const impacts = Array.isArray(data.impacts) ? data.impacts : [];
+    const deputes = Array.isArray(data.deputes) ? data.deputes : [];
+    const dates   = Array.isArray(data.dates)   ? data.dates   : (base.date ? [base.date] : []);
+    return { ...base, resume, impacts, deputes, dates };
+  }
+
+  async function loadFromLocalFallback() {
+    // Fallback minimal en cas d’indispo Worker : on lit ./lois/lois.json
+    const arr = await fetchJSON("./lois/lois.json?fallback=1");
+    const list = Array.isArray(arr) ? arr : (arr.lois || arr.items || []);
+    const found = list.find(x =>
+      String(x.ref || x.id || x.numero || x.code || x.reference || "").toUpperCase() === id
+    );
+    const base = normalize(found) || { id, titre:`Loi ${id}` };
+    return { ...base, resume: null, impacts: [], deputes: [], dates: base.date ? [base.date] : [] };
+  }
+
+  function render(d) {
+    set("#title", d.titre);
+    const sub = [d.type, d.auteur, d.date].filter(Boolean).join(" • ");
+    set("#subtitle", sub, "");
+
+    // Députés
+    const dep = $("#deputes");
+    dep.innerHTML = d.deputes?.length
+      ? d.deputes.map(n => `<span class="chip">${n}</span>`).join("")
+      : `<span class="muted">--</span>`;
+
+    // Résumé
+    set("#resume", d.resume || "Résumé en cours de génération…");
+
+    // Impacts
+    $("#impacts").innerHTML = d.impacts?.length
+      ? d.impacts.map(x => `<li>${x}</li>`).join("")
+      : `<li class="muted">En cours de génération…</li>`;
+
+    // Statut / Nature / Dates
+    set("#statut", d.etat);
+    set("#nature", d.type);
+    $("#dates").innerHTML = d.dates?.length
+      ? d.dates.map(x => `<li>${x}</li>`).join("")
+      : `<li class="muted">--</li>`;
+
+    // Lien texte officiel
+    const a = $("#legifrance");
+    a.href = d.url || "#";
+    if (!d.url) {
+      a.classList.add("muted");
+      a.textContent = "Lien indisponible";
+      a.removeAttribute("target");
+      a.removeAttribute("rel");
+    }
+  }
+
+  (async function main(){
+    try {
+      const data = await loadFromWorker();
+      render(data);
+    } catch (e) {
+      console.warn("Worker indisponible, fallback local.", e);
+      try {
+        const data = await loadFromLocalFallback();
+        render(data);
+      } catch (e2) {
+        set("#title", `Loi ${id}`);
+        set("#subtitle", "");
+        set("#resume", "Impossible de charger les données.");
+        $("#impacts").innerHTML = `<li class="muted">--</li>`;
+      }
+    }
+  })();
+})();
