@@ -6,8 +6,8 @@
     "circo": "4",
     "dept": "Gironde",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA1327",
@@ -16,8 +16,8 @@
     "circo": "2",
     "dept": "Indre",
     "groupe": "PO845425",
-    "sigle": "DR",
-    "groupeNom": "Droite Républicaine"
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA1567",
@@ -26,8 +26,8 @@
     "circo": "6",
     "dept": "Essonne",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA1592",
@@ -36,8 +36,8 @@
     "circo": "3",
     "dept": "Pyrénées-Atlantiques",
     "groupe": "PO845485",
-    "sigle": "LIOT",
-    "groupeNom": "Libertés, Indépendants, Outre-mer et Territoires"
+    "groupeSigle": "LIOT",
+    "groupeLibelle": "Libertés, Indépendants, Outre-mer et Territoires"
   },
   {
     "id": "PA1630",
@@ -46,8 +46,8 @@
     "circo": "8",
     "dept": "Val-de-Marne",
     "groupe": "PO845425",
-    "sigle": "DR",
-    "groupeNom": "Droite Républicaine"
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA1654",
@@ -56,8 +56,8 @@
     "circo": "1",
     "dept": "Corrèze",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA266793",
@@ -66,8 +66,8 @@
     "circo": "2",
     "dept": "Cantal",
     "groupe": "PO845425",
-    "sigle": "DR",
-    "groupeNom": "Droite Républicaine"
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA266797",
@@ -76,8 +76,8 @@
     "circo": "1",
     "dept": "Manche",
     "groupe": "PO845425",
-    "sigle": "DR",
-    "groupeNom": "Droite Républicaine"
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA266808",
@@ -86,8 +86,8 @@
     "circo": "2",
     "dept": "Savoie",
     "groupe": "PO845425",
-    "sigle": "DR",
-    "groupeNom": "Droite Républicaine"
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA267042",
@@ -96,8 +96,8 @@
     "circo": "3",
     "dept": "Mayenne",
     "groupe": "PO845485",
-    "sigle": "LIOT",
-    "groupeNom": "Libertés, Indépendants, Outre-mer et Territoires"
+    "groupeSigle": "LIOT",
+    "groupeLibelle": "Libertés, Indépendants, Outre-mer et Territoires"
   },
   {
     "id": "PA267200",
@@ -106,8 +106,8 @@
     "circo": "5",
     "dept": "Nord",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA267285",
@@ -116,8 +116,8 @@
     "circo": "1",
     "dept": "Haute-Loire",
     "groupe": "PO845425",
-    "sigle": "DR",
-    "groupeNom": "Droite Républicaine"
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA267318",
@@ -126,8 +126,8 @@
     "circo": "5",
     "dept": "Sarthe",
     "groupe": "PO845454",
-    "sigle": "Dem",
-    "groupeNom": "Les Démocrates"
+    "groupeSigle": "Dem",
+    "groupeLibelle": "Les Démocrates"
   },
   {
     "id": "PA267763",
@@ -136,8 +136,8 @@
     "circo": "15",
     "dept": "Nord",
     "groupe": "PO845485",
-    "sigle": "LIOT",
-    "groupeNom": "Libertés, Indépendants, Outre-mer et Territoires"
+    "groupeSigle": "LIOT",
+    "groupeLibelle": "Libertés, Indépendants, Outre-mer et Territoires"
   },
   {
     "id": "PA267780",
@@ -146,8 +146,8 @@
     "circo": "7",
     "dept": "Seine-Maritime",
     "groupe": "PO845470",
-    "sigle": "HOR",
-    "groupeNom": "Horizons & Indépendants"
+    "groupeSigle": "HOR",
+    "groupeLibelle": "Horizons & Indépendants"
   },
   {
     "id": "PA267794",
@@ -156,8 +156,8 @@
     "circo": "9",
     "dept": "Alpes-Maritimes",
     "groupe": "PO845425",
-    "sigle": "DR",
-    "groupeNom": "Droite Républicaine"
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA2940",
@@ -166,8 +166,8 @@
     "circo": "2",
     "dept": "Doubs",
     "groupe": "PO845439",
-    "sigle": "EcoS",
-    "groupeNom": "Écologiste et Social"
+    "groupeSigle": "EcoS",
+    "groupeLibelle": "Écologiste et Social"
   },
   {
     "id": "PA2952",
@@ -176,8 +176,8 @@
     "circo": "3",
     "dept": "Ardennes",
     "groupe": "PO845485",
-    "sigle": "LIOT",
-    "groupeNom": "Libertés, Indépendants, Outre-mer et Territoires"
+    "groupeSigle": "LIOT",
+    "groupeLibelle": "Libertés, Indépendants, Outre-mer et Territoires"
   },
   {
     "id": "PA2960",
@@ -186,8 +186,8 @@
     "circo": "4",
     "dept": "Oise",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA309643",
@@ -196,8 +196,8 @@
     "circo": "4",
     "dept": "Vendée",
     "groupe": "PO840056",
-    "sigle": "NI",
-    "groupeNom": "Non inscrit"
+    "groupeSigle": "NI",
+    "groupeLibelle": "Non inscrit"
   },
   {
     "id": "PA330008",
@@ -206,8 +206,8 @@
     "circo": "1",
     "dept": "Ain",
     "groupe": "PO845425",
-    "sigle": "DR",
-    "groupeNom": "Droite Républicaine"
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA330240",
@@ -216,8 +216,8 @@
     "circo": "1",
     "dept": "Alpes-Maritimes",
     "groupe": "PO847173",
-    "sigle": "UDR",
-    "groupeNom": "UDR"
+    "groupeSigle": "UDR",
+    "groupeLibelle": "UDR"
   },
   {
     "id": "PA330909",
@@ -226,8 +226,8 @@
     "circo": "1",
     "dept": "Cantal",
     "groupe": "PO845425",
-    "sigle": "DR",
-    "groupeNom": "Droite Républicaine"
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA331582",
@@ -236,8 +236,8 @@
     "circo": "4",
     "dept": "Eure-et-Loir",
     "groupe": "PO845454",
-    "sigle": "Dem",
-    "groupeNom": "Les Démocrates"
+    "groupeSigle": "Dem",
+    "groupeLibelle": "Les Démocrates"
   },
   {
     "id": "PA331973",
@@ -246,8 +246,8 @@
     "circo": "5",
     "dept": "Gironde",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA332228",
@@ -256,8 +256,8 @@
     "circo": "6",
     "dept": "Ille-et-Vilaine",
     "groupe": "PO845470",
-    "sigle": "HOR",
-    "groupeNom": "Horizons & Indépendants"
+    "groupeSigle": "HOR",
+    "groupeLibelle": "Horizons & Indépendants"
   },
   {
     "id": "PA332523",
@@ -266,8 +266,8 @@
     "circo": "2",
     "dept": "Jura",
     "groupe": "PO845425",
-    "sigle": "DR",
-    "groupeNom": "Droite Républicaine"
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA333285",
@@ -276,8 +276,8 @@
     "circo": "1",
     "dept": "Mayenne",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA335054",
@@ -286,8 +286,8 @@
     "circo": "2",
     "dept": "Sarthe",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA335612",
@@ -296,8 +296,8 @@
     "circo": "8",
     "dept": "Seine-Maritime",
     "groupe": "PO845514",
-    "sigle": "GDR",
-    "groupeNom": "Gauche Démocrate et Républicaine"
+    "groupeSigle": "GDR",
+    "groupeLibelle": "Gauche Démocrate et Républicaine"
   },
   {
     "id": "PA335758",
@@ -306,8 +306,8 @@
     "circo": "5",
     "dept": "Seine-et-Marne",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA335999",
@@ -316,8 +316,8 @@
     "circo": "2",
     "dept": "Deux-Sèvres",
     "groupe": "PO845439",
-    "sigle": "EcoS",
-    "groupeNom": "Écologiste et Social"
+    "groupeSigle": "EcoS",
+    "groupeLibelle": "Écologiste et Social"
   },
   {
     "id": "PA340343",
@@ -326,8 +326,8 @@
     "circo": "1",
     "dept": "Ardèche",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA341981",
@@ -336,8 +336,8 @@
     "circo": "6",
     "dept": "Gironde",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA342196",
@@ -346,8 +346,8 @@
     "circo": "3",
     "dept": "Ille-et-Vilaine",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA342240",
@@ -356,8 +356,8 @@
     "circo": "7",
     "dept": "Ille-et-Vilaine",
     "groupe": "PO845425",
-    "sigle": "DR",
-    "groupeNom": "Droite Républicaine"
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA342384",
@@ -366,8 +366,8 @@
     "circo": "3",
     "dept": "Isère",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA342415",
@@ -376,8 +376,8 @@
     "circo": "4",
     "dept": "Isère",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA345722",
@@ -386,8 +386,8 @@
     "circo": "6",
     "dept": "Hauts-de-Seine",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA346782",
@@ -396,8 +396,8 @@
     "circo": "3",
     "dept": "Hauts-de-Seine",
     "groupe": "PO845425",
-    "sigle": "DR",
-    "groupeNom": "Droite Républicaine"
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA408578",
@@ -406,8 +406,8 @@
     "circo": "12",
     "dept": "Hauts-de-Seine",
     "groupe": "PO845425",
-    "sigle": "DR",
-    "groupeNom": "Droite Républicaine"
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA569",
@@ -416,8 +416,8 @@
     "circo": "1",
     "dept": "Tarn",
     "groupe": "PO840056",
-    "sigle": "NI",
-    "groupeNom": "Non inscrit"
+    "groupeSigle": "NI",
+    "groupeLibelle": "Non inscrit"
   },
   {
     "id": "PA588884",
@@ -426,8 +426,8 @@
     "circo": "11",
     "dept": "Seine-Saint-Denis",
     "groupe": "PO845439",
-    "sigle": "EcoS",
-    "groupeNom": "Écologiste et Social"
+    "groupeSigle": "EcoS",
+    "groupeLibelle": "Écologiste et Social"
   },
   {
     "id": "PA605694",
@@ -436,8 +436,8 @@
     "circo": "1",
     "dept": "Charente-Maritime",
     "groupe": "PO845454",
-    "sigle": "Dem",
-    "groupeNom": "Les Démocrates"
+    "groupeSigle": "Dem",
+    "groupeLibelle": "Les Démocrates"
   },
   {
     "id": "PA605745",
@@ -446,8 +446,8 @@
     "circo": "2",
     "dept": "Cher",
     "groupe": "PO845514",
-    "sigle": "GDR",
-    "groupeNom": "Gauche Démocrate et Républicaine"
+    "groupeSigle": "GDR",
+    "groupeLibelle": "Gauche Démocrate et Républicaine"
   },
   {
     "id": "PA606507",
@@ -456,8 +456,8 @@
     "circo": "10",
     "dept": "Gironde",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA606545",
@@ -466,8 +466,8 @@
     "circo": "1",
     "dept": "Hérault",
     "groupe": "PO845439",
-    "sigle": "EcoS",
-    "groupeNom": "Écologiste et Social"
+    "groupeSigle": "EcoS",
+    "groupeLibelle": "Écologiste et Social"
   },
   {
     "id": "PA606573",
@@ -476,8 +476,8 @@
     "circo": "3",
     "dept": "Hérault",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA606793",
@@ -486,8 +486,8 @@
     "circo": "4",
     "dept": "Indre-et-Loire",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA607090",
@@ -496,8 +496,8 @@
     "circo": "2",
     "dept": "Haute-Loire",
     "groupe": "PO845425",
-    "sigle": "DR",
-    "groupeNom": "Droite Républicaine"
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA607193",
@@ -506,8 +506,8 @@
     "circo": "10",
     "dept": "Loire-Atlantique",
     "groupe": "PO840056",
-    "sigle": "NI",
-    "groupeNom": "Non inscrit"
+    "groupeSigle": "NI",
+    "groupeLibelle": "Non inscrit"
   },
   {
     "id": "PA607395",
@@ -516,8 +516,8 @@
     "circo": "3",
     "dept": "Manche",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA607553",
@@ -526,8 +526,8 @@
     "circo": "5",
     "dept": "Meurthe-et-Moselle",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA607619",
@@ -536,8 +536,8 @@
     "circo": "4",
     "dept": "Morbihan",
     "groupe": "PO845485",
-    "sigle": "LIOT",
-    "groupeNom": "Libertés, Indépendants, Outre-mer et Territoires"
+    "groupeSigle": "LIOT",
+    "groupeLibelle": "Libertés, Indépendants, Outre-mer et Territoires"
   },
   {
     "id": "PA608172",
@@ -546,8 +546,8 @@
     "circo": "2",
     "dept": "Puy-de-Dôme",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA608264",
@@ -556,8 +556,8 @@
     "circo": "5",
     "dept": "Pyrénées-Atlantiques",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA608416",
@@ -566,8 +566,8 @@
     "circo": "7",
     "dept": "Bas-Rhin",
     "groupe": "PO845425",
-    "sigle": "DR",
-    "groupeNom": "Droite Républicaine"
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA608826",
@@ -576,8 +576,8 @@
     "circo": "4",
     "dept": "Haute-Savoie",
     "groupe": "PO845425",
-    "sigle": "DR",
-    "groupeNom": "Droite Républicaine"
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA609332",
@@ -586,8 +586,8 @@
     "circo": "11",
     "dept": "Seine-et-Marne",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA610002",
@@ -596,8 +596,8 @@
     "circo": "8",
     "dept": "Paris",
     "groupe": "PO845439",
-    "sigle": "EcoS",
-    "groupeNom": "Écologiste et Social"
+    "groupeSigle": "EcoS",
+    "groupeLibelle": "Écologiste et Social"
   },
   {
     "id": "PA610654",
@@ -606,8 +606,8 @@
     "circo": "4",
     "dept": "Martinique",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA610968",
@@ -616,8 +616,8 @@
     "circo": "5",
     "dept": "Paris",
     "groupe": "PO845439",
-    "sigle": "EcoS",
-    "groupeNom": "Écologiste et Social"
+    "groupeSigle": "EcoS",
+    "groupeLibelle": "Écologiste et Social"
   },
   {
     "id": "PA642695",
@@ -626,8 +626,8 @@
     "circo": "5",
     "dept": "Côtes-d'Armor",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA642725",
@@ -636,8 +636,8 @@
     "circo": "5",
     "dept": "Doubs",
     "groupe": "PO845425",
-    "sigle": "DR",
-    "groupeNom": "Droite Républicaine"
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA642764",
@@ -646,8 +646,8 @@
     "circo": "8",
     "dept": "Haute-Garonne",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA642847",
@@ -656,8 +656,8 @@
     "circo": "4",
     "dept": "Meurthe-et-Moselle",
     "groupe": "PO845425",
-    "sigle": "DR",
-    "groupeNom": "Droite Républicaine"
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA642868",
@@ -666,8 +666,8 @@
     "circo": "14",
     "dept": "Nord",
     "groupe": "PO845470",
-    "sigle": "HOR",
-    "groupeNom": "Horizons & Indépendants"
+    "groupeSigle": "HOR",
+    "groupeLibelle": "Horizons & Indépendants"
   },
   {
     "id": "PA642935",
@@ -676,8 +676,8 @@
     "circo": "5",
     "dept": "Haut-Rhin",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA642988",
@@ -686,8 +686,8 @@
     "circo": "3",
     "dept": "Vaucluse",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA643089",
@@ -696,8 +696,8 @@
     "circo": "3",
     "dept": "Seine-et-Marne",
     "groupe": "PO845425",
-    "sigle": "DR",
-    "groupeNom": "Droite Républicaine"
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA643104",
@@ -706,8 +706,8 @@
     "circo": "2",
     "dept": "Eure-et-Loir",
     "groupe": "PO845425",
-    "sigle": "DR",
-    "groupeNom": "Droite Républicaine"
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA643143",
@@ -716,8 +716,8 @@
     "circo": "2",
     "dept": "Guadeloupe",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA643157",
@@ -726,8 +726,8 @@
     "circo": "1",
     "dept": "Réunion",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA643175",
@@ -736,8 +736,8 @@
     "circo": "2",
     "dept": "Maine-et-Loire",
     "groupe": "PO840056",
-    "sigle": "NI",
-    "groupeNom": "Non inscrit"
+    "groupeSigle": "NI",
+    "groupeLibelle": "Non inscrit"
   },
   {
     "id": "PA643184",
@@ -746,8 +746,8 @@
     "circo": "1",
     "dept": "Haut-Rhin",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA643192",
@@ -756,8 +756,8 @@
     "circo": "1",
     "dept": "Orne",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA677483",
@@ -766,8 +766,8 @@
     "circo": "1",
     "dept": "Aveyron",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA687214",
@@ -776,8 +776,8 @@
     "circo": "1",
     "dept": "Val-de-Marne",
     "groupe": "PO845470",
-    "sigle": "HOR",
-    "groupeNom": "Horizons & Indépendants"
+    "groupeSigle": "HOR",
+    "groupeLibelle": "Horizons & Indépendants"
   },
   {
     "id": "PA695512",
@@ -786,8 +786,8 @@
     "circo": "3",
     "dept": "Lot-et-Garonne",
     "groupe": "PO845425",
-    "sigle": "DR",
-    "groupeNom": "Droite Républicaine"
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA712014",
@@ -796,8 +796,8 @@
     "circo": "10",
     "dept": "Nord",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA712015",
@@ -806,8 +806,8 @@
     "circo": "2",
     "dept": "Aisne",
     "groupe": "PO845425",
-    "sigle": "DR",
-    "groupeNom": "Droite Républicaine"
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA717379",
@@ -816,8 +816,8 @@
     "circo": "1",
     "dept": "Paris",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA718674",
@@ -826,8 +826,8 @@
     "circo": "3",
     "dept": "Ain",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA718784",
@@ -836,8 +836,8 @@
     "circo": "7",
     "dept": "Alpes-Maritimes",
     "groupe": "PO845425",
-    "sigle": "DR",
-    "groupeNom": "Droite Républicaine"
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA718838",
@@ -846,8 +846,8 @@
     "circo": "3",
     "dept": "Ardèche",
     "groupe": "PO845425",
-    "sigle": "DR",
-    "groupeNom": "Droite Républicaine"
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA718850",
@@ -856,8 +856,8 @@
     "circo": "2",
     "dept": "Ardennes",
     "groupe": "PO845425",
-    "sigle": "DR",
-    "groupeNom": "Droite Républicaine"
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA718884",
@@ -866,8 +866,8 @@
     "circo": "2",
     "dept": "Aube",
     "groupe": "PO845425",
-    "sigle": "DR",
-    "groupeNom": "Droite Républicaine"
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA719024",
@@ -876,8 +876,8 @@
     "circo": "4",
     "dept": "Calvados",
     "groupe": "PO845454",
-    "sigle": "Dem",
-    "groupeNom": "Les Démocrates"
+    "groupeSigle": "Dem",
+    "groupeLibelle": "Les Démocrates"
   },
   {
     "id": "PA719032",
@@ -886,8 +886,8 @@
     "circo": "5",
     "dept": "Calvados",
     "groupe": "PO845470",
-    "sigle": "HOR",
-    "groupeNom": "Horizons & Indépendants"
+    "groupeSigle": "HOR",
+    "groupeLibelle": "Horizons & Indépendants"
   },
   {
     "id": "PA719052",
@@ -896,8 +896,8 @@
     "circo": "3",
     "dept": "Cher",
     "groupe": "PO845470",
-    "sigle": "HOR",
-    "groupeNom": "Horizons & Indépendants"
+    "groupeSigle": "HOR",
+    "groupeLibelle": "Horizons & Indépendants"
   },
   {
     "id": "PA719080",
@@ -906,8 +906,8 @@
     "circo": "2",
     "dept": "Charente",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA719118",
@@ -916,8 +916,8 @@
     "circo": "1",
     "dept": "Cher",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA719138",
@@ -926,8 +926,8 @@
     "circo": "1",
     "dept": "Haute-Corse",
     "groupe": "PO845485",
-    "sigle": "LIOT",
-    "groupeNom": "Libertés, Indépendants, Outre-mer et Territoires"
+    "groupeSigle": "LIOT",
+    "groupeLibelle": "Libertés, Indépendants, Outre-mer et Territoires"
   },
   {
     "id": "PA719218",
@@ -936,8 +936,8 @@
     "circo": "2",
     "dept": "Côtes-d'Armor",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA719272",
@@ -946,8 +946,8 @@
     "circo": "2",
     "dept": "Corrèze",
     "groupe": "PO845425",
-    "sigle": "DR",
-    "groupeNom": "Droite Républicaine"
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA719282",
@@ -956,8 +956,8 @@
     "circo": "1",
     "dept": "Corse-du-Sud",
     "groupe": "PO845470",
-    "sigle": "HOR",
-    "groupeNom": "Horizons & Indépendants"
+    "groupeSigle": "HOR",
+    "groupeLibelle": "Horizons & Indépendants"
   },
   {
     "id": "PA719286",
@@ -966,8 +966,8 @@
     "circo": "2",
     "dept": "Corse-du-Sud",
     "groupe": "PO845485",
-    "sigle": "LIOT",
-    "groupeNom": "Libertés, Indépendants, Outre-mer et Territoires"
+    "groupeSigle": "LIOT",
+    "groupeLibelle": "Libertés, Indépendants, Outre-mer et Territoires"
   },
   {
     "id": "PA719338",
@@ -976,8 +976,8 @@
     "circo": "5",
     "dept": "Finistère",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA719372",
@@ -986,8 +986,8 @@
     "circo": "1",
     "dept": "Eure-et-Loir",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA719388",
@@ -996,8 +996,8 @@
     "circo": "1",
     "dept": "Finistère",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA719404",
@@ -1006,8 +1006,8 @@
     "circo": "3",
     "dept": "Finistère",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA719412",
@@ -1016,8 +1016,8 @@
     "circo": "4",
     "dept": "Finistère",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA719436",
@@ -1026,8 +1026,8 @@
     "circo": "2",
     "dept": "Gard",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA719472",
@@ -1036,8 +1036,8 @@
     "circo": "1",
     "dept": "Gers",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA719512",
@@ -1046,8 +1046,8 @@
     "circo": "3",
     "dept": "Haute-Garonne",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA719528",
@@ -1056,8 +1056,8 @@
     "circo": "5",
     "dept": "Haute-Garonne",
     "groupe": "PO845470",
-    "sigle": "HOR",
-    "groupeNom": "Horizons & Indépendants"
+    "groupeSigle": "HOR",
+    "groupeLibelle": "Horizons & Indépendants"
   },
   {
     "id": "PA719550",
@@ -1066,8 +1066,8 @@
     "circo": "7",
     "dept": "Finistère",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA719558",
@@ -1076,8 +1076,8 @@
     "circo": "8",
     "dept": "Finistère",
     "groupe": "PO845454",
-    "sigle": "Dem",
-    "groupeNom": "Les Démocrates"
+    "groupeSigle": "Dem",
+    "groupeLibelle": "Les Démocrates"
   },
   {
     "id": "PA719578",
@@ -1086,8 +1086,8 @@
     "circo": "3",
     "dept": "Gironde",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA719632",
@@ -1096,8 +1096,8 @@
     "circo": "8",
     "dept": "Gironde",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA719640",
@@ -1106,8 +1106,8 @@
     "circo": "9",
     "dept": "Gironde",
     "groupe": "PO845454",
-    "sigle": "Dem",
-    "groupeNom": "Les Démocrates"
+    "groupeSigle": "Dem",
+    "groupeLibelle": "Les Démocrates"
   },
   {
     "id": "PA719736",
@@ -1116,8 +1116,8 @@
     "circo": "1",
     "dept": "Isère",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA719756",
@@ -1126,8 +1126,8 @@
     "circo": "5",
     "dept": "Ille-et-Vilaine",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA719778",
@@ -1136,8 +1136,8 @@
     "circo": "1",
     "dept": "Indre",
     "groupe": "PO845470",
-    "sigle": "HOR",
-    "groupeNom": "Horizons & Indépendants"
+    "groupeSigle": "HOR",
+    "groupeLibelle": "Horizons & Indépendants"
   },
   {
     "id": "PA719798",
@@ -1146,8 +1146,8 @@
     "circo": "2",
     "dept": "Indre-et-Loire",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA719822",
@@ -1156,8 +1156,8 @@
     "circo": "5",
     "dept": "Indre-et-Loire",
     "groupe": "PO845454",
-    "sigle": "Dem",
-    "groupeNom": "Les Démocrates"
+    "groupeSigle": "Dem",
+    "groupeLibelle": "Les Démocrates"
   },
   {
     "id": "PA719890",
@@ -1166,8 +1166,8 @@
     "circo": "1",
     "dept": "Jura",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA719914",
@@ -1176,8 +1176,8 @@
     "circo": "1",
     "dept": "Landes",
     "groupe": "PO845454",
-    "sigle": "Dem",
-    "groupeNom": "Les Démocrates"
+    "groupeSigle": "Dem",
+    "groupeLibelle": "Les Démocrates"
   },
   {
     "id": "PA719922",
@@ -1186,8 +1186,8 @@
     "circo": "2",
     "dept": "Landes",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA719930",
@@ -1196,8 +1196,8 @@
     "circo": "3",
     "dept": "Landes",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA719938",
@@ -1206,8 +1206,8 @@
     "circo": "1",
     "dept": "Loir-et-Cher",
     "groupe": "PO845454",
-    "sigle": "Dem",
-    "groupeNom": "Les Démocrates"
+    "groupeSigle": "Dem",
+    "groupeLibelle": "Les Démocrates"
   },
   {
     "id": "PA719968",
@@ -1216,8 +1216,8 @@
     "circo": "4",
     "dept": "Loire",
     "groupe": "PO845425",
-    "sigle": "DR",
-    "groupeNom": "Droite Républicaine"
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA720022",
@@ -1226,8 +1226,8 @@
     "circo": "1",
     "dept": "Lot-et-Garonne",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA720038",
@@ -1236,8 +1236,8 @@
     "circo": "7",
     "dept": "Loire-Atlantique",
     "groupe": "PO845454",
-    "sigle": "Dem",
-    "groupeNom": "Les Démocrates"
+    "groupeSigle": "Dem",
+    "groupeLibelle": "Les Démocrates"
   },
   {
     "id": "PA720066",
@@ -1246,8 +1246,8 @@
     "circo": "1",
     "dept": "Loiret",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA720092",
@@ -1256,8 +1256,8 @@
     "circo": "6",
     "dept": "Loiret",
     "groupe": "PO845454",
-    "sigle": "Dem",
-    "groupeNom": "Les Démocrates"
+    "groupeSigle": "Dem",
+    "groupeLibelle": "Les Démocrates"
   },
   {
     "id": "PA720100",
@@ -1266,8 +1266,8 @@
     "circo": "1",
     "dept": "Lot",
     "groupe": "PO840056",
-    "sigle": "NI",
-    "groupeNom": "Non inscrit"
+    "groupeSigle": "NI",
+    "groupeLibelle": "Non inscrit"
   },
   {
     "id": "PA720138",
@@ -1276,8 +1276,8 @@
     "circo": "4",
     "dept": "Maine-et-Loire",
     "groupe": "PO845470",
-    "sigle": "HOR",
-    "groupeNom": "Horizons & Indépendants"
+    "groupeSigle": "HOR",
+    "groupeLibelle": "Horizons & Indépendants"
   },
   {
     "id": "PA720146",
@@ -1286,8 +1286,8 @@
     "circo": "5",
     "dept": "Maine-et-Loire",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA720154",
@@ -1296,8 +1296,8 @@
     "circo": "6",
     "dept": "Maine-et-Loire",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA720162",
@@ -1306,8 +1306,8 @@
     "circo": "7",
     "dept": "Maine-et-Loire",
     "groupe": "PO845454",
-    "sigle": "Dem",
-    "groupeNom": "Les Démocrates"
+    "groupeSigle": "Dem",
+    "groupeLibelle": "Les Démocrates"
   },
   {
     "id": "PA720190",
@@ -1316,8 +1316,8 @@
     "circo": "2",
     "dept": "Manche",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA720230",
@@ -1326,8 +1326,8 @@
     "circo": "4",
     "dept": "Marne",
     "groupe": "PO845470",
-    "sigle": "HOR",
-    "groupeNom": "Horizons & Indépendants"
+    "groupeSigle": "HOR",
+    "groupeLibelle": "Horizons & Indépendants"
   },
   {
     "id": "PA720256",
@@ -1336,8 +1336,8 @@
     "circo": "2",
     "dept": "Mayenne",
     "groupe": "PO845454",
-    "sigle": "Dem",
-    "groupeNom": "Les Démocrates"
+    "groupeSigle": "Dem",
+    "groupeLibelle": "Les Démocrates"
   },
   {
     "id": "PA720334",
@@ -1346,8 +1346,8 @@
     "circo": "2",
     "dept": "Morbihan",
     "groupe": "PO845454",
-    "sigle": "Dem",
-    "groupeNom": "Les Démocrates"
+    "groupeSigle": "Dem",
+    "groupeLibelle": "Les Démocrates"
   },
   {
     "id": "PA720342",
@@ -1356,8 +1356,8 @@
     "circo": "3",
     "dept": "Morbihan",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA720354",
@@ -1366,8 +1366,8 @@
     "circo": "6",
     "dept": "Morbihan",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA720362",
@@ -1376,8 +1376,8 @@
     "circo": "1",
     "dept": "Moselle",
     "groupe": "PO840056",
-    "sigle": "NI",
-    "groupeNom": "Non inscrit"
+    "groupeSigle": "NI",
+    "groupeLibelle": "Non inscrit"
   },
   {
     "id": "PA720370",
@@ -1386,8 +1386,8 @@
     "circo": "2",
     "dept": "Moselle",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA720386",
@@ -1396,8 +1396,8 @@
     "circo": "4",
     "dept": "Moselle",
     "groupe": "PO845425",
-    "sigle": "DR",
-    "groupeNom": "Droite Républicaine"
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA720430",
@@ -1406,8 +1406,8 @@
     "circo": "2",
     "dept": "Nord",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA720446",
@@ -1416,8 +1416,8 @@
     "circo": "4",
     "dept": "Nord",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA720468",
@@ -1426,8 +1426,8 @@
     "circo": "19",
     "dept": "Nord",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA720552",
@@ -1436,8 +1436,8 @@
     "circo": "9",
     "dept": "Moselle",
     "groupe": "PO845470",
-    "sigle": "HOR",
-    "groupeNom": "Horizons & Indépendants"
+    "groupeSigle": "HOR",
+    "groupeLibelle": "Horizons & Indépendants"
   },
   {
     "id": "PA720560",
@@ -1446,8 +1446,8 @@
     "circo": "1",
     "dept": "Nièvre",
     "groupe": "PO845454",
-    "sigle": "Dem",
-    "groupeNom": "Les Démocrates"
+    "groupeSigle": "Dem",
+    "groupeLibelle": "Les Démocrates"
   },
   {
     "id": "PA720614",
@@ -1456,8 +1456,8 @@
     "circo": "11",
     "dept": "Pas-de-Calais",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA720644",
@@ -1466,8 +1466,8 @@
     "circo": "3",
     "dept": "Orne",
     "groupe": "PO845425",
-    "sigle": "DR",
-    "groupeNom": "Droite Républicaine"
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA720668",
@@ -1476,8 +1476,8 @@
     "circo": "1",
     "dept": "Pas-de-Calais",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA720720",
@@ -1486,8 +1486,8 @@
     "circo": "1",
     "dept": "Pyrénées-Atlantiques",
     "groupe": "PO845454",
-    "sigle": "Dem",
-    "groupeNom": "Les Démocrates"
+    "groupeSigle": "Dem",
+    "groupeLibelle": "Les Démocrates"
   },
   {
     "id": "PA720728",
@@ -1496,8 +1496,8 @@
     "circo": "2",
     "dept": "Pyrénées-Atlantiques",
     "groupe": "PO845454",
-    "sigle": "Dem",
-    "groupeNom": "Les Démocrates"
+    "groupeSigle": "Dem",
+    "groupeLibelle": "Les Démocrates"
   },
   {
     "id": "PA720822",
@@ -1506,8 +1506,8 @@
     "circo": "12",
     "dept": "Pas-de-Calais",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA720838",
@@ -1516,8 +1516,8 @@
     "circo": "4",
     "dept": "Seine-Saint-Denis",
     "groupe": "PO845514",
-    "sigle": "GDR",
-    "groupeNom": "Gauche Démocrate et Républicaine"
+    "groupeSigle": "GDR",
+    "groupeLibelle": "Gauche Démocrate et Républicaine"
   },
   {
     "id": "PA720846",
@@ -1526,8 +1526,8 @@
     "circo": "6",
     "dept": "Seine-Saint-Denis",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA720892",
@@ -1536,8 +1536,8 @@
     "circo": "10",
     "dept": "Val-de-Marne",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA720908",
@@ -1546,8 +1546,8 @@
     "circo": "4",
     "dept": "Val-d'Oise",
     "groupe": "PO845470",
-    "sigle": "HOR",
-    "groupeNom": "Horizons & Indépendants"
+    "groupeSigle": "HOR",
+    "groupeLibelle": "Horizons & Indépendants"
   },
   {
     "id": "PA720952",
@@ -1556,8 +1556,8 @@
     "circo": "10",
     "dept": "Val-d'Oise",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA720960",
@@ -1566,8 +1566,8 @@
     "circo": "1",
     "dept": "Guadeloupe",
     "groupe": "PO845485",
-    "sigle": "LIOT",
-    "groupeNom": "Libertés, Indépendants, Outre-mer et Territoires"
+    "groupeSigle": "LIOT",
+    "groupeLibelle": "Libertés, Indépendants, Outre-mer et Territoires"
   },
   {
     "id": "PA720976",
@@ -1576,8 +1576,8 @@
     "circo": "3",
     "dept": "Guadeloupe",
     "groupe": "PO845485",
-    "sigle": "LIOT",
-    "groupeNom": "Libertés, Indépendants, Outre-mer et Territoires"
+    "groupeSigle": "LIOT",
+    "groupeLibelle": "Libertés, Indépendants, Outre-mer et Territoires"
   },
   {
     "id": "PA720992",
@@ -1586,8 +1586,8 @@
     "circo": "1",
     "dept": "Martinique",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA721004",
@@ -1596,8 +1596,8 @@
     "circo": "10",
     "dept": "Français établis hors de France",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA721024",
@@ -1606,8 +1606,8 @@
     "circo": "11",
     "dept": "Français établis hors de France",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA721062",
@@ -1616,8 +1616,8 @@
     "circo": "5",
     "dept": "Réunion",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA721110",
@@ -1626,8 +1626,8 @@
     "circo": "2",
     "dept": "Polynésie Française",
     "groupe": "PO845485",
-    "sigle": "LIOT",
-    "groupeNom": "Libertés, Indépendants, Outre-mer et Territoires"
+    "groupeSigle": "LIOT",
+    "groupeLibelle": "Libertés, Indépendants, Outre-mer et Territoires"
   },
   {
     "id": "PA721134",
@@ -1636,8 +1636,8 @@
     "circo": "1",
     "dept": "Français établis hors de France",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA721158",
@@ -1646,8 +1646,8 @@
     "circo": "4",
     "dept": "Français établis hors de France",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA721182",
@@ -1656,8 +1656,8 @@
     "circo": "7",
     "dept": "Français établis hors de France",
     "groupe": "PO845454",
-    "sigle": "Dem",
-    "groupeNom": "Les Démocrates"
+    "groupeSigle": "Dem",
+    "groupeLibelle": "Les Démocrates"
   },
   {
     "id": "PA721202",
@@ -1666,8 +1666,8 @@
     "circo": "1",
     "dept": "Seine-Saint-Denis",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA721210",
@@ -1676,8 +1676,8 @@
     "circo": "7",
     "dept": "Seine-Saint-Denis",
     "groupe": "PO845439",
-    "sigle": "EcoS",
-    "groupeNom": "Écologiste et Social"
+    "groupeSigle": "EcoS",
+    "groupeLibelle": "Écologiste et Social"
   },
   {
     "id": "PA721234",
@@ -1686,8 +1686,8 @@
     "circo": "4",
     "dept": "Val-de-Marne",
     "groupe": "PO845454",
-    "sigle": "Dem",
-    "groupeNom": "Les Démocrates"
+    "groupeSigle": "Dem",
+    "groupeLibelle": "Les Démocrates"
   },
   {
     "id": "PA721270",
@@ -1696,8 +1696,8 @@
     "circo": "2",
     "dept": "Seine-Saint-Denis",
     "groupe": "PO845514",
-    "sigle": "GDR",
-    "groupeNom": "Gauche Démocrate et Républicaine"
+    "groupeSigle": "GDR",
+    "groupeLibelle": "Gauche Démocrate et Républicaine"
   },
   {
     "id": "PA721296",
@@ -1706,8 +1706,8 @@
     "circo": "6",
     "dept": "Val-de-Marne",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA721314",
@@ -1716,8 +1716,8 @@
     "circo": "4",
     "dept": "Haut-Rhin",
     "groupe": "PO840056",
-    "sigle": "NI",
-    "groupeNom": "Non inscrit"
+    "groupeSigle": "NI",
+    "groupeLibelle": "Non inscrit"
   },
   {
     "id": "PA721336",
@@ -1726,8 +1726,8 @@
     "circo": "5",
     "dept": "Rhône",
     "groupe": "PO845454",
-    "sigle": "Dem",
-    "groupeNom": "Les Démocrates"
+    "groupeSigle": "Dem",
+    "groupeLibelle": "Les Démocrates"
   },
   {
     "id": "PA721410",
@@ -1736,8 +1736,8 @@
     "circo": "3",
     "dept": "Savoie",
     "groupe": "PO845425",
-    "sigle": "DR",
-    "groupeNom": "Droite Républicaine"
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA721426",
@@ -1746,8 +1746,8 @@
     "circo": "1",
     "dept": "Haute-Savoie",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA721442",
@@ -1756,8 +1756,8 @@
     "circo": "3",
     "dept": "Haute-Savoie",
     "groupe": "PO845425",
-    "sigle": "DR",
-    "groupeNom": "Droite Républicaine"
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA721458",
@@ -1766,8 +1766,8 @@
     "circo": "6",
     "dept": "Haute-Savoie",
     "groupe": "PO845470",
-    "sigle": "HOR",
-    "groupeNom": "Horizons & Indépendants"
+    "groupeSigle": "HOR",
+    "groupeLibelle": "Horizons & Indépendants"
   },
   {
     "id": "PA721474",
@@ -1776,8 +1776,8 @@
     "circo": "1",
     "dept": "Vosges",
     "groupe": "PO845485",
-    "sigle": "LIOT",
-    "groupeNom": "Libertés, Indépendants, Outre-mer et Territoires"
+    "groupeSigle": "LIOT",
+    "groupeLibelle": "Libertés, Indépendants, Outre-mer et Territoires"
   },
   {
     "id": "PA721486",
@@ -1786,8 +1786,8 @@
     "circo": "3",
     "dept": "Vosges",
     "groupe": "PO845485",
-    "sigle": "LIOT",
-    "groupeNom": "Libertés, Indépendants, Outre-mer et Territoires"
+    "groupeSigle": "LIOT",
+    "groupeLibelle": "Libertés, Indépendants, Outre-mer et Territoires"
   },
   {
     "id": "PA721584",
@@ -1796,8 +1796,8 @@
     "circo": "3",
     "dept": "Tarn",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA721750",
@@ -1806,8 +1806,8 @@
     "circo": "5",
     "dept": "Hauts-de-Seine",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA721764",
@@ -1816,8 +1816,8 @@
     "circo": "12",
     "dept": "Paris",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA721816",
@@ -1826,8 +1826,8 @@
     "circo": "1",
     "dept": "Territoire de Belfort",
     "groupe": "PO845425",
-    "sigle": "DR",
-    "groupeNom": "Droite Républicaine"
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA721844",
@@ -1836,8 +1836,8 @@
     "circo": "3",
     "dept": "Yvelines",
     "groupe": "PO845470",
-    "sigle": "HOR",
-    "groupeNom": "Horizons & Indépendants"
+    "groupeSigle": "HOR",
+    "groupeLibelle": "Horizons & Indépendants"
   },
   {
     "id": "PA721852",
@@ -1846,8 +1846,8 @@
     "circo": "4",
     "dept": "Yvelines",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA721896",
@@ -1856,8 +1856,8 @@
     "circo": "1",
     "dept": "Hauts-de-Seine",
     "groupe": "PO845514",
-    "sigle": "GDR",
-    "groupeNom": "Gauche Démocrate et Républicaine"
+    "groupeSigle": "GDR",
+    "groupeLibelle": "Gauche Démocrate et Républicaine"
   },
   {
     "id": "PA721908",
@@ -1866,8 +1866,8 @@
     "circo": "5",
     "dept": "Yvelines",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA721916",
@@ -1876,8 +1876,8 @@
     "circo": "6",
     "dept": "Yvelines",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA721932",
@@ -1886,8 +1886,8 @@
     "circo": "4",
     "dept": "Vaucluse",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA721960",
@@ -1896,8 +1896,8 @@
     "circo": "17",
     "dept": "Paris",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA721984",
@@ -1906,8 +1906,8 @@
     "circo": "1",
     "dept": "Vendée",
     "groupe": "PO845454",
-    "sigle": "Dem",
-    "groupeNom": "Les Démocrates"
+    "groupeSigle": "Dem",
+    "groupeLibelle": "Les Démocrates"
   },
   {
     "id": "PA722000",
@@ -1916,8 +1916,8 @@
     "circo": "3",
     "dept": "Vendée",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA722070",
@@ -1926,8 +1926,8 @@
     "circo": "5",
     "dept": "Vendée",
     "groupe": "PO845470",
-    "sigle": "HOR",
-    "groupeNom": "Horizons & Indépendants"
+    "groupeSigle": "HOR",
+    "groupeLibelle": "Horizons & Indépendants"
   },
   {
     "id": "PA722102",
@@ -1936,8 +1936,8 @@
     "circo": "2",
     "dept": "Seine-Maritime",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA722134",
@@ -1946,8 +1946,8 @@
     "circo": "3",
     "dept": "Deux-Sèvres",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA722142",
@@ -1956,8 +1956,8 @@
     "circo": "1",
     "dept": "Somme",
     "groupe": "PO845439",
-    "sigle": "EcoS",
-    "groupeNom": "Écologiste et Social"
+    "groupeSigle": "EcoS",
+    "groupeLibelle": "Écologiste et Social"
   },
   {
     "id": "PA722150",
@@ -1966,8 +1966,8 @@
     "circo": "2",
     "dept": "Vienne",
     "groupe": "PO840056",
-    "sigle": "NI",
-    "groupeNom": "Non inscrit"
+    "groupeSigle": "NI",
+    "groupeLibelle": "Non inscrit"
   },
   {
     "id": "PA722162",
@@ -1976,8 +1976,8 @@
     "circo": "4",
     "dept": "Vienne",
     "groupe": "PO845454",
-    "sigle": "Dem",
-    "groupeNom": "Les Démocrates"
+    "groupeSigle": "Dem",
+    "groupeLibelle": "Les Démocrates"
   },
   {
     "id": "PA722190",
@@ -1986,8 +1986,8 @@
     "circo": "10",
     "dept": "Hauts-de-Seine",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA722252",
@@ -1996,8 +1996,8 @@
     "circo": "4",
     "dept": "Essonne",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA722284",
@@ -2006,8 +2006,8 @@
     "circo": "6",
     "dept": "Haut-Rhin",
     "groupe": "PO845454",
-    "sigle": "Dem",
-    "groupeNom": "Les Démocrates"
+    "groupeSigle": "Dem",
+    "groupeLibelle": "Les Démocrates"
   },
   {
     "id": "PA722336",
@@ -2016,8 +2016,8 @@
     "circo": "9",
     "dept": "Bas-Rhin",
     "groupe": "PO845470",
-    "sigle": "HOR",
-    "groupeNom": "Horizons & Indépendants"
+    "groupeSigle": "HOR",
+    "groupeLibelle": "Horizons & Indépendants"
   },
   {
     "id": "PA722358",
@@ -2026,8 +2026,8 @@
     "circo": "10",
     "dept": "Rhône",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA722366",
@@ -2036,8 +2036,8 @@
     "circo": "11",
     "dept": "Rhône",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA722374",
@@ -2046,8 +2046,8 @@
     "circo": "12",
     "dept": "Rhône",
     "groupe": "PO845454",
-    "sigle": "Dem",
-    "groupeNom": "Les Démocrates"
+    "groupeSigle": "Dem",
+    "groupeLibelle": "Les Démocrates"
   },
   {
     "id": "PA722382",
@@ -2056,8 +2056,8 @@
     "circo": "1",
     "dept": "Saône-et-Loire",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA722390",
@@ -2066,8 +2066,8 @@
     "circo": "2",
     "dept": "Saône-et-Loire",
     "groupe": "PO845425",
-    "sigle": "DR",
-    "groupeNom": "Droite Républicaine"
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA736201",
@@ -2076,8 +2076,8 @@
     "circo": "11",
     "dept": "Val-de-Marne",
     "groupe": "PO845439",
-    "sigle": "EcoS",
-    "groupeNom": "Écologiste et Social"
+    "groupeSigle": "EcoS",
+    "groupeLibelle": "Écologiste et Social"
   },
   {
     "id": "PA757225",
@@ -2086,8 +2086,8 @@
     "circo": "1",
     "dept": "Wallis-et-Futuna",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA774954",
@@ -2096,8 +2096,8 @@
     "circo": "3",
     "dept": "Maine-et-Loire",
     "groupe": "PO845425",
-    "sigle": "DR",
-    "groupeNom": "Droite Républicaine"
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA774958",
@@ -2106,8 +2106,8 @@
     "circo": "5",
     "dept": "Seine-Maritime",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA774960",
@@ -2116,8 +2116,8 @@
     "circo": "9",
     "dept": "Val-de-Marne",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA774962",
@@ -2126,8 +2126,8 @@
     "circo": "2",
     "dept": "Réunion",
     "groupe": "PO845514",
-    "sigle": "GDR",
-    "groupeNom": "Gauche Démocrate et Républicaine"
+    "groupeSigle": "GDR",
+    "groupeLibelle": "Gauche Démocrate et Républicaine"
   },
   {
     "id": "PA791812",
@@ -2136,8 +2136,8 @@
     "circo": "6",
     "dept": "Paris",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA791824",
@@ -2146,8 +2146,8 @@
     "circo": "16",
     "dept": "Paris",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA793094",
@@ -2156,8 +2156,8 @@
     "circo": "3",
     "dept": "Allier",
     "groupe": "PO845425",
-    "sigle": "DR",
-    "groupeNom": "Droite Républicaine"
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA793102",
@@ -2166,8 +2166,8 @@
     "circo": "1",
     "dept": "Alpes-de-Haute-Provence",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA793122",
@@ -2176,8 +2176,8 @@
     "circo": "2",
     "dept": "Ain",
     "groupe": "PO845454",
-    "sigle": "Dem",
-    "groupeNom": "Les Démocrates"
+    "groupeSigle": "Dem",
+    "groupeLibelle": "Les Démocrates"
   },
   {
     "id": "PA793134",
@@ -2186,8 +2186,8 @@
     "circo": "4",
     "dept": "Ain",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA793146",
@@ -2196,8 +2196,8 @@
     "circo": "1",
     "dept": "Aisne",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA793158",
@@ -2206,8 +2206,8 @@
     "circo": "4",
     "dept": "Aisne",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA793166",
@@ -2216,8 +2216,8 @@
     "circo": "5",
     "dept": "Aisne",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA793174",
@@ -2226,8 +2226,8 @@
     "circo": "1",
     "dept": "Allier",
     "groupe": "PO845514",
-    "sigle": "GDR",
-    "groupeNom": "Gauche Démocrate et Républicaine"
+    "groupeSigle": "GDR",
+    "groupeLibelle": "Gauche Démocrate et Républicaine"
   },
   {
     "id": "PA793182",
@@ -2236,8 +2236,8 @@
     "circo": "2",
     "dept": "Allier",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA793194",
@@ -2246,8 +2246,8 @@
     "circo": "1",
     "dept": "Ardennes",
     "groupe": "PO840056",
-    "sigle": "NI",
-    "groupeNom": "Non inscrit"
+    "groupeSigle": "NI",
+    "groupeLibelle": "Non inscrit"
   },
   {
     "id": "PA793210",
@@ -2256,8 +2256,8 @@
     "circo": "2",
     "dept": "Ariège",
     "groupe": "PO845485",
-    "sigle": "LIOT",
-    "groupeNom": "Libertés, Indépendants, Outre-mer et Territoires"
+    "groupeSigle": "LIOT",
+    "groupeLibelle": "Libertés, Indépendants, Outre-mer et Territoires"
   },
   {
     "id": "PA793218",
@@ -2266,8 +2266,8 @@
     "circo": "1",
     "dept": "Aube",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA793230",
@@ -2276,8 +2276,8 @@
     "circo": "3",
     "dept": "Aube",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA793238",
@@ -2286,8 +2286,8 @@
     "circo": "1",
     "dept": "Aude",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA793246",
@@ -2296,8 +2296,8 @@
     "circo": "2",
     "dept": "Aude",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA793254",
@@ -2306,8 +2306,8 @@
     "circo": "3",
     "dept": "Aude",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA793262",
@@ -2316,8 +2316,8 @@
     "circo": "2",
     "dept": "Aveyron",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA793270",
@@ -2326,8 +2326,8 @@
     "circo": "3",
     "dept": "Aveyron",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA793290",
@@ -2336,8 +2336,8 @@
     "circo": "3",
     "dept": "Bouches-du-Rhône",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA793298",
@@ -2346,8 +2346,8 @@
     "circo": "2",
     "dept": "Alpes-Maritimes",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA793314",
@@ -2356,8 +2356,8 @@
     "circo": "4",
     "dept": "Alpes-Maritimes",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA793322",
@@ -2366,8 +2366,8 @@
     "circo": "5",
     "dept": "Alpes-Maritimes",
     "groupe": "PO847173",
-    "sigle": "UDR",
-    "groupeNom": "UDR"
+    "groupeSigle": "UDR",
+    "groupeLibelle": "UDR"
   },
   {
     "id": "PA793330",
@@ -2376,8 +2376,8 @@
     "circo": "6",
     "dept": "Alpes-Maritimes",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA793342",
@@ -2386,8 +2386,8 @@
     "circo": "8",
     "dept": "Alpes-Maritimes",
     "groupe": "PO845425",
-    "sigle": "DR",
-    "groupeNom": "Droite Républicaine"
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA793354",
@@ -2396,8 +2396,8 @@
     "circo": "9",
     "dept": "Bouches-du-Rhône",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA793362",
@@ -2406,8 +2406,8 @@
     "circo": "10",
     "dept": "Bouches-du-Rhône",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA793374",
@@ -2416,8 +2416,8 @@
     "circo": "15",
     "dept": "Bouches-du-Rhône",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA793382",
@@ -2426,8 +2426,8 @@
     "circo": "16",
     "dept": "Bouches-du-Rhône",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA793394",
@@ -2436,8 +2436,8 @@
     "circo": "2",
     "dept": "Calvados",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA793398",
@@ -2446,8 +2446,8 @@
     "circo": "3",
     "dept": "Calvados",
     "groupe": "PO845470",
-    "sigle": "HOR",
-    "groupeNom": "Horizons & Indépendants"
+    "groupeSigle": "HOR",
+    "groupeLibelle": "Horizons & Indépendants"
   },
   {
     "id": "PA793416",
@@ -2456,8 +2456,8 @@
     "circo": "6",
     "dept": "Calvados",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA793432",
@@ -2466,8 +2466,8 @@
     "circo": "12",
     "dept": "Bouches-du-Rhône",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA793444",
@@ -2476,8 +2476,8 @@
     "circo": "4",
     "dept": "Bouches-du-Rhône",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA793452",
@@ -2486,8 +2486,8 @@
     "circo": "5",
     "dept": "Bouches-du-Rhône",
     "groupe": "PO845439",
-    "sigle": "EcoS",
-    "groupeNom": "Écologiste et Social"
+    "groupeSigle": "EcoS",
+    "groupeLibelle": "Écologiste et Social"
   },
   {
     "id": "PA793464",
@@ -2496,8 +2496,8 @@
     "circo": "7",
     "dept": "Bouches-du-Rhône",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA793508",
@@ -2506,8 +2506,8 @@
     "circo": "4",
     "dept": "Côte-d'Or",
     "groupe": "PO845425",
-    "sigle": "DR",
-    "groupeNom": "Droite Républicaine"
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA793520",
@@ -2516,8 +2516,8 @@
     "circo": "1",
     "dept": "Côtes-d'Armor",
     "groupe": "PO845454",
-    "sigle": "Dem",
-    "groupeNom": "Les Démocrates"
+    "groupeSigle": "Dem",
+    "groupeLibelle": "Les Démocrates"
   },
   {
     "id": "PA793532",
@@ -2526,8 +2526,8 @@
     "circo": "4",
     "dept": "Côtes-d'Armor",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA793548",
@@ -2536,8 +2536,8 @@
     "circo": "3",
     "dept": "Charente",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA793572",
@@ -2546,8 +2546,8 @@
     "circo": "5",
     "dept": "Charente-Maritime",
     "groupe": "PO845470",
-    "sigle": "HOR",
-    "groupeNom": "Horizons & Indépendants"
+    "groupeSigle": "HOR",
+    "groupeLibelle": "Horizons & Indépendants"
   },
   {
     "id": "PA793592",
@@ -2556,8 +2556,8 @@
     "circo": "4",
     "dept": "Doubs",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA793608",
@@ -2566,8 +2566,8 @@
     "circo": "2",
     "dept": "Eure",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA793616",
@@ -2576,8 +2576,8 @@
     "circo": "3",
     "dept": "Eure",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA793624",
@@ -2586,8 +2586,8 @@
     "circo": "4",
     "dept": "Eure",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA793632",
@@ -2596,8 +2596,8 @@
     "circo": "5",
     "dept": "Eure",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA793656",
@@ -2606,8 +2606,8 @@
     "circo": "2",
     "dept": "Drôme",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA793664",
@@ -2616,8 +2616,8 @@
     "circo": "3",
     "dept": "Drôme",
     "groupe": "PO845439",
-    "sigle": "EcoS",
-    "groupeNom": "Écologiste et Social"
+    "groupeSigle": "EcoS",
+    "groupeLibelle": "Écologiste et Social"
   },
   {
     "id": "PA793672",
@@ -2626,8 +2626,8 @@
     "circo": "1",
     "dept": "Eure",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA793696",
@@ -2636,8 +2636,8 @@
     "circo": "2",
     "dept": "Dordogne",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA793708",
@@ -2646,8 +2646,8 @@
     "circo": "4",
     "dept": "Dordogne",
     "groupe": "PO845439",
-    "sigle": "EcoS",
-    "groupeNom": "Écologiste et Social"
+    "groupeSigle": "EcoS",
+    "groupeLibelle": "Écologiste et Social"
   },
   {
     "id": "PA793716",
@@ -2656,8 +2656,8 @@
     "circo": "1",
     "dept": "Doubs",
     "groupe": "PO845454",
-    "sigle": "Dem",
-    "groupeNom": "Les Démocrates"
+    "groupeSigle": "Dem",
+    "groupeLibelle": "Les Démocrates"
   },
   {
     "id": "PA793736",
@@ -2666,8 +2666,8 @@
     "circo": "1",
     "dept": "Haute-Garonne",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA793744",
@@ -2676,8 +2676,8 @@
     "circo": "2",
     "dept": "Haute-Garonne",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA793756",
@@ -2686,8 +2686,8 @@
     "circo": "4",
     "dept": "Haute-Garonne",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA793772",
@@ -2696,8 +2696,8 @@
     "circo": "7",
     "dept": "Haute-Garonne",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA793780",
@@ -2706,8 +2706,8 @@
     "circo": "9",
     "dept": "Haute-Garonne",
     "groupe": "PO845439",
-    "sigle": "EcoS",
-    "groupeNom": "Écologiste et Social"
+    "groupeSigle": "EcoS",
+    "groupeLibelle": "Écologiste et Social"
   },
   {
     "id": "PA793796",
@@ -2716,8 +2716,8 @@
     "circo": "2",
     "dept": "Gers",
     "groupe": "PO845485",
-    "sigle": "LIOT",
-    "groupeNom": "Libertés, Indépendants, Outre-mer et Territoires"
+    "groupeSigle": "LIOT",
+    "groupeLibelle": "Libertés, Indépendants, Outre-mer et Territoires"
   },
   {
     "id": "PA793816",
@@ -2726,8 +2726,8 @@
     "circo": "6",
     "dept": "Finistère",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA793832",
@@ -2736,8 +2736,8 @@
     "circo": "1",
     "dept": "Gard",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA793844",
@@ -2746,8 +2746,8 @@
     "circo": "3",
     "dept": "Gard",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA793852",
@@ -2756,8 +2756,8 @@
     "circo": "4",
     "dept": "Gard",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA793872",
@@ -2766,8 +2766,8 @@
     "circo": "2",
     "dept": "Hérault",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA793892",
@@ -2776,8 +2776,8 @@
     "circo": "5",
     "dept": "Hérault",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA793904",
@@ -2786,8 +2786,8 @@
     "circo": "7",
     "dept": "Hérault",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA793912",
@@ -2796,8 +2796,8 @@
     "circo": "8",
     "dept": "Hérault",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA793928",
@@ -2806,8 +2806,8 @@
     "circo": "11",
     "dept": "Gironde",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA793940",
@@ -2816,8 +2816,8 @@
     "circo": "1",
     "dept": "Gironde",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA793948",
@@ -2826,8 +2826,8 @@
     "circo": "2",
     "dept": "Gironde",
     "groupe": "PO845439",
-    "sigle": "EcoS",
-    "groupeNom": "Écologiste et Social"
+    "groupeSigle": "EcoS",
+    "groupeLibelle": "Écologiste et Social"
   },
   {
     "id": "PA793980",
@@ -2836,8 +2836,8 @@
     "circo": "1",
     "dept": "Indre-et-Loire",
     "groupe": "PO845439",
-    "sigle": "EcoS",
-    "groupeNom": "Écologiste et Social"
+    "groupeSigle": "EcoS",
+    "groupeLibelle": "Écologiste et Social"
   },
   {
     "id": "PA793992",
@@ -2846,8 +2846,8 @@
     "circo": "3",
     "dept": "Indre-et-Loire",
     "groupe": "PO845470",
-    "sigle": "HOR",
-    "groupeNom": "Horizons & Indépendants"
+    "groupeSigle": "HOR",
+    "groupeLibelle": "Horizons & Indépendants"
   },
   {
     "id": "PA794008",
@@ -2856,8 +2856,8 @@
     "circo": "2",
     "dept": "Isère",
     "groupe": "PO845439",
-    "sigle": "EcoS",
-    "groupeNom": "Écologiste et Social"
+    "groupeSigle": "EcoS",
+    "groupeLibelle": "Écologiste et Social"
   },
   {
     "id": "PA794022",
@@ -2866,8 +2866,8 @@
     "circo": "5",
     "dept": "Isère",
     "groupe": "PO845439",
-    "sigle": "EcoS",
-    "groupeNom": "Écologiste et Social"
+    "groupeSigle": "EcoS",
+    "groupeLibelle": "Écologiste et Social"
   },
   {
     "id": "PA794030",
@@ -2876,8 +2876,8 @@
     "circo": "6",
     "dept": "Isère",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA794042",
@@ -2886,8 +2886,8 @@
     "circo": "7",
     "dept": "Isère",
     "groupe": "PO845425",
-    "sigle": "DR",
-    "groupeNom": "Droite Républicaine"
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA794058",
@@ -2896,8 +2896,8 @@
     "circo": "3",
     "dept": "Jura",
     "groupe": "PO845425",
-    "sigle": "DR",
-    "groupeNom": "Droite Républicaine"
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA794082",
@@ -2906,8 +2906,8 @@
     "circo": "4",
     "dept": "Ille-et-Vilaine",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA794094",
@@ -2916,8 +2916,8 @@
     "circo": "8",
     "dept": "Ille-et-Vilaine",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA794106",
@@ -2926,8 +2926,8 @@
     "circo": "2",
     "dept": "Loire",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA794114",
@@ -2936,8 +2936,8 @@
     "circo": "3",
     "dept": "Loire",
     "groupe": "PO845454",
-    "sigle": "Dem",
-    "groupeNom": "Les Démocrates"
+    "groupeSigle": "Dem",
+    "groupeLibelle": "Les Démocrates"
   },
   {
     "id": "PA794118",
@@ -2946,8 +2946,8 @@
     "circo": "5",
     "dept": "Loire",
     "groupe": "PO845425",
-    "sigle": "DR",
-    "groupeNom": "Droite Républicaine"
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA794130",
@@ -2956,8 +2956,8 @@
     "circo": "2",
     "dept": "Loire-Atlantique",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA794138",
@@ -2966,8 +2966,8 @@
     "circo": "3",
     "dept": "Loire-Atlantique",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA794146",
@@ -2976,8 +2976,8 @@
     "circo": "4",
     "dept": "Loire-Atlantique",
     "groupe": "PO845439",
-    "sigle": "EcoS",
-    "groupeNom": "Écologiste et Social"
+    "groupeSigle": "EcoS",
+    "groupeLibelle": "Écologiste et Social"
   },
   {
     "id": "PA794154",
@@ -2986,8 +2986,8 @@
     "circo": "6",
     "dept": "Loire-Atlantique",
     "groupe": "PO845439",
-    "sigle": "EcoS",
-    "groupeNom": "Écologiste et Social"
+    "groupeSigle": "EcoS",
+    "groupeLibelle": "Écologiste et Social"
   },
   {
     "id": "PA794166",
@@ -2996,8 +2996,8 @@
     "circo": "8",
     "dept": "Loire-Atlantique",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA794178",
@@ -3006,8 +3006,8 @@
     "circo": "6",
     "dept": "Loire",
     "groupe": "PO845425",
-    "sigle": "DR",
-    "groupeNom": "Droite Républicaine"
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA794198",
@@ -3016,8 +3016,8 @@
     "circo": "2",
     "dept": "Loir-et-Cher",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA794206",
@@ -3026,8 +3026,8 @@
     "circo": "3",
     "dept": "Loir-et-Cher",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA794234",
@@ -3036,8 +3036,8 @@
     "circo": "1",
     "dept": "Maine-et-Loire",
     "groupe": "PO845470",
-    "sigle": "HOR",
-    "groupeNom": "Horizons & Indépendants"
+    "groupeSigle": "HOR",
+    "groupeLibelle": "Horizons & Indépendants"
   },
   {
     "id": "PA794270",
@@ -3046,8 +3046,8 @@
     "circo": "4",
     "dept": "Manche",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA794278",
@@ -3056,8 +3056,8 @@
     "circo": "1",
     "dept": "Marne",
     "groupe": "PO845470",
-    "sigle": "HOR",
-    "groupeNom": "Horizons & Indépendants"
+    "groupeSigle": "HOR",
+    "groupeLibelle": "Horizons & Indépendants"
   },
   {
     "id": "PA794322",
@@ -3066,8 +3066,8 @@
     "circo": "4",
     "dept": "Loiret",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA794330",
@@ -3076,8 +3076,8 @@
     "circo": "5",
     "dept": "Loiret",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA794354",
@@ -3086,8 +3086,8 @@
     "circo": "2",
     "dept": "Lot-et-Garonne",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA794418",
@@ -3096,8 +3096,8 @@
     "circo": "2",
     "dept": "Meuse",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA794426",
@@ -3106,8 +3106,8 @@
     "circo": "1",
     "dept": "Morbihan",
     "groupe": "PO845470",
-    "sigle": "HOR",
-    "groupeNom": "Horizons & Indépendants"
+    "groupeSigle": "HOR",
+    "groupeLibelle": "Horizons & Indépendants"
   },
   {
     "id": "PA794434",
@@ -3116,8 +3116,8 @@
     "circo": "1",
     "dept": "Haute-Marne",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA794442",
@@ -3126,8 +3126,8 @@
     "circo": "2",
     "dept": "Haute-Marne",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA794466",
@@ -3136,8 +3136,8 @@
     "circo": "6",
     "dept": "Nord",
     "groupe": "PO845470",
-    "sigle": "HOR",
-    "groupeNom": "Horizons & Indépendants"
+    "groupeSigle": "HOR",
+    "groupeLibelle": "Horizons & Indépendants"
   },
   {
     "id": "PA794470",
@@ -3146,8 +3146,8 @@
     "circo": "7",
     "dept": "Nord",
     "groupe": "PO845470",
-    "sigle": "HOR",
-    "groupeNom": "Horizons & Indépendants"
+    "groupeSigle": "HOR",
+    "groupeLibelle": "Horizons & Indépendants"
   },
   {
     "id": "PA794478",
@@ -3156,8 +3156,8 @@
     "circo": "8",
     "dept": "Nord",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA794486",
@@ -3166,8 +3166,8 @@
     "circo": "9",
     "dept": "Nord",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA794494",
@@ -3176,8 +3176,8 @@
     "circo": "11",
     "dept": "Nord",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA794502",
@@ -3186,8 +3186,8 @@
     "circo": "12",
     "dept": "Nord",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA794530",
@@ -3196,8 +3196,8 @@
     "circo": "16",
     "dept": "Nord",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA794554",
@@ -3206,8 +3206,8 @@
     "circo": "21",
     "dept": "Nord",
     "groupe": "PO845485",
-    "sigle": "LIOT",
-    "groupeNom": "Libertés, Indépendants, Outre-mer et Territoires"
+    "groupeSigle": "LIOT",
+    "groupeLibelle": "Libertés, Indépendants, Outre-mer et Territoires"
   },
   {
     "id": "PA794562",
@@ -3216,8 +3216,8 @@
     "circo": "2",
     "dept": "Oise",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA794570",
@@ -3226,8 +3226,8 @@
     "circo": "3",
     "dept": "Oise",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA794582",
@@ -3236,8 +3236,8 @@
     "circo": "6",
     "dept": "Moselle",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA794590",
@@ -3246,8 +3246,8 @@
     "circo": "7",
     "dept": "Moselle",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA794598",
@@ -3256,8 +3256,8 @@
     "circo": "8",
     "dept": "Moselle",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA794658",
@@ -3266,8 +3266,8 @@
     "circo": "4",
     "dept": "Pas-de-Calais",
     "groupe": "PO845470",
-    "sigle": "HOR",
-    "groupeNom": "Horizons & Indépendants"
+    "groupeSigle": "HOR",
+    "groupeLibelle": "Horizons & Indépendants"
   },
   {
     "id": "PA794670",
@@ -3276,8 +3276,8 @@
     "circo": "9",
     "dept": "Pas-de-Calais",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA794678",
@@ -3286,8 +3286,8 @@
     "circo": "10",
     "dept": "Pas-de-Calais",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA794686",
@@ -3296,8 +3296,8 @@
     "circo": "1",
     "dept": "Puy-de-Dôme",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA794702",
@@ -3306,8 +3306,8 @@
     "circo": "4",
     "dept": "Puy-de-Dôme",
     "groupe": "PO845454",
-    "sigle": "Dem",
-    "groupeNom": "Les Démocrates"
+    "groupeSigle": "Dem",
+    "groupeLibelle": "Les Démocrates"
   },
   {
     "id": "PA794710",
@@ -3316,8 +3316,8 @@
     "circo": "5",
     "dept": "Puy-de-Dôme",
     "groupe": "PO845514",
-    "sigle": "GDR",
-    "groupeNom": "Gauche Démocrate et Républicaine"
+    "groupeSigle": "GDR",
+    "groupeLibelle": "Gauche Démocrate et Républicaine"
   },
   {
     "id": "PA794718",
@@ -3326,8 +3326,8 @@
     "circo": "6",
     "dept": "Pas-de-Calais",
     "groupe": "PO840056",
-    "sigle": "NI",
-    "groupeNom": "Non inscrit"
+    "groupeSigle": "NI",
+    "groupeLibelle": "Non inscrit"
   },
   {
     "id": "PA794734",
@@ -3336,8 +3336,8 @@
     "circo": "6",
     "dept": "Oise",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA794750",
@@ -3346,8 +3346,8 @@
     "circo": "2",
     "dept": "Orne",
     "groupe": "PO845425",
-    "sigle": "DR",
-    "groupeNom": "Droite Républicaine"
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA794762",
@@ -3356,8 +3356,8 @@
     "circo": "3",
     "dept": "Pyrénées-Orientales",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA794770",
@@ -3366,8 +3366,8 @@
     "circo": "4",
     "dept": "Pyrénées-Orientales",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA794778",
@@ -3376,8 +3376,8 @@
     "circo": "1",
     "dept": "Bas-Rhin",
     "groupe": "PO845439",
-    "sigle": "EcoS",
-    "groupeNom": "Écologiste et Social"
+    "groupeSigle": "EcoS",
+    "groupeLibelle": "Écologiste et Social"
   },
   {
     "id": "PA794786",
@@ -3386,8 +3386,8 @@
     "circo": "2",
     "dept": "Bas-Rhin",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA794798",
@@ -3396,8 +3396,8 @@
     "circo": "4",
     "dept": "Bas-Rhin",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA794802",
@@ -3406,8 +3406,8 @@
     "circo": "5",
     "dept": "Bas-Rhin",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA794810",
@@ -3416,8 +3416,8 @@
     "circo": "6",
     "dept": "Bas-Rhin",
     "groupe": "PO845454",
-    "sigle": "Dem",
-    "groupeNom": "Les Démocrates"
+    "groupeSigle": "Dem",
+    "groupeLibelle": "Les Démocrates"
   },
   {
     "id": "PA794830",
@@ -3426,8 +3426,8 @@
     "circo": "2",
     "dept": "Haut-Rhin",
     "groupe": "PO845454",
-    "sigle": "Dem",
-    "groupeNom": "Les Démocrates"
+    "groupeSigle": "Dem",
+    "groupeLibelle": "Les Démocrates"
   },
   {
     "id": "PA794838",
@@ -3436,8 +3436,8 @@
     "circo": "3",
     "dept": "Haut-Rhin",
     "groupe": "PO845470",
-    "sigle": "HOR",
-    "groupeNom": "Horizons & Indépendants"
+    "groupeSigle": "HOR",
+    "groupeLibelle": "Horizons & Indépendants"
   },
   {
     "id": "PA794854",
@@ -3446,8 +3446,8 @@
     "circo": "4",
     "dept": "Pyrénées-Atlantiques",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA794870",
@@ -3456,8 +3456,8 @@
     "circo": "1",
     "dept": "Hautes-Pyrénées",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA794886",
@@ -3466,8 +3466,8 @@
     "circo": "1",
     "dept": "Pyrénées-Orientales",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA794894",
@@ -3476,8 +3476,8 @@
     "circo": "2",
     "dept": "Pyrénées-Orientales",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA794906",
@@ -3486,8 +3486,8 @@
     "circo": "6",
     "dept": "Rhône",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA794938",
@@ -3496,8 +3496,8 @@
     "circo": "14",
     "dept": "Rhône",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA794946",
@@ -3506,8 +3506,8 @@
     "circo": "1",
     "dept": "Haute-Saône",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA794954",
@@ -3516,8 +3516,8 @@
     "circo": "2",
     "dept": "Haute-Saône",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA794982",
@@ -3526,8 +3526,8 @@
     "circo": "1",
     "dept": "Sarthe",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA794994",
@@ -3536,8 +3536,8 @@
     "circo": "9",
     "dept": "Rhône",
     "groupe": "PO845425",
-    "sigle": "DR",
-    "groupeNom": "Droite Républicaine"
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA795010",
@@ -3546,8 +3546,8 @@
     "circo": "3",
     "dept": "Rhône",
     "groupe": "PO845439",
-    "sigle": "EcoS",
-    "groupeNom": "Écologiste et Social"
+    "groupeSigle": "EcoS",
+    "groupeLibelle": "Écologiste et Social"
   },
   {
     "id": "PA795026",
@@ -3556,8 +3556,8 @@
     "circo": "5",
     "dept": "Haute-Savoie",
     "groupe": "PO845470",
-    "sigle": "HOR",
-    "groupeNom": "Horizons & Indépendants"
+    "groupeSigle": "HOR",
+    "groupeLibelle": "Horizons & Indépendants"
   },
   {
     "id": "PA795046",
@@ -3566,8 +3566,8 @@
     "circo": "8",
     "dept": "Français établis hors de France",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA795076",
@@ -3576,8 +3576,8 @@
     "circo": "9",
     "dept": "Paris",
     "groupe": "PO845439",
-    "sigle": "EcoS",
-    "groupeNom": "Écologiste et Social"
+    "groupeSigle": "EcoS",
+    "groupeLibelle": "Écologiste et Social"
   },
   {
     "id": "PA795084",
@@ -3586,8 +3586,8 @@
     "circo": "10",
     "dept": "Paris",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA795100",
@@ -3596,8 +3596,8 @@
     "circo": "3",
     "dept": "Sarthe",
     "groupe": "PO845454",
-    "sigle": "Dem",
-    "groupeNom": "Les Démocrates"
+    "groupeSigle": "Dem",
+    "groupeLibelle": "Les Démocrates"
   },
   {
     "id": "PA795108",
@@ -3606,8 +3606,8 @@
     "circo": "4",
     "dept": "Sarthe",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA795120",
@@ -3616,8 +3616,8 @@
     "circo": "1",
     "dept": "Savoie",
     "groupe": "PO845454",
-    "sigle": "Dem",
-    "groupeNom": "Les Démocrates"
+    "groupeSigle": "Dem",
+    "groupeLibelle": "Les Démocrates"
   },
   {
     "id": "PA795136",
@@ -3626,8 +3626,8 @@
     "circo": "4",
     "dept": "Savoie",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA795144",
@@ -3636,8 +3636,8 @@
     "circo": "2",
     "dept": "Haute-Savoie",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA795156",
@@ -3646,8 +3646,8 @@
     "circo": "8",
     "dept": "Seine-Saint-Denis",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA795164",
@@ -3656,8 +3656,8 @@
     "circo": "9",
     "dept": "Seine-Saint-Denis",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA795176",
@@ -3666,8 +3666,8 @@
     "circo": "1",
     "dept": "Nouvelle-Calédonie",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA795200",
@@ -3676,8 +3676,8 @@
     "circo": "4",
     "dept": "Seine-Maritime",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA795228",
@@ -3686,8 +3686,8 @@
     "circo": "10",
     "dept": "Seine-Saint-Denis",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA795240",
@@ -3696,8 +3696,8 @@
     "circo": "3",
     "dept": "Polynésie Française",
     "groupe": "PO845514",
-    "sigle": "GDR",
-    "groupeNom": "Gauche Démocrate et Républicaine"
+    "groupeSigle": "GDR",
+    "groupeLibelle": "Gauche Démocrate et Républicaine"
   },
   {
     "id": "PA795244",
@@ -3706,8 +3706,8 @@
     "circo": "1",
     "dept": "Saint-Pierre-et-Miquelon",
     "groupe": "PO845485",
-    "sigle": "LIOT",
-    "groupeNom": "Libertés, Indépendants, Outre-mer et Territoires"
+    "groupeSigle": "LIOT",
+    "groupeLibelle": "Libertés, Indépendants, Outre-mer et Territoires"
   },
   {
     "id": "PA795258",
@@ -3716,8 +3716,8 @@
     "circo": "1",
     "dept": "Saint-Barthélemy et Saint-Martin",
     "groupe": "PO845454",
-    "sigle": "Dem",
-    "groupeNom": "Les Démocrates"
+    "groupeSigle": "Dem",
+    "groupeLibelle": "Les Démocrates"
   },
   {
     "id": "PA795270",
@@ -3726,8 +3726,8 @@
     "circo": "9",
     "dept": "Seine-Maritime",
     "groupe": "PO845470",
-    "sigle": "HOR",
-    "groupeNom": "Horizons & Indépendants"
+    "groupeSigle": "HOR",
+    "groupeLibelle": "Horizons & Indépendants"
   },
   {
     "id": "PA795278",
@@ -3736,8 +3736,8 @@
     "circo": "2",
     "dept": "Vendée",
     "groupe": "PO845470",
-    "sigle": "HOR",
-    "groupeNom": "Horizons & Indépendants"
+    "groupeSigle": "HOR",
+    "groupeLibelle": "Horizons & Indépendants"
   },
   {
     "id": "PA795298",
@@ -3746,8 +3746,8 @@
     "circo": "12",
     "dept": "Seine-Saint-Denis",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA795310",
@@ -3756,8 +3756,8 @@
     "circo": "2",
     "dept": "Val-de-Marne",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA795318",
@@ -3766,8 +3766,8 @@
     "circo": "3",
     "dept": "Val-de-Marne",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA795330",
@@ -3776,8 +3776,8 @@
     "circo": "2",
     "dept": "Français établis hors de France",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA795350",
@@ -3786,8 +3786,8 @@
     "circo": "2",
     "dept": "Seine-et-Marne",
     "groupe": "PO845470",
-    "sigle": "HOR",
-    "groupeNom": "Horizons & Indépendants"
+    "groupeSigle": "HOR",
+    "groupeLibelle": "Horizons & Indépendants"
   },
   {
     "id": "PA795362",
@@ -3796,8 +3796,8 @@
     "circo": "1",
     "dept": "Vienne",
     "groupe": "PO845439",
-    "sigle": "EcoS",
-    "groupeNom": "Écologiste et Social"
+    "groupeSigle": "EcoS",
+    "groupeLibelle": "Écologiste et Social"
   },
   {
     "id": "PA795374",
@@ -3806,8 +3806,8 @@
     "circo": "3",
     "dept": "Vienne",
     "groupe": "PO845454",
-    "sigle": "Dem",
-    "groupeNom": "Les Démocrates"
+    "groupeSigle": "Dem",
+    "groupeLibelle": "Les Démocrates"
   },
   {
     "id": "PA795386",
@@ -3816,8 +3816,8 @@
     "circo": "5",
     "dept": "Val-de-Marne",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA795410",
@@ -3826,8 +3826,8 @@
     "circo": "6",
     "dept": "Seine-et-Marne",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA795422",
@@ -3836,8 +3836,8 @@
     "circo": "1",
     "dept": "Haute-Vienne",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA795430",
@@ -3846,8 +3846,8 @@
     "circo": "2",
     "dept": "Haute-Vienne",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA795454",
@@ -3856,8 +3856,8 @@
     "circo": "9",
     "dept": "Français établis hors de France",
     "groupe": "PO845439",
-    "sigle": "EcoS",
-    "groupeNom": "Écologiste et Social"
+    "groupeSigle": "EcoS",
+    "groupeLibelle": "Écologiste et Social"
   },
   {
     "id": "PA795466",
@@ -3866,8 +3866,8 @@
     "circo": "7",
     "dept": "Seine-et-Marne",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA795482",
@@ -3876,8 +3876,8 @@
     "circo": "3",
     "dept": "Haute-Vienne",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA795516",
@@ -3886,8 +3886,8 @@
     "circo": "10",
     "dept": "Seine-et-Marne",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA795528",
@@ -3896,8 +3896,8 @@
     "circo": "1",
     "dept": "Yvelines",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA795540",
@@ -3906,8 +3906,8 @@
     "circo": "1",
     "dept": "Yonne",
     "groupe": "PO840056",
-    "sigle": "NI",
-    "groupeNom": "Non inscrit"
+    "groupeSigle": "NI",
+    "groupeLibelle": "Non inscrit"
   },
   {
     "id": "PA795552",
@@ -3916,8 +3916,8 @@
     "circo": "3",
     "dept": "Yonne",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA795588",
@@ -3926,8 +3926,8 @@
     "circo": "1",
     "dept": "Essonne",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA795596",
@@ -3936,8 +3936,8 @@
     "circo": "5",
     "dept": "Val-d'Oise",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA795616",
@@ -3946,8 +3946,8 @@
     "circo": "8",
     "dept": "Val-d'Oise",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA795636",
@@ -3956,8 +3956,8 @@
     "circo": "8",
     "dept": "Yvelines",
     "groupe": "PO845439",
-    "sigle": "EcoS",
-    "groupeNom": "Écologiste et Social"
+    "groupeSigle": "EcoS",
+    "groupeLibelle": "Écologiste et Social"
   },
   {
     "id": "PA795644",
@@ -3966,8 +3966,8 @@
     "circo": "2",
     "dept": "Essonne",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA795664",
@@ -3976,8 +3976,8 @@
     "circo": "5",
     "dept": "Essonne",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA795672",
@@ -3986,8 +3986,8 @@
     "circo": "9",
     "dept": "Val-d'Oise",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA795722",
@@ -3996,8 +3996,8 @@
     "circo": "12",
     "dept": "Yvelines",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA795730",
@@ -4006,8 +4006,8 @@
     "circo": "1",
     "dept": "Deux-Sèvres",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA795746",
@@ -4016,8 +4016,8 @@
     "circo": "10",
     "dept": "Essonne",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA795762",
@@ -4026,8 +4026,8 @@
     "circo": "4",
     "dept": "Guadeloupe",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA795778",
@@ -4036,8 +4036,8 @@
     "circo": "4",
     "dept": "Somme",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA795786",
@@ -4046,8 +4046,8 @@
     "circo": "5",
     "dept": "Somme",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA795808",
@@ -4056,8 +4056,8 @@
     "circo": "4",
     "dept": "Hauts-de-Seine",
     "groupe": "PO845439",
-    "sigle": "EcoS",
-    "groupeNom": "Écologiste et Social"
+    "groupeSigle": "EcoS",
+    "groupeLibelle": "Écologiste et Social"
   },
   {
     "id": "PA795820",
@@ -4066,8 +4066,8 @@
     "circo": "2",
     "dept": "Martinique",
     "groupe": "PO845514",
-    "sigle": "GDR",
-    "groupeNom": "Gauche Démocrate et Républicaine"
+    "groupeSigle": "GDR",
+    "groupeLibelle": "Gauche Démocrate et Républicaine"
   },
   {
     "id": "PA795844",
@@ -4076,8 +4076,8 @@
     "circo": "2",
     "dept": "Tarn",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA795864",
@@ -4086,8 +4086,8 @@
     "circo": "7",
     "dept": "Hauts-de-Seine",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA795868",
@@ -4096,8 +4096,8 @@
     "circo": "1",
     "dept": "Guyane",
     "groupe": "PO845514",
-    "sigle": "GDR",
-    "groupeNom": "Gauche Démocrate et Républicaine"
+    "groupeSigle": "GDR",
+    "groupeLibelle": "Gauche Démocrate et Républicaine"
   },
   {
     "id": "PA795876",
@@ -4106,8 +4106,8 @@
     "circo": "2",
     "dept": "Guyane",
     "groupe": "PO845514",
-    "sigle": "GDR",
-    "groupeNom": "Gauche Démocrate et Républicaine"
+    "groupeSigle": "GDR",
+    "groupeLibelle": "Gauche Démocrate et Républicaine"
   },
   {
     "id": "PA795888",
@@ -4116,8 +4116,8 @@
     "circo": "6",
     "dept": "Français établis hors de France",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA795900",
@@ -4126,8 +4126,8 @@
     "circo": "2",
     "dept": "Tarn-et-Garonne",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA795908",
@@ -4136,8 +4136,8 @@
     "circo": "1",
     "dept": "Var",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA795912",
@@ -4146,8 +4146,8 @@
     "circo": "2",
     "dept": "Var",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA795920",
@@ -4156,8 +4156,8 @@
     "circo": "8",
     "dept": "Hauts-de-Seine",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA795950",
@@ -4166,8 +4166,8 @@
     "circo": "13",
     "dept": "Paris",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA795962",
@@ -4176,8 +4176,8 @@
     "circo": "14",
     "dept": "Paris",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA795966",
@@ -4186,8 +4186,8 @@
     "circo": "3",
     "dept": "Var",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA795974",
@@ -4196,8 +4196,8 @@
     "circo": "4",
     "dept": "Var",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA795982",
@@ -4206,8 +4206,8 @@
     "circo": "11",
     "dept": "Hauts-de-Seine",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA795990",
@@ -4216,8 +4216,8 @@
     "circo": "13",
     "dept": "Hauts-de-Seine",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA795998",
@@ -4226,8 +4226,8 @@
     "circo": "4",
     "dept": "Réunion",
     "groupe": "PO845514",
-    "sigle": "GDR",
-    "groupeNom": "Gauche Démocrate et Républicaine"
+    "groupeSigle": "GDR",
+    "groupeLibelle": "Gauche Démocrate et Républicaine"
   },
   {
     "id": "PA796010",
@@ -4236,8 +4236,8 @@
     "circo": "6",
     "dept": "Réunion",
     "groupe": "PO845514",
-    "sigle": "GDR",
-    "groupeNom": "Gauche Démocrate et Républicaine"
+    "groupeSigle": "GDR",
+    "groupeLibelle": "Gauche Démocrate et Républicaine"
   },
   {
     "id": "PA796018",
@@ -4246,8 +4246,8 @@
     "circo": "15",
     "dept": "Paris",
     "groupe": "PO845439",
-    "sigle": "EcoS",
-    "groupeNom": "Écologiste et Social"
+    "groupeSigle": "EcoS",
+    "groupeLibelle": "Écologiste et Social"
   },
   {
     "id": "PA796026",
@@ -4256,8 +4256,8 @@
     "circo": "5",
     "dept": "Var",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA796034",
@@ -4266,8 +4266,8 @@
     "circo": "6",
     "dept": "Var",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA796042",
@@ -4276,8 +4276,8 @@
     "circo": "7",
     "dept": "Var",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA796050",
@@ -4286,8 +4286,8 @@
     "circo": "8",
     "dept": "Var",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA796062",
@@ -4296,8 +4296,8 @@
     "circo": "3",
     "dept": "Seine-Saint-Denis",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA796070",
@@ -4306,8 +4306,8 @@
     "circo": "7",
     "dept": "Réunion",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA796078",
@@ -4316,8 +4316,8 @@
     "circo": "1",
     "dept": "Mayotte",
     "groupe": "PO845485",
-    "sigle": "LIOT",
-    "groupeNom": "Libertés, Indépendants, Outre-mer et Territoires"
+    "groupeSigle": "LIOT",
+    "groupeLibelle": "Libertés, Indépendants, Outre-mer et Territoires"
   },
   {
     "id": "PA796090",
@@ -4326,8 +4326,8 @@
     "circo": "18",
     "dept": "Paris",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA796106",
@@ -4336,8 +4336,8 @@
     "circo": "3",
     "dept": "Seine-Maritime",
     "groupe": "PO845514",
-    "sigle": "GDR",
-    "groupeNom": "Gauche Démocrate et Républicaine"
+    "groupeSigle": "GDR",
+    "groupeLibelle": "Gauche Démocrate et Républicaine"
   },
   {
     "id": "PA796118",
@@ -4346,8 +4346,8 @@
     "circo": "2",
     "dept": "Vaucluse",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA805166",
@@ -4356,8 +4356,8 @@
     "circo": "2",
     "dept": "Yvelines",
     "groupe": "PO845454",
-    "sigle": "Dem",
-    "groupeNom": "Les Démocrates"
+    "groupeSigle": "Dem",
+    "groupeLibelle": "Les Démocrates"
   },
   {
     "id": "PA817203",
@@ -4366,8 +4366,8 @@
     "circo": "2",
     "dept": "Marne",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA817211",
@@ -4376,8 +4376,8 @@
     "circo": "1",
     "dept": "Charente",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA822617",
@@ -4386,8 +4386,8 @@
     "circo": "1",
     "dept": "Ariège",
     "groupe": "PO845485",
-    "sigle": "LIOT",
-    "groupeNom": "Libertés, Indépendants, Outre-mer et Territoires"
+    "groupeSigle": "LIOT",
+    "groupeLibelle": "Libertés, Indépendants, Outre-mer et Territoires"
   },
   {
     "id": "PA826635",
@@ -4396,8 +4396,8 @@
     "circo": "7",
     "dept": "Yvelines",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA840075",
@@ -4406,8 +4406,8 @@
     "circo": "3",
     "dept": "Aisne",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA840119",
@@ -4416,8 +4416,8 @@
     "circo": "3",
     "dept": "Nord",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA840135",
@@ -4426,8 +4426,8 @@
     "circo": "18",
     "dept": "Nord",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA840143",
@@ -4436,8 +4436,8 @@
     "circo": "20",
     "dept": "Nord",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA840159",
@@ -4446,8 +4446,8 @@
     "circo": "3",
     "dept": "Pas-de-Calais",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA840171",
@@ -4456,8 +4456,8 @@
     "circo": "7",
     "dept": "Paris",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA840235",
@@ -4466,8 +4466,8 @@
     "circo": "1",
     "dept": "Polynésie Française",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA840657",
@@ -4476,8 +4476,8 @@
     "circo": "2",
     "dept": "Alpes-de-Haute-Provence",
     "groupe": "PO847173",
-    "sigle": "UDR",
-    "groupeNom": "UDR"
+    "groupeSigle": "UDR",
+    "groupeLibelle": "UDR"
   },
   {
     "id": "PA840665",
@@ -4486,8 +4486,8 @@
     "circo": "1",
     "dept": "Hautes-Alpes",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA840673",
@@ -4496,8 +4496,8 @@
     "circo": "2",
     "dept": "Hautes-Alpes",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA840685",
@@ -4506,8 +4506,8 @@
     "circo": "2",
     "dept": "Ardèche",
     "groupe": "PO847173",
-    "sigle": "UDR",
-    "groupeNom": "UDR"
+    "groupeSigle": "UDR",
+    "groupeLibelle": "UDR"
   },
   {
     "id": "PA840701",
@@ -4516,8 +4516,8 @@
     "circo": "3",
     "dept": "Alpes-Maritimes",
     "groupe": "PO847173",
-    "sigle": "UDR",
-    "groupeNom": "UDR"
+    "groupeSigle": "UDR",
+    "groupeLibelle": "UDR"
   },
   {
     "id": "PA840721",
@@ -4526,8 +4526,8 @@
     "circo": "5",
     "dept": "Ain",
     "groupe": "PO847173",
-    "sigle": "UDR",
-    "groupeNom": "UDR"
+    "groupeSigle": "UDR",
+    "groupeLibelle": "UDR"
   },
   {
     "id": "PA840757",
@@ -4536,8 +4536,8 @@
     "circo": "1",
     "dept": "Bouches-du-Rhône",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA840765",
@@ -4546,8 +4546,8 @@
     "circo": "2",
     "dept": "Bouches-du-Rhône",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA840773",
@@ -4556,8 +4556,8 @@
     "circo": "6",
     "dept": "Bouches-du-Rhône",
     "groupe": "PO847173",
-    "sigle": "UDR",
-    "groupeNom": "UDR"
+    "groupeSigle": "UDR",
+    "groupeLibelle": "UDR"
   },
   {
     "id": "PA840781",
@@ -4566,8 +4566,8 @@
     "circo": "8",
     "dept": "Bouches-du-Rhône",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA840793",
@@ -4576,8 +4576,8 @@
     "circo": "11",
     "dept": "Bouches-du-Rhône",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA840801",
@@ -4586,8 +4586,8 @@
     "circo": "13",
     "dept": "Bouches-du-Rhône",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA840809",
@@ -4596,8 +4596,8 @@
     "circo": "14",
     "dept": "Bouches-du-Rhône",
     "groupe": "PO847173",
-    "sigle": "UDR",
-    "groupeNom": "UDR"
+    "groupeSigle": "UDR",
+    "groupeLibelle": "UDR"
   },
   {
     "id": "PA840817",
@@ -4606,8 +4606,8 @@
     "circo": "1",
     "dept": "Calvados",
     "groupe": "PO845485",
-    "sigle": "LIOT",
-    "groupeNom": "Libertés, Indépendants, Outre-mer et Territoires"
+    "groupeSigle": "LIOT",
+    "groupeLibelle": "Libertés, Indépendants, Outre-mer et Territoires"
   },
   {
     "id": "PA840829",
@@ -4616,8 +4616,8 @@
     "circo": "3",
     "dept": "Charente-Maritime",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA840837",
@@ -4626,8 +4626,8 @@
     "circo": "4",
     "dept": "Charente-Maritime",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA840857",
@@ -4636,8 +4636,8 @@
     "circo": "1",
     "dept": "Dordogne",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA840869",
@@ -4646,8 +4646,8 @@
     "circo": "3",
     "dept": "Dordogne",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA840889",
@@ -4656,8 +4656,8 @@
     "circo": "3",
     "dept": "Doubs",
     "groupe": "PO847173",
-    "sigle": "UDR",
-    "groupeNom": "UDR"
+    "groupeSigle": "UDR",
+    "groupeLibelle": "UDR"
   },
   {
     "id": "PA840903",
@@ -4666,8 +4666,8 @@
     "circo": "1",
     "dept": "Drôme",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA840915",
@@ -4676,8 +4676,8 @@
     "circo": "4",
     "dept": "Drôme",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA840939",
@@ -4686,8 +4686,8 @@
     "circo": "1",
     "dept": "Côte-d'Or",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA840947",
@@ -4696,8 +4696,8 @@
     "circo": "2",
     "dept": "Côte-d'Or",
     "groupe": "PO845439",
-    "sigle": "EcoS",
-    "groupeNom": "Écologiste et Social"
+    "groupeSigle": "EcoS",
+    "groupeLibelle": "Écologiste et Social"
   },
   {
     "id": "PA840955",
@@ -4706,8 +4706,8 @@
     "circo": "3",
     "dept": "Côte-d'Or",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA840967",
@@ -4716,8 +4716,8 @@
     "circo": "5",
     "dept": "Côte-d'Or",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA840979",
@@ -4726,8 +4726,8 @@
     "circo": "3",
     "dept": "Côtes-d'Armor",
     "groupe": "PO845425",
-    "sigle": "DR",
-    "groupeNom": "Droite Républicaine"
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA840983",
@@ -4736,8 +4736,8 @@
     "circo": "1",
     "dept": "Creuse",
     "groupe": "PO847173",
-    "sigle": "UDR",
-    "groupeNom": "UDR"
+    "groupeSigle": "UDR",
+    "groupeLibelle": "UDR"
   },
   {
     "id": "PA840997",
@@ -4746,8 +4746,8 @@
     "circo": "2",
     "dept": "Charente-Maritime",
     "groupe": "PO845439",
-    "sigle": "EcoS",
-    "groupeNom": "Écologiste et Social"
+    "groupeSigle": "EcoS",
+    "groupeLibelle": "Écologiste et Social"
   },
   {
     "id": "PA841017",
@@ -4756,8 +4756,8 @@
     "circo": "3",
     "dept": "Eure-et-Loir",
     "groupe": "PO845485",
-    "sigle": "LIOT",
-    "groupeNom": "Libertés, Indépendants, Outre-mer et Territoires"
+    "groupeSigle": "LIOT",
+    "groupeLibelle": "Libertés, Indépendants, Outre-mer et Territoires"
   },
   {
     "id": "PA841023",
@@ -4766,8 +4766,8 @@
     "circo": "2",
     "dept": "Finistère",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA841047",
@@ -4776,8 +4776,8 @@
     "circo": "2",
     "dept": "Haute-Corse",
     "groupe": "PO845425",
-    "sigle": "DR",
-    "groupeNom": "Droite Républicaine"
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA841067",
@@ -4786,8 +4786,8 @@
     "circo": "5",
     "dept": "Gard",
     "groupe": "PO847173",
-    "sigle": "UDR",
-    "groupeNom": "UDR"
+    "groupeSigle": "UDR",
+    "groupeLibelle": "UDR"
   },
   {
     "id": "PA841075",
@@ -4796,8 +4796,8 @@
     "circo": "6",
     "dept": "Gard",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA841091",
@@ -4806,8 +4806,8 @@
     "circo": "6",
     "dept": "Haute-Garonne",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA841107",
@@ -4816,8 +4816,8 @@
     "circo": "10",
     "dept": "Haute-Garonne",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA841131",
@@ -4826,8 +4826,8 @@
     "circo": "4",
     "dept": "Hérault",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA841139",
@@ -4836,8 +4836,8 @@
     "circo": "6",
     "dept": "Hérault",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA841183",
@@ -4846,8 +4846,8 @@
     "circo": "8",
     "dept": "Isère",
     "groupe": "PO847173",
-    "sigle": "UDR",
-    "groupeNom": "UDR"
+    "groupeSigle": "UDR",
+    "groupeLibelle": "UDR"
   },
   {
     "id": "PA841191",
@@ -4856,8 +4856,8 @@
     "circo": "9",
     "dept": "Isère",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA841199",
@@ -4866,8 +4866,8 @@
     "circo": "10",
     "dept": "Isère",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA841207",
@@ -4876,8 +4876,8 @@
     "circo": "9",
     "dept": "Hérault",
     "groupe": "PO847173",
-    "sigle": "UDR",
-    "groupeNom": "UDR"
+    "groupeSigle": "UDR",
+    "groupeLibelle": "UDR"
   },
   {
     "id": "PA841215",
@@ -4886,8 +4886,8 @@
     "circo": "1",
     "dept": "Ille-et-Vilaine",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA841223",
@@ -4896,8 +4896,8 @@
     "circo": "2",
     "dept": "Ille-et-Vilaine",
     "groupe": "PO845439",
-    "sigle": "EcoS",
-    "groupeNom": "Écologiste et Social"
+    "groupeSigle": "EcoS",
+    "groupeLibelle": "Écologiste et Social"
   },
   {
     "id": "PA841243",
@@ -4906,8 +4906,8 @@
     "circo": "7",
     "dept": "Gironde",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA841251",
@@ -4916,8 +4916,8 @@
     "circo": "12",
     "dept": "Gironde",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA841295",
@@ -4926,8 +4926,8 @@
     "circo": "1",
     "dept": "Loire",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA841315",
@@ -4936,8 +4936,8 @@
     "circo": "1",
     "dept": "Loire-Atlantique",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA841327",
@@ -4946,8 +4946,8 @@
     "circo": "5",
     "dept": "Loire-Atlantique",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA841339",
@@ -4956,8 +4956,8 @@
     "circo": "9",
     "dept": "Loire-Atlantique",
     "groupe": "PO845470",
-    "sigle": "HOR",
-    "groupeNom": "Horizons & Indépendants"
+    "groupeSigle": "HOR",
+    "groupeLibelle": "Horizons & Indépendants"
   },
   {
     "id": "PA841351",
@@ -4966,8 +4966,8 @@
     "circo": "2",
     "dept": "Loiret",
     "groupe": "PO845439",
-    "sigle": "EcoS",
-    "groupeNom": "Écologiste et Social"
+    "groupeSigle": "EcoS",
+    "groupeLibelle": "Écologiste et Social"
   },
   {
     "id": "PA841359",
@@ -4976,8 +4976,8 @@
     "circo": "3",
     "dept": "Loiret",
     "groupe": "PO845485",
-    "sigle": "LIOT",
-    "groupeNom": "Libertés, Indépendants, Outre-mer et Territoires"
+    "groupeSigle": "LIOT",
+    "groupeLibelle": "Libertés, Indépendants, Outre-mer et Territoires"
   },
   {
     "id": "PA841367",
@@ -4986,8 +4986,8 @@
     "circo": "2",
     "dept": "Lot",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA841381",
@@ -4996,8 +4996,8 @@
     "circo": "1",
     "dept": "Lozère",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA841395",
@@ -5006,8 +5006,8 @@
     "circo": "3",
     "dept": "Marne",
     "groupe": "PO847173",
-    "sigle": "UDR",
-    "groupeNom": "UDR"
+    "groupeSigle": "UDR",
+    "groupeLibelle": "UDR"
   },
   {
     "id": "PA841419",
@@ -5016,8 +5016,8 @@
     "circo": "5",
     "dept": "Morbihan",
     "groupe": "PO845439",
-    "sigle": "EcoS",
-    "groupeNom": "Écologiste et Social"
+    "groupeSigle": "EcoS",
+    "groupeLibelle": "Écologiste et Social"
   },
   {
     "id": "PA841431",
@@ -5026,8 +5026,8 @@
     "circo": "3",
     "dept": "Moselle",
     "groupe": "PO845470",
-    "sigle": "HOR",
-    "groupeNom": "Horizons & Indépendants"
+    "groupeSigle": "HOR",
+    "groupeLibelle": "Horizons & Indépendants"
   },
   {
     "id": "PA841439",
@@ -5036,8 +5036,8 @@
     "circo": "5",
     "dept": "Moselle",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA841451",
@@ -5046,8 +5046,8 @@
     "circo": "2",
     "dept": "Nièvre",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA841463",
@@ -5056,8 +5056,8 @@
     "circo": "1",
     "dept": "Meurthe-et-Moselle",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA841471",
@@ -5066,8 +5066,8 @@
     "circo": "2",
     "dept": "Meurthe-et-Moselle",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA841479",
@@ -5076,8 +5076,8 @@
     "circo": "3",
     "dept": "Meurthe-et-Moselle",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA841487",
@@ -5086,8 +5086,8 @@
     "circo": "6",
     "dept": "Meurthe-et-Moselle",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA841495",
@@ -5096,8 +5096,8 @@
     "circo": "1",
     "dept": "Meuse",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA841507",
@@ -5106,8 +5106,8 @@
     "circo": "3",
     "dept": "Puy-de-Dôme",
     "groupe": "PO845439",
-    "sigle": "EcoS",
-    "groupeNom": "Écologiste et Social"
+    "groupeSigle": "EcoS",
+    "groupeLibelle": "Écologiste et Social"
   },
   {
     "id": "PA841515",
@@ -5116,8 +5116,8 @@
     "circo": "1",
     "dept": "Nord",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA841539",
@@ -5126,8 +5126,8 @@
     "circo": "13",
     "dept": "Nord",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA841553",
@@ -5136,8 +5136,8 @@
     "circo": "17",
     "dept": "Nord",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA841563",
@@ -5146,8 +5146,8 @@
     "circo": "1",
     "dept": "Oise",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA841575",
@@ -5156,8 +5156,8 @@
     "circo": "5",
     "dept": "Oise",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA841587",
@@ -5166,8 +5166,8 @@
     "circo": "7",
     "dept": "Oise",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA841601",
@@ -5176,8 +5176,8 @@
     "circo": "2",
     "dept": "Pas-de-Calais",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA841605",
@@ -5186,8 +5186,8 @@
     "circo": "5",
     "dept": "Pas-de-Calais",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA841613",
@@ -5196,8 +5196,8 @@
     "circo": "7",
     "dept": "Pas-de-Calais",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA841621",
@@ -5206,8 +5206,8 @@
     "circo": "8",
     "dept": "Pas-de-Calais",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA841633",
@@ -5216,8 +5216,8 @@
     "circo": "6",
     "dept": "Pyrénées-Atlantiques",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA841645",
@@ -5226,8 +5226,8 @@
     "circo": "8",
     "dept": "Bas-Rhin",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA841657",
@@ -5236,8 +5236,8 @@
     "circo": "1",
     "dept": "Rhône",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA841665",
@@ -5246,8 +5246,8 @@
     "circo": "2",
     "dept": "Hautes-Pyrénées",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA841681",
@@ -5256,8 +5256,8 @@
     "circo": "3",
     "dept": "Bas-Rhin",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA841701",
@@ -5266,8 +5266,8 @@
     "circo": "3",
     "dept": "Paris",
     "groupe": "PO845439",
-    "sigle": "EcoS",
-    "groupeNom": "Écologiste et Social"
+    "groupeSigle": "EcoS",
+    "groupeLibelle": "Écologiste et Social"
   },
   {
     "id": "PA841709",
@@ -5276,8 +5276,8 @@
     "circo": "4",
     "dept": "Paris",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA841713",
@@ -5286,8 +5286,8 @@
     "circo": "2",
     "dept": "Rhône",
     "groupe": "PO845439",
-    "sigle": "EcoS",
-    "groupeNom": "Écologiste et Social"
+    "groupeSigle": "EcoS",
+    "groupeLibelle": "Écologiste et Social"
   },
   {
     "id": "PA841717",
@@ -5296,8 +5296,8 @@
     "circo": "4",
     "dept": "Rhône",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA841729",
@@ -5306,8 +5306,8 @@
     "circo": "7",
     "dept": "Rhône",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA841737",
@@ -5316,8 +5316,8 @@
     "circo": "8",
     "dept": "Rhône",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA841749",
@@ -5326,8 +5326,8 @@
     "circo": "13",
     "dept": "Rhône",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA841761",
@@ -5336,8 +5336,8 @@
     "circo": "3",
     "dept": "Saône-et-Loire",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA841769",
@@ -5346,8 +5346,8 @@
     "circo": "4",
     "dept": "Saône-et-Loire",
     "groupe": "PO847173",
-    "sigle": "UDR",
-    "groupeNom": "UDR"
+    "groupeSigle": "UDR",
+    "groupeLibelle": "UDR"
   },
   {
     "id": "PA841813",
@@ -5356,8 +5356,8 @@
     "circo": "1",
     "dept": "Seine-Maritime",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA841825",
@@ -5366,8 +5366,8 @@
     "circo": "6",
     "dept": "Seine-Maritime",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA841837",
@@ -5376,8 +5376,8 @@
     "circo": "10",
     "dept": "Seine-Maritime",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA841845",
@@ -5386,8 +5386,8 @@
     "circo": "1",
     "dept": "Seine-et-Marne",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA841853",
@@ -5396,8 +5396,8 @@
     "circo": "11",
     "dept": "Paris",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA841873",
@@ -5406,8 +5406,8 @@
     "circo": "4",
     "dept": "Seine-et-Marne",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA841885",
@@ -5416,8 +5416,8 @@
     "circo": "8",
     "dept": "Seine-et-Marne",
     "groupe": "PO845439",
-    "sigle": "EcoS",
-    "groupeNom": "Écologiste et Social"
+    "groupeSigle": "EcoS",
+    "groupeLibelle": "Écologiste et Social"
   },
   {
     "id": "PA841893",
@@ -5426,8 +5426,8 @@
     "circo": "9",
     "dept": "Seine-et-Marne",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA841919",
@@ -5436,8 +5436,8 @@
     "circo": "9",
     "dept": "Yvelines",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA841927",
@@ -5446,8 +5446,8 @@
     "circo": "10",
     "dept": "Yvelines",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA841931",
@@ -5456,8 +5456,8 @@
     "circo": "11",
     "dept": "Yvelines",
     "groupe": "PO845485",
-    "sigle": "LIOT",
-    "groupeNom": "Libertés, Indépendants, Outre-mer et Territoires"
+    "groupeSigle": "LIOT",
+    "groupeLibelle": "Libertés, Indépendants, Outre-mer et Territoires"
   },
   {
     "id": "PA841947",
@@ -5466,8 +5466,8 @@
     "circo": "2",
     "dept": "Somme",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA841955",
@@ -5476,8 +5476,8 @@
     "circo": "3",
     "dept": "Somme",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA841981",
@@ -5486,8 +5486,8 @@
     "circo": "5",
     "dept": "Vaucluse",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA842001",
@@ -5496,8 +5496,8 @@
     "circo": "2",
     "dept": "Territoire de Belfort",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA842013",
@@ -5506,8 +5506,8 @@
     "circo": "3",
     "dept": "Essonne",
     "groupe": "PO845439",
-    "sigle": "EcoS",
-    "groupeNom": "Écologiste et Social"
+    "groupeSigle": "EcoS",
+    "groupeLibelle": "Écologiste et Social"
   },
   {
     "id": "PA842029",
@@ -5516,8 +5516,8 @@
     "circo": "7",
     "dept": "Essonne",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA842037",
@@ -5526,8 +5526,8 @@
     "circo": "8",
     "dept": "Essonne",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA842045",
@@ -5536,8 +5536,8 @@
     "circo": "9",
     "dept": "Essonne",
     "groupe": "PO845439",
-    "sigle": "EcoS",
-    "groupeNom": "Écologiste et Social"
+    "groupeSigle": "EcoS",
+    "groupeLibelle": "Écologiste et Social"
   },
   {
     "id": "PA842073",
@@ -5546,8 +5546,8 @@
     "circo": "2",
     "dept": "Vosges",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA842085",
@@ -5556,8 +5556,8 @@
     "circo": "4",
     "dept": "Vosges",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA842097",
@@ -5566,8 +5566,8 @@
     "circo": "2",
     "dept": "Yonne",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA842105",
@@ -5576,8 +5576,8 @@
     "circo": "1",
     "dept": "Vaucluse",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA842117",
@@ -5586,8 +5586,8 @@
     "circo": "7",
     "dept": "Val-de-Marne",
     "groupe": "PO845425",
-    "sigle": "DR",
-    "groupeNom": "Droite Républicaine"
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA842125",
@@ -5596,8 +5596,8 @@
     "circo": "2",
     "dept": "Hauts-de-Seine",
     "groupe": "PO845470",
-    "sigle": "HOR",
-    "groupeNom": "Horizons & Indépendants"
+    "groupeSigle": "HOR",
+    "groupeLibelle": "Horizons & Indépendants"
   },
   {
     "id": "PA842141",
@@ -5606,8 +5606,8 @@
     "circo": "9",
     "dept": "Hauts-de-Seine",
     "groupe": "PO845425",
-    "sigle": "DR",
-    "groupeNom": "Droite Républicaine"
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA842155",
@@ -5616,8 +5616,8 @@
     "circo": "5",
     "dept": "Seine-Saint-Denis",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA842187",
@@ -5626,8 +5626,8 @@
     "circo": "6",
     "dept": "Val-d'Oise",
     "groupe": "PO845413",
-    "sigle": "LFI-NFP",
-    "groupeNom": "La France insoumise - Nouveau Front Populaire"
+    "groupeSigle": "LFI-NFP",
+    "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
     "id": "PA842195",
@@ -5636,8 +5636,8 @@
     "circo": "7",
     "dept": "Val-d'Oise",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA842211",
@@ -5646,8 +5646,8 @@
     "circo": "3",
     "dept": "Martinique",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA842227",
@@ -5656,8 +5656,8 @@
     "circo": "3",
     "dept": "Réunion",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA842255",
@@ -5666,8 +5666,8 @@
     "circo": "1",
     "dept": "Val-d'Oise",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA842263",
@@ -5676,8 +5676,8 @@
     "circo": "2",
     "dept": "Val-d'Oise",
     "groupe": "PO845419",
-    "sigle": "SOC",
-    "groupeNom": "Socialistes et apparentés"
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA842271",
@@ -5686,8 +5686,8 @@
     "circo": "3",
     "dept": "Val-d'Oise",
     "groupe": "PO845514",
-    "sigle": "GDR",
-    "groupeNom": "Gauche Démocrate et Républicaine"
+    "groupeSigle": "GDR",
+    "groupeLibelle": "Gauche Démocrate et Républicaine"
   },
   {
     "id": "PA842279",
@@ -5696,8 +5696,8 @@
     "circo": "2",
     "dept": "Mayotte",
     "groupe": "PO845401",
-    "sigle": "RN",
-    "groupeNom": "Rassemblement National"
+    "groupeSigle": "RN",
+    "groupeLibelle": "Rassemblement National"
   },
   {
     "id": "PA842299",
@@ -5706,8 +5706,8 @@
     "circo": "2",
     "dept": "Nouvelle-Calédonie",
     "groupe": "PO845514",
-    "sigle": "GDR",
-    "groupeNom": "Gauche Démocrate et Républicaine"
+    "groupeSigle": "GDR",
+    "groupeLibelle": "Gauche Démocrate et Républicaine"
   },
   {
     "id": "PA842311",
@@ -5716,8 +5716,8 @@
     "circo": "3",
     "dept": "Français établis hors de France",
     "groupe": "PO845407",
-    "sigle": "EPR",
-    "groupeNom": "Ensemble pour la République"
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA870010",
@@ -5726,8 +5726,8 @@
     "circo": "5",
     "dept": "Saône-et-Loire",
     "groupe": "PO845425",
-    "sigle": "DR",
-    "groupeNom": "Droite Républicaine"
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA942",
@@ -5736,7 +5736,7 @@
     "circo": "5",
     "dept": "Marne",
     "groupe": "PO845485",
-    "sigle": "LIOT",
-    "groupeNom": "Libertés, Indépendants, Outre-mer et Territoires"
+    "groupeSigle": "LIOT",
+    "groupeLibelle": "Libertés, Indépendants, Outre-mer et Territoires"
   }
 ]
