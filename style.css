@@ -1,65 +1,89 @@
+/* ===== Thème ===== */
 :root{
   --bg:#0b1020; --panel:#0f1830; --ink:#e8ecf8; --muted:#a9b3c7;
-  --accent:#6aa8ff; --danger:#ff6a6a; --ring:rgba(106,168,255,.35);
-  --radius:16px; --gap:16px;
+  --accent:#6aa8ff; --ring:rgba(106,168,255,.35);
+  --border:#172246; --radius:16px; --gap:16px;
   color-scheme: dark;
 }
 *{box-sizing:border-box}
 html,body{height:100%}
-body{margin:0;background:var(--bg);color:var(--ink);font:500 16px/1.4 system-ui,Segoe UI,Roboto,Arial,sans-serif}
+body{margin:0;background:var(--bg);color:var(--ink);font:500 16px/1.45 system-ui,Segoe UI,Roboto,Arial,sans-serif}
 
-.topbar{padding:24px max(16px,4vw)}
-.topbar h1{margin:0 0 4px 0;font-size:clamp(20px,3vw,28px)}
-.subtitle{margin:0 0 12px 0;color:var(--muted)}
-.searchbar{display:flex;gap:8px}
-.searchbar input{
-  width:100%;padding:12px 14px;border-radius:12px;border:1px solid transparent;
-  background:#0c1430;color:var(--ink);outline:none;
+/* ===== Barre du haut ===== */
+.topbar{padding:12px max(16px,4vw);display:flex;justify-content:flex-start}
+.topbar select{
+  appearance:none;-webkit-appearance:none;
+  background:var(--panel);color:var(--ink);
+  border:1px solid var(--border);border-radius:12px;
+  padding:10px 36px 10px 12px;outline:none;
 }
-.searchbar input:focus{border-color:var(--accent);box-shadow:0 0 0 4px var(--ring)}
+.topbar select:focus{box-shadow:0 0 0 4px var(--ring);border-color:var(--accent)}
 
-.container{padding:8px max(16px,4vw) 32px}
-.cards{
+/* ===== En-tête ===== */
+.page-header{padding:8px max(16px,4vw) 0}
+.page-header h1{margin:0 0 6px;font-size:clamp(22px,3.2vw,30px)}
+.page-header p{margin:0;color:var(--muted)}
+
+/* ===== Contenu ===== */
+.container{padding:16px max(16px,4vw) 32px}
+#search{
+  width:100%;margin-bottom:16px;padding:12px 14px;border-radius:12px;
+  border:1px solid transparent;background:#0c1430;color:var(--ink);outline:none;
+}
+#search:focus{border-color:var(--accent);box-shadow:0 0 0 4px var(--ring)}
+
+/* ===== Grille de cartes ===== */
+.cards-grid{
   display:grid;gap:var(--gap);
   grid-template-columns:repeat(auto-fill,minmax(260px,1fr));
 }
 
-/* --- SQUARE CARDS --- */
-.law-card{
-  background:var(--panel);border-radius:var(--radius);
-  padding:16px;display:grid;grid-template-rows:auto 1fr auto;
-  gap:12px; /* ordre : header / meta / footer */
-  aspect-ratio:1 / 1;          /* => carré */
-  overflow:hidden;              /* rien ne dépasse */
-  border:1px solid #172246;
+/* Cartes : compatible avec n'importe quel HTML injecté */
+.cards-grid > *{
+  background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);
+  padding:16px;display:grid;grid-template-rows:auto 1fr auto;gap:12px;
+  aspect-ratio:1/1;overflow:hidden;min-height:0;
 }
-.law-card__header{min-height:0}
-.law-card__title{
-  font-size:clamp(16px,2vw,18px);line-height:1.25;margin:0;
+
+/* Titre : prend le premier h1/h2/h3/strong comme titre */
+.cards-grid h1,.cards-grid h2,.cards-grid h3,.cards-grid strong:first-child{
+  margin:0;font-size:clamp(16px,2vw,18px);line-height:1.25;
   display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;
 }
 
-/* Méta = petit tableau rangé */
-.law-card__meta{
+/* Zone "métadonnées" générique : ul/ol/dl/div.meta… en grille 2 colonnes */
+.cards-grid .meta,.cards-grid .infos,.cards-grid .details,
+.cards-grid ul,.cards-grid ol,.cards-grid dl{
   display:grid;gap:8px;grid-template-columns:1fr 1fr;align-content:start;
-  min-height:0;overflow:auto;padding-right:2px;
+  min-height:0;overflow:auto;padding-right:2px;margin:0;
 }
-.badge{
+
+/* Éléments de méta sous forme de badges */
+.cards-grid .meta > *, .cards-grid .infos > *, .cards-grid .details > *,
+.cards-grid ul > li, .cards-grid ol > li, .cards-grid dl > *{
   background:#0b1533;border:1px solid #1b2c5c;border-radius:10px;
-  padding:8px;display:grid;grid-template-columns:auto 1fr;gap:8px;align-items:center;
-  min-width:0;
+  padding:8px;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+  list-style:none;
 }
-.badge .k{color:var(--muted);font-size:12px}
-.badge .v{font-weight:600;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.badge.warn{border-color:var(--danger);color:var(--danger)}
 
-/* Bouton collé en bas */
-.law-card__footer{display:flex;justify-content:flex-end}
-.btn{
-  padding:10px 12px;border-radius:10px;background:var(--accent);color:#081021;
-  text-decoration:none;font-weight:700;border:0;display:inline-block
+/* p isolés (sans liste) : apparence "ligne info" discrète */
+.cards-grid > * > p{
+  margin:0;background:#0b1533;border:1px solid #1b2c5c;border-radius:10px;
+  padding:8px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
 }
-.btn:focus{outline:3px solid var(--ring)}
 
-.empty{opacity:.7;text-align:center;margin-top:40px}
-.hidden{display:none}
+/* Bouton/lien en bas de carte (dernier lien) */
+.cards-grid a:last-of-type{
+  margin-top:auto;align-self:flex-end;
+  padding:10px 12px;border-radius:10px;background:var(--accent);
+  color:#081021;text-decoration:none;font-weight:700;border:0;display:inline-block;
+}
+.cards-grid a:last-of-type:focus{outline:3px solid var(--ring)}
+
+/* Petits ajustements responsives */
+@media (max-width:520px){
+  .cards-grid{grid-template-columns:1fr 1fr}
+}
+@media (max-width:380px){
+  .cards-grid{grid-template-columns:1fr}
+}
