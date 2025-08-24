@@ -1,34 +1,45 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="utf-8" />
-  <title>📜 Lois -- Assemblée nationale</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="./style.css" />
+  <title>Lois -- Annuaire</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <nav class="topbar">
-    <select id="nav-select">
-      <option value="./" selected>📜 Lois</option>
-      <option value="./deputes/index_depute.html">👤 Députés</option>
-    </select>
-  </nav>
-
-  <header class="page-header">
-    <h1>📜 Lois</h1>
-    <p>Données mises à jour automatiquement depuis l’Assemblée nationale.</p>
+  <header class="topbar">
+    <h1>Lois</h1>
+    <p class="subtitle">Données mises à jour automatiquement depuis l’Assemblée nationale.</p>
+    <div class="searchbar">
+      <input id="q" type="search" placeholder="Rechercher (titre, type, auteur, état…)" />
+    </div>
   </header>
 
   <main class="container">
-    <input type="search" id="search" placeholder="Rechercher (titre, type, auteur, état)…" />
-    <div id="lois" class="cards-grid"></div>
+    <section id="cards" class="cards" aria-live="polite"></section>
+    <div id="empty" class="empty hidden">Aucun résultat.</div>
   </main>
 
-  <script>
-    document.getElementById("nav-select").addEventListener("change", e => {
-      location.href = e.target.value;
-    });
-  </script>
-  <script src="./script.js" defer></script>
+  <template id="law-card-tpl">
+    <article class="law-card">
+      <header class="law-card__header">
+        <h2 class="law-card__title"></h2>
+      </header>
+
+      <div class="law-card__meta">
+        <div class="badge"><span class="k">Type</span><span class="v v-type"></span></div>
+        <div class="badge"><span class="k">Réf.</span><span class="v v-ref"></span></div>
+        <div class="badge"><span class="k">Date</span><span class="v v-date"></span></div>
+        <div class="badge"><span class="k">Étape</span><span class="v v-step"></span></div>
+        <div class="badge"><span class="k">Auteur</span><span class="v v-author"></span></div>
+      </div>
+
+      <footer class="law-card__footer">
+        <a class="btn" target="_blank" rel="noopener" aria-label="Voir le dossier">Voir le dossier</a>
+      </footer>
+    </article>
+  </template>
+
+  <script src="script.js"></script>
 </body>
 </html>
