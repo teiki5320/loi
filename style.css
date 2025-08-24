@@ -1,100 +1,167 @@
-/* ===== Thème ===== */
+/* ===================== Thème global ===================== */
 :root{
   --bg:#0b1020; --panel:#0f1830; --ink:#e8ecf8; --muted:#a9b3c7;
   --accent:#6aa8ff; --ring:rgba(106,168,255,.35);
   --border:#172246; --radius:16px; --gap:16px;
   color-scheme: dark;
 }
-*{box-sizing:border-box}
-html,body{height:100%}
-body{margin:0;background:var(--bg);color:var(--ink);font:500 16px/1.45 system-ui,Segoe UI,Roboto,Arial,sans-serif}
+*{ box-sizing:border-box }
+html,body{ height:100% }
+body{
+  margin:0; background:var(--bg); color:var(--ink);
+  font:500 16px/1.45 system-ui,Segoe UI,Roboto,Arial,sans-serif;
+}
 
-/* ===== Barre du haut ===== */
-.topbar{padding:12px max(16px,4vw);display:flex;justify-content:flex-start}
+/* ===================== Barre du haut ===================== */
+.topbar{ padding:12px max(16px,4vw); display:flex; justify-content:flex-start }
 .topbar select{
-  appearance:none;-webkit-appearance:none;
-  background:var(--panel);color:var(--ink);
-  border:1px solid var(--border);border-radius:12px;
-  padding:10px 36px 10px 12px;outline:none;
+  appearance:none; -webkit-appearance:none;
+  background:var(--panel); color:var(--ink);
+  border:1px solid var(--border); border-radius:12px;
+  padding:10px 36px 10px 12px; outline:none;
 }
-.topbar select:focus{box-shadow:0 0 0 4px var(--ring);border-color:var(--accent)}
+.topbar select:focus{ box-shadow:0 0 0 4px var(--ring); border-color:var(--accent) }
 
-/* ===== En-tête ===== */
-.page-header{padding:8px max(16px,4vw) 0}
-.page-header h1{margin:0 0 6px;font-size:clamp(22px,3.2vw,30px)}
-.page-header p{margin:0;color:var(--muted)}
+/* ===================== En-tête ===================== */
+.page-header{ padding:8px max(16px,4vw) 0 }
+.page-header h1{ margin:0 0 6px; font-size:clamp(22px,3.2vw,30px) }
+.page-header p{ margin:0; color:var(--muted) }
 
-/* ===== Contenu ===== */
-.container{padding:16px max(16px,4vw) 32px}
+/* ===================== Contenu ===================== */
+.container{ padding:16px max(16px,4vw) 32px }
 #search{
-  width:100%;margin-bottom:16px;padding:12px 14px;border-radius:12px;
-  border:1px solid transparent;background:#0c1430;color:var(--ink);outline:none;
+  width:100%; margin-bottom:16px; padding:12px 14px; border-radius:12px;
+  border:1px solid transparent; background:#0c1430; color:var(--ink); outline:none;
 }
-#search:focus{border-color:var(--accent);box-shadow:0 0 0 4px var(--ring)}
+#search:focus{ border-color:var(--accent); box-shadow:0 0 0 4px var(--ring) }
 
-/* ===== Grille de cartes ===== */
+/* ===================== Grille de cartes ===================== */
 .cards-grid{
-  display:grid;gap:var(--gap);
+  display:grid; gap:var(--gap);
   grid-template-columns:repeat(auto-fill,minmax(260px,1fr));
 }
 
-/* ===== Carte carrée ===== */
+/* ===================== Carte carrée robuste ===================== */
 .cards-grid > *{
-  background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);
-  padding:16px;display:grid;grid-template-rows:auto 1fr auto;gap:12px;
-  aspect-ratio:1/1;overflow:hidden;min-height:0;
+  background:var(--panel);
+  border:1px solid var(--border);
+  border-radius:var(--radius);
+  padding:16px;
+
+  /* Layout robuste quelle que soit la structure interne */
+  display:flex; flex-direction:column; gap:12px;
+
+  /* Carré et scroll global si le contenu dépasse */
+  aspect-ratio:1/1;
+  overflow:auto;    /* << si beaucoup de texte, on scrolle la carte */
+  min-height:0;
 }
 
-/* ----- Titre (3 lignes max) ----- */
-.cards-grid h1,.cards-grid h2,.cards-grid h3{
-  margin:0;font-size:clamp(16px,2vw,18px);line-height:1.25;
-  display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;
+/* ===== Titre : on prend le premier h1/h2/h3 trouvé ===== */
+.cards-grid > * h1:first-of-type,
+.cards-grid > * h2:first-of-type,
+.cards-grid > * h3:first-of-type{
+  margin:0;
+  font-size:clamp(16px,2vw,18px);
+  line-height:1.25;
+  display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical;
+  overflow:hidden;
 }
 
-/* ===== Zone infos (fonctionne avec <p>, <ul>/<li>, <div class="meta">, etc.) ===== */
-
-/* Conteneurs d’infos en grille 2 colonnes (si listes ou .meta/.infos/.details) */
-.cards-grid .meta,.cards-grid .infos,.cards-grid .details,
-.cards-grid ul,.cards-grid ol, .cards-grid dl{
-  display:grid;gap:8px;grid-template-columns:1fr 1fr;align-content:start;
-  min-height:0;overflow:auto;padding-right:2px;margin:0;
+/* ===== Zone d'infos : compatible <p>, <ul>/<ol>/<dl>, .meta/.infos/.details ===== */
+.cards-grid > * .meta,
+.cards-grid > * .infos,
+.cards-grid > * .details,
+.cards-grid > * ul,
+.cards-grid > * ol,
+.cards-grid > * dl{
+  /* grille 2 colonnes quand c’est une liste/section d’infos */
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:8px;
+  align-content:start;
+  min-height:0;
+  /* si la liste devient longue, elle prendra la place dispo et pourra scroller
+     grâce au overflow:auto de la carte */
+  padding-right:2px;
+  margin:0;
 }
 
-/* "Badges" lisibles et multilignes */
-.cards-grid .meta > *, .cards-grid .infos > *, .cards-grid .details > *,
-.cards-grid ul > li, .cards-grid ol > li, .cards-grid dl > *{
-  background:#0b1533;border:1px solid #1b2c5c;border-radius:10px;
-  padding:10px;min-width:0;white-space:normal;word-break:break-word;
-  overflow:hidden;text-overflow:clip;list-style:none;line-height:1.35;
-  display:flex;flex-direction:column;gap:6px;
+/* Éléments d’infos sous forme de "badges" lisibles, multilignes */
+.cards-grid > * .meta > *,
+.cards-grid > * .infos > *,
+.cards-grid > * .details > *,
+.cards-grid > * ul > li,
+.cards-grid > * ol > li,
+.cards-grid > * dl > *{
+  background:#0b1533;
+  border:1px solid #1b2c5c;
+  border-radius:10px;
+  padding:10px;
+
+  /* >>> lisible et multilignes <<< */
+  white-space:normal;
+  word-break:break-word;
+  overflow:hidden;
+  text-overflow:clip;
+  line-height:1.35;
+
+  /* empile label/valeur si présent */
+  display:flex; flex-direction:column; gap:6px;
+
+  list-style:none;  /* pour <li> */
+  min-width:0;
+  color:var(--ink);
 }
 
-/* Paragraphe simple (ex. "Auteur :<br>PA410") → on empile label/valeur proprement */
+/* Paragraphe d’infos simple (ex: "Auteur :<br>PA410") → badge aussi */
 .cards-grid > * > p{
-  margin:0;background:#0b1533;border:1px solid #1b2c5c;border-radius:10px;
-  padding:10px;white-space:normal;word-break:break-word;overflow:hidden;line-height:1.35;
-  display:flex;flex-direction:column;gap:6px;
+  margin:0;
+  background:#0b1533;
+  border:1px solid #1b2c5c;
+  border-radius:10px;
+  padding:10px;
+
+  white-space:normal;
+  word-break:break-word;
+  overflow:hidden;
+  text-overflow:clip;
+  line-height:1.35;
+
+  display:flex; flex-direction:column; gap:6px;
+  color:var(--ink);
 }
 
-/* Si le HTML contient .k (label) et .v (valeur) */
-.cards-grid .k{font-size:12px;color:var(--muted);font-weight:700}
-.cards-grid .v{font-weight:700;color:var(--ink)}
+/* Si tu as des spans .k (label) et .v (valeur), on les rend clairs */
+.cards-grid .k{ font-size:12px; color:var(--muted); font-weight:700 }
+.cards-grid .v{ font-weight:700 }
 
-/* Si le label est en <strong> au début du paragraphe */
-.cards-grid p strong:first-child{font-size:12px;color:var(--muted)}
-
-/* ===== Lien en bas ===== */
-.cards-grid a:last-of-type{
-  margin-top:auto;align-self:flex-end;
-  padding:10px 12px;border-radius:10px;background:var(--accent);
-  color:#081021;text-decoration:none;font-weight:700;border:0;display:inline-block;
+/* Si le label est un <strong> au début, on l’affiche comme un label */
+.cards-grid p strong:first-child{
+  font-size:12px;
+  color:var(--muted);
+  font-weight:700;
 }
-.cards-grid a:last-of-type:focus{outline:3px solid var(--ring)}
 
-/* ===== Responsif ===== */
+/* ===== Lien/bouton en bas de carte ===== */
+.cards-grid > * a:last-of-type{
+  margin-top:auto;            /* pousse le lien en bas */
+  align-self:flex-end;
+  padding:10px 12px;
+  border-radius:10px;
+  background:var(--accent);
+  color:#081021;
+  text-decoration:none;
+  font-weight:700;
+  border:0;
+  display:inline-block;
+}
+.cards-grid > * a:last-of-type:focus{ outline:3px solid var(--ring) }
+
+/* ===================== Responsif ===================== */
 @media (max-width:520px){
-  .cards-grid{grid-template-columns:1fr 1fr}
+  .cards-grid{ grid-template-columns:1fr 1fr }
 }
 @media (max-width:380px){
-  .cards-grid{grid-template-columns:1fr}
+  .cards-grid{ grid-template-columns:1fr }
 }
