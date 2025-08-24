@@ -42,6 +42,14 @@ input[type="search"]:focus, select:focus{ outline:none; border-color:#3b82f6; bo
   display:flex; gap:14px; padding:12px; align-items:flex-start; box-shadow: var(--shadow);
 }
 
+
+.depute-card a {
+  display: inline-block;
+  max-width: 100%;
+  overflow-wrap: anywhere;   /* retour à la ligne intelligent */
+  white-space: normal;
+}
+
 .depute-photo-wrap{ flex:0 0 76px; }
 .depute-photo {
   width: 100px;
