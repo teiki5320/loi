@@ -38,41 +38,52 @@ body{margin:0;background:var(--bg);color:var(--ink);font:500 16px/1.45 system-ui
   grid-template-columns:repeat(auto-fill,minmax(260px,1fr));
 }
 
-/* Cartes : compatible avec n'importe quel HTML injecté */
+/* ===== Carte carrée ===== */
 .cards-grid > *{
   background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);
   padding:16px;display:grid;grid-template-rows:auto 1fr auto;gap:12px;
   aspect-ratio:1/1;overflow:hidden;min-height:0;
 }
 
-/* Titre : prend le premier h1/h2/h3/strong comme titre */
-.cards-grid h1,.cards-grid h2,.cards-grid h3,.cards-grid strong:first-child{
+/* ----- Titre (3 lignes max) ----- */
+.cards-grid h1,.cards-grid h2,.cards-grid h3{
   margin:0;font-size:clamp(16px,2vw,18px);line-height:1.25;
   display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;
 }
 
-/* Zone "métadonnées" générique : ul/ol/dl/div.meta… en grille 2 colonnes */
+/* ===== Zone infos (fonctionne avec <p>, <ul>/<li>, <div class="meta">, etc.) ===== */
+
+/* Conteneurs d’infos en grille 2 colonnes (si listes ou .meta/.infos/.details) */
 .cards-grid .meta,.cards-grid .infos,.cards-grid .details,
-.cards-grid ul,.cards-grid ol,.cards-grid dl{
+.cards-grid ul,.cards-grid ol, .cards-grid dl{
   display:grid;gap:8px;grid-template-columns:1fr 1fr;align-content:start;
   min-height:0;overflow:auto;padding-right:2px;margin:0;
 }
 
-/* Éléments de méta sous forme de badges */
+/* "Badges" lisibles et multilignes */
 .cards-grid .meta > *, .cards-grid .infos > *, .cards-grid .details > *,
 .cards-grid ul > li, .cards-grid ol > li, .cards-grid dl > *{
   background:#0b1533;border:1px solid #1b2c5c;border-radius:10px;
-  padding:8px;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
-  list-style:none;
+  padding:10px;min-width:0;white-space:normal;word-break:break-word;
+  overflow:hidden;text-overflow:clip;list-style:none;line-height:1.35;
+  display:flex;flex-direction:column;gap:6px;
 }
 
-/* p isolés (sans liste) : apparence "ligne info" discrète */
+/* Paragraphe simple (ex. "Auteur :<br>PA410") → on empile label/valeur proprement */
 .cards-grid > * > p{
   margin:0;background:#0b1533;border:1px solid #1b2c5c;border-radius:10px;
-  padding:8px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+  padding:10px;white-space:normal;word-break:break-word;overflow:hidden;line-height:1.35;
+  display:flex;flex-direction:column;gap:6px;
 }
 
-/* Bouton/lien en bas de carte (dernier lien) */
+/* Si le HTML contient .k (label) et .v (valeur) */
+.cards-grid .k{font-size:12px;color:var(--muted);font-weight:700}
+.cards-grid .v{font-weight:700;color:var(--ink)}
+
+/* Si le label est en <strong> au début du paragraphe */
+.cards-grid p strong:first-child{font-size:12px;color:var(--muted)}
+
+/* ===== Lien en bas ===== */
 .cards-grid a:last-of-type{
   margin-top:auto;align-self:flex-end;
   padding:10px 12px;border-radius:10px;background:var(--accent);
@@ -80,7 +91,7 @@ body{margin:0;background:var(--bg);color:var(--ink);font:500 16px/1.45 system-ui
 }
 .cards-grid a:last-of-type:focus{outline:3px solid var(--ring)}
 
-/* Petits ajustements responsives */
+/* ===== Responsif ===== */
 @media (max-width:520px){
   .cards-grid{grid-template-columns:1fr 1fr}
 }
