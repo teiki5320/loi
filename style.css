@@ -90,13 +90,22 @@ body{
 }
 .cards-grid .v{font-weight:600;line-height:1.2}
 
-/* ========= Bouton (compact) ========= */
+/* Bouton centré */
 .cards-grid a:last-of-type{
-  margin-top:auto;align-self:flex-end;
-  padding:6px 10px;border-radius:6px;font-size:13px;
-  background:var(--accent);color:#fff;text-decoration:none;font-weight:600;border:0
+  margin-top:auto;
+  align-self:center;         /* ← centré dans la carte */
+  text-align:center;
+
+  padding:6px 14px;
+  border-radius:6px;
+  font-size:13px;
+  background:var(--accent);
+  color:#fff;
+  text-decoration:none;
+  font-weight:600;
+  border:0;
 }
-.cards-grid a:last-of-type:focus{outline:3px solid var(--ring)}
+.cards-grid a:last-of-type:focus{ outline:3px solid var(--ring) }
 
 /* ========= Petits raffinements perf ========= */
 @supports (content-visibility: auto){
