@@ -49,6 +49,15 @@ function chainOnError(img, idNum){
   img.src = urls[0];
 }
 
+// pour certains navigateurs, poser no-referrer AVANT le premier src
+function setNoReferrer(img){
+  try {
+    // attribut HTML + propriété (selon navigateur)
+    img.setAttribute('referrerpolicy','no-referrer');
+    img.referrerPolicy = 'no-referrer';
+  } catch(_) {}
+}
+
 // === Filtres
 function hydrateFilters(){
   if (!el.groupe || !el.dept) return;
@@ -113,14 +122,14 @@ function render(){
     `;
   }).join("");
 
-  // charger les photos avec fallback
+  // charger les photos avec fallback + referrerpolicy=no-referrer
   filtered.forEach(r => {
     const img = document.getElementById(`img-${r.id}`);
-    if (img) {
-      // id des photos = chiffres uniquement
-      const idNum = String(r.id).replace(/\D/g,"");
-      chainOnError(img, idNum);
-    }
+    if (!img) return;
+    // l'Assemblée attend l'ID NUMÉRIQUE uniquement (PA605694 -> 605694)
+    const idNum = String(r.id).replace(/\D/g,"");
+    setNoReferrer(img);     // <-- important AVANT de poser le src
+    chainOnError(img, idNum);
   });
 
   if (el.count) el.count.textContent = `${filtered.length} député·e·s affiché·e·s`;
