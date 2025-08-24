@@ -1,9 +1,9 @@
 name: Update deputes.json (daily, AMO10 L17)
 
 on:
-  workflow_dispatch:          # Lancement manuel possible
+  workflow_dispatch:          # lancement manuel
   schedule:
-    - cron: "17 03 * * *"     # Tous les jours à 03:17 UTC
+    - cron: "17 3 * * *"      # tous les jours à 03:17 UTC
 
 jobs:
   build:
@@ -14,9 +14,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Install unzip + jq
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y unzip jq
+        run: sudo apt-get update && sudo apt-get install -y unzip jq
 
       - name: Download AMO10 (L17) ZIP
         run: |
@@ -31,45 +29,48 @@ jobs:
           rm -rf data
           mkdir -p data
           unzip -o data.zip -d data
-          echo "Contenu extrait :"
-          find data -maxdepth 3 -type f -name "*.json" | head -n 20
+          echo "Extrait :"
+          find data -maxdepth 3 -type f -name '*.json' | head -n 20
 
-      # ====== NOUVEAU : construire groupes.json de manière robuste (PO -> sigle/libellé) ======
-      - name: Build groupes.json (codes PO -> sigle/libellé)
+      # ------------------------------------------------------------
+      # 1) Construire la table des groupes (POxxxx -> {sigle, libelle})
+      # Tolère uid sous 2 formes : .uid["#text"] OU .uid (string)
+      # ------------------------------------------------------------
+      - name: Build groupes.json (PO -> {sigle, libelle})
         run: |
           set -eux
           mkdir -p deputes
-          # Certains fichiers organe ont uid = {"#text":"PO..."} et d'autres uid = "PO..."
           jq -s '
-            map(.organe) |
-            map(select(.codeType == "GP")) |
-            map({
-              code:    (.uid?["#text"] // .uid // ""),
-              sigle:   (.libelleAbrege // .acronyme // .libelle // ""),
-              libelle: (.libelle       // .libelleAbrege // .acronyme // "")
-            }) |
-            map(select(.code != "")) |
-            unique_by(.code)
+            map(.organe)
+            | map(select(.codeType == "GP"))
+            | map({
+                code:    (.uid?["#text"] // .uid // ""),
+                sigle:   (.libelleAbrege // .acronyme // .libelle // ""),
+                libelle: (.libelle       // .libelleAbrege // .acronyme // "")
+              })
+            | map(select(.code != ""))
+            | unique_by(.code)
           ' data/json/organe/*.json > deputes/groupes.json
 
-          echo "Groupes comptés :"
-          jq 'length' deputes/groupes.json
+          echo "groupes: $(jq length deputes/groupes.json)"
 
-      # ====== Députés : parser AMO10 (acteur) et créer deputes.json ======
-      - name: Build deputes.json (parser AMO10)
+      # ------------------------------------------------------------
+      # 2) Construire la liste des députés depuis les 'acteur'
+      # ------------------------------------------------------------
+      - name: Build deputes_raw.json (parser AMO10)
         run: |
           set -eux
-          mkdir -p deputes
-
-          # Lecture des acteurs ; on récupère id, nom, email (priorité AN),
-          # mandat ASSEMBLEE (circo, département), mandat GP (code groupe)
           jq -s '
-            map(
-              .acteur
-              | {
-                  id:     (.uid["#text"] // ""),
-                  nom:    (((.etatCivil.ident.prenom // "") + " " + (.etatCivil.ident.nom // "")) | gsub("^\\s+|\\s+$";"")),
-                  # Emails : on collecte, puis on choisit l’adresse assemblee-nationale.fr si présente
+            map(.acteur)
+            | map(
+                {
+                  id:    (.uid["#text"] // ""),   # AMO10: id interne
+                  nom:   (
+                          ((.etatCivil.ident.prenom // "") + " " + (.etatCivil.ident.nom // ""))
+                          | gsub("^\\s+|\\s+$";"")
+                        ),
+
+                  # emails : on privilégie *@assemblee-nationale.fr
                   email: (
                     ( [ (.adresses.adresse[]?
                           | select(.typeLibelle=="Mèl")
@@ -77,31 +78,52 @@ jobs:
                     | ( $mails[] | select(test("assemblee-nationale\\.fr$")) )
                       // ($mails[0] // "")
                   ),
+
+                  # mandat ASSEMBLÉE pour circo/departement
                   _mAss: (
                     ( .mandats.mandat // [] )
                     | map(select(.typeOrgane=="ASSEMBLEE"))
                     | .[0]
                   ),
+
+                  # mandat GP pour récupérer organe de groupe
                   _mGp: (
                     ( .mandats.mandat // [] )
                     | map(select(.typeOrgane=="GP"))
                     | .[0]
                   )
                 }
-              | .circo  = (._mAss.election.lieu.numCirco   // "")
-              | .dept   = (._mAss.election.lieu.departement // "")
-              | .groupe = (._mGp.organes.organeRef // "")
-              | del(._mAss, ._mGp)
-            )
-          ' data/json/acteur/*.json > deputes/deputes.json
+                | .circo  = (._mAss.election.lieu.numCirco   // "")
+                | .dept   = (._mAss.election.lieu.departement // "")
+                | .groupe = (._mGp.organes.organeRef         // "")
+                | del(._mAss, ._mGp)
+              )
+          ' data/json/acteur/*.json > deputes/deputes_raw.json
 
-          echo "Députés comptés :"
-          jq 'length' deputes/deputes.json
+          echo "deputes_raw: $(jq length deputes/deputes_raw.json)"
+
+      # ------------------------------------------------------------
+      # 3) Enrichir avec sigle/libellé du groupe à partir de groupes.json
+      # ------------------------------------------------------------
+      - name: Enrich deputes.json (join avec groupes.json)
+        run: |
+          set -eux
+          jq --argfile G deputes/groupes.json '
+            map(
+              . + {
+                groupe_sigle:   ( ($G[]? | select(.code == .groupe) | .sigle)   // (.groupe // "") ),
+                groupe_libelle: ( ($G[]? | select(.code == .groupe) | .libelle) // (.groupe // "") )
+              }
+            )
+          ' deputes/deputes_raw.json > deputes/deputes.json
+
+          echo "deputes: $(jq length deputes/deputes.json)"
+          jq '.[0]' deputes/deputes.json
 
       - name: Commit & push if changed
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: update deputes.json + groupes.json from AMO10 L17"
+          commit_message: "chore: update deputes.json & groupes.json from AMO10 L17"
           file_pattern: |
             deputes/deputes.json
             deputes/groupes.json
