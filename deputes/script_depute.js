@@ -1,27 +1,26 @@
 /*************************************************
- * Députés -- cartes + photos fallback 17→16→15
- * Source locale : ./deputes.json (généré par Actions)
+ * Députés -- cartes + photos (ID numérique)
+ * Source : ./deputes.json (généré par Actions)
  *************************************************/
 
 const URL_DEPUTES = "./deputes.json";
 
-/* === Mapping groupes (sigle + libellé + couleur) === */
+/* Groupes (codes → sigle/nom/couleur) */
 const GROUPES = {
-  "PO800490": { sigle: "RE",   libelle:"Renaissance",                               couleur:"#ffd700" },
-  "PO800491": { sigle: "RN",   libelle:"Rassemblement National",                    couleur:"#1e90ff" },
-  "PO800492": { sigle: "LFI",  libelle:"La France insoumise",                       couleur:"#ff1493" },
-  "PO800493": { sigle: "SOC",  libelle:"Socialistes et apparentés",                 couleur:"#dc143c" },
-  "PO800494": { sigle: "LR",   libelle:"Les Républicains",                          couleur:"#4169e1" },
-  "PO800495": { sigle: "EELV", libelle:"Écologistes",                               couleur:"#228b22" },
-  "PO845485": { sigle: "HOR",  libelle:"Horizons & Indépendants",                   couleur:"#8a2be2" },
-  "PO845454": { sigle: "UDI",  libelle:"UDI et Indépendants",                       couleur:"#6495ed" },
-  "PO845429": { sigle: "LIOT", libelle:"Libertés, Indépendants, Outre‑mer, Terr.",  couleur:"#8b4513" },
-  "PO800496": { sigle: "DEM",  libelle:"Les Démocrates (MoDem & Ind.)",             couleur:"#20b2aa" },
-  "PO845452": { sigle: "GDR",  libelle:"Gauche Démocrate & Républicaine",           couleur:"#b22222" },
-  "PO845470": { sigle: "NUP",  libelle:"Non‑inscrits proches NUPES / divers NUPES", couleur:"#ff4500" }
+  "PO800490": { sigle: "RE",   libelle: "Renaissance",                               couleur: "#ffd700" },
+  "PO800491": { sigle: "RN",   libelle: "Rassemblement National",                    couleur: "#1e90ff" },
+  "PO800492": { sigle: "LFI",  libelle: "La France insoumise",                       couleur: "#ff1493" },
+  "PO800493": { sigle: "SOC",  libelle: "Socialistes et apparentés",                 couleur: "#dc143c" },
+  "PO800494": { sigle: "LR",   libelle: "Les Républicains",                          couleur: "#4169e1" },
+  "PO800495": { sigle: "EELV", libelle: "Écologistes",                               couleur: "#228b22" },
+  "PO845485": { sigle: "HOR",  libelle: "Horizons & Indépendants",                   couleur: "#8a2be2" },
+  "PO845454": { sigle: "UDI",  libelle: "UDI et Indépendants",                       couleur: "#6495ed" },
+  "PO845429": { sigle: "LIOT", libelle: "Libertés, Indépendants, Outre‑mer, Terr.",  couleur: "#8b4513" },
+  "PO800496": { sigle: "DEM",  libelle: "Les Démocrates (MoDem & Ind.)",             couleur: "#20b2aa" },
+  "PO845452": { sigle: "GDR",  libelle: "Gauche Démocrate & Républicaine",           couleur: "#b22222" },
+  "PO845470": { sigle: "NUP",  libelle: "Non‑inscrits proches NUPES / divers NUPES", couleur: "#ff4500" }
 };
 
-/* === DOM === */
 const $ = s => document.querySelector(s);
 const el = {
   q:      $("#q"),
@@ -35,36 +34,46 @@ const el = {
 
 let rows = []; // [{id, nom, circo, dept, groupe, email}]
 
-/* === Utils === */
+/* Utils */
 const esc   = s => (s||"").replace(/[&<>"]/g, m => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[m]));
 const noDia = s => (s||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"");
 const showError = (msg,e) => { el.err && (el.err.textContent = msg + (e? "\n"+(e.message||e):"")); console.error(msg,e); };
 
-/* === Photos : 17 -> 16 -> 15 -> placeholder (onerror inline) === */
-function photoUrl(id, leg){ return `https://www2.assemblee-nationale.fr/static/tribun/${leg}/photos/${id}.jpg`; }
+/* === Photos ===
+   Les fichiers photo officiels utilisent l'ID NUMÉRIQUE.
+   Exemple: "PA605694" -> "605694.jpg"
+*/
+function onlyDigits(rawId){
+  return String(rawId || "").replace(/\D/g, ""); // garde uniquement [0-9]
+}
+function photoUrlNum(idNum, leg = 17){
+  return `https://www2.assemblee-nationale.fr/static/tribun/${leg}/photos/${idNum}.jpg`;
+}
 function placeholderDataURI(){
   return "data:image/svg+xml;utf8," + encodeURIComponent(
     `<svg xmlns='http://www.w3.org/2000/svg' width='120' height='120'>
        <rect width='100%' height='100%' fill='#f2f3f5'/>
        <circle cx='60' cy='45' r='24' fill='#e1e4e8'/>
        <rect x='24' y='78' width='72' height='18' rx='9' fill='#e1e4e8'/>
-       <text x='60' y='115' text-anchor='middle' font-size='10' fill='#9aa0a6' font-family='system-ui,sans-serif'>photo</text>
+       <text x='60' y='115' text-anchor='middle' font-size='10' fill='#9aa0a6'
+             font-family='system-ui,sans-serif'>photo</text>
      </svg>`
   );
 }
-/* Appelée en inline: onerror="onImgErr(this,'PAxxxx',17)" */
-window.onImgErr = function onImgErr(img, id, leg){
+
+/* onerror inline : tente 17 -> 16 -> 15 puis placeholder */
+window.onImgErrNum = function onImgErrNum(img, idNum, leg){
   const next = leg === 17 ? 16 : (leg === 16 ? 15 : null);
   if(next){
-    img.onerror = () => onImgErr(img, id, next);
-    img.src = photoUrl(id, next) + `?v=${Date.now()}`;
+    img.onerror = () => onImgErrNum(img, idNum, next);
+    img.src = photoUrlNum(idNum, next) + `?v=${Date.now()}`;
   }else{
     img.onerror = null;
     img.src = placeholderDataURI();
   }
 };
 
-/* === Filtres & légende === */
+/* Filtres & légende */
 function hydrateFilters(){
   if(!el.groupe || !el.dept) return;
   const uniq = a => [...new Set(a.filter(Boolean))].sort((x,y)=>x.localeCompare(y,"fr",{sensitivity:"base"}));
@@ -85,7 +94,7 @@ function renderLegend(){
   }).join(" ");
 }
 
-/* === Rendu cartes === */
+/* Rendu cartes */
 function render(){
   if(!el.list) return;
 
@@ -104,11 +113,15 @@ function render(){
   el.list.innerHTML = arr.map(r=>{
     const g = GROUPES[r.groupe] || { sigle:r.groupe, libelle:r.groupe, couleur:"#777" };
     const mail = r.email ? `<a href="mailto:${encodeURI(r.email)}">${esc(r.email)}</a>` : "--";
-    const img = r.id
+
+    // *** Photo: on extrait UNIQUEMENT les chiffres ***
+    const idNum = onlyDigits(r.id);
+    const img = idNum
       ? `<img class="depute-photo"
-               src="${photoUrl(r.id,17)}?v=${Date.now()}"
+               src="${photoUrlNum(idNum,17)}?v=${Date.now()}"
                alt="Photo ${esc(r.nom)}"
-               onerror="onImgErr(this,'${esc(r.id)}',17)">`
+               referrerpolicy="no-referrer"
+               onerror="onImgErrNum(this,'${idNum}',17)">`
       : `<img class="depute-photo" src="${placeholderDataURI()}" alt="Photo indisponible">`;
 
     return `
@@ -129,12 +142,12 @@ function render(){
   el.count && (el.count.textContent = `${arr.length} député·e·s affiché·e·s`);
 }
 
-/* === Listeners === */
+/* Listeners */
 el.q     && el.q.addEventListener("input", render);
 el.groupe&& el.groupe.addEventListener("change", render);
 el.dept  && el.dept.addEventListener("change", render);
 
-/* === Init === */
+/* Init */
 (async function init(){
   try{
     const r = await fetch(`${URL_DEPUTES}?v=${Date.now()}`, { cache:"no-cache" });
