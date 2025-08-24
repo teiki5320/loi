@@ -1,0 +1,11 @@
+{
+  "name": "loi-enrich",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "enrich": "node scripts/enrich_lois.mjs"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}

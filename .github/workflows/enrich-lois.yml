@@ -1,0 +1,46 @@
+name: Enrichir lois (résumés + impacts)
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'lois/lois.json'
+      - 'scripts/enrich_lois.mjs'
+      - '.github/workflows/enrich-lois.yml'
+  schedule:
+    - cron: '0 6 * * 1'   # lundi 06:00 UTC (optionnel)
+
+permissions:
+  contents: write
+
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install deps
+        run: npm ci || npm i
+
+      - name: Run enrichment
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: npm run enrich
+
+      - name: Commit if changed
+        run: |
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add lois/lois_AI.json package-lock.json || true
+            git commit -m "chore(ai): update lois_AI.json"
+            git push
+          else
+            echo "Nothing to commit."
+          fi
