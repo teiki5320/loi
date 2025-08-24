@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <title>Détail de la loi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="./detail.css" />
+</head>
+<body>
+  <header class="hero">
+    <h1 id="title">Chargement…</h1>
+    <p id="subtitle" class="muted"></p>
+  </header>
+
+  <main class="wrap">
+    <section class="block">
+      <h2>Députés porteurs</h2>
+      <div id="deputes" class="chips"></div>
+    </section>
+
+    <section class="block">
+      <h2>Résumé</h2>
+      <p id="resume" class="para muted">Résumé en cours de génération…</p>
+    </section>
+
+    <section class="block">
+      <h2>Impact dans la vie quotidienne</h2>
+      <ul id="impacts" class="list"></ul>
+    </section>
+
+    <section class="grid">
+      <div class="block">
+        <h2>Statut</h2>
+        <div id="statut" class="badge">--</div>
+      </div>
+      <div class="block">
+        <h2>Nature du texte</h2>
+        <div id="nature" class="badge">--</div>
+      </div>
+      <div class="block">
+        <h2>Dates importantes</h2>
+        <ul id="dates" class="list"></ul>
+      </div>
+    </section>
+
+    <section class="block">
+      <h2>Texte officiel</h2>
+      <a id="legifrance" class="button" href="#" target="_blank" rel="noopener">Consulter sur Légifrance</a>
+    </section>
+  </main>
+
+  <script>
+    // >>> règle l'URL de ton Worker ici si besoin :
+    window.API_BASE = window.API_BASE || "https://loi-api.teiki5320.workers.dev";
+  </script>
+  <script src="./detail.js" defer></script>
+</body>
+</html>
