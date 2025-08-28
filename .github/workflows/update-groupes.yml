@@ -1,0 +1,30 @@
+name: Update groupes.json
+
+on:
+  workflow_dispatch:   # permet de lancer manuellement depuis l’onglet Actions
+  schedule:
+    - cron: "0 6 * * 1"   # chaque lundi à 6h UTC
+
+jobs:
+  update-groupes:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Téléchargement du JSON officiel
+        run: |
+          mkdir -p deputes
+          curl -sL "https://tabular-api.data.gouv.fr/api/resources/4612d596-9a78-4ec6-b60c-ccc1ee11f8c0/data/json/" \
+          -o deputes/groupes.json
+
+      - name: Vérification du fichier
+        run: head -n 20 deputes/groupes.json
+
+      - name: Commit & push si modifié
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add deputes/groupes.json
+          git commit -m "Mise à jour automatique de groupes.json" || echo "Pas de changements"
+          git push
