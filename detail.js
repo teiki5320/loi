@@ -31,7 +31,7 @@
 
       // Remplissage du DOM
       set("#title", item.titre);
-      const sub = [item.type, item.auteur, item.date].filter(Boolean).join(" • ");
+      const sub = [item.type，item.date].filter(Boolean).join(" • ");
       set("#subtitle", sub, "");
 
       // Résumé
