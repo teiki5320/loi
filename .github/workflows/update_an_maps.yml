@@ -43,20 +43,35 @@ jobs:
           curl -fSL "${{ steps.url.outputs.url }}" -o data/an16/amo_archive.zip
           test -s data/an16/amo_archive.zip
 
+      - name: Install jq
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq
+
       - name: Unzip archive
         run: |
           set -e
           cd data/an16
-          rm -f amo.json
+          rm -rf json amo.json
           unzip -o amo_archive.zip
-          JSON_FILE=$(ls -1 *.json | head -n1)
-          if [ -z "$JSON_FILE" ]; then
-            echo "❌ Aucun .json trouvé dans l'archive."
-            ls -la
-            exit 1
+          echo "Contenu extrait :"
+          ls -la
+          # 1) cas standard : le gros JSON est présent dans json/
+          if [ -f json/AMO20_dep_sen_min_tous_mandats_et_organes.json ]; then
+            mv json/AMO20_dep_sen_min_tous_mandats_et_organes.json amo.json
+            echo "✅ Fichier principal trouvé et renommé en amo.json"
+          else
+            # 2) fallback : fusionner tous les JSON présents dans json/
+            if ls json/*.json >/dev/null 2>&1; then
+              echo "⚠️ Fichier principal absent, on fusionne les JSON trouvés…"
+              jq -s '{acteurs: (map(.acteurs // []) | add), organes: (map(.organes // []) | add)}' json/*.json > amo.json
+            else
+              echo "❌ Aucun .json utilisable n'a été trouvé dans l'archive."
+              exit 1
+            fi
           fi
-          mv "$JSON_FILE" amo.json
-          echo "✅ JSON racine: data/an16/amo.json"
+          test -s amo.json
+          echo "✅ JSON final: data/an16/amo.json"
 
       - name: Setup Node
         uses: actions/setup-node@v4
