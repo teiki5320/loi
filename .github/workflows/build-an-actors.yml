@@ -3,7 +3,7 @@ name: Build AN actors (codes + rôles)
 on:
   workflow_dispatch:
   schedule:
-    - cron: "27 5 * * *"   # optionnel, maj quotidienne
+    - cron: "27 5 * * *"
 
 permissions:
   contents: write
@@ -17,7 +17,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Prep folders
+      - name: Prep
         run: |
           rm -rf data/an16
           mkdir -p data/an16 deputes
@@ -27,51 +27,56 @@ jobs:
           curl -fSL "$ZIP_URL" -o data/an16/amo.zip
           test -s data/an16/amo.zip
 
-      - name: Unzip archive
+      - name: Unzip
         run: |
           cd data/an16
           unzip -o amo.zip
-          echo "---- tree preview ----"
-          ls -R json | head -n 200 || true
+          echo "== Listing =="
+          ls -lah
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      - name: Build deputes/an_actors.json (codes + rôles)
+      - name: Build deputes/an_actors.json (from BIG JSON)
         run: |
           node - <<'NODE'
           const fs = require('fs');
           const path = require('path');
 
-          const base = 'data/an16/json';
-
-          // Récupérer tous les fichiers JSON d'un sous-dossier (acteur|acteurs, organe|organes)
-          function readAll(folder) {
-            const dir1 = path.join(base, folder);
-            if (!fs.existsSync(dir1)) return [];
-            return fs.readdirSync(dir1)
-              .filter(f => f.endsWith('.json'))
-              .map(f => {
-                try {
-                  const raw = fs.readFileSync(path.join(dir1, f), 'utf8');
-                  return JSON.parse(raw);
-                } catch { return null; }
-              })
-              .filter(Boolean);
+          const base = 'data/an16';
+          const files = fs.readdirSync(base).filter(f => f.toLowerCase().endsWith('.json'));
+          if (!files.length) {
+            console.error('❌ Aucun .json trouvé dans data/an16 (attendu: gros JSON).');
+            process.exit(1);
           }
 
-          const acteursFiles = readAll('acteur').concat(readAll('acteurs'));
-          const organesFiles = readAll('organe').concat(readAll('organes'));
+          // On prend le plus gros fichier JSON (le "gros JSON" AN)
+          let biggest = files[0];
+          let maxSize = 0;
+          for (const f of files) {
+            const s = fs.statSync(path.join(base, f)).size;
+            if (s > maxSize) { maxSize = s; biggest = f; }
+          }
+          const bigPath = path.join(base, biggest);
+          console.log('ℹ️ Gros JSON détecté :', biggest, `${(maxSize/1024/1024).toFixed(2)} MB`);
 
-          // Index des organes par uid
+          const big = JSON.parse(fs.readFileSync(bigPath, 'utf8'));
+
+          // Les clés varient peu : acteurs/acteursListe, organes
+          const acteursArr =
+            big?.acteurs || big?.acteur || big?.acteursListe || [];
+          const organesArr =
+            big?.organes || big?.organe || [];
+
+          // Index organes par uid
           const organes = {};
-          for (const o of organesFiles) {
-            // structure tolérante
-            const one = o?.organe || o;
-            const uid = String(one?.uid || one?.id || '').toUpperCase();
-            if (uid) organes[uid] = one;
+          for (const raw of organesArr) {
+            const o = raw?.organe || raw;
+            const uid = String(o?.uid || o?.id || '').toUpperCase();
+            if (!uid) continue;
+            organes[uid] = o;
           }
 
           function isDep(type){ return /ASSEMBLEE/i.test(type); }
@@ -80,22 +85,23 @@ jobs:
 
           const out = [];
 
-          for (const file of acteursFiles) {
-            const a = file?.acteur || file; // parfois racine "acteur"
+          for (const raw of acteursArr) {
+            const a = raw?.acteur || raw;
             const code = String(a?.uid || a?.id || '').toUpperCase();
-            if (!code.startsWith('PA')) continue; // on ne garde que les personnes
+            if (!code.startsWith('PA')) continue; // on garde les personnes
 
-            // nom / prénom : parfois sous etatCivil, parfois à la racine
+            // Nom/prénom (souvent sous etatCivil)
             const ec = a?.etatCivil || {};
             const nom = (a?.nom || ec?.nom || '').toString();
             const prenom = (a?.prenom || ec?.prenom || '').toString();
 
-            // rôles selon les organes référencés par ses mandats
+            // Mandats -> organeRef -> type d’organe
+            const mandats = Array.isArray(a?.mandats) ? a.mandats :
+                            (Array.isArray(a?.mandat) ? a.mandat : []);
             const roles = new Set();
-            const mandats = Array.isArray(a?.mandats) ? a.mandats : (Array.isArray(a?.mandat) ? a.mandat : []);
             for (const m of mandats) {
-              const orgRef = String(m?.organeRef || m?.organeRefProvisoire || '').toUpperCase();
-              const org = organes[orgRef];
+              const ref = String(m?.organeRef || m?.organeRefProvisoire || '').toUpperCase();
+              const org = organes[ref];
               const type = org?.codeType || org?.type || '';
               if (isDep(type)) roles.add('depute');
               if (isSen(type)) roles.add('senateur');
@@ -106,10 +112,13 @@ jobs:
             out.push({ code, nom, prenom, roles: [...roles] });
           }
 
-          out.sort((a,b) => (a.nom||'').localeCompare(b.nom||'', 'fr') || (a.prenom||'').localeCompare(b.prenom||'', 'fr'));
+          out.sort((a,b) =>
+            (a.nom||'').localeCompare(b.nom||'', 'fr') ||
+            (a.prenom||'').localeCompare(b.prenom||'', 'fr')
+          );
 
           fs.writeFileSync('deputes/an_actors.json', JSON.stringify(out, null, 2));
-          console.log(`✅ an_actors.json écrit (${out.length} entrées)`);
+          console.log(`✅ Écrit deputes/an_actors.json (${out.length} entrées)`);
           NODE
 
       - name: Commit & push
