@@ -1,39 +1,34 @@
 name: Build AN actors (codes + rôles)
 
 on:
+  workflow_dispatch:   # exécution manuelle
   push:
     paths:
       - 'json/**'
-      - '.github/workflows/build-an-actors.yml'
-  workflow_dispatch:
+      - 'scripts/build_an_actors.mjs'
+  schedule:
+    - cron: '0 5 * * 1'   # chaque lundi à 05h00 UTC
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Vérifier la présence des dossiers
-        run: |
-          test -d json/acteur || (echo "json/acteur manquant" && exit 1)
-          test -d json/organe || (echo "json/organe manquant" && exit 1)
-          echo "Fichiers acteur: $(ls -1 json/acteur | wc -l)"
-          echo "Fichiers organe: $(ls -1 json/organe | wc -l)"
-
-      - name: Setup Node
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
 
-      - name: Générer data/an_actors.json
-        run: |
-          node scripts/build_an_actors.mjs
+      - name: Build data/an_actors.json
+        run: node scripts/build_an_actors.mjs
 
       - name: Commit & push if changed
         run: |
-          git config user.name "github-actions[bot]"
+          git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/an_actors.json
-          git diff --quiet && echo "Rien à committer" || (git commit -m "build: update data/an_actors.json" && git push)
+          git commit -m "build(an): update an_actors.json" || echo "Pas de changement"
+          git push
