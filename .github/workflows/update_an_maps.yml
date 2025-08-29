@@ -3,7 +3,7 @@ name: Build AN maps (PA/PO) from archive
 on:
   workflow_dispatch:
   schedule:
-    - cron: "23 5 * * *"   # tous les jours 05:23 UTC
+    - cron: "23 5 * * *"   # quotidien 05:23 UTC
 
 permissions:
   contents: write
@@ -12,124 +12,161 @@ jobs:
   build-maps:
     runs-on: ubuntu-latest
     env:
-      # URL directe du ZIP JSON (16e législature — députés/sénateurs/ministres)
+      # Tu peux surcharger l’URL via Settings > Actions > Variables : AN_ARCHIVE_URL
       ZIP_FALLBACK_URL: "https://data.assemblee-nationale.fr/static/openData/repository/16/amo/deputes_senateurs_ministres_legislature/AMO20_dep_sen_min_tous_mandats_et_organes.json.zip"
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Prepare folders
+      - name: Préparer les dossiers
         run: |
           set -e
-          mkdir -p data/an16
-          mkdir -p deputes
+          mkdir -p data/an16 deputes
 
-      - name: Resolve archive URL
+      - name: Résoudre l’URL de l’archive
         id: url
         run: |
-          set -e
           if [ -n "${{ vars.AN_ARCHIVE_URL }}" ]; then
             echo "url=${{ vars.AN_ARCHIVE_URL }}" >> "$GITHUB_OUTPUT"
-            echo "Using repo variable AN_ARCHIVE_URL"
+            echo "🔗 URL depuis la variable AN_ARCHIVE_URL"
           else
             echo "url=${ZIP_FALLBACK_URL}" >> "$GITHUB_OUTPUT"
-            echo "Using fallback ZIP_FALLBACK_URL"
+            echo "🔗 URL fallback (16e législature)"
           fi
 
-      - name: Download AN archive (ZIP JSON)
+      - name: Télécharger l’archive (ZIP JSON)
         run: |
           set -e
           curl -fSL "${{ steps.url.outputs.url }}" -o data/an16/amo_archive.zip
           test -s data/an16/amo_archive.zip
 
-      - name: Unzip archive
+      - name: Décompresser
         run: |
           set -e
           cd data/an16
           rm -rf json
           unzip -o amo_archive.zip
-          echo "✅ Archive extraite. Aperçu :"
-          ls -la
-          echo "----"
-          ls -la json || true
-          echo "----"
-          ls -la json/acteur 2>/dev/null | head -n 10 || true
-          ls -la json/organe 2>/dev/null | head -n 10 || true
+          echo "✅ Archive extraite"
+
+      # --- DEBUG : liste ce que contient le ZIP (super utile la 1re fois) ---
+      - name: Debug — lister et prévisualiser les JSON
+        run: |
+          set -e
+          echo "=== Répertoires (profondeur 3) ==="
+          find data/an16 -maxdepth 3 -type d -print || true
+          echo "=== Quelques fichiers .json ==="
+          find data/an16 -name "*.json" | head -n 20 || true
+          F=$(find data/an16 -name "*.json" | head -n 1 || true)
+          if [ -n "$F" ]; then
+            echo "=== Aperçu des 120 1res lignes: $F ==="
+            sed -n '1,120p' "$F" || true
+          else
+            echo "⚠️  Aucun .json trouvé après unzip."
+          fi
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: '20'
 
+      # --- Construction des deux tables de correspondance ---
       - name: Build acteurs_map.json & organes_map.json
         run: |
           node - <<'NODE'
           const fs = require('fs');
           const path = 'data/an16/json';
 
-          function safeList(dir) {
+          // Détection : 1 gros JSON (AMO20_*.json) ou des dossiers acteur/organe
+          function findBigJson() {
+            try {
+              const files = fs.readdirSync(path)
+                .filter(f => f.toLowerCase().endsWith('.json'));
+              // On privilégie le fichier avec "tous_mandats" s'il existe
+              const pref = files.find(f => /tous_mandats/i.test(f));
+              return pref ? `${path}/${pref}` : (files[0] ? `${path}/${files[0]}` : null);
+            } catch { return null; }
+          }
+          function list(dir) {
             try { return fs.readdirSync(dir).filter(f => f.endsWith('.json')); }
             catch { return []; }
           }
 
-          // === Acteurs : PAxxxx -> "Prénom Nom"
-          const acteursMap = {};
-          const acteursFiles = safeList(`${path}/acteur`);
-          for (const file of acteursFiles) {
-            try {
-              const data = JSON.parse(fs.readFileSync(`${path}/acteur/${file}`, 'utf8'));
-              const id = String(data?.uid || '').toUpperCase();
-              const prenom = data?.etatCivil?.prenom || data?.prenom || '';
-              const nom = data?.etatCivil?.nom || data?.nom || '';
-              if (id.startsWith('PA')) {
-                const label = [prenom, nom].filter(Boolean).join(' ').trim();
-                if (label) acteursMap[id] = label;
-              }
-            } catch (e) {
-              console.warn('Skip acteur file', file, e.message);
-            }
-          }
+          const acteursMap = {}; // PAxxxx -> "Prénom Nom"
+          const organesMap = {}; // POxxxx -> "SIGLE — Libellé"
 
-          // === Organes : POxxxx -> "SIGLE — Libellé" (ou libellé)
-          const organesMap = {};
-          const organesFiles = safeList(`${path}/organe`);
-          for (const file of organesFiles) {
-            try {
-              const data = JSON.parse(fs.readFileSync(`${path}/organe/${file}`, 'utf8'));
-              const id = String(data?.uid || '').toUpperCase();
+          const big = findBigJson();
+          if (big && fs.existsSync(big)) {
+            // --- Mode "gros fichier"
+            console.log('📦 Parsing big JSON:', big);
+            const data = JSON.parse(fs.readFileSync(big, 'utf8'));
+
+            const acteurs = data.acteurs || data.listeActeurs || data.actors || [];
+            for (const a of acteurs) {
+              const id = String(a?.uid || '').toUpperCase();
+              if (!id.startsWith('PA')) continue;
+              const prenom = a?.etatCivil?.prenom || a?.prenom || '';
+              const nom    = a?.etatCivil?.nom    || a?.nom    || '';
+              const label  = [prenom, nom].filter(Boolean).join(' ').trim();
+              if (label) acteursMap[id] = label;
+            }
+
+            const organes = data.organes || data.organismes || data.organisations || [];
+            for (const o of organes) {
+              const id = String(o?.uid || '').toUpperCase();
               if (!id.startsWith('PO')) continue;
-              const sigle = data?.sigle || '';
-              const libelle = data?.libelle || '';
-              const label = sigle ? (libelle ? `${sigle} — ${libelle}` : sigle) : (libelle || id);
+              const sigle   = o?.sigle || '';
+              const libelle = o?.libelle || '';
+              const label   = sigle ? (libelle ? `${sigle} — ${libelle}` : sigle) : (libelle || id);
               organesMap[id] = label;
-            } catch (e) {
-              console.warn('Skip organe file', file, e.message);
+            }
+          } else {
+            // --- Mode "plein de fichiers" : json/acteur/*.json et json/organe/*.json
+            console.log('📁 Parsing répertoires acteur/organe');
+            for (const f of list(`${path}/acteur`)) {
+              try {
+                const a = JSON.parse(fs.readFileSync(`${path}/acteur/${f}`, 'utf8'));
+                const id = String(a?.uid || '').toUpperCase();
+                if (!id.startsWith('PA')) continue;
+                const prenom = a?.etatCivil?.prenom || a?.prenom || '';
+                const nom    = a?.etatCivil?.nom    || a?.nom    || '';
+                const label  = [prenom, nom].filter(Boolean).join(' ').trim();
+                if (label) acteursMap[id] = label;
+              } catch(e){ console.warn('skip acteur', f, e.message); }
+            }
+            for (const f of list(`${path}/organe`)) {
+              try {
+                const o = JSON.parse(fs.readFileSync(`${path}/organe/${f}`, 'utf8'));
+                const id = String(o?.uid || '').toUpperCase();
+                if (!id.startsWith('PO')) continue;
+                const sigle   = o?.sigle || '';
+                const libelle = o?.libelle || '';
+                const label   = sigle ? (libelle ? `${sigle} — ${libelle}` : sigle) : (libelle || id);
+                organesMap[id] = label;
+              } catch(e){ console.warn('skip organe', f, e.message); }
             }
           }
 
-          // Ecriture
           fs.writeFileSync('deputes/acteurs_map.json', JSON.stringify(acteursMap, null, 2));
           fs.writeFileSync('deputes/organes_map.json', JSON.stringify(organesMap, null, 2));
 
           console.log(`✅ acteurs_map.json: ${Object.keys(acteursMap).length} entrées`);
           console.log(`✅ organes_map.json: ${Object.keys(organesMap).length} entrées`);
 
-          // Sanity check
           if (!Object.keys(acteursMap).length && !Object.keys(organesMap).length) {
-            console.error('❌ Aucune entrée trouvée. Vérifier l’archive et la structure json/acteur & json/organe.');
+            console.error('❌ Aucune entrée trouvée. Vérifie la structure de l’archive (clé: acteurs/organes ou json/acteur & json/organe).');
             process.exit(1);
           }
           NODE
 
-      - name: Commit & push if changed
+      - name: Commit & push si changements
         run: |
           if [ -n "$(git status --porcelain)" ]; then
             git config user.name  "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add deputes/*.json data/an16/*
-            git commit -m "chore(an): update acteurs/organes maps from archive"
+            git commit -m "chore(an): update acteurs/organes maps depuis l’archive"
             git push
           else
-            echo "No changes."
+            echo "Aucun changement."
           fi
