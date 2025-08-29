@@ -3,7 +3,7 @@ name: Build AN actors (codes + rôles)
 on:
   workflow_dispatch:
   schedule:
-    - cron: "27 5 * * *"
+    - cron: "27 5 * * *"   # optionnel, maj quotidienne
 
 permissions:
   contents: write
@@ -17,20 +17,22 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Prep
-        run: mkdir -p data/an16 deputes
+      - name: Prep folders
+        run: |
+          rm -rf data/an16
+          mkdir -p data/an16 deputes
 
       - name: Download AMO archive
         run: |
           curl -fSL "$ZIP_URL" -o data/an16/amo.zip
           test -s data/an16/amo.zip
 
-      - name: Unzip
+      - name: Unzip archive
         run: |
           cd data/an16
-          rm -rf json
           unzip -o amo.zip
-          find json -type f -name '*.json' | head -n 20
+          echo "---- tree preview ----"
+          ls -R json | head -n 200 || true
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -45,64 +47,63 @@ jobs:
 
           const base = 'data/an16/json';
 
-          // Lire tous les fichiers acteurs
-          let acteurs = [];
-          const actDir = path.join(base, 'acteur');
-          if (fs.existsSync(actDir)) {
-            for (const f of fs.readdirSync(actDir)) {
-              if (!f.endsWith('.json')) continue;
-              try {
-                const a = JSON.parse(fs.readFileSync(path.join(actDir, f), 'utf8'));
-                if (a) acteurs.push(a);
-              } catch {}
-            }
+          // Récupérer tous les fichiers JSON d'un sous-dossier (acteur|acteurs, organe|organes)
+          function readAll(folder) {
+            const dir1 = path.join(base, folder);
+            if (!fs.existsSync(dir1)) return [];
+            return fs.readdirSync(dir1)
+              .filter(f => f.endsWith('.json'))
+              .map(f => {
+                try {
+                  const raw = fs.readFileSync(path.join(dir1, f), 'utf8');
+                  return JSON.parse(raw);
+                } catch { return null; }
+              })
+              .filter(Boolean);
           }
 
-          // Lire tous les fichiers organes
-          let organes = {};
-          const orgDir = path.join(base, 'organe');
-          if (fs.existsSync(orgDir)) {
-            for (const f of fs.readdirSync(orgDir)) {
-              if (!f.endsWith('.json')) continue;
-              try {
-                const o = JSON.parse(fs.readFileSync(path.join(orgDir, f), 'utf8'));
-                if (o?.uid) organes[o.uid.toUpperCase()] = o;
-              } catch {}
-            }
+          const acteursFiles = readAll('acteur').concat(readAll('acteurs'));
+          const organesFiles = readAll('organe').concat(readAll('organes'));
+
+          // Index des organes par uid
+          const organes = {};
+          for (const o of organesFiles) {
+            // structure tolérante
+            const one = o?.organe || o;
+            const uid = String(one?.uid || one?.id || '').toUpperCase();
+            if (uid) organes[uid] = one;
           }
 
-          const isDep = t => /ASSEMBLEE/.test(t);
-          const isSen = t => /SENAT/.test(t);
-          const isGov = t => /(GOUVERN|EXECUTIF|MINIST)/.test(t);
+          function isDep(type){ return /ASSEMBLEE/i.test(type); }
+          function isSen(type){ return /SENAT/i.test(type); }
+          function isGov(type){ return /(GOUVERN|EXECUTIF|MINIST)/i.test(type); }
 
           const out = [];
 
-          for (const a of acteurs) {
-            const code = String(a?.uid || '').toUpperCase();
-            if (!code.startsWith('PA')) continue;
+          for (const file of acteursFiles) {
+            const a = file?.acteur || file; // parfois racine "acteur"
+            const code = String(a?.uid || a?.id || '').toUpperCase();
+            if (!code.startsWith('PA')) continue; // on ne garde que les personnes
 
-            const prenom = a?.etatCivil?.prenom || '';
-            const nom = a?.etatCivil?.nom || '';
+            // nom / prénom : parfois sous etatCivil, parfois à la racine
+            const ec = a?.etatCivil || {};
+            const nom = (a?.nom || ec?.nom || '').toString();
+            const prenom = (a?.prenom || ec?.prenom || '').toString();
+
+            // rôles selon les organes référencés par ses mandats
             const roles = new Set();
-
-            const mandats = a?.mandats || [];
+            const mandats = Array.isArray(a?.mandats) ? a.mandats : (Array.isArray(a?.mandat) ? a.mandat : []);
             for (const m of mandats) {
-              const orgRef = String(m?.organeRef || '').toUpperCase();
+              const orgRef = String(m?.organeRef || m?.organeRefProvisoire || '').toUpperCase();
               const org = organes[orgRef];
-              const t = org?.codeType || org?.type || '';
-              if (isDep(t)) roles.add('depute');
-              if (isSen(t)) roles.add('senateur');
-              if (isGov(t)) roles.add('ministre');
+              const type = org?.codeType || org?.type || '';
+              if (isDep(type)) roles.add('depute');
+              if (isSen(type)) roles.add('senateur');
+              if (isGov(type)) roles.add('ministre');
             }
+            if (!roles.size) continue;
 
-            if (roles.size === 0) continue;
-
-            out.push({
-              code,
-              roles: Array.from(roles),
-              nom,
-              prenom
-            });
+            out.push({ code, nom, prenom, roles: [...roles] });
           }
 
           out.sort((a,b) => (a.nom||'').localeCompare(b.nom||'', 'fr') || (a.prenom||'').localeCompare(b.prenom||'', 'fr'));
@@ -117,8 +118,8 @@ jobs:
             git config user.name  "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add deputes/an_actors.json data/an16/*
-            git commit -m "chore(an): update an_actors.json (codes + rôles)"
+            git commit -m "chore(an): update deputes/an_actors.json"
             git push
           else
-            echo "Aucun changement."
+            echo "No changes."
           fi
