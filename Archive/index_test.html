@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <title>Test acteurs AN</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 20px; }
+    .muted { color:#666 }
+    table { border-collapse: collapse; width: 100%; margin-top: 1em; }
+    th, td { border: 1px solid #ccc; padding: 6px 10px; vertical-align: top; }
+    th { background: #f7f7f7; }
+  </style>
+</head>
+<body>
+  <h1>Vérification du fichier <code>deputes/an_actors.json</code></h1>
+  <p class="muted">Si la table reste vide : vérifier l’onglet Actions (workflow), puis attendre ~1 minute que GitHub Pages serve la nouvelle version.</p>
+
+  <div id="info" class="muted">Chargement…</div>
+
+  <table id="table">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Code</th>
+        <th>Nom</th>
+        <th>Prénom</th>
+        <th>Rôles</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script>
+    const url = "./deputes/an_actors.json?v=" + Date.now();
+    document.getElementById("info").textContent = "GET " + url;
+
+    fetch(url)
+      .then(r => {
+        if (!r.ok) throw new Error("HTTP " + r.status);
+        return r.json();
+      })
+      .then(data => {
+        const tbody = document.querySelector("#table tbody");
+        if (!Array.isArray(data) || !data.length) {
+          tbody.innerHTML = "<tr><td colspan=5>Aucune donnée trouvée</td></tr>";
+          return;
+        }
+        document.getElementById("info").textContent = `OK (${data.length} entrées)`;
+        tbody.innerHTML = data.slice(0, 200).map((it, i) => `
+          <tr>
+            <td>${i+1}</td>
+            <td>${it.code || ""}</td>
+            <td>${it.nom || ""}</td>
+            <td>${it.prenom || ""}</td>
+            <td>${Array.isArray(it.roles) ? it.roles.join(", ") : (it.role || "")}</td>
+          </tr>
+        `).join("");
+      })
+      .catch(err => {
+        document.getElementById("info").textContent = "Erreur : " + err.message;
+        document.querySelector("#table tbody").innerHTML =
+          `<tr><td colspan=5>Erreur de chargement</td></tr>`;
+      });
+  </script>
+</body>
+</html>
