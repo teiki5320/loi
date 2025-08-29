@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <title>🏛 Sénateurs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root{
+      --bg:#f5f6fa; --panel:#fff; --ink:#1c1c1c; --muted:#60646c;
+      --border:#e3e6eb; --accent:#0a66c2; --ring:rgba(10,102,194,.22);
+      --radius:12px; --gap:16px;
+    }
+    *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--ink);font:500 16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+    .topbar{padding:12px max(16px,4vw);background:#fff;border-bottom:1px solid var(--border)}
+    .page-header{padding:16px max(16px,4vw) 0}
+    .page-header h1{margin:0 0 6px;font-size:clamp(22px,3.2vw,30px)}
+    .page-header p{margin:0;color:var(--muted)}
+    .container{padding:16px max(16px,4vw) 32px}
+    #search{width:100%;margin-bottom:16px;padding:10px 14px;border:1px solid var(--border);border-radius:8px;background:#fff}
+    #search:focus{outline:3px solid var(--ring);border-color:var(--accent)}
+
+    .cards-grid{display:grid;gap:var(--gap);grid-template-columns:repeat(3,1fr);max-width:1400px;margin:0 auto}
+    @media (max-width:1024px){.cards-grid{grid-template-columns:repeat(2,1fr)}}
+    @media (max-width:600px){.cards-grid{grid-template-columns:1fr}}
+
+    .card{
+      background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px;
+      display:flex;flex-direction:column;gap:10px;transition:box-shadow .18s ease,transform .18s ease;cursor:pointer
+    }
+    .card:hover{box-shadow:0 8px 20px rgba(0,0,0,.08);transform:translateY(-1px)}
+
+    .avatar{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:10px;border:1px solid var(--border);background:#f0f2f6}
+    h3{margin:0;font-size:16px;line-height:1.25}
+    .meta{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+    .badge{background:#f7f8fb;border:1px solid var(--border);border-radius:8px;padding:6px 8px;font-size:12px}
+    .btn{margin-top:auto;display:inline-block;text-align:center;background:var(--accent);color:#fff;padding:8px 10px;border-radius:8px;text-decoration:none;font-weight:700}
+  </style>
+</head>
+<body>
+  <nav class="topbar">
+    <select id="nav-select">
+      <option value="../">📜 Lois</option>
+      <option value="../deputes/index_depute.html">👤 Députés</option>
+      <option value="./index_senateur.html" selected>🏛 Sénateurs</option>
+    </select>
+  </nav>
+
+  <header class="page-header">
+    <h1>🏛 Sénateurs</h1>
+    <p>Données en direct du Sénat (ODSEN_GENERAL.json).</p>
+  </header>
+
+  <main class="container">
+    <input type="search" id="search" placeholder="Rechercher (nom, groupe, département…)" />
+    <div id="senateurs" class="cards-grid"></div>
+  </main>
+
+  <script>
+    document.getElementById("nav-select").addEventListener("change", e => { location.href = e.target.value; });
+  </script>
+  <script src="./script_senateur.js" defer></script>
+</body>
+</html>
