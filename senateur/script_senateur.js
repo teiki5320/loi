@@ -1,8 +1,9 @@
 /*************************************************
  * Sénateurs -- liste depuis senateur/senateur_raw.json
- * (fichier généré par le workflow update_senateur.yml)
- * - Mapping robuste (ODSEN_GENERAL.json varie selon millésimes)
- * - Recherche: nom, groupe, département
+ * JSON attendu : {"results":[{ Nom_usuel, Prenom_usuel, Groupe_politique,
+ *                              Circonscription, Courrier_electronique, Etat, ... }]}
+ * - Filtre uniquement "ACTIF"
+ * - Recherche : nom, groupe, département
  * - Cartes compatibles avec la CSS Députés
  *************************************************/
 
@@ -27,49 +28,32 @@ function showErr(msg){
   if (els.err) els.err.textContent = String(msg);
 }
 
-/* ---------- Mapping d'un enregistrement du Sénat vers notre modèle ---------- */
-function mapSenator(raw){
-  // ODSEN_* peut être {result:{records:[{fields:{...}}]}} ou un tableau d’objets plats
-  const f = raw?.fields || raw || {};
-
-  // Civilité / nom / prénom
-  const civ    = f.civilite || f.civiliteCourte || f.civ || "";
-  const nom    = f.nom || f.nomUsuel || f.nomNaissance || f.nomUsage || "";
-  const prenom = f.prenom || f.prenoms || f.prenomUsage || "";
+/* ---------- Mapping dédié au JSON "results" du Sénat ---------- */
+function mapFromResultsRow(row){
+  // Clés vues dans ton dump : Nom_usuel, Prenom_usuel, Groupe_politique, Circonscription, Courrier_electronique, Etat
+  const civ     = row.Qualite || ""; // "M.", "Mme", etc. (optionnel)
+  const nom     = row.Nom_usuel || row.nom_usuel || row.Nom || "";
+  const prenom  = row.Prenom_usuel || row.prenom_usuel || row.Prenom || "";
+  const groupe  = row.Groupe_politique || row.groupe_politique || "";
+  const dep     = row.Circonscription || row.circonscription || row.Departement || "";
+  const email   = row.Courrier_electronique || row.courrier_electronique || "";
+  const etat    = row.Etat || row.etat || "";
+  const id      = String(row.Matricule || row.id || `${nom}-${prenom}`).toLowerCase();
 
   // Nom complet
   let fullName = [civ, prenom, nom].filter(nonEmpty).join(" ").replace(/\s+/g," ").trim();
   if (!nonEmpty(fullName)) fullName = [prenom, nom].filter(nonEmpty).join(" ").trim();
 
-  // Groupe (sigle + libellé)
-  const sigle   = f.groupeAbrev || f.groupeSigle || f.groupe_code || f.libelleAbrev || f.groupe || "";
-  const libelle = f.groupeLibelle || f.groupe_long || f.libelle || f.groupeNom || "";
-  const groupe  = nonEmpty(sigle) ? (nonEmpty(libelle) ? `${sigle} -- ${libelle}` : sigle)
-                                  : (libelle || "");
-
-  // Département / territoire
-  const departement = f.departement || f.departementNom || f.departementLibelle
-                   || f.circonscription || f.territoire || "";
-
-  // URL fiche & photo
-  const urlFiche = f.url || f.urlFiche || f.lien || f.page || "";
-  const idPhoto  = f.idPhoto || f.idSenat || f.matricule || f.numero || "";
-  const urlPhoto = f.photo || f.urlPhoto
-                || (nonEmpty(idPhoto) ? `https://www.senat.fr/senimg/${idPhoto}.jpg` : "");
-
-  // Identifiant interne
-  const id = String(
-    f.id || f.idSenat || f.matricule || f.uid
-    || `${(nom||"")}-${(prenom||"")}`.toLowerCase()
-  );
-
   return {
     id,
     nom: nonEmpty(fullName) ? fullName : (nom || "").trim(),
     groupe: nonEmpty(groupe) ? groupe : "--",
-    departement: nonEmpty(departement) ? departement : "--",
-    url: nonEmpty(urlFiche) ? urlFiche : "https://www.senat.fr/senateurs/senatlistealpha.html",
-    photo: nonEmpty(urlPhoto) ? urlPhoto : "https://www.senat.fr/mi/defaut-senateur.jpg"
+    departement: nonEmpty(dep) ? dep : "--",
+    email: nonEmpty(email) ? email : "--",
+    etat: etat,
+    // pas d’URL/photo directe dans ce jeu, on met des valeurs par défaut
+    url: "https://www.senat.fr/senateurs/senatlistealpha.html",
+    photo: "https://www.senat.fr/mi/defaut-senateur.jpg"
   };
 }
 
@@ -78,7 +62,7 @@ function render(){
   const q = (els.search?.value || "").trim().toLowerCase();
 
   const filtered = !q ? SENATEURS : SENATEURS.filter(s =>
-    [s.nom, s.groupe, s.departement].some(v => (v||"").toLowerCase().includes(q))
+    [s.nom, s.groupe, s.departement, s.email].some(v => (v||"").toLowerCase().includes(q))
   );
 
   els.grid.innerHTML = filtered.map(s => `
@@ -89,16 +73,17 @@ function render(){
       <div class="meta">
         <div class="badge"><strong>Groupe</strong><div>${esc(s.groupe)}</div></div>
         <div class="badge"><strong>Département</strong><div>${esc(s.departement)}</div></div>
+        <div class="badge"><strong>Email</strong><div>${esc(s.email)}</div></div>
       </div>
       <a class="btn" href="${esc(s.url)}" target="_blank" rel="noopener">Voir la fiche</a>
     </article>
   `).join("");
 
-  // Rendre chaque carte entièrement cliquable (sans interférer avec le lien)
+  // Carte entière cliquable (en plus du bouton)
   els.grid.querySelectorAll(".card").forEach(card => {
     const btn = card.querySelector(".btn");
     card.addEventListener("click", (e) => {
-      if (e.target.closest("a")) return; // si clic sur le lien, ne double pas
+      if (e.target.closest("a")) return;
       if (btn && btn.href) window.open(btn.href, "_blank", "noopener");
     });
     card.addEventListener("keydown", (e) => {
@@ -117,14 +102,21 @@ async function init(){
     if (!r.ok) throw new Error(`Chargement sénateurs: HTTP ${r.status}`);
     const data = await r.json();
 
-    // Deux schémas fréquents : tableau direct OU result.records[].fields
-    let rows = [];
-    if (Array.isArray(data)) {
-      rows = data;
-    } else if (data?.result?.records) {
-      rows = data.result.records;
-    } else if (data?.records) {
-      rows = data.records;
-    }
+    // Ton fichier est de la forme {"results":[ ... ]}
+    const rows = Array.isArray(data?.results) ? data.results
+               : Array.isArray(data) ? data
+               : [];
+    // Garde uniquement les sénateurs ACTIFS
+    SENATEURS = rows.filter(row => (row.Etat || row.etat) === "ACTIF")
+                    .map(mapFromResultsRow);
 
-    SENATEURS = rows.map(mapSenator).
+    if (!SENATEURS.length) showErr("Aucun sénateur 'ACTIF' trouvé dans le JSON.");
+    render();
+  } catch (e) {
+    showErr(e);
+    els.grid.innerHTML = `<p style="opacity:.7">Impossible de charger les données des sénateurs.</p>`;
+  }
+}
+
+init();
+els.search && els.search.addEventListener("input", render);
