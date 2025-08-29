@@ -1,9 +1,9 @@
-name: Build AN actors (codes+roles)
+name: Build AN actors (codes + rôles)
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "17 4 * * *"   # tous les jours à 04:17 UTC
+    - cron: "7 3 * * 1"   # chaque lundi 03:07 UTC
 
 permissions:
   contents: write
@@ -18,89 +18,62 @@ jobs:
 
       - name: Prep folders
         run: |
-          rm -rf data/an16
-          mkdir -p data/an16 json deputes
+          rm -rf data
+          mkdir -p data/an16/json
+          mkdir -p deputes
 
       - name: Resolve archive URL (AN v16)
         id: url
         run: |
-          echo "url=https://data.assemblee-nationale.fr/static/openData/repository/16/amo/deputes_senateurs_ministres_legislature/AMO20_dep_sen_min_tous_mandats_et_organes.json.zip" >> $GITHUB_OUTPUT
+          echo "url=https://data.assemblee-nationale.fr/static/openData/repository/16/amo/deputes_senateurs_ministres_legislature/AMO20_dep_sen_min_tous_mandats_et_organes.json.zip" >> "$GITHUB_OUTPUT"
 
       - name: Download AMO archive
         run: |
-          curl -fL "${{ steps.url.outputs.url }}" -o data/an16/amo_archive.zip
-          ls -lh data/an16
+          curl -fsSL "${{ steps.url.outputs.url }}" -o amo_archive.zip
+          ls -lh amo_archive.zip
 
       - name: Unzip
         run: |
-          unzip -q data/an16/amo_archive.zip -d data/an16
-          echo "---- Tree (first levels) ----"
-          find data/an16 -maxdepth 2 -type d -print
-          echo "---- JSON files (head) ----"
-          find data/an16 -type f -name "*.json" | head -n 20
+          rm -rf json
+          unzip -q amo_archive.zip -d json
+          # Déplace proprement sous data/an16/json
+          # (l’archive contient déjà json/acteur & json/organe)
+          rsync -a json/ data/an16/json/
+          echo "Arborescence:"
+          find data/an16/json -maxdepth 2 -type d -print
+          echo "Compteurs:"
+          echo "Acteurs:" $(find data/an16/json/acteur -type f -name '*.json' | wc -l)
+          echo "Organes:" $(find data/an16/json/organe -type f -name '*.json' | wc -l)
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: '20'
 
-      - name: Build deputes/an_actors.json (from BIG JSON)
+      - name: Build deputes/an_actors.json (fusion acteurs+organes)
         run: |
           node - <<'NODE'
           const fs = require('fs');
           const path = require('path');
 
-          // Recherche récursive de tous les .json
-          function findJsonFiles(dir) {
-            let results = [];
-            for (const f of fs.readdirSync(dir)) {
-              const p = path.join(dir, f);
-              const st = fs.statSync(p);
-              if (st.isDirectory()) results = results.concat(findJsonFiles(p));
-              else if (f.toLowerCase().endsWith('.json')) results.push(p);
-            }
-            return results;
-          }
+          const root = 'data/an16/json';
+          const acteursDir = path.join(root, 'acteur');
+          const organesDir = path.join(root, 'organe');
 
-          const root = 'data/an16';
-          if (!fs.existsSync(root)) {
-            console.error('❌ Dossier introuvable:', root);
+          function exists(p){ try{ return fs.statSync(p).isDirectory(); }catch{ return false; } }
+
+          if (!exists(acteursDir) || !exists(organesDir)) {
+            console.error("❌ Dossiers acteur/ ou organe/ introuvables.");
             process.exit(1);
           }
 
-          const files = findJsonFiles(root);
-          if (!files.length) {
-            console.error('❌ Aucun .json trouvé dans', root, '(même en récursif).');
-            process.exit(1);
-          }
-
-          // On prend le plus GROS JSON (celui de l’AN)
-          let biggest = files[0], maxSize = 0;
-          for (const f of files) {
-            const s = fs.statSync(f).size;
-            if (s > maxSize) { maxSize = s; biggest = f; }
-          }
-          console.log("ℹ️ Gros JSON détecté:", biggest, (maxSize/1024/1024).toFixed(2), "MB");
-
-          const rawTxt = fs.readFileSync(biggest, 'utf8');
-          let big;
-          try { big = JSON.parse(rawTxt); }
-          catch(e){ console.error('❌ JSON invalide:', biggest, e.message); process.exit(1); }
-
-          // Tente plusieurs structures possibles
-          const acteursArr = big?.acteurs ?? big?.acteur ?? big?.acteursListe ?? [];
-          const organesArr = big?.organes ?? big?.organe ?? [];
-
-          if (!Array.isArray(acteursArr) || !acteursArr.length) {
-            console.error('❌ Aucune entrée "acteurs" valide trouvée dans le gros JSON.');
-            process.exit(1);
-          }
-
-          // Index des organes (pour typer les mandats)
+          // --- Charge organes (POxxxx -> objet organe)
           const organes = {};
-          for (const raw of (Array.isArray(organesArr)? organesArr : [])) {
-            const o = raw?.organe || raw;
-            const uid = String(o?.uid || o?.id || '').toUpperCase();
+          for (const f of fs.readdirSync(organesDir)) {
+            if (!f.endsWith('.json')) continue;
+            const raw = JSON.parse(fs.readFileSync(path.join(organesDir, f), 'utf8'));
+            const o = raw.organe || raw;
+            const uid = String(o.uid || o.id || '').toUpperCase();
             if (uid) organes[uid] = o;
           }
 
@@ -108,54 +81,51 @@ jobs:
           const isSen = t => /SENAT/i.test(t);
           const isGov = t => /(GOUVERN|EXECUTIF|MINIST)/i.test(t);
 
+          // --- Parcourt acteurs (PAxxxx)
           const out = [];
+          let countFiles = 0;
+          for (const f of fs.readdirSync(acteursDir)) {
+            if (!f.endsWith('.json')) continue;
+            countFiles++;
+            const raw = JSON.parse(fs.readFileSync(path.join(acteursDir, f), 'utf8'));
+            const a = raw.acteur || raw;
 
-          for (const raw of acteursArr) {
-            const a = raw?.acteur || raw;
-            const code = String(a?.uid || a?.id || '').toUpperCase();
-            if (!code || !code.startsWith('PA')) continue; // on veut les identifiants PAxxxx
+            const code = String(a.uid || a.id || '').toUpperCase();
+            if (!code.startsWith('PA')) continue;
 
-            const ec = a?.etatCivil || {};
-            const nom = (a?.nom || ec?.nom || '').toString();
-            const prenom = (a?.prenom || ec?.prenom || '').toString();
-
-            const mandats = Array.isArray(a?.mandats) ? a.mandats
-                           : Array.isArray(a?.mandat) ? a.mandat
-                           : [];
+            const nom    = a.etatCivil?.nom    ?? a.nom    ?? "";
+            const prenom = a.etatCivil?.prenom ?? a.prenom ?? "";
 
             const roles = new Set();
+            const mandats = Array.isArray(a.mandats) ? a.mandats : [];
             for (const m of mandats) {
-              const ref = String(m?.organeRef || m?.organeRefProvisoire || '').toUpperCase();
+              const ref = String(m.organeRef || m.organeref || "").toUpperCase();
               const org = organes[ref];
-              const type = org?.codeType || org?.type || '';
-              if (isDep(type)) roles.add('depute');
-              if (isSen(type)) roles.add('senateur');
-              if (isGov(type)) roles.add('ministre');
+              const type = org?.codeType || org?.type || "";
+              if (isDep(type)) roles.add("depute");
+              if (isSen(type)) roles.add("senateur");
+              if (isGov(type)) roles.add("ministre");
             }
-
-            if (!roles.size) continue; // ignore si aucun rôle exploitable
+            if (roles.size === 0) continue;
 
             out.push({ code, nom, prenom, roles: [...roles] });
           }
 
-          out.sort((a,b) =>
-            (a.nom||'').localeCompare(b.nom||'', 'fr') ||
-            (a.prenom||'').localeCompare(b.prenom||'', 'fr') ||
-            a.code.localeCompare(b.code)
-          );
+          // Tri alpha par nom/prénom pour la stabilité
+          out.sort((a,b)=> (a.nom.localeCompare(b.nom) || a.prenom.localeCompare(b.prenom)));
 
           fs.writeFileSync('deputes/an_actors.json', JSON.stringify(out, null, 2));
-          console.log(`✅ Écrit deputes/an_actors.json (${out.length} entrées)`);
+          console.log(`✅ Écrit deputes/an_actors.json (${out.length} entrées) à partir de ${countFiles} fichiers acteurs.`);
           NODE
 
       - name: Commit & push if changed
         run: |
-          if git status --porcelain | grep -q "deputes/an_actors.json"; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add deputes/an_actors.json
-            git commit -m "chore(an): update deputes/an_actors.json"
-            git push
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add deputes/an_actors.json
+          if git diff --cached --quiet; then
+            echo "No changes."
           else
-            echo "Aucune modification à pousser."
+            git commit -m "build(an): update deputes/an_actors.json"
+            git push
           fi
