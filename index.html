@@ -11,6 +11,7 @@
     <select id="nav-select">
       <option value="./" selected>📜 Lois</option>
       <option value="./deputes/index_depute.html">👤 Députés</option>
+      <option value="./senateur/index_senateur.html">🏛 Sénateurs</option>
     </select>
   </nav>
 
@@ -25,10 +26,20 @@
   </main>
 
   <script>
-    document.getElementById("nav-select").addEventListener("change", e => {
-      location.href = e.target.value;
-    });
+    // Navigation
+    const sel = document.getElementById("nav-select");
+    sel.addEventListener("change", e => { location.href = e.target.value; });
+
+    // Auto-sélectionne l’option correspondant à la page courante
+    (function syncSelected(){
+      const here = location.pathname.replace(/\/+$/, "");
+      for (const opt of sel.options) {
+        const url = new URL(opt.value, location.href).pathname.replace(/\/+$/, "");
+        opt.selected = (url === here);
+      }
+    })();
   </script>
+
   <script src="./script.js" defer></script>
 </body>
 </html>
