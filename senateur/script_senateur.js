@@ -1,13 +1,12 @@
 /*************************************************
- * Sénateurs -- liste depuis senateurs_raw.json
- * Source (workflow): https://data.senat.fr/data/senateurs/ODSEN_GENERAL.json
- * - Lecture locale: ./senateurs_raw.json (plus rapide & fiable)
- * - Mapping robuste des champs (le Sénat varie selon les millésimes)
+ * Sénateurs -- liste depuis senateur/senateur_raw.json
+ * (fichier généré automatiquement par update_senateur.yml)
+ * - Mapping robuste des champs (ODSEN_GENERAL.json varie selon millésimes)
  * - Recherche: nom, groupe, département
- * - Cartes cliquables vers la fiche officielle
+ * - Cartes cliquables (mêmes classes CSS que "Députés")
  *************************************************/
 
-const URL_SENAT_LOCAL = "./senateurs_raw.json";
+const URL_LOCAL = "./senateur_raw.json";
 
 const els = {
   search: document.getElementById("search"),
@@ -17,14 +16,15 @@ const els = {
 let SENATEURS = [];
 
 /* ---------- Utils ---------- */
-const esc = s => (s ?? "").toString()
-  .replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+const esc = (s) => (s ?? "").toString()
+  .replace(/&/g,"&amp;").replace(/</g,"&lt;")
+  .replace(/>/g,"&gt;").replace(/"/g,"&quot;");
 
-function isNonEmpty(x){ return x != null && String(x).trim() !== ""; }
+const nonEmpty = (x) => x != null && String(x).trim() !== "";
 
-/* ---------- Mapping robuste d’un enregistrement vers notre modèle ---------- */
+/* ---------- Mapping d'un enregistrement du Sénat vers notre modèle ---------- */
 function mapSenator(raw){
-  // Beaucoup de dumps ODSEN_* ont la forme result.records[].fields ; on gère aussi le tableau direct
+  // ODSEN_* peut être {result:{records:[{fields:{...}}]}} ou un tableau d’objets plats
   const f = raw?.fields || raw || {};
 
   // Civilité / nom / prénom
@@ -33,35 +33,38 @@ function mapSenator(raw){
   const prenom = f.prenom || f.prenoms || f.prenomUsage || "";
 
   // Nom complet
-  let fullName = [civ, prenom, nom].filter(isNonEmpty).join(" ").replace(/\s+/g," ").trim();
-  if (!isNonEmpty(fullName)) fullName = [prenom, nom].filter(isNonEmpty).join(" ").trim();
+  let fullName = [civ, prenom, nom].filter(nonEmpty).join(" ").replace(/\s+/g," ").trim();
+  if (!nonEmpty(fullName)) fullName = [prenom, nom].filter(nonEmpty).join(" ").trim();
 
   // Groupe (sigle + libellé)
   const sigle   = f.groupeAbrev || f.groupeSigle || f.groupe_code || f.libelleAbrev || f.groupe || "";
   const libelle = f.groupeLibelle || f.groupe_long || f.libelle || f.groupeNom || "";
-  const groupe  = isNonEmpty(sigle) ? (isNonEmpty(libelle) ? `${sigle} -- ${libelle}` : sigle)
-                                    : (libelle || "");
+  const groupe  = nonEmpty(sigle) ? (nonEmpty(libelle) ? `${sigle} -- ${libelle}` : sigle)
+                                  : (libelle || "");
 
   // Département / territoire
-  const departement = f.departement || f.departementNom || f.departementLibelle || f.circonscription || f.territoire || "";
+  const departement = f.departement || f.departementNom || f.departementLibelle
+                   || f.circonscription || f.territoire || "";
 
   // URL fiche & photo (selon millésime)
   const urlFiche = f.url || f.urlFiche || f.lien || f.page || "";
   const idPhoto  = f.idPhoto || f.idSenat || f.matricule || f.numero || "";
-  const urlPhoto = f.photo || f.urlPhoto || (isNonEmpty(idPhoto) ? `https://www.senat.fr/senimg/${idPhoto}.jpg` : "");
+  const urlPhoto = f.photo || f.urlPhoto
+                || (nonEmpty(idPhoto) ? `https://www.senat.fr/senimg/${idPhoto}.jpg` : "");
 
   // Identifiant interne
   const id = String(
-    f.id || f.idSenat || f.matricule || f.uid || `${(nom||"")}-${(prenom||"")}`.toLowerCase()
+    f.id || f.idSenat || f.matricule || f.uid
+    || `${(nom||"")}-${(prenom||"")}`.toLowerCase()
   );
 
   return {
     id,
-    nom: isNonEmpty(fullName) ? fullName : (nom || "").trim(),
-    groupe: groupe || "--",
-    departement: departement || "--",
-    url: isNonEmpty(urlFiche) ? urlFiche : "https://www.senat.fr/senateurs/senatlistealpha.html",
-    photo: isNonEmpty(urlPhoto) ? urlPhoto : "https://www.senat.fr/mi/defaut-senateur.jpg"
+    nom: nonEmpty(fullName) ? fullName : (nom || "").trim(),
+    groupe: nonEmpty(groupe) ? groupe : "--",
+    departement: nonEmpty(departement) ? departement : "--",
+    url: nonEmpty(urlFiche) ? urlFiche : "https://www.senat.fr/senateurs/senatlistealpha.html",
+    photo: nonEmpty(urlPhoto) ? urlPhoto : "https://www.senat.fr/mi/defaut-senateur.jpg"
   };
 }
 
@@ -86,11 +89,11 @@ function render(){
     </article>
   `).join("");
 
-  // Rendre la carte entière cliquable (en plus du bouton)
+  // Rendre chaque carte entièrement cliquable (sans interférer avec le lien)
   els.grid.querySelectorAll(".card").forEach(card => {
     const btn = card.querySelector(".btn");
     card.addEventListener("click", (e) => {
-      if (e.target.closest("a")) return; // si clic sur le lien, ne double-pas
+      if (e.target.closest("a")) return; // si clic sur le lien, ne double pas
       if (btn && btn.href) window.open(btn.href, "_blank", "noopener");
     });
     card.addEventListener("keydown", (e) => {
@@ -105,7 +108,7 @@ function render(){
 /* ---------- Init ---------- */
 async function init(){
   try{
-    const r = await fetch(URL_SENAT_LOCAL + "?v=" + Date.now(), { cache: "no-store" });
+    const r = await fetch(URL_LOCAL + "?v=" + Date.now(), { cache: "no-store" });
     if (!r.ok) throw new Error(`Chargement sénateurs: HTTP ${r.status}`);
     const data = await r.json();
 
@@ -121,7 +124,7 @@ async function init(){
       rows = [];
     }
 
-    SENATEURS = rows.map(mapSenator).filter(s => isNonEmpty(s.nom));
+    SENATEURS = rows.map(mapSenator).filter(s => nonEmpty(s.nom));
     render();
   } catch (e) {
     console.error(e);

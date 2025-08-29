@@ -1,8 +1,37 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <title>🏛 Sénateurs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- ⚠️ Utilise la même CSS que la page Députés -->
+  <link rel="stylesheet" href="../deputes/style_depute.css" />
+</head>
+<body>
+  <nav class="topbar">
+    <select id="nav-select">
+      <option value="../">📜 Lois</option>
+      <option value="../deputes/index_depute.html">👤 Députés</option>
+      <option value="./index.html" selected>🏛 Sénateurs</option>
+    </select>
+  </nav>
 
-      📜 Lois
-      👤 Députés
-      🏛 Sénateurs
-    
-🏛 Sénateurs
-Données en direct du Sénat (ODSEN_GENERAL.json).
+  <header class="page-header">
+    <h1>🏛 Sénateurs</h1>
+    <p>Mêmes styles que la page Députés.</p>
+  </header>
 
+  <main class="container">
+    <input id="search" type="search" placeholder="Rechercher (nom, groupe, département…)" />
+    <!-- classes identiques à celles utilisées chez Députés -->
+    <div id="senateurs" class="cards-grid"></div>
+  </main>
+
+  <script>
+    document.getElementById("nav-select").addEventListener("change", e => {
+      location.href = e.target.value;
+    });
+  </script>
+  <script src="./script.js" defer></script>
+</body>
+</html>
