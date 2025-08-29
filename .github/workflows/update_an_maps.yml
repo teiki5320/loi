@@ -3,7 +3,7 @@ name: Build AN maps (PA/PO) from archive
 on:
   workflow_dispatch:
   schedule:
-    - cron: "23 5 * * *"   # tous les jours à 05:23 UTC
+    - cron: "23 5 * * *"   # tous les jours 05:23 UTC
 
 permissions:
   contents: write
@@ -11,6 +11,10 @@ permissions:
 jobs:
   build-maps:
     runs-on: ubuntu-latest
+    env:
+      # ⇩⇩⇩ MODIFIE CETTE URL SI BESOIN (lien direct vers le .json.zip de l'archive AN 16e)
+      ZIP_FALLBACK_URL: "https://data.assemblee-nationale.fr/static/openData/repository/16/amo/AMO20_dep_sen_min_autres_organes_XVI.json.zip"
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -21,14 +25,22 @@ jobs:
           mkdir -p data/an16
           mkdir -p deputes
 
+      - name: Resolve archive URL
+        id: url
+        run: |
+          set -e
+          if [ -n "${{ vars.AN_ARCHIVE_URL }}" ]; then
+            echo "url=${{ vars.AN_ARCHIVE_URL }}" >> "$GITHUB_OUTPUT"
+            echo "Using repo variable AN_ARCHIVE_URL"
+          else
+            echo "url=${ZIP_FALLBACK_URL}" >> "$GITHUB_OUTPUT"
+            echo "Using fallback ZIP_FALLBACK_URL"
+          fi
+
       - name: Download AN archive (ZIP JSON)
         run: |
           set -e
-          if [ -z "${{ vars.AN_ARCHIVE_URL }}" ]; then
-            echo "❌ AN_ARCHIVE_URL non défini (Settings > Actions > Variables)."
-            exit 1
-          fi
-          curl -fSL "${{ vars.AN_ARCHIVE_URL }}" -o data/an16/amo_archive.zip
+          curl -fSL "${{ steps.url.outputs.url }}" -o data/an16/amo_archive.zip
           test -s data/an16/amo_archive.zip
 
       - name: Unzip archive
@@ -37,7 +49,6 @@ jobs:
           cd data/an16
           rm -f amo.json
           unzip -o amo_archive.zip
-          # cherche le premier .json extrait et le renomme en amo.json
           JSON_FILE=$(ls -1 *.json | head -n1)
           if [ -z "$JSON_FILE" ]; then
             echo "❌ Aucun .json trouvé dans l'archive."
