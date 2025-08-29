@@ -1,12 +1,9 @@
-name: Build AN actors (codes + rôles)
+name: Build AN actors (PA+PO depuis archive officielle)
 
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - 'scripts/build_an_actors.mjs'
-      - 'data/an16/json/**'
-      - '.github/workflows/build-an-actors.yml'
+  schedule:
+    - cron: "17 3 * * *"  # chaque jour à 03:17 UTC
 
 jobs:
   build:
@@ -16,21 +13,174 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Préparer les dossiers
-        run: mkdir -p data
-
-      - name: Setup Node
+      - name: Setup Node 20
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: "20"
 
-      - name: Générer data/an_actors.json (fusion acteurs + organes)
-        run: node scripts/build_an_actors.mjs
+      - name: Télécharger et générer data/an_actors.json
+        run: |
+          set -euxo pipefail
+
+          ARCHIVE_URL="https://data.assemblee-nationale.fr/static/openData/repository/16/amo/deputes_senateurs_ministres_legislature/AMO20_dep_sen_min_tous_mandats_et_organes.json.zip"
+          ZIP="amo_archive.zip"
+          TMP="tmp_amo"
+
+          # 1) Téléchargement de l’archive officielle
+          curl -L "$ARCHIVE_URL" -o "$ZIP"
+
+          # 2) Décompression dans un dossier temporaire
+          rm -rf "$TMP"
+          mkdir -p "$TMP"
+          unzip -q "$ZIP" -d "$TMP"
+
+          # 3) Script Node inline : lecture récursive json/acteur + json/organe, fusion PA+PO
+          node - <<'NODE'
+          import { promises as fs } from 'fs';
+          import path from 'path';
+
+          const TMP = 'tmp_amo';
+          const ACTEUR_DIR = path.join(TMP, 'json', 'acteur');
+          const ORGANE_DIR = path.join(TMP, 'json', 'organe');
+          const OUT = 'data/an_actors.json';
+
+          // --- utilitaires ---
+          async function listJsonRecursive(dir) {
+            const out = [];
+            async function walk(p) {
+              let ents;
+              try { ents = await fs.readdir(p, { withFileTypes: true }); }
+              catch { return; }
+              for (const e of ents) {
+                const full = path.join(p, e.name);
+                if (e.isDirectory()) await walk(full);
+                else if (e.isFile() && e.name.toLowerCase().endsWith('.json')) out.push(full);
+              }
+            }
+            await walk(dir);
+            return out;
+          }
+          const readJSON = async (p) => JSON.parse(await fs.readFile(p, 'utf8'));
+          const clean = (v) => (v == null ? '' : String(v)).trim();
+
+          // libellés plus lisibles pour types d’organes
+          const TYPE_MAP = {
+            'ASSEMBLEE':'Assemblée',
+            'SENAT':'Sénat',
+            'GOUVERNEMENT':'Gouvernement',
+            'GP':'Groupe politique',
+            'GE':'Groupe d’étude',
+            'GA':'Groupe d’amitié',
+            'COMPER':'Commission permanente',
+            'CNPE':'Commission / mission',
+            'DELEG':'Délégation',
+            'OFFPAR':'Office parlementaire',
+            'ORGEXTPARL':'Organe extra-parlementaire'
+          };
+
+          // normalisation uid pouvant être {"#text":"PAxxxx"}
+          const textOf = (v) => {
+            if (typeof v === 'object' && v && ('#text' in v)) return String(v['#text']);
+            return clean(v);
+          };
+
+          // ---- parse acteurs (PA…) ----
+          function parseActeur(obj) {
+            const a = obj?.acteur ?? obj;
+            if (!a) return null;
+            const code = textOf(a?.uid);
+            if (!/^PA\d{3,}$/i.test(code)) return null;
+
+            const nom = clean([a?.etatCivil?.ident?.prenom, a?.etatCivil?.ident?.nom].filter(Boolean).join(' '))
+                      || clean(a?.etatCivil?.ident?.alpha);
+
+            // Rôles lisibles via mandats (type + qualité si dispo)
+            const roles = [];
+            const mandatsRaw = a?.mandats?.mandat;
+            const mandats = Array.isArray(mandatsRaw) ? mandatsRaw : (mandatsRaw ? [mandatsRaw] : []);
+            for (const m of mandats) {
+              const t = clean(m?.typeOrgane); // ex: ASSEMBLEE, GP, COMPER…
+              const q = clean(m?.infosQualite?.libQualite || m?.infosQualite?.codeQualite);
+              if (!t && !q) continue;
+              const label = TYPE_MAP[t] || t;
+              roles.push(q ? `${label} · ${q}` : label);
+            }
+
+            return {
+              code: code.toUpperCase(),
+              nom: nom || '(Acteur)',
+              type: 'Acteur',
+              roles: Array.from(new Set(roles)).slice(0, 20)
+            };
+          }
+
+          // ---- parse organes (PO…) ----
+          function parseOrgane(obj) {
+            const o = obj?.organe ?? obj;
+            if (!o) return null;
+            const code = clean(o?.uid);
+            if (!/^PO\d{3,}$/i.test(code)) return null;
+
+            const lib = clean(o?.libelleEdition) || clean(o?.libelleAbrege) || clean(o?.libelle);
+            const t = clean(o?.codeType || o?.type || o?.['xsi:type'] || o?.['@xsi:type']);
+            const friendly = TYPE_MAP[t] || t || 'Organe';
+
+            return {
+              code: code.toUpperCase(),
+              nom: lib || '(Organe)',
+              type: friendly,
+              roles: []
+            };
+          }
+
+          // ---- collecte récursive ----
+          const acteurs = [];
+          const organes = [];
+
+          for (const base of [ACTEUR_DIR, ORGANE_DIR]) {
+            // on n’échoue pas si un des dossiers n’existe pas
+            try { await fs.stat(base); } catch { /* ignore */ }
+          }
+
+          // acteurs
+          for (const f of await listJsonRecursive(ACTEUR_DIR)) {
+            try { const rec = parseActeur(await readJSON(f)); if (rec) acteurs.push(rec); }
+            catch(e){ console.error('act parse', f, e.message); }
+          }
+
+          // organes
+          for (const f of await listJsonRecursive(ORGANE_DIR)) {
+            try { const rec = parseOrgane(await readJSON(f)); if (rec) organes.push(rec); }
+            catch(e){ console.error('org parse', f, e.message); }
+          }
+
+          // fusion avec priorité aux Acteurs si collision (rare)
+          const map = new Map();
+          for (const x of [...acteurs, ...organes]) {
+            if (!x?.code) continue;
+            if (!map.has(x.code) || map.get(x.code).type !== 'Acteur') map.set(x.code, x);
+          }
+
+          const all = [...map.values()].sort((a,b)=>a.code.localeCompare(b.code));
+
+          await fs.mkdir('data', { recursive: true });
+          await fs.writeFile(OUT, JSON.stringify(all, null, 2), 'utf8');
+          console.log(`✅ Écrit ${OUT} avec ${all.length} entrées (PA+PO)`);
+          NODE
+
+          # 4) Nettoyage runner (on ne commit ni le zip ni les JSON bruts)
+          rm -f "$ZIP"
+          rm -rf "$TMP"
 
       - name: Commit & push si modifié
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/an_actors.json
-          git diff --quiet && git diff --staged --quiet || git commit -m "build(an): update an_actors.json"
-          git push
+          set -euxo pipefail
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m "build(an): update data/an_actors.json (PA+PO depuis archive AN)"
+            git push
+          else
+            echo "Pas de changement."
+          fi
