@@ -4,45 +4,30 @@
   <meta charset="utf-8" />
   <title>🏛 Sénateurs</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- même CSS que députés -->
-  <link rel="stylesheet" href="../style.css" />
+  <!-- On réutilise le CSS des députés tel quel -->
+  <link rel="stylesheet" href="../style_depute.css" />
 </head>
 <body>
-  <!-- Menu haut-gauche pour changer de page -->
-  <nav class="topbar">
-    <select id="nav-select" aria-label="Navigation">
-      <option value="../index.html">📜 Lois</option>
-      <option value="../deputes/index_depute.html">👤 Députés</option>
-      <option value="./index_senateur.html" selected>🏛 Sénateurs</option>
-    </select>
-  </nav>
-
-  <header class="page-header">
+  <header>
     <h1>🏛 Sénateurs</h1>
-    <p>Données mises à jour automatiquement depuis le Sénat.</p>
   </header>
 
-  <!-- Barre de recherche -->
+  <!-- Barre outils identique -->
   <section>
-    <input id="q" type="search" placeholder="Rechercher (nom, groupe, circo…)" aria-label="Recherche" />
-    <select id="groupe" aria-label="Filtrer par groupe"></select>
-    <select id="dept" aria-label="Filtrer par département"></select>
+    <input id="q" type="search" placeholder="Recherche (nom, groupe, e-mail…)" aria-label="Recherche" />
+    <!-- (optionnel) filtres :
+    <select id="groupe"></select>
+    <select id="dept"></select> -->
   </section>
 
   <!-- Compteur + erreurs -->
-  <div id="count"></div>
+  <div id="count" class="legend-item"></div>
   <pre id="err"></pre>
 
-  <!-- Liste en cartes -->
-  <main id="senateurs-list" aria-live="polite"></main>
+  <!-- IMPORTANT : même id & grille que les députés -->
+  <main id="deputes-list" aria-live="polite"></main>
 
-  <script>
-    // menu de navigation
-    document.getElementById("nav-select").addEventListener("change", e => {
-      location.href = e.target.value;
-    });
-  </script>
-  <!-- JS spécifique sénateurs -->
-  <script src="./script_senateur.js?v=2025-08-29" defer></script>
+  <!-- Script spécifique sénateurs -->
+  <script src="./script_senateur.js?v=1"></script>
 </body>
 </html>
