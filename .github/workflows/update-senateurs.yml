@@ -1,0 +1,33 @@
+name: Update senateurs.json
+
+on:
+  workflow_dispatch:   # déclenchement manuel depuis l’onglet Actions
+  schedule:
+    - cron: "0 5 * * 1"   # chaque lundi à 05:00 UTC
+
+jobs:
+  update-senateurs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Télécharger le JSON officiel du Sénat
+        run: |
+          mkdir -p senateurs
+          curl -sL "https://data.senat.fr/data/senateurs/ODSEN_GENERAL.json" \
+            -o senateurs/senateurs_raw.json
+
+      - name: Vérifier le fichier (aperçu)
+        run: |
+          head -c 2000 senateurs/senateurs_raw.json || true
+          echo
+          echo "Taille :" $(wc -c < senateurs/senateurs_raw.json) "octets"
+
+      - name: Commit & push si modifié
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add senateurs/senateurs_raw.json
+          git commit -m "chore(senat): update senateurs_raw.json" || echo "Pas de changements"
+          git push
