@@ -1,32 +1,31 @@
 name: Build AN actors (codes + rôles)
 
 on:
-  workflow_dispatch:
   push:
     paths:
-      - 'json/**'
-      - '.github/workflows/build-an-actors.yml'
-  schedule:
-    - cron: '0 5 * * 1'   # (optionnel) tous les lundis 05:00 UTC
+      - "json/acteur/**"
+      - "json/organe/**"
+      - ".github/workflows/build-an-actors.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Vérifier la présence des dossiers
         run: |
-          ls -la
-          echo "::group::Arborescence json/"
-          ls -la json || true
-          ls -la json/acteur || true
-          ls -la json/organe || true
-          echo "::endgroup::"
+          set -e
+          if [ ! -d json/acteur ] || [ ! -d json/organe ]; then
+            echo "::error::Dossiers json/acteur ou json/organe introuvables dans le dépôt."
+            exit 1
+          fi
+          echo "OK: json/acteur et json/organe trouvés."
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -35,108 +34,125 @@ jobs:
 
       - name: Générer data/an_actors.json
         run: |
-          mkdir -p data
-          node <<'NODE'
-          import fs from "fs";
-          import path from "path";
+          node - <<'NODE'
+          const fs = require('fs');
+          const path = require('path');
 
-          const ACT_DIR = "json/acteur";
-          const ORG_DIR = "json/organe";
+          const ACTEUR_DIR = 'json/acteur';
+          const ORGANE_DIR = 'json/organe';
+          const OUT_DIR    = 'data';
+          const OUT_FILE   = path.join(OUT_DIR, 'an_actors.json');
 
-          // --- Map organes POxxxx -> libellé (si dossier présent) -----------------
-          const organesMap = new Map(); // 'PO1234' -> 'Groupe …'
-          if (fs.existsSync(ORG_DIR)) {
-            for (const f of fs.readdirSync(ORG_DIR)) {
-              if (!f.endsWith(".json")) continue;
-              try {
-                const full = path.join(ORG_DIR, f);
-                const raw = JSON.parse(fs.readFileSync(full, "utf8"));
-                const obj = raw.organe || raw;
-                const code = obj?.uid || obj?.id || f.replace(".json", "");
-                const lib  = obj?.libelle || obj?.libelleAbrege || obj?.abreviation || obj?.nom || "";
-                if (code) organesMap.set(String(code), String(lib || code));
-              } catch { /* ignore */ }
+          function listJsonFiles(dir){
+            return fs.readdirSync(dir)
+              .filter(f => f.toLowerCase().endsWith('.json'))
+              .map(f => path.join(dir, f));
+          }
+
+          function readJson(p){
+            try { return JSON.parse(fs.readFileSync(p, 'utf8')); }
+            catch(e){ return null; }
+          }
+
+          // --- 1) Index des organes
+          const organes = {};
+          for (const f of listJsonFiles(ORGANE_DIR)) {
+            const base = path.basename(f, '.json');   // ex: PO59047
+            const j = readJson(f);
+            if (!j) continue;
+            // Champs possibles selon versions AMO : codeType, type, libelle, libelleAbrege, nom
+            const codeType = j.codeType || j.type || (j.categorie && j.categorie.code) || null;
+            const libelle  = j.libelle || j.libelleAbrege || j.nom || base;
+            organes[base] = { code: base, codeType, libelle };
+          }
+
+          // --- 2) Balise utilitaires
+          function pickName(j){
+            // Plusieurs schémas possibles; on tente du plus précis au plus simple
+            const ec = j.etatCivil || {};
+            const ident = ec.ident || ec.identite || {};
+            const nom = ident.nomUsuel || ident.nom || j.nom || '';
+            const prenom = ident.prenom || j.prenom || '';
+            const tri = j.tri || ''; // "NOM PRÉNOM"
+            let full = (nom && prenom) ? `${prenom} ${nom}`.trim() : (nom || tri || '—').trim();
+            // Capitalisation légère si tout est upper
+            if (/^[A-ZÉÈÀÙÂÊÎÔÛÄËÏÖÜÇ -]+$/.test(full) && full.includes(' ')) {
+              full = full.split(' ').map(w => w.charAt(0) + w.slice(1).toLowerCase()).join(' ');
             }
+            return full;
           }
 
-          // --- Petites utilitaires ------------------------------------------------
-          const upper = s => (s ?? "").toString().toUpperCase();
-          const cap   = s => (s ?? "").toString()
-                              .toLowerCase()
-                              .replace(/\p{L}+/gu, w => w[0].toUpperCase()+w.slice(1));
-          const safeArray = v => Array.isArray(v) ? v : (v ? [v] : []);
+          function detectRolesFromMandats(mandats){
+            const roles = new Set();
+            for (const m of Array.isArray(mandats) ? mandats : []) {
+              const orgRef = m.organeRef || m.organe || m.organeParticipant || m.organisme || null;
+              const typeOrg = m.typeOrgane || m.type || null;
+              const og = organes[String(orgRef)] || null;
+              const t = (typeOrg || (og && og.codeType) || '').toUpperCase();
 
-          // --- Parcours des acteurs ----------------------------------------------
-          const out = [];
-
-          if (!fs.existsSync(ACT_DIR)) {
-            console.error("Dossier json/acteur introuvable, rien à faire.");
-            process.exit(0);
+              // Heuristiques robustes :
+              if (t.includes('ASSEMBLEE') || t === 'AN') roles.add('depute');
+              if (t.includes('SENAT') || t === 'SN')    roles.add('senateur');
+              if (t.includes('GOUVERNEMENT') || t === 'GOUVERNEMENT') roles.add('ministre');
+            }
+            return Array.from(roles);
           }
 
-          const files = fs.readdirSync(ACT_DIR).filter(f => f.endsWith(".json"));
-          for (const f of files) {
-            const full = path.join(ACT_DIR, f);
-            try {
-              const raw = JSON.parse(fs.readFileSync(full, "utf8"));
-              const a   = raw.acteur || raw;  // certains dumps ont "acteur" racine
-
-              // Nom/Prénom (plusieurs schémas possibles)
-              const nom     = a?.etatCivil?.ident?.nom || a?.nom || a?.nomUsuel || "";
-              const prenom  = a?.etatCivil?.ident?.prenom || a?.prenom || "";
-              const display = [cap(prenom), upper(nom)].filter(Boolean).join(" ").trim();
-
-              // Code PAxxxx : uid ou filename
-              const uidArr  = safeArray(a?.uid);
-              const code    = String(uidArr[0] || a?.id || f.replace(".json",""));
-
-              // Mandats -> rôles + groupes
-              const mandats = safeArray(a?.mandats || a?.listeMandats || a?.mandat);
-              const roles = new Set();
-              const groupes = new Set();
-
-              for (const m of mandats) {
-                const type = (m?.typeOrgane || m?.type || "").toUpperCase();
-                if (type.includes("ASSEMBLEE")) roles.add("depute");
-                if (type.includes("SENAT"))      roles.add("senateur");
-                if (type.includes("GOUVERNEMENT")) roles.add("ministre");
-
-                const org = m?.organismeRef || m?.organeRef || m?.organeUid || "";
-                if (/^PO\d+$/i.test(org)) groupes.add(String(org).toUpperCase());
+          function findMainGroup(mandats){
+            // On tente de repérer un mandat lié à un groupe parlementaire (GP)
+            for (const m of Array.isArray(mandats) ? mandats : []) {
+              const orgRef = String(m.organeRef || '');
+              const og = organes[orgRef];
+              if (!og) continue;
+              const t = (og.codeType || '').toUpperCase();
+              if (t.includes('GP') || og.libelle?.toLowerCase().includes('groupe')) {
+                return { code: og.code, libelle: og.libelle };
               }
-
-              // Groupes libellés
-              const groupesArr = Array.from(groupes);
-              const groupesLib = groupesArr.map(c => ({ code: c, libelle: organesMap.get(c) || c }));
-
-              out.push({
-                code,                    // ex: PA410
-                nom: display,            // "Prénom NOM"
-                roles: Array.from(roles),// ["depute","senateur","ministre"] selon mandats
-                groupes: groupesArr,     // ["POXXXX", ...]
-                groupesLibelles: groupesLib
-              });
-
-            } catch (e) {
-              console.warn("Skip file (parse) :", f, e.message);
             }
+            return null;
           }
 
-          // Tri simple par nom pour stabilité
-          out.sort((a,b)=>a.nom.localeCompare(b.nom, 'fr'));
+          // --- 3) Parcours des acteurs (PAxxxx.json)
+          const out = [];
+          let seen = 0;
 
-          fs.writeFileSync("data/an_actors.json", JSON.stringify(out, null, 2));
-          console.log(`✅ Généré data/an_actors.json avec ${out.length} entrées.`);
+          for (const f of listJsonFiles(ACTEUR_DIR)) {
+            const code = path.basename(f, '.json'); // "PAxxxx"
+            const j = readJson(f);
+            if (!j) continue;
+
+            // Structure AMO : mandats au niveau racine ou sous-clés
+            const mandats = j.mandats || j.mandat || j.mandatsSanction || j.Mandats || [];
+
+            const item = {
+              code,
+              nom: pickName(j),
+              roles: detectRolesFromMandats(mandats)
+            };
+
+            const grp = findMainGroup(mandats);
+            if (grp) item.groupe = grp;
+
+            out.push(item);
+            seen++;
+          }
+
+          // --- 4) Sortie
+          fs.mkdirSync(OUT_DIR, { recursive: true });
+          fs.writeFileSync(OUT_FILE, JSON.stringify(out, null, 2), 'utf8');
+
+          console.log(`Écrit ${OUT_FILE} avec ${seen} entrées (acteurs).`);
           NODE
 
-      - name: Commit & push si changé
+      - name: Commit & push si modifications
         run: |
-          if git diff --quiet -- data/an_actors.json; then
-            echo "Aucun changement."
-            exit 0
+          set -e
+          if [ -n "$(git status --porcelain data/an_actors.json)" ]; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add data/an_actors.json
+            git commit -m "build(an): update data/an_actors.json"
+            git push
+          else
+            echo "Aucun changement à committer."
           fi
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/an_actors.json
-          git commit -m "chore(an): update data/an_actors.json"
-          git push
