@@ -1,35 +1,41 @@
-name: Update senateur.json
+name: Update sénateurs (ODSEN_ACTUEL)
 
 on:
-  workflow_dispatch:        # lancer manuellement dans l'onglet Actions
+  workflow_dispatch:        # déclenchement manuel depuis l’onglet Actions
   schedule:
-    - cron: "0 5 * * 1"     # chaque lundi 05:00 UTC
+    - cron: "0 6 * * *"     # tous les jours à 06:00 UTC (modifie si besoin)
 
 permissions:
-  contents: write
+  contents: write           # nécessaire pour pousser le commit
 
 jobs:
   update-senateur:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          persist-credentials: false
+          persist-credentials: false   # on utilisera GITHUB_TOKEN explicitement
 
-      - name: Télécharger le JSON officiel du Sénat
+      - name: Download ODSEN_ACTUEL.json (sénateurs en exercice)
         run: |
+          set -euo pipefail
           mkdir -p senateur
-          curl -sL "https://data.senat.fr/data/senateurs/ODSEN_GENERAL.json" \
+          curl -fSL "https://data.senat.fr/data/senateurs/ODSEN_ACTUEL.json" \
             -o senateur/senateur_raw.json
+          # Vérifie que le fichier n'est pas vide
           test -s senateur/senateur_raw.json
 
-      - name: Commit & push si modifié
+      - name: Commit & push if changed
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          set -e
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add senateur/senateur_raw.json
-          git commit -m "chore(senat): update senateur_raw.json" || exit 0
-          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git HEAD:${{ github.ref_name }}
+          # Ne pas échouer si aucun changement
+          git commit -m "chore(senat): update senateur_raw.json (ODSEN_ACTUEL)" || exit 0
+          # Push sur la branche courante (main par défaut)
+          git push "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git" HEAD:${{ github.ref_name }}
