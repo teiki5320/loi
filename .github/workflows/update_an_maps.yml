@@ -1,0 +1,109 @@
+name: Build AN maps (PA/PO) from archive
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "23 5 * * *"   # tous les jours à 05:23 UTC
+
+permissions:
+  contents: write
+
+jobs:
+  build-maps:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Prepare folders
+        run: |
+          set -e
+          mkdir -p data/an16
+          mkdir -p deputes
+
+      - name: Download AN archive (ZIP JSON)
+        run: |
+          set -e
+          if [ -z "${{ vars.AN_ARCHIVE_URL }}" ]; then
+            echo "❌ AN_ARCHIVE_URL non défini (Settings > Actions > Variables)."
+            exit 1
+          fi
+          curl -fSL "${{ vars.AN_ARCHIVE_URL }}" -o data/an16/amo_archive.zip
+          test -s data/an16/amo_archive.zip
+
+      - name: Unzip archive
+        run: |
+          set -e
+          cd data/an16
+          rm -f amo.json
+          unzip -o amo_archive.zip
+          # cherche le premier .json extrait et le renomme en amo.json
+          JSON_FILE=$(ls -1 *.json | head -n1)
+          if [ -z "$JSON_FILE" ]; then
+            echo "❌ Aucun .json trouvé dans l'archive."
+            ls -la
+            exit 1
+          fi
+          mv "$JSON_FILE" amo.json
+          echo "✅ JSON racine: data/an16/amo.json"
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Build acteurs_map.json & organes_map.json
+        run: |
+          node - <<'NODE'
+          const fs = require('fs');
+          const path = 'data/an16/amo.json';
+          if (!fs.existsSync(path)) {
+            console.error('❌ Fichier JSON introuvable:', path);
+            process.exit(1);
+          }
+          const data = JSON.parse(fs.readFileSync(path, 'utf8'));
+
+          const acteurs = Array.isArray(data?.acteurs) ? data.acteurs : [];
+          const organes = Array.isArray(data?.organes) ? data.organes : [];
+
+          // acteurs_map: PAxxxx -> "Prénom Nom"
+          const acteursMap = {};
+          for (const a of acteurs) {
+            const id = String(a?.uid || '').toUpperCase();
+            const nom = a?.etatCivil?.nom || a?.nom || '';
+            const prenom = a?.etatCivil?.prenom || a?.prenom || '';
+            if (id.startsWith('PA') && (nom || prenom)) {
+              const label = [prenom, nom].filter(Boolean).join(' ').trim();
+              if (label) acteursMap[id] = label;
+            }
+          }
+
+          // organes_map: POxxxx -> "SIGLE — Libellé" (ou libellé seul)
+          const organesMap = {};
+          for (const o of organes) {
+            const id = String(o?.uid || '').toUpperCase();
+            if (!id.startsWith('PO')) continue;
+            const sigle = o?.sigle || '';
+            const libelle = o?.libelle || '';
+            const label = sigle ? (libelle ? `${sigle} — ${libelle}` : sigle)
+                                : (libelle || id);
+            organesMap[id] = label;
+          }
+
+          fs.writeFileSync('deputes/acteurs_map.json', JSON.stringify(acteursMap, null, 2));
+          fs.writeFileSync('deputes/organes_map.json', JSON.stringify(organesMap, null, 2));
+          console.log(`✅ acteurs_map.json: ${Object.keys(acteursMap).length} entrées`);
+          console.log(`✅ organes_map.json: ${Object.keys(organesMap).length} entrées`);
+          NODE
+
+      - name: Commit & push if changed
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add deputes/*.json data/an16/*
+            git commit -m "chore(an): update acteurs/organes maps from archive"
+            git push
+          else
+            echo "No changes."
+          fi
