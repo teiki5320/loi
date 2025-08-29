@@ -1,203 +1,168 @@
 // scripts/build_an_actors.mjs
-// Fusionne acteurs (PA…) + organes (PO…) en data/an_actors.json
+// Fusionne les acteurs (PA...) et les organes (PO...) de l'archive AN v16
+// -> écrit data/an_actors.json {code, nom, type, roles[]}
 
-import { promises as fs } from 'node:fs';
-import path from 'node:path';
-import url from 'node:url';
+import { promises as fs } from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
-const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
+const __filename = fileURLToPath(import.meta.url);
+const __dirname  = path.dirname(__filename);
 
-// --- Réglages I/O -----------------------------------------------------------
-const OUT_FILE = path.resolve(__dirname, '..', 'data', 'an_actors.json');
+// --- Répertoires d'entrée/sortie
+const ROOT        = path.resolve(__dirname, '..');             // .../scripts/..
+const DATA_DIR    = path.resolve(ROOT, 'data');                // .../data
+const ACTEUR_DIR  = path.resolve(DATA_DIR, 'an16/json/acteur');
+const ORGANE_DIR  = path.resolve(DATA_DIR, 'an16/json/organe');
+const OUT_PATH    = path.resolve(DATA_DIR, 'an_actors.json');
 
-// Emplacements possibles (on prend ceux qui existent)
-const DIRS = {
-  acteur: [
-    path.resolve(__dirname, '..', 'data', 'an16', 'json', 'acteur'),
-    path.resolve(__dirname, '..', 'json', 'acteur'),
-  ],
-  organe: [
-    path.resolve(__dirname, '..', 'data', 'an16', 'json', 'organe'),
-    path.resolve(__dirname, '..', 'json', 'organe'),
-  ],
-};
-
-// --- Helpers FS -------------------------------------------------------------
-async function dirExists(p) {
-  try { return (await fs.stat(p)).isDirectory(); }
-  catch { return false; }
-}
-
+// --- Utilitaires
 async function listJsonFiles(dir) {
-  if (!(await dirExists(dir))) return [];
-  const entries = await fs.readdir(dir, { withFileTypes: true });
-  return entries
-    .filter(d => d.isFile() && d.name.toLowerCase().endsWith('.json'))
-    .map(d => path.join(dir, d.name))
-    .sort();
+  try {
+    const files = await fs.readdir(dir, { withFileTypes: true });
+    return files
+      .filter(d => d.isFile() && d.name.toLowerCase().endsWith('.json'))
+      .map(d => path.join(dir, d.name));
+  } catch {
+    return [];
+  }
 }
 
-async function chooseFirstExisting(dirs) {
-  for (const d of dirs) if (await dirExists(d)) return d;
-  return null;
-}
-
-async function readJSON(file) {
+async function readJsonSafely(file) {
   try {
     const raw = await fs.readFile(file, 'utf8');
     return JSON.parse(raw);
-  } catch (e) {
-    console.warn('JSON invalide/illisible :', file, e.message);
+  } catch {
     return null;
   }
 }
 
-// --- Normalisation lisible --------------------------------------------------
+function clean(s) {
+  if (s == null) return '';
+  return String(s).replace(/\s+/g, ' ').trim();
+}
+
+function uniq(arr) {
+  return Array.from(new Set(arr.filter(Boolean)));
+}
+
+// --- Mappings simples
 const ORG_TYPE_LABEL = new Map([
-  // codeType -> libellé plus lisible
-  ['ASSEMBLEE', 'Assemblée nationale'],
-  ['GP',        'Groupe politique'],
-  ['GA',        'Groupe d’amitié'],
-  ['GE',        'Groupe d’études'],
-  ['COMPER',    'Commission permanente'],
-  ['CNPE',      'Commission / Délégation'],
-  ['DELEG',     'Délégation'],
-  ['POLE',      'Pôle'],
-  ['ORGEXTPARL','Organe extra-parlementaire'],
-  ['PARPOL',    'Parti / formation politique'],
+  ['ASSEMBLEE', 'Assemblée'],
+  ['POLEG', 'Pôle législatif'],
+  ['GE', 'Groupe d’études'],
+  ['GP', 'Groupe politique'],
+  ['COMPER', 'Commission permanente'],
+  ['CNPE', 'Commission d’enquête / mission'],
+  ['PARPOL', 'Parti politique'],
+  ['MINISTERE', 'Ministère'],
+  ['ORGEXTPARL', 'Organe extra-parlementaire']
+  // ... on pourra en ajouter si besoin
 ]);
 
 function humanizeOrgType(o) {
-  const t = o?.codeType || o?.@xsi_type || o?.type || '';
+  const t =
+    o?.codeType ||
+    o?.['xsi:type'] ||   // si l’attribut est stocké sans '@'
+    o?.['@xsi:type'] ||  // si vraiment "@xsi:type"
+    o?.type ||
+    '';
   return ORG_TYPE_LABEL.get(t) || (t || 'Organe');
 }
 
-function safeText(v) {
-  if (v == null) return '';
-  if (typeof v === 'string') return v;
-  // uid peut être { "#text": "PA1234", ... }
-  if (typeof v === 'object' && '#text' in v) return String(v['#text']);
-  return String(v);
-}
+// --- Extraction Acteur (PA…)
+function extractActor(obj) {
+  const a = obj?.acteur;
+  if (!a) return null;
 
-// --- Lecture ORGANE (PO...) -------------------------------------------------
-async function loadOrganes() {
-  const base = await chooseFirstExisting(DIRS.organe);
-  if (!base) return new Map();
+  const code = clean(a?.uid?.['#text'] || a?.uid || '');
+  if (!code) return null;
 
-  const files = await listJsonFiles(base);
-  const map = new Map();
+  const nom = clean(
+    [
+      a?.etatCivil?.ident?.prenom,
+      a?.etatCivil?.ident?.nom
+    ].filter(Boolean).join(' ')
+  ) || clean(a?.etatCivil?.ident?.alpha) || '';
 
-  for (const f of files) {
-    const j = await readJSON(f);
-    if (!j) continue;
-
-    // Plusieurs exports ont une racine { organe: {...} }
-    const o = j.organe ?? j;
-    const code = safeText(o?.uid);
-    if (!code || !/^PO\d{3,}/.test(code)) continue;
-
-    const libelle =
-      o?.libelleEdition ||
-      o?.libelleAbrege ||
-      o?.libelle ||
-      o?.name ||
-      '';
-
-    map.set(code, {
-      code,
-      type: humanizeOrgType(o),
-      libelle: libelle || code,
-    });
+  // Rôles : on prend les types d’organes + libellés
+  const roles = [];
+  const mandats = a?.mandats?.mandat;
+  const arr = Array.isArray(mandats) ? mandats : (mandats ? [mandats] : []);
+  for (const m of arr) {
+    const typeOrg = clean(m?.typeOrgane);
+    if (!typeOrg) continue;
+    const qual = clean(m?.infosQualite?.libQualite || m?.infosQualite?.codeQualite);
+    const label = ORG_TYPE_LABEL.get(typeOrg) || typeOrg;
+    roles.push(qual ? `${label} — ${qual}` : label);
   }
 
-  return map;
+  return {
+    code,                          // PAxxxx
+    nom: nom || '(Acteur sans nom)',
+    type: 'Acteur',
+    roles: uniq(roles)
+  };
 }
 
-// --- Lecture ACTEUR (PA...) -------------------------------------------------
-async function loadActeurs(organesMap) {
-  const base = await chooseFirstExisting(DIRS.acteur);
-  if (!base) return [];
+// --- Extraction Organe (PO…)
+function extractOrgane(obj) {
+  const o = obj?.organe;
+  if (!o) return null;
 
-  const files = await listJsonFiles(base);
+  const code = clean(o?.uid || '');
+  if (!code) return null;
+
+  const lib =
+    clean(o?.libelleEdition) ||
+    clean(o?.libelleAbrege) ||
+    clean(o?.libelle) ||
+    '';
+
+  return {
+    code,                          // POxxxxx
+    nom: lib || '(Organe sans libellé)',
+    type: humanizeOrgType(o),
+    roles: []                      // pas de rôles ici
+  };
+}
+
+async function main() {
+  // Vérifie la présence des dossiers
+  const actorFiles = await listJsonFiles(ACTEUR_DIR);
+  const orgFiles   = await listJsonFiles(ORGANE_DIR);
+
+  if (!actorFiles.length && !orgFiles.length) {
+    console.error('⚠️ Aucun JSON trouvé dans data/an16/json/{acteur,organe}.');
+  }
+
   const out = [];
 
-  for (const f of files) {
-    const j = await readJSON(f);
-    if (!j) continue;
-
-    // Racine la plus fréquente : { acteur: {...} }
-    const a = j.acteur ?? j;
-    const code = safeText(a?.uid);
-    if (!code || !/^PA\d{3,}/.test(code)) continue;
-
-    // Nom lisible
-    const nom =
-      [a?.etatCivil?.ident?.prenom, a?.etatCivil?.ident?.nom]
-        .filter(Boolean)
-        .join(' ')
-      || a?.etatCivil?.ident?.alpha
-      || '';
-
-    // Rôles : parcourir mandats -> organeRef -> libellé/orgType
-    const roles = [];
-    const mandatsRaw = a?.mandats?.mandat;
-    const mandats = Array.isArray(mandatsRaw)
-      ? mandatsRaw
-      : (mandatsRaw ? [mandatsRaw] : []);
-
-    for (const m of mandats) {
-      const orgRef = m?.organes?.organeRef;
-      if (!orgRef || !organesMap.has(orgRef)) continue;
-      const og = organesMap.get(orgRef);
-      const qual = m?.infosQualite?.libQualite || m?.infosQualite?.codeQualite;
-      const label = qual ? `${og.type} — ${og.libelle} (${qual})` : `${og.type} — ${og.libelle}`;
-      roles.push(label);
-    }
-
-    out.push({
-      code,               // "PAxxxxx"
-      nom: nom || code,   // "Prénom Nom"
-      type: 'Acteur',
-      roles: Array.from(new Set(roles)).slice(0, 20),
-    });
+  // Acteurs (PA…)
+  for (const f of actorFiles) {
+    const j = await readJsonSafely(f);
+    const rec = extractActor(j);
+    if (rec) out.push(rec);
   }
 
-  return out;
+  // Organes (PO…)
+  for (const f of orgFiles) {
+    const j = await readJsonSafely(f);
+    const rec = extractOrgane(j);
+    if (rec) out.push(rec);
+  }
+
+  // Tri par code pour stabilité
+  out.sort((a, b) => a.code.localeCompare(b.code));
+
+  // Écrit la sortie
+  await fs.mkdir(DATA_DIR, { recursive: true });
+  await fs.writeFile(OUT_PATH, JSON.stringify(out, null, 2), 'utf8');
+
+  console.log(`✅ ${out.length} entrées écrites dans ${path.relative(ROOT, OUT_PATH)}`);
 }
 
-// --- Entrée / fusion / sortie ----------------------------------------------
-async function main() {
-  console.log('→ Lecture organes (PO)…');
-  const organesMap = await loadOrganes();
-  console.log(`   ${organesMap.size} organes`);
-
-  console.log('→ Lecture acteurs (PA)…');
-  const acteurs = await loadActeurs(organesMap);
-  console.log(`   ${acteurs.length} acteurs`);
-
-  // Ajouter aussi les organes (PO) en tant qu’entrées consultables
-  const organesArray = [...organesMap.values()].map(o => ({
-    code: o.code,
-    nom: o.libelle,
-    type: 'Organe',
-    roles: [], // pas de rôles pour les PO eux-mêmes
-  }));
-
-  const merged = [...acteurs, ...organesArray];
-
-  // Sort par code (PA… puis PO… naturellement)
-  merged.sort((a, b) => a.code.localeCompare(b.code, 'fr'));
-
-  // Écriture
-  await fs.mkdir(path.dirname(OUT_FILE), { recursive: true });
-  await fs.writeFile(OUT_FILE, JSON.stringify(merged, null, 2) + '\n', 'utf8');
-
-  console.log(`✓ Écrit ${merged.length} entrées → ${path.relative(process.cwd(), OUT_FILE)}`);
-}
-
-// Lancer
 main().catch(err => {
-  console.error('Erreur build_an_actors:', err);
+  console.error('❌ build_an_actors.mjs failed:', err);
   process.exit(1);
 });
