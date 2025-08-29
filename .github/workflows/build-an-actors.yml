@@ -3,7 +3,7 @@ name: Build AN actors (codes + rôles)
 on:
   workflow_dispatch:
   schedule:
-    - cron: "27 5 * * *"   # chaque jour 05:27 UTC
+    - cron: "27 5 * * *"
 
 permissions:
   contents: write
@@ -30,8 +30,7 @@ jobs:
           cd data/an16
           rm -rf json
           unzip -o amo.zip
-          echo "== listing =="
-          find json -maxdepth 2 -type f -name '*.json' | head -n 20
+          find json -type f -name '*.json' | head -n 20
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -42,77 +41,61 @@ jobs:
         run: |
           node - <<'NODE'
           const fs = require('fs');
+          const path = require('path');
+
           const base = 'data/an16/json';
 
-          // 1) trouver le "gros" json (AMO20_*_tous_mandats_*.json)
-          const big = fs.readdirSync(base)
-            .filter(f => f.endsWith('.json'))
-            .sort() // pas crucial
-            .find(f => /tous_mandats/i.test(f)) || fs.readdirSync(base).find(f => f.endsWith('.json'));
-
-          if (!big) {
-            console.error("❌ Gros JSON introuvable dans", base);
-            process.exit(1);
+          // Lire tous les fichiers acteurs
+          let acteurs = [];
+          const actDir = path.join(base, 'acteur');
+          if (fs.existsSync(actDir)) {
+            for (const f of fs.readdirSync(actDir)) {
+              if (!f.endsWith('.json')) continue;
+              try {
+                const a = JSON.parse(fs.readFileSync(path.join(actDir, f), 'utf8'));
+                if (a) acteurs.push(a);
+              } catch {}
+            }
           }
 
-          const data = JSON.parse(fs.readFileSync(`${base}/${big}`, 'utf8'));
-
-          // 2) petite map des organes pour reconnaître Assemblée/Sénat/Gouvernement
-          const organes = {};
-          for (const o of (data.organes || [])) {
-            const uid = String(o?.uid || '').toUpperCase();
-            if (!uid) continue;
-            organes[uid] = {
-              type: (o?.codeType || o?.type || '').toUpperCase(),
-              libelle: o?.libelle || '',
-              sigle: o?.sigle || ''
-            };
+          // Lire tous les fichiers organes
+          let organes = {};
+          const orgDir = path.join(base, 'organe');
+          if (fs.existsSync(orgDir)) {
+            for (const f of fs.readdirSync(orgDir)) {
+              if (!f.endsWith('.json')) continue;
+              try {
+                const o = JSON.parse(fs.readFileSync(path.join(orgDir, f), 'utf8'));
+                if (o?.uid) organes[o.uid.toUpperCase()] = o;
+              } catch {}
+            }
           }
 
-          // heuristiques reconnues dans l’AMO :
-          // - ASSEMBLEE => député
-          // - SENAT     => sénateur
-          // - GOUVERNEMENT, EXECUTIF, MINISTERE, MINISTRES => ministre
-          const isDep   = t => /ASSEMBLEE/.test(t);
-          const isSen   = t => /SENAT/.test(t);
-          const isGov   = t => /(GOUVERN|EXECUTIF|MINIST)/.test(t);
+          const isDep = t => /ASSEMBLEE/.test(t);
+          const isSen = t => /SENAT/.test(t);
+          const isGov = t => /(GOUVERN|EXECUTIF|MINIST)/.test(t);
 
           const out = [];
 
-          for (const a of (data.acteurs || [])) {
+          for (const a of acteurs) {
             const code = String(a?.uid || '').toUpperCase();
-            if (!code.startsWith('PA')) continue; // on ne garde que les personnes (PAxxxx)
+            if (!code.startsWith('PA')) continue;
 
-            // nom/prénom
-            const prenom = a?.etatCivil?.prenom || a?.prenom || '';
-            const nom    = a?.etatCivil?.nom    || a?.nom    || '';
-
-            // 3) récupérer les rôles à partir des mandats/fonctions
+            const prenom = a?.etatCivil?.prenom || '';
+            const nom = a?.etatCivil?.nom || '';
             const roles = new Set();
 
-            const mandats = a?.mandats || a?.listeMandats || [];
+            const mandats = a?.mandats || [];
             for (const m of mandats) {
-              // mandat actif ou dernier mandat (on prend tout, on dédupliquera)
-              const orgRef = String(m?.organeRef || m?.organeRef?.uid || '').toUpperCase();
-              const org    = organes[orgRef];
-              const t      = org?.type || (m?.typeOrgane || '').toUpperCase();
-
+              const orgRef = String(m?.organeRef || '').toUpperCase();
+              const org = organes[orgRef];
+              const t = org?.codeType || org?.type || '';
               if (isDep(t)) roles.add('depute');
               if (isSen(t)) roles.add('senateur');
               if (isGov(t)) roles.add('ministre');
             }
 
-            // parfois l’info vient des fonctions/organes liés
-            const fonctions = a?.fonctions || a?.fonction || [];
-            for (const f of fonctions) {
-              const orgRef = String(f?.organeRef || '').toUpperCase();
-              const t      = organes[orgRef]?.type || '';
-              if (isDep(t)) roles.add('depute');
-              if (isSen(t)) roles.add('senateur');
-              if (isGov(t)) roles.add('ministre');
-            }
-
-            if (roles.size === 0) continue; // on ne sort que ceux qui ont au moins un rôle demandé
+            if (roles.size === 0) continue;
 
             out.push({
               code,
@@ -122,8 +105,7 @@ jobs:
             });
           }
 
-          // tri stable : députés/sénateurs/ministres d’abord par nom
-          out.sort((a,b) => (a.nom || '').localeCompare(b.nom || '', 'fr', {sensitivity:'base'}) || (a.prenom||'').localeCompare(b.prenom||'', 'fr', {sensitivity:'base'}));
+          out.sort((a,b) => (a.nom||'').localeCompare(b.nom||'', 'fr') || (a.prenom||'').localeCompare(b.prenom||'', 'fr'));
 
           fs.writeFileSync('deputes/an_actors.json', JSON.stringify(out, null, 2));
           console.log(`✅ an_actors.json écrit (${out.length} entrées)`);
