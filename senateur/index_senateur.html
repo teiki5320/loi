@@ -4,10 +4,11 @@
   <meta charset="utf-8" />
   <title>🏛 Sénateurs</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- Réutilise la même CSS que la page Députés -->
-  <link rel="stylesheet" href="../deputes/style_depute.css" />
+  <!-- même CSS que députés -->
+  <link rel="stylesheet" href="../style.css" />
 </head>
 <body>
+  <!-- Menu haut-gauche pour changer de page -->
   <nav class="topbar">
     <select id="nav-select" aria-label="Navigation">
       <option value="../index.html">📜 Lois</option>
@@ -18,29 +19,30 @@
 
   <header class="page-header">
     <h1>🏛 Sénateurs</h1>
+    <p>Données mises à jour automatiquement depuis le Sénat.</p>
   </header>
 
-  <main class="container">
-    <input id="search" type="search" placeholder="Rechercher (nom, groupe, département…)" />
-    <div id="senateurs" class="cards-grid"></div>
-    <pre id="err" style="margin-top:12px;color:#b00020;white-space:pre-wrap"></pre>
-  </main>
+  <!-- Barre de recherche -->
+  <section>
+    <input id="q" type="search" placeholder="Rechercher (nom, groupe, circo…)" aria-label="Recherche" />
+    <select id="groupe" aria-label="Filtrer par groupe"></select>
+    <select id="dept" aria-label="Filtrer par département"></select>
+  </section>
+
+  <!-- Compteur + erreurs -->
+  <div id="count"></div>
+  <pre id="err"></pre>
+
+  <!-- Liste en cartes -->
+  <main id="senateurs-list" aria-live="polite"></main>
 
   <script>
-    // Navigation
-    const sel = document.getElementById("nav-select");
-    sel.addEventListener("change", e => { location.href = e.target.value; });
-
-    // Auto-sélection selon la page courante
-    (function syncSelected(){
-      const here = location.pathname.replace(/\/+$/, "");
-      for (const opt of sel.options) {
-        const url = new URL(opt.value, location.href).pathname.replace(/\/+$/, "");
-        opt.selected = (url === here);
-      }
-    })();
+    // menu de navigation
+    document.getElementById("nav-select").addEventListener("change", e => {
+      location.href = e.target.value;
+    });
   </script>
-
-  <script src="./script_senateur.js" defer></script>
+  <!-- JS spécifique sénateurs -->
+  <script src="./script_senateur.js?v=2025-08-29" defer></script>
 </body>
 </html>
