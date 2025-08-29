@@ -43,35 +43,19 @@ jobs:
           curl -fSL "${{ steps.url.outputs.url }}" -o data/an16/amo_archive.zip
           test -s data/an16/amo_archive.zip
 
-      - name: Install jq
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y jq
-
       - name: Unzip archive
         run: |
           set -e
           cd data/an16
-          rm -rf json amo.json
+          rm -rf json
           unzip -o amo_archive.zip
-          echo "Contenu extrait :"
+          echo "✅ Archive extraite. Aperçu :"
           ls -la
-          # 1) cas standard : le gros JSON est présent dans json/
-          if [ -f json/AMO20_dep_sen_min_tous_mandats_et_organes.json ]; then
-            mv json/AMO20_dep_sen_min_tous_mandats_et_organes.json amo.json
-            echo "✅ Fichier principal trouvé et renommé en amo.json"
-          else
-            # 2) fallback : fusionner tous les JSON présents dans json/
-            if ls json/*.json >/dev/null 2>&1; then
-              echo "⚠️ Fichier principal absent, on fusionne les JSON trouvés…"
-              jq -s '{acteurs: (map(.acteurs // []) | add), organes: (map(.organes // []) | add)}' json/*.json > amo.json
-            else
-              echo "❌ Aucun .json utilisable n'a été trouvé dans l'archive."
-              exit 1
-            fi
-          fi
-          test -s amo.json
-          echo "✅ JSON final: data/an16/amo.json"
+          echo "----"
+          ls -la json || true
+          echo "----"
+          ls -la json/acteur 2>/dev/null | head -n 10 || true
+          ls -la json/organe 2>/dev/null | head -n 10 || true
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -82,44 +66,60 @@ jobs:
         run: |
           node - <<'NODE'
           const fs = require('fs');
-          const path = 'data/an16/amo.json';
-          if (!fs.existsSync(path)) {
-            console.error('❌ Fichier JSON introuvable:', path);
-            process.exit(1);
+          const path = 'data/an16/json';
+
+          function safeList(dir) {
+            try { return fs.readdirSync(dir).filter(f => f.endsWith('.json')); }
+            catch { return []; }
           }
-          const data = JSON.parse(fs.readFileSync(path, 'utf8'));
 
-          const acteurs = Array.isArray(data?.acteurs) ? data.acteurs : [];
-          const organes = Array.isArray(data?.organes) ? data.organes : [];
-
-          // acteurs_map: PAxxxx -> "Prénom Nom"
+          // === Acteurs : PAxxxx -> "Prénom Nom"
           const acteursMap = {};
-          for (const a of acteurs) {
-            const id = String(a?.uid || '').toUpperCase();
-            const nom = a?.etatCivil?.nom || a?.nom || '';
-            const prenom = a?.etatCivil?.prenom || a?.prenom || '';
-            if (id.startsWith('PA') && (nom || prenom)) {
-              const label = [prenom, nom].filter(Boolean).join(' ').trim();
-              if (label) acteursMap[id] = label;
+          const acteursFiles = safeList(`${path}/acteur`);
+          for (const file of acteursFiles) {
+            try {
+              const data = JSON.parse(fs.readFileSync(`${path}/acteur/${file}`, 'utf8'));
+              const id = String(data?.uid || '').toUpperCase();
+              const prenom = data?.etatCivil?.prenom || data?.prenom || '';
+              const nom = data?.etatCivil?.nom || data?.nom || '';
+              if (id.startsWith('PA')) {
+                const label = [prenom, nom].filter(Boolean).join(' ').trim();
+                if (label) acteursMap[id] = label;
+              }
+            } catch (e) {
+              console.warn('Skip acteur file', file, e.message);
             }
           }
 
-          // organes_map: POxxxx -> "SIGLE — Libellé" (ou libellé seul)
+          // === Organes : POxxxx -> "SIGLE — Libellé" (ou libellé)
           const organesMap = {};
-          for (const o of organes) {
-            const id = String(o?.uid || '').toUpperCase();
-            if (!id.startsWith('PO')) continue;
-            const sigle = o?.sigle || '';
-            const libelle = o?.libelle || '';
-            const label = sigle ? (libelle ? `${sigle} — ${libelle}` : sigle)
-                                : (libelle || id);
-            organesMap[id] = label;
+          const organesFiles = safeList(`${path}/organe`);
+          for (const file of organesFiles) {
+            try {
+              const data = JSON.parse(fs.readFileSync(`${path}/organe/${file}`, 'utf8'));
+              const id = String(data?.uid || '').toUpperCase();
+              if (!id.startsWith('PO')) continue;
+              const sigle = data?.sigle || '';
+              const libelle = data?.libelle || '';
+              const label = sigle ? (libelle ? `${sigle} — ${libelle}` : sigle) : (libelle || id);
+              organesMap[id] = label;
+            } catch (e) {
+              console.warn('Skip organe file', file, e.message);
+            }
           }
 
+          // Ecriture
           fs.writeFileSync('deputes/acteurs_map.json', JSON.stringify(acteursMap, null, 2));
           fs.writeFileSync('deputes/organes_map.json', JSON.stringify(organesMap, null, 2));
+
           console.log(`✅ acteurs_map.json: ${Object.keys(acteursMap).length} entrées`);
           console.log(`✅ organes_map.json: ${Object.keys(organesMap).length} entrées`);
+
+          // Sanity check
+          if (!Object.keys(acteursMap).length && !Object.keys(organesMap).length) {
+            console.error('❌ Aucune entrée trouvée. Vérifier l’archive et la structure json/acteur & json/organe.');
+            process.exit(1);
+          }
           NODE
 
       - name: Commit & push if changed
