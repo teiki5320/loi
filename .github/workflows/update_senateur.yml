@@ -1,0 +1,35 @@
+name: Update senateur.json
+
+on:
+  workflow_dispatch:        # lancer manuellement dans l'onglet Actions
+  schedule:
+    - cron: "0 5 * * 1"     # chaque lundi 05:00 UTC
+
+permissions:
+  contents: write
+
+jobs:
+  update-senateur:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Télécharger le JSON officiel du Sénat
+        run: |
+          mkdir -p senateur
+          curl -sL "https://data.senat.fr/data/senateurs/ODSEN_GENERAL.json" \
+            -o senateur/senateur_raw.json
+          test -s senateur/senateur_raw.json
+
+      - name: Commit & push si modifié
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add senateur/senateur_raw.json
+          git commit -m "chore(senat): update senateur_raw.json" || exit 0
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git HEAD:${{ github.ref_name }}
