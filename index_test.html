@@ -6,189 +6,185 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
     :root{
-      --bg:#f5f7fb; --panel:#fff; --ink:#0f172a; --muted:#6b7280;
-      --border:#e5e7eb; --accent:#0d6efd; --ring:rgba(13,110,253,.25);
-      --radius:12px;
+      --bg:#f5f7fb; --ink:#0f172a; --muted:#6b7280; --panel:#fff;
+      --border:#e5e7eb; --accent:#0d6efd; --ring:rgba(13,110,253,.28);
+      --radius:12px; --shadow:0 8px 30px rgba(0,0,0,.06);
     }
     *{box-sizing:border-box}
-    body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
-    header{position:sticky;top:0;background:var(--accent);color:#fff;padding:18px 16px;box-shadow:0 2px 12px rgba(13,110,253,.25);z-index:5}
-    header h1{margin:0;font-size:clamp(18px,2.4vw,22px)}
-    main{max-width:1100px;margin:16px auto;padding:0 12px}
-    .toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:8px 0 14px}
-    .toolbar input[type="search"]{flex:1 1 420px;min-width:220px}
-    .toolbar .chips{display:flex;gap:8px;flex-wrap:wrap}
-    .chip{border:1px solid var(--border);background:#fff;border-radius:999px;padding:6px 10px;font-size:14px;cursor:pointer}
-    .chip.active{background:#eef4ff;border-color:#cfe0ff}
-    input[type="search"]{
-      background:#fff;border:1px solid var(--border);border-radius:10px;padding:10px 12px;width:100%;
-    }
-    input[type="search"]:focus{outline:none;box-shadow:0 0 0 4px var(--ring);border-color:#bcd0ff}
+    body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.45 system-ui,-apple-system,Segoe UI,Roboto,Arial}
+    .top{position:sticky;top:0;z-index:5;background:var(--accent);color:#fff;padding:18px 16px;box-shadow:0 2px 12px rgba(13,110,253,.25)}
+    .top h1{margin:0;font-size:20px}
+    .wrap{max-width:1100px;margin:14px auto;padding:0 12px}
+    .bar{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+    input[type="search"]{flex:1 1 420px;min-width:240px;background:#fff;border:1px solid var(--border);border-radius:10px;padding:10px 12px}
+    input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 4px var(--ring)}
+    .pill{background:#fff;border:1px solid var(--border);border-radius:999px;padding:8px 12px;cursor:pointer}
+    .pill[aria-pressed="true"]{background:#eef4ff;border-color:#c7d8ff}
+    .count{color:var(--muted);font-size:14px;margin-top:6px}
+
+    .table{margin-top:10px;background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden}
+    table{width:100%;border-collapse:collapse}
+    th,td{padding:12px;border-bottom:1px solid var(--border);vertical-align:top}
+    th{background:#f8fafc;text-align:left;font-weight:700;font-size:14px;color:#111827}
+    td{font-size:15px}
     .muted{color:var(--muted)}
-    .table{width:100%;border-collapse:separate;border-spacing:0;background:var(--panel);border:1px solid var(--border);border-radius:12px;overflow:hidden}
-    .table th,.table td{padding:10px 12px;border-bottom:1px solid var(--border);vertical-align:top}
-    .table thead th{background:#f8fafc;font-weight:700}
-    .table tr:last-child td{border-bottom:none}
-    .right{text-align:right}
-    .count{margin:6px 0 12px;color:var(--muted)}
-    @media (max-width:640px){
-      .table th:nth-child(3), .table td:nth-child(3){display:none} /* cache colonne Type sur mobile si besoin */
-    }
   </style>
 </head>
 <body>
-  <header><h1>Test acteurs AN -- recherche par code</h1></header>
+  <header class="top">
+    <div class="wrap"><h1>Test acteurs AN -- recherche par code</h1></div>
+  </header>
 
-  <main>
-    <div class="toolbar">
-      <input id="q" type="search" placeholder="Rechercher (code, nom, type, rôles)..." autocomplete="off" />
-      <div class="chips">
-        <button class="chip active" data-filter="all">Tout</button>
-        <button class="chip" data-filter="PA">Acteurs (PA)</button>
-        <button class="chip" data-filter="PO">Organes (PO)</button>
-      </div>
+  <main class="wrap">
+    <div class="bar">
+      <input id="q" type="search" placeholder="Rechercher (code, nom, type, rôles)…" />
+      <button class="pill" id="f-all" aria-pressed="true">Tout</button>
+      <button class="pill" id="f-pa"  aria-pressed="false">Acteurs (PA)</button>
+      <button class="pill" id="f-po"  aria-pressed="false">Organes (PO)</button>
     </div>
+    <div class="count" id="count">--</div>
 
-    <div id="count" class="count">Chargement…</div>
-
-    <table class="table" aria-describedby="count">
-      <thead>
-        <tr>
-          <th style="width:120px">Code</th>
-          <th>Nom / Libellé</th>
-          <th style="width:220px">Type</th>
-          <th>Rôles</th>
-        </tr>
-      </thead>
-      <tbody id="rows">
-        <tr><td colspan="4" class="muted">Chargement…</td></tr>
-      </tbody>
-    </table>
+    <section class="table">
+      <table aria-live="polite">
+        <thead>
+          <tr>
+            <th style="width:140px">Code</th>
+            <th>Nom / Libellé</th>
+            <th style="width:160px">Type</th>
+            <th>Rôles</th>
+          </tr>
+        </thead>
+        <tbody id="rows">
+          <tr><td colspan="4" class="muted">Chargement…</td></tr>
+        </tbody>
+      </table>
+    </section>
   </main>
 
   <script>
-  const $ = s => document.querySelector(s);
-  const rowsEl = $("#rows");
-  const qEl = $("#q");
-  const countEl = $("#count");
-  const chips = Array.from(document.querySelectorAll(".chip"));
+  (()=>{
+    const $ = s => document.querySelector(s);
+    const rowsEl = $("#rows");
+    const countEl = $("#count");
+    const qEl = $("#q");
+    const pills = { all: $("#f-all"), pa: $("#f-pa"), po: $("#f-po") };
 
-  let DATA = [];       // contenu brut depuis data/an_actors.json
-  let VIEW = [];       // vue filtrée
+    let RAW = [];   // brut du JSON
+    let DATA = [];  // normalisé (code/nom/type/roles[])
+    let filterType = "all"; // all | pa | po
+    let q = "";
 
-  // Déduit un libellé de type lisible pour une entrée
-  function labelType(x){
-    const code = String(x.code||"");
-    if(code.startsWith("PO")){
-      // pour PO, on essaye: x.type || x.codeType || x.libelleAbrege
-      const bits = [];
-      bits.push("Organe");
-      if(x.type) bits.push(x.type);
-      else if(x.codeType) bits.push(x.codeType);
-      else if(x.libelleAbrege) bits.push(x.libelleAbrege);
-      return bits.filter(Boolean).join(" -- ");
+    const normText = v => (v ?? "").toString();
+    const textOf = v => (typeof v === "object" && v) ? (v["#text"] ?? v._ ?? "") : v;
+
+    function normalizeEntry(x){
+      // code / uid parfois objets: {"#text":"PA1206"}
+      const rawCode = x.code ?? x.uid ?? "";
+      const code = normText(textOf(rawCode)).toUpperCase();
+
+      // Type lisible
+      const type =
+        x.type ?? x.codeType ??
+        (code.startsWith("PA") ? "Acteur" :
+         code.startsWith("PO") ? "Organe" : "");
+
+      // Nom / libellé
+      const nom =
+        x.nom ??
+        x.libelle ??
+        x.libelleEdition ??
+        (x.etatCivil && x.etatCivil.ident && (x.etatCivil.ident.nom || x.etatCivil.ident.prenom) ?
+          [x.etatCivil.ident.prenom, x.etatCivil.ident.nom].filter(Boolean).join(" ") : "") ??
+        "";
+
+      // Rôles (tableau de chaînes)
+      let roles = [];
+      if (Array.isArray(x.roles)) {
+        roles = x.roles.map(r => typeof r === "string" ? r : (r.lib || r.type || JSON.stringify(r)));
+      } else if (x.mandats && Array.isArray(x.mandats)) {
+        roles = x.mandats.map(m => m.typeOrgane || m.type || "").filter(Boolean);
+      }
+      return { code, nom: normText(nom), type: normText(type), roles };
     }
-    // Acteur : essaye de déduire à partir de ses rôles
-    if (Array.isArray(x.roles) && x.roles.length){
-      const types = [...new Set(x.roles.map(r => r.type).filter(Boolean))];
-      if (types.length) return "Acteur ("+types.join(", ")+")";
+
+    async function load(){
+      try{
+        const url = "data/an_actors.json?v=" + Date.now();
+        const r = await fetch(url, {cache:"no-store"});
+        if(!r.ok) throw new Error("HTTP "+r.status);
+        RAW = await r.json();
+
+        // Certains builds stockent la liste sous {items:[]}
+        const arr = Array.isArray(RAW) ? RAW : (RAW.items || RAW.data || []);
+        DATA = arr.map(normalizeEntry).filter(e => e.code);
+
+        render();
+      }catch(e){
+        rowsEl.innerHTML = `<tr><td colspan="4" class="muted">Erreur de chargement.</td></tr>`;
+        console.error(e);
+      }
     }
-    return "Acteur";
-  }
 
-  // Formatte les rôles pour affichage court
-  function labelRoles(x){
-    if (!Array.isArray(x.roles) || !x.roles.length) return "--";
-    // On accepte plusieurs formes possibles: {type, libelle, organe, legislature, qualite}
-    return x.roles.slice(0,6).map(r=>{
-      const t = r.type || r.codeType || "";
-      const org = r.organe || r.organeRef || r.org || "";
-      const qual = r.qualite || r.libQualite || r.role || "";
-      const leg = r.legislature ? ` (L${r.legislature})` : "";
-      const segs = [qual || t, org].filter(Boolean).join(" -- ");
-      return segs ? (segs + leg) : (t || "rôle");
-    }).join(" · ");
-  }
+    function applyFilters(){
+      let list = DATA;
+      if (filterType === "pa") list = list.filter(x => x.code.startsWith("PA"));
+      if (filterType === "po") list = list.filter(x => x.code.startsWith("PO"));
 
-  // Rendu tableau
-  function render(list){
-    if(!list.length){
-      rowsEl.innerHTML = `<tr><td colspan="4" class="muted">Aucun résultat.</td></tr>`;
-      countEl.textContent = "0 résultat";
-      return;
+      const needle = q.trim().toLowerCase();
+      if (needle){
+        list = list.filter(x =>
+          x.code.toLowerCase().includes(needle) ||
+          x.nom.toLowerCase().includes(needle)  ||
+          x.type.toLowerCase().includes(needle) ||
+          (x.roles.join(" • ").toLowerCase().includes(needle))
+        );
+      }
+      return list;
     }
-    const html = list.map(x => `
-      <tr>
-        <td><code>${escapeHTML(x.code||"")}</code></td>
-        <td>${escapeHTML(x.nom || x.libelle || x.libelleEdition || "--")}</td>
-        <td>${escapeHTML(labelType(x))}</td>
-        <td>${escapeHTML(labelRoles(x))}</td>
-      </tr>
-    `).join("");
-    rowsEl.innerHTML = html;
-    countEl.textContent = `${list.length} résultat${list.length>1?"s":""}`;
-  }
 
-  function escapeHTML(s){
-    return (s??"").toString()
+    function render(){
+      const list = applyFilters();
+      countEl.textContent = `${list.length} résultat${list.length>1?"s":""}`;
+
+      if (!list.length){
+        rowsEl.innerHTML = `<tr><td colspan="4" class="muted">Aucun résultat.</td></tr>`;
+        return;
+      }
+
+      rowsEl.innerHTML = list.map(x => `
+        <tr>
+          <td>${escapeHTML(x.code)}</td>
+          <td>${escapeHTML(x.nom || "--")}</td>
+          <td>${escapeHTML(x.type || "--")}</td>
+          <td>${escapeHTML(x.roles && x.roles.length ? x.roles.join(" • ") : "--")}</td>
+        </tr>
+      `).join("");
+    }
+
+    function setFilter(type){
+      filterType = type;
+      pills.all.setAttribute("aria-pressed", type==="all");
+      pills.pa .setAttribute("aria-pressed", type==="pa");
+      pills.po .setAttribute("aria-pressed", type==="po");
+      render();
+    }
+
+    function escapeHTML(s){ return (s??"").toString()
       .replace(/&/g,"&amp;").replace(/</g,"&lt;")
-      .replace(/>/g,"&gt;").replace(/"/g,"&quot;");
-  }
+      .replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
 
-  // Filtrage global
-  function applyFilters(){
-    const q = qEl.value.trim().toLowerCase();
-    const active = chips.find(c=>c.classList.contains("active"))?.dataset.filter || "all";
-    VIEW = DATA.filter(x=>{
-      // Filtre PA/PO
-      if (active==="PA" && !String(x.code||"").startsWith("PA")) return false;
-      if (active==="PO" && !String(x.code||"").startsWith("PO")) return false;
+    // Events
+    pills.all.addEventListener("click", ()=>setFilter("all"));
+    pills.pa .addEventListener("click", ()=>setFilter("pa"));
+    pills.po .addEventListener("click", ()=>setFilter("po"));
 
-      if(!q) return true;
-      const hay = [
-        x.code, x.nom, x.libelle, x.libelleEdition, x.libelleAbrege,
-        x.type, x.codeType,
-        labelType(x),
-        ...(Array.isArray(x.roles)? x.roles.map(r=>[r.type,r.role,r.qualite,r.libQualite,r.organe,r.organeRef,r.legislature].join(" ")):[])
-      ].filter(Boolean).join(" ").toLowerCase();
-      return hay.includes(q);
+    let t;
+    qEl.addEventListener("input", e=>{
+      clearTimeout(t);
+      t = setTimeout(()=>{ q = e.target.value || ""; render(); }, 120);
     });
-    render(VIEW);
-  }
 
-  // UI interactions
-  qEl.addEventListener("input", applyFilters);
-  chips.forEach(ch => ch.addEventListener("click", () => {
-    chips.forEach(c=>c.classList.remove("active"));
-    ch.classList.add("active");
-    applyFilters();
-  }));
-
-  // Chargement du JSON fusionné
-  (async function init(){
-    try{
-      const res = await fetch("./data/an_actors.json?ts="+Date.now());
-      if(!res.ok) throw new Error("HTTP "+res.status);
-      const raw = await res.json();
-      // Le build peut retourner un tableau simple ou un objet {items:[]}
-      const arr = Array.isArray(raw) ? raw : (raw.items || []);
-      // Normalisation minimale (si certains champs manquent)
-      DATA = arr.map(x => ({
-        code: x.code || x.uid || "",
-        nom:  x.nom || x.libelle || x.libelleEdition || "",
-        type: x.type || x.codeType || "",
-        libelle: x.libelle || "",
-        libelleEdition: x.libelleEdition || "",
-        libelleAbrege: x.libelleAbrege || "",
-        codeType: x.codeType || "",
-        roles: Array.isArray(x.roles) ? x.roles : (x.mandats || []) // si le build a conservé "mandats"
-      }));
-      applyFilters();
-    }catch(e){
-      console.error(e);
-      rowsEl.innerHTML = `<tr><td colspan="4" class="muted">Erreur de chargement.</td></tr>`;
-      countEl.textContent = "--";
-    }
+    load();
   })();
   </script>
 </body>
