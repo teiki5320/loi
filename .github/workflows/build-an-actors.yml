@@ -1,34 +1,58 @@
 name: Build AN actors (codes + rôles)
 
 on:
-  workflow_dispatch:   # exécution manuelle
-  push:
-    paths:
-      - 'json/**'
-      - 'scripts/build_an_actors.mjs'
+  workflow_dispatch:
   schedule:
-    - cron: '0 5 * * 1'   # chaque lundi à 05h00 UTC
+    - cron: "13 4 * * 1"   # chaque lundi 04:13 UTC
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
+      - name: Préparer les dossiers
+        run: |
+          set -e
+          mkdir -p data/an16/json/acteur
+          mkdir -p data/an16/json/organe
+
+      - name: Télécharger l’archive AMO (AN v16)
+        run: |
+          set -e
+          curl -L "https://data.assemblee-nationale.fr/static/openData/repository/16/amo/deputes_senateurs_ministres_legislature/AMO20_dep_sen_min_tous_mandats_et_organes.json.zip" -o amo_archive.zip
+
+      - name: Décompresser
+        run: |
+          set -e
+          rm -rf tmp_amo && mkdir -p tmp_amo
+          unzip -q amo_archive.zip -d tmp_amo
+          # On ne garde QUE les répertoires json/acteur et json/organe de l’archive
+          rsync -a --delete "tmp_amo/json/acteur/" "data/an16/json/acteur/"
+          rsync -a --delete "tmp_amo/json/organe/" "data/an16/json/organe/"
+          rm -rf tmp_amo amo_archive.zip
+
+      - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: "20"
 
-      - name: Build data/an_actors.json
+      - name: Générer data/an_actors.json (fusion acteurs + organes)
         run: node scripts/build_an_actors.mjs
 
-      - name: Commit & push if changed
+      - name: Commit & push si modifié
         run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/an_actors.json
-          git commit -m "build(an): update an_actors.json" || echo "Pas de changement"
-          git push
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m "build(an): update an_actors.json"
+            git push
+          else
+            echo "Pas de changement."
+          fi
