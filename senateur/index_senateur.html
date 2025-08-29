@@ -4,11 +4,20 @@
   <meta charset="utf-8" />
   <title>🏛 Sénateurs</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- Style dédié aux sénateurs -->
+  <!-- Ton style dédié sénateurs -->
   <link rel="stylesheet" href="./style_senateur.css" />
+  <style>
+    /* mini styles pour les onglets + barre filtres (si pas déjà dans ton CSS) */
+    .toolbar {max-width:1100px;margin:14px auto 0;padding:0 12px;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+    .tabs {max-width:1100px;margin:6px auto 0;padding:0 12px;display:flex;gap:8px;flex-wrap:wrap}
+    .tab {background:#fff;border:1px solid #e5e7eb;border-radius:999px;padding:6px 10px;font-size:14px;cursor:pointer}
+    .tab.is-active {background:#0d6efd;color:#fff;border-color:#0d6efd}
+    .spacer {flex:1 1 auto}
+    .muted {color:#6b7280}
+  </style>
 </head>
 <body>
-  <!-- (optionnel) petit menu de nav -->
+  <!-- Menu -->
   <nav class="topbar" style="padding:10px 12px">
     <select id="nav-select" aria-label="Navigation">
       <option value="../index.html">📜 Lois</option>
@@ -21,27 +30,29 @@
     <h1>🏛 Sénateurs</h1>
   </header>
 
-  <!-- Barre d’outils -->
-  <section>
+  <!-- Barre de recherche + filtre département -->
+  <div class="toolbar">
     <input id="q" type="search" placeholder="Recherche (nom, groupe, circo, e-mail…)" aria-label="Recherche" />
-    <!-- Filtres facultatifs :
-    <select id="groupe" aria-label="Filtrer par groupe"></select>
-    <select id="dept" aria-label="Filtrer par département"></select>
-    -->
-  </section>
+    <div class="spacer"></div>
+    <select id="dept" aria-label="Filtrer par département">
+      <option value="">Tous départements</option>
+    </select>
+  </div>
 
-  <div id="count"></div>
+  <!-- Onglets de groupe -->
+  <div id="tabs-groupes" class="tabs"></div>
+
+  <div id="count" class="muted" style="max-width:1100px;margin:6px auto 0;padding:0 16px"></div>
   <pre id="err"></pre>
 
-  <!-- Grille de cartes -->
+  <!-- Grille des cartes -->
   <main id="senateurs-list" aria-live="polite"></main>
 
   <script>
-    // Navigation
     document.getElementById("nav-select").addEventListener("change", e => {
       location.href = e.target.value;
     });
   </script>
-  <script src="./script_senateur.js?v=2025-08-29-2" defer></script>
+  <script src="./script_senateur.js?v=2025-08-29-tabs" defer></script>
 </body>
 </html>
