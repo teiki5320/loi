@@ -1,204 +1,109 @@
-/* Build an_actors.json (codes + noms + type + rôles) à partir des PA/PO
-   - Entrées attendues (au moins une des deux racines) :
-       data/an16/json/acteur/*.json
-       data/an16/json/organe/*.json
-       json/acteur/*.json
-       json/organe/*.json
-   - Sortie : data/an_actors.json   (tableau trié par code)
-*/
+// scripts/build_an_actors.mjs
+import { promises as fs } from "node:fs";
+import { join } from "node:path";
 
-import fs from 'fs';
-import path from 'path';
+const ROOT = process.cwd();
+const DIR_ACTEUR = join(ROOT, "data/an16/json/acteur");
+const DIR_ORGANE = join(ROOT, "data/an16/json/organe");
+const OUT = join(ROOT, "data/an_actors.json");
 
-const ROOTS = [
-  'data/an16/json',
-  'json'
-];
-
-const OUT_DIR  = 'data';
-const OUT_FILE = path.join(OUT_DIR, 'an_actors.json');
-
-/* ------------------ utilitaires ------------------ */
-
-const exists = p => {
-  try { fs.accessSync(p); return true; } catch { return false; }
+// libellés lisibles pour quelques codes d’organes fréquents
+const ORG_TYPE_LABEL = {
+  ASSEMBLEE: "Assemblée nationale",
+  SENAT: "Sénat",
+  GP: "Groupe politique",
+  GA: "Groupe d’amitié",
+  GE: "Groupe d’études",
+  COMPER: "Commission permanente",
+  COMMISSION: "Commission",
+  ORGEXTPARL: "Organe extra-parlementaire",
+  GOUVERNEMENT: "Gouvernement",
 };
 
-const readJSON = p => JSON.parse(fs.readFileSync(p, 'utf8'));
+function uniq(arr) { return [...new Set(arr.filter(Boolean))]; }
 
-/** récupère tous les chemins *.json d’un dossier si présent */
-function listJson(dir) {
-  if (!exists(dir)) return [];
-  return fs.readdirSync(dir)
-    .filter(f => f.toLowerCase().endsWith('.json'))
-    .map(f => path.join(dir, f));
+async function readJSON(file) {
+  const txt = await fs.readFile(file, "utf8");
+  return JSON.parse(txt);
 }
 
-function safeText(x) {
-  if (x == null) return '';
-  return String(x).trim();
-}
-
-/* Détermine un “type” lisible pour l’acteur à partir de ses mandats
-   - ASSEMBLEE  => Député
-   - SENAT      => Sénateur (si présent dans les données)
-   - GOUVERNEMENT / MINISTERE / MINISTRE => Ministre
-   sinon        => Acteur
-*/
-function guessTypeFromMandats(mandats = []) {
-  const types = new Set(
-    mandats
-      .map(m => (m.typeOrgane || '').toUpperCase())
-      .filter(Boolean)
-  );
-
-  if (types.has('ASSEMBLEE')) return 'Député';
-  if (types.has('SENAT'))     return 'Sénateur';
-  if (
-    types.has('GOUVERNEMENT') ||
-    types.has('MINISTERE')    ||
-    types.has('MINISTRE')
-  ) return 'Ministre';
-
-  return 'Acteur';
-}
-
-/* ------------------ localise les répertoires ------------------ */
-
-function locateDirs() {
-  for (const base of ROOTS) {
-    const dAct = path.join(base, 'acteur');
-    const dOrg = path.join(base, 'organe');
-    if (exists(dAct) && exists(dOrg)) {
-      return { dirActeur: dAct, dirOrgane: dOrg };
-    }
-  }
-  throw new Error(
-    'Impossible de trouver les dossiers "acteur" et "organe". ' +
-    'Place les JSON AN dans data/an16/json/{acteur,organe} ou json/{acteur,organe}.'
-  );
-}
-
-/* ------------------ chargement organes (PO…) ------------------ */
-
-function buildOrganesMap(dirOrgane) {
-  const map = new Map(); // uid -> { codeType, libelle, libelleAbrege }
-  const files = listJson(dirOrgane);
-
-  for (const fp of files) {
-    try {
-      const j = readJSON(fp);
-      const org = j.organe || j; // certains dumps sont déjà “plats”
-      const uid = safeText(org.uid);
-      if (!uid) continue;
-      map.set(uid, {
-        codeType: safeText(org.codeType),
-        libelle:  safeText(org.libelle || org.libelleEdition || org.libelleAbrege || ''),
-        libelleAbrege: safeText(org.libelleAbrege || '')
-      });
-    } catch (e) {
-      // on ignore les fichiers cassés
-    }
-  }
-  return map;
-}
-
-/* Construit une liste de rôles lisibles à partir des mandats et de la map d’organes */
-function buildRoles(mandats = [], organesMap) {
-  const roles = [];
-  for (const m of mandats) {
-    const libQualite = safeText(m?.infosQualite?.libQualite);
-    const orgRef     = safeText(m?.organes?.organeRef);
-    if (!libQualite && !orgRef) continue;
-
-    let cible = '';
-    if (orgRef && organesMap.has(orgRef)) {
-      const o = organesMap.get(orgRef);
-      cible = o.libelle || o.libelleAbrege || orgRef;
-    } else if (orgRef) {
-      cible = orgRef;
-    }
-
-    if (libQualite && cible) roles.push(`${libQualite} — ${cible}`);
-    else if (libQualite)     roles.push(libQualite);
-    else if (cible)          roles.push(cible);
-  }
-  // dédoublonnage + limite raisonnable
-  return Array.from(new Set(roles)).slice(0, 8);
-}
-
-/* ------------------ lecture acteurs (PA…) ------------------ */
-
-function extractActorEntry(jActeur, organesMap) {
-  // l’objet peut être enveloppé { acteur: { … } }
-  const a = jActeur.acteur || jActeur;
-
-  // code (uid)
-  const code = safeText(a?.uid?.['#text'] || a?.uid || a?.etatCivil?.ident?.uid);
-  if (!code) return null;
-
-  // nom/prénom
-  const nom   = safeText(a?.etatCivil?.ident?.nom);
-  const prenom= safeText(a?.etatCivil?.ident?.prenom);
-  const nomComplet = [prenom, nom].filter(Boolean).join(' ').trim() || safeText(a?.nom) || '';
-
-  // mandats (table ou objet)
-  let mandats = a?.mandats?.mandat;
-  if (!mandats) mandats = [];
-  if (!Array.isArray(mandats)) mandats = [mandats];
-
-  const type  = guessTypeFromMandats(mandats);
-  const roles = buildRoles(mandats, organesMap);
-
-  return { code, nom: nomComplet, type, roles };
-}
-
-function buildActors(dirActeur, organesMap) {
-  const out = [];
-  const files = listJson(dirActeur);
-
-  for (const fp of files) {
-    try {
-      const j = readJSON(fp);
-      // uniquement les PA… ; si le répertoire contient autre chose, on filtre
-      const base = path.basename(fp);
-      if (!/^PA\d+\.json$/i.test(base)) continue;
-
-      const entry = extractActorEntry(j, organesMap);
-      if (entry) out.push(entry);
-    } catch (e) {
-      // on ignore les fichiers cassés
-    }
-  }
-
-  // tri par code
-  out.sort((a, b) => a.code.localeCompare(b.code));
-  return out;
-}
-
-/* ------------------ main ------------------ */
-
-async function main() {
+// ---- ACTEURS (PAxxxx) -------------------------------------------------------
+async function collectActeurs() {
+  let entries = [];
   try {
-    const { dirActeur, dirOrgane } = locateDirs();
+    const names = await fs.readdir(DIR_ACTEUR);
+    for (const name of names) {
+      if (!/^PA\d+\.json$/.test(name)) continue;
+      const j = await readJSON(join(DIR_ACTEUR, name));
+      const a = j.acteur;
 
-    console.log('> Dossiers utilisés :');
-    console.log('  - acteurs :', dirActeur);
-    console.log('  - organes :', dirOrgane);
+      const code = a?.uid?.["#text"] || a?.uid || "";
+      const prenom = a?.etatCivil?.ident?.prenom || "";
+      const nom = a?.etatCivil?.ident?.nom || "";
+      const lib = [prenom, nom].filter(Boolean).join(" ").trim();
 
-    const organesMap = buildOrganesMap(dirOrgane);
-    console.log(`> Organes chargés : ${organesMap.size}`);
+      // déduire des rôles lisibles depuis les mandats
+      const mandats = Array.isArray(a?.mandats?.mandat) ? a.mandats.mandat : (a?.mandats?.mandat ? [a.mandats.mandat] : []);
+      const roles = [];
+      for (const m of mandats) {
+        const t = m?.typeOrgane;
+        if (t === "ASSEMBLEE") roles.push("Député" + (m.legislature ? ` (${m.legislature}e)` : ""));
+        else if (t === "SENAT") roles.push("Sénateur");
+        else if (t === "GOUVERNEMENT") roles.push("Membre du gouvernement");
+        // on ignore GP/GA/GE/COMPER ici (ce sont des appartenances d’organe)
+      }
 
-    const actors = buildActors(dirActeur, organesMap);
-    console.log(`> Acteurs extraits : ${actors.length}`);
-
-    if (!exists(OUT_DIR)) fs.mkdirSync(OUT_DIR, { recursive: true });
-    fs.writeFileSync(OUT_FILE, JSON.stringify(actors, null, 2), 'utf8');
-    console.log('> Écrit :', OUT_FILE);
+      entries.push({
+        code,              // ex: PA1206
+        nom: lib || "",    // "Prénom Nom"
+        type: "Acteur",    // personne
+        roles: uniq(roles) // ex: ["Député (16e)"]
+      });
+    }
   } catch (e) {
-    console.error('ERREUR:', e.message);
-    process.exit(1);
+    // dossier absent → OK
   }
+  return entries;
 }
 
-main();
+// ---- ORGANES (POxxxx) -------------------------------------------------------
+async function collectOrganes() {
+  let entries = [];
+  try {
+    const names = await fs.readdir(DIR_ORGANE);
+    for (const name of names) {
+      if (!/^PO\d+\.json$/.test(name)) continue;
+      const j = await readJSON(join(DIR_ORGANE, name));
+      const o = j.organe;
+
+      const code = o?.uid || "";
+      const lib = o?.libelleEdition || o?.libelle || o?.libelleAbrege || "";
+      const codeType = o?.codeType || "";
+      const type = ORG_TYPE_LABEL[codeType] || codeType || "Organe";
+
+      entries.push({
+        code,           // ex: PO59047
+        nom: lib,       // libellé d’organe
+        type,           // libellé lisible
+        roles: []       // pas de rôles pour un organe lui-même
+      });
+    }
+  } catch (e) {
+    // dossier absent → OK
+  }
+  return entries;
+}
+
+(async () => {
+  // sécurité : créer l’arbo si besoin
+  await fs.mkdir(join(ROOT, "data"), { recursive: true });
+
+  const acteurs = await collectActeurs();
+  const organes = await collectOrganes();
+
+  // fusion + tri par code (PA… puis PO… naturellement)
+  const all = [...acteurs, ...organes].sort((a,b) => (a.code > b.code ? 1 : -1));
+
+  await fs.writeFile(OUT, JSON.stringify(all, null, 2), "utf8");
+  console.log(`✅ Écrit ${all.length} entrées dans ${OUT}`);
+})();
