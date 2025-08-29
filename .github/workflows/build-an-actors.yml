@@ -1,12 +1,11 @@
 name: Build AN actors (codes + rôles)
 
 on:
+  push:
+    paths:
+      - 'json/**'
+      - '.github/workflows/build-an-actors.yml'
   workflow_dispatch:
-  schedule:
-    - cron: "7 3 * * 1"   # chaque lundi 03:07 UTC
-
-permissions:
-  contents: write
 
 jobs:
   build:
@@ -16,116 +15,25 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Prep folders
+      - name: Vérifier la présence des dossiers
         run: |
-          rm -rf data
-          mkdir -p data/an16/json
-          mkdir -p deputes
-
-      - name: Resolve archive URL (AN v16)
-        id: url
-        run: |
-          echo "url=https://data.assemblee-nationale.fr/static/openData/repository/16/amo/deputes_senateurs_ministres_legislature/AMO20_dep_sen_min_tous_mandats_et_organes.json.zip" >> "$GITHUB_OUTPUT"
-
-      - name: Download AMO archive
-        run: |
-          curl -fsSL "${{ steps.url.outputs.url }}" -o amo_archive.zip
-          ls -lh amo_archive.zip
-
-      - name: Unzip
-        run: |
-          rm -rf json
-          unzip -q amo_archive.zip -d json
-          # Déplace proprement sous data/an16/json
-          # (l’archive contient déjà json/acteur & json/organe)
-          rsync -a json/ data/an16/json/
-          echo "Arborescence:"
-          find data/an16/json -maxdepth 2 -type d -print
-          echo "Compteurs:"
-          echo "Acteurs:" $(find data/an16/json/acteur -type f -name '*.json' | wc -l)
-          echo "Organes:" $(find data/an16/json/organe -type f -name '*.json' | wc -l)
+          test -d json/acteur || (echo "json/acteur manquant" && exit 1)
+          test -d json/organe || (echo "json/organe manquant" && exit 1)
+          echo "Fichiers acteur: $(ls -1 json/acteur | wc -l)"
+          echo "Fichiers organe: $(ls -1 json/organe | wc -l)"
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: '20'
 
-      - name: Build deputes/an_actors.json (fusion acteurs+organes)
+      - name: Générer data/an_actors.json
         run: |
-          node - <<'NODE'
-          const fs = require('fs');
-          const path = require('path');
-
-          const root = 'data/an16/json';
-          const acteursDir = path.join(root, 'acteur');
-          const organesDir = path.join(root, 'organe');
-
-          function exists(p){ try{ return fs.statSync(p).isDirectory(); }catch{ return false; } }
-
-          if (!exists(acteursDir) || !exists(organesDir)) {
-            console.error("❌ Dossiers acteur/ ou organe/ introuvables.");
-            process.exit(1);
-          }
-
-          // --- Charge organes (POxxxx -> objet organe)
-          const organes = {};
-          for (const f of fs.readdirSync(organesDir)) {
-            if (!f.endsWith('.json')) continue;
-            const raw = JSON.parse(fs.readFileSync(path.join(organesDir, f), 'utf8'));
-            const o = raw.organe || raw;
-            const uid = String(o.uid || o.id || '').toUpperCase();
-            if (uid) organes[uid] = o;
-          }
-
-          const isDep = t => /ASSEMBLEE/i.test(t);
-          const isSen = t => /SENAT/i.test(t);
-          const isGov = t => /(GOUVERN|EXECUTIF|MINIST)/i.test(t);
-
-          // --- Parcourt acteurs (PAxxxx)
-          const out = [];
-          let countFiles = 0;
-          for (const f of fs.readdirSync(acteursDir)) {
-            if (!f.endsWith('.json')) continue;
-            countFiles++;
-            const raw = JSON.parse(fs.readFileSync(path.join(acteursDir, f), 'utf8'));
-            const a = raw.acteur || raw;
-
-            const code = String(a.uid || a.id || '').toUpperCase();
-            if (!code.startsWith('PA')) continue;
-
-            const nom    = a.etatCivil?.nom    ?? a.nom    ?? "";
-            const prenom = a.etatCivil?.prenom ?? a.prenom ?? "";
-
-            const roles = new Set();
-            const mandats = Array.isArray(a.mandats) ? a.mandats : [];
-            for (const m of mandats) {
-              const ref = String(m.organeRef || m.organeref || "").toUpperCase();
-              const org = organes[ref];
-              const type = org?.codeType || org?.type || "";
-              if (isDep(type)) roles.add("depute");
-              if (isSen(type)) roles.add("senateur");
-              if (isGov(type)) roles.add("ministre");
-            }
-            if (roles.size === 0) continue;
-
-            out.push({ code, nom, prenom, roles: [...roles] });
-          }
-
-          // Tri alpha par nom/prénom pour la stabilité
-          out.sort((a,b)=> (a.nom.localeCompare(b.nom) || a.prenom.localeCompare(b.prenom)));
-
-          fs.writeFileSync('deputes/an_actors.json', JSON.stringify(out, null, 2));
-          console.log(`✅ Écrit deputes/an_actors.json (${out.length} entrées) à partir de ${countFiles} fichiers acteurs.`);
-          NODE
+          node scripts/build_an_actors.mjs
 
       - name: Commit & push if changed
         run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add deputes/an_actors.json
-          if git diff --cached --quiet; then
-            echo "No changes."
-          else
-            git commit -m "build(an): update deputes/an_actors.json"
-            git push
-          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/an_actors.json
+          git diff --quiet && echo "Rien à committer" || (git commit -m "build: update data/an_actors.json" && git push)
