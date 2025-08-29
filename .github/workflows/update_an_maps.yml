@@ -12,8 +12,8 @@ jobs:
   build-maps:
     runs-on: ubuntu-latest
     env:
-      # ⇩⇩⇩ MODIFIE CETTE URL SI BESOIN (lien direct vers le .json.zip de l'archive AN 16e)
-      ZIP_FALLBACK_URL: "https://data.assemblee-nationale.fr/static/openData/repository/16/amo/AMO20_dep_sen_min_autres_organes_XVI.json.zip"
+      # URL directe du ZIP JSON (16e législature — députés/sénateurs/ministres)
+      ZIP_FALLBACK_URL: "https://data.assemblee-nationale.fr/static/openData/repository/16/amo/deputes_senateurs_ministres_legislature/AMO20_dep_sen_min_tous_mandats_et_organes.json.zip"
 
     steps:
       - name: Checkout
