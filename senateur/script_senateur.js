@@ -1,16 +1,17 @@
 /*************************************************
  * Sénateurs -- liste depuis senateur/senateur_raw.json
- * (fichier généré automatiquement par update_senateur.yml)
- * - Mapping robuste des champs (ODSEN_GENERAL.json varie selon millésimes)
+ * (fichier généré par le workflow update_senateur.yml)
+ * - Mapping robuste (ODSEN_GENERAL.json varie selon millésimes)
  * - Recherche: nom, groupe, département
- * - Cartes cliquables (mêmes classes CSS que "Députés")
+ * - Cartes compatibles avec la CSS Députés
  *************************************************/
 
-const URL_LOCAL = "./senateur_raw.json";
+const URL_LOCAL = "./senateur_raw.json"; // même dossier que index_senateur.html
 
 const els = {
   search: document.getElementById("search"),
   grid:   document.getElementById("senateurs"),
+  err:    document.getElementById("err"),
 };
 
 let SENATEURS = [];
@@ -19,8 +20,12 @@ let SENATEURS = [];
 const esc = (s) => (s ?? "").toString()
   .replace(/&/g,"&amp;").replace(/</g,"&lt;")
   .replace(/>/g,"&gt;").replace(/"/g,"&quot;");
-
 const nonEmpty = (x) => x != null && String(x).trim() !== "";
+
+function showErr(msg){
+  console.error(msg);
+  if (els.err) els.err.textContent = String(msg);
+}
 
 /* ---------- Mapping d'un enregistrement du Sénat vers notre modèle ---------- */
 function mapSenator(raw){
@@ -46,7 +51,7 @@ function mapSenator(raw){
   const departement = f.departement || f.departementNom || f.departementLibelle
                    || f.circonscription || f.territoire || "";
 
-  // URL fiche & photo (selon millésime)
+  // URL fiche & photo
   const urlFiche = f.url || f.urlFiche || f.lien || f.page || "";
   const idPhoto  = f.idPhoto || f.idSenat || f.matricule || f.numero || "";
   const urlPhoto = f.photo || f.urlPhoto
@@ -117,20 +122,9 @@ async function init(){
     if (Array.isArray(data)) {
       rows = data;
     } else if (data?.result?.records) {
-      rows = data.result.records;      // [{fields:{...}}, ...]
+      rows = data.result.records;
     } else if (data?.records) {
-      rows = data.records;              // [{fields:{...}}, ...]
-    } else {
-      rows = [];
+      rows = data.records;
     }
 
-    SENATEURS = rows.map(mapSenator).filter(s => nonEmpty(s.nom));
-    render();
-  } catch (e) {
-    console.error(e);
-    els.grid.innerHTML = `<p style="opacity:.7">Impossible de charger les données des sénateurs.</p>`;
-  }
-}
-
-init();
-els.search && els.search.addEventListener("input", render);
+    SENATEURS = rows.map(mapSenator).

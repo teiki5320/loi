@@ -4,34 +4,43 @@
   <meta charset="utf-8" />
   <title>🏛 Sénateurs</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- ⚠️ Utilise la même CSS que la page Députés -->
+  <!-- Réutilise la même CSS que la page Députés -->
   <link rel="stylesheet" href="../deputes/style_depute.css" />
 </head>
 <body>
   <nav class="topbar">
-    <select id="nav-select">
-      <option value="../">📜 Lois</option>
+    <select id="nav-select" aria-label="Navigation">
+      <option value="../index.html">📜 Lois</option>
       <option value="../deputes/index_depute.html">👤 Députés</option>
-      <option value="./index.html" selected>🏛 Sénateurs</option>
+      <option value="./index_senateur.html" selected>🏛 Sénateurs</option>
     </select>
   </nav>
 
   <header class="page-header">
     <h1>🏛 Sénateurs</h1>
-    <p>Mêmes styles que la page Députés.</p>
   </header>
 
   <main class="container">
     <input id="search" type="search" placeholder="Rechercher (nom, groupe, département…)" />
-    <!-- classes identiques à celles utilisées chez Députés -->
     <div id="senateurs" class="cards-grid"></div>
+    <pre id="err" style="margin-top:12px;color:#b00020;white-space:pre-wrap"></pre>
   </main>
 
   <script>
-    document.getElementById("nav-select").addEventListener("change", e => {
-      location.href = e.target.value;
-    });
+    // Navigation
+    const sel = document.getElementById("nav-select");
+    sel.addEventListener("change", e => { location.href = e.target.value; });
+
+    // Auto-sélection selon la page courante
+    (function syncSelected(){
+      const here = location.pathname.replace(/\/+$/, "");
+      for (const opt of sel.options) {
+        const url = new URL(opt.value, location.href).pathname.replace(/\/+$/, "");
+        opt.selected = (url === here);
+      }
+    })();
   </script>
-  <script src="./script.js" defer></script>
+
+  <script src="./script_senateur.js" defer></script>
 </body>
 </html>
