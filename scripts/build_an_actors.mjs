@@ -1,159 +1,115 @@
-// scripts/build_an_actors.mjs
-// Construit data/an_actors.json à partir de json/acteur/*.json et json/organe/*.json
-
-import fs from "fs";
-import path from "path";
+import fs from "node:fs";
+import path from "node:path";
 
 const ROOT = process.cwd();
-const DIR_ACTEUR = path.join(ROOT, "json", "acteur");
-const DIR_ORGANE = path.join(ROOT, "json", "organe");
+const ACTEURS_DIR = path.join(ROOT, "json", "acteur");
+const ORGANES_DIR = path.join(ROOT, "json", "organe");
 const OUT_DIR = path.join(ROOT, "data");
 const OUT_FILE = path.join(OUT_DIR, "an_actors.json");
 
-// ---------- utilitaires ----------
-const isFile = p => fs.existsSync(p) && fs.statSync(p).isFile();
-const isDir  = p => fs.existsSync(p) && fs.statSync(p).isDirectory();
+// ---------- helpers ----------
+const readJSON = (p) => {
+  try { return JSON.parse(fs.readFileSync(p, "utf8")); }
+  catch { return null; }
+};
+const listFiles = (dir) => (fs.existsSync(dir) ? fs.readdirSync(dir).filter(f => f.endsWith(".json")) : []);
+const uniq = (arr) => [...new Set(arr.filter(Boolean))];
 
-function readJSON(file) {
-  try {
-    const raw = fs.readFileSync(file, "utf8");
-    return JSON.parse(raw);
-  } catch (e) {
-    console.warn("JSON invalide:", file);
-    return null;
-  }
+// --- extraction très tolérante du nom ---
+function extractNom(obj) {
+  if (!obj) return "";
+
+  // cas 1 : structure "acteur" avec état civil
+  const a = obj.acteur ?? obj.Acteur ?? obj;
+  const et = a.etatCivil ?? a.etat_civil ?? a["etat-civil"];
+  const id = et?.ident ?? et?.identite ?? a.ident ?? a.identity;
+
+  const prenoms = id?.prenom ?? id?.prenoms ?? a.prenom ?? a.prenoms;
+  const nom = id?.nom ?? a.nom;
+
+  if (nom || prenoms) return [prenoms, nom].filter(Boolean).join(" ").trim();
+
+  // cas 2 : parfois un champ déjà composé
+  const nomComplet = a.nomComplet ?? a.nom_usage ?? a.displayName ?? a.fullname;
+  if (nomComplet) return String(nomComplet).trim();
+
+  // cas 3 : dernier recours
+  return (a.nom ?? "").trim();
 }
 
-function listFiles(dir, prefix) {
-  if (!isDir(dir)) return [];
-  return fs.readdirSync(dir)
-    .filter(f => f.endsWith(".json") && (!prefix || f.startsWith(prefix)))
-    .map(f => path.join(dir, f));
+// --- extraction UID (PAxxxx) ---
+function extractCodeActeur(obj) {
+  const a = obj.acteur ?? obj.Acteur ?? obj;
+  return a.uid ?? a.id ?? a.code ?? a.identifiant ?? "";
 }
 
-function uniqBy(arr, keyFn) {
-  const seen = new Set();
-  const out = [];
-  for (const x of arr) {
-    const k = keyFn(x);
-    if (!seen.has(k)) { seen.add(k); out.push(x); }
-  }
-  return out;
+// --- extraction des mandats (références d’organes) ---
+function extractMandats(obj) {
+  const a = obj.acteur ?? obj.Acteur ?? obj;
+  // structure la plus courante : a.mandats.mandat[] avec .organeRef
+  const mandatsBloc = a.mandats ?? obj.mandats ?? {};
+  const mandatsArr =
+    Array.isArray(mandatsBloc) ? mandatsBloc :
+    Array.isArray(mandatsBloc.mandat) ? mandatsBloc.mandat :
+    [];
+  return mandatsArr.map(m => m?.organeRef ?? m?.organe?.ref ?? m?.organe ?? "").filter(Boolean);
 }
 
-// --------- extraction assez robuste des champs ---------
-function getNameFromActeur(a) {
-  // formats possibles dans l'AMO : etatCivil.ident.{nom,prenom|prenoms}
-  const ec = a?.etatCivil ?? a?.civilite ?? a?.ident ?? {};
-  const ident = ec?.ident ?? ec ?? {};
-  const nom = ident?.nom ?? a?.nom ?? "";
-  const prenom = ident?.prenom ?? ident?.prenoms ?? a?.prenom ?? "";
-  const full = [prenom, nom].filter(Boolean).join(" ").trim();
-  return full || (a?.nomUsuel ?? a?.nomDeNaissance ?? "");
+// --- typage des rôles à partir de l’organe ---
+function roleFromOrgane(org) {
+  const ct = (org.codeType ?? org.type ?? "").toUpperCase();
+  const lib = (org.libelle ?? org.libelleCourt ?? org.nom ?? "").toLowerCase();
+
+  if (ct.includes("GVT") || ct.includes("MIN") || lib.includes("gouvernement") || lib.includes("ministre"))
+    return "Ministre";
+
+  if (ct.includes("ASSEMBL") || lib.includes("assemblée nationale") || lib.includes("déput"))
+    return "Député";
+
+  if (ct.includes("SENAT") || lib.includes("sénat") || lib.includes("sénateur"))
+    return "Sénateur";
+
+  return ""; // inconnu / autre organe (groupe, commission, etc.)
 }
 
-function organeLabel(o) {
-  // labels possibles côté organe
-  return (
-    o?.libelleAbrege ??
-    o?.libelle ??
-    o?.titre ??
-    o?.intitule ??
-    o?.nom ??
-    ""
-  );
-}
-
-function organeType(o) {
-  // types/codes possibles côté organe
-  return (
-    o?.codeType ??
-    o?.type ??
-    o?.categorie ??
-    o?.nature ??
-    ""
-  );
-}
-
-// Récupère des références d’organes d’un “mandat” (formats divers)
-function refsFromMandat(m) {
-  const refs = [];
-
-  const add = v => {
-    if (!v) return;
-    const s = String(v).trim();
-    if (/^PO\d+/i.test(s)) refs.push(s.toUpperCase());
-  };
-
-  add(m?.organeRef ?? m?.refOrgane ?? m?.organe);
-  // parfois un tableau
-  if (Array.isArray(m?.organes)) m.organes.forEach(add);
-  if (Array.isArray(m?.organismes)) m.organismes.forEach(add);
-
-  // quelques formats exotiques : { organisme: { code: "PO..." } }
-  if (m?.organisme?.code) add(m.organisme.code);
-
-  return refs;
-}
-
-// --------- pipeline principal ----------
 function main() {
-  if (!isDir(DIR_ACTEUR) || !isDir(DIR_ORGANE)) {
-    console.error("Dossiers introuvables. Attendus:", DIR_ACTEUR, "et", DIR_ORGANE);
-    process.exit(1);
+  // 1) lire toutes les définitions d’organes POxxxx
+  const organes = new Map(); // PO -> objet organe
+  for (const f of listFiles(ORGANES_DIR)) {
+    const j = readJSON(path.join(ORGANES_DIR, f));
+    if (!j) continue;
+    // les fichiers organe sont souvent de la forme { organe: {...} }
+    const o = j.organe ?? j.Organe ?? j;
+    const id = o.uid ?? o.id ?? o.code ?? f.replace(/\.json$/,"");
+    organes.set(id, o);
   }
 
-  // 1) Charger tous les organes en mémoire (map par code)
-  const organes = {};
-  for (const f of listFiles(DIR_ORGANE, "PO")) {
-    const code = path.basename(f, ".json").toUpperCase(); // POxxxx
-    const o = readJSON(f);
-    if (!o) continue;
-    organes[code] = {
-      code,
-      type: organeType(o),
-      libelle: organeLabel(o)
-    };
-  }
+  // 2) parcourir les acteurs
+  const out = [];
+  for (const f of listFiles(ACTEURS_DIR)) {
+    const j = readJSON(path.join(ACTEURS_DIR, f));
+    if (!j) continue;
 
-  // 2) Parcourir tous les acteurs PAxxxx
-  const actorsOut = [];
-  for (const f of listFiles(DIR_ACTEUR, "PA")) {
-    const code = path.basename(f, ".json").toUpperCase(); // PAxxxx
-    const a = readJSON(f);
-    if (!a) continue;
+    const code = extractCodeActeur(j) || f.replace(/\.json$/,"");
+    let nom = extractNom(j);
 
-    const nom = getNameFromActeur(a);
+    // mandats -> organeRef -> rôles
+    const refs = uniq(extractMandats(j));
+    const roles = uniq(refs.map(ref => roleFromOrgane(organes.get(ref) ?? {})));
 
-    // Mandats/roles
-    const mandats = Array.isArray(a?.mandats) ? a.mandats
-                  : Array.isArray(a?.mandat)  ? a.mandat
-                  : [];
-
-    let roles = [];
-    for (const m of mandats) {
-      const orgRefs = refsFromMandat(m);
-      for (const org of orgRefs) {
-        const meta = organes[org] ?? { code: org, type: "", libelle: "" };
-        roles.push({
-          organe: meta.code,
-          type: meta.type || (m?.typeOrgane ?? m?.type ?? ""),
-          libelle: meta.libelle
-        });
-      }
+    // si nom vide, on tente quelques autres chemins
+    if (!nom) {
+      const a = j.acteur ?? j.Acteur ?? j;
+      nom = a?.nom ?? a?.displayName ?? "";
     }
 
-    roles = uniqBy(roles, r => `${r.organe}|${r.type}|${r.libelle}`);
-
-    actorsOut.push({ code, nom, roles });
+    out.push({ code, nom, roles });
   }
 
-  // 3) Sort + write
-  actorsOut.sort((a, b) => a.code.localeCompare(b.code));
-  if (!isDir(OUT_DIR)) fs.mkdirSync(OUT_DIR, { recursive: true });
-  fs.writeFileSync(OUT_FILE, JSON.stringify(actorsOut, null, 2), "utf8");
-
-  console.log(`OK: ${actorsOut.length} entrées -> ${OUT_FILE}`);
+  // 3) écrire data/an_actors.json
+  fs.mkdirSync(OUT_DIR, { recursive: true });
+  fs.writeFileSync(OUT_FILE, JSON.stringify(out, null, 2), "utf8");
+  console.log(`OK: ${out.length} entrées écrites dans ${OUT_FILE}`);
 }
 
 main();
