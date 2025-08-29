@@ -2,66 +2,158 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8" />
-  <title>Test acteurs AN</title>
+  <title>Test acteurs AN -- recherche par code</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
-    body { font-family: system-ui, sans-serif; margin: 20px; }
-    .muted { color:#666 }
-    table { border-collapse: collapse; width: 100%; margin-top: 1em; }
-    th, td { border: 1px solid #ccc; padding: 6px 10px; vertical-align: top; }
-    th { background: #f7f7f7; }
+    :root{
+      --bg:#f6f7fb; --panel:#fff; --ink:#111827; --muted:#6b7280;
+      --border:#e5e7eb; --accent:#0a66c2; --ring:rgba(10,102,194,.25);
+      --radius:12px;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+    header{background:#0a66c2;color:#fff;padding:18px 16px}
+    header h1{margin:0;font-size:20px}
+    main{max-width:1100px;margin:16px auto 60px;padding:0 12px}
+    .tools{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:12px}
+    input[type="search"]{
+      flex:1 1 280px;min-width:240px;background:#fff;border:1px solid var(--border);
+      border-radius:10px;padding:10px;outline:none;
+    }
+    input[type="search"]:focus{border-color:var(--accent);box-shadow:0 0 0 4px var(--ring)}
+    .count{color:var(--muted);margin:6px 2px}
+    .tbl-wrap{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);overflow:auto;box-shadow:0 8px 30px rgba(0,0,0,.05)}
+    table{border-collapse:collapse;min-width:680px;width:100%}
+    th,td{padding:10px 12px;border-bottom:1px solid var(--border);vertical-align:top}
+    th{background:#f9fafb;text-align:left;color:#374151;font-weight:700;position:sticky;top:0}
+    tr:hover td{background:#fbfdff}
+    .muted{color:var(--muted)}
+    .badge{display:inline-block;background:#f1f5f9;border:1px solid var(--border);padding:4px 8px;border-radius:999px;margin:2px 6px 2px 0}
+    .err{white-space:pre-wrap;color:#b91c1c;margin-top:8px}
   </style>
 </head>
 <body>
-  <h1>Vérification du fichier <code>deputes/an_actors.json</code></h1>
-  <p class="muted">Si la table reste vide : vérifier l’onglet Actions (workflow), puis attendre ~1 minute que GitHub Pages serve la nouvelle version.</p>
+  <header>
+    <h1>Acteurs AN -- test (recherche par code)</h1>
+  </header>
 
-  <div id="info" class="muted">Chargement…</div>
+  <main>
+    <div class="tools">
+      <input id="q" type="search" placeholder="Rechercher un code (PA410, PO7818…) ou un nom…" autocomplete="off" />
+    </div>
+    <div id="count" class="count"></div>
 
-  <table id="table">
-    <thead>
-      <tr>
-        <th>#</th>
-        <th>Code</th>
-        <th>Nom</th>
-        <th>Prénom</th>
-        <th>Rôles</th>
-      </tr>
-    </thead>
-    <tbody></tbody>
-  </table>
+    <div class="tbl-wrap">
+      <table id="tbl">
+        <thead>
+          <tr>
+            <th style="width:140px">Code</th>
+            <th>Nom</th>
+            <th>Rôles (type · libellé)</th>
+          </tr>
+        </thead>
+        <tbody id="tbody">
+          <tr><td colspan="3" class="muted" style="padding:18px">Chargement…</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <pre id="err" class="err"></pre>
+  </main>
 
   <script>
-    const url = "./deputes/an_actors.json?v=" + Date.now();
-    document.getElementById("info").textContent = "GET " + url;
+    const els = {
+      q: document.getElementById('q'),
+      tbody: document.getElementById('tbody'),
+      count: document.getElementById('count'),
+      err: document.getElementById('err'),
+    };
 
-    fetch(url)
-      .then(r => {
-        if (!r.ok) throw new Error("HTTP " + r.status);
-        return r.json();
-      })
-      .then(data => {
-        const tbody = document.querySelector("#table tbody");
-        if (!Array.isArray(data) || !data.length) {
-          tbody.innerHTML = "<tr><td colspan=5>Aucune donnée trouvée</td></tr>";
-          return;
-        }
-        document.getElementById("info").textContent = `OK (${data.length} entrées)`;
-        tbody.innerHTML = data.slice(0, 200).map((it, i) => `
+    let DATA = [];   // [{ code, nom, roles: [{type, libelle}...] }]
+
+    const esc = s => (s ?? '').toString()
+      .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+
+    function render(list){
+      if (!Array.isArray(list)) list = [];
+      els.count.textContent = list.length
+        ? `${list.length} acteur·rice·s`
+        : 'Aucun résultat';
+      if (!list.length){
+        els.tbody.innerHTML = `<tr><td colspan="3" class="muted" style="padding:18px">Aucun résultat.</td></tr>`;
+        return;
+      }
+      els.tbody.innerHTML = list.map(a => {
+        const roles = Array.isArray(a.roles) && a.roles.length
+          ? a.roles.map(r => `<span class="badge">${esc(r.type || '')}${r.type && r.libelle ? ' · ' : ''}${esc(r.libelle || '')}</span>`).join('')
+          : `<span class="muted">--</span>`;
+        return `
           <tr>
-            <td>${i+1}</td>
-            <td>${it.code || ""}</td>
-            <td>${it.nom || ""}</td>
-            <td>${it.prenom || ""}</td>
-            <td>${Array.isArray(it.roles) ? it.roles.join(", ") : (it.role || "")}</td>
+            <td><strong>${esc(a.code)}</strong></td>
+            <td>${esc(a.nom || '--')}</td>
+            <td>${roles}</td>
           </tr>
-        `).join("");
-      })
-      .catch(err => {
-        document.getElementById("info").textContent = "Erreur : " + err.message;
-        document.querySelector("#table tbody").innerHTML =
-          `<tr><td colspan=5>Erreur de chargement</td></tr>`;
-      });
+        `;
+      }).join('');
+    }
+
+    function filt(){
+      const q = (els.q.value || '').trim();
+      if (!q){
+        render(DATA);
+        return;
+      }
+      const isCode = /^[A-Z]{2}\d{3,}$/i.test(q);
+      const qUp = q.toUpperCase();
+
+      let res = [];
+      if (isCode){
+        // priorité à la correspondance exacte du code
+        res = DATA.filter(a => (a.code || '').toUpperCase() === qUp);
+        if (!res.length){
+          // sinon, commence par…
+          res = DATA.filter(a => (a.code || '').toUpperCase().startsWith(qUp));
+        }
+      } else {
+        // recherche texte sur le nom + libellé des rôles
+        const ql = q.toLowerCase();
+        res = DATA.filter(a => {
+          const inName = (a.nom || '').toLowerCase().includes(ql);
+          const inRoles = (a.roles || []).some(r =>
+            (r.libelle || '').toLowerCase().includes(ql) ||
+            (r.type || '').toLowerCase().includes(ql)
+          );
+          return inName || inRoles;
+        });
+      }
+      render(res);
+    }
+
+    // petit debounce pour le champ de recherche
+    let t;
+    els.q.addEventListener('input', () => {
+      clearTimeout(t);
+      t = setTimeout(filt, 120);
+    });
+
+    (async function init(){
+      try{
+        els.err.textContent = '';
+        // adapte le chemin si nécessaire
+        const url = './data/an_actors.json?v=' + Date.now();
+        const r = await fetch(url, {cache:'no-store'});
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        const arr = await r.json();
+        // tri initial par code
+        DATA = (Array.isArray(arr) ? arr : [])
+          .filter(x => x && x.code)
+          .sort((a,b) => (a.code > b.code ? 1 : -1));
+        render(DATA);
+      }catch(e){
+        els.tbody.innerHTML = `<tr><td colspan="3" class="muted" style="padding:18px">Impossible de charger les données.</td></tr>`;
+        els.err.textContent = String(e && e.message || e);
+      }
+    })();
   </script>
 </body>
 </html>
