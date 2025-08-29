@@ -5,134 +5,149 @@
   <title>Test acteurs AN -- recherche par code</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
-    :root{--bg:#f5f7fb;--panel:#fff;--ink:#0f172a;--muted:#6b7280;--border:#e5e7eb;--accent:#0d6efd}
-    body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.45 system-ui,-apple-system,Segoe UI,Roboto,Arial}
-    header{position:sticky;top:0;background:var(--accent);color:#fff;padding:16px 20px;box-shadow:0 2px 10px rgba(0,0,0,.15)}
-    header h1{margin:0;font-size:20px}
-    main{max-width:1100px;margin:16px auto;padding:0 16px}
-    .top{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
-    #q{flex:1 1 420px;min-width:260px;padding:10px;border:1px solid var(--border);border-radius:10px}
-    .count{color:var(--muted);font-size:14px}
-    table{width:100%;border-collapse:collapse;background:var(--panel);border:1px solid var(--border);border-radius:12px;overflow:hidden}
-    th,td{padding:12px 14px;border-bottom:1px solid var(--border)}
-    th{background:#f8fafc;text-align:left;color:#111827;font-weight:700}
-    tr:hover{background:#f9fafb}
-    .muted{color:var(--muted)}
+    :root{
+      --bg:#f6f7fb; --panel:#fff; --ink:#111827; --muted:#6b7280;
+      --accent:#0d6efd; --ring:rgba(13,110,253,.25); --border:#e5e7eb;
+      --radius:12px;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+    .topbar{position:sticky;top:0;z-index:10;background:var(--accent);color:#fff;padding:14px 16px;box-shadow:0 2px 12px rgba(13,110,253,.28)}
+    .topbar h1{margin:0;font-size:18px}
+    .wrap{max-width:1100px;margin:14px auto;padding:0 12px 36px}
+    #q{width:100%;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff}
+    #q:focus{outline:none;box-shadow:0 0 0 4px var(--ring);border-color:var(--accent)}
+    .meta{display:flex;justify-content:space-between;align-items:center;margin:10px 2px;color:var(--muted);font-size:13px}
+    .panel{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden}
+    table{width:100%;border-collapse:collapse}
+    thead th{background:#f8fafc;text-align:left;font-weight:700;border-bottom:1px solid var(--border);padding:10px 12px;font-size:14px}
+    tbody td{padding:10px 12px;border-bottom:1px solid var(--border);vertical-align:top}
     .code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+    .muted{color:var(--muted)}
+    .err{color:#b91c1c}
+    .badge{display:inline-block;border:1px solid var(--border);border-radius:999px;padding:4px 8px;margin:2px 6px 2px 0;background:#f8fafc;font-size:12px}
   </style>
 </head>
 <body>
-  <header><h1>Test acteurs AN -- recherche par code</h1></header>
-  <main>
-    <div class="top">
-      <input id="q" type="search" placeholder="Rechercher (code, nom, type, rôles)…" />
-      <div class="count" id="count"></div>
-    </div>
-    <div style="margin-top:10px;overflow:auto">
-      <table id="tbl">
+  <header class="topbar">
+    <h1>Test acteurs AN -- recherche par code</h1>
+  </header>
+
+  <main class="wrap">
+    <input id="q" type="search" placeholder="Rechercher (code, nom, type, rôles)…" aria-label="Rechercher" />
+    <div class="meta"><span id="count">--</span><span id="status" class="muted"></span></div>
+
+    <section class="panel">
+      <table aria-live="polite">
         <thead>
           <tr>
-            <th style="width:160px">Code</th>
+            <th style="width:140px">Code</th>
             <th>Nom / Libellé</th>
-            <th style="width:180px">Type</th>
+            <th style="width:160px">Type</th>
             <th>Rôles</th>
           </tr>
         </thead>
-        <tbody id="rows"><tr><td colspan="4" class="muted">Chargement…</td></tr></tbody>
+        <tbody id="tbody">
+          <tr><td colspan="4" class="muted">Chargement…</td></tr>
+        </tbody>
       </table>
-    </div>
+    </section>
   </main>
 
   <script>
-    // Helpers: extraction sûre du code, du nom/libellé, des rôles et du type
-    const getCode = (it) => {
-      if (typeof it.code === 'string') return it.code;
-      if (it.code && typeof it.code === 'object') {
-        return it.code['#text'] || it.code.text || it.code.value || '';
+    // Emplacements possibles du JSON
+    const REL_URL = './data/an_actors.json';
+    const ABS_URL = 'https://teiki5320.github.io/loi/data/an_actors.json';
+
+    const $ = (s)=>document.querySelector(s);
+    const tbody = $('#tbody');
+    const q = $('#q');
+    const countEl = $('#count');
+    const statusEl = $('#status');
+
+    let DATA = [];     // tableau complet
+    let VIEW = [];     // vue filtrée
+
+    // Chargement JSON avec fallback REL -> ABS
+    async function loadData(){
+      statusEl.textContent = 'Chargement…';
+      let resp;
+      try {
+        resp = await fetch(REL_URL, {cache:'no-store'});
+        if (!resp.ok) throw new Error('REL non ok');
+      } catch {
+        resp = await fetch(ABS_URL, {cache:'no-store'});
       }
-      // fallback: parfois on a uid côté organe/acteur
-      if (typeof it.uid === 'string') return it.uid;
-      if (it.uid && typeof it.uid === 'object') return it.uid['#text'] || '';
-      return '';
-    };
-
-    const getNom = (it) => it.nom || it.name || it.libelle || it.libelleEdition || '';
-
-    const getType = (it) => {
-      // ton build peut avoir it.type ; sinon devine à partir des rôles
-      if (it.type) return it.type;
-      const roles = (it.roles || []).join(' · ');
-      if (/déput/i.test(roles)) return 'Député';
-      if (/sénat/i.test(roles)) return 'Sénateur';
-      if (/ministre/i.test(roles)) return 'Ministre';
-      return it.categorie || '';
-    };
-
-    const getRoles = (it) => {
-      if (Array.isArray(it.roles) && it.roles.length) return it.roles.join(' · ');
-      return '';
-    };
-
-    let ALL = [];
-
-    async function load() {
-      const res = await fetch('./data/an16/an_actors.json?v=' + Date.now(), {cache:'no-store'});
-      const raw = await res.json();
-
-      // Normalisation: fabrique un tableau propre {code, nom, type, rolesStr}
-      ALL = (Array.isArray(raw) ? raw : []).map(it => {
-        const code = getCode(it);
-        const nom = getNom(it);
-        const type = getType(it);
-        const rolesStr = getRoles(it);
-        return { code, nom, type, rolesStr };
-      });
-
-      render(ALL);
-      document.getElementById('q').addEventListener('input', onSearch);
+      if (!resp.ok) throw new Error('Échec de chargement JSON');
+      return resp.json();
     }
 
-    function onSearch(e){
-      const q = e.target.value.trim().toLowerCase();
-      if (!q){
-        render(ALL);
-        return;
-      }
-      const f = ALL.filter(x =>
-        (x.code||'').toLowerCase().includes(q) ||
-        (x.nom||'').toLowerCase().includes(q)  ||
-        (x.type||'').toLowerCase().includes(q) ||
-        (x.rolesStr||'').toLowerCase().includes(q)
-      );
-      render(f);
+    function normalizeRole(r){
+      if (!r) return '';
+      if (typeof r === 'string') return r;
+      try { return JSON.stringify(r); } catch { return String(r); }
     }
 
     function render(list){
-      const rows = document.getElementById('rows');
-      const cnt = document.getElementById('count');
-      cnt.textContent = `${list.length} résultat${list.length>1?'s':''}`;
-      if (!list.length){
-        rows.innerHTML = `<tr><td colspan="4" class="muted">Aucun résultat.</td></tr>`;
+      if (!Array.isArray(list) || !list.length){
+        tbody.innerHTML = `<tr><td colspan="4" class="muted">Aucun résultat.</td></tr>`;
+        countEl.textContent = '0 résultat';
         return;
       }
-      rows.innerHTML = list.map(x => `
-        <tr>
-          <td class="code">${escapeHTML(x.code || '--')}</td>
-          <td>${escapeHTML(x.nom || '--')}</td>
-          <td>${escapeHTML(x.type || '--')}</td>
-          <td>${escapeHTML(x.rolesStr || '--')}</td>
-        </tr>
-      `).join('');
+      const rows = list.map(a=>{
+        const code = a.code ?? '--';
+        const nom  = a.nom || a.libelle || '--';
+        const type = a.type || '--';
+        const roles = Array.isArray(a.roles) && a.roles.length
+          ? a.roles.map(r=>`<span class="badge">${normalizeRole(r)}</span>`).join('')
+          : '<span class="muted">--</span>';
+        return `<tr>
+          <td class="code">${code}</td>
+          <td>${nom}</td>
+          <td>${type}</td>
+          <td>${roles}</td>
+        </tr>`;
+      }).join('');
+      tbody.innerHTML = rows;
+      countEl.textContent = `${list.length} résultat${list.length>1?'s':''}`;
     }
 
-    function escapeHTML(s){
-      return String(s ?? '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+    function filter(term){
+      const t = term.trim().toLowerCase();
+      if (!t){ VIEW = DATA.slice(); return render(VIEW); }
+      VIEW = DATA.filter(a=>{
+        const code = (a.code||'').toLowerCase();
+        const nom  = (a.nom||a.libelle||'').toLowerCase();
+        const type = (a.type||'').toLowerCase();
+        const roles = (Array.isArray(a.roles)?a.roles:[]).join(' ').toLowerCase();
+        return code.includes(t) || nom.includes(t) || type.includes(t) || roles.includes(t);
+      });
+      render(VIEW);
     }
 
-    load().catch(err=>{
-      console.error(err);
-      document.getElementById('rows').innerHTML =
-        `<tr><td colspan="4" class="muted">Erreur de chargement.</td></tr>`;
+    // Init
+    (async function(){
+      try{
+        DATA = await loadData();
+        // petite validation minimale
+        if (!Array.isArray(DATA)) throw new Error('JSON inattendu (pas un tableau)');
+        // tri simple par code
+        DATA.sort((a,b)=>String(a.code||'').localeCompare(String(b.code||'')));
+        statusEl.textContent = '';
+        filter('');
+      }catch(err){
+        console.error(err);
+        tbody.innerHTML = `<tr><td colspan="4" class="err">Erreur de chargement.</td></tr>`;
+        statusEl.textContent = '';
+        countEl.textContent = '--';
+      }
+    })();
+
+    // Recherche temps réel (debounce léger)
+    let tId;
+    q.addEventListener('input', e=>{
+      clearTimeout(tId);
+      tId = setTimeout(()=>filter(e.target.value), 120);
     });
   </script>
 </body>
