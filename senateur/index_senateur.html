@@ -4,30 +4,44 @@
   <meta charset="utf-8" />
   <title>🏛 Sénateurs</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- On réutilise le CSS des députés tel quel -->
-  <link rel="stylesheet" href="../style_depute.css" />
+  <!-- Style dédié aux sénateurs -->
+  <link rel="stylesheet" href="./style_senateur.css" />
 </head>
 <body>
+  <!-- (optionnel) petit menu de nav -->
+  <nav class="topbar" style="padding:10px 12px">
+    <select id="nav-select" aria-label="Navigation">
+      <option value="../index.html">📜 Lois</option>
+      <option value="../deputes/index_depute.html">👤 Députés</option>
+      <option value="./index_senateur.html" selected>🏛 Sénateurs</option>
+    </select>
+  </nav>
+
   <header>
     <h1>🏛 Sénateurs</h1>
   </header>
 
-  <!-- Barre outils identique -->
+  <!-- Barre d’outils -->
   <section>
-    <input id="q" type="search" placeholder="Recherche (nom, groupe, e-mail…)" aria-label="Recherche" />
-    <!-- (optionnel) filtres :
-    <select id="groupe"></select>
-    <select id="dept"></select> -->
+    <input id="q" type="search" placeholder="Recherche (nom, groupe, circo, e-mail…)" aria-label="Recherche" />
+    <!-- Filtres facultatifs :
+    <select id="groupe" aria-label="Filtrer par groupe"></select>
+    <select id="dept" aria-label="Filtrer par département"></select>
+    -->
   </section>
 
-  <!-- Compteur + erreurs -->
-  <div id="count" class="legend-item"></div>
+  <div id="count"></div>
   <pre id="err"></pre>
 
-  <!-- IMPORTANT : même id & grille que les députés -->
-  <main id="deputes-list" aria-live="polite"></main>
+  <!-- Grille de cartes -->
+  <main id="senateurs-list" aria-live="polite"></main>
 
-  <!-- Script spécifique sénateurs -->
-  <script src="./script_senateur.js?v=1"></script>
+  <script>
+    // Navigation
+    document.getElementById("nav-select").addEventListener("change", e => {
+      location.href = e.target.value;
+    });
+  </script>
+  <script src="./script_senateur.js?v=2025-08-29-2" defer></script>
 </body>
 </html>
