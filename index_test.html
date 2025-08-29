@@ -6,161 +6,190 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
     :root{
-      --bg:#f6f8fb; --ink:#0f172a; --mut:#6b7280; --panel:#fff;
-      --line:#e5e7eb; --accent:#0d6efd; --ring:rgba(13,110,253,.25);
+      --bg:#f5f7fb; --panel:#fff; --ink:#0f172a; --muted:#6b7280;
+      --border:#e5e7eb; --accent:#0d6efd; --ring:rgba(13,110,253,.25);
+      --radius:12px;
     }
     *{box-sizing:border-box}
-    body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.45 system-ui,-apple-system,Segoe UI,Roboto,Arial}
-    header{position:sticky;top:0;background:var(--accent);color:#fff;padding:18px 16px;z-index:10;box-shadow:0 2px 10px rgba(13,110,253,.25)}
-    header h1{margin:0;font-size:20px}
+    body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+    header{position:sticky;top:0;background:var(--accent);color:#fff;padding:18px 16px;box-shadow:0 2px 12px rgba(13,110,253,.25);z-index:5}
+    header h1{margin:0;font-size:clamp(18px,2.4vw,22px)}
     main{max-width:1100px;margin:16px auto;padding:0 12px}
-    .row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
-    #q{flex:1 1 420px;min-width:240px;background:#fff;border:1px solid var(--line);border-radius:10px;padding:10px 12px}
-    #q:focus{outline:none;box-shadow:0 0 0 4px var(--ring);border-color:#bcd1ff}
-    .muted{color:var(--mut)}
-    .count{margin:8px 2px}
-    table{width:100%;border-collapse:separate;border-spacing:0;background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
-    th,td{padding:12px;border-bottom:1px solid var(--line);vertical-align:top}
-    th{background:#f9fafb;text-align:left;font-weight:700}
-    tr:last-child td{border-bottom:none}
-    .code{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, monospace}
-    .badge{display:inline-block;padding:.2rem .5rem;border:1px solid var(--line);border-radius:999px;font-size:12px;margin-right:6px;background:#f8fafc}
+    .toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:8px 0 14px}
+    .toolbar input[type="search"]{flex:1 1 420px;min-width:220px}
+    .toolbar .chips{display:flex;gap:8px;flex-wrap:wrap}
+    .chip{border:1px solid var(--border);background:#fff;border-radius:999px;padding:6px 10px;font-size:14px;cursor:pointer}
+    .chip.active{background:#eef4ff;border-color:#cfe0ff}
+    input[type="search"]{
+      background:#fff;border:1px solid var(--border);border-radius:10px;padding:10px 12px;width:100%;
+    }
+    input[type="search"]:focus{outline:none;box-shadow:0 0 0 4px var(--ring);border-color:#bcd0ff}
+    .muted{color:var(--muted)}
+    .table{width:100%;border-collapse:separate;border-spacing:0;background:var(--panel);border:1px solid var(--border);border-radius:12px;overflow:hidden}
+    .table th,.table td{padding:10px 12px;border-bottom:1px solid var(--border);vertical-align:top}
+    .table thead th{background:#f8fafc;font-weight:700}
+    .table tr:last-child td{border-bottom:none}
+    .right{text-align:right}
+    .count{margin:6px 0 12px;color:var(--muted)}
+    @media (max-width:640px){
+      .table th:nth-child(3), .table td:nth-child(3){display:none} /* cache colonne Type sur mobile si besoin */
+    }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Test acteurs AN -- recherche par code</h1>
-  </header>
+  <header><h1>Test acteurs AN -- recherche par code</h1></header>
 
   <main>
-    <div class="row">
-      <input id="q" type="search" placeholder="Rechercher (code, nom, type, rôles)…" />
-      <div class="count muted" id="count">--</div>
+    <div class="toolbar">
+      <input id="q" type="search" placeholder="Rechercher (code, nom, type, rôles)..." autocomplete="off" />
+      <div class="chips">
+        <button class="chip active" data-filter="all">Tout</button>
+        <button class="chip" data-filter="PA">Acteurs (PA)</button>
+        <button class="chip" data-filter="PO">Organes (PO)</button>
+      </div>
     </div>
 
-    <table aria-label="Liste des acteurs AN">
+    <div id="count" class="count">Chargement…</div>
+
+    <table class="table" aria-describedby="count">
       <thead>
         <tr>
-          <th style="width:160px">Code</th>
+          <th style="width:120px">Code</th>
           <th>Nom / Libellé</th>
-          <th style="width:160px">Type</th>
+          <th style="width:220px">Type</th>
           <th>Rôles</th>
         </tr>
       </thead>
-      <tbody id="tbody">
+      <tbody id="rows">
         <tr><td colspan="4" class="muted">Chargement…</td></tr>
       </tbody>
     </table>
   </main>
 
   <script>
-    // -------- utils d’affichage sûrs --------
-    function normalize(val){
-      if (val == null) return '';
-      if (typeof val === 'string') return val;
-      if (typeof val === 'number' || typeof val === 'boolean') return String(val);
-      if (typeof val === 'object'){
-        // cas fréquent: { "#text": "PA1206" }
-        if (Object.prototype.hasOwnProperty.call(val, '#text')) return String(val['#text'] ?? '');
-        // si c’est déjà un objet simple "code": { value: "PA1206" }
-        if (Object.prototype.hasOwnProperty.call(val, 'value')) return String(val.value ?? '');
-        try { return JSON.stringify(val); } catch { return String(val); }
-      }
-      return String(val);
+  const $ = s => document.querySelector(s);
+  const rowsEl = $("#rows");
+  const qEl = $("#q");
+  const countEl = $("#count");
+  const chips = Array.from(document.querySelectorAll(".chip"));
+
+  let DATA = [];       // contenu brut depuis data/an_actors.json
+  let VIEW = [];       // vue filtrée
+
+  // Déduit un libellé de type lisible pour une entrée
+  function labelType(x){
+    const code = String(x.code||"");
+    if(code.startsWith("PO")){
+      // pour PO, on essaye: x.type || x.codeType || x.libelleAbrege
+      const bits = [];
+      bits.push("Organe");
+      if(x.type) bits.push(x.type);
+      else if(x.codeType) bits.push(x.codeType);
+      else if(x.libelleAbrege) bits.push(x.libelleAbrege);
+      return bits.filter(Boolean).join(" -- ");
     }
-    function joinText(parts, sep=' · '){
-      return parts.filter(Boolean).map(normalize).filter(Boolean).join(sep);
+    // Acteur : essaye de déduire à partir de ses rôles
+    if (Array.isArray(x.roles) && x.roles.length){
+      const types = [...new Set(x.roles.map(r => r.type).filter(Boolean))];
+      if (types.length) return "Acteur ("+types.join(", ")+")";
     }
-    function roleLabel(role){
-      if (!role) return '';
-      if (typeof role === 'string') return role;
-      if (typeof role === 'object'){
-        // on privilégie libQualite sinon codeQualite
-        return normalize(role.libQualite || role.codeQualite || role.titre || role);
-      }
-      return String(role);
+    return "Acteur";
+  }
+
+  // Formatte les rôles pour affichage court
+  function labelRoles(x){
+    if (!Array.isArray(x.roles) || !x.roles.length) return "--";
+    // On accepte plusieurs formes possibles: {type, libelle, organe, legislature, qualite}
+    return x.roles.slice(0,6).map(r=>{
+      const t = r.type || r.codeType || "";
+      const org = r.organe || r.organeRef || r.org || "";
+      const qual = r.qualite || r.libQualite || r.role || "";
+      const leg = r.legislature ? ` (L${r.legislature})` : "";
+      const segs = [qual || t, org].filter(Boolean).join(" -- ");
+      return segs ? (segs + leg) : (t || "rôle");
+    }).join(" · ");
+  }
+
+  // Rendu tableau
+  function render(list){
+    if(!list.length){
+      rowsEl.innerHTML = `<tr><td colspan="4" class="muted">Aucun résultat.</td></tr>`;
+      countEl.textContent = "0 résultat";
+      return;
     }
-    function escapeHTML(s){
-      return String(s)
-        .replace(/&/g,'&amp;').replace(/</g,'&lt;')
-        .replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+    const html = list.map(x => `
+      <tr>
+        <td><code>${escapeHTML(x.code||"")}</code></td>
+        <td>${escapeHTML(x.nom || x.libelle || x.libelleEdition || "--")}</td>
+        <td>${escapeHTML(labelType(x))}</td>
+        <td>${escapeHTML(labelRoles(x))}</td>
+      </tr>
+    `).join("");
+    rowsEl.innerHTML = html;
+    countEl.textContent = `${list.length} résultat${list.length>1?"s":""}`;
+  }
+
+  function escapeHTML(s){
+    return (s??"").toString()
+      .replace(/&/g,"&amp;").replace(/</g,"&lt;")
+      .replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+  }
+
+  // Filtrage global
+  function applyFilters(){
+    const q = qEl.value.trim().toLowerCase();
+    const active = chips.find(c=>c.classList.contains("active"))?.dataset.filter || "all";
+    VIEW = DATA.filter(x=>{
+      // Filtre PA/PO
+      if (active==="PA" && !String(x.code||"").startsWith("PA")) return false;
+      if (active==="PO" && !String(x.code||"").startsWith("PO")) return false;
+
+      if(!q) return true;
+      const hay = [
+        x.code, x.nom, x.libelle, x.libelleEdition, x.libelleAbrege,
+        x.type, x.codeType,
+        labelType(x),
+        ...(Array.isArray(x.roles)? x.roles.map(r=>[r.type,r.role,r.qualite,r.libQualite,r.organe,r.organeRef,r.legislature].join(" ")):[])
+      ].filter(Boolean).join(" ").toLowerCase();
+      return hay.includes(q);
+    });
+    render(VIEW);
+  }
+
+  // UI interactions
+  qEl.addEventListener("input", applyFilters);
+  chips.forEach(ch => ch.addEventListener("click", () => {
+    chips.forEach(c=>c.classList.remove("active"));
+    ch.classList.add("active");
+    applyFilters();
+  }));
+
+  // Chargement du JSON fusionné
+  (async function init(){
+    try{
+      const res = await fetch("./data/an_actors.json?ts="+Date.now());
+      if(!res.ok) throw new Error("HTTP "+res.status);
+      const raw = await res.json();
+      // Le build peut retourner un tableau simple ou un objet {items:[]}
+      const arr = Array.isArray(raw) ? raw : (raw.items || []);
+      // Normalisation minimale (si certains champs manquent)
+      DATA = arr.map(x => ({
+        code: x.code || x.uid || "",
+        nom:  x.nom || x.libelle || x.libelleEdition || "",
+        type: x.type || x.codeType || "",
+        libelle: x.libelle || "",
+        libelleEdition: x.libelleEdition || "",
+        libelleAbrege: x.libelleAbrege || "",
+        codeType: x.codeType || "",
+        roles: Array.isArray(x.roles) ? x.roles : (x.mandats || []) // si le build a conservé "mandats"
+      }));
+      applyFilters();
+    }catch(e){
+      console.error(e);
+      rowsEl.innerHTML = `<tr><td colspan="4" class="muted">Erreur de chargement.</td></tr>`;
+      countEl.textContent = "--";
     }
-
-    // -------- rendu du tableau --------
-    const tbody = document.getElementById('tbody');
-    const countEl = document.getElementById('count');
-    let DATA = [];
-
-    function render(list){
-      if (!Array.isArray(list) || list.length === 0){
-        tbody.innerHTML = `<tr><td colspan="4" class="muted">Aucun résultat.</td></tr>`;
-        countEl.textContent = '0 résultat';
-        return;
-      }
-      const rows = list.map(a=>{
-        const code = normalize(a.code) || '--';
-        const nom  = normalize(a.nom || a.libelle) || '--';
-        const type = normalize(a.type) || '--';
-
-        let rolesHTML = '<span class="muted">--</span>';
-        if (Array.isArray(a.roles) && a.roles.length){
-          rolesHTML = a.roles.map(r => `<span class="badge">${escapeHTML(roleLabel(r))}</span>`).join(' ');
-        } else if (a.role) {
-          rolesHTML = `<span class="badge">${escapeHTML(roleLabel(a.role))}</span>`;
-        }
-
-        return `<tr>
-          <td class="code">${escapeHTML(code)}</td>
-          <td>${escapeHTML(nom)}</td>
-          <td>${escapeHTML(type)}</td>
-          <td>${rolesHTML}</td>
-        </tr>`;
-      }).join('');
-      tbody.innerHTML = rows;
-      countEl.textContent = `${list.length} résultat${list.length>1?'s':''}`;
-    }
-
-    // -------- recherche --------
-    const q = document.getElementById('q');
-    function search(){
-      const term = q.value.trim().toLowerCase();
-      if (!term){ render(DATA); return; }
-      const res = DATA.filter(a=>{
-        const code = normalize(a.code).toLowerCase();
-        const nom  = normalize(a.nom || a.libelle).toLowerCase();
-        const type = normalize(a.type).toLowerCase();
-        const rolesText = Array.isArray(a.roles)
-          ? a.roles.map(r => roleLabel(r)).join(' ').toLowerCase()
-          : normalize(a.role).toLowerCase();
-        return code.includes(term) || nom.includes(term) || type.includes(term) || rolesText.includes(term);
-      });
-      render(res);
-    }
-    q.addEventListener('input', search);
-
-    // -------- chargement du JSON --------
-    (async function init(){
-      try{
-        const resp = await fetch('./data/an_actors.json', {cache:'no-store'});
-        if (!resp.ok) throw new Error('HTTP '+resp.status);
-        const raw = await resp.json();
-
-        // an_actors.json peut contenir { acteurs: [...] } ou directement un tableau
-        const arr = Array.isArray(raw) ? raw : (raw.acteurs || raw.items || []);
-        DATA = arr.map(x => ({
-          code:  x.code,
-          nom:   x.nom || x.libelle,
-          type:  x.type,
-          roles: Array.isArray(x.roles) ? x.roles : (x.roles ? [x.roles] : [])
-        }));
-
-        render(DATA);
-      }catch(e){
-        console.error(e);
-        tbody.innerHTML = `<tr><td colspan="4" class="muted">Erreur de chargement.</td></tr>`;
-        countEl.textContent = '--';
-      }
-    })();
+  })();
   </script>
 </body>
 </html>
