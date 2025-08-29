@@ -410,13 +410,13 @@
   {
     "code": "PO684926",
     "nom": "Parti communiste français",
-    "type": "PARPOL",
+    "type": "Parti politique",
     "roles": []
   },
   {
     "code": "PO686029",
     "nom": "Pour la Réunion",
-    "type": "PARPOL",
+    "type": "Parti politique",
     "roles": []
   },
   {
@@ -452,7 +452,7 @@
   {
     "code": "PO702883",
     "nom": "du Gouvernement",
-    "type": "Gouvernement",
+    "type": "GOUVERNEMENT",
     "roles": []
   },
   {
@@ -518,7 +518,7 @@
   {
     "code": "PO710611",
     "nom": "Debout la France",
-    "type": "PARPOL",
+    "type": "Parti politique",
     "roles": []
   },
   {
@@ -541,25 +541,25 @@
   },
   {
     "code": "PO717296",
-    "nom": "Comité de pilotage de l'Observatoire de la formation des prix et des marges des produits alimentaires",
+    "nom": "Observatoire prix et marge produits alimentaires",
     "type": "Organe extra-parlementaire",
     "roles": []
   },
   {
     "code": "PO717298",
-    "nom": "Commission nationale du patrimoine et de l'architecture",
+    "nom": "CNPA",
     "type": "Organe extra-parlementaire",
     "roles": []
   },
   {
     "code": "PO717314",
-    "nom": "Comité de massif du Massif jurassien",
+    "nom": "Comité massif du Jura",
     "type": "Organe extra-parlementaire",
     "roles": []
   },
   {
     "code": "PO717320",
-    "nom": "Comité de massif du Massif vosgiens",
+    "nom": "Comité Massif vosgiens",
     "type": "Organe extra-parlementaire",
     "roles": []
   },
@@ -577,13 +577,13 @@
   },
   {
     "code": "PO717338",
-    "nom": "Conseil d'administration du centre scientifique et technique du bâtiment",
+    "nom": "CA centre scientifique et technique du bâtiment",
     "type": "Organe extra-parlementaire",
     "roles": []
   },
   {
     "code": "PO717347",
-    "nom": "Conseil d'administration du Fonds national des aides à la pierre",
+    "nom": "Fonds national aide à la pierre",
     "type": "Organe extra-parlementaire",
     "roles": []
   },
@@ -595,31 +595,31 @@
   },
   {
     "code": "PO717423",
-    "nom": "Haut Conseil de la famille, de l'enfance et de l'âge – Famille",
+    "nom": "Haut Conseil famille, formation famille",
     "type": "Organe extra-parlementaire",
     "roles": []
   },
   {
     "code": "PO717425",
-    "nom": "Haut Conseil de la famille, de l'enfance et de l'âge – Enfance et adolescence",
+    "nom": "Haut Conseil famille, formation enfance",
     "type": "Organe extra-parlementaire",
     "roles": []
   },
   {
     "code": "PO717427",
-    "nom": "Haut Conseil de la famille, de l'enfance et de l'âge - Âge",
+    "nom": "Haut Conseil famille, formation âge",
     "type": "Organe extra-parlementaire",
     "roles": []
   },
   {
     "code": "PO717433",
-    "nom": "Conseil de surveillance de l’établissement public société canal seine-nord europe",
+    "nom": "Conseil surveillance canal Seine-nord Europe",
     "type": "Organe extra-parlementaire",
     "roles": []
   },
   {
     "code": "PO732859",
-    "nom": "Conseil d'administration de l'Institut de radioprotection et de sûreté nucléaire",
+    "nom": "CA radioprotection nucléaire",
     "type": "Organe extra-parlementaire",
     "roles": []
   },
@@ -637,7 +637,7 @@
   },
   {
     "code": "PO758409",
-    "nom": "Comité des rémunérations du comité d'organisation des jeux Olympiques et Paralympiques",
+    "nom": "Comité des rémunérations du COJO",
     "type": "Organe extra-parlementaire",
     "roles": []
   },
@@ -667,7 +667,7 @@
   },
   {
     "code": "PO769416",
-    "nom": "Conseil d'administration de l'Agence nationale du sport",
+    "nom": "Agence nationale du sport",
     "type": "Organe extra-parlementaire",
     "roles": []
   },
@@ -679,98 +679,98 @@
   },
   {
     "code": "PO784396",
-    "nom": "Conseil de surveillance chargé du suivi et du contrôle de la recherche et de la mise en œuvre d’alternatives aux produits phytopharmaceutiques contenant une ou des substances actives de la famille des néonicotinoïdes ou présentant des modes d’action identiques à ceux de ces substances",
+    "nom": "Conseil de surveillance néonicotinoïdes",
     "type": "Organe extra-parlementaire",
     "roles": []
   },
   {
     "code": "PO784404",
-    "nom": "Comité chargé de proposer des évolutions de la composition du Conseil économique, social et environnemental",
+    "nom": "Comité composition du CESE",
     "type": "Organe extra-parlementaire",
     "roles": []
   },
   {
     "code": "PO784412",
-    "nom": "Conseil d’orientation des infrastructures",
+    "nom": "Conseil orientation infrastructures",
     "type": "Organe extra-parlementaire",
     "roles": []
   },
   {
     "code": "PO78718",
     "nom": "du sénat ( 5ème République )",
-    "type": "Sénat",
+    "type": "SENAT",
     "roles": []
   },
   {
     "code": "PO791579",
     "nom": "du Gouvernement",
-    "type": "Gouvernement",
+    "type": "GOUVERNEMENT",
     "roles": []
   },
   {
     "code": "PO791580",
     "nom": "Première ministre",
-    "type": "MINISTERE",
+    "type": "Ministère",
     "roles": []
   },
   {
     "code": "PO791599",
     "nom": "de la transition écologique et de la cohésion des territoires",
-    "type": "MINISTERE",
+    "type": "Ministère",
     "roles": []
   },
   {
     "code": "PO791603",
     "nom": "des armées",
-    "type": "MINISTERE",
+    "type": "Ministère",
     "roles": []
   },
   {
     "code": "PO791605",
     "nom": "de la santé et de la prévention",
-    "type": "MINISTERE",
+    "type": "Ministère",
     "roles": []
   },
   {
     "code": "PO791607",
     "nom": "du travail, du plein emploi et de l’insertion",
-    "type": "MINISTERE",
+    "type": "Ministère",
     "roles": []
   },
   {
     "code": "PO791609",
     "nom": "des solidarités, de l'autonomie et des personnes handicapées",
-    "type": "MINISTERE",
+    "type": "Ministère",
     "roles": []
   },
   {
     "code": "PO791619",
     "nom": "de la culture",
-    "type": "MINISTERE",
+    "type": "Ministère",
     "roles": []
   },
   {
     "code": "PO791631",
     "nom": "auprès du ministre de l’intérieur et de la ministre de la transition écologique et de la cohésion des territoires, chargé des collectivités territoriales",
-    "type": "MINISTERE",
+    "type": "Ministère",
     "roles": []
   },
   {
     "code": "PO791641",
     "nom": "auprès de la Première ministre, chargé de l’enfance",
-    "type": "MINISTERE",
+    "type": "Ministère",
     "roles": []
   },
   {
     "code": "PO791643",
     "nom": "auprès de la ministre de l’Europe et des affaires étrangères, chargé du développement, de la francophonie et des partenariats internationaux",
-    "type": "MINISTERE",
+    "type": "Ministère",
     "roles": []
   },
   {
     "code": "PO791932",
     "nom": "de l'Assemblée",
-    "type": "Assemblée nationale",
+    "type": "Assemblée",
     "roles": []
   },
   {
@@ -836,25 +836,25 @@
   {
     "code": "PO801867",
     "nom": "auprès du ministre de l’économie, des finances et de la souveraineté industrielle et numérique, chargé de l’industrie",
-    "type": "MINISTERE",
+    "type": "Ministère",
     "roles": []
   },
   {
     "code": "PO801875",
     "nom": "auprès du ministre de l’économie, des finances et de la souveraineté industrielle et numérique, chargé de la transition numérique et des télécommunications",
-    "type": "MINISTERE",
+    "type": "Ministère",
     "roles": []
   },
   {
     "code": "PO801877",
     "nom": "auprès du ministre de l’économie, des finances et de la souveraineté industrielle et numérique, chargé des petites et moyennes entreprises, du commerce, de l’artisanat et du tourisme",
-    "type": "MINISTERE",
+    "type": "Ministère",
     "roles": []
   },
   {
     "code": "PO801879",
     "nom": "auprès du ministre de l’intérieur et des outre-mer et du ministre de la transition écologique et de la cohésion des territoires, chargé des collectivités territoriales",
-    "type": "MINISTERE",
+    "type": "Ministère",
     "roles": []
   },
   {
@@ -925,25 +925,25 @@
   },
   {
     "code": "PO804563",
-    "nom": "Mission d'information sur l'évaluation de la mise en oeuvre du code de la justice pénale des mineurs",
+    "nom": "Mission d'information évaluation mise en oeuvre code justice pénale mineurs",
     "type": "MISINFO",
     "roles": []
   },
   {
     "code": "PO804570",
-    "nom": "Mission d'information sur les enjeux de l'utilisation d'images de sécurité dans le domaine public dans une finalité de lutte contre l'insécurité",
+    "nom": "Utilisation images lutte contre l'insécurité",
     "type": "MISINFO",
     "roles": []
   },
   {
     "code": "PO804606",
-    "nom": "Conseil d’administration de la société France Télévisions",
+    "nom": "France Télévisions",
     "type": "Organe extra-parlementaire",
     "roles": []
   },
   {
     "code": "PO804612",
-    "nom": "Conseil d'administration de la société en charge de l'audiovisuel extérieur de la France",
+    "nom": "audiovisuel extérieur de la France",
     "type": "Organe extra-parlementaire",
     "roles": []
   },
@@ -961,14 +961,14 @@
   },
   {
     "code": "PO805197",
-    "nom": "Mission d'information sur les enjeux migratoires aux frontières Sud de l’Union européenne et en océan indien",
+    "nom": "MI Enjeux migratoires aux frontières Sud de l'Union Européenne & en océan indien",
     "type": "MISINFO",
     "roles": []
   },
   {
     "code": "PO805243",
     "nom": "de la commission d'enquête visant à établir les raisons de la perte de souveraineté et d'indépendance énergétique de la France",
-    "type": "CNPE",
+    "type": "Commission d’enquête / mission",
     "roles": []
   },
   {
@@ -1004,43 +1004,43 @@
   {
     "code": "PO806326",
     "nom": "auprès du ministre de l’intérieur et des outre-mer et du ministre de la transition écologique et de la cohésion des territoires, chargé des collectivités territoriales et de la ruralité",
-    "type": "MINISTERE",
+    "type": "Ministère",
     "roles": []
   },
   {
     "code": "PO806440",
     "nom": "Réunion libre",
-    "type": "PARPOL",
+    "type": "Parti politique",
     "roles": []
   },
   {
     "code": "PO806442",
     "nom": "Rézistan's Égalité 974",
-    "type": "PARPOL",
+    "type": "Parti politique",
     "roles": []
   },
   {
     "code": "PO806444",
     "nom": "Union des démocrates européens, centristes et indépendants",
-    "type": "PARPOL",
+    "type": "Parti politique",
     "roles": []
   },
   {
     "code": "PO807041",
     "nom": "de France-Monténégro",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO807066",
-    "nom": "France-Kenya Ouganda Tanzanie",
-    "type": "Groupe d’amitié",
+    "nom": "Kenya Ouganda Tanzanie",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO807076",
     "nom": "de France-Malte",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
@@ -1052,13 +1052,13 @@
   {
     "code": "PO807086",
     "nom": "de France-Iran",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO807091",
     "nom": "de France-Chypre",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
@@ -1076,43 +1076,43 @@
   {
     "code": "PO807121",
     "nom": "de France-Vanuatu",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO807146",
     "nom": "de France-Soudan",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO807166",
     "nom": "de France-Bangladesh",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO807181",
     "nom": "de France-Venezuela",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO807201",
     "nom": "de France-Niger",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO807226",
     "nom": "de France-Japon",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO807246",
     "nom": "de France-Royaume des Pays-Bas",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
@@ -1124,13 +1124,13 @@
   {
     "code": "PO807271",
     "nom": "de France-Guinée",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO807296",
     "nom": "de France-Mexique",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
@@ -1148,7 +1148,7 @@
   {
     "code": "PO807326",
     "nom": "de France-Maroc",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
@@ -1160,13 +1160,13 @@
   {
     "code": "PO807351",
     "nom": "de France-Luxembourg",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO807391",
     "nom": "de France-Australie",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
@@ -1190,7 +1190,7 @@
   {
     "code": "PO807416",
     "nom": "de France-Emirats Arabes Unis",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
@@ -1202,31 +1202,31 @@
   {
     "code": "PO807431",
     "nom": "de France-Islande",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO807466",
     "nom": "de France-Guinée-Bissao",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO807476",
     "nom": "de France-Koweit",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO807481",
     "nom": "de France-Vietnam",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO807491",
     "nom": "de France-Irlande",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
@@ -1238,13 +1238,13 @@
   {
     "code": "PO807522",
     "nom": "de France-Russie",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO807527",
     "nom": "de France-Mozambique",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
@@ -1262,13 +1262,13 @@
   {
     "code": "PO807563",
     "nom": "de France-Slovénie",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO807573",
     "nom": "de France-Bielorussie",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
@@ -1280,25 +1280,25 @@
   {
     "code": "PO807628",
     "nom": "de France-Singapour",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO807638",
     "nom": "de France-Comores",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO807643",
     "nom": "de France-Ghana",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO807648",
     "nom": "de France-Mauritanie",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
@@ -1310,31 +1310,31 @@
   {
     "code": "PO807688",
     "nom": "de France-Estonie",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO807698",
     "nom": "de France-Argentine",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO807708",
     "nom": "de France-Algérie",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO807718",
     "nom": "de France-Uruguay",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO807723",
     "nom": "de France-Mali",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
@@ -1346,43 +1346,43 @@
   {
     "code": "PO807733",
     "nom": "de France-Cambodge",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO807749",
     "nom": "de Kosovo",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO807755",
     "nom": "de France-Mongolie",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO807770",
     "nom": "de France-Nouvelle-Zélande",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO807795",
     "nom": "de France-Arménie",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO807815",
     "nom": "de France-Congo",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO807825",
     "nom": "de France-Bahrein",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
@@ -1394,67 +1394,67 @@
   {
     "code": "PO807835",
     "nom": "de France-Maurice",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO807840",
     "nom": "de France-Afghanistan",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO807846",
     "nom": "de France-Cuba",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO807856",
     "nom": "de France-Andorre",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO807866",
     "nom": "de France-Irak",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO807881",
     "nom": "de France-Népal",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO807891",
     "nom": "de France-Somalie",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO807901",
     "nom": "de France-Bulgarie",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO807926",
     "nom": "de France-Sénégal",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO807936",
     "nom": "de France-Géorgie",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO807946",
     "nom": "de France-Hongrie",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
@@ -1466,31 +1466,31 @@
   {
     "code": "PO807971",
     "nom": "de France-Gabon",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO808006",
     "nom": "de France-Suriname",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO808016",
     "nom": "de France-Pologne",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO808021",
     "nom": "de France-Ethiopie",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO808026",
     "nom": "de France-Haïti",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
@@ -1502,13 +1502,13 @@
   {
     "code": "PO808051",
     "nom": "de France-Moldavie",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO808066",
     "nom": "de France-Croatie",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
@@ -1526,43 +1526,43 @@
   {
     "code": "PO808091",
     "nom": "de France-Pakistan",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO808101",
     "nom": "de France-Liberia",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO808106",
-    "nom": "Groupe d'études à vocation internationale sur les Iles du Pacifique",
+    "nom": "Iles du Pacifique",
     "type": "GEVI",
     "roles": []
   },
   {
     "code": "PO808111",
     "nom": "de France-Allemagne",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO808121",
     "nom": "de France-Espagne",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO808131",
     "nom": "de France-Chine",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO808146",
     "nom": "de France-Inde",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
@@ -1574,7 +1574,7 @@
   {
     "code": "PO808166",
     "nom": "de France-Timor Est",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
@@ -1586,55 +1586,55 @@
   {
     "code": "PO808181",
     "nom": "de France-Chili",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO808191",
     "nom": "de France-Thaïlande",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO808201",
     "nom": "de France-Yemen",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO808211",
     "nom": "de France-Slovaquie",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO808236",
     "nom": "de France-Côte d'Ivoire",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO808246",
     "nom": "de France-Sri Lanka",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO808251",
     "nom": "de France-Amérique centrale",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO808267",
     "nom": "de France-Tchad",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO808277",
     "nom": "de France-Lituanie",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
@@ -1646,7 +1646,7 @@
   {
     "code": "PO808287",
     "nom": "de France-Corée du Sud",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
@@ -1658,19 +1658,19 @@
   {
     "code": "PO808302",
     "nom": "de France-Madagascar",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO808307",
     "nom": "de France-Afrique australe",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO808312",
-    "nom": "France-Bruneï Malaisie",
-    "type": "Groupe d’amitié",
+    "nom": "Bruneï-Malaisie",
+    "type": "GA",
     "roles": []
   },
   {
@@ -1682,36 +1682,36 @@
   {
     "code": "PO808858",
     "nom": "de France-Liechtenstein",
-    "type": "Groupe d’amitié",
+    "type": "GA",
     "roles": []
   },
   {
     "code": "PO810213",
-    "nom": "Mission d'information sur les dépenses fiscales et budgétaires en faveur du logement et de l'accession à la propriété",
+    "nom": "Dépenses fiscales et budgétaires logement",
     "type": "MISINFO",
     "roles": []
   },
   {
     "code": "PO810330",
-    "nom": "Mission d'information sur l'évaluation des outils fiscaux et sociaux de partage de la valeur dans l'entreprise",
+    "nom": "Outils fiscaux et sociaux partage de valeur entreprise",
     "type": "MISINFO",
     "roles": []
   },
   {
     "code": "PO810394",
-    "nom": "Mission d'information sur les différentiels de fiscalité entre entreprises",
+    "nom": "Différentiels de fiscalité entreprises",
     "type": "MISINFO",
     "roles": []
   },
   {
     "code": "PO810438",
-    "nom": "Mission d'information sur la fiscalité du patrimoine",
+    "nom": "Fiscalité du patrimoine",
     "type": "MISINFO",
     "roles": []
   },
   {
     "code": "PO810484",
-    "nom": "Mission d'information sur la rationalisation de notre administration comme source d'économies budgétaires",
+    "nom": "Rationalisation administration",
     "type": "MISINFO",
     "roles": []
   },
@@ -1861,19 +1861,19 @@
   },
   {
     "code": "PO815621",
-    "nom": "Comité de suivi chargé de veiller au suivi de la mise en œuvre et à l'évaluation des mesures de soutien financier aux entreprises confrontées à l'épidémie de covid-19 et aux perturbations économiques engendrées par les conséquences de l'agression de la Russie contre l'Ukraine",
+    "nom": "Suivi soutien entreprises covid-19 et agression contre l'Ukraine",
     "type": "Organe extra-parlementaire",
     "roles": []
   },
   {
     "code": "PO815643",
-    "nom": "Comité d'évaluation chargé du suivi de l'expérimentation prévue aux II et III de l'article 63 de la loi n° 2019-222 du 23 mars 2019 de programmation 2018-2022 et de réforme pour la justice",
+    "nom": "Comité évaluation expérimentation réforme de la justice",
     "type": "Organe extra-parlementaire",
     "roles": []
   },
   {
     "code": "PO815781",
-    "nom": "Comité de pilotage institué par la loi n° 2019-1480 du 28 décembre 2019 visant à agir contre les violences au sein de la famille",
+    "nom": "Comité de pilotage lutte violences conjugales",
     "type": "Organe extra-parlementaire",
     "roles": []
   },
@@ -1897,7 +1897,7 @@
   },
   {
     "code": "PO820135",
-    "nom": "Conseil national de l'adoption",
+    "nom": "CNA",
     "type": "Organe extra-parlementaire",
     "roles": []
   },
@@ -1910,7 +1910,7 @@
   {
     "code": "PO820615",
     "nom": "de la commission d'enquête sur le coût de la vie dans les collectivités territoriales régies par les articles 73 et 74 de la Constitution",
-    "type": "CNPE",
+    "type": "Commission d’enquête / mission",
     "roles": []
   },
   {
@@ -1939,7 +1939,7 @@
   },
   {
     "code": "PO822556",
-    "nom": "Mission d'information sur l'éducation et le numérique",
+    "nom": "Éducation et numérique",
     "type": "MISINFO",
     "roles": []
   },
@@ -1969,13 +1969,13 @@
   },
   {
     "code": "PO823753",
-    "nom": "Commission d’enquête sur la structuration, le financement, les moyens et les modalités d’action des groupuscules auteurs de violences à l’occasion des manifestations et rassemblements intervenus entre le 16 mars et le 3 mai 2023, ainsi que sur le déroulement de ces manifestations et rassemblements",
-    "type": "CNPE",
+    "nom": "CE Groupuscules violents lors de manifestations",
+    "type": "Commission d’enquête / mission",
     "roles": []
   },
   {
     "code": "PO823923",
-    "nom": "Mission d'information sur l’adaptation de la politique de l’eau au défi climatique",
+    "nom": "Adaptation politique eau aux effets du changement climatique",
     "type": "MISINFO",
     "roles": []
   },
@@ -2005,14 +2005,14 @@
   },
   {
     "code": "PO825311",
-    "nom": "Commission d’enquête sur les causes de l’incapacité de la France à atteindre les objectifs des plans successifs de maîtrise des impacts des produits phytosanitaires sur la santé humaine et environnementale et notamment sur les conditions de l’exercice des missions des autorités publiques en charge de la sécurité sanitaire",
-    "type": "CNPE",
+    "nom": "CE Pesticides",
+    "type": "Commission d’enquête / mission",
     "roles": []
   },
   {
     "code": "PO825320",
-    "nom": "Commission d’enquête relative à l’identification des défaillances de fonctionnement au sein des fédérations françaises de sport, du mouvement sportif et des organismes de gouvernance du monde sportif en tant qu’elles ont délégation de service public",
-    "type": "CNPE",
+    "nom": "CE Fédérations françaises de sport",
+    "type": "Commission d’enquête / mission",
     "roles": []
   },
   {
@@ -2047,7 +2047,7 @@
   },
   {
     "code": "PO825884",
-    "nom": "mission d'information sur les femmes et le sport",
+    "nom": "Femmes et sports",
     "type": "MISINFO",
     "roles": []
   },
@@ -2059,13 +2059,13 @@
   },
   {
     "code": "PO826022",
-    "nom": "Mission d'information sur l'apprentissage de la lecture",
+    "nom": "Apprentissage de la lecture",
     "type": "MISINFO",
     "roles": []
   },
   {
     "code": "PO826046",
-    "nom": "Mission d'information sur l'enseignement supérieur privé à but lucratif",
+    "nom": "Enseignement supérieur à but lucratif",
     "type": "MISINFO",
     "roles": []
   },
@@ -2078,48 +2078,48 @@
   {
     "code": "PO826640",
     "nom": "de l’éducation nationale et de la jeunesse",
-    "type": "MINISTERE",
+    "type": "Ministère",
     "roles": []
   },
   {
     "code": "PO826644",
     "nom": "de la santé et de la prévention",
-    "type": "MINISTERE",
+    "type": "Ministère",
     "roles": []
   },
   {
     "code": "PO826652",
     "nom": "auprès de la Première ministre, chargé de l’égalité entre les femmes et les hommes et de la lutte contre les discriminations",
-    "type": "MINISTERE",
+    "type": "Ministère",
     "roles": []
   },
   {
     "code": "PO826656",
     "nom": "auprès du ministre de l’économie, des finances et de la souveraineté industrielle et numérique, chargé des comptes publics",
-    "type": "MINISTERE",
+    "type": "Ministère",
     "roles": []
   },
   {
     "code": "PO826660",
     "nom": "auprès du ministre de l’intérieur et des outre-mer, chargé des outre-mer",
-    "type": "MINISTERE",
+    "type": "Ministère",
     "roles": []
   },
   {
     "code": "PO826664",
     "nom": "auprès du ministre de l’économie, des finances et de la souveraineté industrielle et numérique, chargé du numérique",
-    "type": "MINISTERE",
+    "type": "Ministère",
     "roles": []
   },
   {
     "code": "PO826668",
     "nom": "auprès du ministre de la transition écologique et de la cohésion des territoires, chargé du logement",
-    "type": "MINISTERE",
+    "type": "Ministère",
     "roles": []
   },
   {
     "code": "PO827701",
-    "nom": "Mission d’information sur l’aménagement et le développement durables de la Guyane",
+    "nom": "MI GUYANE",
     "type": "MISINFO",
     "roles": []
   },
@@ -2131,8 +2131,8 @@
   },
   {
     "code": "PO830002",
-    "nom": "Secrétariat d’État auprès du ministre de l’intérieur et des outre-mer, chargée de la citoyenneté, et auprès du ministre de l’intérieur et des outre-mer et du ministre de la transition écologique et de la cohésion des territoires, chargée de la ville",
-    "type": "MINISTERE",
+    "nom": "Citoyenneté et ville",
+    "type": "Ministère",
     "roles": []
   },
   {
@@ -2168,7 +2168,7 @@
   {
     "code": "PO831733",
     "nom": "de la commission d’enquête sur l’attribution, le contenu et le contrôle des autorisations de services de télévision à caractère national sur la télévision numérique terrestre",
-    "type": "CNPE",
+    "type": "Commission d’enquête / mission",
     "roles": []
   },
   {
@@ -2185,7 +2185,7 @@
   },
   {
     "code": "PO831895",
-    "nom": "Mission d’information sur les enjeux et la place de la France dans l’Indopacifique",
+    "nom": "MI sur les enjeux et la place de la France dans l’Indopacifique",
     "type": "MISINFO",
     "roles": []
   },
@@ -2203,7 +2203,7 @@
   },
   {
     "code": "PO832815",
-    "nom": "Mission d'information sur la semaine de 4 jours",
+    "nom": "MSEMAINE4J",
     "type": "MISINFO",
     "roles": []
   },
@@ -2216,7 +2216,7 @@
   {
     "code": "PO832903",
     "nom": "de la commission d’enquête sur la gestion des risques naturels majeurs dans les territoires d’outre-mer",
-    "type": "CNPE",
+    "type": "Commission d’enquête / mission",
     "roles": []
   },
   {
@@ -2228,78 +2228,78 @@
   {
     "code": "PO833673",
     "nom": "du Gouvernement",
-    "type": "Gouvernement",
+    "type": "GOUVERNEMENT",
     "roles": []
   },
   {
     "code": "PO833675",
-    "nom": "de l’économie, des finances et de la souveraineté industrielle et numérique",
-    "type": "MINISTERE",
+    "nom": "de l’économie, des finances et de la souveraineté industrielle et numérique",
+    "type": "Ministère",
     "roles": []
   },
   {
     "code": "PO833677",
-    "nom": "du travail, de la santé et des solidarités",
-    "type": "MINISTERE",
+    "nom": "du travail, de la santé et des solidarités",
+    "type": "Ministère",
     "roles": []
   },
   {
     "code": "PO833679",
-    "nom": "de l’agriculture et de la souveraineté alimentaire",
-    "type": "MINISTERE",
+    "nom": "de l’agriculture et de la souveraineté alimentaire",
+    "type": "Ministère",
     "roles": []
   },
   {
     "code": "PO833680",
-    "nom": "de la culture",
-    "type": "MINISTERE",
+    "nom": "de la culture",
+    "type": "Ministère",
     "roles": []
   },
   {
     "code": "PO833682",
-    "nom": "de la justice",
-    "type": "MINISTERE",
+    "nom": "de la justice",
+    "type": "Ministère",
     "roles": []
   },
   {
     "code": "PO833684",
-    "nom": "de la transition écologique et de la cohésion des territoires",
-    "type": "MINISTERE",
+    "nom": "de la transition écologique et de la cohésion des territoires",
+    "type": "Ministère",
     "roles": []
   },
   {
     "code": "PO833686",
-    "nom": "auprès du Premier ministre, chargé du renouveau démocratique, porte-parole du Gouvernement",
-    "type": "MINISTERE",
+    "nom": "auprès du Premier ministre, chargé du renouveau démocratique, porte-parole du Gouvernement",
+    "type": "Ministère",
     "roles": []
   },
   {
     "code": "PO833688",
-    "nom": "auprès du Premier ministre, chargé de l’égalité entre les femmes et les hommes et de la lutte contre les discriminations",
-    "type": "MINISTERE",
+    "nom": "auprès du Premier ministre, chargé de l’égalité entre les femmes et les hommes et de la lutte contre les discriminations",
+    "type": "Ministère",
     "roles": []
   },
   {
     "code": "PO833934",
-    "nom": "Mission d'information sur la fiscalité de l'épargne retraite par capitalisation",
+    "nom": "Fiscalité de l'épargne retraite par capitalisation",
     "type": "MISINFO",
     "roles": []
   },
   {
     "code": "PO834127",
-    "nom": "Mission d'information sur l'optimisation financière et stratégique de l'offre d'emplois à domicile",
+    "nom": "Optimisation financière emplois à domicile",
     "type": "MISINFO",
     "roles": []
   },
   {
     "code": "PO834277",
-    "nom": "Mission d'information sur la réalité des financements publics dans les territoires fragiles",
+    "nom": "Territoires fragiles",
     "type": "MISINFO",
     "roles": []
   },
   {
     "code": "PO834622",
-    "nom": "MI sur le recrutement et la fidélisation : gagner la bataille des ressources humaines du ministère des Armées",
+    "nom": "MI recrutement et fidélisation ressources humaines ministère des Armées",
     "type": "MISINFO",
     "roles": []
   },
@@ -2311,67 +2311,67 @@
   },
   {
     "code": "PO834720",
-    "nom": "Ministère de l’éducation nationale et de la jeunesse",
-    "type": "MINISTERE",
+    "nom": "Éducation et jeunesse",
+    "type": "Ministère",
     "roles": []
   },
   {
     "code": "PO834722",
     "nom": "de la transformation et de la fonction publiques",
-    "type": "MINISTERE",
+    "type": "Ministère",
     "roles": []
   },
   {
     "code": "PO834724",
     "nom": "des sports et des jeux Olympiques et Paralympiques",
-    "type": "MINISTERE",
+    "type": "Ministère",
     "roles": []
   },
   {
     "code": "PO834726",
-    "nom": "Ministère auprès du ministre de l’économie, des finances et de la souveraineté industrielle et numérique, chargé de l’industrie et de l’énergie",
-    "type": "MINISTERE",
+    "nom": "Industrie et énergie",
+    "type": "Ministère",
     "roles": []
   },
   {
     "code": "PO834728",
     "nom": "auprès du ministre de l’économie, des finances et de la souveraineté industrielle et numérique, chargé des entreprises, du tourisme et de la consommation",
-    "type": "MINISTERE",
+    "type": "Ministère",
     "roles": []
   },
   {
     "code": "PO834736",
     "nom": "auprès de la ministre du travail, de la santé et des solidarités, de la ministre de l'éducation nationale et de la jeunesse et du garde des sceaux, ministre de la justice, chargé de l'enfance, de la jeunesse et des familles",
-    "type": "MINISTERE",
+    "type": "Ministère",
     "roles": []
   },
   {
     "code": "PO834738",
     "nom": "auprès de la ministre du travail, de la santé et des solidarités, chargé des personnes âgées et des personnes handicapées",
-    "type": "MINISTERE",
+    "type": "Ministère",
     "roles": []
   },
   {
     "code": "PO834760",
     "nom": "auprès du ministre de la transition écologique et de la cohésion des territoires, chargé de la mer et de la biodiversité",
-    "type": "MINISTERE",
+    "type": "Ministère",
     "roles": []
   },
   {
     "code": "PO835328",
-    "nom": "Mission d'information sur la situation du département de Mayotte",
+    "nom": "Situation département Mayotte",
     "type": "MISINFO",
     "roles": []
   },
   {
     "code": "PO835384",
-    "nom": "Conseil d'administration de l'agence régionale de santé",
+    "nom": "CA de l'ARS",
     "type": "Organe extra-parlementaire",
     "roles": []
   },
   {
     "code": "PO835431",
-    "nom": "de la commission mixte paritaire chargée de proposer un texte sur les dispositions restant en discussion du projet de loi  relatif à l'accélération et à la simplification de la rénovation de l'habitat dégradé et des grandes opérations d'aménagement",
+    "nom": "de la commission mixte paritaire chargée de proposer un texte sur les dispositions restant en discussion du projet de loi relatif à l'accélération et à la simplification de la rénovation de l'habitat dégradé et des grandes opérations d'aménagement",
     "type": "CMP",
     "roles": []
   },
@@ -2419,26 +2419,26 @@
   },
   {
     "code": "PO836651",
-    "nom": "Comité de pilotage de l'expérimentation prévue à l'article 10 de la loi n° 2023-380 du 19 mai 2023 relative aux jeux Olympiques et Paralympiques de 2024 et portant diverses autres dispositions",
+    "nom": "Expérimentation vidéo jeux Olympiques",
     "type": "Organe extra-parlementaire",
     "roles": []
   },
   {
     "code": "PO837135",
     "nom": "de la commission d’enquête sur les manquements des politiques de protection de l’enfance",
-    "type": "CNPE",
+    "type": "Commission d’enquête / mission",
     "roles": []
   },
   {
     "code": "PO837340",
-    "nom": "Mission d’information sur les conditions d’accueil et d’encadrement des séjours de cohésion du service national universel",
+    "nom": "accueil et d’encadrement des séjours de cohésion du service national universel",
     "type": "MISINFO",
     "roles": []
   },
   {
     "code": "PO837392",
     "nom": "de la commission d’enquête relative à la politique française d’expérimentation nucléaire, à l’ensemble des conséquences de l’installation et des opérations du Centre d’expérimentation du Pacifique en Polynésie française, à la reconnaissance, à la prise en charge et à l’indemnisation des victimes des essais nucléaires français, ainsi qu’à la reconnaissance des dommages environnementaux et à leur réparation",
-    "type": "CNPE",
+    "type": "Commission d’enquête / mission",
     "roles": []
   },
   {
@@ -2450,7 +2450,7 @@
   {
     "code": "PO837632",
     "nom": "de la commission d’enquête visant à établir les raisons de la très forte croissance de la dette française depuis l’élection présidentielle de 2017 et ses conséquences sur le pouvoir d’achat des Français",
-    "type": "CNPE",
+    "type": "Commission d’enquête / mission",
     "roles": []
   },
   {
