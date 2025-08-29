@@ -1,115 +1,204 @@
-import fs from "node:fs";
-import path from "node:path";
+/* Build an_actors.json (codes + noms + type + rôles) à partir des PA/PO
+   - Entrées attendues (au moins une des deux racines) :
+       data/an16/json/acteur/*.json
+       data/an16/json/organe/*.json
+       json/acteur/*.json
+       json/organe/*.json
+   - Sortie : data/an_actors.json   (tableau trié par code)
+*/
 
-const ROOT = process.cwd();
-const ACTEURS_DIR = path.join(ROOT, "json", "acteur");
-const ORGANES_DIR = path.join(ROOT, "json", "organe");
-const OUT_DIR = path.join(ROOT, "data");
-const OUT_FILE = path.join(OUT_DIR, "an_actors.json");
+import fs from 'fs';
+import path from 'path';
 
-// ---------- helpers ----------
-const readJSON = (p) => {
-  try { return JSON.parse(fs.readFileSync(p, "utf8")); }
-  catch { return null; }
+const ROOTS = [
+  'data/an16/json',
+  'json'
+];
+
+const OUT_DIR  = 'data';
+const OUT_FILE = path.join(OUT_DIR, 'an_actors.json');
+
+/* ------------------ utilitaires ------------------ */
+
+const exists = p => {
+  try { fs.accessSync(p); return true; } catch { return false; }
 };
-const listFiles = (dir) => (fs.existsSync(dir) ? fs.readdirSync(dir).filter(f => f.endsWith(".json")) : []);
-const uniq = (arr) => [...new Set(arr.filter(Boolean))];
 
-// --- extraction très tolérante du nom ---
-function extractNom(obj) {
-  if (!obj) return "";
+const readJSON = p => JSON.parse(fs.readFileSync(p, 'utf8'));
 
-  // cas 1 : structure "acteur" avec état civil
-  const a = obj.acteur ?? obj.Acteur ?? obj;
-  const et = a.etatCivil ?? a.etat_civil ?? a["etat-civil"];
-  const id = et?.ident ?? et?.identite ?? a.ident ?? a.identity;
-
-  const prenoms = id?.prenom ?? id?.prenoms ?? a.prenom ?? a.prenoms;
-  const nom = id?.nom ?? a.nom;
-
-  if (nom || prenoms) return [prenoms, nom].filter(Boolean).join(" ").trim();
-
-  // cas 2 : parfois un champ déjà composé
-  const nomComplet = a.nomComplet ?? a.nom_usage ?? a.displayName ?? a.fullname;
-  if (nomComplet) return String(nomComplet).trim();
-
-  // cas 3 : dernier recours
-  return (a.nom ?? "").trim();
+/** récupère tous les chemins *.json d’un dossier si présent */
+function listJson(dir) {
+  if (!exists(dir)) return [];
+  return fs.readdirSync(dir)
+    .filter(f => f.toLowerCase().endsWith('.json'))
+    .map(f => path.join(dir, f));
 }
 
-// --- extraction UID (PAxxxx) ---
-function extractCodeActeur(obj) {
-  const a = obj.acteur ?? obj.Acteur ?? obj;
-  return a.uid ?? a.id ?? a.code ?? a.identifiant ?? "";
+function safeText(x) {
+  if (x == null) return '';
+  return String(x).trim();
 }
 
-// --- extraction des mandats (références d’organes) ---
-function extractMandats(obj) {
-  const a = obj.acteur ?? obj.Acteur ?? obj;
-  // structure la plus courante : a.mandats.mandat[] avec .organeRef
-  const mandatsBloc = a.mandats ?? obj.mandats ?? {};
-  const mandatsArr =
-    Array.isArray(mandatsBloc) ? mandatsBloc :
-    Array.isArray(mandatsBloc.mandat) ? mandatsBloc.mandat :
-    [];
-  return mandatsArr.map(m => m?.organeRef ?? m?.organe?.ref ?? m?.organe ?? "").filter(Boolean);
+/* Détermine un “type” lisible pour l’acteur à partir de ses mandats
+   - ASSEMBLEE  => Député
+   - SENAT      => Sénateur (si présent dans les données)
+   - GOUVERNEMENT / MINISTERE / MINISTRE => Ministre
+   sinon        => Acteur
+*/
+function guessTypeFromMandats(mandats = []) {
+  const types = new Set(
+    mandats
+      .map(m => (m.typeOrgane || '').toUpperCase())
+      .filter(Boolean)
+  );
+
+  if (types.has('ASSEMBLEE')) return 'Député';
+  if (types.has('SENAT'))     return 'Sénateur';
+  if (
+    types.has('GOUVERNEMENT') ||
+    types.has('MINISTERE')    ||
+    types.has('MINISTRE')
+  ) return 'Ministre';
+
+  return 'Acteur';
 }
 
-// --- typage des rôles à partir de l’organe ---
-function roleFromOrgane(org) {
-  const ct = (org.codeType ?? org.type ?? "").toUpperCase();
-  const lib = (org.libelle ?? org.libelleCourt ?? org.nom ?? "").toLowerCase();
+/* ------------------ localise les répertoires ------------------ */
 
-  if (ct.includes("GVT") || ct.includes("MIN") || lib.includes("gouvernement") || lib.includes("ministre"))
-    return "Ministre";
-
-  if (ct.includes("ASSEMBL") || lib.includes("assemblée nationale") || lib.includes("déput"))
-    return "Député";
-
-  if (ct.includes("SENAT") || lib.includes("sénat") || lib.includes("sénateur"))
-    return "Sénateur";
-
-  return ""; // inconnu / autre organe (groupe, commission, etc.)
-}
-
-function main() {
-  // 1) lire toutes les définitions d’organes POxxxx
-  const organes = new Map(); // PO -> objet organe
-  for (const f of listFiles(ORGANES_DIR)) {
-    const j = readJSON(path.join(ORGANES_DIR, f));
-    if (!j) continue;
-    // les fichiers organe sont souvent de la forme { organe: {...} }
-    const o = j.organe ?? j.Organe ?? j;
-    const id = o.uid ?? o.id ?? o.code ?? f.replace(/\.json$/,"");
-    organes.set(id, o);
+function locateDirs() {
+  for (const base of ROOTS) {
+    const dAct = path.join(base, 'acteur');
+    const dOrg = path.join(base, 'organe');
+    if (exists(dAct) && exists(dOrg)) {
+      return { dirActeur: dAct, dirOrgane: dOrg };
+    }
   }
+  throw new Error(
+    'Impossible de trouver les dossiers "acteur" et "organe". ' +
+    'Place les JSON AN dans data/an16/json/{acteur,organe} ou json/{acteur,organe}.'
+  );
+}
 
-  // 2) parcourir les acteurs
-  const out = [];
-  for (const f of listFiles(ACTEURS_DIR)) {
-    const j = readJSON(path.join(ACTEURS_DIR, f));
-    if (!j) continue;
+/* ------------------ chargement organes (PO…) ------------------ */
 
-    const code = extractCodeActeur(j) || f.replace(/\.json$/,"");
-    let nom = extractNom(j);
+function buildOrganesMap(dirOrgane) {
+  const map = new Map(); // uid -> { codeType, libelle, libelleAbrege }
+  const files = listJson(dirOrgane);
 
-    // mandats -> organeRef -> rôles
-    const refs = uniq(extractMandats(j));
-    const roles = uniq(refs.map(ref => roleFromOrgane(organes.get(ref) ?? {})));
+  for (const fp of files) {
+    try {
+      const j = readJSON(fp);
+      const org = j.organe || j; // certains dumps sont déjà “plats”
+      const uid = safeText(org.uid);
+      if (!uid) continue;
+      map.set(uid, {
+        codeType: safeText(org.codeType),
+        libelle:  safeText(org.libelle || org.libelleEdition || org.libelleAbrege || ''),
+        libelleAbrege: safeText(org.libelleAbrege || '')
+      });
+    } catch (e) {
+      // on ignore les fichiers cassés
+    }
+  }
+  return map;
+}
 
-    // si nom vide, on tente quelques autres chemins
-    if (!nom) {
-      const a = j.acteur ?? j.Acteur ?? j;
-      nom = a?.nom ?? a?.displayName ?? "";
+/* Construit une liste de rôles lisibles à partir des mandats et de la map d’organes */
+function buildRoles(mandats = [], organesMap) {
+  const roles = [];
+  for (const m of mandats) {
+    const libQualite = safeText(m?.infosQualite?.libQualite);
+    const orgRef     = safeText(m?.organes?.organeRef);
+    if (!libQualite && !orgRef) continue;
+
+    let cible = '';
+    if (orgRef && organesMap.has(orgRef)) {
+      const o = organesMap.get(orgRef);
+      cible = o.libelle || o.libelleAbrege || orgRef;
+    } else if (orgRef) {
+      cible = orgRef;
     }
 
-    out.push({ code, nom, roles });
+    if (libQualite && cible) roles.push(`${libQualite} — ${cible}`);
+    else if (libQualite)     roles.push(libQualite);
+    else if (cible)          roles.push(cible);
+  }
+  // dédoublonnage + limite raisonnable
+  return Array.from(new Set(roles)).slice(0, 8);
+}
+
+/* ------------------ lecture acteurs (PA…) ------------------ */
+
+function extractActorEntry(jActeur, organesMap) {
+  // l’objet peut être enveloppé { acteur: { … } }
+  const a = jActeur.acteur || jActeur;
+
+  // code (uid)
+  const code = safeText(a?.uid?.['#text'] || a?.uid || a?.etatCivil?.ident?.uid);
+  if (!code) return null;
+
+  // nom/prénom
+  const nom   = safeText(a?.etatCivil?.ident?.nom);
+  const prenom= safeText(a?.etatCivil?.ident?.prenom);
+  const nomComplet = [prenom, nom].filter(Boolean).join(' ').trim() || safeText(a?.nom) || '';
+
+  // mandats (table ou objet)
+  let mandats = a?.mandats?.mandat;
+  if (!mandats) mandats = [];
+  if (!Array.isArray(mandats)) mandats = [mandats];
+
+  const type  = guessTypeFromMandats(mandats);
+  const roles = buildRoles(mandats, organesMap);
+
+  return { code, nom: nomComplet, type, roles };
+}
+
+function buildActors(dirActeur, organesMap) {
+  const out = [];
+  const files = listJson(dirActeur);
+
+  for (const fp of files) {
+    try {
+      const j = readJSON(fp);
+      // uniquement les PA… ; si le répertoire contient autre chose, on filtre
+      const base = path.basename(fp);
+      if (!/^PA\d+\.json$/i.test(base)) continue;
+
+      const entry = extractActorEntry(j, organesMap);
+      if (entry) out.push(entry);
+    } catch (e) {
+      // on ignore les fichiers cassés
+    }
   }
 
-  // 3) écrire data/an_actors.json
-  fs.mkdirSync(OUT_DIR, { recursive: true });
-  fs.writeFileSync(OUT_FILE, JSON.stringify(out, null, 2), "utf8");
-  console.log(`OK: ${out.length} entrées écrites dans ${OUT_FILE}`);
+  // tri par code
+  out.sort((a, b) => a.code.localeCompare(b.code));
+  return out;
+}
+
+/* ------------------ main ------------------ */
+
+async function main() {
+  try {
+    const { dirActeur, dirOrgane } = locateDirs();
+
+    console.log('> Dossiers utilisés :');
+    console.log('  - acteurs :', dirActeur);
+    console.log('  - organes :', dirOrgane);
+
+    const organesMap = buildOrganesMap(dirOrgane);
+    console.log(`> Organes chargés : ${organesMap.size}`);
+
+    const actors = buildActors(dirActeur, organesMap);
+    console.log(`> Acteurs extraits : ${actors.length}`);
+
+    if (!exists(OUT_DIR)) fs.mkdirSync(OUT_DIR, { recursive: true });
+    fs.writeFileSync(OUT_FILE, JSON.stringify(actors, null, 2), 'utf8');
+    console.log('> Écrit :', OUT_FILE);
+  } catch (e) {
+    console.error('ERREUR:', e.message);
+    process.exit(1);
+  }
 }
 
 main();
