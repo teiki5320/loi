@@ -1,7 +1,7 @@
 /*************************************************
  * Lois – liste
  * Source : lois.json + deputes.json + (groupes.json via data.gouv.fr) + lois_AI.json
- * - Auteurs lisibles (PA… → député ; PO… → sigle -- libellé)
+ * - Auteurs lisibles (PA… / PO… via an_actors.json en priorité)
  * - Mini-résumé IA sous les cases Date & État
  * - Cartes cliquables vers detail.html?id=…
  * - Barre de recherche (titre, type, état, auteur)
@@ -11,6 +11,8 @@ const URL_LOIS     = "./lois/lois.json";
 const URL_LOIS_AI  = "./lois/lois_AI.json";
 const URL_DEPUTES  = "./deputes/deputes.json";
 const URL_GROUPES  = "./deputes/groupes.json"; // format officiel data.gouv.fr (id/libelleAbrev/libelle)
+// ★ NEW: mapping global PA/PO (députés, sénat, AN, groupes, etc.)
+const URL_ACTEURS  = "./data/an_actors.json";
 
 const els = {
   search: document.getElementById("search"),
@@ -22,6 +24,8 @@ let LOIS = [];
 let MAP_DEPUTES = {}; // { PAxxxxx -> "Nom Député" }
 let MAP_GROUPES = {}; // { POxxxxx -> "SIGLE -- Libellé" }
 let MAP_AI      = {}; // { ID -> { resume, impacts[] } }
+// ★ NEW
+let MAP_ACTEURS = {}; // { CODE -> "Nom lisible" }
 
 /* ---------- Utils ---------- */
 const esc = (s) =>
@@ -49,13 +53,15 @@ function excerpt(txt, n = 160) {
   return s.length > n ? s.slice(0, n - 1) + "…" : s;
 }
 
+// ★ CHANGED: on regarde d’abord dans MAP_ACTEURS (PA/PO consolidé)
 function formatAuteur(code){
   if (!code) return "--";
-  if (MAP_DEPUTES[code]) return MAP_DEPUTES[code];
-  if (MAP_GROUPES[code]) return MAP_GROUPES[code];
-  // fallback fréquent : certains PO… non listés = Gouvernement (projets de loi)
-  if (/^PO\d{3,}$/.test(code)) return "Gouvernement";
-  return code;
+  const key = String(code).toUpperCase();
+  if (MAP_ACTEURS[key]) return MAP_ACTEURS[key];       // priorité absolue
+  if (MAP_DEPUTES[key]) return MAP_DEPUTES[key];       // compat
+  if (MAP_GROUPES[key]) return MAP_GROUPES[key];       // compat
+  // ancien fallback "tout PO = Gouvernement" supprimé pour éviter les erreurs
+  return key; // on affiche le code si inconnu
 }
 
 /* ---------- Chargements ---------- */
@@ -66,7 +72,7 @@ async function loadMaps() {
     if (r.ok) {
       const arr = await r.json();
       arr.forEach(d => {
-        if (d.id && d.nom) MAP_DEPUTES[String(d.id)] = d.nom;
+        if (d.id && d.nom) MAP_DEPUTES[String(d.id).toUpperCase()] = d.nom;
       });
     }
   } catch (e) { console.warn("deputes.json KO", e); }
@@ -77,7 +83,7 @@ async function loadMaps() {
     if (r.ok) {
       const arr = await r.json();
       (Array.isArray(arr) ? arr : []).forEach(g => {
-        const code = String(g.id || "").trim();
+        const code = String(g.id || "").trim().toUpperCase();
         if (!code) return;
         const sigle   = (g.libelleAbrev || "").trim();
         const libelle = (g.libelle || "").trim();
@@ -87,6 +93,24 @@ async function loadMaps() {
       });
     }
   } catch (e) { console.warn("groupes.json KO", e); }
+}
+
+// ★ NEW: chargement du mapping consolidé PA/PO
+async function loadActeurs(){
+  try{
+    const r = await fetch(`${URL_ACTEURS}?v=${Date.now()}`, {cache:"no-store"});
+    if (r.ok) {
+      const arr = await r.json();
+      (Array.isArray(arr) ? arr : (arr.items || arr.data || []))
+        .forEach(a => {
+          const code = String(a?.code || "").toUpperCase();
+          const nom  = String(a?.nom  || "").trim();
+          if (code && nom) MAP_ACTEURS[code] = nom;
+        });
+    }
+  }catch(e){
+    console.warn("an_actors.json indisponible :", e);
+  }
 }
 
 async function loadLois() {
@@ -185,7 +209,8 @@ if (els.grid) {
 /* ---------- Init ---------- */
 (async function init() {
   try {
-    await Promise.all([loadMaps(), loadLois(), loadAI()]);
+    // ★ CHANGED: on charge d’abord le mapping global PA/PO
+    await Promise.all([loadActeurs(), loadMaps(), loadLois(), loadAI()]);
     render();
   } catch (e) {
     if (els.err) els.err.textContent = `Erreur de chargement des lois.\n${e?.message || e}`;
@@ -196,12 +221,14 @@ if (els.grid) {
 els.search && els.search.addEventListener("input", render);
 
 /* ---------- Outil debug : auteurs inconnus ---------- */
+// ★ CHANGED: on check aussi le mapping global
 window.listUnknownAuthors = function(){
   const unknown = new Set();
   LOIS.forEach(l => {
     const a = l.auteur;
     if (!a) return;
-    if (!(MAP_DEPUTES[a] || MAP_GROUPES[a])) unknown.add(a);
+    const key = String(a).toUpperCase();
+    if (!(MAP_ACTEURS[key] || MAP_DEPUTES[key] || MAP_GROUPES[key])) unknown.add(key);
   });
   console.table([...unknown].map(x => ({ code: x })));
   return [...unknown];
