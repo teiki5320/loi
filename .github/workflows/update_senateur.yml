@@ -1,30 +1,28 @@
-name: Update sénateurs (ODSEN_ACTUEL)
+name: Update sénateurs (API Sénat)
 
 on:
-  workflow_dispatch:        # déclenchement manuel depuis l’onglet Actions
+  workflow_dispatch:
   schedule:
-    - cron: "0 6 * * *"     # tous les jours à 06:00 UTC (modifie si besoin)
+    - cron: "0 6 * * *"   # chaque jour à 06:00 UTC
 
 permissions:
-  contents: write           # nécessaire pour pousser le commit
+  contents: write
 
 jobs:
   update-senateur:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          persist-credentials: false   # on utilisera GITHUB_TOKEN explicitement
+          persist-credentials: false
 
-      - name: Download ODSEN_ACTUEL.json (sénateurs en exercice)
+      - name: Download senators JSON from senat.fr
         run: |
           set -euo pipefail
           mkdir -p senateur
-          curl -fSL "https://data.senat.fr/data/senateurs/ODSEN_ACTUEL.json" \
+          curl -fSL "https://www.senat.fr/api-senat/senateurs.json" \
             -o senateur/senateur_raw.json
-          # Vérifie que le fichier n'est pas vide
           test -s senateur/senateur_raw.json
 
       - name: Commit & push if changed
@@ -35,7 +33,5 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add senateur/senateur_raw.json
-          # Ne pas échouer si aucun changement
-          git commit -m "chore(senat): update senateur_raw.json (ODSEN_ACTUEL)" || exit 0
-          # Push sur la branche courante (main par défaut)
+          git commit -m "chore(senat): update senateur_raw.json (api-senat)" || exit 0
           git push "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git" HEAD:${{ github.ref_name }}
