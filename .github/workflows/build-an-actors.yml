@@ -1,9 +1,9 @@
-name: Build AN actors (codes + rôles)
+name: Build AN actors (codes+roles)
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "27 5 * * *"
+    - cron: "17 4 * * *"   # tous les jours à 04:17 UTC
 
 permissions:
   contents: write
@@ -11,28 +11,33 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      ZIP_URL: "https://data.assemblee-nationale.fr/static/openData/repository/16/amo/deputes_senateurs_ministres_legislature/AMO20_dep_sen_min_tous_mandats_et_organes.json.zip"
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - name: Prep
+      - name: Prep folders
         run: |
           rm -rf data/an16
-          mkdir -p data/an16 deputes
+          mkdir -p data/an16 json deputes
+
+      - name: Resolve archive URL (AN v16)
+        id: url
+        run: |
+          echo "url=https://data.assemblee-nationale.fr/static/openData/repository/16/amo/deputes_senateurs_ministres_legislature/AMO20_dep_sen_min_tous_mandats_et_organes.json.zip" >> $GITHUB_OUTPUT
 
       - name: Download AMO archive
         run: |
-          curl -fSL "$ZIP_URL" -o data/an16/amo.zip
-          test -s data/an16/amo.zip
+          curl -fL "${{ steps.url.outputs.url }}" -o data/an16/amo_archive.zip
+          ls -lh data/an16
 
       - name: Unzip
         run: |
-          cd data/an16
-          unzip -o amo.zip
-          echo "== Listing =="
-          ls -lah
+          unzip -q data/an16/amo_archive.zip -d data/an16
+          echo "---- Tree (first levels) ----"
+          find data/an16 -maxdepth 2 -type d -print
+          echo "---- JSON files (head) ----"
+          find data/an16 -type f -name "*.json" | head -n 20
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -45,59 +50,79 @@ jobs:
           const fs = require('fs');
           const path = require('path');
 
-          const base = 'data/an16';
-          const files = fs.readdirSync(base).filter(f => f.toLowerCase().endsWith('.json'));
-          if (!files.length) {
-            console.error('❌ Aucun .json trouvé dans data/an16 (attendu: gros JSON).');
+          // Recherche récursive de tous les .json
+          function findJsonFiles(dir) {
+            let results = [];
+            for (const f of fs.readdirSync(dir)) {
+              const p = path.join(dir, f);
+              const st = fs.statSync(p);
+              if (st.isDirectory()) results = results.concat(findJsonFiles(p));
+              else if (f.toLowerCase().endsWith('.json')) results.push(p);
+            }
+            return results;
+          }
+
+          const root = 'data/an16';
+          if (!fs.existsSync(root)) {
+            console.error('❌ Dossier introuvable:', root);
             process.exit(1);
           }
 
-          // On prend le plus gros fichier JSON (le "gros JSON" AN)
-          let biggest = files[0];
-          let maxSize = 0;
+          const files = findJsonFiles(root);
+          if (!files.length) {
+            console.error('❌ Aucun .json trouvé dans', root, '(même en récursif).');
+            process.exit(1);
+          }
+
+          // On prend le plus GROS JSON (celui de l’AN)
+          let biggest = files[0], maxSize = 0;
           for (const f of files) {
-            const s = fs.statSync(path.join(base, f)).size;
+            const s = fs.statSync(f).size;
             if (s > maxSize) { maxSize = s; biggest = f; }
           }
-          const bigPath = path.join(base, biggest);
-          console.log('ℹ️ Gros JSON détecté :', biggest, `${(maxSize/1024/1024).toFixed(2)} MB`);
+          console.log("ℹ️ Gros JSON détecté:", biggest, (maxSize/1024/1024).toFixed(2), "MB");
 
-          const big = JSON.parse(fs.readFileSync(bigPath, 'utf8'));
+          const rawTxt = fs.readFileSync(biggest, 'utf8');
+          let big;
+          try { big = JSON.parse(rawTxt); }
+          catch(e){ console.error('❌ JSON invalide:', biggest, e.message); process.exit(1); }
 
-          // Les clés varient peu : acteurs/acteursListe, organes
-          const acteursArr =
-            big?.acteurs || big?.acteur || big?.acteursListe || [];
-          const organesArr =
-            big?.organes || big?.organe || [];
+          // Tente plusieurs structures possibles
+          const acteursArr = big?.acteurs ?? big?.acteur ?? big?.acteursListe ?? [];
+          const organesArr = big?.organes ?? big?.organe ?? [];
 
-          // Index organes par uid
-          const organes = {};
-          for (const raw of organesArr) {
-            const o = raw?.organe || raw;
-            const uid = String(o?.uid || o?.id || '').toUpperCase();
-            if (!uid) continue;
-            organes[uid] = o;
+          if (!Array.isArray(acteursArr) || !acteursArr.length) {
+            console.error('❌ Aucune entrée "acteurs" valide trouvée dans le gros JSON.');
+            process.exit(1);
           }
 
-          function isDep(type){ return /ASSEMBLEE/i.test(type); }
-          function isSen(type){ return /SENAT/i.test(type); }
-          function isGov(type){ return /(GOUVERN|EXECUTIF|MINIST)/i.test(type); }
+          // Index des organes (pour typer les mandats)
+          const organes = {};
+          for (const raw of (Array.isArray(organesArr)? organesArr : [])) {
+            const o = raw?.organe || raw;
+            const uid = String(o?.uid || o?.id || '').toUpperCase();
+            if (uid) organes[uid] = o;
+          }
+
+          const isDep = t => /ASSEMBLEE/i.test(t);
+          const isSen = t => /SENAT/i.test(t);
+          const isGov = t => /(GOUVERN|EXECUTIF|MINIST)/i.test(t);
 
           const out = [];
 
           for (const raw of acteursArr) {
             const a = raw?.acteur || raw;
             const code = String(a?.uid || a?.id || '').toUpperCase();
-            if (!code.startsWith('PA')) continue; // on garde les personnes
+            if (!code || !code.startsWith('PA')) continue; // on veut les identifiants PAxxxx
 
-            // Nom/prénom (souvent sous etatCivil)
             const ec = a?.etatCivil || {};
             const nom = (a?.nom || ec?.nom || '').toString();
             const prenom = (a?.prenom || ec?.prenom || '').toString();
 
-            // Mandats -> organeRef -> type d’organe
-            const mandats = Array.isArray(a?.mandats) ? a.mandats :
-                            (Array.isArray(a?.mandat) ? a.mandat : []);
+            const mandats = Array.isArray(a?.mandats) ? a.mandats
+                           : Array.isArray(a?.mandat) ? a.mandat
+                           : [];
+
             const roles = new Set();
             for (const m of mandats) {
               const ref = String(m?.organeRef || m?.organeRefProvisoire || '').toUpperCase();
@@ -107,28 +132,30 @@ jobs:
               if (isSen(type)) roles.add('senateur');
               if (isGov(type)) roles.add('ministre');
             }
-            if (!roles.size) continue;
+
+            if (!roles.size) continue; // ignore si aucun rôle exploitable
 
             out.push({ code, nom, prenom, roles: [...roles] });
           }
 
           out.sort((a,b) =>
             (a.nom||'').localeCompare(b.nom||'', 'fr') ||
-            (a.prenom||'').localeCompare(b.prenom||'', 'fr')
+            (a.prenom||'').localeCompare(b.prenom||'', 'fr') ||
+            a.code.localeCompare(b.code)
           );
 
           fs.writeFileSync('deputes/an_actors.json', JSON.stringify(out, null, 2));
           console.log(`✅ Écrit deputes/an_actors.json (${out.length} entrées)`);
           NODE
 
-      - name: Commit & push
+      - name: Commit & push if changed
         run: |
-          if [ -n "$(git status --porcelain)" ]; then
-            git config user.name  "github-actions[bot]"
+          if git status --porcelain | grep -q "deputes/an_actors.json"; then
+            git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add deputes/an_actors.json data/an16/*
+            git add deputes/an_actors.json
             git commit -m "chore(an): update deputes/an_actors.json"
             git push
           else
-            echo "No changes."
+            echo "Aucune modification à pousser."
           fi
