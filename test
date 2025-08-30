@@ -1,0 +1,7 @@
+// Exécute dans console devtools ou node
+(async () => {
+  const js = await fetch('./lois/lois.json').then(r => r.json());
+  const arr = Array.isArray(js) ? js : (js.lois || js.items || []);
+  const etats = new Set(arr.map(l => (l.etat || l.statut || '').trim()).filter(String));
+  console.table([...etats]);
+})();
