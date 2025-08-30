@@ -11,8 +11,7 @@ const URL_LOIS     = "./lois/lois.json";
 const URL_LOIS_AI  = "./lois/lois_AI.json";
 const URL_DEPUTES  = "./deputes/deputes.json";
 const URL_GROUPES  = "./deputes/groupes.json"; // format officiel data.gouv.fr (id/libelleAbrev/libelle)
-// ★ NEW: mapping global PA/PO (députés, sénat, AN, groupes, etc.)
-const URL_ACTEURS  = "./data/an_actors.json";
+const URL_ACTEURS  = "./data/an_actors.json";  // mapping global PA/PO (députés, sénat, AN, groupes, etc.)
 
 const els = {
   search: document.getElementById("search"),
@@ -24,7 +23,6 @@ let LOIS = [];
 let MAP_DEPUTES = {}; // { PAxxxxx -> "Nom Député" }
 let MAP_GROUPES = {}; // { POxxxxx -> "SIGLE -- Libellé" }
 let MAP_AI      = {}; // { ID -> { resume, impacts[] } }
-// ★ NEW
 let MAP_ACTEURS = {}; // { CODE -> "Nom lisible" }
 
 /* ---------- Utils ---------- */
@@ -53,15 +51,23 @@ function excerpt(txt, n = 160) {
   return s.length > n ? s.slice(0, n - 1) + "…" : s;
 }
 
-// ★ CHANGED: on regarde d’abord dans MAP_ACTEURS (PA/PO consolidé)
+/* Nettoyage des libellés d’organes : retire "du / de la / de l’ / des" au début
+   et toute parenthèse finale (ex: " (5ème République)") */
+function cleanOrgLabel(s){
+  let out = String(s || "");
+  out = out.replace(/^\s*(du|de la|de l’|de l'|des)\s+/i, "");
+  out = out.replace(/\s*\([^)]*\)\s*$/, "");
+  return out.trim();
+}
+
+// Auteur lisible (priorité au mapping global PA/PO)
 function formatAuteur(code){
   if (!code) return "--";
   const key = String(code).toUpperCase();
-  if (MAP_ACTEURS[key]) return MAP_ACTEURS[key];       // priorité absolue
-  if (MAP_DEPUTES[key]) return MAP_DEPUTES[key];       // compat
-  if (MAP_GROUPES[key]) return MAP_GROUPES[key];       // compat
-  // ancien fallback "tout PO = Gouvernement" supprimé pour éviter les erreurs
-  return key; // on affiche le code si inconnu
+  if (MAP_ACTEURS[key]) return MAP_ACTEURS[key];
+  if (MAP_DEPUTES[key]) return MAP_DEPUTES[key];
+  if (MAP_GROUPES[key]) return MAP_GROUPES[key];
+  return key; // affiche le code si inconnu
 }
 
 /* ---------- Chargements ---------- */
@@ -95,7 +101,7 @@ async function loadMaps() {
   } catch (e) { console.warn("groupes.json KO", e); }
 }
 
-// ★ NEW: chargement du mapping consolidé PA/PO
+// Mapping consolidé PA/PO
 async function loadActeurs(){
   try{
     const r = await fetch(`${URL_ACTEURS}?v=${Date.now()}`, {cache:"no-store"});
@@ -105,7 +111,7 @@ async function loadActeurs(){
         .forEach(a => {
           const code = String(a?.code || "").toUpperCase();
           const nom  = String(a?.nom  || "").trim();
-          if (code && nom) MAP_ACTEURS[code] = nom;
+          if (code && nom) MAP_ACTEURS[code] = cleanOrgLabel(nom);
         });
     }
   }catch(e){
@@ -209,7 +215,6 @@ if (els.grid) {
 /* ---------- Init ---------- */
 (async function init() {
   try {
-    // ★ CHANGED: on charge d’abord le mapping global PA/PO
     await Promise.all([loadActeurs(), loadMaps(), loadLois(), loadAI()]);
     render();
   } catch (e) {
@@ -221,7 +226,6 @@ if (els.grid) {
 els.search && els.search.addEventListener("input", render);
 
 /* ---------- Outil debug : auteurs inconnus ---------- */
-// ★ CHANGED: on check aussi le mapping global
 window.listUnknownAuthors = function(){
   const unknown = new Set();
   LOIS.forEach(l => {
