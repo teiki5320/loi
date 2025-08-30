@@ -5,44 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Détail de la loi</title>
 
-  <!-- Style minimal, thème clair -->
-  <style>
-    :root{
-      --bg:#f5f6fa; --panel:#fff; --ink:#1c1c1c; --muted:#60646c;
-      --border:#e3e6eb; --accent:#0a66c2; --ring:rgba(10,102,194,.22);
-      --radius:12px;
-    }
-    *{box-sizing:border-box}
-    body{margin:0;background:var(--bg);color:var(--ink);font:500 16px/1.55 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
-    a{color:var(--accent);text-decoration:none}
-    a:focus{outline:3px solid var(--ring)}
-
-    .hero{padding:24px max(16px,5vw) 10px;background:#fff;border-bottom:1px solid var(--border)}
-    .hero .back{display:inline-block;font-size:14px;margin-bottom:10px}
-    .hero h1{margin:0 0 6px;font-size:clamp(22px,3.2vw,34px)}
-    .hero .sub{margin:0;color:var(--muted)}
-
-    .wrap{padding:20px max(16px,5vw) 60px;display:grid;gap:16px}
-    .block{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);padding:16px}
-    .block h2{margin:0 0 10px;font-size:18px}
-    .grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
-    .badge{display:inline-block;background:#f7f8fb;border:1px solid var(--border);border-radius:10px;padding:8px 10px}
-    .para{margin:0}
-    .muted{color:var(--muted)}
-    .chips{display:flex;flex-wrap:wrap;gap:8px}
-    .chip{background:#f7f8fb;border:1px solid var(--border);border-radius:999px;padding:6px 10px}
-    .list{margin:0;padding-left:20px}
-    .list li{margin:6px 0}
-    .actions{display:flex;gap:10px;flex-wrap:wrap}
-    .button{display:inline-block;padding:10px 14px;border-radius:10px;background:var(--accent);color:#fff;font-weight:700}
-
-    /* squelette de chargement pour le titre */
-    .skeleton{position:relative;overflow:hidden;background:#eef1f6;border-radius:8px}
-    .skeleton::after{content:"";position:absolute;inset:0;
-      background:linear-gradient(90deg,transparent,rgba(255,255,255,.55),transparent);
-      transform:translateX(-100%);animation:shimmer 1.2s infinite}
-    @keyframes shimmer{to{transform:translateX(100%)}}
-  </style>
+  <!-- Feuille de styles externe -->
+  <link rel="stylesheet" href="detail.css?v=5">
 </head>
 <body>
   <header class="hero">
@@ -53,27 +17,31 @@
   </header>
 
   <main class="wrap">
+    <!-- Députés porteurs -->
     <section class="block">
       <h2>Députés porteurs</h2>
-      <!-- Rempli par JS avec des <span class="chip">Nom</span> -->
       <div id="deputes" class="chips muted">Chargement…</div>
     </section>
 
+    <!-- Résumé -->
     <section class="block">
       <h2>Résumé</h2>
       <p id="resume" class="para muted">Chargement…</p>
     </section>
     
-    <section class="card">
-      <h3>Parcours législatif</h3>
+    <!-- Timeline / Parcours législatif -->
+    <section class="block">
+      <h2>Parcours législatif</h2>
       <div id="timeline" class="law-timeline" aria-label="Parcours de la loi"></div>
     </section>
 
+    <!-- Impacts -->
     <section class="block">
       <h2>Impact dans la vie quotidienne</h2>
       <ul id="impacts" class="list"><li class="muted">Chargement…</li></ul>
     </section>
 
+    <!-- Statut, Nature, Dates -->
     <section class="grid">
       <div class="block">
         <h2>Statut</h2>
@@ -89,6 +57,7 @@
       </div>
     </section>
 
+    <!-- Lien Légifrance -->
     <section class="block">
       <h2>Texte officiel</h2>
       <div class="actions">
@@ -99,7 +68,7 @@
 
   <noscript>Activez JavaScript pour voir les détails de la loi.</noscript>
 
-  <!-- Charge le script juste à côté du fichier HTML -->
+  <!-- Script de la page -->
   <script src="./detail.js" defer></script>
 </body>
 </html>
