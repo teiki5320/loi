@@ -64,6 +64,10 @@ function cleanOrgLabel(s){
 function formatAuteur(code){
   if (!code) return "--";
   const key = String(code).toUpperCase();
+
+  // ✅ exception : PA410 = Gouvernement
+  if (key === "PA410") return "Gouvernement";
+
   if (MAP_ACTEURS[key]) return MAP_ACTEURS[key];
   if (MAP_DEPUTES[key]) return MAP_DEPUTES[key];
   if (MAP_GROUPES[key]) return MAP_GROUPES[key];
