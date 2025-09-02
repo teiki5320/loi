@@ -5265,50 +5265,6 @@
     "ordre": 56
   }
 },{
-  "matricule": "01034P",
-  "nom": "Vanlerenberghe",
-  "prenom": "Jean-Marie",
-  "tri": "VANLERENBERGHE",
-  "civilite": "M.",
-  "feminise": false,
-  "serie": "1",
-  "siege": 85,
-  "url": "/senateur/vanlerenberghe_jean_marie01034p.html",
-  "urlAvatar": "/senimg/vanlerenberghe_jean_marie01034p_carre.jpg",
-  "twitter": "JMV_62",
-  "facebook": "100063610072138",
-  "organismes": [{
-    "code": "COM-SOCI",
-    "type": "COMMISSION",
-    "libelle": "Commission des affaires sociales",
-    "ordre": 7003
-  },{
-    "code": "DELEGA-COLTER",
-    "type": "DELEGATION/OFFICE",
-    "libelle": "Délégation sénatoriale aux collectivités territoriales et à la décentralisation",
-    "ordre": 16002
-  },{
-    "code": "ETUDES-934",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
-    "ordre": 50001
-  }],
-  "groupe": {
-    "code": "UC",
-    "libelle": "Groupe Union Centriste",
-    "ordre": 3
-  },
-  "circonscription": {
-    "code": "62",
-    "libelle": "Pas-de-Calais",
-    "ordre": 620
-  },
-  "categorieProfessionnelle": {
-    "code": "31",
-    "libelle": "Salaries (Ingénieurs)",
-    "ordre": 31
-  }
-},{
   "matricule": "20066E",
   "nom": "Jacquemet",
   "prenom": "Annick",
@@ -6449,6 +6405,8 @@
   "siege": 102,
   "url": "/senateur/margueritte_david21486b.html",
   "urlAvatar": "/senimg/margueritte_david21486b_carre.jpg",
+  "twitter": "https://x.com/DMARGUERITTE?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+  "facebook": "https://www.facebook.com/david.margueritte.9/",
   "organismes": [{
     "code": "COM-LOIS",
     "type": "COMMISSION",
@@ -22564,6 +22522,33 @@
     "code": "73",
     "libelle": "Savoie",
     "ordre": 730
+  },
+  "categorieProfessionnelle": {
+    "code": "80",
+    "libelle": "Sans profession declarée",
+    "ordre": 80
+  }
+},{
+  "matricule": "18045D",
+  "nom": "Bourguignon",
+  "prenom": "Brigitte",
+  "tri": "BOURGUIGNON_BRIGITTE",
+  "civilite": "Mme",
+  "feminise": true,
+  "serie": "1",
+  "siege": 0,
+  "url": "/senateur/bourguignon_brigitte18045d.html",
+  "urlAvatar": "/senimg/bourguignon_brigitte18045d_carre.jpg",
+  "organismes": [],
+  "groupe": {
+    "code": "UC",
+    "libelle": "Groupe Union Centriste",
+    "ordre": 3
+  },
+  "circonscription": {
+    "code": "62",
+    "libelle": "Pas-de-Calais",
+    "ordre": 620
   },
   "categorieProfessionnelle": {
     "code": "80",
