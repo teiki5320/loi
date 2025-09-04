@@ -5265,6 +5265,33 @@
     "ordre": 56
   }
 },{
+  "matricule": "18045D",
+  "nom": "Bourguignon",
+  "prenom": "Brigitte",
+  "tri": "BOURGUIGNON_BRIGITTE",
+  "civilite": "Mme",
+  "feminise": true,
+  "serie": "1",
+  "siege": 85,
+  "url": "/senateur/bourguignon_brigitte18045d.html",
+  "urlAvatar": "/senimg/bourguignon_brigitte18045d_carre.jpg",
+  "organismes": [],
+  "groupe": {
+    "code": "UC",
+    "libelle": "Groupe Union Centriste",
+    "ordre": 3
+  },
+  "circonscription": {
+    "code": "62",
+    "libelle": "Pas-de-Calais",
+    "ordre": 620
+  },
+  "categorieProfessionnelle": {
+    "code": "80",
+    "libelle": "Sans profession declarée",
+    "ordre": 80
+  }
+},{
   "matricule": "20066E",
   "nom": "Jacquemet",
   "prenom": "Annick",
@@ -22522,33 +22549,6 @@
     "code": "73",
     "libelle": "Savoie",
     "ordre": 730
-  },
-  "categorieProfessionnelle": {
-    "code": "80",
-    "libelle": "Sans profession declarée",
-    "ordre": 80
-  }
-},{
-  "matricule": "18045D",
-  "nom": "Bourguignon",
-  "prenom": "Brigitte",
-  "tri": "BOURGUIGNON_BRIGITTE",
-  "civilite": "Mme",
-  "feminise": true,
-  "serie": "1",
-  "siege": 0,
-  "url": "/senateur/bourguignon_brigitte18045d.html",
-  "urlAvatar": "/senimg/bourguignon_brigitte18045d_carre.jpg",
-  "organismes": [],
-  "groupe": {
-    "code": "UC",
-    "libelle": "Groupe Union Centriste",
-    "ordre": 3
-  },
-  "circonscription": {
-    "code": "62",
-    "libelle": "Pas-de-Calais",
-    "ordre": 620
   },
   "categorieProfessionnelle": {
     "code": "80",
