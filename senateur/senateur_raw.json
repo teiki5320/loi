@@ -5275,7 +5275,12 @@
   "siege": 85,
   "url": "/senateur/bourguignon_brigitte18045d.html",
   "urlAvatar": "/senimg/bourguignon_brigitte18045d_carre.jpg",
-  "organismes": [],
+  "organismes": [{
+    "code": "COM-SOCI",
+    "type": "COMMISSION",
+    "libelle": "Commission des affaires sociales",
+    "ordre": 7003
+  }],
   "groupe": {
     "code": "UC",
     "libelle": "Groupe Union Centriste",
