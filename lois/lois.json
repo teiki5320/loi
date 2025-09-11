@@ -10,33 +10,13 @@
     "etat": "Réunion de commission"
   },
   {
-    "id": "DLR5L17N51581",
-    "titre": "Proposition de loi élargissant la possibilité pour les collectivités territoriales et leurs groupements d'avoir recours au modèle de la société portuaire pour l'exploitation de leurs ports",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-319.html",
-    "nor": "",
-    "date": "2025-09-17",
-    "etat": "Réunion de commission"
-  },
-  {
-    "id": "DLR5L16N49849",
-    "titre": "Programmation nationale et simplification normative dans le secteur économique de l’énergie",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl23-555.html",
-    "nor": "",
-    "date": "2025-09-15",
-    "etat": "Réunion de commission"
-  },
-  {
     "id": "DLR5L17N50731",
     "titre": "Projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité",
     "type": "Projet de loi ordinaire",
     "auteur": "PA368",
     "url": "http://www.senat.fr/dossier-legislatif/pjl24-033.html",
     "nor": "",
-    "date": "2025-09-11",
+    "date": "2025-09-10",
     "etat": "Réunion de commission"
   },
   {
@@ -568,6 +548,16 @@
     "nor": "",
     "date": "2025-07-17",
     "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L16N49849",
+    "titre": "Programmation nationale et simplification normative dans le secteur économique de l’énergie",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl23-555.html",
+    "nor": "",
+    "date": "2025-07-17",
+    "etat": "Saisine pour avis d'une commission"
   },
   {
     "id": "DLR5L17N52581",
@@ -2505,6 +2495,16 @@
     "type": "Projet ou proposition de loi constitutionnelle",
     "auteur": "PA720838",
     "url": "",
+    "nor": "",
+    "date": "2025-06-19",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N51581",
+    "titre": "Proposition de loi élargissant la possibilité pour les collectivités territoriales et leurs groupements d'avoir recours au modèle de la société portuaire pour l'exploitation de leurs ports",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-319.html",
     "nor": "",
     "date": "2025-06-19",
     "etat": "Renvoi en commission au fond"
