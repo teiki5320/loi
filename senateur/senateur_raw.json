@@ -273,11 +273,6 @@
   "twitter": "amel_gacquerre",
   "facebook": "1618332965",
   "organismes": [{
-    "code": "COMSPE-DDADUE23",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi portant diverses dispositions d'adaptation au droit de l'Union européenne",
-    "ordre": 24999
-  },{
     "code": "COM-CAE",
     "type": "COMMISSION",
     "libelle": "Commission des affaires économiques",
@@ -287,6 +282,11 @@
     "type": "TEMPORAIRE",
     "libelle": "Commission d'enquête sur la paupérisation des copropriétés immobilières",
     "ordre": 25999
+  },{
+    "code": "COMSPE-NEANT_COMSPE",
+    "type": "TEMPORAIRE",
+    "libelle": "Aucune",
+    "ordre": 24010
   },{
     "code": "COMEUR-AFEU",
     "type": "COMMISSION",
@@ -567,11 +567,6 @@
   "twitter": "LavardeC",
   "facebook": "677306056",
   "organismes": [{
-    "code": "COMSPE-DDADUE23",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi portant diverses dispositions d'adaptation au droit de l'Union européenne",
-    "ordre": 24999
-  },{
     "code": "COMSPE-CYBE",
     "type": "TEMPORAIRE",
     "libelle": "Commission spéciale sur le projet de loi relatif à la résilience des activités d'importance vitale, à la protection des infrastructures critiques, à la cybersécurité et à la résilience opérationnelle numérique du secteur financier",
@@ -586,6 +581,11 @@
     "type": "TEMPORAIRE",
     "libelle": "Commission d'enquête sur les missions des agences, opérateurs et organismes consultatifs de l'état",
     "ordre": 25004
+  },{
+    "code": "COMSPE-NEANT_COMSPE",
+    "type": "TEMPORAIRE",
+    "libelle": "Aucune",
+    "ordre": 24010
   },{
     "code": "COMENQ-ELEC",
     "type": "TEMPORAIRE",
@@ -1388,11 +1388,6 @@
   "url": "/senateur/grosvalet_philippe21066j.html",
   "urlAvatar": "/senimg/grosvalet_philippe21066j_carre.jpg",
   "organismes": [{
-    "code": "COMSPE-DDADUE23",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi portant diverses dispositions d'adaptation au droit de l'Union européenne",
-    "ordre": 24999
-  },{
     "code": "COM-CAE",
     "type": "COMMISSION",
     "libelle": "Commission des affaires économiques",
@@ -1402,6 +1397,11 @@
     "type": "TEMPORAIRE",
     "libelle": "Commission d'enquête sur « les moyens mobilisés et mobilisables par l'État pour assurer la prise en compte et le respect par le groupe TotalEnergies des obligations climatiques et des orientations de la politique étrangère de la France »",
     "ordre": 25999
+  },{
+    "code": "COMSPE-NEANT_COMSPE",
+    "type": "TEMPORAIRE",
+    "libelle": "Aucune",
+    "ordre": 24010
   },{
     "code": "ETUDES-1015",
     "type": "ETUDE",
@@ -1662,11 +1662,6 @@
   "twitter": "PascaleGruny02",
   "facebook": "100000736606812",
   "organismes": [{
-    "code": "COMSPE-DDADUE23",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi portant diverses dispositions d'adaptation au droit de l'Union européenne",
-    "ordre": 24999
-  },{
     "code": "COM-SOCI",
     "type": "COMMISSION",
     "libelle": "Commission des affaires sociales",
@@ -1681,6 +1676,11 @@
     "type": "TEMPORAIRE",
     "libelle": "Commission d'enquête sur l'utilisation des aides publiques aux grandes entreprises et à leurs sous-traitants",
     "ordre": 25002
+  },{
+    "code": "COMSPE-NEANT_COMSPE",
+    "type": "TEMPORAIRE",
+    "libelle": "Aucune",
+    "ordre": 24010
   },{
     "code": "COMEUR-AFEU",
     "type": "COMMISSION",
@@ -2012,11 +2012,6 @@
   "twitter": "MartineBerthet",
   "facebook": "100058063478619",
   "organismes": [{
-    "code": "COMSPE-DDADUE23",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi portant diverses dispositions d'adaptation au droit de l'Union européenne",
-    "ordre": 24999
-  },{
     "code": "COMENQ-INFLU",
     "type": "TEMPORAIRE",
     "libelle": "Commission d'enquête sur les politiques publiques face aux opérations d'influences étrangères visant notre vie démocratique, notre économie et les intérêts de la France sur le territoire national et à l'étranger afin de doter notre législation et nos pratiques de moyens d'entraves efficients pour contrecarrer les actions hostiles à notre souveraineté",
@@ -2031,6 +2026,11 @@
     "type": "TEMPORAIRE",
     "libelle": "Commission d'enquête sur l'utilisation des aides publiques aux grandes entreprises et à leurs sous-traitants",
     "ordre": 25002
+  },{
+    "code": "COMSPE-NEANT_COMSPE",
+    "type": "TEMPORAIRE",
+    "libelle": "Aucune",
+    "ordre": 24010
   },{
     "code": "COMENQ-ELEC",
     "type": "TEMPORAIRE",
@@ -3522,6 +3522,11 @@
     "libelle": "Commission d'enquête sur la libre administration des collectivités territoriales, privées progressivement de leurs recettes propres, et sur les leviers à mobiliser demain face aux défis de l'investissement dans la transition écologique et les services publics de proximité",
     "ordre": 25006
   },{
+    "code": "COMSPE-NEANT_COMSPE",
+    "type": "TEMPORAIRE",
+    "libelle": "Aucune",
+    "ordre": 24010
+  },{
     "code": "MISINFCOM-BREXIT3",
     "type": "TEMPORAIRE",
     "libelle": "Groupe de suivi de la nouvelle relation euro-britannique",
@@ -3531,11 +3536,6 @@
     "type": "COMMISSION",
     "libelle": "Commission des affaires étrangères, de la défense et des forces armées",
     "ordre": 7002
-  },{
-    "code": "COMSPE-DDADUE23",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi portant diverses dispositions d'adaptation au droit de l'Union européenne",
-    "ordre": 24999
   },{
     "code": "COMEUR-AFEU",
     "type": "COMMISSION",
@@ -3595,11 +3595,6 @@
   "urlAvatar": "/senimg/milon_alain04092n_carre.jpg",
   "facebook": "100064117114258",
   "organismes": [{
-    "code": "COMSPE-DDADUE23",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi portant diverses dispositions d'adaptation au droit de l'Union européenne",
-    "ordre": 24999
-  },{
     "code": "MISINFCOM-COMP",
     "type": "TEMPORAIRE",
     "libelle": "Mission d'information sur le thème : « Complémentaires santé, mutuelles : l'impact sur le pouvoir d'achat des Français »",
@@ -3614,6 +3609,11 @@
     "type": "TEMPORAIRE",
     "libelle": "Commission d'enquête sur les missions des agences, opérateurs et organismes consultatifs de l'état",
     "ordre": 25004
+  },{
+    "code": "COMSPE-NEANT_COMSPE",
+    "type": "TEMPORAIRE",
+    "libelle": "Aucune",
+    "ordre": 24010
   },{
     "code": "COMENQ-MEDIC",
     "type": "TEMPORAIRE",
@@ -4400,15 +4400,15 @@
   "twitter": "Didier_Marie76",
   "facebook": "100064255712160",
   "organismes": [{
-    "code": "COMSPE-DDADUE23",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi portant diverses dispositions d'adaptation au droit de l'Union européenne",
-    "ordre": 24999
-  },{
     "code": "MISINFCOM-AVENCOMM",
     "type": "TEMPORAIRE",
     "libelle": "Mission d'information sur l'avenir de la commune et du maire en France",
     "ordre": 42999
+  },{
+    "code": "COMSPE-NEANT_COMSPE",
+    "type": "TEMPORAIRE",
+    "libelle": "Aucune",
+    "ordre": 24010
   },{
     "code": "COMEUR-AFEU",
     "type": "COMMISSION",
@@ -4781,11 +4781,6 @@
   "url": "/senateur/havet_nadege20106u.html",
   "urlAvatar": "/senimg/havet_nadege20106u_carre.jpg",
   "organismes": [{
-    "code": "COMSPE-DDADUE23",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi portant diverses dispositions d'adaptation au droit de l'Union européenne",
-    "ordre": 24999
-  },{
     "code": "COMSPE-CYBE",
     "type": "TEMPORAIRE",
     "libelle": "Commission spéciale sur le projet de loi relatif à la résilience des activités d'importance vitale, à la protection des infrastructures critiques, à la cybersécurité et à la résilience opérationnelle numérique du secteur financier",
@@ -4805,6 +4800,11 @@
     "type": "COMMISSION",
     "libelle": "Commission de l'aménagement du territoire et du développement durable",
     "ordre": 7004
+  },{
+    "code": "COMSPE-NEANT_COMSPE",
+    "type": "TEMPORAIRE",
+    "libelle": "Aucune",
+    "ordre": 24010
   },{
     "code": "COMENQ-ELEC",
     "type": "TEMPORAIRE",
@@ -5634,15 +5634,15 @@
   "urlAvatar": "/senimg/josende_lauriane21044c_carre.jpg",
   "twitter": "LJosende",
   "organismes": [{
-    "code": "COMSPE-DDADUE23",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi portant diverses dispositions d'adaptation au droit de l'Union européenne",
-    "ordre": 24999
-  },{
     "code": "COM-LOIS",
     "type": "COMMISSION",
     "libelle": "Commission des lois constitutionnelles, de législation, du suffrage universel, du Règlement et d'administration générale",
     "ordre": 7007
+  },{
+    "code": "COMSPE-NEANT_COMSPE",
+    "type": "TEMPORAIRE",
+    "libelle": "Aucune",
+    "ordre": 24010
   },{
     "code": "COMENQ-COMM",
     "type": "TEMPORAIRE",
@@ -6598,11 +6598,6 @@
   "twitter": "PierreBarros95",
   "facebook": "100092547395047",
   "organismes": [{
-    "code": "COMSPE-DDADUE23",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi portant diverses dispositions d'adaptation au droit de l'Union européenne",
-    "ordre": 24999
-  },{
     "code": "MISINFCOM-ARCH",
     "type": "TEMPORAIRE",
     "libelle": "Mission d'information sur « Architectes des Bâtiments de France : périmètre et compétences »",
@@ -6617,6 +6612,11 @@
     "type": "TEMPORAIRE",
     "libelle": "Commission d'enquête sur les missions des agences, opérateurs et organismes consultatifs de l'état",
     "ordre": 25004
+  },{
+    "code": "COMSPE-NEANT_COMSPE",
+    "type": "TEMPORAIRE",
+    "libelle": "Aucune",
+    "ordre": 24010
   },{
     "code": "COMSPE-SIMP",
     "type": "TEMPORAIRE",
@@ -6686,11 +6686,6 @@
   "urlAvatar": "/senimg/silvani_silvana21049h_carre.jpg",
   "facebook": "https://www.facebook.com/silvana.silvani.1",
   "organismes": [{
-    "code": "COMSPE-DDADUE23",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi portant diverses dispositions d'adaptation au droit de l'Union européenne",
-    "ordre": 24999
-  },{
     "code": "MISINFCOM-COMP",
     "type": "TEMPORAIRE",
     "libelle": "Mission d'information sur le thème : « Complémentaires santé, mutuelles : l'impact sur le pouvoir d'achat des Français »",
@@ -6700,6 +6695,11 @@
     "type": "COMMISSION",
     "libelle": "Commission des affaires sociales",
     "ordre": 7003
+  },{
+    "code": "COMSPE-NEANT_COMSPE",
+    "type": "TEMPORAIRE",
+    "libelle": "Aucune",
+    "ordre": 24010
   },{
     "code": "COMEUR-AFEU",
     "type": "COMMISSION",
@@ -7016,15 +7016,15 @@
   "twitter": "stanzionelucien",
   "facebook": "731254938",
   "organismes": [{
-    "code": "COMSPE-DDADUE23",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi portant diverses dispositions d'adaptation au droit de l'Union européenne",
-    "ordre": 24999
-  },{
     "code": "COMENQ-AIDE",
     "type": "TEMPORAIRE",
     "libelle": "Commission d'enquête sur l'utilisation des aides publiques aux grandes entreprises et à leurs sous-traitants",
     "ordre": 25002
+  },{
+    "code": "COMSPE-NEANT_COMSPE",
+    "type": "TEMPORAIRE",
+    "libelle": "Aucune",
+    "ordre": 24010
   },{
     "code": "MISINFCOM-BIOCARBU",
     "type": "TEMPORAIRE",
@@ -7100,11 +7100,6 @@
   "twitter": "husseinbourgi",
   "facebook": "693945651",
   "organismes": [{
-    "code": "COMSPE-DDADUE23",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi portant diverses dispositions d'adaptation au droit de l'Union européenne",
-    "ordre": 24999
-  },{
     "code": "COMSPE-CINC",
     "type": "TEMPORAIRE",
     "libelle": "Commission spéciale sur la proposition de loi visant à renforcer la prévention et la lutte contre l'intensification et l'extension du risque incendie",
@@ -7119,6 +7114,11 @@
     "type": "TEMPORAIRE",
     "libelle": "Commission d'enquête sur la paupérisation des copropriétés immobilières",
     "ordre": 25999
+  },{
+    "code": "COMSPE-NEANT_COMSPE",
+    "type": "TEMPORAIRE",
+    "libelle": "Aucune",
+    "ordre": 24010
   },{
     "code": "COMENQ-DELI",
     "type": "TEMPORAIRE",
@@ -7219,11 +7219,6 @@
   "twitter": "https://x.com/a_linkenheld",
   "facebook": "https://www.facebook.com/audreylinkenheld59/",
   "organismes": [{
-    "code": "COMSPE-DDADUE23",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi portant diverses dispositions d'adaptation au droit de l'Union européenne",
-    "ordre": 24999
-  },{
     "code": "COMSPE-CYBE",
     "type": "TEMPORAIRE",
     "libelle": "Commission spéciale sur le projet de loi relatif à la résilience des activités d'importance vitale, à la protection des infrastructures critiques, à la cybersécurité et à la résilience opérationnelle numérique du secteur financier",
@@ -7243,6 +7238,11 @@
     "type": "TEMPORAIRE",
     "libelle": "Commission d'enquête sur les pratiques des industriels de l'eau en bouteille et les responsabilités des pouvoirs publics dans les défaillances du contrôle de leurs activités et la gestion des risques économiques, patrimoniaux, fiscaux, écologiques et sanitaires associés",
     "ordre": 25001
+  },{
+    "code": "COMSPE-NEANT_COMSPE",
+    "type": "TEMPORAIRE",
+    "libelle": "Aucune",
+    "ordre": 24010
   },{
     "code": "COMEUR-AFEU",
     "type": "COMMISSION",
@@ -7738,10 +7738,10 @@
   "twitter": "Capo_Canellas",
   "facebook": "100058022561111",
   "organismes": [{
-    "code": "COMSPE-DDADUE23",
+    "code": "COMSPE-NEANT_COMSPE",
     "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi portant diverses dispositions d'adaptation au droit de l'Union européenne",
-    "ordre": 24999
+    "libelle": "Aucune",
+    "ordre": 24010
   },{
     "code": "MISINFCOM-BIOCARBU",
     "type": "TEMPORAIRE",
@@ -8450,11 +8450,6 @@
   "twitter": "nbellurot",
   "facebook": "100063840938941",
   "organismes": [{
-    "code": "COMSPE-DDADUE23",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi portant diverses dispositions d'adaptation au droit de l'Union européenne",
-    "ordre": 24999
-  },{
     "code": "MISINFCOM-ARCH",
     "type": "TEMPORAIRE",
     "libelle": "Mission d'information sur « Architectes des Bâtiments de France : périmètre et compétences »",
@@ -8469,6 +8464,11 @@
     "type": "TEMPORAIRE",
     "libelle": "Commission spéciale sur le projet de loi visant à sécuriser et réguler l'espace numérique",
     "ordre": 24999
+  },{
+    "code": "COMSPE-NEANT_COMSPE",
+    "type": "TEMPORAIRE",
+    "libelle": "Aucune",
+    "ordre": 24010
   },{
     "code": "COMSPE-SIMP",
     "type": "TEMPORAIRE",
@@ -9159,15 +9159,15 @@
   "twitter": "C_Chaillou",
   "facebook": "https://www.facebook.com/ChaillouChristophe",
   "organismes": [{
-    "code": "COMSPE-DDADUE23",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi portant diverses dispositions d'adaptation au droit de l'Union européenne",
-    "ordre": 24999
-  },{
     "code": "COM-LOIS",
     "type": "COMMISSION",
     "libelle": "Commission des lois constitutionnelles, de législation, du suffrage universel, du Règlement et d'administration générale",
     "ordre": 7007
+  },{
+    "code": "COMSPE-NEANT_COMSPE",
+    "type": "TEMPORAIRE",
+    "libelle": "Aucune",
+    "ordre": 24010
   },{
     "code": "COMSPE-SIMP",
     "type": "TEMPORAIRE",
@@ -10104,15 +10104,15 @@
   "url": "/senateur/brault_jean_luc21052c.html",
   "urlAvatar": "/senimg/brault_jean_luc21052c_carre.jpg",
   "organismes": [{
-    "code": "COMSPE-DDADUE23",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi portant diverses dispositions d'adaptation au droit de l'Union européenne",
-    "ordre": 24999
-  },{
     "code": "COM-CAE",
     "type": "COMMISSION",
     "libelle": "Commission des affaires économiques",
     "ordre": 7001
+  },{
+    "code": "COMSPE-NEANT_COMSPE",
+    "type": "TEMPORAIRE",
+    "libelle": "Aucune",
+    "ordre": 24010
   },{
     "code": "COMSPE-SIMP",
     "type": "TEMPORAIRE",
@@ -10542,11 +10542,6 @@
   "twitter": "DanielFargeot",
   "facebook": "https://www.facebook.com/fargeot.daniel/",
   "organismes": [{
-    "code": "COMSPE-DDADUE23",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi portant diverses dispositions d'adaptation au droit de l'Union européenne",
-    "ordre": 24999
-  },{
     "code": "MISINFCOM-ARCH",
     "type": "TEMPORAIRE",
     "libelle": "Mission d'information sur « Architectes des Bâtiments de France : périmètre et compétences »",
@@ -10561,6 +10556,11 @@
     "type": "TEMPORAIRE",
     "libelle": "Commission d'enquête sur l'utilisation des aides publiques aux grandes entreprises et à leurs sous-traitants",
     "ordre": 25002
+  },{
+    "code": "COMSPE-NEANT_COMSPE",
+    "type": "TEMPORAIRE",
+    "libelle": "Aucune",
+    "ordre": 24010
   },{
     "code": "COMSPEAPU-COMSPEAPU",
     "type": "INTERNE",
@@ -11624,11 +11624,6 @@
   "twitter": "DidierMandelli",
   "facebook": "100000728637910",
   "organismes": [{
-    "code": "COMSPE-DDADUE23",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi portant diverses dispositions d'adaptation au droit de l'Union européenne",
-    "ordre": 24999
-  },{
     "code": "COM-CDD",
     "type": "COMMISSION",
     "libelle": "Commission de l'aménagement du territoire et du développement durable",
@@ -11638,6 +11633,11 @@
     "type": "TEMPORAIRE",
     "libelle": "Commission d'enquête sur « les moyens mobilisés et mobilisables par l'État pour assurer la prise en compte et le respect par le groupe TotalEnergies des obligations climatiques et des orientations de la politique étrangère de la France »",
     "ordre": 25999
+  },{
+    "code": "COMSPE-NEANT_COMSPE",
+    "type": "TEMPORAIRE",
+    "libelle": "Aucune",
+    "ordre": 24010
   },{
     "code": "COMENQ-ELEC",
     "type": "TEMPORAIRE",
@@ -12194,11 +12194,6 @@
   "twitter": "FlorenceBlatrix",
   "facebook": "100063615443852",
   "organismes": [{
-    "code": "COMSPE-DDADUE23",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi portant diverses dispositions d'adaptation au droit de l'Union européenne",
-    "ordre": 24999
-  },{
     "code": "COMSPE-CYBE",
     "type": "TEMPORAIRE",
     "libelle": "Commission spéciale sur le projet de loi relatif à la résilience des activités d'importance vitale, à la protection des infrastructures critiques, à la cybersécurité et à la résilience opérationnelle numérique du secteur financier",
@@ -12213,6 +12208,11 @@
     "type": "TEMPORAIRE",
     "libelle": "Commission spéciale sur le projet de loi visant à sécuriser et réguler l'espace numérique",
     "ordre": 24999
+  },{
+    "code": "COMSPE-NEANT_COMSPE",
+    "type": "TEMPORAIRE",
+    "libelle": "Aucune",
+    "ordre": 24010
   },{
     "code": "MISINFCOM-GEAU",
     "type": "TEMPORAIRE",
@@ -12649,11 +12649,6 @@
   "twitter": "yjadot",
   "facebook": "https://www.facebook.com/yjadot",
   "organismes": [{
-    "code": "COMSPE-DDADUE23",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi portant diverses dispositions d'adaptation au droit de l'Union européenne",
-    "ordre": 24999
-  },{
     "code": "COM-CAE",
     "type": "COMMISSION",
     "libelle": "Commission des affaires économiques",
@@ -12663,6 +12658,11 @@
     "type": "TEMPORAIRE",
     "libelle": "Commission d'enquête sur « les moyens mobilisés et mobilisables par l'État pour assurer la prise en compte et le respect par le groupe TotalEnergies des obligations climatiques et des orientations de la politique étrangère de la France »",
     "ordre": 25999
+  },{
+    "code": "COMSPE-NEANT_COMSPE",
+    "type": "TEMPORAIRE",
+    "libelle": "Aucune",
+    "ordre": 24010
   },{
     "code": "DELEGA-PROS",
     "type": "DELEGATION/OFFICE",
@@ -13112,15 +13112,15 @@
   "twitter": "louisvogel",
   "facebook": "https://www.facebook.com/lvogel77",
   "organismes": [{
-    "code": "COMSPE-DDADUE23",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi portant diverses dispositions d'adaptation au droit de l'Union européenne",
-    "ordre": 24999
-  },{
     "code": "COM-LOIS",
     "type": "COMMISSION",
     "libelle": "Commission des lois constitutionnelles, de législation, du suffrage universel, du Règlement et d'administration générale",
     "ordre": 7007
+  },{
+    "code": "COMSPE-NEANT_COMSPE",
+    "type": "TEMPORAIRE",
+    "libelle": "Aucune",
+    "ordre": 24010
   },{
     "code": "COMEUR-AFEU",
     "type": "COMMISSION",
@@ -13313,11 +13313,6 @@
   "twitter": "Arnaud_jm",
   "facebook": "1186870649",
   "organismes": [{
-    "code": "COMSPE-DDADUE23",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi portant diverses dispositions d'adaptation au droit de l'Union européenne",
-    "ordre": 24999
-  },{
     "code": "MISINFCOM-AVENCOMM",
     "type": "TEMPORAIRE",
     "libelle": "Mission d'information sur l'avenir de la commune et du maire en France",
@@ -13332,6 +13327,11 @@
     "type": "TEMPORAIRE",
     "libelle": "Commission spéciale sur le projet de loi visant à sécuriser et réguler l'espace numérique",
     "ordre": 24999
+  },{
+    "code": "COMSPE-NEANT_COMSPE",
+    "type": "TEMPORAIRE",
+    "libelle": "Aucune",
+    "ordre": 24010
   },{
     "code": "COM-LOIS",
     "type": "COMMISSION",
@@ -13594,15 +13594,15 @@
   "twitter": "Pasc_Martin",
   "facebook": "100057628916285",
   "organismes": [{
-    "code": "COMSPE-DDADUE23",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi portant diverses dispositions d'adaptation au droit de l'Union européenne",
-    "ordre": 24999
-  },{
     "code": "COMSPE-CINC",
     "type": "TEMPORAIRE",
     "libelle": "Commission spéciale sur la proposition de loi visant à renforcer la prévention et la lutte contre l'intensification et l'extension du risque incendie",
     "ordre": 24999
+  },{
+    "code": "COMSPE-NEANT_COMSPE",
+    "type": "TEMPORAIRE",
+    "libelle": "Aucune",
+    "ordre": 24010
   },{
     "code": "COM-CDD",
     "type": "COMMISSION",
@@ -13828,11 +13828,6 @@
   "twitter": "jbblanc84",
   "facebook": "100056145245008",
   "organismes": [{
-    "code": "COMSPE-DDADUE23",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi portant diverses dispositions d'adaptation au droit de l'Union européenne",
-    "ordre": 24999
-  },{
     "code": "COMSPE-CZAN",
     "type": "TEMPORAIRE",
     "libelle": "Commission spéciale sur la proposition de loi visant à faciliter la mise en oeuvre des objectifs de « zéro artificialisation nette » au coeur des territoires",
@@ -13842,6 +13837,11 @@
     "type": "TEMPORAIRE",
     "libelle": "Commission d'enquête sur la libre administration des collectivités territoriales, privées progressivement de leurs recettes propres, et sur les leviers à mobiliser demain face aux défis de l'investissement dans la transition écologique et les services publics de proximité",
     "ordre": 25006
+  },{
+    "code": "COMSPE-NEANT_COMSPE",
+    "type": "TEMPORAIRE",
+    "libelle": "Aucune",
+    "ordre": 24010
   },{
     "code": "COMENQ-INFLU",
     "type": "TEMPORAIRE",
@@ -14736,10 +14736,10 @@
   "urlAvatar": "/senimg/gosselin_beatrice20180f_carre.jpg",
   "facebook": "100061942819989",
   "organismes": [{
-    "code": "COMSPE-DDADUE23",
+    "code": "COMSPE-NEANT_COMSPE",
     "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi portant diverses dispositions d'adaptation au droit de l'Union européenne",
-    "ordre": 24999
+    "libelle": "Aucune",
+    "ordre": 24010
   },{
     "code": "MISINFCOM-BIOCARBU",
     "type": "TEMPORAIRE",
@@ -16560,11 +16560,6 @@
   "twitter": "CyrilPellevat",
   "facebook": "100058283252790",
   "organismes": [{
-    "code": "COMSPE-DDADUE23",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi portant diverses dispositions d'adaptation au droit de l'Union européenne",
-    "ordre": 24999
-  },{
     "code": "COMSPE-CYBE",
     "type": "TEMPORAIRE",
     "libelle": "Commission spéciale sur le projet de loi relatif à la résilience des activités d'importance vitale, à la protection des infrastructures critiques, à la cybersécurité et à la résilience opérationnelle numérique du secteur financier",
@@ -16579,6 +16574,11 @@
     "type": "TEMPORAIRE",
     "libelle": "Commission spéciale sur le projet de loi visant à sécuriser et réguler l'espace numérique",
     "ordre": 24999
+  },{
+    "code": "COMSPE-NEANT_COMSPE",
+    "type": "TEMPORAIRE",
+    "libelle": "Aucune",
+    "ordre": 24010
   },{
     "code": "COMENQ-ELEC",
     "type": "TEMPORAIRE",
@@ -16779,15 +16779,15 @@
   "twitter": "jf_longeot",
   "facebook": "100058128217566",
   "organismes": [{
-    "code": "COMSPE-DDADUE23",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi portant diverses dispositions d'adaptation au droit de l'Union européenne",
-    "ordre": 24999
-  },{
     "code": "COMSPE-CZAN",
     "type": "TEMPORAIRE",
     "libelle": "Commission spéciale sur la proposition de loi visant à faciliter la mise en oeuvre des objectifs de « zéro artificialisation nette » au coeur des territoires",
     "ordre": 24999
+  },{
+    "code": "COMSPE-NEANT_COMSPE",
+    "type": "TEMPORAIRE",
+    "libelle": "Aucune",
+    "ordre": 24010
   },{
     "code": "COM-CDD",
     "type": "COMMISSION",
@@ -19300,10 +19300,10 @@
   "urlAvatar": "/senimg/devinaz_gilbert_luc19251m_carre.jpg",
   "facebook": "https://www.facebook.com/gldevinaz",
   "organismes": [{
-    "code": "COMSPE-DDADUE23",
+    "code": "COMSPE-NEANT_COMSPE",
     "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi portant diverses dispositions d'adaptation au droit de l'Union européenne",
-    "ordre": 24999
+    "libelle": "Aucune",
+    "ordre": 24010
   },{
     "code": "COM-CDD",
     "type": "COMMISSION",
@@ -19565,15 +19565,15 @@
   "twitter": "RonanDantec",
   "facebook": "100058201204685",
   "organismes": [{
-    "code": "COMSPE-DDADUE23",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi portant diverses dispositions d'adaptation au droit de l'Union européenne",
-    "ordre": 24999
-  },{
     "code": "COMSPE-CZAN",
     "type": "TEMPORAIRE",
     "libelle": "Commission spéciale sur la proposition de loi visant à faciliter la mise en oeuvre des objectifs de « zéro artificialisation nette » au coeur des territoires",
     "ordre": 24999
+  },{
+    "code": "COMSPE-NEANT_COMSPE",
+    "type": "TEMPORAIRE",
+    "libelle": "Aucune",
+    "ordre": 24010
   },{
     "code": "MISINFCOM-SERV",
     "type": "TEMPORAIRE",
@@ -21177,10 +21177,10 @@
   "url": "/senateur/klinger_christian20126y.html",
   "urlAvatar": "/senimg/klinger_christian20126y_carre.jpg",
   "organismes": [{
-    "code": "COMSPE-DDADUE23",
+    "code": "COMSPE-NEANT_COMSPE",
     "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi portant diverses dispositions d'adaptation au droit de l'Union européenne",
-    "ordre": 24999
+    "libelle": "Aucune",
+    "ordre": 24010
   },{
     "code": "COMSPE-SIMP",
     "type": "TEMPORAIRE",
@@ -21506,15 +21506,15 @@
   "urlAvatar": "/senimg/duplomb_laurent19507s_carre.jpg",
   "facebook": "100058098908620",
   "organismes": [{
-    "code": "COMSPE-DDADUE23",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi portant diverses dispositions d'adaptation au droit de l'Union européenne",
-    "ordre": 24999
-  },{
     "code": "COM-CAE",
     "type": "COMMISSION",
     "libelle": "Commission des affaires économiques",
     "ordre": 7001
+  },{
+    "code": "COMSPE-NEANT_COMSPE",
+    "type": "TEMPORAIRE",
+    "libelle": "Aucune",
+    "ordre": 24010
   },{
     "code": "ETUDES-922",
     "type": "ETUDE",
@@ -22026,15 +22026,15 @@
   "twitter": "C_Frassa",
   "facebook": "100000994813808",
   "organismes": [{
-    "code": "COMSPE-DDADUE23",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi portant diverses dispositions d'adaptation au droit de l'Union européenne",
-    "ordre": 24999
-  },{
     "code": "COM-LOIS",
     "type": "COMMISSION",
     "libelle": "Commission des lois constitutionnelles, de législation, du suffrage universel, du Règlement et d'administration générale",
     "ordre": 7007
+  },{
+    "code": "COMSPE-NEANT_COMSPE",
+    "type": "TEMPORAIRE",
+    "libelle": "Aucune",
+    "ordre": 24010
   },{
     "code": "COMEUR-AFEU",
     "type": "COMMISSION",
@@ -22559,5 +22559,49 @@
     "code": "80",
     "libelle": "Sans profession declarée",
     "ordre": 80
+  }
+},{
+  "matricule": "21032X",
+  "nom": "Girardin",
+  "prenom": "Annick",
+  "tri": "GIRARDIN_ANNICK",
+  "civilite": "Mme",
+  "feminise": true,
+  "serie": "1",
+  "siege": 0,
+  "url": "/senateur/girardin_annick21032x.html",
+  "urlAvatar": "/senimg/girardin_annick21032x_carre.jpg",
+  "twitter": "AnnickGirardin",
+  "facebook": "https://www.facebook.com/annickgirardin.fr",
+  "organismes": [{
+    "code": "COMSPE-NEANT_COMSPE",
+    "type": "TEMPORAIRE",
+    "libelle": "Aucune",
+    "ordre": 24010
+  },{
+    "code": "AUTRES-UIP",
+    "type": "AUTRE",
+    "libelle": "Groupe français de l'Union Interparlementaire (U.I.P.)",
+    "ordre": 60018
+  },{
+    "code": "AUTRES-SFAPF",
+    "type": "AUTRE",
+    "libelle": "Section française de l'Assemblée parlementaire de la francophonie (A.P.F.)",
+    "ordre": 60017
+  }],
+  "groupe": {
+    "code": "AUCUN",
+    "libelle": "Nouveaux Sénateurs",
+    "ordre": 10
+  },
+  "circonscription": {
+    "code": "975",
+    "libelle": "Saint-Pierre-et-Miquelon",
+    "ordre": 981
+  },
+  "categorieProfessionnelle": {
+    "code": "56",
+    "libelle": "Professions judiciaires (Magistrats)",
+    "ordre": 56
   }
 }]
