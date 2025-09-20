@@ -22595,9 +22595,9 @@
     "ordre": 16005
   }],
   "groupe": {
-    "code": "NI",
-    "libelle": "Réunion administrative des Sénateurs ne figurant sur la liste d'aucun groupe",
-    "ordre": 9
+    "code": "RDSE",
+    "libelle": "Groupe du Rassemblement Démocratique et Social Européen",
+    "ordre": 7
   },
   "circonscription": {
     "code": "975",
