@@ -1,5 +1,15 @@
 [
   {
+    "id": "DLR5L17N52598",
+    "titre": "Rejeter le projet d'accord sur les droits de douane et le commerce du 27 juillet 2025 entre l’Union européenne et les Etats-Unis",
+    "type": "Résolution",
+    "auteur": "PA842271",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-07",
+    "etat": "Réunion de commission"
+  },
+  {
     "id": "DLR5L17N52100",
     "titre": "Projet de loi relatif à l’organisation des jeux Olympiques et Paralympiques de 2030",
     "type": "Projet de loi ordinaire",
@@ -8,6 +18,26 @@
     "nor": "",
     "date": "2025-09-24",
     "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N52818",
+    "titre": "Mettre fin à l'acquisition automatique de congés pendant les périodes d'arrêt maladie",
+    "type": "Résolution",
+    "auteur": "PA408578",
+    "url": "",
+    "nor": "",
+    "date": "2025-09-23",
+    "etat": "Renvoi préalable"
+  },
+  {
+    "id": "DLR5L17N51631",
+    "titre": "Renforcer la sécurité des utilisateurs d’engin de déplacement personnel motorisé",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA719890",
+    "url": "",
+    "nor": "",
+    "date": "2025-09-23",
+    "etat": "Retrait d'une initiative"
   },
   {
     "id": "DLR5L17N52816",
@@ -28,6 +58,16 @@
     "nor": "",
     "date": "2025-09-22",
     "etat": "Renvoi préalable"
+  },
+  {
+    "id": "DLR5L17N52817",
+    "titre": "Proposition de loi visant à renforcer l'effectivité du droit de communication des juridictions financières",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-898.html",
+    "nor": "",
+    "date": "2025-09-19",
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N52807",
@@ -1228,16 +1268,6 @@
     "nor": "",
     "date": "2025-07-30",
     "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N52598",
-    "titre": "Rejeter le projet d'accord sur les droits de douane et le commerce du 27 juillet 2025 entre l’Union européenne et les Etats-Unis",
-    "type": "Résolution",
-    "auteur": "PA842271",
-    "url": "",
-    "nor": "",
-    "date": "2025-07-30",
-    "etat": "Renvoi préalable"
   },
   {
     "id": "DLR5L17N52596",
@@ -8652,16 +8682,6 @@
   {
     "id": "DLR5L17N51632",
     "titre": "Permettre une gestion optimisée de la production, du transport et du stockage d’eau destinée à la consommation humaine",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA719890",
-    "url": "",
-    "nor": "",
-    "date": "2025-03-11",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N51631",
-    "titre": "Renforcer la sécurité des utilisateurs d’engin de déplacement personnel motorisé",
     "type": "Proposition de loi ordinaire",
     "auteur": "PA719890",
     "url": "",
