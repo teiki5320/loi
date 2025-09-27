@@ -10,6 +10,46 @@
     "etat": "Réunion de commission"
   },
   {
+    "id": "DLR5L17N52834",
+    "titre": "Lutter contre le financement occulte des campagnes électorales",
+    "type": "Projet ou proposition de loi organique",
+    "auteur": "PA841351",
+    "url": "",
+    "nor": "",
+    "date": "2025-09-26",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52832",
+    "titre": "La neutralité, le fonctionnement et le financement de l’audiovisuel public",
+    "type": "Résolution",
+    "auteur": "PA330240",
+    "url": "",
+    "nor": "",
+    "date": "2025-09-26",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52831",
+    "titre": "Instaurer la gratuité des transports en commun et permettre aux communautés urbaines de répondre aux défis environnementaux et sociaux",
+    "type": "Résolution Article 34-1",
+    "auteur": "PA795422",
+    "url": "",
+    "nor": "",
+    "date": "2025-09-26",
+    "etat": "1er dépôt d'une initiative."
+  },
+  {
+    "id": "DLR5L17N52830",
+    "titre": "Recueil d’auditions de la commission de la défense nationale et des forces armées sur « Espaces maritimes et enjeux de défense »",
+    "type": "Rapport d'information sans mission",
+    "auteur": "",
+    "url": "",
+    "nor": "",
+    "date": "2025-09-26",
+    "etat": "Dépôt de rapport"
+  },
+  {
     "id": "DLR5L17N51726",
     "titre": "Condamner la politique de ségrégation imposée aux femmes afghanes par le régime des Talibans et prendre des mesures appropriées pour mettre un terme aux atteintes à leurs droits fondamentaux",
     "type": "Résolution",
@@ -18,6 +58,16 @@
     "nor": "",
     "date": "2025-09-25",
     "etat": "Décision"
+  },
+  {
+    "id": "DLR5L17N52825",
+    "titre": "Proposition de loi visant à renforcer les droits des victimes dans le cadre des procédures judiciaires",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-906.html",
+    "nor": "",
+    "date": "2025-09-24",
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N52823",
@@ -130,6 +180,16 @@
     "etat": "Renvoi en commission au fond"
   },
   {
+    "id": "DLR5L17N52826",
+    "titre": "Proposition de loi visant à renforcer la protection des consommateurs et consommatrices d'énergie",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-897.html",
+    "nor": "",
+    "date": "2025-09-18",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
     "id": "DLR5L17N52807",
     "titre": "Reconnaître les fanfares comme patrimoine vivant",
     "type": "Résolution Article 34-1",
@@ -148,6 +208,16 @@
     "nor": "",
     "date": "2025-09-17",
     "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N52827",
+    "titre": "Proposition de loi visant à intégrer les risques en matière de cybersécurité au plan communal de sauvegarde",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-894.html",
+    "nor": "",
+    "date": "2025-09-16",
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N52806",
