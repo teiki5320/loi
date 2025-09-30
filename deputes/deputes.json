@@ -400,6 +400,16 @@
     "groupeLibelle": "Droite Républicaine"
   },
   {
+    "id": "PA368",
+    "nom": "Michel Barnier",
+    "email": "michel.barnier@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Paris",
+    "groupe": "PO845425",
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
+  },
+  {
     "id": "PA408578",
     "nom": "Jean-Didier Berger",
     "email": "jean-didier.berger@assemblee-nationale.fr",
@@ -1375,9 +1385,9 @@
     "email": "Belkhir.Belhaddad@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Moselle",
-    "groupe": "PO840056",
-    "groupeSigle": "NI",
-    "groupeLibelle": "Non inscrit"
+    "groupe": "PO845419",
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA720370",
@@ -1965,9 +1975,9 @@
     "email": "Sacha.Houlie@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Vienne",
-    "groupe": "PO840056",
-    "groupeSigle": "NI",
-    "groupeLibelle": "Non inscrit"
+    "groupe": "PO845419",
+    "groupeSigle": "SOC",
+    "groupeLibelle": "Socialistes et apparentés"
   },
   {
     "id": "PA722162",
