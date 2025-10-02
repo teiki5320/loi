@@ -6107,94 +6107,6 @@
     "ordre": 73
   }
 },{
-  "matricule": "10015M",
-  "nom": "Reichardt",
-  "prenom": "André",
-  "tri": "REICHARDT  ANDRÉ",
-  "civilite": "M.",
-  "feminise": false,
-  "serie": "2",
-  "siege": 97,
-  "url": "/senateur/reichardt_andre10015m.html",
-  "urlAvatar": "/senimg/reichardt_andre10015m_carre.jpg",
-  "facebook": "100000728160374",
-  "organismes": [{
-    "code": "AUTRES-UIP",
-    "type": "AUTRE",
-    "libelle": "Groupe français de l'Union Interparlementaire (U.I.P.)",
-    "ordre": 60018
-  },{
-    "code": "AUTRES-SFAPF",
-    "type": "AUTRE",
-    "libelle": "Section française de l'Assemblée parlementaire de la francophonie (A.P.F.)",
-    "ordre": 60017
-  },{
-    "code": "COM-LOIS",
-    "type": "COMMISSION",
-    "libelle": "Commission des lois constitutionnelles, de législation, du suffrage universel, du Règlement et d'administration générale",
-    "ordre": 7007
-  },{
-    "code": "COMENQ-INFLU",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission d'enquête sur les politiques publiques face aux opérations d'influences étrangères visant notre vie démocratique, notre économie et les intérêts de la France sur le territoire national et à l'étranger afin de doter notre législation et nos pratiques de moyens d'entraves efficients pour contrecarrer les actions hostiles à notre souveraineté",
-    "ordre": 25999
-  },{
-    "code": "COMENQ-DELI",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission d'enquête aux fins d'évaluer les outils de la lutte contre la délinquance financière, la criminalité organisée et le contournement des sanctions internationales, en France et en Europe, et de proposer des mesures face aux nouveaux défis",
-    "ordre": 25003
-  },{
-    "code": "COMEUR-AFEU",
-    "type": "COMMISSION",
-    "libelle": "Commission des affaires européennes",
-    "ordre": 8001
-  },{
-    "code": "COMSPE-SIMP",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi simplification",
-    "ordre": 24999
-  },{
-    "code": "COMSPE-ESNU",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi visant à sécuriser et réguler l'espace numérique",
-    "ordre": 24999
-  },{
-    "code": "COMSPE-CYBE",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi relatif à la résilience des activités d'importance vitale, à la protection des infrastructures critiques, à la cybersécurité et à la résilience opérationnelle numérique du secteur financier",
-    "ordre": 24999
-  },{
-    "code": "ETUDES-1006",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Francophonie",
-    "ordre": 50001
-  },{
-    "code": "MISINFCOM-LOCA",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur \"l'impact des décisions réglementaires et budgétaires de l'Etat sur l'équilibre financier des collectivités locales\"",
-    "ordre": 42999
-  },{
-    "code": "MISINFCOM-COMP",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « Complémentaires santé, mutuelles : l'impact sur le pouvoir d'achat des Français »",
-    "ordre": 42999
-  }],
-  "groupe": {
-    "code": "UMP",
-    "libelle": "Groupe Les Républicains",
-    "ordre": 1
-  },
-  "circonscription": {
-    "code": "67",
-    "libelle": "Bas-Rhin",
-    "ordre": 670
-  },
-  "categorieProfessionnelle": {
-    "code": "39",
-    "libelle": "Salaries (Retraités)",
-    "ordre": 39
-  }
-},{
   "matricule": "19573D",
   "nom": "Paccaud",
   "prenom": "Olivier",
@@ -22554,6 +22466,33 @@
     "code": "73",
     "libelle": "Savoie",
     "ordre": 730
+  },
+  "categorieProfessionnelle": {
+    "code": "80",
+    "libelle": "Sans profession declarée",
+    "ordre": 80
+  }
+},{
+  "matricule": "21510H",
+  "nom": "Séné",
+  "prenom": "Marc",
+  "tri": "SENE MARC",
+  "civilite": "M.",
+  "feminise": false,
+  "serie": "2",
+  "siege": 0,
+  "url": "/senateur/sene_marc21510h.html",
+  "urlAvatar": "/senimg/sene_marc21510h_carre.jpg",
+  "organismes": [],
+  "groupe": {
+    "code": "UMP",
+    "libelle": "Groupe Les Républicains",
+    "ordre": 1
+  },
+  "circonscription": {
+    "code": "67",
+    "libelle": "Bas-Rhin",
+    "ordre": 670
   },
   "categorieProfessionnelle": {
     "code": "80",
