@@ -1,5 +1,15 @@
 [
   {
+    "id": "DLR5L17N52820",
+    "titre": "Condamner la dérive illibérale et autoritaire du gouvernement géorgien et réaffirmer notre soutien au destin européen de la Géorgie",
+    "type": "Résolution",
+    "auteur": "PA345722",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-08",
+    "etat": "Réunion de commission"
+  },
+  {
     "id": "DLR5L17N52716",
     "titre": "La coopération européenne dans la lutte contre la cyberpédocriminalité pour la défense des droits des enfants à l’ère numérique",
     "type": "Résolution",
@@ -28,6 +38,26 @@
     "nor": "",
     "date": "2025-10-08",
     "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N52884",
+    "titre": "Allocations chômage des travailleurs frontaliers",
+    "type": "Résolution",
+    "auteur": "PA720552",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-01",
+    "etat": "Renvoi préalable"
+  },
+  {
+    "id": "DLR5L17N52883",
+    "titre": "L’évaluation des aides sur critères sociaux pour les étudiants",
+    "type": "Rapport d'information sans mission",
+    "auteur": "",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-01",
+    "etat": "Dépôt de rapport"
   },
   {
     "id": "DLR5L17N52881",
@@ -290,6 +320,16 @@
     "etat": "Retrait d'une initiative"
   },
   {
+    "id": "DLR5L17N52876",
+    "titre": "Proposition de loi visant à faciliter l'accès à l'interruption volontaire de grossesse à l'étranger",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-908.html",
+    "nor": "",
+    "date": "2025-09-28",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
     "id": "DLR5L17N52835",
     "titre": "Proposition de loi visant à instaurer une participation financière des détenus aux frais d'emprisonnement",
     "type": "Proposition de loi ordinaire",
@@ -378,16 +418,6 @@
     "nor": "",
     "date": "2025-09-24",
     "etat": "Dépôt de rapport"
-  },
-  {
-    "id": "DLR5L17N52820",
-    "titre": "Condamner la dérive illibérale et autoritaire du gouvernement géorgien et réaffirmer notre soutien au destin européen de la Géorgie",
-    "type": "Résolution",
-    "auteur": "PA345722",
-    "url": "",
-    "nor": "",
-    "date": "2025-09-24",
-    "etat": "Renvoi préalable"
   },
   {
     "id": "DLR5L17N52819",
