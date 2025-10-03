@@ -1,12 +1,12 @@
 [
   {
-    "id": "DLR5L17N52820",
-    "titre": "Condamner la dérive illibérale et autoritaire du gouvernement géorgien et réaffirmer notre soutien au destin européen de la Géorgie",
+    "id": "DLR5L17N51567",
+    "titre": "Se prononcer contre les « méga-camions » et construire une politique de report modal vers le ferroviaire au niveau européen",
     "type": "Résolution",
-    "auteur": "PA345722",
+    "auteur": "PA841633",
     "url": "",
     "nor": "",
-    "date": "2025-10-08",
+    "date": "2025-10-22",
     "etat": "Réunion de commission"
   },
   {
@@ -14,6 +14,76 @@
     "titre": "La coopération européenne dans la lutte contre la cyberpédocriminalité pour la défense des droits des enfants à l’ère numérique",
     "type": "Résolution",
     "auteur": "PA608264",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-15",
+    "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N52429",
+    "titre": "Projet de loi autorisant l’approbation de la convention de coopération judiciaire internationale entre la France et le Myanmar",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA410",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-15",
+    "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N52099",
+    "titre": "Approbation de la résolution n° F/BG/2023/04 relative aux amendements à l’accord portant création du Fonds africain de développement",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA410",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-15",
+    "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N52000",
+    "titre": "Projet de loi autorisant l’approbation de la convention d’entraide judiciaire en matière pénale entre le Gouvernement de la République française et le Gouvernement de la République du Suriname",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA410",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl24-553.html",
+    "nor": "",
+    "date": "2025-10-15",
+    "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N51676",
+    "titre": "Reconnaissance d'un droit fondamental à l'eau et à l'assainissement de qualité au sein de l'Union européenne",
+    "type": "Résolution",
+    "auteur": "PA794906",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-15",
+    "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N51519",
+    "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et le Gouvernement de la République de Chypre sur la coopération lors des opérations d’évacuation à partir de la région du Moyen-Orient via le territoire de la République de Chypre dans le cadre d’une situation de crise",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA410",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl24-345.html",
+    "nor": "",
+    "date": "2025-10-15",
+    "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N50794",
+    "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et l’Observatoire du réseau d’antennes d’un kilomètre carré (SKAO) relatif à l’adhésion de la France à l’Observatoire",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA368",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl24-104.html",
+    "nor": "",
+    "date": "2025-10-15",
+    "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N52820",
+    "titre": "Condamner la dérive illibérale et autoritaire du gouvernement géorgien et réaffirmer notre soutien au destin européen de la Géorgie",
+    "type": "Résolution",
+    "auteur": "PA345722",
     "url": "",
     "nor": "",
     "date": "2025-10-08",
@@ -30,10 +100,10 @@
     "etat": "Réunion de commission"
   },
   {
-    "id": "DLR5L17N51567",
-    "titre": "Se prononcer contre les « méga-camions » et construire une politique de report modal vers le ferroviaire au niveau européen",
+    "id": "DLR5L17N52305",
+    "titre": "Garantir l’attribution post 2030 de la bande de fréquences inférieure à 700 mégahertz à la télévision numérique terrestre",
     "type": "Résolution",
-    "auteur": "PA841633",
+    "auteur": "PA795982",
     "url": "",
     "nor": "",
     "date": "2025-10-08",
@@ -2900,16 +2970,6 @@
     "etat": "Renvoi en commission au fond"
   },
   {
-    "id": "DLR5L17N52429",
-    "titre": "Projet de loi autorisant l’approbation de la convention de coopération judiciaire internationale entre la France et le Myanmar",
-    "type": "Projet de ratification des traités et conventions",
-    "auteur": "PA410",
-    "url": "",
-    "nor": "",
-    "date": "2025-07-02",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
     "id": "DLR5L17N52426",
     "titre": "Le recueil d'auditions de la commission sur l’Europe de la défense",
     "type": "Rapport d'information sans mission",
@@ -3310,16 +3370,6 @@
     "etat": "Renvoi en commission au fond"
   },
   {
-    "id": "DLR5L17N52099",
-    "titre": "Approbation de la résolution n° F/BG/2023/04 relative aux amendements à l’accord portant création du Fonds africain de développement",
-    "type": "Projet de ratification des traités et conventions",
-    "auteur": "PA410",
-    "url": "",
-    "nor": "",
-    "date": "2025-06-25",
-    "etat": "Réunion de commission"
-  },
-  {
     "id": "DLR5L17N52083",
     "titre": "Relancer le secteur du logement",
     "type": "Proposition de loi ordinaire",
@@ -3580,16 +3630,6 @@
     "etat": "Dépôt de rapport"
   },
   {
-    "id": "DLR5L17N52000",
-    "titre": "Projet de loi autorisant l’approbation de la convention d’entraide judiciaire en matière pénale entre le Gouvernement de la République française et le Gouvernement de la République du Suriname",
-    "type": "Projet de ratification des traités et conventions",
-    "auteur": "PA410",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl24-553.html",
-    "nor": "",
-    "date": "2025-06-24",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
     "id": "DLR5L17N52415",
     "titre": "Proposition de loi pour un taux réduit de TVA sur l'énergie",
     "type": "Proposition de loi ordinaire",
@@ -3678,16 +3718,6 @@
     "nor": "",
     "date": "2025-06-23",
     "etat": "Promulgation d'une loi"
-  },
-  {
-    "id": "DLR5L17N51519",
-    "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et le Gouvernement de la République de Chypre sur la coopération lors des opérations d’évacuation à partir de la région du Moyen-Orient via le territoire de la République de Chypre dans le cadre d’une situation de crise",
-    "type": "Projet de ratification des traités et conventions",
-    "auteur": "PA410",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl24-345.html",
-    "nor": "",
-    "date": "2025-06-23",
-    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N51362",
@@ -4188,16 +4218,6 @@
     "nor": "",
     "date": "2025-06-11",
     "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N52305",
-    "titre": "Garantir l’attribution post 2030 de la bande de fréquences inférieure à 700 mégahertz à la télévision numérique terrestre",
-    "type": "Résolution",
-    "auteur": "PA795982",
-    "url": "",
-    "nor": "",
-    "date": "2025-06-11",
-    "etat": "Renvoi préalable"
   },
   {
     "id": "DLR5L17N52304",
@@ -7200,16 +7220,6 @@
     "etat": "Renvoi en commission au fond"
   },
   {
-    "id": "DLR5L17N51676",
-    "titre": "Reconnaissance d'un droit fondamental à l'eau et à l'assainissement de qualité au sein de l'Union européenne",
-    "type": "Résolution",
-    "auteur": "PA794906",
-    "url": "",
-    "nor": "",
-    "date": "2025-04-09",
-    "etat": "Réunion de commission"
-  },
-  {
     "id": "DLR5L17N51557",
     "titre": "Commission d’enquête afin d’étudier et de rechercher les causes de la variation et des écarts des prévisions fiscales et budgétaires des administrations publiques pour les années 2023 et 2024",
     "type": "Commission d'enquête",
@@ -8705,16 +8715,6 @@
     "type": "Proposition de loi ordinaire",
     "auteur": "PA841633",
     "url": "http://www.senat.fr/dossier-legislatif/ppl24-428.html",
-    "nor": "",
-    "date": "2025-03-12",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N50794",
-    "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et l’Observatoire du réseau d’antennes d’un kilomètre carré (SKAO) relatif à l’adhésion de la France à l’Observatoire",
-    "type": "Projet de ratification des traités et conventions",
-    "auteur": "PA368",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl24-104.html",
     "nor": "",
     "date": "2025-03-12",
     "etat": "Renvoi en commission au fond"
