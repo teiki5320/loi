@@ -19886,48 +19886,6 @@
     "ordre": 80
   }
 },{
-  "matricule": "11064N",
-  "nom": "Guerriau",
-  "prenom": "Joël",
-  "tri": "GUERRIAU_JOEL_C4907",
-  "civilite": "M.",
-  "feminise": false,
-  "serie": "1",
-  "siege": 309,
-  "url": "/senateur/guerriau_joel11064n.html",
-  "urlAvatar": "/senimg/guerriau_joel11064n_carre.jpg",
-  "organismes": [{
-    "code": "COM-ETRD",
-    "type": "COMMISSION",
-    "libelle": "Commission des affaires étrangères, de la défense et des forces armées",
-    "ordre": 7002
-  },{
-    "code": "COMSPE-CZAN",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à faciliter la mise en oeuvre des objectifs de « zéro artificialisation nette » au coeur des territoires",
-    "ordre": 24999
-  },{
-    "code": "MISINFCOM-AVENCOMM",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur l'avenir de la commune et du maire en France",
-    "ordre": 42999
-  }],
-  "groupe": {
-    "code": "RTLI",
-    "libelle": "Groupe Les Indépendants - République et Territoires",
-    "ordre": 4
-  },
-  "circonscription": {
-    "code": "44",
-    "libelle": "Loire-Atlantique",
-    "ordre": 440
-  },
-  "categorieProfessionnelle": {
-    "code": "32",
-    "libelle": "Salaries (Cadres divers)",
-    "ordre": 32
-  }
-},{
   "matricule": "14195A",
   "nom": "Chasseing",
   "prenom": "Daniel",
@@ -22473,33 +22431,6 @@
     "ordre": 80
   }
 },{
-  "matricule": "21510H",
-  "nom": "Séné",
-  "prenom": "Marc",
-  "tri": "SENE MARC",
-  "civilite": "M.",
-  "feminise": false,
-  "serie": "2",
-  "siege": 0,
-  "url": "/senateur/sene_marc21510h.html",
-  "urlAvatar": "/senimg/sene_marc21510h_carre.jpg",
-  "organismes": [],
-  "groupe": {
-    "code": "UMP",
-    "libelle": "Groupe Les Républicains",
-    "ordre": 1
-  },
-  "circonscription": {
-    "code": "67",
-    "libelle": "Bas-Rhin",
-    "ordre": 670
-  },
-  "categorieProfessionnelle": {
-    "code": "80",
-    "libelle": "Sans profession declarée",
-    "ordre": 80
-  }
-},{
   "matricule": "21032X",
   "nom": "Girardin",
   "prenom": "Annick",
@@ -22522,6 +22453,11 @@
     "type": "AUTRE",
     "libelle": "Section française de l'Assemblée parlementaire de la francophonie (A.P.F.)",
     "ordre": 60017
+  },{
+    "code": "COM-CDD",
+    "type": "COMMISSION",
+    "libelle": "Commission de l'aménagement du territoire et du développement durable",
+    "ordre": 7004
   },{
     "code": "COMSPE-NEANT_COMSPE",
     "type": "TEMPORAIRE",
@@ -22547,5 +22483,64 @@
     "code": "56",
     "libelle": "Professions judiciaires (Magistrats)",
     "ordre": 56
+  }
+},{
+  "matricule": "21510H",
+  "nom": "Séné",
+  "prenom": "Marc",
+  "tri": "SENE MARC",
+  "civilite": "M.",
+  "feminise": false,
+  "serie": "2",
+  "siege": 0,
+  "url": "/senateur/sene_marc21510h.html",
+  "urlAvatar": "/senimg/sene_marc21510h_carre.jpg",
+  "organismes": [{
+    "code": "COM-LOIS",
+    "type": "COMMISSION",
+    "libelle": "Commission des lois constitutionnelles, de législation, du suffrage universel, du Règlement et d'administration générale",
+    "ordre": 7007
+  }],
+  "groupe": {
+    "code": "UMP",
+    "libelle": "Groupe Les Républicains",
+    "ordre": 1
+  },
+  "circonscription": {
+    "code": "67",
+    "libelle": "Bas-Rhin",
+    "ordre": 670
+  },
+  "categorieProfessionnelle": {
+    "code": "80",
+    "libelle": "Sans profession declarée",
+    "ordre": 80
+  }
+},{
+  "matricule": "21514M",
+  "nom": "Bessin-Guérin",
+  "prenom": "Marie-Pierre",
+  "tri": "BESSIN_GUERIN MARIE_PIERRE",
+  "civilite": "Mme",
+  "feminise": true,
+  "serie": "1",
+  "siege": 0,
+  "url": "/senateur/bessin_guerin_marie_pierre21514m.html",
+  "urlAvatar": "/senimg/bessin_guerin_marie_pierre21514m_carre.jpg",
+  "organismes": [],
+  "groupe": {
+    "code": "RTLI",
+    "libelle": "Groupe Les Indépendants - République et Territoires",
+    "ordre": 4
+  },
+  "circonscription": {
+    "code": "44",
+    "libelle": "Loire-Atlantique",
+    "ordre": 440
+  },
+  "categorieProfessionnelle": {
+    "code": "80",
+    "libelle": "Sans profession declarée",
+    "ordre": 80
   }
 }]
