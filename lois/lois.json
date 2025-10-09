@@ -80,30 +80,40 @@
     "etat": "Réunion de commission"
   },
   {
-    "id": "DLR5L17N52820",
-    "titre": "Condamner la dérive illibérale et autoritaire du gouvernement géorgien et réaffirmer notre soutien au destin européen de la Géorgie",
-    "type": "Résolution",
-    "auteur": "PA345722",
+    "id": "DLR5L17N52899",
+    "titre": "Reconnaitre le massacre des Algériens le 17 octobre 1961 comme un crime d’État",
+    "type": "Résolution Article 34-1",
+    "auteur": "PA794938",
     "url": "",
     "nor": "",
     "date": "2025-10-08",
-    "etat": "Réunion de commission"
+    "etat": "1er dépôt d'une initiative."
   },
   {
-    "id": "DLR5L17N52598",
-    "titre": "Rejeter le projet d'accord sur les droits de douane et le commerce du 27 juillet 2025 entre l’Union européenne et les Etats-Unis",
-    "type": "Résolution",
-    "auteur": "PA842271",
+    "id": "DLR5L17N52898",
+    "titre": "Renforcer l’action diplomatique de la France en faveur d’une paix juste et durable entre la Turquie et le peuple kurde",
+    "type": "Résolution Article 34-1",
+    "auteur": "PA796062",
     "url": "",
     "nor": "",
     "date": "2025-10-08",
-    "etat": "Réunion de commission"
+    "etat": "1er dépôt d'une initiative."
   },
   {
-    "id": "DLR5L17N52305",
-    "titre": "Garantir l’attribution post 2030 de la bande de fréquences inférieure à 700 mégahertz à la télévision numérique terrestre",
-    "type": "Résolution",
-    "auteur": "PA795982",
+    "id": "DLR5L17N52897",
+    "titre": "Le rôle du transport ferroviaire dans le désenclavement des territoires",
+    "type": "Rapport d'information sans mission",
+    "auteur": "",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-08",
+    "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N52787",
+    "titre": "Rendre systématique l’information du consommateur sur l’origine des denrées alimentaires par le moyen de l’étiquetage",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA794354",
     "url": "",
     "nor": "",
     "date": "2025-10-08",
@@ -530,6 +540,16 @@
     "etat": "Décision"
   },
   {
+    "id": "DLR5L17N52896",
+    "titre": "Proposition de loi visant à garantir le pavoisement permanent des bâtiments publics aux couleurs de la République et y interdisant tout autre symbole",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-905.html",
+    "nor": "",
+    "date": "2025-09-24",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
     "id": "DLR5L17N52825",
     "titre": "Proposition de loi visant à renforcer les droits des victimes dans le cadre des procédures judiciaires",
     "type": "Proposition de loi ordinaire",
@@ -558,6 +578,16 @@
     "nor": "",
     "date": "2025-09-24",
     "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N52820",
+    "titre": "Condamner la dérive illibérale et autoritaire du gouvernement géorgien et réaffirmer notre soutien au destin européen de la Géorgie",
+    "type": "Résolution",
+    "auteur": "PA345722",
+    "url": "",
+    "nor": "",
+    "date": "2025-09-24",
+    "etat": "Renvoi préalable"
   },
   {
     "id": "DLR5L17N52819",
@@ -834,16 +864,6 @@
     "titre": "Généraliser le dispositif « Oui Pub » pour réduire le gaspillage des imprimés publicitaires non sollicités",
     "type": "Proposition de loi ordinaire",
     "auteur": "PA794042",
-    "url": "",
-    "nor": "",
-    "date": "2025-09-16",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N52787",
-    "titre": "Rendre systématique l’information du consommateur sur l’origine des denrées alimentaires par le moyen de l’étiquetage",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA794354",
     "url": "",
     "nor": "",
     "date": "2025-09-16",
@@ -1360,6 +1380,16 @@
     "etat": "Renvoi préalable"
   },
   {
+    "id": "DLR5L17N52895",
+    "titre": "Proposition de loi constitutionnelle visant à modifier la Charte de l'environnement pour consacrer les droits de la nature",
+    "type": "Projet ou proposition de loi constitutionnelle",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-891.html",
+    "nor": "",
+    "date": "2025-09-12",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
     "id": "DLR5L17N52736",
     "titre": "Proposition de loi portant création d'un pôle public d'éradication des déchets contenant de l'amiante",
     "type": "Proposition de loi ordinaire",
@@ -1838,6 +1868,16 @@
     "nor": "",
     "date": "2025-07-30",
     "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52598",
+    "titre": "Rejeter le projet d'accord sur les droits de douane et le commerce du 27 juillet 2025 entre l’Union européenne et les Etats-Unis",
+    "type": "Résolution",
+    "auteur": "PA842271",
+    "url": "",
+    "nor": "",
+    "date": "2025-07-30",
+    "etat": "Renvoi préalable"
   },
   {
     "id": "DLR5L17N52596",
@@ -2818,6 +2858,16 @@
     "nor": "",
     "date": "2025-07-09",
     "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N52309",
+    "titre": "mission d’information sur la territorialisation et le portage des politiques publiques en termes d’aménagement du territoire et de transition énergétique et écologique",
+    "type": "Mission d'information",
+    "auteur": "PO871102",
+    "url": "",
+    "nor": "",
+    "date": "2025-07-09",
+    "etat": "Nomination de rapporteur"
   },
   {
     "id": "DLR5L17N51674",
@@ -4070,6 +4120,16 @@
     "etat": "Dépôt de rapport"
   },
   {
+    "id": "DLR5L17N52308",
+    "titre": "mission d’information sur les contrôles, en particulier environnementaux, des produits importés en France dans le cadre de la politique de réciprocité",
+    "type": "Mission d'information",
+    "auteur": "PO871086",
+    "url": "",
+    "nor": "",
+    "date": "2025-06-17",
+    "etat": "Nomination de rapporteur"
+  },
+  {
     "id": "DLR5L17N52338",
     "titre": "Les mécanismes de fixation du prix des médicaments et leurs enjeux",
     "type": "Rapport d'information sans mission",
@@ -4288,6 +4348,16 @@
     "nor": "",
     "date": "2025-06-11",
     "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52305",
+    "titre": "Garantir l’attribution post 2030 de la bande de fréquences inférieure à 700 mégahertz à la télévision numérique terrestre",
+    "type": "Résolution",
+    "auteur": "PA795982",
+    "url": "",
+    "nor": "",
+    "date": "2025-06-11",
+    "etat": "Renvoi préalable"
   },
   {
     "id": "DLR5L17N52304",
@@ -6398,6 +6468,16 @@
     "nor": "",
     "date": "2025-04-30",
     "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N51855",
+    "titre": "Mission d’information sur la transition des modèles des stations de montagne",
+    "type": "Mission d'information",
+    "auteur": "PO868047",
+    "url": "",
+    "nor": "",
+    "date": "2025-04-30",
+    "etat": "Nomination de rapporteur"
   },
   {
     "id": "DLR5L17N51657",
@@ -9790,6 +9870,16 @@
     "etat": "Discussion en séance publique"
   },
   {
+    "id": "DLR5L17N51464",
+    "titre": "Mission d'information sur le rôle du transport ferroviaire dans le désenclavement des territoires",
+    "type": "Mission d'information",
+    "auteur": "PO862599",
+    "url": "",
+    "nor": "",
+    "date": "2025-02-19",
+    "etat": "Nomination de rapporteur"
+  },
+  {
     "id": "DLR5L17N51313",
     "titre": "L’ouverture avancée des données judiciaires",
     "type": "Proposition de loi ordinaire",
@@ -10428,6 +10518,16 @@
     "nor": "",
     "date": "2025-02-11",
     "etat": "1er dépôt d'une initiative."
+  },
+  {
+    "id": "DLR5L17N51463",
+    "titre": "Mission d'information sur l'état des cours d'eau",
+    "type": "Mission d'information",
+    "auteur": "PO862556",
+    "url": "",
+    "nor": "",
+    "date": "2025-02-11",
+    "etat": "Nomination de rapporteur"
   },
   {
     "id": "DLR5L17N51479",
@@ -16158,6 +16258,16 @@
     "nor": "",
     "date": "2024-09-26",
     "etat": "1er dépôt d'une initiative."
+  },
+  {
+    "id": "DLR5L17N50491",
+    "titre": "Mission d'évaluation de l'impact de la loi du 22 juillet 2019 portant création d’une Agence nationale de la cohésion des territoires (ANCT)",
+    "type": "Mission d'information",
+    "auteur": "PO847969",
+    "url": "",
+    "nor": "",
+    "date": "2024-09-26",
+    "etat": "Création d'une mission d'information"
   },
   {
     "id": "DLR5L17N50481",
