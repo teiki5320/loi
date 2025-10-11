@@ -12,10 +12,10 @@
   "twitter": "f_patriat",
   "facebook": "100057831827819",
   "organismes": [{
-    "code": "COM-SOCI",
+    "code": "COM-AFCL",
     "type": "COMMISSION",
-    "libelle": "Commission des affaires sociales",
-    "ordre": 7003
+    "libelle": "Commission de la culture, de l'éducation, de la communication et du sport",
+    "ordre": 7005
   },{
     "code": "ETUDES-909",
     "type": "ETUDE",
@@ -4716,10 +4716,10 @@
   "twitter": "PatrickKanner",
   "facebook": "100057824419392",
   "organismes": [{
-    "code": "COM-AFCL",
+    "code": "COM-LOIS",
     "type": "COMMISSION",
-    "libelle": "Commission de la culture, de l'éducation, de la communication et du sport",
-    "ordre": 7005
+    "libelle": "Commission des lois constitutionnelles, de législation, du suffrage universel, du Règlement et d'administration générale",
+    "ordre": 7007
   }],
   "groupe": {
     "code": "SOC",
@@ -7405,10 +7405,10 @@
   "twitter": "LevrierMartin",
   "facebook": "100057916635915",
   "organismes": [{
-    "code": "COM-AFCL",
+    "code": "COM-SOCI",
     "type": "COMMISSION",
-    "libelle": "Commission de la culture, de l'éducation, de la communication et du sport",
-    "ordre": 7005
+    "libelle": "Commission des affaires sociales",
+    "ordre": 7003
   },{
     "code": "COMSPE-SIMP",
     "type": "TEMPORAIRE",
@@ -8357,53 +8357,6 @@
     "code": "10",
     "libelle": "Professions agricoles",
     "ordre": 10
-  }
-},{
-  "matricule": "21423K",
-  "nom": "Dumoulin",
-  "prenom": "Éric",
-  "tri": "DUMOULIN ERIC",
-  "civilite": "M.",
-  "feminise": false,
-  "serie": "1",
-  "siege": 131,
-  "url": "/senateur/dumoulin_eric21423k.html",
-  "urlAvatar": "/senimg/dumoulin_eric21423k_carre.jpg",
-  "organismes": [{
-    "code": "COM-CAE",
-    "type": "COMMISSION",
-    "libelle": "Commission des affaires économiques",
-    "ordre": 7001
-  },{
-    "code": "DELEGA-PROS",
-    "type": "DELEGATION/OFFICE",
-    "libelle": "Délégation sénatoriale à la prospective",
-    "ordre": 16006
-  },{
-    "code": "ETUDES-906",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Énergie",
-    "ordre": 50001
-  },{
-    "code": "MISINFCOM-NEANT_MISINFCO",
-    "type": "TEMPORAIRE",
-    "libelle": "Aucune",
-    "ordre": 42010
-  }],
-  "groupe": {
-    "code": "UMP",
-    "libelle": "Groupe Les Républicains",
-    "ordre": 1
-  },
-  "circonscription": {
-    "code": "78",
-    "libelle": "Yvelines",
-    "ordre": 895
-  },
-  "categorieProfessionnelle": {
-    "code": "80",
-    "libelle": "Sans profession declarée",
-    "ordre": 80
   }
 },{
   "matricule": "20022R",
@@ -19933,7 +19886,12 @@
   "siege": 309,
   "url": "/senateur/bessin_guerin_marie_pierre21514m.html",
   "urlAvatar": "/senimg/bessin_guerin_marie_pierre21514m_carre.jpg",
-  "organismes": [],
+  "organismes": [{
+    "code": "COM-CAE",
+    "type": "COMMISSION",
+    "libelle": "Commission des affaires économiques",
+    "ordre": 7001
+  }],
   "groupe": {
     "code": "RTLI",
     "libelle": "Groupe Les Indépendants - République et Territoires",
@@ -20104,10 +20062,10 @@
     "libelle": "Groupe français de l'Union Interparlementaire (U.I.P.)",
     "ordre": 60018
   },{
-    "code": "COM-CAE",
+    "code": "COM-ETRD",
     "type": "COMMISSION",
-    "libelle": "Commission des affaires économiques",
-    "ordre": 7001
+    "libelle": "Commission des affaires étrangères, de la défense et des forces armées",
+    "ordre": 7002
   },{
     "code": "COMENQ-RENOV",
     "type": "TEMPORAIRE",
@@ -22505,7 +22463,12 @@
   "siege": 0,
   "url": "/senateur/matray_paulette21512k.html",
   "urlAvatar": "/senimg/matray_paulette21512k_carre.jpg",
-  "organismes": [],
+  "organismes": [{
+    "code": "COM-AFCL",
+    "type": "COMMISSION",
+    "libelle": "Commission de la culture, de l'éducation, de la communication et du sport",
+    "ordre": 7005
+  }],
   "groupe": {
     "code": "SOC",
     "libelle": "Groupe Socialiste, Écologiste et Républicain",
@@ -22520,5 +22483,44 @@
     "code": "80",
     "libelle": "Sans profession declarée",
     "ordre": 80
+  }
+},{
+  "matricule": "11090Q",
+  "nom": "Primas",
+  "prenom": "Sophie",
+  "tri": "PRIMAS_SOPHIE_11090Q",
+  "civilite": "Mme",
+  "feminise": false,
+  "serie": "1",
+  "siege": 0,
+  "url": "/senateur/primas_sophie11090q.html",
+  "urlAvatar": "/senimg/primas_sophie11090q_carre.jpg",
+  "twitter": "sophieprimas",
+  "facebook": "100042666172565",
+  "organismes": [{
+    "code": "COMENQ-NEANT_COMENQ",
+    "type": "TEMPORAIRE",
+    "libelle": "Aucune",
+    "ordre": 25010
+  },{
+    "code": "COMENQ-TIKTO",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête sur l'utilisation du réseau social tiktok, son exploitation des données, sa stratégie d'influence",
+    "ordre": 25999
+  }],
+  "groupe": {
+    "code": "NI",
+    "libelle": "Réunion administrative des Sénateurs ne figurant sur la liste d'aucun groupe",
+    "ordre": 9
+  },
+  "circonscription": {
+    "code": "78",
+    "libelle": "Yvelines",
+    "ordre": 895
+  },
+  "categorieProfessionnelle": {
+    "code": "32",
+    "libelle": "Salaries (Cadres divers)",
+    "ordre": 32
   }
 }]
