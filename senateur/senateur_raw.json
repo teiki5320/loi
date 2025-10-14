@@ -17804,6 +17804,11 @@
     "libelle": "Commission d'enquête sur la pénurie de médicaments et les choix de l'industrie pharmaceutique française",
     "ordre": 25999
   },{
+    "code": "COMEUR-AFEU",
+    "type": "COMMISSION",
+    "libelle": "Commission des affaires européennes",
+    "ordre": 8001
+  },{
     "code": "COMSPE-CINC",
     "type": "TEMPORAIRE",
     "libelle": "Commission spéciale sur la proposition de loi visant à renforcer la prévention et la lutte contre l'intensification et l'extension du risque incendie",
@@ -17814,11 +17819,6 @@
     "libelle": "Délégation sénatoriale à la prospective",
     "ordre": 16006
   },{
-    "code": "ETUDES-907",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Chasse et pêche",
-    "ordre": 50001
-  },{
     "code": "ETUDES-906",
     "type": "ETUDE",
     "libelle": "Groupe d'études Énergie",
@@ -17827,6 +17827,11 @@
     "code": "ETUDES-1006",
     "type": "ETUDE",
     "libelle": "Groupe d'études Francophonie",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-907",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Chasse et pêche",
     "ordre": 50001
   },{
     "code": "ETUDES-919",
@@ -22509,9 +22514,9 @@
     "ordre": 25999
   }],
   "groupe": {
-    "code": "NI",
-    "libelle": "Réunion administrative des Sénateurs ne figurant sur la liste d'aucun groupe",
-    "ordre": 9
+    "code": "UMP",
+    "libelle": "Groupe Les Républicains",
+    "ordre": 1
   },
   "circonscription": {
     "code": "78",
