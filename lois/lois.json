@@ -1,5 +1,85 @@
 [
   {
+    "id": "DLR5L17N52801",
+    "titre": "Rétablissement du délit de séjour irrégulier",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA841075",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-30",
+    "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N52800",
+    "titre": "Plusieurs mesures de justice pour limiter les frais bancaires injustes",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA795778",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-30",
+    "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N52787",
+    "titre": "Rendre systématique l’information du consommateur sur l’origine des denrées alimentaires par le moyen de l’étiquetage",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA794354",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-30",
+    "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N52777",
+    "titre": "Simplification administrative des droits et prestations pour les personnes en situation de handicap",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA840159",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-30",
+    "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N52776",
+    "titre": "Gratuité des parkings d'hôpitaux publics",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA794678",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-30",
+    "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N52719",
+    "titre": "Dénoncer les accords franco-algériens du 27 décembre 1968",
+    "type": "Résolution Article 34-1",
+    "auteur": "PA842001",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-30",
+    "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N51982",
+    "titre": "Plusieurs mesures de justice pour limiter les frais bancaires",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA793174",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-30",
+    "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N51255",
+    "titre": "Proposition de loi visant à protéger l’école de la République et les personnels qui y travaillent",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-234.html",
+    "nor": "",
+    "date": "2025-10-30",
+    "etat": "Discussion en séance publique"
+  },
+  {
     "id": "DLR5L17N51676",
     "titre": "Reconnaissance d'un droit fondamental à l'eau et à l'assainissement de qualité au sein de l'Union européenne",
     "type": "Résolution",
@@ -18,6 +98,26 @@
     "nor": "",
     "date": "2025-10-22",
     "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N52919",
+    "titre": "Motion de censure déposée en application de l'article 49, alinéa 2, de la Constitution par Mme Marine Le Pen, M. Éric Ciotti et 56 de leurs collègues",
+    "type": "Engagement de la responsabilité gouvernementale",
+    "auteur": "",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-16",
+    "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N52918",
+    "titre": "Motion de censure déposée en application de l'article 49, alinéa 2, de la Constitution par Mme Mathilde Panot et 86 de ses collègues",
+    "type": "Engagement de la responsabilité gouvernementale",
+    "auteur": "",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-16",
+    "etat": "Discussion en séance publique"
   },
   {
     "id": "DLR5L17N52820",
@@ -80,6 +180,16 @@
     "etat": "Réunion de commission"
   },
   {
+    "id": "DLR5L17N52040",
+    "titre": "Projet de loi portant transposition des accords nationaux interprofessionnels en faveur de l’emploi des salariés expérimentés et relatif à l’évolution du dialogue social",
+    "type": "Projet de loi ordinaire",
+    "auteur": "PA410",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl24-600.html",
+    "nor": "",
+    "date": "2025-10-15",
+    "etat": "Discussion en séance publique"
+  },
+  {
     "id": "DLR5L17N52000",
     "titre": "Projet de loi autorisant l’approbation de la convention d’entraide judiciaire en matière pénale entre le Gouvernement de la République française et le Gouvernement de la République du Suriname",
     "type": "Projet de ratification des traités et conventions",
@@ -88,6 +198,16 @@
     "nor": "",
     "date": "2025-10-15",
     "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N51852",
+    "titre": "Simplification du droit de l'urbanisme et du logement",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA841017",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-632.html",
+    "nor": "",
+    "date": "2025-10-15",
+    "etat": "Discussion en séance publique"
   },
   {
     "id": "DLR5L17N51519",
@@ -110,6 +230,586 @@
     "etat": "Réunion de commission"
   },
   {
+    "id": "DLR5L16N50115",
+    "titre": "Projet de loi autorisant la ratification de la convention n°155  sur la sécurité et la santé des travailleurs, 1981",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA722190",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl23-688.html",
+    "nor": "",
+    "date": "2025-10-15",
+    "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N52977",
+    "titre": "Nationalisation d'ArcelorMittal France",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA795164",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52976",
+    "titre": "L'établissement de l’égalité d’accès au service public postal en outre-mer",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA721062",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52975",
+    "titre": "Soutenir et valoriser les commerces de proximité",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA840765",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52974",
+    "titre": "Réformer les bourses sur critères sociaux et lutter contre la précarité étudiante",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA720838",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52973",
+    "titre": "Interdire l’importation en France de produits agricoles et denrées alimentaires contenant de l’acétamipride et à abroger la loi visant à lever les contraintes à l’exercice du métier d’agriculteur",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA719578",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52972",
+    "titre": "Garantir la gratuité totale des parkings des établissements publics de santé",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA841023",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52971",
+    "titre": "Défiscaliser les pensions alimentaires perçues",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA791812",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52970",
+    "titre": "Défiscaliser les pensions alimentaires perçues et lutter contre la précarité des familles monoparentales",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA791812",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52969",
+    "titre": "Interdire le recours abusif des grandes entreprises aux aides publiques",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA794686",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52968",
+    "titre": "Mise à disposition gratuite de salles municipales adaptables et présence d’un agent de l’Etat dans le cadre de funérailles laïques et républicaines",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA793772",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52967",
+    "titre": "Supprimer la mention du sexe sur les cartes nationales d’identité",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA795136",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52966",
+    "titre": "Exonérer les apprentis de la CSG-CRDS",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA794686",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52965",
+    "titre": "Reconnaître les victimes de l'exposition aux essais nucléaires français, à améliorer leur indemnisation et à commémorer leur souvenir",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA795240",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52964",
+    "titre": "Faciliter la création et la mobilisation de logements destinés aux travailleurs saisonniers dans les zones présentant une carence avérée",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA841047",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52963",
+    "titre": "Reconnaissance et prévention de la maltraitance inconsciente des enfants liée à l’exposition excessive aux écrans, à la mauvaise alimentation et à la sédentarité",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA794058",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52962",
+    "titre": "Protéger les travailleuses et travailleurs de la mer à terre en reconnaissant la pénibilité de leur activité et en encourageant la transmission de leur savoir-faire",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA841419",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52961",
+    "titre": "Transformer le statut des établissements thermaux en établissements sanitaires de prévention de la perte d’autonomie",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA794058",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52960",
+    "titre": "Soutenir les familles de la classe moyenne",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA841359",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52959",
+    "titre": "Rétablir la justice fiscale pour les travailleurs de la classe moyenne",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA841359",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52958",
+    "titre": "Moderniser et simplifier la protection juridique des majeurs",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA722102",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52957",
+    "titre": "Autoriser la procréation médicalement assistée de volonté survivante",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA793394",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52956",
+    "titre": "Interdire l'importation des produits issus des colonies israéliennes installées dans le Territoire palestinien occupé",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA796090",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52955",
+    "titre": "Adapter la législation relative à l’affichage électoral aux réalités de terrain",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA267200",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52954",
+    "titre": "Préciser les activités réalisées par les bénéficiaires du revenu de solidarité active",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA718884",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52953",
+    "titre": "Renforcer la lutte contre la fraude aux faux relevés d’identités bancaires",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA795998",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52952",
+    "titre": "Promouvoir l’emploi et le retour des fonctionnaires d’État ultramarins dans les territoires d’Outre-mer",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA795998",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52951",
+    "titre": "Plafonner la revalorisation de la variation annuelle de l’indice des loyers commerciaux",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA794486",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52950",
+    "titre": "Prévenir la concentration des médias, protéger leur liberté éditoriale et renforcer le pluralisme",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA840171",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52949",
+    "titre": "Rendre obligatoire le casier vierge pour les candidats à une élection municipale",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA840171",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52948",
+    "titre": "Création d'un statut des accompagnants et accompagnantes d'élèves en situation de handicap",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA720838",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52947",
+    "titre": "Instituer une révision triennale de la carte scolaire",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA841769",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52946",
+    "titre": "Renforcer les droits des bailleurs commerciaux lors des procédures collectives",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA793322",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52945",
+    "titre": "Adapter le système de cotisations sociales à l’ère de l’automatisation du travail",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA793322",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52944",
+    "titre": "Renforcer la protection des mineurs dans le cadre scolaire",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA793322",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52943",
+    "titre": "Permettre que les amendes non recouvrées puissent être saisies sur le revenu de solidarité active, l’allocation de solidarité spécifique ou les prestations familiales",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA720386",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52942",
+    "titre": "Créer un statut d’hygiéniste dentaire",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA720386",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52941",
+    "titre": "Pour un service public de gestion des déchets durable et socialement juste",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA793708",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52940",
+    "titre": "Empêcher la constitution de monopoles économiques dans les secteurs des médias et de l'édition",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA736201",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52939",
+    "titre": "Protéger la liberté éditoriale des médias sollicitant des aides de l'État",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA736201",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52938",
+    "titre": "Limiter la vacance des locaux commerciaux",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA794486",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52937",
+    "titre": "Assurer une continuité pédagogique pour tous les enfants scolarisés",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA795466",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52936",
+    "titre": "Simplifier l’ouverture d’un compte de campagne pour garantir l’éligibilité de tous les candidats",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA794870",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52935",
+    "titre": "Garantir la liberté d’informer dans les opérations du maintien de l’ordre",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA736201",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52934",
+    "titre": "Renforcer la prévention des risques liés à la surexposition aux écrans",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA794658",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52933",
+    "titre": "Pour diagnostiquer et soigner plus tôt et plus vite les troubles psychiatriques",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA794658",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52932",
+    "titre": "Pour une reconnaissance stratégique et un développement simplifié de l’œnotourisme",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA331973",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52931",
+    "titre": "Exonérer de taxe d’habitation les locaux destinés à l’habitat inclusif",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA840979",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52930",
+    "titre": "Abroger le délit d'association de malfaiteurs",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA793122",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52929",
+    "titre": "Lutter contre les violences faites aux enfants dits « intersexes »",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA794138",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52928",
+    "titre": "Droit de visite des parlementaires et des bâtonniers dans les lieux de privation de liberté",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA610968",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52927",
+    "titre": "Âge de la conduite supervisée à dix-sept ans",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA718850",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52926",
+    "titre": "Faciliter la transmission de l’épargne aux jeunes générations",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA718850",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52925",
+    "titre": "Créer une fondation nationale pour la mémoire des Harkis",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA794770",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52924",
+    "titre": "Mettre en place un programme de soutien à l’innovation thérapeutique contre les cancers, les maladies rares et les maladies orphelines de l’enfant",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA341981",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52923",
+    "titre": "Inscrire l’écoute des travailleurs comme premier principe général de prévention de la santé au travail",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA841681",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52922",
+    "titre": "Projet de loi de financement de la sécurité sociale pour 2026",
+    "type": "Projet de loi de financement de la sécurité sociale",
+    "auteur": "PA643210",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Saisine pour avis d'une commission"
+  },
+  {
+    "id": "DLR5L17N52428",
+    "titre": "Projet de loi de finances pour 2026",
+    "type": "Projet de loi de finances de l'année",
+    "auteur": "PA643210",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
     "id": "DLR5L17N52921",
     "titre": "Instaurer le scrutin proportionnel pour les élections législatives",
     "type": "Projet ou proposition de loi organique",
@@ -128,26 +828,6 @@
     "nor": "",
     "date": "2025-10-13",
     "etat": "1er dépôt d'une initiative."
-  },
-  {
-    "id": "DLR5L17N52919",
-    "titre": "Motion de censure déposée en application de l'article 49, alinéa 2, de la Constitution par Mme Marine Le Pen, M. Éric Ciotti et 56 de leurs collègues",
-    "type": "Engagement de la responsabilité gouvernementale",
-    "auteur": "",
-    "url": "",
-    "nor": "",
-    "date": "2025-10-13",
-    "etat": "Motion de censure"
-  },
-  {
-    "id": "DLR5L17N52918",
-    "titre": "Motion de censure déposée en application de l'article 49, alinéa 2, de la Constitution par Mme Mathilde Panot et 86 de ses collègues",
-    "type": "Engagement de la responsabilité gouvernementale",
-    "auteur": "",
-    "url": "",
-    "nor": "",
-    "date": "2025-10-13",
-    "etat": "Motion de censure"
   },
   {
     "id": "DLR5L17N52917",
@@ -240,16 +920,6 @@
     "etat": "Dépôt de rapport"
   },
   {
-    "id": "DLR5L17N52787",
-    "titre": "Rendre systématique l’information du consommateur sur l’origine des denrées alimentaires par le moyen de l’étiquetage",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA794354",
-    "url": "",
-    "nor": "",
-    "date": "2025-10-08",
-    "etat": "Réunion de commission"
-  },
-  {
     "id": "DLR5L17N52900",
     "titre": "Proposition de loi relative à la sécurisation des marchés publics numériques",
     "type": "Proposition de loi ordinaire",
@@ -258,16 +928,6 @@
     "nor": "",
     "date": "2025-10-07",
     "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N52801",
-    "titre": "Rétablissement du délit de séjour irrégulier",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA841075",
-    "url": "",
-    "nor": "",
-    "date": "2025-10-07",
-    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L17N52888",
@@ -880,16 +1540,6 @@
     "etat": "Renvoi en commission au fond"
   },
   {
-    "id": "DLR5L17N52800",
-    "titre": "Plusieurs mesures de justice pour limiter les frais bancaires injustes",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA795778",
-    "url": "",
-    "nor": "",
-    "date": "2025-09-16",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
     "id": "DLR5L17N52799",
     "titre": "Étendre le champ du délit d'abus de faiblesse aux pratiques des plateformes numériques",
     "type": "Proposition de loi ordinaire",
@@ -1074,26 +1724,6 @@
     "titre": "Ajouter le prénom à la liste des critères légaux de discrimination",
     "type": "Proposition de loi ordinaire",
     "auteur": "PA722142",
-    "url": "",
-    "nor": "",
-    "date": "2025-09-16",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N52777",
-    "titre": "Simplification administrative des droits et prestations pour les personnes en situation de handicap",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA840159",
-    "url": "",
-    "nor": "",
-    "date": "2025-09-16",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N52776",
-    "titre": "Gratuité des parkings d'hôpitaux publics",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA794678",
     "url": "",
     "nor": "",
     "date": "2025-09-16",
@@ -1608,16 +2238,6 @@
     "nor": "",
     "date": "2025-09-09",
     "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N52719",
-    "titre": "Dénoncer les accords franco-algériens du 27 décembre 1968",
-    "type": "Résolution Article 34-1",
-    "auteur": "PA842001",
-    "url": "",
-    "nor": "",
-    "date": "2025-09-09",
-    "etat": "1er dépôt d'une initiative."
   },
   {
     "id": "DLR5L17N52718",
@@ -2820,16 +3440,6 @@
     "etat": "Dépôt de rapport"
   },
   {
-    "id": "DLR5L17N52040",
-    "titre": "Projet de loi portant transposition des accords nationaux interprofessionnels en faveur de l’emploi des salariés expérimentés et relatif à l’évolution du dialogue social",
-    "type": "Projet de loi ordinaire",
-    "auteur": "PA410",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl24-600.html",
-    "nor": "",
-    "date": "2025-07-10",
-    "etat": "Décision"
-  },
-  {
     "id": "DLR5L17N51910",
     "titre": "Commission d’enquête visant à établir les freins à la réindustrialisation de la France",
     "type": "Commission d'enquête",
@@ -3088,16 +3698,6 @@
     "nor": "",
     "date": "2025-07-07",
     "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N51852",
-    "titre": "Simplification du droit de l'urbanisme et du logement",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA841017",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-632.html",
-    "nor": "",
-    "date": "2025-07-07",
-    "etat": "Décision de la CMP"
   },
   {
     "id": "DLR5L17N51787",
@@ -4890,16 +5490,6 @@
     "etat": "Décision"
   },
   {
-    "id": "DLR5L17N51982",
-    "titre": "Plusieurs mesures de justice pour limiter les frais bancaires",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA793174",
-    "url": "",
-    "nor": "",
-    "date": "2025-06-05",
-    "etat": "Discussion en séance publique"
-  },
-  {
     "id": "DLR5L17N51979",
     "titre": "Accorder le versement des allocations familiales dès le premier enfant",
     "type": "Proposition de loi ordinaire",
@@ -6608,16 +7198,6 @@
     "nor": "",
     "date": "2025-04-30",
     "etat": "Promulgation d'une loi"
-  },
-  {
-    "id": "DLR5L16N50115",
-    "titre": "Projet de loi autorisant la ratification de la convention n°155  sur la sécurité et la santé des travailleurs, 1981",
-    "type": "Projet de ratification des traités et conventions",
-    "auteur": "PA722190",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl23-688.html",
-    "nor": "",
-    "date": "2025-04-30",
-    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L17N52010",
@@ -9625,16 +10205,6 @@
     "type": "Proposition de loi ordinaire",
     "auteur": "PO78718",
     "url": "http://www.senat.fr/dossier-legislatif/ppl23-782.html",
-    "nor": "",
-    "date": "2025-03-06",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N51255",
-    "titre": "Proposition de loi visant à protéger l’école de la République et les personnels qui y travaillent",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-234.html",
     "nor": "",
     "date": "2025-03-06",
     "etat": "Renvoi en commission au fond"
@@ -19288,15 +19858,5 @@
     "nor": "",
     "date": "2024-06-19",
     "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N52428",
-    "titre": "Projet de loi de finances pour 2026",
-    "type": "Projet de loi de finances de l'année",
-    "auteur": "",
-    "url": "",
-    "nor": "",
-    "date": "",
-    "etat": ""
   }
 ]
