@@ -8359,6 +8359,45 @@
     "ordre": 10
   }
 },{
+  "matricule": "11090Q",
+  "nom": "Primas",
+  "prenom": "Sophie",
+  "tri": "PRIMAS_SOPHIE_11090Q",
+  "civilite": "Mme",
+  "feminise": false,
+  "serie": "1",
+  "siege": 131,
+  "url": "/senateur/primas_sophie11090q.html",
+  "urlAvatar": "/senimg/primas_sophie11090q_carre.jpg",
+  "twitter": "sophieprimas",
+  "facebook": "100042666172565",
+  "organismes": [{
+    "code": "COMENQ-NEANT_COMENQ",
+    "type": "TEMPORAIRE",
+    "libelle": "Aucune",
+    "ordre": 25010
+  },{
+    "code": "COMENQ-TIKTO",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête sur l'utilisation du réseau social tiktok, son exploitation des données, sa stratégie d'influence",
+    "ordre": 25999
+  }],
+  "groupe": {
+    "code": "UMP",
+    "libelle": "Groupe Les Républicains",
+    "ordre": 1
+  },
+  "circonscription": {
+    "code": "78",
+    "libelle": "Yvelines",
+    "ordre": 895
+  },
+  "categorieProfessionnelle": {
+    "code": "32",
+    "libelle": "Salaries (Cadres divers)",
+    "ordre": 32
+  }
+},{
   "matricule": "20022R",
   "nom": "Bellurot",
   "prenom": "Nadine",
@@ -9374,6 +9413,38 @@
     "code": "71",
     "libelle": "Fonctionnaires (Hauts Fonctionnaires)",
     "ordre": 71
+  }
+},{
+  "matricule": "21512K",
+  "nom": "Matray",
+  "prenom": "Paulette",
+  "tri": "MATRAY PAULETTE",
+  "civilite": "Mme",
+  "feminise": true,
+  "serie": "2",
+  "siege": 148,
+  "url": "/senateur/matray_paulette21512k.html",
+  "urlAvatar": "/senimg/matray_paulette21512k_carre.jpg",
+  "organismes": [{
+    "code": "COM-AFCL",
+    "type": "COMMISSION",
+    "libelle": "Commission de la culture, de l'éducation, de la communication et du sport",
+    "ordre": 7005
+  }],
+  "groupe": {
+    "code": "SOC",
+    "libelle": "Groupe Socialiste, Écologiste et Républicain",
+    "ordre": 2
+  },
+  "circonscription": {
+    "code": "71",
+    "libelle": "Saône-et-Loire",
+    "ordre": 710
+  },
+  "categorieProfessionnelle": {
+    "code": "80",
+    "libelle": "Sans profession declarée",
+    "ordre": 80
   }
 },{
   "matricule": "21051B",
@@ -22456,76 +22527,5 @@
     "code": "80",
     "libelle": "Sans profession declarée",
     "ordre": 80
-  }
-},{
-  "matricule": "21512K",
-  "nom": "Matray",
-  "prenom": "Paulette",
-  "tri": "MATRAY PAULETTE",
-  "civilite": "Mme",
-  "feminise": true,
-  "serie": "2",
-  "siege": 0,
-  "url": "/senateur/matray_paulette21512k.html",
-  "urlAvatar": "/senimg/matray_paulette21512k_carre.jpg",
-  "organismes": [{
-    "code": "COM-AFCL",
-    "type": "COMMISSION",
-    "libelle": "Commission de la culture, de l'éducation, de la communication et du sport",
-    "ordre": 7005
-  }],
-  "groupe": {
-    "code": "SOC",
-    "libelle": "Groupe Socialiste, Écologiste et Républicain",
-    "ordre": 2
-  },
-  "circonscription": {
-    "code": "71",
-    "libelle": "Saône-et-Loire",
-    "ordre": 710
-  },
-  "categorieProfessionnelle": {
-    "code": "80",
-    "libelle": "Sans profession declarée",
-    "ordre": 80
-  }
-},{
-  "matricule": "11090Q",
-  "nom": "Primas",
-  "prenom": "Sophie",
-  "tri": "PRIMAS_SOPHIE_11090Q",
-  "civilite": "Mme",
-  "feminise": false,
-  "serie": "1",
-  "siege": 0,
-  "url": "/senateur/primas_sophie11090q.html",
-  "urlAvatar": "/senimg/primas_sophie11090q_carre.jpg",
-  "twitter": "sophieprimas",
-  "facebook": "100042666172565",
-  "organismes": [{
-    "code": "COMENQ-NEANT_COMENQ",
-    "type": "TEMPORAIRE",
-    "libelle": "Aucune",
-    "ordre": 25010
-  },{
-    "code": "COMENQ-TIKTO",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission d'enquête sur l'utilisation du réseau social tiktok, son exploitation des données, sa stratégie d'influence",
-    "ordre": 25999
-  }],
-  "groupe": {
-    "code": "UMP",
-    "libelle": "Groupe Les Républicains",
-    "ordre": 1
-  },
-  "circonscription": {
-    "code": "78",
-    "libelle": "Yvelines",
-    "ordre": 895
-  },
-  "categorieProfessionnelle": {
-    "code": "32",
-    "libelle": "Salaries (Cadres divers)",
-    "ordre": 32
   }
 }]
