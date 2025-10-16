@@ -1,5 +1,15 @@
 [
   {
+    "id": "DLR5L17N52428",
+    "titre": "Projet de loi de finances pour 2026",
+    "type": "Projet de loi de finances de l'année",
+    "auteur": "PA643210",
+    "url": "",
+    "nor": "",
+    "date": "2025-11-03",
+    "etat": "Réunion de commission"
+  },
+  {
     "id": "DLR5L17N52801",
     "titre": "Rétablissement du délit de séjour irrégulier",
     "type": "Proposition de loi ordinaire",
@@ -27,7 +37,7 @@
     "url": "",
     "nor": "",
     "date": "2025-10-30",
-    "etat": "Discussion en séance publique"
+    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L17N52777",
@@ -80,6 +90,16 @@
     "etat": "Discussion en séance publique"
   },
   {
+    "id": "DLR5L17N52922",
+    "titre": "Projet de loi de financement de la sécurité sociale pour 2026",
+    "type": "Projet de loi de financement de la sécurité sociale",
+    "auteur": "PA643210",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-29",
+    "etat": "Réunion de commission"
+  },
+  {
     "id": "DLR5L17N51676",
     "titre": "Reconnaissance d'un droit fondamental à l'eau et à l'assainissement de qualité au sein de l'Union européenne",
     "type": "Résolution",
@@ -87,6 +107,16 @@
     "url": "",
     "nor": "",
     "date": "2025-10-29",
+    "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N52100",
+    "titre": "Projet de loi relatif à l’organisation des jeux Olympiques et Paralympiques de 2030",
+    "type": "Projet de loi ordinaire",
+    "auteur": "PA410",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl24-630.html",
+    "nor": "",
+    "date": "2025-10-22",
     "etat": "Réunion de commission"
   },
   {
@@ -118,6 +148,56 @@
     "nor": "",
     "date": "2025-10-16",
     "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N52983",
+    "titre": "Le déplacement d’une délégation de la commission des affaires étrangères au Maroc, du 11 au 14 juin 2025",
+    "type": "Rapport d'information sans mission",
+    "auteur": "",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-15",
+    "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N52982",
+    "titre": "Bilan de la réforme de la police nationale",
+    "type": "Rapport d'information sans mission",
+    "auteur": "",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-15",
+    "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N52981",
+    "titre": "L’avenir de la gouvernance de la pêche française au service d’une gestion partagée de la ressource halieutique",
+    "type": "Rapport d'information sans mission",
+    "auteur": "",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-15",
+    "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N52980",
+    "titre": "Les implications juridiques et budgétaires des accords bilatéraux conclus en matière de circulation, de séjour, de santé et d’emploi : l’exemple de l’Algérie",
+    "type": "Rapport d'information sans mission",
+    "auteur": "",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-15",
+    "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N52832",
+    "titre": "La neutralité, le fonctionnement et le financement de l’audiovisuel public",
+    "type": "Résolution",
+    "auteur": "PA330240",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-15",
+    "etat": "Nomination de rapporteur"
   },
   {
     "id": "DLR5L17N52820",
@@ -187,7 +267,7 @@
     "url": "http://www.senat.fr/dossier-legislatif/pjl24-600.html",
     "nor": "",
     "date": "2025-10-15",
-    "etat": "Discussion en séance publique"
+    "etat": "Décision"
   },
   {
     "id": "DLR5L17N52000",
@@ -207,7 +287,7 @@
     "url": "http://www.senat.fr/dossier-legislatif/ppl24-632.html",
     "nor": "",
     "date": "2025-10-15",
-    "etat": "Discussion en séance publique"
+    "etat": "Décision"
   },
   {
     "id": "DLR5L17N51519",
@@ -237,7 +317,7 @@
     "url": "http://www.senat.fr/dossier-legislatif/pjl23-688.html",
     "nor": "",
     "date": "2025-10-15",
-    "etat": "Discussion en séance publique"
+    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L17N52977",
@@ -790,23 +870,23 @@
     "etat": "Renvoi en commission au fond"
   },
   {
-    "id": "DLR5L17N52922",
-    "titre": "Projet de loi de financement de la sécurité sociale pour 2026",
-    "type": "Projet de loi de financement de la sécurité sociale",
-    "auteur": "PA643210",
-    "url": "",
+    "id": "DLR5L17N52655",
+    "titre": "Proposition de loi organique visant à reporter le renouvellement général des membres du congrès et des assemblées de province de la Nouvelle-Calédonie pour permettre la mise en oeuvre de l'accord du 12 juillet 2025",
+    "type": "Projet ou proposition de loi organique",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-876.html",
     "nor": "",
     "date": "2025-10-14",
-    "etat": "Saisine pour avis d'une commission"
+    "etat": "Dépôt de rapport"
   },
   {
-    "id": "DLR5L17N52428",
-    "titre": "Projet de loi de finances pour 2026",
-    "type": "Projet de loi de finances de l'année",
-    "auteur": "PA643210",
-    "url": "",
+    "id": "DLR5L17N52978",
+    "titre": "Proposition de loi visant à autoriser l'Agence nationale de santé publique à céder gratuitement aux hôpitaux les masques arrivant à péremption",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-017.html",
     "nor": "",
-    "date": "2025-10-14",
+    "date": "2025-10-13",
     "etat": "Renvoi en commission au fond"
   },
   {
@@ -858,6 +938,26 @@
     "nor": "",
     "date": "2025-10-10",
     "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N52905",
+    "titre": "Mission flash sur le discernement",
+    "type": "Mission d'information",
+    "auteur": "PO873556",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-10",
+    "etat": "Création d'une mission d'information"
+  },
+  {
+    "id": "DLR5L17N52904",
+    "titre": "Mission d'information sur l'imprescriptibilité des violences commises sur des mineurs",
+    "type": "Mission d'information",
+    "auteur": "PO873523",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-10",
+    "etat": "Création d'une mission d'information"
   },
   {
     "id": "DLR5L17N52902",
@@ -1300,16 +1400,6 @@
     "etat": "Renvoi en commission au fond"
   },
   {
-    "id": "DLR5L17N52832",
-    "titre": "La neutralité, le fonctionnement et le financement de l’audiovisuel public",
-    "type": "Résolution",
-    "auteur": "PA330240",
-    "url": "",
-    "nor": "",
-    "date": "2025-09-26",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
     "id": "DLR5L17N52831",
     "titre": "Instaurer la gratuité des transports en commun et permettre aux communautés urbaines de répondre aux défis environnementaux et sociaux",
     "type": "Résolution Article 34-1",
@@ -1398,16 +1488,6 @@
     "nor": "",
     "date": "2025-09-24",
     "etat": "Retrait d'une initiative"
-  },
-  {
-    "id": "DLR5L17N52100",
-    "titre": "Projet de loi relatif à l’organisation des jeux Olympiques et Paralympiques de 2030",
-    "type": "Projet de loi ordinaire",
-    "auteur": "PA410",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl24-630.html",
-    "nor": "",
-    "date": "2025-09-24",
-    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L17N52833",
@@ -2437,16 +2517,6 @@
     "url": "http://www.senat.fr/dossier-legislatif/ppl24-877.html",
     "nor": "",
     "date": "2025-08-19",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N52655",
-    "titre": "Proposition de loi organique visant à reporter le renouvellement général des membres du congrès et des assemblées de province de la Nouvelle-Calédonie pour permettre la mise en oeuvre de l'accord du 12 juillet 2025",
-    "type": "Projet ou proposition de loi organique",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-876.html",
-    "nor": "",
-    "date": "2025-08-13",
     "etat": "Renvoi en commission au fond"
   },
   {
