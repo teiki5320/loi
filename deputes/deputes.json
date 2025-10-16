@@ -3830,6 +3830,16 @@
     "groupeLibelle": "Ensemble pour la République"
   },
   {
+    "id": "PA795402",
+    "nom": "Nathalie Coggia",
+    "email": "nathalie.coggia@assemblee-nationale.fr",
+    "circo": "5",
+    "dept": "Français établis hors de France",
+    "groupe": "PO845407",
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
+  },
+  {
     "id": "PA795410",
     "nom": "Béatrice Roullaud",
     "email": "beatrice.roullaud@assemblee-nationale.fr",
@@ -5488,6 +5498,16 @@
     "groupe": "PO845401",
     "groupeSigle": "RN",
     "groupeLibelle": "Rassemblement National"
+  },
+  {
+    "id": "PA841973",
+    "nom": "Pierre-Henri Carbonnel",
+    "email": "pierre-henri.carbonnel@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Tarn-et-Garonne",
+    "groupe": "PO872880",
+    "groupeSigle": "UDR",
+    "groupeLibelle": "Union des droites pour la République"
   },
   {
     "id": "PA841981",
