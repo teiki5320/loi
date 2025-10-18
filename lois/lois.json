@@ -180,6 +180,16 @@
     "etat": "Réunion de commission"
   },
   {
+    "id": "DLR5L17N52655",
+    "titre": "Proposition de loi organique visant à reporter le renouvellement général des membres du congrès et des assemblées de province de la Nouvelle-Calédonie pour permettre la mise en oeuvre de l'accord du 12 juillet 2025",
+    "type": "Projet ou proposition de loi organique",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-876.html",
+    "nor": "",
+    "date": "2025-10-22",
+    "etat": "Réunion de commission"
+  },
+  {
     "id": "DLR5L17N52100",
     "titre": "Projet de loi relatif à l’organisation des jeux Olympiques et Paralympiques de 2030",
     "type": "Projet de loi ordinaire",
@@ -200,14 +210,44 @@
     "etat": "Réunion de commission"
   },
   {
-    "id": "DLR5L17N52655",
-    "titre": "Proposition de loi organique visant à reporter le renouvellement général des membres du congrès et des assemblées de province de la Nouvelle-Calédonie pour permettre la mise en oeuvre de l'accord du 12 juillet 2025",
-    "type": "Projet ou proposition de loi organique",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-876.html",
+    "id": "DLR5L17N53003",
+    "titre": "Renforcer la sécurité des utilisateurs d’engin de déplacement personnel motorisé",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA719890",
+    "url": "",
     "nor": "",
-    "date": "2025-10-20",
-    "etat": "Réunion de commission"
+    "date": "2025-10-17",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53002",
+    "titre": "Interdire l'euthanasie des animaux saisis dans le cadre d'une procédure judiciaire, sauf impératif vétérinaire",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA712014",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-17",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53001",
+    "titre": "Instaurer un registre national des euthanasies animales afin de renforcer la transparence et le suivi public",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA712014",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-17",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53000",
+    "titre": "Renforcer l'attractivité et la sécurité juridique du viager immobilier",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA712014",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-17",
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N52997",
@@ -370,16 +410,6 @@
     "etat": "Dépôt de rapport"
   },
   {
-    "id": "DLR5L17N52099",
-    "titre": "Approbation de la résolution n° F/BG/2023/04 relative aux amendements à l’accord portant création du Fonds africain de développement",
-    "type": "Projet de ratification des traités et conventions",
-    "auteur": "PA410",
-    "url": "",
-    "nor": "",
-    "date": "2025-10-15",
-    "etat": "Réunion de commission"
-  },
-  {
     "id": "DLR5L17N52040",
     "titre": "Projet de loi portant transposition des accords nationaux interprofessionnels en faveur de l’emploi des salariés expérimentés et relatif à l’évolution du dialogue social",
     "type": "Projet de loi ordinaire",
@@ -448,6 +478,26 @@
     "nor": "",
     "date": "2025-10-15",
     "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N52999",
+    "titre": "Proposition de loi relative à la lutte contre l'obésité par la réduction des sucres ajoutés dans l'alimentation",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-019.html",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52998",
+    "titre": "Projet de loi ratifiant l’ordonnance n° 2025-646 du 16 juillet 2025 portant extension et adaptation des dispositions de la loi n° 2024-42 du 26 janvier 2024 pour contrôler l’immigration, améliorer l’intégration à Saint-Barthélemy, à Saint-Martin, dans les îles Wallis et Futuna, en Polynésie française, en Nouvelle-Calédonie et dans les Terres australes et antarctiques françaises",
+    "type": "Projet de loi ordinaire",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl25-022.html",
+    "nor": "",
+    "date": "2025-10-14",
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N52985",
@@ -1618,6 +1668,16 @@
     "nor": "",
     "date": "2025-09-24",
     "etat": "Retrait d'une initiative"
+  },
+  {
+    "id": "DLR5L17N51897",
+    "titre": "Mission flash sur les transfèrements et extractions",
+    "type": "Mission d'information",
+    "auteur": "PO868345",
+    "url": "",
+    "nor": "",
+    "date": "2025-09-24",
+    "etat": "Nomination de rapporteur"
   },
   {
     "id": "DLR5L17N52833",
@@ -4368,6 +4428,16 @@
     "nor": "",
     "date": "2025-06-25",
     "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52099",
+    "titre": "Approbation de la résolution n° F/BG/2023/04 relative aux amendements à l’accord portant création du Fonds africain de développement",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA410",
+    "url": "",
+    "nor": "",
+    "date": "2025-06-25",
+    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L17N52083",
