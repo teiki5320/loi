@@ -210,6 +210,36 @@
     "etat": "Réunion de commission"
   },
   {
+    "id": "DLR5L17N53005",
+    "titre": "Le traitement judiciaire des violences sexuelles incestueuses parentales commises contre les enfants et la situation des parents protecteurs, notamment des mères protectrices",
+    "type": "Résolution",
+    "auteur": "PA643143",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-20",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52379",
+    "titre": "Proposition de loi visant à permettre à une commune d'être intégrée, pour une partie de son territoire, à un parc naturel national (PNN) et, pour une autre partie, à un parc naturel régional (PNR)",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-747.html",
+    "nor": "",
+    "date": "2025-10-20",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N51477",
+    "titre": "Proposition de loi constitutionnelle visant à garantir la prééminence des lois de la République",
+    "type": "Projet ou proposition de loi constitutionnelle",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-317.html",
+    "nor": "",
+    "date": "2025-10-20",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
     "id": "DLR5L17N53003",
     "titre": "Renforcer la sécurité des utilisateurs d’engin de déplacement personnel motorisé",
     "type": "Proposition de loi ordinaire",
@@ -400,16 +430,6 @@
     "etat": "Réunion de commission"
   },
   {
-    "id": "DLR5L17N52379",
-    "titre": "Proposition de loi visant à permettre à une commune d'être intégrée, pour une partie de son territoire, à un parc naturel national (PNN) et, pour une autre partie, à un parc naturel régional (PNR)",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-747.html",
-    "nor": "",
-    "date": "2025-10-15",
-    "etat": "Dépôt de rapport"
-  },
-  {
     "id": "DLR5L17N52040",
     "titre": "Projet de loi portant transposition des accords nationaux interprofessionnels en faveur de l’emploi des salariés expérimentés et relatif à l’évolution du dialogue social",
     "type": "Projet de loi ordinaire",
@@ -445,16 +465,6 @@
     "type": "Proposition de loi ordinaire",
     "auteur": "PO78718",
     "url": "http://www.senat.fr/dossier-legislatif/ppl24-349.html",
-    "nor": "",
-    "date": "2025-10-15",
-    "etat": "Dépôt de rapport"
-  },
-  {
-    "id": "DLR5L17N51477",
-    "titre": "Proposition de loi constitutionnelle visant à garantir la prééminence des lois de la République",
-    "type": "Projet ou proposition de loi constitutionnelle",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-317.html",
     "nor": "",
     "date": "2025-10-15",
     "etat": "Dépôt de rapport"
