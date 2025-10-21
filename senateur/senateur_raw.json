@@ -11361,6 +11361,11 @@
     "libelle": "Délégation sénatoriale à la prospective",
     "ordre": 16006
   },{
+    "code": "DELEGA-COLTER",
+    "type": "DELEGATION/OFFICE",
+    "libelle": "Délégation sénatoriale aux collectivités territoriales et à la décentralisation",
+    "ordre": 16002
+  },{
     "code": "ETUDES-909",
     "type": "ETUDE",
     "libelle": "Groupe d'études Vigne et vin",
@@ -12522,9 +12527,14 @@
     "libelle": "Commission des affaires sociales",
     "ordre": 7003
   },{
-    "code": "ETUDES-919",
+    "code": "DELEGA-COLTER",
+    "type": "DELEGATION/OFFICE",
+    "libelle": "Délégation sénatoriale aux collectivités territoriales et à la décentralisation",
+    "ordre": 16002
+  },{
+    "code": "ETUDES-909",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "libelle": "Groupe d'études Vigne et vin",
     "ordre": 50001
   },{
     "code": "ETUDES-907",
@@ -12532,14 +12542,14 @@
     "libelle": "Groupe d'études Chasse et pêche",
     "ordre": 50001
   },{
-    "code": "ETUDES-909",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Vigne et vin",
-    "ordre": 50001
-  },{
     "code": "ETUDES-1014",
     "type": "ETUDE",
     "libelle": "Groupe d'études Handicap",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   },{
     "code": "ETUDES-928",
@@ -19728,55 +19738,6 @@
     "code": "10",
     "libelle": "Professions agricoles",
     "ordre": 10
-  }
-},{
-  "matricule": "14105F",
-  "nom": "Bouchet",
-  "prenom": "Gilbert",
-  "tri": "BOUCHET_GILBERT",
-  "civilite": "M.",
-  "feminise": false,
-  "serie": "2",
-  "siege": 333,
-  "url": "/senateur/bouchet_gilbert14105f.html",
-  "urlAvatar": "/senimg/bouchet_gilbert14105f_carre.jpg",
-  "twitter": "BouchetGilbert",
-  "facebook": "100057903857811",
-  "organismes": [{
-    "code": "COM-ETRD",
-    "type": "COMMISSION",
-    "libelle": "Commission des affaires étrangères, de la défense et des forces armées",
-    "ordre": 7002
-  },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-934",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-909",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Vigne et vin",
-    "ordre": 50001
-  }],
-  "groupe": {
-    "code": "UMP",
-    "libelle": "Groupe Les Républicains",
-    "ordre": 1
-  },
-  "circonscription": {
-    "code": "26",
-    "libelle": "Drôme",
-    "ordre": 260
-  },
-  "categorieProfessionnelle": {
-    "code": "29",
-    "libelle": "Commerce et industrie (Retraités)",
-    "ordre": 29
   }
 },{
   "matricule": "21036C",
