@@ -7666,6 +7666,11 @@
     "type": "TEMPORAIRE",
     "libelle": "Commission d'enquête sur l'utilisation du réseau social tiktok, son exploitation des données, sa stratégie d'influence",
     "ordre": 25999
+  },{
+    "code": "DELEGA-PROS",
+    "type": "DELEGATION/OFFICE",
+    "libelle": "Délégation sénatoriale à la prospective",
+    "ordre": 16006
   }],
   "groupe": {
     "code": "UMP",
@@ -20613,6 +20618,33 @@
     "code": "73",
     "libelle": "Savoie",
     "ordre": 730
+  },
+  "categorieProfessionnelle": {
+    "code": "80",
+    "libelle": "Sans profession declarée",
+    "ordre": 80
+  }
+},{
+  "matricule": "21534R",
+  "nom": "Mouton",
+  "prenom": "Marie-Pierre",
+  "tri": "MOUTON MARIE_PIERRE",
+  "civilite": "Mme",
+  "feminise": true,
+  "serie": "2",
+  "siege": 0,
+  "url": "/senateur/mouton_marie_pierre21534r.html",
+  "urlAvatar": "/senimg/mouton_marie_pierre21534r_carre.jpg",
+  "organismes": [],
+  "groupe": {
+    "code": "NI",
+    "libelle": "Réunion administrative des Sénateurs ne figurant sur la liste d'aucun groupe",
+    "ordre": 9
+  },
+  "circonscription": {
+    "code": "26",
+    "libelle": "Drôme",
+    "ordre": 260
   },
   "categorieProfessionnelle": {
     "code": "80",
