@@ -6,8 +6,18 @@
     "auteur": "PA643210",
     "url": "",
     "nor": "",
-    "date": "2025-11-05",
-    "etat": "Réunion de commission"
+    "date": "2025-11-24",
+    "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N52922",
+    "titre": "Projet de loi de financement de la sécurité sociale pour 2026",
+    "type": "Projet de loi de financement de la sécurité sociale",
+    "auteur": "PA643210",
+    "url": "",
+    "nor": "",
+    "date": "2025-11-12",
+    "etat": "Discussion en séance publique"
   },
   {
     "id": "DLR5L17N52305",
@@ -80,16 +90,6 @@
     "etat": "Discussion en séance publique"
   },
   {
-    "id": "DLR5L17N51982",
-    "titre": "Plusieurs mesures de justice pour limiter les frais bancaires",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA793174",
-    "url": "",
-    "nor": "",
-    "date": "2025-10-30",
-    "etat": "Discussion en séance publique"
-  },
-  {
     "id": "DLR5L17N51255",
     "titre": "Proposition de loi visant à protéger l’école de la République et les personnels qui y travaillent",
     "type": "Proposition de loi ordinaire",
@@ -98,16 +98,6 @@
     "nor": "",
     "date": "2025-10-30",
     "etat": "Discussion en séance publique"
-  },
-  {
-    "id": "DLR5L17N52922",
-    "titre": "Projet de loi de financement de la sécurité sociale pour 2026",
-    "type": "Projet de loi de financement de la sécurité sociale",
-    "auteur": "PA643210",
-    "url": "",
-    "nor": "",
-    "date": "2025-10-29",
-    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L17N52429",
@@ -200,14 +190,44 @@
     "etat": "Réunion de commission"
   },
   {
-    "id": "DLR5L17N51567",
-    "titre": "Se prononcer contre les « méga-camions » et construire une politique de report modal vers le ferroviaire au niveau européen",
+    "id": "DLR5L17N52832",
+    "titre": "La neutralité, le fonctionnement et le financement de l’audiovisuel public",
     "type": "Résolution",
-    "auteur": "PA841633",
+    "auteur": "PA330240",
     "url": "",
     "nor": "",
-    "date": "2025-10-22",
-    "etat": "Réunion de commission"
+    "date": "2025-10-21",
+    "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N52601",
+    "titre": "Proposition de loi relative aux formations en santé",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-868.html",
+    "nor": "",
+    "date": "2025-10-21",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N51852",
+    "titre": "Simplification du droit de l'urbanisme et du logement",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA841017",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-632.html",
+    "nor": "",
+    "date": "2025-10-21",
+    "etat": "Saisine du conseil constitutionnel"
+  },
+  {
+    "id": "DLR5L17N51349",
+    "titre": "Modifier la définition pénale du viol et des agressions sexuelles",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA795010",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-504.html",
+    "nor": "",
+    "date": "2025-10-21",
+    "etat": "Dépôt du rapport d'une CMP"
   },
   {
     "id": "DLR5L17N53005",
@@ -330,6 +350,16 @@
     "etat": "Discussion en séance publique"
   },
   {
+    "id": "DLR5L17N51982",
+    "titre": "Plusieurs mesures de justice pour limiter les frais bancaires",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA793174",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-16",
+    "etat": "Retrait d'une initiative"
+  },
+  {
     "id": "DLR5L17N52983",
     "titre": "Le déplacement d’une délégation de la commission des affaires étrangères au Maroc, du 11 au 14 juin 2025",
     "type": "Rapport d'information sans mission",
@@ -380,16 +410,6 @@
     "etat": "Retrait d'une initiative"
   },
   {
-    "id": "DLR5L17N52832",
-    "titre": "La neutralité, le fonctionnement et le financement de l’audiovisuel public",
-    "type": "Résolution",
-    "auteur": "PA330240",
-    "url": "",
-    "nor": "",
-    "date": "2025-10-15",
-    "etat": "Nomination de rapporteur"
-  },
-  {
     "id": "DLR5L17N52820",
     "titre": "Condamner la dérive illibérale et autoritaire du gouvernement géorgien et réaffirmer notre soutien au destin européen de la Géorgie",
     "type": "Résolution",
@@ -408,16 +428,6 @@
     "nor": "",
     "date": "2025-10-15",
     "etat": "Réunion de commission"
-  },
-  {
-    "id": "DLR5L17N52601",
-    "titre": "Proposition de loi relative aux formations en santé",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-868.html",
-    "nor": "",
-    "date": "2025-10-15",
-    "etat": "Dépôt de rapport"
   },
   {
     "id": "DLR5L17N52598",
@@ -450,14 +460,14 @@
     "etat": "Dépôt de rapport"
   },
   {
-    "id": "DLR5L17N51852",
-    "titre": "Simplification du droit de l'urbanisme et du logement",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA841017",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-632.html",
+    "id": "DLR5L17N51567",
+    "titre": "Se prononcer contre les « méga-camions » et construire une politique de report modal vers le ferroviaire au niveau européen",
+    "type": "Résolution",
+    "auteur": "PA841633",
+    "url": "",
     "nor": "",
     "date": "2025-10-15",
-    "etat": "Décision"
+    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L17N51556",
@@ -4928,16 +4938,6 @@
     "nor": "",
     "date": "2025-06-19",
     "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N51349",
-    "titre": "Modifier la définition pénale du viol et des agressions sexuelles",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA795010",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-504.html",
-    "nor": "",
-    "date": "2025-06-19",
-    "etat": "Convocation d'une CMP"
   },
   {
     "id": "DLR5L17N52352",
