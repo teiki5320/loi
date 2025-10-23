@@ -120,16 +120,6 @@
     "etat": "Réunion de commission"
   },
   {
-    "id": "DLR5L17N51676",
-    "titre": "Reconnaissance d'un droit fondamental à l'eau et à l'assainissement de qualité au sein de l'Union européenne",
-    "type": "Résolution",
-    "auteur": "PA794906",
-    "url": "",
-    "nor": "",
-    "date": "2025-10-29",
-    "etat": "Réunion de commission"
-  },
-  {
     "id": "DLR5L17N51519",
     "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et le Gouvernement de la République de Chypre sur la coopération lors des opérations d’évacuation à partir de la région du Moyen-Orient via le territoire de la République de Chypre dans le cadre d’une situation de crise",
     "type": "Projet de ratification des traités et conventions",
@@ -148,6 +138,56 @@
     "nor": "",
     "date": "2025-10-29",
     "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N51349",
+    "titre": "Modifier la définition pénale du viol et des agressions sexuelles",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA795010",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-504.html",
+    "nor": "",
+    "date": "2025-10-23",
+    "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N53010",
+    "titre": "DOSSIER : proposition de résolution européenne visant à réaffirmer l’importance de la décarbonation du transport routier",
+    "type": "Résolution",
+    "auteur": "PA335054",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-22",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53009",
+    "titre": "Le secteur des transports européens face à l’enjeu de la décarbonation",
+    "type": "Rapport d'information sans mission",
+    "auteur": "",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-22",
+    "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N53008",
+    "titre": "Les causes et conséquences de l'échec du déploiement du logiciel ARPEGE pour le traitement des indemnités d’arrêts maladie et la responsabilité de l'Etat, de la CNAM et de la société Sopra Steria",
+    "type": "Résolution",
+    "auteur": "PA794166",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-22",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53007",
+    "titre": "Accompagner la mutation du système monétaire, en interdisant l’euro numérique de banque centrale et en favorisant la diffusion des stablecoins en euros et l’investissement dans les crypto-actifs",
+    "type": "Résolution",
+    "auteur": "PA330240",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-22",
+    "etat": "Renvoi préalable"
   },
   {
     "id": "DLR5L17N52803",
@@ -190,6 +230,16 @@
     "etat": "Réunion de commission"
   },
   {
+    "id": "DLR5L17N51567",
+    "titre": "Se prononcer contre les « méga-camions » et construire une politique de report modal vers le ferroviaire au niveau européen",
+    "type": "Résolution",
+    "auteur": "PA841633",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-22",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
     "id": "DLR5L17N52832",
     "titre": "La neutralité, le fonctionnement et le financement de l’audiovisuel public",
     "type": "Résolution",
@@ -210,6 +260,16 @@
     "etat": "Renvoi en commission au fond"
   },
   {
+    "id": "DLR5L17N52549",
+    "titre": "Projet de loi autorisant l’approbation de la convention entre le Gouvernement de la République française et le Gouvernement de la République de Finlande pour l’élimination de la double imposition en matière d’impôts sur le revenu et la prévention de l’évasion et de la fraude fiscales et l’approbation de l’avenant à la convention entre le Gouvernement de la République française et le Gouvernement du Royaume de Suède en vue d’éviter les doubles impositions et de prévenir l’évasion fiscale en matière d’impôts sur le revenu et sur la fortune",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA410",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl24-855.html",
+    "nor": "",
+    "date": "2025-10-21",
+    "etat": "Dépôt de rapport"
+  },
+  {
     "id": "DLR5L17N51852",
     "titre": "Simplification du droit de l'urbanisme et du logement",
     "type": "Proposition de loi ordinaire",
@@ -220,14 +280,14 @@
     "etat": "Saisine du conseil constitutionnel"
   },
   {
-    "id": "DLR5L17N51349",
-    "titre": "Modifier la définition pénale du viol et des agressions sexuelles",
+    "id": "DLR5L17N51172",
+    "titre": "Proposition de loi visant à garantir la qualité des services de gestion des déchets",
     "type": "Proposition de loi ordinaire",
-    "auteur": "PA795010",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-504.html",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-221.html",
     "nor": "",
     "date": "2025-10-21",
-    "etat": "Dépôt du rapport d'une CMP"
+    "etat": "Dépôt de rapport"
   },
   {
     "id": "DLR5L17N53005",
@@ -241,7 +301,7 @@
   },
   {
     "id": "DLR5L17N52379",
-    "titre": "Proposition de loi visant à permettre à une commune d'être intégrée, pour une partie de son territoire, à un parc naturel national (PNN) et, pour une autre partie, à un parc naturel régional (PNR)",
+    "titre": "Proposition de loi visant à permettre à une commune d’être intégrée, pour une partie de son territoire, à un parc national et, pour une autre partie, à un parc naturel régional (PNR)",
     "type": "Proposition de loi ordinaire",
     "auteur": "PO78718",
     "url": "http://www.senat.fr/dossier-legislatif/ppl24-747.html",
@@ -458,16 +518,6 @@
     "nor": "",
     "date": "2025-10-15",
     "etat": "Dépôt de rapport"
-  },
-  {
-    "id": "DLR5L17N51567",
-    "titre": "Se prononcer contre les « méga-camions » et construire une politique de report modal vers le ferroviaire au niveau européen",
-    "type": "Résolution",
-    "auteur": "PA841633",
-    "url": "",
-    "nor": "",
-    "date": "2025-10-15",
-    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L17N51556",
@@ -3128,16 +3178,6 @@
     "nor": "",
     "date": "2025-07-15",
     "etat": "Promulgation d'une loi"
-  },
-  {
-    "id": "DLR5L17N52549",
-    "titre": "Projet de loi autorisant l’approbation de la convention entre le Gouvernement de la République française et le Gouvernement de la République de Finlande pour l’élimination de la double imposition en matière d’impôts sur le revenu et la prévention de l’évasion et de la fraude fiscales et l’approbation de l’avenant à la convention entre le Gouvernement de la République française et le Gouvernement du Royaume de Suède en vue d’éviter les doubles impositions et de prévenir l’évasion fiscale en matière d’impôts sur le revenu et sur la fortune",
-    "type": "Projet de ratification des traités et conventions",
-    "auteur": "PA410",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl24-855.html",
-    "nor": "",
-    "date": "2025-07-11",
-    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N52547",
@@ -8290,6 +8330,16 @@
     "etat": "Renvoi en commission au fond"
   },
   {
+    "id": "DLR5L17N51676",
+    "titre": "Reconnaissance d'un droit fondamental à l'eau et à l'assainissement de qualité au sein de l'Union européenne",
+    "type": "Résolution",
+    "auteur": "PA794906",
+    "url": "",
+    "nor": "",
+    "date": "2025-04-09",
+    "etat": "Réunion de commission"
+  },
+  {
     "id": "DLR5L17N51557",
     "titre": "Commission d’enquête afin d’étudier et de rechercher les causes de la variation et des écarts des prévisions fiscales et budgétaires des administrations publiques pour les années 2023 et 2024",
     "type": "Commission d'enquête",
@@ -13347,16 +13397,6 @@
     "url": "",
     "nor": "",
     "date": "2024-12-19",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N51172",
-    "titre": "Proposition de loi visant à garantir la qualité des services de gestion des déchets",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-221.html",
-    "nor": "",
-    "date": "2024-12-18",
     "etat": "Renvoi en commission au fond"
   },
   {
