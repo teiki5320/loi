@@ -1,5 +1,25 @@
 [
   {
+    "id": "DLR5L17N52820",
+    "titre": "Condamner la dérive illibérale et autoritaire du gouvernement géorgien et réaffirmer notre soutien au destin européen de la Géorgie",
+    "type": "Résolution",
+    "auteur": "PA345722",
+    "url": "",
+    "nor": "",
+    "date": "2025-11-26",
+    "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N52803",
+    "titre": "Garantir l'intégrité de l'information sur le changement climatique face à la désinformation climatique et aux ingérences étrangères",
+    "type": "Résolution",
+    "auteur": "PA736201",
+    "url": "",
+    "nor": "",
+    "date": "2025-11-26",
+    "etat": "Réunion de commission"
+  },
+  {
     "id": "DLR5L17N52428",
     "titre": "Projet de loi de finances pour 2026",
     "type": "Projet de loi de finances de l'année",
@@ -18,6 +38,26 @@
     "nor": "",
     "date": "2025-11-12",
     "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N52728",
+    "titre": "Empêcher la ratification de l’accord entre l'Union européenne et le Mercosur en demandant à l’État français la saisine de la Cour de justice de l’Union européenne pour cause d’incompatibilité de l’accord avec les traités européens",
+    "type": "Résolution",
+    "auteur": "PA722142",
+    "url": "",
+    "nor": "",
+    "date": "2025-11-12",
+    "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N52598",
+    "titre": "Rejeter le projet d'accord sur les droits de douane et le commerce du 27 juillet 2025 entre l’Union européenne et les Etats-Unis",
+    "type": "Résolution",
+    "auteur": "PA842271",
+    "url": "",
+    "nor": "",
+    "date": "2025-11-12",
+    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L17N52305",
@@ -100,6 +140,16 @@
     "etat": "Discussion en séance publique"
   },
   {
+    "id": "DLR5L17N52715",
+    "titre": "Octroyer le statut d’animaux de compagnie aux animaux de rente dès lors qu’ils sont sortis définitivement du circuit de la chaîne alimentaire du fait de leur viande ou produit d’origine animale déclarés impropres à la consommation",
+    "type": "Résolution",
+    "auteur": "PA794906",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-29",
+    "etat": "Réunion de commission"
+  },
+  {
     "id": "DLR5L17N52429",
     "titre": "Projet de loi autorisant l’approbation de la convention de coopération judiciaire internationale entre la France et le Myanmar",
     "type": "Projet de ratification des traités et conventions",
@@ -115,6 +165,16 @@
     "type": "Projet de ratification des traités et conventions",
     "auteur": "PA410",
     "url": "http://www.senat.fr/dossier-legislatif/pjl24-553.html",
+    "nor": "",
+    "date": "2025-10-29",
+    "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N51676",
+    "titre": "Reconnaissance d'un droit fondamental à l'eau et à l'assainissement de qualité au sein de l'Union européenne",
+    "type": "Résolution",
+    "auteur": "PA794906",
+    "url": "",
     "nor": "",
     "date": "2025-10-29",
     "etat": "Réunion de commission"
@@ -140,6 +200,46 @@
     "etat": "Réunion de commission"
   },
   {
+    "id": "DLR5L17N53014",
+    "titre": "Réaffirmer l’ambition climatique de la France au niveau européen",
+    "type": "Résolution",
+    "auteur": "PA794146",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-23",
+    "etat": "Renvoi préalable"
+  },
+  {
+    "id": "DLR5L17N53013",
+    "titre": "Établir un meilleur équilibre entre pouvoirs constitutionnels",
+    "type": "Projet ou proposition de loi constitutionnelle",
+    "auteur": "PA335054",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-23",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53012",
+    "titre": "Création d'un Défenseur de la laïcité et définition de ce principe",
+    "type": "Projet ou proposition de loi constitutionnelle",
+    "auteur": "PA1567",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-23",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53011",
+    "titre": "L’évaluation de l’application du principe de continuité territoriale",
+    "type": "Rapport d'information sans mission",
+    "auteur": "",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-23",
+    "etat": "Dépôt de rapport"
+  },
+  {
     "id": "DLR5L17N51349",
     "titre": "Modifier la définition pénale du viol et des agressions sexuelles",
     "type": "Proposition de loi ordinaire",
@@ -147,11 +247,21 @@
     "url": "http://www.senat.fr/dossier-legislatif/ppl24-504.html",
     "nor": "",
     "date": "2025-10-23",
-    "etat": "Discussion en séance publique"
+    "etat": "Décision"
+  },
+  {
+    "id": "DLR5L16N49280",
+    "titre": "Proposition de loi portant création d'un statut de l'élu local",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl23-263.html",
+    "nor": "",
+    "date": "2025-10-23",
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N53010",
-    "titre": "DOSSIER : proposition de résolution européenne visant à réaffirmer l’importance de la décarbonation du transport routier",
+    "titre": "Réaffirmer l’importance de la décarbonation du transport routier",
     "type": "Résolution",
     "auteur": "PA335054",
     "url": "",
@@ -188,26 +298,6 @@
     "nor": "",
     "date": "2025-10-22",
     "etat": "Renvoi préalable"
-  },
-  {
-    "id": "DLR5L17N52803",
-    "titre": "Garantir l'intégrité de l'information sur le changement climatique face à la désinformation climatique et aux ingérences étrangères",
-    "type": "Résolution",
-    "auteur": "PA736201",
-    "url": "",
-    "nor": "",
-    "date": "2025-10-22",
-    "etat": "Réunion de commission"
-  },
-  {
-    "id": "DLR5L17N52728",
-    "titre": "Empêcher la ratification de l’accord entre l'Union européenne et le Mercosur en demandant à l’État français la saisine de la Cour de justice de l’Union européenne pour cause d’incompatibilité de l’accord avec les traités européens",
-    "type": "Résolution",
-    "auteur": "PA722142",
-    "url": "",
-    "nor": "",
-    "date": "2025-10-22",
-    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L17N52655",
@@ -470,30 +560,10 @@
     "etat": "Retrait d'une initiative"
   },
   {
-    "id": "DLR5L17N52820",
-    "titre": "Condamner la dérive illibérale et autoritaire du gouvernement géorgien et réaffirmer notre soutien au destin européen de la Géorgie",
-    "type": "Résolution",
-    "auteur": "PA345722",
-    "url": "",
-    "nor": "",
-    "date": "2025-10-15",
-    "etat": "Réunion de commission"
-  },
-  {
     "id": "DLR5L17N52716",
     "titre": "La coopération européenne dans la lutte contre la cyberpédocriminalité pour la défense des droits des enfants à l’ère numérique",
     "type": "Résolution",
     "auteur": "PA608264",
-    "url": "",
-    "nor": "",
-    "date": "2025-10-15",
-    "etat": "Réunion de commission"
-  },
-  {
-    "id": "DLR5L17N52598",
-    "titre": "Rejeter le projet d'accord sur les droits de douane et le commerce du 27 juillet 2025 entre l’Union européenne et les Etats-Unis",
-    "type": "Résolution",
-    "auteur": "PA842271",
     "url": "",
     "nor": "",
     "date": "2025-10-15",
@@ -538,16 +608,6 @@
     "nor": "",
     "date": "2025-10-15",
     "etat": "Réunion de commission"
-  },
-  {
-    "id": "DLR5L16N49280",
-    "titre": "Proposition de loi portant création d'un statut de l'élu local",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl23-263.html",
-    "nor": "",
-    "date": "2025-10-15",
-    "etat": "Dépôt de rapport"
   },
   {
     "id": "DLR5L17N52999",
@@ -2588,16 +2648,6 @@
     "nor": "",
     "date": "2025-09-09",
     "etat": "1er dépôt d'une initiative."
-  },
-  {
-    "id": "DLR5L17N52715",
-    "titre": "Octroyer le statut d’animaux de compagnie aux animaux de rente dès lors qu’ils sont sortis définitivement du circuit de la chaîne alimentaire du fait de leur viande ou produit d’origine animale déclarés impropres à la consommation",
-    "type": "Résolution",
-    "auteur": "PA794906",
-    "url": "",
-    "nor": "",
-    "date": "2025-09-08",
-    "etat": "Renvoi préalable"
   },
   {
     "id": "DLR5L17N52703",
@@ -8328,16 +8378,6 @@
     "nor": "",
     "date": "2025-04-09",
     "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N51676",
-    "titre": "Reconnaissance d'un droit fondamental à l'eau et à l'assainissement de qualité au sein de l'Union européenne",
-    "type": "Résolution",
-    "auteur": "PA794906",
-    "url": "",
-    "nor": "",
-    "date": "2025-04-09",
-    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L17N51557",
