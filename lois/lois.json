@@ -240,6 +240,16 @@
     "etat": "Dépôt de rapport"
   },
   {
+    "id": "DLR5L17N51973",
+    "titre": "Garantir un cadre fiscal stable, juste et lisible pour nos micro-entrepreneurs et nos petites entreprises",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA795664",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-677.html",
+    "nor": "",
+    "date": "2025-10-23",
+    "etat": "Décision"
+  },
+  {
     "id": "DLR5L17N51349",
     "titre": "Modifier la définition pénale du viol et des agressions sexuelles",
     "type": "Proposition de loi ordinaire",
@@ -310,6 +320,46 @@
     "etat": "Réunion de commission"
   },
   {
+    "id": "DLR5L17N52600",
+    "titre": "Projet de loi de lutte contre la vie chère dans les outre-mer",
+    "type": "Projet de loi ordinaire",
+    "auteur": "PA410",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl24-870.html",
+    "nor": "",
+    "date": "2025-10-22",
+    "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N52354",
+    "titre": "Projet de loi autorisant l’approbation de l’accord sous forme d’échange de notes verbales entre le Gouvernement de la République française et le Gouvernement de la République de Moldavie relatif à l'échange de permis de conduire",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA410",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl24-764.html",
+    "nor": "",
+    "date": "2025-10-22",
+    "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N52226",
+    "titre": "Approbation de l’accord de coopération dans le domaine de la défense entre le Gouvernement de la République française et le Gouvernement de la République de Macédoine du Nord",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA410",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl24-788.html",
+    "nor": "",
+    "date": "2025-10-22",
+    "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N52129",
+    "titre": "Proposition de loi visant à la nationalisation des actifs stratégiques d'ArcelorMittal situés sur le territoire national",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-626.html",
+    "nor": "",
+    "date": "2025-10-22",
+    "etat": "Dépôt de rapport"
+  },
+  {
     "id": "DLR5L17N52100",
     "titre": "Projet de loi relatif à l’organisation des jeux Olympiques et Paralympiques de 2030",
     "type": "Projet de loi ordinaire",
@@ -327,6 +377,46 @@
     "url": "",
     "nor": "",
     "date": "2025-10-22",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N51434",
+    "titre": "Contre les fraudes aux moyens de paiement scripturaux",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA719798",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-496.html",
+    "nor": "",
+    "date": "2025-10-22",
+    "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L16N50115",
+    "titre": "Projet de loi autorisant la ratification de la convention n°155  sur la sécurité et la santé des travailleurs, 1981",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA722190",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl23-688.html",
+    "nor": "",
+    "date": "2025-10-22",
+    "etat": "Promulgation d'une loi"
+  },
+  {
+    "id": "DLR5L17N53017",
+    "titre": "Proposition de loi visant à mieux encadrer l'exécution provisoire d'une peine",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-047.html",
+    "nor": "",
+    "date": "2025-10-21",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53016",
+    "titre": "Proposition de loi visant à recentrer la politique familiale en faveur des familles actives",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-048.html",
+    "nor": "",
+    "date": "2025-10-21",
     "etat": "Renvoi en commission au fond"
   },
   {
@@ -580,16 +670,6 @@
     "etat": "Décision"
   },
   {
-    "id": "DLR5L17N51973",
-    "titre": "Garantir un cadre fiscal stable, juste et lisible pour nos micro-entrepreneurs et nos petites entreprises",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA795664",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-677.html",
-    "nor": "",
-    "date": "2025-10-15",
-    "etat": "Dépôt de rapport"
-  },
-  {
     "id": "DLR5L17N51556",
     "titre": "Proposition de loi visant à se libérer de l'obligation alimentaire à l'égard d'un parent défaillant",
     "type": "Proposition de loi ordinaire",
@@ -598,16 +678,6 @@
     "nor": "",
     "date": "2025-10-15",
     "etat": "Dépôt de rapport"
-  },
-  {
-    "id": "DLR5L16N50115",
-    "titre": "Projet de loi autorisant la ratification de la convention n°155  sur la sécurité et la santé des travailleurs, 1981",
-    "type": "Projet de ratification des traités et conventions",
-    "auteur": "PA722190",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl23-688.html",
-    "nor": "",
-    "date": "2025-10-15",
-    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L17N52999",
@@ -1228,6 +1298,16 @@
     "nor": "",
     "date": "2025-10-13",
     "etat": "1er dépôt d'une initiative."
+  },
+  {
+    "id": "DLR5L17N53015",
+    "titre": "Proposition de loi visant à garantir la gratuité des parkings des hôpitaux publics pour les patients, les visiteurs et les personnels pendant leur temps de travail",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-016.html",
+    "nor": "",
+    "date": "2025-10-10",
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N52907",
@@ -2960,16 +3040,6 @@
     "etat": "Renvoi en commission au fond"
   },
   {
-    "id": "DLR5L17N52600",
-    "titre": "Projet de loi de lutte contre la vie chère dans les outre-mer",
-    "type": "Projet de loi ordinaire",
-    "auteur": "PA410",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl24-870.html",
-    "nor": "",
-    "date": "2025-07-30",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
     "id": "DLR5L17N52599",
     "titre": "Projet de loi constitutionnelle pour une Corse autonome au sein de la République",
     "type": "Projet ou proposition de loi constitutionnelle",
@@ -4540,16 +4610,6 @@
     "etat": "Dépôt de rapport"
   },
   {
-    "id": "DLR5L17N52226",
-    "titre": "Approbation de l’accord de coopération dans le domaine de la défense entre le Gouvernement de la République française et le Gouvernement de la République de Macédoine du Nord",
-    "type": "Projet de ratification des traités et conventions",
-    "auteur": "PA410",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl24-788.html",
-    "nor": "",
-    "date": "2025-06-25",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
     "id": "DLR5L17N52099",
     "titre": "Approbation de la résolution n° F/BG/2023/04 relative aux amendements à l’accord portant création du Fonds africain de développement",
     "type": "Projet de ratification des traités et conventions",
@@ -4965,16 +5025,6 @@
     "type": "Proposition de loi ordinaire",
     "auteur": "PO78718",
     "url": "http://www.senat.fr/dossier-legislatif/ppl24-762.html",
-    "nor": "",
-    "date": "2025-06-19",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N52354",
-    "titre": "Projet de loi autorisant l’approbation de l’accord sous forme d’échange de notes verbales entre le Gouvernement de la République française et le Gouvernement de la République de Moldavie relatif à l'échange de permis de conduire",
-    "type": "Projet de ratification des traités et conventions",
-    "auteur": "PA410",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl24-764.html",
     "nor": "",
     "date": "2025-06-19",
     "etat": "Renvoi en commission au fond"
@@ -6797,16 +6847,6 @@
     "url": "http://www.senat.fr/dossier-legislatif/ppl24-633.html",
     "nor": "",
     "date": "2025-05-15",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N52129",
-    "titre": "Proposition de loi visant à la nationalisation des actifs stratégiques d'ArcelorMittal situés sur le territoire national",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-626.html",
-    "nor": "",
-    "date": "2025-05-14",
     "etat": "Renvoi en commission au fond"
   },
   {
@@ -9038,16 +9078,6 @@
     "nor": "",
     "date": "2025-03-31",
     "etat": "Retrait d'une initiative"
-  },
-  {
-    "id": "DLR5L17N51434",
-    "titre": "Contre les fraudes aux moyens de paiement scripturaux",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA719798",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-496.html",
-    "nor": "",
-    "date": "2025-03-31",
-    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L17N50589",
