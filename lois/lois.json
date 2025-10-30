@@ -140,6 +140,46 @@
     "etat": "Discussion en séance publique"
   },
   {
+    "id": "DLR5L17N53077",
+    "titre": "Encourager la reconnaissance et la promotion des isolants textiles issus de l’économie circulaire dans le cadre de la politique européenne du bâtiment durable",
+    "type": "Résolution",
+    "auteur": "PA643089",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-29",
+    "etat": "Renvoi préalable"
+  },
+  {
+    "id": "DLR5L17N53075",
+    "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et le Gouvernement de la République de Moldova relatif à la coopération dans le domaine de la défense",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA643210",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-29",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53074",
+    "titre": "Prendre toutes les mesures nécessaires pour faire respecter le droit international, dont le droit à l’autodétermination du peuple palestinien, condition nécessaire à l’établissement d’une paix juste et durable au Proche-Orient",
+    "type": "Résolution Article 34-1",
+    "auteur": "PA720892",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-29",
+    "etat": "1er dépôt d'une initiative."
+  },
+  {
+    "id": "DLR5L17N53073",
+    "titre": "S’opposer à l’adoption de l’accord commercial entre l’Union européenne et le Mercosur",
+    "type": "Résolution Article 34-1",
+    "auteur": "PA720892",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-29",
+    "etat": "1er dépôt d'une initiative."
+  },
+  {
     "id": "DLR5L17N52715",
     "titre": "Octroyer le statut d’animaux de compagnie aux animaux de rente dès lors qu’ils sont sortis définitivement du circuit de la chaîne alimentaire du fait de leur viande ou produit d’origine animale déclarés impropres à la consommation",
     "type": "Résolution",
@@ -150,6 +190,26 @@
     "etat": "Réunion de commission"
   },
   {
+    "id": "DLR5L17N52655",
+    "titre": "Proposition de loi organique visant à reporter le renouvellement général des membres du congrès et des assemblées de province de la Nouvelle-Calédonie pour permettre la mise en oeuvre de l'accord du 12 juillet 2025",
+    "type": "Projet ou proposition de loi organique",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-876.html",
+    "nor": "",
+    "date": "2025-10-29",
+    "etat": "Décision"
+  },
+  {
+    "id": "DLR5L17N52600",
+    "titre": "Projet de loi de lutte contre la vie chère dans les outre-mer",
+    "type": "Projet de loi ordinaire",
+    "auteur": "PA410",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl24-870.html",
+    "nor": "",
+    "date": "2025-10-29",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
     "id": "DLR5L17N52429",
     "titre": "Projet de loi autorisant l’approbation de la convention de coopération judiciaire internationale entre la France et le Myanmar",
     "type": "Projet de ratification des traités et conventions",
@@ -158,6 +218,26 @@
     "nor": "",
     "date": "2025-10-29",
     "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N52354",
+    "titre": "Projet de loi autorisant l’approbation de l’accord sous forme d’échange de notes verbales entre le Gouvernement de la République française et le Gouvernement de la République de Moldavie relatif à l'échange de permis de conduire",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA410",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl24-764.html",
+    "nor": "",
+    "date": "2025-10-29",
+    "etat": "Décision"
+  },
+  {
+    "id": "DLR5L17N52226",
+    "titre": "Approbation de l’accord de coopération dans le domaine de la défense entre le Gouvernement de la République française et le Gouvernement de la République de Macédoine du Nord",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA410",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl24-788.html",
+    "nor": "",
+    "date": "2025-10-29",
+    "etat": "Décision"
   },
   {
     "id": "DLR5L17N52000",
@@ -188,6 +268,26 @@
     "nor": "",
     "date": "2025-10-29",
     "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N51434",
+    "titre": "Contre les fraudes aux moyens de paiement scripturaux",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA719798",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-496.html",
+    "nor": "",
+    "date": "2025-10-29",
+    "etat": "Décision"
+  },
+  {
+    "id": "DLR5L17N51349",
+    "titre": "Modifier la définition pénale du viol et des agressions sexuelles",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA795010",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-504.html",
+    "nor": "",
+    "date": "2025-10-29",
+    "etat": "Décision"
   },
   {
     "id": "DLR5L17N50794",
@@ -560,14 +660,14 @@
     "etat": "Renvoi en commission au fond"
   },
   {
-    "id": "DLR5L17N52655",
-    "titre": "Proposition de loi organique visant à reporter le renouvellement général des membres du congrès et des assemblées de province de la Nouvelle-Calédonie pour permettre la mise en oeuvre de l'accord du 12 juillet 2025",
-    "type": "Projet ou proposition de loi organique",
+    "id": "DLR5L17N52833",
+    "titre": "Proposition de loi visant à libérer l'accès aux soins dentaires",
+    "type": "Proposition de loi ordinaire",
     "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-876.html",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-899.html",
     "nor": "",
     "date": "2025-10-28",
-    "etat": "Décision de la CMP"
+    "etat": "Dépôt de rapport"
   },
   {
     "id": "DLR5L17N53035",
@@ -660,16 +760,6 @@
     "etat": "Décision"
   },
   {
-    "id": "DLR5L17N51349",
-    "titre": "Modifier la définition pénale du viol et des agressions sexuelles",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA795010",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-504.html",
-    "nor": "",
-    "date": "2025-10-23",
-    "etat": "Décision"
-  },
-  {
     "id": "DLR5L16N49280",
     "titre": "Proposition de loi portant création d'un statut de l'élu local",
     "type": "Proposition de loi ordinaire",
@@ -730,36 +820,6 @@
     "etat": "Renvoi préalable"
   },
   {
-    "id": "DLR5L17N52600",
-    "titre": "Projet de loi de lutte contre la vie chère dans les outre-mer",
-    "type": "Projet de loi ordinaire",
-    "auteur": "PA410",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl24-870.html",
-    "nor": "",
-    "date": "2025-10-22",
-    "etat": "Dépôt de rapport"
-  },
-  {
-    "id": "DLR5L17N52354",
-    "titre": "Projet de loi autorisant l’approbation de l’accord sous forme d’échange de notes verbales entre le Gouvernement de la République française et le Gouvernement de la République de Moldavie relatif à l'échange de permis de conduire",
-    "type": "Projet de ratification des traités et conventions",
-    "auteur": "PA410",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl24-764.html",
-    "nor": "",
-    "date": "2025-10-22",
-    "etat": "Dépôt de rapport"
-  },
-  {
-    "id": "DLR5L17N52226",
-    "titre": "Approbation de l’accord de coopération dans le domaine de la défense entre le Gouvernement de la République française et le Gouvernement de la République de Macédoine du Nord",
-    "type": "Projet de ratification des traités et conventions",
-    "auteur": "PA410",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl24-788.html",
-    "nor": "",
-    "date": "2025-10-22",
-    "etat": "Dépôt de rapport"
-  },
-  {
     "id": "DLR5L17N52129",
     "titre": "Proposition de loi visant à la nationalisation des actifs stratégiques d'ArcelorMittal situés sur le territoire national",
     "type": "Proposition de loi ordinaire",
@@ -788,16 +848,6 @@
     "nor": "",
     "date": "2025-10-22",
     "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N51434",
-    "titre": "Contre les fraudes aux moyens de paiement scripturaux",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA719798",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-496.html",
-    "nor": "",
-    "date": "2025-10-22",
-    "etat": "Dépôt de rapport"
   },
   {
     "id": "DLR5L16N50115",
@@ -2298,16 +2348,6 @@
     "nor": "",
     "date": "2025-09-24",
     "etat": "Nomination de rapporteur"
-  },
-  {
-    "id": "DLR5L17N52833",
-    "titre": "Proposition de loi visant à libérer l'accès aux soins dentaires",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-899.html",
-    "nor": "",
-    "date": "2025-09-23",
-    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N52818",
