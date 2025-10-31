@@ -30,6 +30,16 @@
     "etat": "Discussion en séance publique"
   },
   {
+    "id": "DLR5L17N51173",
+    "titre": "Proposition de loi organique tendant à modifier le II de l’article 43 de la loi organique n° 2004-192 du 27 février 2004 portant statut d’autonomie de la Polynésie française",
+    "type": "Projet ou proposition de loi organique",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-223.html",
+    "nor": "",
+    "date": "2025-11-19",
+    "etat": "Réunion de commission"
+  },
+  {
     "id": "DLR5L17N52922",
     "titre": "Projet de loi de financement de la sécurité sociale pour 2026",
     "type": "Projet de loi de financement de la sécurité sociale",
@@ -60,6 +70,16 @@
     "etat": "Réunion de commission"
   },
   {
+    "id": "DLR5L16N49280",
+    "titre": "Proposition de loi portant création d'un statut de l'élu local",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl23-263.html",
+    "nor": "",
+    "date": "2025-11-12",
+    "etat": "Réunion de commission"
+  },
+  {
     "id": "DLR5L17N52305",
     "titre": "Garantir l’attribution post 2030 de la bande de fréquences inférieure à 700 mégahertz à la télévision numérique terrestre",
     "type": "Résolution",
@@ -77,7 +97,7 @@
     "url": "",
     "nor": "",
     "date": "2025-10-30",
-    "etat": "Discussion en séance publique"
+    "etat": "Retrait d'une initiative"
   },
   {
     "id": "DLR5L17N52800",
@@ -127,7 +147,37 @@
     "url": "",
     "nor": "",
     "date": "2025-10-30",
-    "etat": "Discussion en séance publique"
+    "etat": "Décision"
+  },
+  {
+    "id": "DLR5L17N52655",
+    "titre": "Proposition de loi organique visant à reporter le renouvellement général des membres du congrès et des assemblées de province de la Nouvelle-Calédonie pour permettre la mise en oeuvre de l'accord du 12 juillet 2025",
+    "type": "Projet ou proposition de loi organique",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-876.html",
+    "nor": "",
+    "date": "2025-10-30",
+    "etat": "Saisine du conseil constitutionnel"
+  },
+  {
+    "id": "DLR5L17N52549",
+    "titre": "Projet de loi autorisant l’approbation de la convention entre le Gouvernement de la République française et le Gouvernement de la République de Finlande pour l’élimination de la double imposition en matière d’impôts sur le revenu et la prévention de l’évasion et de la fraude fiscales et l’approbation de l’avenant à la convention entre le Gouvernement de la République française et le Gouvernement du Royaume de Suède en vue d’éviter les doubles impositions et de prévenir l’évasion fiscale en matière d’impôts sur le revenu et sur la fortune",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA410",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl24-855.html",
+    "nor": "",
+    "date": "2025-10-30",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52354",
+    "titre": "Projet de loi autorisant l’approbation de l’accord sous forme d’échange de notes verbales entre le Gouvernement de la République française et le Gouvernement de la République de Moldavie relatif à l'échange de permis de conduire",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA410",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl24-764.html",
+    "nor": "",
+    "date": "2025-10-30",
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N51255",
@@ -180,6 +230,16 @@
     "etat": "1er dépôt d'une initiative."
   },
   {
+    "id": "DLR5L17N52725",
+    "titre": "Proposition de loi visant à créer un fichier national des personnes inéligibles",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-884.html",
+    "nor": "",
+    "date": "2025-10-29",
+    "etat": "Dépôt de rapport"
+  },
+  {
     "id": "DLR5L17N52715",
     "titre": "Octroyer le statut d’animaux de compagnie aux animaux de rente dès lors qu’ils sont sortis définitivement du circuit de la chaîne alimentaire du fait de leur viande ou produit d’origine animale déclarés impropres à la consommation",
     "type": "Résolution",
@@ -190,14 +250,14 @@
     "etat": "Réunion de commission"
   },
   {
-    "id": "DLR5L17N52655",
-    "titre": "Proposition de loi organique visant à reporter le renouvellement général des membres du congrès et des assemblées de province de la Nouvelle-Calédonie pour permettre la mise en oeuvre de l'accord du 12 juillet 2025",
-    "type": "Projet ou proposition de loi organique",
+    "id": "DLR5L17N52699",
+    "titre": "Proposition de loi pour la sécurisation juridique des structures économiques face aux risques de blanchiment",
+    "type": "Proposition de loi ordinaire",
     "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-876.html",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-877.html",
     "nor": "",
     "date": "2025-10-29",
-    "etat": "Décision"
+    "etat": "Dépôt de rapport"
   },
   {
     "id": "DLR5L17N52600",
@@ -220,16 +280,6 @@
     "etat": "Réunion de commission"
   },
   {
-    "id": "DLR5L17N52354",
-    "titre": "Projet de loi autorisant l’approbation de l’accord sous forme d’échange de notes verbales entre le Gouvernement de la République française et le Gouvernement de la République de Moldavie relatif à l'échange de permis de conduire",
-    "type": "Projet de ratification des traités et conventions",
-    "auteur": "PA410",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl24-764.html",
-    "nor": "",
-    "date": "2025-10-29",
-    "etat": "Décision"
-  },
-  {
     "id": "DLR5L17N52226",
     "titre": "Approbation de l’accord de coopération dans le domaine de la défense entre le Gouvernement de la République française et le Gouvernement de la République de Macédoine du Nord",
     "type": "Projet de ratification des traités et conventions",
@@ -238,6 +288,26 @@
     "nor": "",
     "date": "2025-10-29",
     "etat": "Décision"
+  },
+  {
+    "id": "DLR5L17N52037",
+    "titre": "Élever Alfred Dreyfus au grade de général de brigade",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA722190",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-675.html",
+    "nor": "",
+    "date": "2025-10-29",
+    "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N52001",
+    "titre": "Proposition de loi constitutionnelle visant à protéger la Constitution, en limitant sa révision à la voie de l'article 89",
+    "type": "Projet ou proposition de loi constitutionnelle",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-551.html",
+    "nor": "",
+    "date": "2025-10-29",
+    "etat": "Dépôt de rapport"
   },
   {
     "id": "DLR5L17N52000",
@@ -760,16 +830,6 @@
     "etat": "Décision"
   },
   {
-    "id": "DLR5L16N49280",
-    "titre": "Proposition de loi portant création d'un statut de l'élu local",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl23-263.html",
-    "nor": "",
-    "date": "2025-10-23",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
     "id": "DLR5L17N53018",
     "titre": "Proposition de loi visant à assouplir les contraintes à l'usage de dispositifs de lecture automatisée de plaques d'immatriculation et à sécuriser l'action des forces de l'ordre",
     "type": "Proposition de loi ordinaire",
@@ -898,16 +958,6 @@
     "nor": "",
     "date": "2025-10-21",
     "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N52549",
-    "titre": "Projet de loi autorisant l’approbation de la convention entre le Gouvernement de la République française et le Gouvernement de la République de Finlande pour l’élimination de la double imposition en matière d’impôts sur le revenu et la prévention de l’évasion et de la fraude fiscales et l’approbation de l’avenant à la convention entre le Gouvernement de la République française et le Gouvernement du Royaume de Suède en vue d’éviter les doubles impositions et de prévenir l’évasion fiscale en matière d’impôts sur le revenu et sur la fortune",
-    "type": "Projet de ratification des traités et conventions",
-    "auteur": "PA410",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl24-855.html",
-    "nor": "",
-    "date": "2025-10-21",
-    "etat": "Dépôt de rapport"
   },
   {
     "id": "DLR5L17N51852",
@@ -3240,16 +3290,6 @@
     "etat": "1er dépôt d'une initiative."
   },
   {
-    "id": "DLR5L17N52725",
-    "titre": "Proposition de loi visant à créer un fichier national des personnes inéligibles",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-884.html",
-    "nor": "",
-    "date": "2025-09-02",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
     "id": "DLR5L17N52737",
     "titre": "Proposition de loi instaurant l'obligation d'équiper les véhicules automobiles d'un extincteur",
     "type": "Proposition de loi ordinaire",
@@ -3327,16 +3367,6 @@
     "url": "http://www.senat.fr/dossier-legislatif/ppl24-878.html",
     "nor": "",
     "date": "2025-08-26",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N52699",
-    "titre": "Proposition de loi pour la sécurisation juridique des structures économiques face aux risques de blanchiment",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-877.html",
-    "nor": "",
-    "date": "2025-08-19",
     "etat": "Renvoi en commission au fond"
   },
   {
@@ -4478,16 +4508,6 @@
     "nor": "",
     "date": "2025-07-09",
     "etat": "Retrait d'une initiative"
-  },
-  {
-    "id": "DLR5L17N51173",
-    "titre": "Proposition de loi organique tendant à modifier le II de l’article 43 de la loi organique n° 2004-192 du 27 février 2004 portant statut d’autonomie de la Polynésie française",
-    "type": "Projet ou proposition de loi organique",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-223.html",
-    "nor": "",
-    "date": "2025-07-09",
-    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L17N50771",
@@ -6820,16 +6840,6 @@
     "etat": "1er dépôt d'une initiative."
   },
   {
-    "id": "DLR5L17N52037",
-    "titre": "Élever Alfred Dreyfus au grade de général de brigade",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA722190",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-675.html",
-    "nor": "",
-    "date": "2025-06-02",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
     "id": "DLR5L17N51986",
     "titre": "Projet de loi relatif au transfert à l’Etat des personnels enseignants de l’enseignement du premier degré dans les îles Wallis et Futuna",
     "type": "Projet de loi ordinaire",
@@ -8065,16 +8075,6 @@
     "type": "Proposition de loi ordinaire",
     "auteur": "PO78718",
     "url": "http://www.senat.fr/dossier-legislatif/ppl24-554.html",
-    "nor": "",
-    "date": "2025-04-28",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N52001",
-    "titre": "Proposition de loi constitutionnelle visant à protéger la Constitution, en limitant sa révision à la voie de l'article 89",
-    "type": "Projet ou proposition de loi constitutionnelle",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-551.html",
     "nor": "",
     "date": "2025-04-28",
     "etat": "Renvoi en commission au fond"
