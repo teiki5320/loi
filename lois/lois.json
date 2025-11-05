@@ -1,5 +1,95 @@
 [
   {
+    "id": "DLR5L17N53074",
+    "titre": "Prendre toutes les mesures nécessaires pour faire respecter le droit international, dont le droit à l’autodétermination du peuple palestinien, condition nécessaire à l’établissement d’une paix juste et durable au Proche-Orient",
+    "type": "Résolution Article 34-1",
+    "auteur": "PA720892",
+    "url": "",
+    "nor": "",
+    "date": "2025-11-27",
+    "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N53073",
+    "titre": "S’opposer à l’adoption de l’accord commercial entre l’Union européenne et le Mercosur",
+    "type": "Résolution Article 34-1",
+    "auteur": "PA720892",
+    "url": "",
+    "nor": "",
+    "date": "2025-11-27",
+    "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N52977",
+    "titre": "Nationalisation d'ArcelorMittal France",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA795164",
+    "url": "",
+    "nor": "",
+    "date": "2025-11-27",
+    "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N52976",
+    "titre": "L'établissement de l’égalité d’accès au service public postal en outre-mer",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA721062",
+    "url": "",
+    "nor": "",
+    "date": "2025-11-27",
+    "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N52973",
+    "titre": "Interdire l’importation en France de produits agricoles et denrées alimentaires contenant de l’acétamipride et à abroger la loi visant à lever les contraintes à l’exercice du métier d’agriculteur",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA719578",
+    "url": "",
+    "nor": "",
+    "date": "2025-11-27",
+    "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N52972",
+    "titre": "Garantir la gratuité totale des parkings des établissements publics de santé",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA841023",
+    "url": "",
+    "nor": "",
+    "date": "2025-11-27",
+    "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N52970",
+    "titre": "Défiscaliser les pensions alimentaires perçues et lutter contre la précarité des familles monoparentales",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA791812",
+    "url": "",
+    "nor": "",
+    "date": "2025-11-27",
+    "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N52966",
+    "titre": "Exonérer les apprentis de la CSG-CRDS",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA794686",
+    "url": "",
+    "nor": "",
+    "date": "2025-11-27",
+    "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N50684",
+    "titre": "Abrogation de la retraite à 64 ans",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA720430",
+    "url": "",
+    "nor": "",
+    "date": "2025-11-27",
+    "etat": "Discussion en séance publique"
+  },
+  {
     "id": "DLR5L17N52820",
     "titre": "Condamner la dérive illibérale et autoritaire du gouvernement géorgien et réaffirmer notre soutien au destin européen de la Géorgie",
     "type": "Résolution",
@@ -18,6 +108,16 @@
     "nor": "",
     "date": "2025-11-26",
     "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N51615",
+    "titre": "Mise en œuvre du Protocole de l’Organisation Mondiale de la Santé pour « lutter contre le commerce illicite de tabac »",
+    "type": "Résolution",
+    "auteur": "PA795350",
+    "url": "",
+    "nor": "",
+    "date": "2025-11-26",
+    "etat": "Discussion en séance publique"
   },
   {
     "id": "DLR5L17N52428",
@@ -88,6 +188,26 @@
     "nor": "",
     "date": "2025-11-05",
     "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N53105",
+    "titre": "Honorer la mémoire de Madame la Médecin générale inspectrice Valérie André par son inhumation à l’Hôtel national des Invalides",
+    "type": "Résolution Article 34-1",
+    "auteur": "PA719922",
+    "url": "",
+    "nor": "",
+    "date": "2025-11-04",
+    "etat": "1er dépôt d'une initiative."
+  },
+  {
+    "id": "DLR5L17N53098",
+    "titre": "Proposition de loi visant à assouplir les conditions de construction dans les communes rurales",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-101.html",
+    "nor": "",
+    "date": "2025-10-31",
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N53079",
@@ -220,6 +340,26 @@
     "etat": "Discussion en séance publique"
   },
   {
+    "id": "DLR5L17N53096",
+    "titre": "Projet de loi relatif à l’extension des prérogatives, des moyens, de l’organisation et du contrôle des polices municipales et des gardes champêtres",
+    "type": "Projet de loi ordinaire",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl25-097.html",
+    "nor": "",
+    "date": "2025-10-29",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53095",
+    "titre": "Projet de loi autorisant l’approbation de la convention d’extradition entre le Gouvernement de la République française et le Gouvernement de la République de Colombie",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl25-098.html",
+    "nor": "",
+    "date": "2025-10-29",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
     "id": "DLR5L17N53077",
     "titre": "Encourager la reconnaissance et la promotion des isolants textiles issus de l’économie circulaire dans le cadre de la politique européenne du bâtiment durable",
     "type": "Résolution",
@@ -238,26 +378,6 @@
     "nor": "",
     "date": "2025-10-29",
     "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N53074",
-    "titre": "Prendre toutes les mesures nécessaires pour faire respecter le droit international, dont le droit à l’autodétermination du peuple palestinien, condition nécessaire à l’établissement d’une paix juste et durable au Proche-Orient",
-    "type": "Résolution Article 34-1",
-    "auteur": "PA720892",
-    "url": "",
-    "nor": "",
-    "date": "2025-10-29",
-    "etat": "1er dépôt d'une initiative."
-  },
-  {
-    "id": "DLR5L17N53073",
-    "titre": "S’opposer à l’adoption de l’accord commercial entre l’Union européenne et le Mercosur",
-    "type": "Résolution Article 34-1",
-    "auteur": "PA720892",
-    "url": "",
-    "nor": "",
-    "date": "2025-10-29",
-    "etat": "1er dépôt d'une initiative."
   },
   {
     "id": "DLR5L17N52725",
@@ -398,6 +518,26 @@
     "nor": "",
     "date": "2025-10-29",
     "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N53100",
+    "titre": "Proposition de loi permettant aux conseils départementaux de bénéficier d'une compétence économique dérogatoire en cas de catastrophe sanitaire",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-082.html",
+    "nor": "",
+    "date": "2025-10-28",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53099",
+    "titre": "Proposition de loi visant à réduire les retards de paiement afin de lutter contre les défaillances d'entreprises",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-083.html",
+    "nor": "",
+    "date": "2025-10-28",
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N53072",
@@ -768,6 +908,46 @@
     "nor": "",
     "date": "2025-10-28",
     "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N53103",
+    "titre": "Proposition de loi tendant à ce que le régime de quorum appliqué aux syndicats mixtes fermés soit aligné sur celui appliqué aux syndicats mixtes ouverts",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-074.html",
+    "nor": "",
+    "date": "2025-10-27",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53102",
+    "titre": "Proposition de loi visant à soutenir les communes face aux incivilités du quotidien",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-075.html",
+    "nor": "",
+    "date": "2025-10-27",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53101",
+    "titre": "Proposition de loi visant à intégrer l'enseignement du jeu d'échecs à l'école",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-076.html",
+    "nor": "",
+    "date": "2025-10-27",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53097",
+    "titre": "Proposition de loi visant à réguler l'usage de la trottinette à assistance électrique",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-077.html",
+    "nor": "",
+    "date": "2025-10-27",
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N53035",
@@ -1250,26 +1430,6 @@
     "etat": "Renvoi en commission au fond"
   },
   {
-    "id": "DLR5L17N52977",
-    "titre": "Nationalisation d'ArcelorMittal France",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA795164",
-    "url": "",
-    "nor": "",
-    "date": "2025-10-14",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N52976",
-    "titre": "L'établissement de l’égalité d’accès au service public postal en outre-mer",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA721062",
-    "url": "",
-    "nor": "",
-    "date": "2025-10-14",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
     "id": "DLR5L17N52975",
     "titre": "Soutenir et valoriser les commerces de proximité",
     "type": "Proposition de loi ordinaire",
@@ -1290,38 +1450,8 @@
     "etat": "Renvoi en commission au fond"
   },
   {
-    "id": "DLR5L17N52973",
-    "titre": "Interdire l’importation en France de produits agricoles et denrées alimentaires contenant de l’acétamipride et à abroger la loi visant à lever les contraintes à l’exercice du métier d’agriculteur",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA719578",
-    "url": "",
-    "nor": "",
-    "date": "2025-10-14",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N52972",
-    "titre": "Garantir la gratuité totale des parkings des établissements publics de santé",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA841023",
-    "url": "",
-    "nor": "",
-    "date": "2025-10-14",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
     "id": "DLR5L17N52971",
     "titre": "Défiscaliser les pensions alimentaires perçues",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA791812",
-    "url": "",
-    "nor": "",
-    "date": "2025-10-14",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N52970",
-    "titre": "Défiscaliser les pensions alimentaires perçues et lutter contre la précarité des familles monoparentales",
     "type": "Proposition de loi ordinaire",
     "auteur": "PA791812",
     "url": "",
@@ -1354,16 +1484,6 @@
     "titre": "Supprimer la mention du sexe sur les cartes nationales d’identité",
     "type": "Proposition de loi ordinaire",
     "auteur": "PA795136",
-    "url": "",
-    "nor": "",
-    "date": "2025-10-14",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N52966",
-    "titre": "Exonérer les apprentis de la CSG-CRDS",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA794686",
     "url": "",
     "nor": "",
     "date": "2025-10-14",
@@ -9500,16 +9620,6 @@
     "etat": "Renvoi en commission au fond"
   },
   {
-    "id": "DLR5L17N51615",
-    "titre": "Mise en œuvre du Protocole de l’Organisation Mondiale de la Santé pour « lutter contre le commerce illicite de tabac »",
-    "type": "Résolution",
-    "auteur": "PA795350",
-    "url": "",
-    "nor": "",
-    "date": "2025-04-01",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
     "id": "DLR5L17N51512",
     "titre": "Assurer le développement raisonné et juste de l’agrivoltaïsme",
     "type": "Proposition de loi ordinaire",
@@ -14698,16 +14808,6 @@
     "nor": "",
     "date": "2024-11-28",
     "etat": "1er dépôt d'une initiative."
-  },
-  {
-    "id": "DLR5L17N50684",
-    "titre": "Abrogation de la retraite à 64 ans",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA720430",
-    "url": "",
-    "nor": "",
-    "date": "2024-11-28",
-    "etat": "Discussion en séance publique"
   },
   {
     "id": "DLR5L17N50668",
