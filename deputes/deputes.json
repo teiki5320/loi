@@ -60,6 +60,16 @@
     "groupeLibelle": "Socialistes et apparentés"
   },
   {
+    "id": "PA227089",
+    "nom": "Valérie Létard",
+    "email": "valerie.letard@assemblee-nationale.fr",
+    "circo": "21",
+    "dept": "Nord",
+    "groupe": "PO840056",
+    "groupeSigle": "NI",
+    "groupeLibelle": "Non inscrit"
+  },
+  {
     "id": "PA266793",
     "nom": "Jean-Yves Bony",
     "email": "Jean-Yves.Bony@assemblee-nationale.fr",
@@ -460,6 +470,16 @@
     "groupeLibelle": "Gauche Démocrate et Républicaine"
   },
   {
+    "id": "PA605782",
+    "nom": "Laurent Marcangeli",
+    "email": "laurent.marcangeli@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Corse-du-Sud",
+    "groupe": "PO840056",
+    "groupeSigle": "NI",
+    "groupeLibelle": "Non inscrit"
+  },
+  {
     "id": "PA606507",
     "nom": "Florent Boudié",
     "email": "Florent.Boudie@assemblee-nationale.fr",
@@ -548,6 +568,16 @@
     "groupe": "PO845485",
     "groupeSigle": "LIOT",
     "groupeLibelle": "Libertés, Indépendants, Outre-mer et Territoires"
+  },
+  {
+    "id": "PA608016",
+    "nom": "Véronique Louwagie",
+    "email": "Veronique.Louwagie@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Orne",
+    "groupe": "PO840056",
+    "groupeSigle": "NI",
+    "groupeLibelle": "Non inscrit"
   },
   {
     "id": "PA608172",
@@ -958,16 +988,6 @@
     "groupe": "PO845425",
     "groupeSigle": "DR",
     "groupeLibelle": "Droite Républicaine"
-  },
-  {
-    "id": "PA719282",
-    "nom": "Xavier Lacombe",
-    "email": "xavier.lacombe@assemblee-nationale.fr",
-    "circo": "1",
-    "dept": "Corse-du-Sud",
-    "groupe": "PO845470",
-    "groupeSigle": "HOR",
-    "groupeLibelle": "Horizons & Indépendants"
   },
   {
     "id": "PA719286",
@@ -2890,14 +2910,14 @@
     "groupeLibelle": "Rassemblement National"
   },
   {
-    "id": "PA794042",
-    "nom": "Sylvie Dezarnaud",
-    "email": "sylvie.dezarnaud@assemblee-nationale.fr",
+    "id": "PA794038",
+    "nom": "Yannick Neuder",
+    "email": "yannick.neuder@assemblee-nationale.fr",
     "circo": "7",
     "dept": "Isère",
-    "groupe": "PO845425",
-    "groupeSigle": "DR",
-    "groupeLibelle": "Droite Républicaine"
+    "groupe": "PO840056",
+    "groupeSigle": "NI",
+    "groupeLibelle": "Non inscrit"
   },
   {
     "id": "PA794058",
@@ -3210,16 +3230,6 @@
     "groupeLibelle": "Rassemblement National"
   },
   {
-    "id": "PA794554",
-    "nom": "Salvatore Castiglione",
-    "email": "salvatore.castiglione@assemblee-nationale.fr",
-    "circo": "21",
-    "dept": "Nord",
-    "groupe": "PO845485",
-    "groupeSigle": "LIOT",
-    "groupeLibelle": "Libertés, Indépendants, Outre-mer et Territoires"
-  },
-  {
     "id": "PA794562",
     "nom": "Philippe Ballard",
     "email": "philippe.ballard@assemblee-nationale.fr",
@@ -3348,16 +3358,6 @@
     "groupe": "PO845401",
     "groupeSigle": "RN",
     "groupeLibelle": "Rassemblement National"
-  },
-  {
-    "id": "PA794750",
-    "nom": "Thierry Liger",
-    "email": "thierry.liger@assemblee-nationale.fr",
-    "circo": "2",
-    "dept": "Orne",
-    "groupe": "PO845425",
-    "groupeSigle": "DR",
-    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA794762",
@@ -3578,6 +3578,16 @@
     "groupe": "PO845407",
     "groupeSigle": "EPR",
     "groupeLibelle": "Ensemble pour la République"
+  },
+  {
+    "id": "PA795050",
+    "nom": "Astrid Panosyan-Bouvet",
+    "email": "astrid.panosyan-bouvet@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Paris",
+    "groupe": "PO840056",
+    "groupeSigle": "NI",
+    "groupeLibelle": "Non inscrit"
   },
   {
     "id": "PA795076",
@@ -4130,14 +4140,14 @@
     "groupeLibelle": "Gauche Démocrate et Républicaine"
   },
   {
-    "id": "PA795888",
-    "nom": "Marie-Ange Rousselot",
-    "email": "marie-ange.rousselot@assemblee-nationale.fr",
+    "id": "PA795884",
+    "nom": "Marc Ferracci",
+    "email": "marc.ferracci@assemblee-nationale.fr",
     "circo": "6",
     "dept": "Français établis hors de France",
-    "groupe": "PO845407",
-    "groupeSigle": "EPR",
-    "groupeLibelle": "Ensemble pour la République"
+    "groupe": "PO840056",
+    "groupeSigle": "NI",
+    "groupeLibelle": "Non inscrit"
   },
   {
     "id": "PA795900",
@@ -5288,16 +5298,6 @@
     "groupe": "PO845439",
     "groupeSigle": "EcoS",
     "groupeLibelle": "Écologiste et Social"
-  },
-  {
-    "id": "PA841709",
-    "nom": "Emmanuelle Hoffman",
-    "email": "emmanuelle.hoffman@assemblee-nationale.fr",
-    "circo": "4",
-    "dept": "Paris",
-    "groupe": "PO845407",
-    "groupeSigle": "EPR",
-    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA841713",
