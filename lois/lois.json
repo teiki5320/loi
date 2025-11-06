@@ -130,6 +130,16 @@
     "etat": "Discussion en séance publique"
   },
   {
+    "id": "DLR5L17N51519",
+    "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et le Gouvernement de la République de Chypre sur la coopération lors des opérations d’évacuation à partir de la région du Moyen-Orient via le territoire de la République de Chypre dans le cadre d’une situation de crise",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA410",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl24-345.html",
+    "nor": "",
+    "date": "2025-11-19",
+    "etat": "Réunion de commission"
+  },
+  {
     "id": "DLR5L17N51173",
     "titre": "Proposition de loi organique tendant à modifier le II de l’article 43 de la loi organique n° 2004-192 du 27 février 2004 portant statut d’autonomie de la Polynésie française",
     "type": "Projet ou proposition de loi organique",
@@ -180,6 +190,26 @@
     "etat": "Réunion de commission"
   },
   {
+    "id": "DLR5L17N53111",
+    "titre": "Le traitement judiciaire et institutionnel des affaires d’inceste parental, notamment paternel, et les dysfonctionnements dans la prise en charge des signalements",
+    "type": "Résolution",
+    "auteur": "PA720038",
+    "url": "",
+    "nor": "",
+    "date": "2025-11-05",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53110",
+    "titre": "mission d’information sur « création, diffusion et acquisition des connaissances : comment l’intelligence artificielle transforme notre éducation et notre culture",
+    "type": "Mission d'information",
+    "auteur": "PO874520",
+    "url": "",
+    "nor": "",
+    "date": "2025-11-05",
+    "etat": "Création d'une mission d'information"
+  },
+  {
     "id": "DLR5L17N52305",
     "titre": "Garantir l’attribution post 2030 de la bande de fréquences inférieure à 700 mégahertz à la télévision numérique terrestre",
     "type": "Résolution",
@@ -198,6 +228,36 @@
     "nor": "",
     "date": "2025-11-04",
     "etat": "1er dépôt d'une initiative."
+  },
+  {
+    "id": "DLR5L17N52699",
+    "titre": "Proposition de loi pour la sécurisation juridique des structures économiques face aux risques de blanchiment",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-877.html",
+    "nor": "",
+    "date": "2025-11-04",
+    "etat": "Le gouvernement déclare l'urgence / engage la procédure accélérée"
+  },
+  {
+    "id": "DLR5L17N53106",
+    "titre": "Proposition de loi visant à adapter la réserve héréditaire en cas d'héritage d'un montant exceptionnel",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-102.html",
+    "nor": "",
+    "date": "2025-11-03",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N51973",
+    "titre": "Garantir un cadre fiscal stable, juste et lisible pour nos micro-entrepreneurs et nos petites entreprises",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA795664",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-677.html",
+    "nor": "",
+    "date": "2025-11-03",
+    "etat": "Promulgation d'une loi"
   },
   {
     "id": "DLR5L17N53098",
@@ -238,6 +298,16 @@
     "nor": "",
     "date": "2025-10-31",
     "etat": "Retrait d'une initiative"
+  },
+  {
+    "id": "DLR5L17N53104",
+    "titre": "Proposition de loi visant à réformer le financement de l'obligation de débroussaillement",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-100.html",
+    "nor": "",
+    "date": "2025-10-30",
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N52801",
@@ -400,16 +470,6 @@
     "etat": "Réunion de commission"
   },
   {
-    "id": "DLR5L17N52699",
-    "titre": "Proposition de loi pour la sécurisation juridique des structures économiques face aux risques de blanchiment",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-877.html",
-    "nor": "",
-    "date": "2025-10-29",
-    "etat": "Dépôt de rapport"
-  },
-  {
     "id": "DLR5L17N52600",
     "titre": "Projet de loi de lutte contre la vie chère dans les outre-mer",
     "type": "Projet de loi ordinaire",
@@ -475,16 +535,6 @@
     "type": "Résolution",
     "auteur": "PA794906",
     "url": "",
-    "nor": "",
-    "date": "2025-10-29",
-    "etat": "Réunion de commission"
-  },
-  {
-    "id": "DLR5L17N51519",
-    "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et le Gouvernement de la République de Chypre sur la coopération lors des opérations d’évacuation à partir de la région du Moyen-Orient via le territoire de la République de Chypre dans le cadre d’une situation de crise",
-    "type": "Projet de ratification des traités et conventions",
-    "auteur": "PA410",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl24-345.html",
     "nor": "",
     "date": "2025-10-29",
     "etat": "Réunion de commission"
@@ -910,6 +960,16 @@
     "etat": "Dépôt de rapport"
   },
   {
+    "id": "DLR5L17N53107",
+    "titre": "Proposition de loi organique visant au renforcement du contrôle budgétaire par le Parlement et le Haut Conseil des finances publiques",
+    "type": "Projet ou proposition de loi organique",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-078.html",
+    "nor": "",
+    "date": "2025-10-27",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
     "id": "DLR5L17N53103",
     "titre": "Proposition de loi tendant à ce que le régime de quorum appliqué aux syndicats mixtes fermés soit aligné sur celui appliqué aux syndicats mixtes ouverts",
     "type": "Proposition de loi ordinaire",
@@ -1028,16 +1088,6 @@
     "nor": "",
     "date": "2025-10-23",
     "etat": "Dépôt de rapport"
-  },
-  {
-    "id": "DLR5L17N51973",
-    "titre": "Garantir un cadre fiscal stable, juste et lisible pour nos micro-entrepreneurs et nos petites entreprises",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA795664",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-677.html",
-    "nor": "",
-    "date": "2025-10-23",
-    "etat": "Décision"
   },
   {
     "id": "DLR5L17N53018",
