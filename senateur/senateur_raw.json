@@ -5613,10 +5613,10 @@
   "url": "/senateur/sene_marc21510h.html",
   "urlAvatar": "/senimg/sene_marc21510h_carre.jpg",
   "organismes": [{
-    "code": "COM-LOIS",
+    "code": "COM-CAE",
     "type": "COMMISSION",
-    "libelle": "Commission des lois constitutionnelles, de législation, du suffrage universel, du Règlement et d'administration générale",
-    "ordre": 7007
+    "libelle": "Commission des affaires économiques",
+    "ordre": 7001
   }],
   "groupe": {
     "code": "UMP",
@@ -7662,6 +7662,11 @@
   "twitter": "sophieprimas",
   "facebook": "100042666172565",
   "organismes": [{
+    "code": "COM-FINC",
+    "type": "COMMISSION",
+    "libelle": "Commission des finances",
+    "ordre": 7006
+  },{
     "code": "COMENQ-TIKTO",
     "type": "TEMPORAIRE",
     "libelle": "Commission d'enquête sur l'utilisation du réseau social tiktok, son exploitation des données, sa stratégie d'influence",
@@ -12606,10 +12611,10 @@
   "twitter": "jbblanc84",
   "facebook": "100056145245008",
   "organismes": [{
-    "code": "COM-FINC",
+    "code": "COM-LOIS",
     "type": "COMMISSION",
-    "libelle": "Commission des finances",
-    "ordre": 7006
+    "libelle": "Commission des lois constitutionnelles, de législation, du suffrage universel, du Règlement et d'administration générale",
+    "ordre": 7007
   },{
     "code": "COMSPE-CZAN",
     "type": "TEMPORAIRE",
