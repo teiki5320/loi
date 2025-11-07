@@ -43,43 +43,6 @@
     "ordre": 57
   }
 },{
-  "matricule": "21422J",
-  "nom": "Ramia",
-  "prenom": "Salama",
-  "tri": "RAMIA SALAMA",
-  "civilite": "Mme",
-  "feminise": true,
-  "serie": "1",
-  "siege": 2,
-  "url": "/senateur/ramia_salama21422j.html",
-  "urlAvatar": "/senimg/ramia_salama21422j_carre.jpg",
-  "organismes": [{
-    "code": "COM-LOIS",
-    "type": "COMMISSION",
-    "libelle": "Commission des lois constitutionnelles, de législation, du suffrage universel, du Règlement et d'administration générale",
-    "ordre": 7007
-  },{
-    "code": "DELEGA-DSOM",
-    "type": "DELEGATION/OFFICE",
-    "libelle": "Délégation sénatoriale aux outre-mer",
-    "ordre": 16005
-  }],
-  "groupe": {
-    "code": "LREM",
-    "libelle": "Groupe Rassemblement des démocrates, progressistes et indépendants",
-    "ordre": 5
-  },
-  "circonscription": {
-    "code": "976",
-    "libelle": "Mayotte",
-    "ordre": 976
-  },
-  "categorieProfessionnelle": {
-    "code": "80",
-    "libelle": "Sans profession declarée",
-    "ordre": 80
-  }
-},{
   "matricule": "14207L",
   "nom": "Cabanel",
   "prenom": "Henri",
@@ -2859,48 +2822,6 @@
     "code": "56",
     "libelle": "Professions judiciaires (Magistrats)",
     "ordre": 56
-  }
-},{
-  "matricule": "21419P",
-  "nom": "Conte Jaubert",
-  "prenom": "Mireille",
-  "tri": "CONTE_JAUBERT MIREILLE",
-  "civilite": "Mme",
-  "feminise": true,
-  "serie": "2",
-  "siege": 51,
-  "url": "/senateur/conte_jaubert_mireille21419p.html",
-  "urlAvatar": "/senimg/conte_jaubert_mireille21419p_carre.jpg",
-  "organismes": [{
-    "code": "AUTRES-SFAPF",
-    "type": "AUTRE",
-    "libelle": "Section française de l'Assemblée parlementaire de la francophonie (A.P.F.)",
-    "ordre": 60017
-  },{
-    "code": "COM-AFCL",
-    "type": "COMMISSION",
-    "libelle": "Commission de la culture, de l'éducation, de la communication et du sport",
-    "ordre": 7005
-  },{
-    "code": "DELEGA-ENTREPRISES",
-    "type": "DELEGATION/OFFICE",
-    "libelle": "Délégation sénatoriale aux entreprises",
-    "ordre": 16004
-  }],
-  "groupe": {
-    "code": "RDSE",
-    "libelle": "Groupe du Rassemblement Démocratique et Social Européen",
-    "ordre": 7
-  },
-  "circonscription": {
-    "code": "33",
-    "libelle": "Gironde",
-    "ordre": 330
-  },
-  "categorieProfessionnelle": {
-    "code": "80",
-    "libelle": "Sans profession declarée",
-    "ordre": 80
   }
 },{
   "matricule": "19611R",
@@ -8142,43 +8063,6 @@
     "code": "52",
     "libelle": "Professions judiciaires et libérales (Officiers ministériels)",
     "ordre": 52
-  }
-},{
-  "matricule": "21416L",
-  "nom": "Vidal",
-  "prenom": "Paul",
-  "tri": "VIDAL PAUL",
-  "civilite": "M.",
-  "feminise": false,
-  "serie": "2",
-  "siege": 139,
-  "url": "/senateur/vidal_paul21416l.html",
-  "urlAvatar": "/senimg/vidal_paul21416l_carre.jpg",
-  "organismes": [{
-    "code": "COM-CDD",
-    "type": "COMMISSION",
-    "libelle": "Commission de l'aménagement du territoire et du développement durable",
-    "ordre": 7004
-  },{
-    "code": "DELEGA-DSOM",
-    "type": "DELEGATION/OFFICE",
-    "libelle": "Délégation sénatoriale aux outre-mer",
-    "ordre": 16005
-  }],
-  "groupe": {
-    "code": "UMP",
-    "libelle": "Groupe Les Républicains",
-    "ordre": 1
-  },
-  "circonscription": {
-    "code": "69",
-    "libelle": "Rhône",
-    "ordre": 690
-  },
-  "categorieProfessionnelle": {
-    "code": "80",
-    "libelle": "Sans profession declarée",
-    "ordre": 80
   }
 },{
   "matricule": "19695N",
@@ -20655,5 +20539,107 @@
     "code": "80",
     "libelle": "Sans profession declarée",
     "ordre": 80
+  }
+},{
+  "matricule": "11072N",
+  "nom": "Mohamed Soilihi",
+  "prenom": "Thani",
+  "tri": "MOHAMED_SOILIHI_THANI_11072N",
+  "civilite": "M.",
+  "feminise": false,
+  "serie": "1",
+  "siege": 0,
+  "url": "/senateur/mohamed_soilihi_thani11072n.html",
+  "urlAvatar": "/senimg/mohamed_soilihi_thani11072n_carre.jpg",
+  "twitter": "TMohamedSoilihi",
+  "facebook": "100003090871052",
+  "organismes": [{
+    "code": "DELEGA-DSOM",
+    "type": "DELEGATION/OFFICE",
+    "libelle": "Délégation sénatoriale aux outre-mer",
+    "ordre": 16005
+  }],
+  "groupe": {
+    "code": "LREM",
+    "libelle": "Groupe Rassemblement des démocrates, progressistes et indépendants",
+    "ordre": 5
+  },
+  "circonscription": {
+    "code": "976",
+    "libelle": "Mayotte",
+    "ordre": 976
+  },
+  "categorieProfessionnelle": {
+    "code": "51",
+    "libelle": "Professions judiciaires et libérales (Avocats)",
+    "ordre": 51
+  }
+},{
+  "matricule": "19719D",
+  "nom": "Delattre",
+  "prenom": "Nathalie",
+  "tri": "DELATTRE_NATHALIE",
+  "civilite": "Mme",
+  "feminise": true,
+  "serie": "2",
+  "siege": 0,
+  "url": "/senateur/delattre_nathalie19719d.html",
+  "urlAvatar": "/senimg/delattre_nathalie19719d_carre.jpg",
+  "twitter": "n_delattre",
+  "facebook": "100057732863453",
+  "organismes": [{
+    "code": "COMSPE-SIMP",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission spéciale sur le projet de loi simplification",
+    "ordre": 24999
+  },{
+    "code": "COMSPE-CINC",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission spéciale sur la proposition de loi visant à renforcer la prévention et la lutte contre l'intensification et l'extension du risque incendie",
+    "ordre": 24999
+  }],
+  "groupe": {
+    "code": "RDSE",
+    "libelle": "Groupe du Rassemblement Démocratique et Social Européen",
+    "ordre": 7
+  },
+  "circonscription": {
+    "code": "33",
+    "libelle": "Gironde",
+    "ordre": 330
+  },
+  "categorieProfessionnelle": {
+    "code": "80",
+    "libelle": "Sans profession declarée",
+    "ordre": 80
+  }
+},{
+  "matricule": "04047H",
+  "nom": "Buffet",
+  "prenom": "François-Noël",
+  "tri": "BUFFET FRANÇOIS-NOËL",
+  "civilite": "M.",
+  "feminise": false,
+  "serie": "2",
+  "siege": 0,
+  "url": "/senateur/buffet_francois_noel04047h.html",
+  "urlAvatar": "/senimg/buffet_francois_noel04047h_carre.jpg",
+  "twitter": "fnb_officiel",
+  "facebook": "100002970954666",
+  "organismes": [],
+  "groupe": {
+    "code": "UMP",
+    "libelle": "Groupe Les Républicains",
+    "ordre": 1
+  },
+  "circonscription": {
+    "code": "69",
+    "libelle": "Rhône",
+    "ordre": 690
+  },
+  "categorieProfessionnelle": {
+    "code": "57",
+    "libelle": "Professions judiciaires et libérales (Divers)",
+    "ordre": 57
   }
 }]
