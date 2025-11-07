@@ -475,9 +475,9 @@
     "email": "laurent.marcangeli@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Corse-du-Sud",
-    "groupe": "PO840056",
-    "groupeSigle": "NI",
-    "groupeLibelle": "Non inscrit"
+    "groupe": "PO845470",
+    "groupeSigle": "HOR",
+    "groupeLibelle": "Horizons & Indépendants"
   },
   {
     "id": "PA606507",
@@ -575,9 +575,9 @@
     "email": "Veronique.Louwagie@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Orne",
-    "groupe": "PO840056",
-    "groupeSigle": "NI",
-    "groupeLibelle": "Non inscrit"
+    "groupe": "PO845425",
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA608172",
@@ -1780,16 +1780,6 @@
     "groupeLibelle": "Ensemble pour la République"
   },
   {
-    "id": "PA721442",
-    "nom": "Christelle Petex",
-    "email": "christelle.petex-levet@assemblee-nationale.fr",
-    "circo": "3",
-    "dept": "Haute-Savoie",
-    "groupe": "PO845425",
-    "groupeSigle": "DR",
-    "groupeLibelle": "Droite Républicaine"
-  },
-  {
     "id": "PA721458",
     "nom": "Xavier Roseren",
     "email": "Xavier.Roseren@assemblee-nationale.fr",
@@ -2915,9 +2905,9 @@
     "email": "yannick.neuder@assemblee-nationale.fr",
     "circo": "7",
     "dept": "Isère",
-    "groupe": "PO840056",
-    "groupeSigle": "NI",
-    "groupeLibelle": "Non inscrit"
+    "groupe": "PO845425",
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
   },
   {
     "id": "PA794058",
@@ -3585,9 +3575,9 @@
     "email": "astrid.panosyan-bouvet@assemblee-nationale.fr",
     "circo": "4",
     "dept": "Paris",
-    "groupe": "PO840056",
-    "groupeSigle": "NI",
-    "groupeLibelle": "Non inscrit"
+    "groupe": "PO845407",
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA795076",
@@ -4145,9 +4135,9 @@
     "email": "marc.ferracci@assemblee-nationale.fr",
     "circo": "6",
     "dept": "Français établis hors de France",
-    "groupe": "PO840056",
-    "groupeSigle": "NI",
-    "groupeLibelle": "Non inscrit"
+    "groupe": "PO845407",
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA795900",
