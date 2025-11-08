@@ -19644,7 +19644,12 @@
   "siege": 333,
   "url": "/senateur/mouton_marie_pierre21534r.html",
   "urlAvatar": "/senimg/mouton_marie_pierre21534r_carre.jpg",
-  "organismes": [],
+  "organismes": [{
+    "code": "COM-CDD",
+    "type": "COMMISSION",
+    "libelle": "Commission de l'aménagement du territoire et du développement durable",
+    "ordre": 7004
+  }],
   "groupe": {
     "code": "UMP",
     "libelle": "Groupe Les Républicains",
@@ -20626,7 +20631,12 @@
   "urlAvatar": "/senimg/buffet_francois_noel04047h_carre.jpg",
   "twitter": "fnb_officiel",
   "facebook": "100002970954666",
-  "organismes": [],
+  "organismes": [{
+    "code": "COM-ETRD",
+    "type": "COMMISSION",
+    "libelle": "Commission des affaires étrangères, de la défense et des forces armées",
+    "ordre": 7002
+  }],
   "groupe": {
     "code": "UMP",
     "libelle": "Groupe Les Républicains",
