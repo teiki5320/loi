@@ -16486,6 +16486,11 @@
     "libelle": "Groupe d'études Pêche et produits de la mer",
     "ordre": 50001
   },{
+    "code": "ETUDES-957",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Industrie",
+    "ordre": 50563
+  },{
     "code": "MISINFCOM-BREXIT3",
     "type": "TEMPORAIRE",
     "libelle": "Groupe de suivi de la nouvelle relation euro-britannique",
@@ -20593,15 +20598,20 @@
   "twitter": "n_delattre",
   "facebook": "100057732863453",
   "organismes": [{
+    "code": "COMSPE-CINC",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission spéciale sur la proposition de loi visant à renforcer la prévention et la lutte contre l'intensification et l'extension du risque incendie",
+    "ordre": 24999
+  },{
     "code": "COMSPE-SIMP",
     "type": "TEMPORAIRE",
     "libelle": "Commission spéciale sur le projet de loi simplification",
     "ordre": 24999
   },{
-    "code": "COMSPE-CINC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à renforcer la prévention et la lutte contre l'intensification et l'extension du risque incendie",
-    "ordre": 24999
+    "code": "ETUDES-957",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Industrie",
+    "ordre": 50563
   }],
   "groupe": {
     "code": "RDSE",
