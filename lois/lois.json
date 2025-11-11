@@ -230,6 +230,36 @@
     "etat": "Réunion de commission"
   },
   {
+    "id": "DLR5L17N53136",
+    "titre": "Rapport sur la pétition n° 3014 du 10 juillet 2025 « Non à la loi Duplomb, pour la santé, la sécurité, l’intelligence collective »",
+    "type": "Pétitions",
+    "auteur": "",
+    "url": "",
+    "nor": "",
+    "date": "2025-11-10",
+    "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N53135",
+    "titre": "Projet de loi de finances de fin de gestion pour 2025",
+    "type": "Projet de loi de finances rectificative",
+    "auteur": "PA643210",
+    "url": "",
+    "nor": "",
+    "date": "2025-11-10",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53111",
+    "titre": "Le traitement judiciaire et institutionnel des affaires d’inceste parental, notamment paternel, et les dysfonctionnements dans la prise en charge des signalements",
+    "type": "Résolution",
+    "auteur": "PA720038",
+    "url": "",
+    "nor": "",
+    "date": "2025-11-10",
+    "etat": "Retrait d'une initiative"
+  },
+  {
     "id": "DLR5L17N53119",
     "titre": "Proposition de loi visant à étendre le revenu de solidarité active aux jeunes sans emploi ni formation de 16 à 25 ans",
     "type": "Proposition de loi ordinaire",
@@ -241,7 +271,7 @@
   },
   {
     "id": "DLR5L17N53116",
-    "titre": "visant à lever les incertitudes budgétaires en matière de sécurité sociale",
+    "titre": "Lever les incertitudes budgétaires en matière de sécurité sociale",
     "type": "Résolution",
     "auteur": "PA793354",
     "url": "",
@@ -355,16 +385,6 @@
     "type": "Proposition de loi ordinaire",
     "auteur": "PO78718",
     "url": "http://www.senat.fr/dossier-legislatif/ppl25-108.html",
-    "nor": "",
-    "date": "2025-11-05",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N53111",
-    "titre": "Le traitement judiciaire et institutionnel des affaires d’inceste parental, notamment paternel, et les dysfonctionnements dans la prise en charge des signalements",
-    "type": "Résolution",
-    "auteur": "PA720038",
-    "url": "",
     "nor": "",
     "date": "2025-11-05",
     "etat": "Renvoi en commission au fond"
