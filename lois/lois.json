@@ -200,16 +200,6 @@
     "etat": "Discussion en séance publique"
   },
   {
-    "id": "DLR5L17N52728",
-    "titre": "Empêcher la ratification de l’accord entre l'Union européenne et le Mercosur en demandant à l’État français la saisine de la Cour de justice de l’Union européenne pour cause d’incompatibilité de l’accord avec les traités européens",
-    "type": "Résolution",
-    "auteur": "PA722142",
-    "url": "",
-    "nor": "",
-    "date": "2025-11-12",
-    "etat": "Réunion de commission"
-  },
-  {
     "id": "DLR5L17N52598",
     "titre": "Rejeter le projet d'accord sur les droits de douane et le commerce du 27 juillet 2025 entre l’Union européenne et les Etats-Unis",
     "type": "Résolution",
@@ -1268,6 +1258,16 @@
     "nor": "",
     "date": "2025-10-22",
     "etat": "Renvoi préalable"
+  },
+  {
+    "id": "DLR5L17N52728",
+    "titre": "Empêcher la ratification de l’accord entre l'Union européenne et le Mercosur en demandant à l’État français la saisine de la Cour de justice de l’Union européenne pour cause d’incompatibilité de l’accord avec les traités européens",
+    "type": "Résolution",
+    "auteur": "PA722142",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-22",
+    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L17N52129",
