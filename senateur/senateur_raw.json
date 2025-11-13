@@ -43,6 +43,45 @@
     "ordre": 57
   }
 },{
+  "matricule": "11072N",
+  "nom": "Mohamed Soilihi",
+  "prenom": "Thani",
+  "tri": "MOHAMED_SOILIHI_THANI_11072N",
+  "civilite": "M.",
+  "feminise": false,
+  "serie": "1",
+  "siege": 2,
+  "url": "/senateur/mohamed_soilihi_thani11072n.html",
+  "urlAvatar": "/senimg/mohamed_soilihi_thani11072n_carre.jpg",
+  "twitter": "TMohamedSoilihi",
+  "facebook": "100003090871052",
+  "organismes": [{
+    "code": "COM-LOIS",
+    "type": "COMMISSION",
+    "libelle": "Commission des lois constitutionnelles, de législation, du suffrage universel, du Règlement et d'administration générale",
+    "ordre": 7007
+  },{
+    "code": "DELEGA-DSOM",
+    "type": "DELEGATION/OFFICE",
+    "libelle": "Délégation sénatoriale aux outre-mer",
+    "ordre": 16005
+  }],
+  "groupe": {
+    "code": "LREM",
+    "libelle": "Groupe Rassemblement des démocrates, progressistes et indépendants",
+    "ordre": 5
+  },
+  "circonscription": {
+    "code": "976",
+    "libelle": "Mayotte",
+    "ordre": 976
+  },
+  "categorieProfessionnelle": {
+    "code": "51",
+    "libelle": "Professions judiciaires et libérales (Avocats)",
+    "ordre": 51
+  }
+},{
   "matricule": "14207L",
   "nom": "Cabanel",
   "prenom": "Henri",
@@ -97,58 +136,38 @@
     "ordre": 10
   }
 },{
-  "matricule": "20132W",
-  "nom": "Fialaire",
-  "prenom": "Bernard",
-  "tri": "FIALAIRE_BERNARD",
-  "civilite": "M.",
-  "feminise": false,
+  "matricule": "19719D",
+  "nom": "Delattre",
+  "prenom": "Nathalie",
+  "tri": "DELATTRE_NATHALIE",
+  "civilite": "Mme",
+  "feminise": true,
   "serie": "2",
   "siege": 4,
-  "url": "/senateur/fialaire_bernard20132w.html",
-  "urlAvatar": "/senimg/fialaire_bernard20132w_carre.jpg",
-  "twitter": "BernardFialaire",
-  "facebook": "100006429324480",
+  "url": "/senateur/delattre_nathalie19719d.html",
+  "urlAvatar": "/senimg/delattre_nathalie19719d_carre.jpg",
+  "twitter": "n_delattre",
+  "facebook": "100057732863453",
   "organismes": [{
-    "code": "AUTRES-SFAPF",
-    "type": "AUTRE",
-    "libelle": "Section française de l'Assemblée parlementaire de la francophonie (A.P.F.)",
-    "ordre": 60017
-  },{
     "code": "COM-AFCL",
     "type": "COMMISSION",
     "libelle": "Commission de la culture, de l'éducation, de la communication et du sport",
     "ordre": 7005
   },{
-    "code": "COMSPE-CYBE",
+    "code": "COMSPE-CINC",
     "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi relatif à la résilience des activités d'importance vitale, à la protection des infrastructures critiques, à la cybersécurité et à la résilience opérationnelle numérique du secteur financier",
+    "libelle": "Commission spéciale sur la proposition de loi visant à renforcer la prévention et la lutte contre l'intensification et l'extension du risque incendie",
     "ordre": 24999
   },{
-    "code": "COMSPE-ESNU",
+    "code": "COMSPE-SIMP",
     "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi visant à sécuriser et réguler l'espace numérique",
+    "libelle": "Commission spéciale sur le projet de loi simplification",
     "ordre": 24999
   },{
-    "code": "DELEGA-PROS",
-    "type": "DELEGATION/OFFICE",
-    "libelle": "Délégation sénatoriale à la prospective",
-    "ordre": 16006
-  },{
-    "code": "ETUDES-1008",
+    "code": "ETUDES-957",
     "type": "ETUDE",
-    "libelle": "Groupe Numérique",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-934",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
-    "ordre": 50001
-  },{
-    "code": "MISINFCOM-BATI",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « le bâti scolaire à l'épreuve de la transition écologique »",
-    "ordre": 42999
+    "libelle": "Groupe d'études Industrie",
+    "ordre": 50563
   }],
   "groupe": {
     "code": "RDSE",
@@ -156,14 +175,14 @@
     "ordre": 7
   },
   "circonscription": {
-    "code": "69",
-    "libelle": "Rhône",
-    "ordre": 690
+    "code": "33",
+    "libelle": "Gironde",
+    "ordre": 330
   },
   "categorieProfessionnelle": {
-    "code": "57",
-    "libelle": "Professions judiciaires et libérales (Divers)",
-    "ordre": 57
+    "code": "80",
+    "libelle": "Sans profession declarée",
+    "ordre": 80
   }
 },{
   "matricule": "21421H",
@@ -1561,53 +1580,6 @@
     "ordre": 32
   }
 },{
-  "matricule": "21424L",
-  "nom": "Hybert",
-  "prenom": "Brigitte",
-  "tri": "HYBERT BRIGITTE",
-  "civilite": "Mme",
-  "feminise": true,
-  "serie": "2",
-  "siege": 29,
-  "url": "/senateur/hybert_brigitte21424l.html",
-  "urlAvatar": "/senimg/hybert_brigitte21424l_carre.jpg",
-  "organismes": [{
-    "code": "COM-CAE",
-    "type": "COMMISSION",
-    "libelle": "Commission des affaires économiques",
-    "ordre": 7001
-  },{
-    "code": "DELEGA-ENTREPRISES",
-    "type": "DELEGATION/OFFICE",
-    "libelle": "Délégation sénatoriale aux entreprises",
-    "ordre": 16004
-  },{
-    "code": "ETUDES-908",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Mer et littoral",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-1015",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Pêche et produits de la mer",
-    "ordre": 50001
-  }],
-  "groupe": {
-    "code": "UMP",
-    "libelle": "Groupe Les Républicains",
-    "ordre": 1
-  },
-  "circonscription": {
-    "code": "85",
-    "libelle": "Vendée",
-    "ordre": 850
-  },
-  "categorieProfessionnelle": {
-    "code": "80",
-    "libelle": "Sans profession declarée",
-    "ordre": 80
-  }
-},{
   "matricule": "08010L",
   "nom": "Lefèvre",
   "prenom": "Antoine",
@@ -2822,6 +2794,75 @@
     "code": "56",
     "libelle": "Professions judiciaires (Magistrats)",
     "ordre": 56
+  }
+},{
+  "matricule": "20132W",
+  "nom": "Fialaire",
+  "prenom": "Bernard",
+  "tri": "FIALAIRE_BERNARD",
+  "civilite": "M.",
+  "feminise": false,
+  "serie": "2",
+  "siege": 51,
+  "url": "/senateur/fialaire_bernard20132w.html",
+  "urlAvatar": "/senimg/fialaire_bernard20132w_carre.jpg",
+  "twitter": "BernardFialaire",
+  "facebook": "100006429324480",
+  "organismes": [{
+    "code": "AUTRES-SFAPF",
+    "type": "AUTRE",
+    "libelle": "Section française de l'Assemblée parlementaire de la francophonie (A.P.F.)",
+    "ordre": 60017
+  },{
+    "code": "COM-AFCL",
+    "type": "COMMISSION",
+    "libelle": "Commission de la culture, de l'éducation, de la communication et du sport",
+    "ordre": 7005
+  },{
+    "code": "COMSPE-CYBE",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission spéciale sur le projet de loi relatif à la résilience des activités d'importance vitale, à la protection des infrastructures critiques, à la cybersécurité et à la résilience opérationnelle numérique du secteur financier",
+    "ordre": 24999
+  },{
+    "code": "COMSPE-ESNU",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission spéciale sur le projet de loi visant à sécuriser et réguler l'espace numérique",
+    "ordre": 24999
+  },{
+    "code": "DELEGA-PROS",
+    "type": "DELEGATION/OFFICE",
+    "libelle": "Délégation sénatoriale à la prospective",
+    "ordre": 16006
+  },{
+    "code": "ETUDES-1008",
+    "type": "ETUDE",
+    "libelle": "Groupe Numérique",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-934",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
+    "ordre": 50001
+  },{
+    "code": "MISINFCOM-BATI",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « le bâti scolaire à l'épreuve de la transition écologique »",
+    "ordre": 42999
+  }],
+  "groupe": {
+    "code": "RDSE",
+    "libelle": "Groupe du Rassemblement Démocratique et Social Européen",
+    "ordre": 7
+  },
+  "circonscription": {
+    "code": "69",
+    "libelle": "Rhône",
+    "ordre": 690
+  },
+  "categorieProfessionnelle": {
+    "code": "57",
+    "libelle": "Professions judiciaires et libérales (Divers)",
+    "ordre": 57
   }
 },{
   "matricule": "19611R",
@@ -5523,21 +5564,23 @@
     "ordre": 73
   }
 },{
-  "matricule": "21510H",
-  "nom": "Séné",
-  "prenom": "Marc",
-  "tri": "SENE MARC",
+  "matricule": "04047H",
+  "nom": "Buffet",
+  "prenom": "François-Noël",
+  "tri": "BUFFET FRANÇOIS-NOËL",
   "civilite": "M.",
   "feminise": false,
   "serie": "2",
   "siege": 97,
-  "url": "/senateur/sene_marc21510h.html",
-  "urlAvatar": "/senimg/sene_marc21510h_carre.jpg",
+  "url": "/senateur/buffet_francois_noel04047h.html",
+  "urlAvatar": "/senimg/buffet_francois_noel04047h_carre.jpg",
+  "twitter": "fnb_officiel",
+  "facebook": "100002970954666",
   "organismes": [{
-    "code": "COM-CAE",
+    "code": "COM-ETRD",
     "type": "COMMISSION",
-    "libelle": "Commission des affaires économiques",
-    "ordre": 7001
+    "libelle": "Commission des affaires étrangères, de la défense et des forces armées",
+    "ordre": 7002
   }],
   "groupe": {
     "code": "UMP",
@@ -5545,14 +5588,14 @@
     "ordre": 1
   },
   "circonscription": {
-    "code": "67",
-    "libelle": "Bas-Rhin",
-    "ordre": 670
+    "code": "69",
+    "libelle": "Rhône",
+    "ordre": 690
   },
   "categorieProfessionnelle": {
-    "code": "80",
-    "libelle": "Sans profession declarée",
-    "ordre": 80
+    "code": "57",
+    "libelle": "Professions judiciaires et libérales (Divers)",
+    "ordre": 57
   }
 },{
   "matricule": "19573D",
@@ -8063,6 +8106,38 @@
     "code": "52",
     "libelle": "Professions judiciaires et libérales (Officiers ministériels)",
     "ordre": 52
+  }
+},{
+  "matricule": "21510H",
+  "nom": "Séné",
+  "prenom": "Marc",
+  "tri": "SENE MARC",
+  "civilite": "M.",
+  "feminise": false,
+  "serie": "2",
+  "siege": 139,
+  "url": "/senateur/sene_marc21510h.html",
+  "urlAvatar": "/senimg/sene_marc21510h_carre.jpg",
+  "organismes": [{
+    "code": "COM-CAE",
+    "type": "COMMISSION",
+    "libelle": "Commission des affaires économiques",
+    "ordre": 7001
+  }],
+  "groupe": {
+    "code": "UMP",
+    "libelle": "Groupe Les Républicains",
+    "ordre": 1
+  },
+  "circonscription": {
+    "code": "67",
+    "libelle": "Bas-Rhin",
+    "ordre": 670
+  },
+  "categorieProfessionnelle": {
+    "code": "80",
+    "libelle": "Sans profession declarée",
+    "ordre": 80
   }
 },{
   "matricule": "19695N",
@@ -10888,6 +10963,11 @@
     "type": "ETUDE",
     "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
+  },{
+    "code": "ETUDES-957",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Industrie",
+    "ordre": 50563
   }],
   "groupe": {
     "code": "SOC",
@@ -18206,6 +18286,31 @@
     "type": "COMMISSION",
     "libelle": "Commission des affaires économiques",
     "ordre": 7001
+  },{
+    "code": "ETUDES-1015",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Pêche et produits de la mer",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-957",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Industrie",
+    "ordre": 50563
+  },{
+    "code": "ETUDES-907",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Chasse et pêche",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-909",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Vigne et vin",
+    "ordre": 50001
   }],
   "groupe": {
     "code": "RTLI",
@@ -20551,115 +20656,32 @@
     "ordre": 80
   }
 },{
-  "matricule": "11072N",
-  "nom": "Mohamed Soilihi",
-  "prenom": "Thani",
-  "tri": "MOHAMED_SOILIHI_THANI_11072N",
-  "civilite": "M.",
-  "feminise": false,
-  "serie": "1",
-  "siege": 0,
-  "url": "/senateur/mohamed_soilihi_thani11072n.html",
-  "urlAvatar": "/senimg/mohamed_soilihi_thani11072n_carre.jpg",
-  "twitter": "TMohamedSoilihi",
-  "facebook": "100003090871052",
-  "organismes": [{
-    "code": "DELEGA-DSOM",
-    "type": "DELEGATION/OFFICE",
-    "libelle": "Délégation sénatoriale aux outre-mer",
-    "ordre": 16005
-  }],
-  "groupe": {
-    "code": "LREM",
-    "libelle": "Groupe Rassemblement des démocrates, progressistes et indépendants",
-    "ordre": 5
-  },
-  "circonscription": {
-    "code": "976",
-    "libelle": "Mayotte",
-    "ordre": 976
-  },
-  "categorieProfessionnelle": {
-    "code": "51",
-    "libelle": "Professions judiciaires et libérales (Avocats)",
-    "ordre": 51
-  }
-},{
-  "matricule": "19719D",
-  "nom": "Delattre",
-  "prenom": "Nathalie",
-  "tri": "DELATTRE_NATHALIE",
-  "civilite": "Mme",
-  "feminise": true,
-  "serie": "2",
-  "siege": 0,
-  "url": "/senateur/delattre_nathalie19719d.html",
-  "urlAvatar": "/senimg/delattre_nathalie19719d_carre.jpg",
-  "twitter": "n_delattre",
-  "facebook": "100057732863453",
-  "organismes": [{
-    "code": "COMSPE-CINC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à renforcer la prévention et la lutte contre l'intensification et l'extension du risque incendie",
-    "ordre": 24999
-  },{
-    "code": "COMSPE-SIMP",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi simplification",
-    "ordre": 24999
-  },{
-    "code": "ETUDES-957",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Industrie",
-    "ordre": 50563
-  }],
-  "groupe": {
-    "code": "RDSE",
-    "libelle": "Groupe du Rassemblement Démocratique et Social Européen",
-    "ordre": 7
-  },
-  "circonscription": {
-    "code": "33",
-    "libelle": "Gironde",
-    "ordre": 330
-  },
-  "categorieProfessionnelle": {
-    "code": "80",
-    "libelle": "Sans profession declarée",
-    "ordre": 80
-  }
-},{
-  "matricule": "04047H",
-  "nom": "Buffet",
-  "prenom": "François-Noël",
-  "tri": "BUFFET FRANÇOIS-NOËL",
+  "matricule": "04033B",
+  "nom": "Retailleau",
+  "prenom": "Bruno",
+  "tri": "RETAILLEAU BRUNO",
   "civilite": "M.",
   "feminise": false,
   "serie": "2",
   "siege": 0,
-  "url": "/senateur/buffet_francois_noel04047h.html",
-  "urlAvatar": "/senimg/buffet_francois_noel04047h_carre.jpg",
-  "twitter": "fnb_officiel",
-  "facebook": "100002970954666",
-  "organismes": [{
-    "code": "COM-ETRD",
-    "type": "COMMISSION",
-    "libelle": "Commission des affaires étrangères, de la défense et des forces armées",
-    "ordre": 7002
-  }],
+  "url": "/senateur/retailleau_bruno04033b.html",
+  "urlAvatar": "/senimg/retailleau_bruno04033b_carre.jpg",
+  "twitter": "brunoretailleau",
+  "facebook": "100044178246660",
+  "organismes": [],
   "groupe": {
     "code": "UMP",
     "libelle": "Groupe Les Républicains",
     "ordre": 1
   },
   "circonscription": {
-    "code": "69",
-    "libelle": "Rhône",
-    "ordre": 690
+    "code": "85",
+    "libelle": "Vendée",
+    "ordre": 850
   },
   "categorieProfessionnelle": {
-    "code": "57",
-    "libelle": "Professions judiciaires et libérales (Divers)",
-    "ordre": 57
+    "code": "39",
+    "libelle": "Salaries (Retraités)",
+    "ordre": 39
   }
 }]
