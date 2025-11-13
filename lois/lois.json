@@ -190,6 +190,36 @@
     "etat": "Réunion de commission"
   },
   {
+    "id": "DLR5L17N53135",
+    "titre": "Projet de loi de finances de fin de gestion pour 2025",
+    "type": "Projet de loi de finances rectificative",
+    "auteur": "PA643210",
+    "url": "",
+    "nor": "",
+    "date": "2025-11-17",
+    "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N53139",
+    "titre": "Le traitement judiciaire et institutionnel des affaires d’inceste parental, notamment paternel, et les dysfonctionnements dans la prise en charge des signalements",
+    "type": "Résolution",
+    "auteur": "PA720038",
+    "url": "",
+    "nor": "",
+    "date": "2025-11-12",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53138",
+    "titre": "L'état des cours d'eau",
+    "type": "Rapport d'information sans mission",
+    "auteur": "",
+    "url": "",
+    "nor": "",
+    "date": "2025-11-12",
+    "etat": "Dépôt de rapport"
+  },
+  {
     "id": "DLR5L17N52922",
     "titre": "Projet de loi de financement de la sécurité sociale pour 2026",
     "type": "Projet de loi de financement de la sécurité sociale",
@@ -228,16 +258,6 @@
     "nor": "",
     "date": "2025-11-10",
     "etat": "Dépôt de rapport"
-  },
-  {
-    "id": "DLR5L17N53135",
-    "titre": "Projet de loi de finances de fin de gestion pour 2025",
-    "type": "Projet de loi de finances rectificative",
-    "auteur": "PA643210",
-    "url": "",
-    "nor": "",
-    "date": "2025-11-10",
-    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N53111",
