@@ -10,6 +10,26 @@
     "etat": "Réunion de commission"
   },
   {
+    "id": "DLR5L17N53069",
+    "titre": "Retrouver la confiance et l’équilibre dans les rapports locatifs",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA794854",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-03",
+    "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N53058",
+    "titre": "Prendre des mesures d’urgence contre la vie chère en outre-mer dans le secteur des services",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA643157",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-03",
+    "etat": "Réunion de commission"
+  },
+  {
     "id": "DLR5L17N52729",
     "titre": "Soutenir une politique d’interdiction de tous les néonicotinoïdes dont l’acétamipride dans l’Union européenne, soutenir fortement et durablement les agriculteurs français et européens sur des solutions alternatives validées par les instances et institutions scientifiques, mettre en place de façon urgente un programme de travail, des engagements et un calendrier précis pour enfin mettre en place des mesures miroirs sanitaires et environnementales sur l’ensemble des pesticides interdits dans l'Union européenne à l’égard des États tiers",
     "type": "Résolution",
@@ -190,6 +210,26 @@
     "etat": "Réunion de commission"
   },
   {
+    "id": "DLR5L17N53014",
+    "titre": "Réaffirmer l’ambition climatique de la France au niveau européen",
+    "type": "Résolution",
+    "auteur": "PA794146",
+    "url": "",
+    "nor": "",
+    "date": "2025-11-18",
+    "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N52728",
+    "titre": "Empêcher la ratification de l’accord entre l'Union européenne et le Mercosur en demandant à l’État français la saisine de la Cour de justice de l’Union européenne pour cause d’incompatibilité de l’accord avec les traités européens",
+    "type": "Résolution",
+    "auteur": "PA722142",
+    "url": "",
+    "nor": "",
+    "date": "2025-11-18",
+    "etat": "Réunion de commission"
+  },
+  {
     "id": "DLR5L17N53135",
     "titre": "Projet de loi de finances de fin de gestion pour 2025",
     "type": "Projet de loi de finances rectificative",
@@ -198,6 +238,46 @@
     "nor": "",
     "date": "2025-11-17",
     "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N53145",
+    "titre": "Renforcer l’exécution du règlement européen sur les services numériques à l’égard des très grandes plateformes de e-commerce et à accélérer la réforme douanière afin de protéger les Français, les Européens et nos commerces de proximité",
+    "type": "Résolution",
+    "auteur": "PA721764",
+    "url": "",
+    "nor": "",
+    "date": "2025-11-13",
+    "etat": "Renvoi préalable"
+  },
+  {
+    "id": "DLR5L17N53144",
+    "titre": "La place des outre-mer dans la diplomatie française",
+    "type": "Rapport d'information sans mission",
+    "auteur": "",
+    "url": "",
+    "nor": "",
+    "date": "2025-11-13",
+    "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N53143",
+    "titre": "L’application du règlement contre la déforestation et la dégradation des forêts",
+    "type": "Résolution",
+    "auteur": "PA793664",
+    "url": "",
+    "nor": "",
+    "date": "2025-11-13",
+    "etat": "Renvoi préalable"
+  },
+  {
+    "id": "DLR5L17N53142",
+    "titre": "La science dans la mêlée pour une nation sportive",
+    "type": "Rapport d'information sans mission",
+    "auteur": "",
+    "url": "",
+    "nor": "",
+    "date": "2025-11-13",
+    "etat": "Dépôt de rapport"
   },
   {
     "id": "DLR5L17N53139",
@@ -218,6 +298,16 @@
     "nor": "",
     "date": "2025-11-12",
     "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N53108",
+    "titre": "Commission d’enquête sur la neutralité, le fonctionnement et le financement de l’audiovisuel public",
+    "type": "Commission d'enquête",
+    "auteur": "",
+    "url": "",
+    "nor": "",
+    "date": "2025-11-12",
+    "etat": "Nomination de rapporteur"
   },
   {
     "id": "DLR5L17N52922",
@@ -248,6 +338,16 @@
     "nor": "",
     "date": "2025-11-12",
     "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N53140",
+    "titre": "Projet de loi portant diverses dispositions d'adaptation au droit de l’Union européenne en matière économique, financière, environnementale, énergétique, d’information, de transport, de santé, d’agriculture et de pêche",
+    "type": "Projet de loi ordinaire",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl25-118.html",
+    "nor": "",
+    "date": "2025-11-10",
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N53136",
@@ -770,16 +870,6 @@
     "etat": "Renvoi en commission au fond"
   },
   {
-    "id": "DLR5L17N53069",
-    "titre": "Retrouver la confiance et l’équilibre dans les rapports locatifs",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA794854",
-    "url": "",
-    "nor": "",
-    "date": "2025-10-28",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
     "id": "DLR5L17N53068",
     "titre": "Réguler l’installation des consignes automatiques de livraison dans les communes et à soutenir les commerces de proximité",
     "type": "Proposition de loi ordinaire",
@@ -874,16 +964,6 @@
     "titre": "Garantir l'accès à l'argent liquide dans tous les territoires",
     "type": "Proposition de loi ordinaire",
     "auteur": "PA841295",
-    "url": "",
-    "nor": "",
-    "date": "2025-10-28",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N53058",
-    "titre": "Prendre des mesures d’urgence contre la vie chère en outre-mer dans le secteur des services",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA643157",
     "url": "",
     "nor": "",
     "date": "2025-10-28",
@@ -1190,16 +1270,6 @@
     "etat": "Promulgation d'une loi"
   },
   {
-    "id": "DLR5L17N53014",
-    "titre": "Réaffirmer l’ambition climatique de la France au niveau européen",
-    "type": "Résolution",
-    "auteur": "PA794146",
-    "url": "",
-    "nor": "",
-    "date": "2025-10-23",
-    "etat": "Renvoi préalable"
-  },
-  {
     "id": "DLR5L17N53013",
     "titre": "Établir un meilleur équilibre entre pouvoirs constitutionnels",
     "type": "Projet ou proposition de loi constitutionnelle",
@@ -1278,16 +1348,6 @@
     "nor": "",
     "date": "2025-10-22",
     "etat": "Renvoi préalable"
-  },
-  {
-    "id": "DLR5L17N52728",
-    "titre": "Empêcher la ratification de l’accord entre l'Union européenne et le Mercosur en demandant à l’État français la saisine de la Cour de justice de l’Union européenne pour cause d’incompatibilité de l’accord avec les traités européens",
-    "type": "Résolution",
-    "auteur": "PA722142",
-    "url": "",
-    "nor": "",
-    "date": "2025-10-22",
-    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L17N52129",
