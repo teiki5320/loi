@@ -1580,6 +1580,40 @@
     "ordre": 32
   }
 },{
+  "matricule": "04033B",
+  "nom": "Retailleau",
+  "prenom": "Bruno",
+  "tri": "RETAILLEAU BRUNO",
+  "civilite": "M.",
+  "feminise": false,
+  "serie": "2",
+  "siege": 29,
+  "url": "/senateur/retailleau_bruno04033b.html",
+  "urlAvatar": "/senimg/retailleau_bruno04033b_carre.jpg",
+  "twitter": "brunoretailleau",
+  "facebook": "100044178246660",
+  "organismes": [{
+    "code": "COM-AFCL",
+    "type": "COMMISSION",
+    "libelle": "Commission de la culture, de l'éducation, de la communication et du sport",
+    "ordre": 7005
+  }],
+  "groupe": {
+    "code": "UMP",
+    "libelle": "Groupe Les Républicains",
+    "ordre": 1
+  },
+  "circonscription": {
+    "code": "85",
+    "libelle": "Vendée",
+    "ordre": 850
+  },
+  "categorieProfessionnelle": {
+    "code": "39",
+    "libelle": "Salaries (Retraités)",
+    "ordre": 39
+  }
+},{
   "matricule": "08010L",
   "nom": "Lefèvre",
   "prenom": "Antoine",
@@ -11515,6 +11549,11 @@
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale à la prospective",
     "ordre": 16006
+  },{
+    "code": "ETUDES-957",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Industrie",
+    "ordre": 50563
   }],
   "groupe": {
     "code": "GEST",
@@ -13558,10 +13597,10 @@
   "url": "/senateur/martin_pauline21058j.html",
   "urlAvatar": "/senimg/martin_pauline21058j_carre.jpg",
   "organismes": [{
-    "code": "COM-AFCL",
+    "code": "COM-CAE",
     "type": "COMMISSION",
-    "libelle": "Commission de la culture, de l'éducation, de la communication et du sport",
-    "ordre": 7005
+    "libelle": "Commission des affaires économiques",
+    "ordre": 7001
   },{
     "code": "COMSPE-SIMP",
     "type": "TEMPORAIRE",
@@ -20654,34 +20693,5 @@
     "code": "80",
     "libelle": "Sans profession declarée",
     "ordre": 80
-  }
-},{
-  "matricule": "04033B",
-  "nom": "Retailleau",
-  "prenom": "Bruno",
-  "tri": "RETAILLEAU BRUNO",
-  "civilite": "M.",
-  "feminise": false,
-  "serie": "2",
-  "siege": 0,
-  "url": "/senateur/retailleau_bruno04033b.html",
-  "urlAvatar": "/senimg/retailleau_bruno04033b_carre.jpg",
-  "twitter": "brunoretailleau",
-  "facebook": "100044178246660",
-  "organismes": [],
-  "groupe": {
-    "code": "UMP",
-    "libelle": "Groupe Les Républicains",
-    "ordre": 1
-  },
-  "circonscription": {
-    "code": "85",
-    "libelle": "Vendée",
-    "ordre": 850
-  },
-  "categorieProfessionnelle": {
-    "code": "39",
-    "libelle": "Salaries (Retraités)",
-    "ordre": 39
   }
 }]
