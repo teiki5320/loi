@@ -210,6 +210,16 @@
     "etat": "Réunion de commission"
   },
   {
+    "id": "DLR5L17N53135",
+    "titre": "Projet de loi de finances de fin de gestion pour 2025",
+    "type": "Projet de loi de finances rectificative",
+    "auteur": "PA643210",
+    "url": "",
+    "nor": "",
+    "date": "2025-11-18",
+    "etat": "Discussion en séance publique"
+  },
+  {
     "id": "DLR5L17N53014",
     "titre": "Réaffirmer l’ambition climatique de la France au niveau européen",
     "type": "Résolution",
@@ -228,16 +238,6 @@
     "nor": "",
     "date": "2025-11-18",
     "etat": "Réunion de commission"
-  },
-  {
-    "id": "DLR5L17N53135",
-    "titre": "Projet de loi de finances de fin de gestion pour 2025",
-    "type": "Projet de loi de finances rectificative",
-    "auteur": "PA643210",
-    "url": "",
-    "nor": "",
-    "date": "2025-11-17",
-    "etat": "Discussion en séance publique"
   },
   {
     "id": "DLR5L17N53145",
@@ -280,6 +280,16 @@
     "etat": "Dépôt de rapport"
   },
   {
+    "id": "DLR5L17N52922",
+    "titre": "Projet de loi de financement de la sécurité sociale pour 2026",
+    "type": "Projet de loi de financement de la sécurité sociale",
+    "auteur": "PA643210",
+    "url": "",
+    "nor": "",
+    "date": "2025-11-13",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
     "id": "DLR5L17N53139",
     "titre": "Le traitement judiciaire et institutionnel des affaires d’inceste parental, notamment paternel, et les dysfonctionnements dans la prise en charge des signalements",
     "type": "Résolution",
@@ -308,16 +318,6 @@
     "nor": "",
     "date": "2025-11-12",
     "etat": "Nomination de rapporteur"
-  },
-  {
-    "id": "DLR5L17N52922",
-    "titre": "Projet de loi de financement de la sécurité sociale pour 2026",
-    "type": "Projet de loi de financement de la sécurité sociale",
-    "auteur": "PA643210",
-    "url": "",
-    "nor": "",
-    "date": "2025-11-12",
-    "etat": "Discussion en séance publique"
   },
   {
     "id": "DLR5L17N52598",
@@ -368,6 +368,16 @@
     "nor": "",
     "date": "2025-11-10",
     "etat": "Retrait d'une initiative"
+  },
+  {
+    "id": "DLR5L17N53146",
+    "titre": "Proposition de loi visant à encadrer le coliving et à renforcer les outils de régulation des collectivités territoriales",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-117.html",
+    "nor": "",
+    "date": "2025-11-07",
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N53119",
