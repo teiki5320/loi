@@ -4542,20 +4542,20 @@
   "twitter": "bernard_buis",
   "facebook": "100008837088741",
   "organismes": [{
-    "code": "AUTRES-UIP",
+    "code": "AUTRES-SFAPF",
     "type": "AUTRE",
-    "libelle": "Groupe français de l'Union Interparlementaire (U.I.P.)",
-    "ordre": 60018
+    "libelle": "Section française de l'Assemblée parlementaire de la francophonie (A.P.F.)",
+    "ordre": 60017
   },{
     "code": "AUTRES-OTAN",
     "type": "AUTRE",
     "libelle": "Délégation française à l'Assemblée parlementaire de l'OTAN",
     "ordre": 60016
   },{
-    "code": "AUTRES-SFAPF",
+    "code": "AUTRES-UIP",
     "type": "AUTRE",
-    "libelle": "Section française de l'Assemblée parlementaire de la francophonie (A.P.F.)",
-    "ordre": 60017
+    "libelle": "Groupe français de l'Union Interparlementaire (U.I.P.)",
+    "ordre": 60018
   },{
     "code": "COM-CAE",
     "type": "COMMISSION",
@@ -4577,24 +4577,29 @@
     "libelle": "Délégation sénatoriale aux collectivités territoriales et à la décentralisation",
     "ordre": 16002
   },{
-    "code": "ETUDES-906",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Énergie",
-    "ordre": 50001
-  },{
     "code": "ETUDES-907",
     "type": "ETUDE",
     "libelle": "Groupe d'études Chasse et pêche",
     "ordre": 50001
   },{
-    "code": "ETUDES-919",
+    "code": "ETUDES-906",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "libelle": "Groupe d'études Énergie",
     "ordre": 50001
+  },{
+    "code": "ETUDES-957",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Industrie",
+    "ordre": 50563
   },{
     "code": "ETUDES-909",
     "type": "ETUDE",
     "libelle": "Groupe d'études Vigne et vin",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   },{
     "code": "MISINFCOM-BIOCARBU",
@@ -8069,7 +8074,7 @@
   "prenom": "Marie-Carole",
   "tri": "CIUNTU_MARIE_CAROLE",
   "civilite": "Mme",
-  "feminise": true,
+  "feminise": false,
   "serie": "1",
   "siege": 137,
   "url": "/senateur/ciuntu_marie_carole21072g.html",
