@@ -180,6 +180,16 @@
     "etat": "Discussion en séance publique"
   },
   {
+    "id": "DLR5L17N51581",
+    "titre": "Proposition de loi élargissant la possibilité pour les collectivités territoriales et leurs groupements d'avoir recours au modèle de la société portuaire pour l'exploitation de leurs ports",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-319.html",
+    "nor": "",
+    "date": "2025-11-26",
+    "etat": "Réunion de commission"
+  },
+  {
     "id": "DLR5L17N51519",
     "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et le Gouvernement de la République de Chypre sur la coopération lors des opérations d’évacuation à partir de la région du Moyen-Orient via le territoire de la République de Chypre dans le cadre d’une situation de crise",
     "type": "Projet de ratification des traités et conventions",
@@ -207,6 +217,16 @@
     "url": "http://www.senat.fr/dossier-legislatif/ppl24-223.html",
     "nor": "",
     "date": "2025-11-19",
+    "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N53145",
+    "titre": "Renforcer l’exécution du règlement européen sur les services numériques à l’égard des très grandes plateformes de e-commerce et à accélérer la réforme douanière afin de protéger les Français, les Européens et nos commerces de proximité",
+    "type": "Résolution",
+    "auteur": "PA721764",
+    "url": "",
+    "nor": "",
+    "date": "2025-11-18",
     "etat": "Réunion de commission"
   },
   {
@@ -240,14 +260,24 @@
     "etat": "Réunion de commission"
   },
   {
-    "id": "DLR5L17N53145",
-    "titre": "Renforcer l’exécution du règlement européen sur les services numériques à l’égard des très grandes plateformes de e-commerce et à accélérer la réforme douanière afin de protéger les Français, les Européens et nos commerces de proximité",
+    "id": "DLR5L17N53156",
+    "titre": "Prédation des capacités productives françaises par les fonds spéculatifs",
     "type": "Résolution",
-    "auteur": "PA721764",
+    "auteur": "PA795164",
     "url": "",
     "nor": "",
-    "date": "2025-11-13",
-    "etat": "Renvoi préalable"
+    "date": "2025-11-17",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53155",
+    "titre": "Soutenir la levée du siège d’El-Fasher, la protection des civils au Soudan, la reconnaissance du caractère raciste des massacres en cours et la mise en œuvre d’un embargo international effectif sur les armes",
+    "type": "Résolution Article 34-1",
+    "auteur": "PA842013",
+    "url": "",
+    "nor": "",
+    "date": "2025-11-17",
+    "etat": "1er dépôt d'une initiative."
   },
   {
     "id": "DLR5L17N53144",
@@ -5915,16 +5945,6 @@
     "type": "Projet ou proposition de loi constitutionnelle",
     "auteur": "PA720838",
     "url": "",
-    "nor": "",
-    "date": "2025-06-19",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N51581",
-    "titre": "Proposition de loi élargissant la possibilité pour les collectivités territoriales et leurs groupements d'avoir recours au modèle de la société portuaire pour l'exploitation de leurs ports",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-319.html",
     "nor": "",
     "date": "2025-06-19",
     "etat": "Renvoi en commission au fond"
