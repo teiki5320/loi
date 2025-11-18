@@ -10,16 +10,6 @@
     "groupeLibelle": "Socialistes et apparentés"
   },
   {
-    "id": "PA1327",
-    "nom": "Nicolas Forissier",
-    "email": "Nicolas.Forissier@assemblee-nationale.fr",
-    "circo": "2",
-    "dept": "Indre",
-    "groupe": "PO845425",
-    "groupeSigle": "DR",
-    "groupeLibelle": "Droite Républicaine"
-  },
-  {
     "id": "PA1567",
     "nom": "Jérôme Guedj",
     "email": "jerome.guedj@assemblee-nationale.fr",
@@ -850,6 +840,16 @@
     "groupeLibelle": "Droite Républicaine"
   },
   {
+    "id": "PA717161",
+    "nom": "Élisabeth Borne",
+    "email": "elisabeth.borne@assemblee-nationale.fr",
+    "circo": "6",
+    "dept": "Calvados",
+    "groupe": "PO845407",
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
+  },
+  {
     "id": "PA717379",
     "nom": "Sylvain Maillard",
     "email": "Sylvain.Maillard@assemblee-nationale.fr",
@@ -1270,16 +1270,6 @@
     "groupeLibelle": "Les Démocrates"
   },
   {
-    "id": "PA720066",
-    "nom": "Stéphanie Rist",
-    "email": "Stephanie.Rist@assemblee-nationale.fr",
-    "circo": "1",
-    "dept": "Loiret",
-    "groupe": "PO845407",
-    "groupeSigle": "EPR",
-    "groupeLibelle": "Ensemble pour la République"
-  },
-  {
     "id": "PA720092",
     "nom": "Richard Ramos",
     "email": "Richard.Ramos@assemblee-nationale.fr",
@@ -1570,16 +1560,6 @@
     "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
-    "id": "PA720908",
-    "nom": "Naïma Moutchou",
-    "email": "Naima.Moutchou@assemblee-nationale.fr",
-    "circo": "4",
-    "dept": "Val-d'Oise",
-    "groupe": "PO845470",
-    "groupeSigle": "HOR",
-    "groupeLibelle": "Horizons & Indépendants"
-  },
-  {
     "id": "PA720952",
     "nom": "Aurélien Taché",
     "email": "Aurelien.Tache@assemblee-nationale.fr",
@@ -1658,16 +1638,6 @@
     "groupe": "PO845485",
     "groupeSigle": "LIOT",
     "groupeLibelle": "Libertés, Indépendants, Outre-mer et Territoires"
-  },
-  {
-    "id": "PA721134",
-    "nom": "Roland Lescure",
-    "email": "roland.lescure@assemblee-nationale.fr",
-    "circo": "1",
-    "dept": "Français établis hors de France",
-    "groupe": "PO845407",
-    "groupeSigle": "EPR",
-    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA721158",
@@ -2110,6 +2080,16 @@
     "groupeLibelle": "Ensemble pour la République"
   },
   {
+    "id": "PA759832",
+    "nom": "Agnès Pannier-Runacher",
+    "email": "agnes.pannier-runacher@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Pas-de-Calais",
+    "groupe": "PO845407",
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
+  },
+  {
     "id": "PA774954",
     "nom": "Anne-Laure Blin",
     "email": "anne-laure.blin@assemblee-nationale.fr",
@@ -2270,9 +2250,9 @@
     "groupeLibelle": "Non inscrit"
   },
   {
-    "id": "PA793210",
-    "nom": "Laurent Panifous",
-    "email": "laurent.panifous@assemblee-nationale.fr",
+    "id": "PA793214",
+    "nom": "Audrey Abadie-Amiel",
+    "email": "audrey.abadie@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Ariège",
     "groupe": "PO845485",
@@ -2468,16 +2448,6 @@
     "groupe": "PO845470",
     "groupeSigle": "HOR",
     "groupeLibelle": "Horizons & Indépendants"
-  },
-  {
-    "id": "PA793416",
-    "nom": "Freddy Sertin",
-    "email": "freddy.sertin@assemblee-nationale.fr",
-    "circo": "6",
-    "dept": "Calvados",
-    "groupe": "PO845407",
-    "groupeSigle": "EPR",
-    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA793432",
@@ -3120,9 +3090,9 @@
     "groupeLibelle": "Rassemblement National"
   },
   {
-    "id": "PA794426",
-    "nom": "Anne Le Hénanff",
-    "email": "anne.lehenanff@assemblee-nationale.fr",
+    "id": "PA794430",
+    "nom": "Michel Criaud",
+    "email": "michel.criaud@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Morbihan",
     "groupe": "PO845470",
@@ -3620,9 +3590,9 @@
     "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
-    "id": "PA795120",
-    "nom": "Marina Ferrari",
-    "email": "marina.ferrari@assemblee-nationale.fr",
+    "id": "PA795124",
+    "nom": "Didier Padey",
+    "email": "didier.padey@assemblee-nationale.fr",
     "circo": "1",
     "dept": "Savoie",
     "groupe": "PO845454",
@@ -3780,9 +3750,19 @@
     "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
-    "id": "PA795330",
-    "nom": "Eléonore Caroit",
-    "email": "eleonore.caroit@assemblee-nationale.fr",
+    "id": "PA795326",
+    "nom": "Christopher Weissberg",
+    "email": "christopher.weissberg@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Français établis hors de France",
+    "groupe": "PO845407",
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
+  },
+  {
+    "id": "PA795334",
+    "nom": "Benoît Larrouquis",
+    "email": "benoit.larrouquis@assemblee-nationale.fr",
     "circo": "2",
     "dept": "Français établis hors de France",
     "groupe": "PO845407",
@@ -3820,9 +3800,9 @@
     "groupeLibelle": "Les Démocrates"
   },
   {
-    "id": "PA795386",
-    "nom": "Mathieu Lefèvre",
-    "email": "mathieu.lefevre@assemblee-nationale.fr",
+    "id": "PA795390",
+    "nom": "Sandrine Lalanne",
+    "email": "sandrine.lalanne@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Val-de-Marne",
     "groupe": "PO845407",
@@ -4180,9 +4160,9 @@
     "groupeLibelle": "Ensemble pour la République"
   },
   {
-    "id": "PA795950",
-    "nom": "David Amiel",
-    "email": "david.amiel@assemblee-nationale.fr",
+    "id": "PA795954",
+    "nom": "Catherine Ibled",
+    "email": "catherine.ibled@assemblee-nationale.fr",
     "circo": "13",
     "dept": "Paris",
     "groupe": "PO845407",
@@ -4228,16 +4208,6 @@
     "groupe": "PO845413",
     "groupeSigle": "LFI-NFP",
     "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
-  },
-  {
-    "id": "PA795990",
-    "nom": "Maud Bregeon",
-    "email": "maud.bregeon@assemblee-nationale.fr",
-    "circo": "13",
-    "dept": "Hauts-de-Seine",
-    "groupe": "PO845407",
-    "groupeSigle": "EPR",
-    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA795998",
@@ -4860,6 +4830,16 @@
     "groupeLibelle": "Rassemblement National"
   },
   {
+    "id": "PA841151",
+    "nom": "Alix Fruchon",
+    "email": "alix.fruchon@assemblee-nationale.fr",
+    "circo": "2",
+    "dept": "Indre",
+    "groupe": "PO845425",
+    "groupeSigle": "DR",
+    "groupeLibelle": "Droite Républicaine"
+  },
+  {
     "id": "PA841183",
     "nom": "Hanane Mansouri",
     "email": "hanane.mansouri@assemblee-nationale.fr",
@@ -5188,16 +5168,6 @@
     "groupe": "PO845401",
     "groupeSigle": "RN",
     "groupeLibelle": "Rassemblement National"
-  },
-  {
-    "id": "PA841601",
-    "nom": "Pauline Levasseur",
-    "email": "pauline.levasseur@assemblee-nationale.fr",
-    "circo": "2",
-    "dept": "Pas-de-Calais",
-    "groupe": "PO845407",
-    "groupeSigle": "EPR",
-    "groupeLibelle": "Ensemble pour la République"
   },
   {
     "id": "PA841605",
@@ -5600,9 +5570,9 @@
     "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
   },
   {
-    "id": "PA842117",
-    "nom": "Vincent Jeanbrun",
-    "email": "vincent.jeanbrun@assemblee-nationale.fr",
+    "id": "PA842121",
+    "nom": "Nicolas Tryzna",
+    "email": "nicolas.tryzna@assemblee-nationale.fr",
     "circo": "7",
     "dept": "Val-de-Marne",
     "groupe": "PO845425",
@@ -5630,6 +5600,16 @@
     "groupeLibelle": "Droite Républicaine"
   },
   {
+    "id": "PA842147",
+    "nom": "Christophe Mongardien",
+    "email": "christophe.mongardien@assemblee-nationale.fr",
+    "circo": "13",
+    "dept": "Hauts-de-Seine",
+    "groupe": "PO845407",
+    "groupeSigle": "EPR",
+    "groupeLibelle": "Ensemble pour la République"
+  },
+  {
     "id": "PA842155",
     "nom": "Aly Diouara",
     "email": "aly.diouara@assemblee-nationale.fr",
@@ -5638,6 +5618,16 @@
     "groupe": "PO845413",
     "groupeSigle": "LFI-NFP",
     "groupeLibelle": "La France insoumise - Nouveau Front Populaire"
+  },
+  {
+    "id": "PA842183",
+    "nom": "Benoît Blanchard",
+    "email": "benoit.blanchard@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Val-d'Oise",
+    "groupe": "PO845470",
+    "groupeSigle": "HOR",
+    "groupeLibelle": "Horizons & Indépendants"
   },
   {
     "id": "PA842187",
@@ -5740,9 +5730,9 @@
     "groupeLibelle": "Ensemble pour la République"
   },
   {
-    "id": "PA870010",
-    "nom": "Sébastien Martin",
-    "email": "sebastien.martin@assemblee-nationale.fr",
+    "id": "PA870009",
+    "nom": "Lionel Duparay",
+    "email": "lionel.duparay@assemblee-nationale.fr",
     "circo": "5",
     "dept": "Saône-et-Loire",
     "groupe": "PO845425",
