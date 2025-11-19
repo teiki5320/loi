@@ -8226,6 +8226,11 @@
     "type": "ETUDE",
     "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
+  },{
+    "code": "ETUDES-957",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Industrie",
+    "ordre": 50563
   }],
   "groupe": {
     "code": "CRC",
