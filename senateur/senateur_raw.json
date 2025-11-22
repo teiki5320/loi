@@ -2984,6 +2984,11 @@
     "libelle": "Commission des affaires économiques",
     "ordre": 7001
   },{
+    "code": "ETUDES-957",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Industrie",
+    "ordre": 50563
+  },{
     "code": "ETUDES-919",
     "type": "ETUDE",
     "libelle": "Groupe d'études Agriculture, élevage et alimentation",
@@ -4836,6 +4841,16 @@
     "type": "COMMISSION",
     "libelle": "Commission des affaires sociales",
     "ordre": 7003
+  },{
+    "code": "ETUDES-1015",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Pêche et produits de la mer",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-998",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Économie sociale et solidaire",
+    "ordre": 50001
   }],
   "groupe": {
     "code": "UC",
