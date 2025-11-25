@@ -7695,6 +7695,11 @@
     "libelle": "Commission d'enquête sur l'utilisation du réseau social tiktok, son exploitation des données, sa stratégie d'influence",
     "ordre": 25999
   },{
+    "code": "DELEGA-ENTREPRISES",
+    "type": "DELEGATION/OFFICE",
+    "libelle": "Délégation sénatoriale aux entreprises",
+    "ordre": 16004
+  },{
     "code": "DELEGA-PROS",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale à la prospective",
@@ -12532,14 +12537,19 @@
     "libelle": "Commission de l'aménagement du territoire et du développement durable",
     "ordre": 7004
   },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
+  },{
     "code": "ETUDES-1008",
     "type": "ETUDE",
     "libelle": "Groupe Numérique",
     "ordre": 50001
   },{
-    "code": "ETUDES-919",
+    "code": "ETUDES-922",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "libelle": "Groupe d'études Economie circulaire",
     "ordre": 50001
   }],
   "groupe": {
@@ -19940,14 +19950,19 @@
     "libelle": "Commission des affaires économiques",
     "ordre": 7001
   },{
-    "code": "ETUDES-1010",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Statut, rôle et place des Français établis hors de France",
-    "ordre": 50001
+    "code": "DELEGA-DSOM",
+    "type": "DELEGATION/OFFICE",
+    "libelle": "Délégation sénatoriale aux outre-mer",
+    "ordre": 16005
   },{
     "code": "ETUDES-934",
     "type": "ETUDE",
     "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-1010",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Statut, rôle et place des Français établis hors de France",
     "ordre": 50001
   }],
   "groupe": {
