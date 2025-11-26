@@ -1198,6 +1198,11 @@
     "libelle": "Commission des affaires sociales",
     "ordre": 7003
   },{
+    "code": "COMENQ-DIST",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête portant sur les marges des industriels et de la grande distribution",
+    "ordre": 25001
+  },{
     "code": "DELEGA-DSOM",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale aux outre-mer",
@@ -1346,6 +1351,11 @@
     "type": "COMMISSION",
     "libelle": "Commission des lois constitutionnelles, de législation, du suffrage universel, du Règlement et d'administration générale",
     "ordre": 7007
+  },{
+    "code": "COMENQ-DIST",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête portant sur les marges des industriels et de la grande distribution",
+    "ordre": 25001
   },{
     "code": "COMSPE-SIMP",
     "type": "TEMPORAIRE",
@@ -2984,15 +2994,20 @@
     "libelle": "Commission des affaires économiques",
     "ordre": 7001
   },{
-    "code": "ETUDES-957",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Industrie",
-    "ordre": 50563
+    "code": "COMENQ-DIST",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête portant sur les marges des industriels et de la grande distribution",
+    "ordre": 25001
   },{
     "code": "ETUDES-919",
     "type": "ETUDE",
     "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
+  },{
+    "code": "ETUDES-957",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Industrie",
+    "ordre": 50563
   }],
   "groupe": {
     "code": "UC",
@@ -3115,6 +3130,11 @@
     "type": "COMMISSION",
     "libelle": "Commission des affaires économiques",
     "ordre": 7001
+  },{
+    "code": "COMENQ-DIST",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête portant sur les marges des industriels et de la grande distribution",
+    "ordre": 25001
   },{
     "code": "COMSPE-SIMP",
     "type": "TEMPORAIRE",
@@ -6571,6 +6591,11 @@
     "libelle": "Commission des lois constitutionnelles, de législation, du suffrage universel, du Règlement et d'administration générale",
     "ordre": 7007
   },{
+    "code": "COMENQ-DIST",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête portant sur les marges des industriels et de la grande distribution",
+    "ordre": 25001
+  },{
     "code": "COMEUR-AFEU",
     "type": "COMMISSION",
     "libelle": "Commission des affaires européennes",
@@ -8146,15 +8171,20 @@
     "libelle": "Commission des affaires sociales",
     "ordre": 7003
   },{
-    "code": "DELEGA-211",
-    "type": "DELEGATION/OFFICE",
-    "libelle": "Délégation aux droits des femmes et à l'égalité des chances entre les hommes et les femmes",
-    "ordre": 16003
+    "code": "COMENQ-DIST",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête portant sur les marges des industriels et de la grande distribution",
+    "ordre": 25001
   },{
     "code": "DELEGA-DSOM",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale aux outre-mer",
     "ordre": 16005
+  },{
+    "code": "DELEGA-211",
+    "type": "DELEGATION/OFFICE",
+    "libelle": "Délégation aux droits des femmes et à l'égalité des chances entre les hommes et les femmes",
+    "ordre": 16003
   }],
   "groupe": {
     "code": "UMP",
@@ -9201,6 +9231,11 @@
     "libelle": "Commission des affaires économiques",
     "ordre": 7001
   },{
+    "code": "COMENQ-DIST",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête portant sur les marges des industriels et de la grande distribution",
+    "ordre": 25001
+  },{
     "code": "COMSPE-SIMP",
     "type": "TEMPORAIRE",
     "libelle": "Commission spéciale sur le projet de loi simplification",
@@ -9211,19 +9246,24 @@
     "libelle": "Délégation sénatoriale aux entreprises",
     "ordre": 16004
   },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
-  },{
     "code": "ETUDES-948",
     "type": "ETUDE",
     "libelle": "Groupe d'études Forêt et filière bois",
     "ordre": 50001
   },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
+  },{
     "code": "ETUDES-909",
     "type": "ETUDE",
     "libelle": "Groupe d'études Vigne et vin",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-907",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Chasse et pêche",
     "ordre": 50001
   },{
     "code": "ETUDES-957",
@@ -9234,11 +9274,6 @@
     "code": "ETUDES-906",
     "type": "ETUDE",
     "libelle": "Groupe d'études Énergie",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-907",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Chasse et pêche",
     "ordre": 50001
   }],
   "groupe": {
@@ -11008,19 +11043,24 @@
     "libelle": "Commission des affaires économiques",
     "ordre": 7001
   },{
+    "code": "COMENQ-DIST",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête portant sur les marges des industriels et de la grande distribution",
+    "ordre": 25001
+  },{
     "code": "COMENQ-TIKTO",
     "type": "TEMPORAIRE",
     "libelle": "Commission d'enquête sur l'utilisation du réseau social tiktok, son exploitation des données, sa stratégie d'influence",
     "ordre": 25999
   },{
-    "code": "COMSPE-ESNU",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi visant à sécuriser et réguler l'espace numérique",
-    "ordre": 24999
-  },{
     "code": "COMSPE-CYBE",
     "type": "TEMPORAIRE",
     "libelle": "Commission spéciale sur le projet de loi relatif à la résilience des activités d'importance vitale, à la protection des infrastructures critiques, à la cybersécurité et à la résilience opérationnelle numérique du secteur financier",
+    "ordre": 24999
+  },{
+    "code": "COMSPE-ESNU",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission spéciale sur le projet de loi visant à sécuriser et réguler l'espace numérique",
     "ordre": 24999
   },{
     "code": "DELEGA-PROS",
@@ -13482,15 +13522,15 @@
     "libelle": "Commission de la culture, de l'éducation, de la communication et du sport",
     "ordre": 7005
   },{
+    "code": "COMENQ-DIST",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête portant sur les marges des industriels et de la grande distribution",
+    "ordre": 25001
+  },{
     "code": "DELEGA-211",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation aux droits des femmes et à l'égalité des chances entre les hommes et les femmes",
     "ordre": 16003
-  },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
   },{
     "code": "ETUDES-908",
     "type": "ETUDE",
@@ -13500,6 +13540,11 @@
     "code": "ETUDES-1015",
     "type": "ETUDE",
     "libelle": "Groupe d'études Pêche et produits de la mer",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   },{
     "code": "ETUDES-934",
@@ -13883,6 +13928,11 @@
     "type": "COMMISSION",
     "libelle": "Commission des affaires économiques",
     "ordre": 7001
+  },{
+    "code": "COMENQ-DIST",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête portant sur les marges des industriels et de la grande distribution",
+    "ordre": 25001
   },{
     "code": "DELEGA-COLTER",
     "type": "DELEGATION/OFFICE",
@@ -14726,6 +14776,11 @@
     "type": "COMMISSION",
     "libelle": "Commission des affaires économiques",
     "ordre": 7001
+  },{
+    "code": "COMENQ-DIST",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête portant sur les marges des industriels et de la grande distribution",
+    "ordre": 25001
   },{
     "code": "DELEGA-ENTREPRISES",
     "type": "DELEGATION/OFFICE",
@@ -16059,6 +16114,11 @@
     "libelle": "Commission de la culture, de l'éducation, de la communication et du sport",
     "ordre": 7005
   },{
+    "code": "COMENQ-DIST",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête portant sur les marges des industriels et de la grande distribution",
+    "ordre": 25001
+  },{
     "code": "DELEGA-ENTREPRISES",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale aux entreprises",
@@ -16438,6 +16498,11 @@
     "libelle": "Commission des finances",
     "ordre": 7006
   },{
+    "code": "COMENQ-DIST",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête portant sur les marges des industriels et de la grande distribution",
+    "ordre": 25001
+  },{
     "code": "COMENQ-MEDIC",
     "type": "TEMPORAIRE",
     "libelle": "Commission d'enquête sur la pénurie de médicaments et les choix de l'industrie pharmaceutique française",
@@ -16458,14 +16523,14 @@
     "libelle": "Délégation sénatoriale à la prospective",
     "ordre": 16006
   },{
-    "code": "ETUDES-938",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Arctique, Antarctique et Terres australes",
-    "ordre": 50001
-  },{
     "code": "ETUDES-1008",
     "type": "ETUDE",
     "libelle": "Groupe Numérique",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-938",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Arctique, Antarctique et Terres australes",
     "ordre": 50001
   },{
     "code": "ETUDES-934",
@@ -16488,6 +16553,11 @@
     "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   },{
+    "code": "ETUDES-907",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Chasse et pêche",
+    "ordre": 50001
+  },{
     "code": "ETUDES-1006",
     "type": "ETUDE",
     "libelle": "Groupe d'études Francophonie",
@@ -16496,11 +16566,6 @@
     "code": "ETUDES-906",
     "type": "ETUDE",
     "libelle": "Groupe d'études Énergie",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-907",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Chasse et pêche",
     "ordre": 50001
   }],
   "groupe": {
@@ -16859,6 +16924,11 @@
     "type": "COMMISSION",
     "libelle": "Commission des affaires économiques",
     "ordre": 7001
+  },{
+    "code": "COMENQ-DIST",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête portant sur les marges des industriels et de la grande distribution",
+    "ordre": 25001
   },{
     "code": "COMEUR-AFEU",
     "type": "COMMISSION",
@@ -17849,6 +17919,11 @@
     "libelle": "Commission des affaires économiques",
     "ordre": 7001
   },{
+    "code": "COMENQ-DIST",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête portant sur les marges des industriels et de la grande distribution",
+    "ordre": 25001
+  },{
     "code": "ETUDES-919",
     "type": "ETUDE",
     "libelle": "Groupe d'études Agriculture, élevage et alimentation",
@@ -17941,6 +18016,11 @@
     "type": "COMMISSION",
     "libelle": "Commission de l'aménagement du territoire et du développement durable",
     "ordre": 7004
+  },{
+    "code": "COMENQ-DIST",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête portant sur les marges des industriels et de la grande distribution",
+    "ordre": 25001
   },{
     "code": "DELEGA-DSOM",
     "type": "DELEGATION/OFFICE",
@@ -19050,10 +19130,10 @@
     "libelle": "Commission des affaires économiques",
     "ordre": 7001
   },{
-    "code": "COMSPE-CINC",
+    "code": "COMENQ-DIST",
     "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à renforcer la prévention et la lutte contre l'intensification et l'extension du risque incendie",
-    "ordre": 24999
+    "libelle": "Commission d'enquête portant sur les marges des industriels et de la grande distribution",
+    "ordre": 25001
   },{
     "code": "COMSPE-CZAN",
     "type": "TEMPORAIRE",
@@ -19063,6 +19143,11 @@
     "code": "COMSPE-ESNU",
     "type": "TEMPORAIRE",
     "libelle": "Commission spéciale sur le projet de loi visant à sécuriser et réguler l'espace numérique",
+    "ordre": 24999
+  },{
+    "code": "COMSPE-CINC",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission spéciale sur la proposition de loi visant à renforcer la prévention et la lutte contre l'intensification et l'extension du risque incendie",
     "ordre": 24999
   },{
     "code": "COMSPE-CYBE",
@@ -19080,9 +19165,9 @@
     "libelle": "Délégation sénatoriale aux collectivités territoriales et à la décentralisation",
     "ordre": 16002
   },{
-    "code": "ETUDES-1008",
+    "code": "ETUDES-919",
     "type": "ETUDE",
-    "libelle": "Groupe Numérique",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   },{
     "code": "ETUDES-948",
@@ -19095,9 +19180,9 @@
     "libelle": "Groupe d'études Vigne et vin",
     "ordre": 50001
   },{
-    "code": "ETUDES-919",
+    "code": "ETUDES-1008",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "libelle": "Groupe Numérique",
     "ordre": 50001
   },{
     "code": "MISINFCOM-GEAU",
@@ -19513,6 +19598,11 @@
     "libelle": "Commission d'enquête sur la pénurie de médicaments et les choix de l'industrie pharmaceutique française",
     "ordre": 25999
   },{
+    "code": "COMENQ-DIST",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête portant sur les marges des industriels et de la grande distribution",
+    "ordre": 25001
+  },{
     "code": "COMSPE-SIMP",
     "type": "TEMPORAIRE",
     "libelle": "Commission spéciale sur le projet de loi simplification",
@@ -19528,24 +19618,9 @@
     "libelle": "Délégation sénatoriale aux entreprises",
     "ordre": 16004
   },{
-    "code": "ETUDES-948",
+    "code": "ETUDES-906",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Forêt et filière bois",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-928",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Monde combattant et mémoire",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-909",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Vigne et vin",
+    "libelle": "Groupe d'études Énergie",
     "ordre": 50001
   },{
     "code": "ETUDES-907",
@@ -19553,15 +19628,30 @@
     "libelle": "Groupe d'études Chasse et pêche",
     "ordre": 50001
   },{
+    "code": "ETUDES-909",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Vigne et vin",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-928",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Monde combattant et mémoire",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-948",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Forêt et filière bois",
+    "ordre": 50001
+  },{
     "code": "ETUDES-957",
     "type": "ETUDE",
     "libelle": "Groupe d'études Industrie",
     "ordre": 50563
-  },{
-    "code": "ETUDES-906",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Énergie",
-    "ordre": 50001
   }],
   "groupe": {
     "code": "UMP",
@@ -19949,6 +20039,11 @@
     "type": "COMMISSION",
     "libelle": "Commission des affaires économiques",
     "ordre": 7001
+  },{
+    "code": "COMENQ-DIST",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête portant sur les marges des industriels et de la grande distribution",
+    "ordre": 25001
   },{
     "code": "DELEGA-DSOM",
     "type": "DELEGATION/OFFICE",
