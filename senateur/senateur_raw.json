@@ -9752,10 +9752,10 @@
     "libelle": "Groupe d'études Énergie",
     "ordre": 50001
   },{
-    "code": "ETUDES-948",
+    "code": "ETUDES-957",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Forêt et filière bois",
-    "ordre": 50001
+    "libelle": "Groupe d'études Industrie",
+    "ordre": 50563
   },{
     "code": "ETUDES-907",
     "type": "ETUDE",
@@ -9770,6 +9770,11 @@
     "code": "ETUDES-928",
     "type": "ETUDE",
     "libelle": "Groupe d'études Monde combattant et mémoire",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-948",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Forêt et filière bois",
     "ordre": 50001
   },{
     "code": "MISINFCOM-BIOCARBU",
