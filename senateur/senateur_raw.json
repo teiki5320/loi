@@ -1203,6 +1203,11 @@
     "libelle": "Commission d'enquête portant sur les marges des industriels et de la grande distribution",
     "ordre": 25001
   },{
+    "code": "COMITE-COMITEDEONTO",
+    "type": "INTERNE",
+    "libelle": "Comité de déontologie parlementaire du Sénat",
+    "ordre": 18011
+  },{
     "code": "DELEGA-DSOM",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale aux outre-mer",
@@ -4587,11 +4592,6 @@
     "libelle": "Commission des affaires économiques",
     "ordre": 7001
   },{
-    "code": "COMITE-COMITEDEONTO",
-    "type": "INTERNE",
-    "libelle": "Comité de déontologie parlementaire du Sénat",
-    "ordre": 18011
-  },{
     "code": "COMSPE-CINC",
     "type": "TEMPORAIRE",
     "libelle": "Commission spéciale sur la proposition de loi visant à renforcer la prévention et la lutte contre l'intensification et l'extension du risque incendie",
@@ -4607,9 +4607,9 @@
     "libelle": "Groupe d'études Chasse et pêche",
     "ordre": 50001
   },{
-    "code": "ETUDES-906",
+    "code": "ETUDES-919",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Énergie",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   },{
     "code": "ETUDES-957",
@@ -4622,9 +4622,9 @@
     "libelle": "Groupe d'études Vigne et vin",
     "ordre": 50001
   },{
-    "code": "ETUDES-919",
+    "code": "ETUDES-906",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "libelle": "Groupe d'études Énergie",
     "ordre": 50001
   },{
     "code": "MISINFCOM-BIOCARBU",
