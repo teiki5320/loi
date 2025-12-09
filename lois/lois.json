@@ -90,16 +90,6 @@
     "etat": "Réunion de commission"
   },
   {
-    "id": "DLR5L17N52429",
-    "titre": "Projet de loi autorisant l’approbation de la convention de coopération judiciaire internationale entre la France et le Myanmar",
-    "type": "Projet de ratification des traités et conventions",
-    "auteur": "PA410",
-    "url": "",
-    "nor": "",
-    "date": "2025-12-16",
-    "etat": "Discussion en séance publique"
-  },
-  {
     "id": "DLR5L17N52099",
     "titre": "Approbation de la résolution n° F/BG/2023/04 relative aux amendements à l’accord portant création du Fonds africain de développement",
     "type": "Projet de ratification des traités et conventions",
@@ -414,6 +404,16 @@
     "titre": "L'affiliation sociale des enfants de travailleurs frontaliers",
     "type": "Résolution",
     "auteur": "PA720552",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-03",
+    "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N52429",
+    "titre": "Projet de loi autorisant l’approbation de la convention de coopération judiciaire internationale entre la France et le Myanmar",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA410",
     "url": "",
     "nor": "",
     "date": "2025-12-03",
