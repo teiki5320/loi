@@ -3004,15 +3004,20 @@
     "libelle": "Commission d'enquête portant sur les marges des industriels et de la grande distribution",
     "ordre": 25001
   },{
-    "code": "ETUDES-919",
+    "code": "ETUDES-948",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "libelle": "Groupe d'études Forêt et filière bois",
     "ordre": 50001
   },{
     "code": "ETUDES-957",
     "type": "ETUDE",
     "libelle": "Groupe d'études Industrie",
     "ordre": 50563
+  },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
   }],
   "groupe": {
     "code": "UC",
