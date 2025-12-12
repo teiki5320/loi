@@ -80,6 +80,16 @@
     "etat": "Discussion en séance publique"
   },
   {
+    "id": "DLR5L15N38726",
+    "titre": "Mineurs vulnérables sur le territoire français",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl19-311.html",
+    "nor": "",
+    "date": "2025-12-18",
+    "etat": "Réunion de commission"
+  },
+  {
     "id": "DLR5L17N52820",
     "titre": "Condamner la dérive illibérale et autoritaire du gouvernement géorgien et réaffirmer notre soutien au destin européen de la Géorgie",
     "type": "Résolution",
@@ -130,6 +140,36 @@
     "etat": "Discussion en séance publique"
   },
   {
+    "id": "DLR5L17N53350",
+    "titre": "Modifier les dispositions de la Constitution relatives aux fonctions du Premier Ministre",
+    "type": "Projet ou proposition de loi constitutionnelle",
+    "auteur": "PA794114",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-11",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53349",
+    "titre": "Indiquer explicitement par décret que les années de travail à temps partiel doivent être pleinement prises en compte, au même titre que celles à temps plein, dans le calcul des droits à la médaille d’honneur du travail",
+    "type": "Résolution Article 34-1",
+    "auteur": "PA841439",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-11",
+    "etat": "1er dépôt d'une initiative."
+  },
+  {
+    "id": "DLR5L17N53348",
+    "titre": "La priorité nationale et locale",
+    "type": "Projet ou proposition de loi constitutionnelle",
+    "auteur": "PA793322",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-11",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
     "id": "DLR5L17N53069",
     "titre": "Retrouver la confiance et l’équilibre dans les rapports locatifs",
     "type": "Proposition de loi ordinaire",
@@ -137,7 +177,7 @@
     "url": "",
     "nor": "",
     "date": "2025-12-11",
-    "etat": "Discussion en séance publique"
+    "etat": "Décision"
   },
   {
     "id": "DLR5L17N53067",
@@ -167,7 +207,7 @@
     "url": "",
     "nor": "",
     "date": "2025-12-11",
-    "etat": "Discussion en séance publique"
+    "etat": "Décision"
   },
   {
     "id": "DLR5L17N53053",
@@ -187,7 +227,7 @@
     "url": "",
     "nor": "",
     "date": "2025-12-11",
-    "etat": "Discussion en séance publique"
+    "etat": "Décision"
   },
   {
     "id": "DLR5L17N53012",
@@ -217,7 +257,7 @@
     "url": "",
     "nor": "",
     "date": "2025-12-11",
-    "etat": "Discussion en séance publique"
+    "etat": "Décision"
   },
   {
     "id": "DLR5L17N52749",
@@ -227,7 +267,17 @@
     "url": "",
     "nor": "",
     "date": "2025-12-11",
-    "etat": "Discussion en séance publique"
+    "etat": "Décision"
+  },
+  {
+    "id": "DLR5L17N52561",
+    "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et le Gouvernement du Monténégro relatif à la coopération dans le domaine de la défense",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA410",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl24-857.html",
+    "nor": "",
+    "date": "2025-12-11",
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N51457",
@@ -237,7 +287,7 @@
     "url": "http://www.senat.fr/dossier-legislatif/ppl24-300.html",
     "nor": "",
     "date": "2025-12-11",
-    "etat": "Discussion en séance publique"
+    "etat": "Décision"
   },
   {
     "id": "DLR5L17N53344",
@@ -308,16 +358,6 @@
     "nor": "",
     "date": "2025-12-10",
     "etat": "Dépôt de rapport"
-  },
-  {
-    "id": "DLR5L17N52561",
-    "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et le Gouvernement du Monténégro relatif à la coopération dans le domaine de la défense",
-    "type": "Projet de ratification des traités et conventions",
-    "auteur": "PA410",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl24-857.html",
-    "nor": "",
-    "date": "2025-12-10",
-    "etat": "Décision"
   },
   {
     "id": "DLR5L17N52462",
@@ -21555,16 +21595,6 @@
     "type": "Proposition de loi ordinaire",
     "auteur": "PO78718",
     "url": "http://www.senat.fr/dossier-legislatif/ppl19-312.html",
-    "nor": "",
-    "date": "2024-07-23",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L15N38726",
-    "titre": "Mineurs vulnérables sur le territoire français",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl19-311.html",
     "nor": "",
     "date": "2024-07-23",
     "etat": "Renvoi en commission au fond"
