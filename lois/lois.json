@@ -116,7 +116,7 @@
     "auteur": "PA410",
     "url": "",
     "nor": "",
-    "date": "2025-12-16",
+    "date": "2025-12-17",
     "etat": "Discussion en séance publique"
   },
   {
@@ -126,7 +126,7 @@
     "auteur": "PA410",
     "url": "",
     "nor": "",
-    "date": "2025-12-16",
+    "date": "2025-12-17",
     "etat": "Discussion en séance publique"
   },
   {
@@ -136,8 +136,48 @@
     "auteur": "PA410",
     "url": "http://www.senat.fr/dossier-legislatif/pjl24-345.html",
     "nor": "",
-    "date": "2025-12-16",
+    "date": "2025-12-17",
     "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N53353",
+    "titre": "L’instauration d’une journée nationale d’hommage aux travailleurs immigrés de l’après-guerre",
+    "type": "Résolution Article 34-1",
+    "auteur": "PA841701",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-12",
+    "etat": "1er dépôt d'une initiative."
+  },
+  {
+    "id": "DLR5L17N53352",
+    "titre": "Interroger l’inadaptation de la réponse actuelle face aux crimes d’extrême droite",
+    "type": "Résolution",
+    "auteur": "PA795310",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-12",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52922",
+    "titre": "Projet de loi de financement de la sécurité sociale pour 2026",
+    "type": "Projet de loi de financement de la sécurité sociale",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/plfss2026.html",
+    "nor": "",
+    "date": "2025-12-12",
+    "etat": "Décision"
+  },
+  {
+    "id": "DLR5L17N51173",
+    "titre": "Proposition de loi organique tendant à modifier le II de l’article 43 de la loi organique n° 2004-192 du 27 février 2004 portant statut d’autonomie de la Polynésie française",
+    "type": "Projet ou proposition de loi organique",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-223.html",
+    "nor": "",
+    "date": "2025-12-12",
+    "etat": "Saisine du conseil constitutionnel"
   },
   {
     "id": "DLR5L17N53350",
@@ -180,16 +220,6 @@
     "etat": "Décision"
   },
   {
-    "id": "DLR5L17N53067",
-    "titre": "Reconnaître une politique nationale d’adaptation au changement climatique et à adapter les mécanismes d’assurance",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA840829",
-    "url": "",
-    "nor": "",
-    "date": "2025-12-11",
-    "etat": "Discussion en séance publique"
-  },
-  {
     "id": "DLR5L17N53059",
     "titre": "Garantir l'accès à l'argent liquide dans tous les territoires",
     "type": "Proposition de loi ordinaire",
@@ -210,16 +240,6 @@
     "etat": "Décision"
   },
   {
-    "id": "DLR5L17N53053",
-    "titre": "Protéger la santé mentale des agricultrices et des agriculteurs",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA841091",
-    "url": "",
-    "nor": "",
-    "date": "2025-12-11",
-    "etat": "Discussion en séance publique"
-  },
-  {
     "id": "DLR5L17N53051",
     "titre": "Protéger les mineurs isolés et à lutter contre le sans-abrisme",
     "type": "Proposition de loi ordinaire",
@@ -228,16 +248,6 @@
     "nor": "",
     "date": "2025-12-11",
     "etat": "Décision"
-  },
-  {
-    "id": "DLR5L17N53012",
-    "titre": "Création d'un Défenseur de la laïcité et définition de ce principe",
-    "type": "Projet ou proposition de loi constitutionnelle",
-    "auteur": "PA1567",
-    "url": "",
-    "nor": "",
-    "date": "2025-12-11",
-    "etat": "Discussion en séance publique"
   },
   {
     "id": "DLR5L17N52924",
@@ -290,6 +300,16 @@
     "etat": "Décision"
   },
   {
+    "id": "DLR5L17N53351",
+    "titre": "Proposition de loi visant à protéger les traditions de Noël dans la loi de 1905",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-198.html",
+    "nor": "",
+    "date": "2025-12-10",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
     "id": "DLR5L17N53344",
     "titre": "Encourager une évolution réglementaire sur l'origine des produits pour valoriser les filières françaises et européennes et protéger le consommateur",
     "type": "Résolution Article 34-1",
@@ -330,6 +350,16 @@
     "etat": "Dépôt de rapport"
   },
   {
+    "id": "DLR5L17N53012",
+    "titre": "Création d'un Défenseur de la laïcité et définition de ce principe",
+    "type": "Projet ou proposition de loi constitutionnelle",
+    "auteur": "PA1567",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-10",
+    "etat": "Réunion de commission"
+  },
+  {
     "id": "DLR5L17N53010",
     "titre": "Réaffirmer l’importance de la décarbonation du transport routier",
     "type": "Résolution",
@@ -338,16 +368,6 @@
     "nor": "",
     "date": "2025-12-10",
     "etat": "Décision"
-  },
-  {
-    "id": "DLR5L17N52922",
-    "titre": "Projet de loi de financement de la sécurité sociale pour 2026",
-    "type": "Projet de loi de financement de la sécurité sociale",
-    "auteur": "PA643210",
-    "url": "http://www.senat.fr/dossier-legislatif/plfss2026.html",
-    "nor": "",
-    "date": "2025-12-10",
-    "etat": "Dépôt de rapport"
   },
   {
     "id": "DLR5L17N52900",
@@ -428,16 +448,6 @@
     "nor": "",
     "date": "2025-12-10",
     "etat": "Dépôt de rapport"
-  },
-  {
-    "id": "DLR5L17N51173",
-    "titre": "Proposition de loi organique tendant à modifier le II de l’article 43 de la loi organique n° 2004-192 du 27 février 2004 portant statut d’autonomie de la Polynésie française",
-    "type": "Projet ou proposition de loi organique",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-223.html",
-    "nor": "",
-    "date": "2025-12-10",
-    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L17N50817",
@@ -844,6 +854,26 @@
     "titre": "Renforcer l’exécution du règlement européen sur les services numériques à l’égard des très grandes plateformes de e-commerce et à accélérer la réforme douanière afin de protéger les Français, les Européens et nos commerces de proximité",
     "type": "Résolution",
     "auteur": "PA721764",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-03",
+    "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N53067",
+    "titre": "Reconnaître une politique nationale d’adaptation au changement climatique et à adapter les mécanismes d’assurance",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA840829",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-03",
+    "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N53053",
+    "titre": "Protéger la santé mentale des agricultrices et des agriculteurs",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA841091",
     "url": "",
     "nor": "",
     "date": "2025-12-03",
