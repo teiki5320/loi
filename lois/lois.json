@@ -100,6 +100,16 @@
     "etat": "Réunion de commission"
   },
   {
+    "id": "DLR5L17N52729",
+    "titre": "Soutenir une politique d’interdiction de tous les néonicotinoïdes dont l’acétamipride dans l’Union européenne, soutenir fortement et durablement les agriculteurs français et européens sur des solutions alternatives validées par les instances et institutions scientifiques, mettre en place de façon urgente un programme de travail, des engagements et un calendrier précis pour enfin mettre en place des mesures miroirs sanitaires et environnementales sur l’ensemble des pesticides interdits dans l'Union européenne à l’égard des États tiers",
+    "type": "Résolution",
+    "auteur": "PA335054",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-17",
+    "etat": "Réunion de commission"
+  },
+  {
     "id": "DLR5L17N52715",
     "titre": "Octroyer le statut d’animaux de compagnie aux animaux de rente dès lors qu’ils sont sortis définitivement du circuit de la chaîne alimentaire du fait de leur viande ou produit d’origine animale déclarés impropres à la consommation",
     "type": "Résolution",
@@ -118,6 +128,16 @@
     "nor": "",
     "date": "2025-12-17",
     "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N52132",
+    "titre": "Inscrire la mouvance des frères musulmans sur la liste européenne des organisations terroristes",
+    "type": "Résolution",
+    "auteur": "PA718784",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-17",
+    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L17N52099",
@@ -140,6 +160,46 @@
     "etat": "Discussion en séance publique"
   },
   {
+    "id": "DLR5L17N53361",
+    "titre": "Les violences commises sur les mineurs dans les temps périscolaires et extrascolaires",
+    "type": "Résolution",
+    "auteur": "PA795962",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-15",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53360",
+    "titre": "Les dépendances structurelles et les vulnérabilités systémiques dans le secteur du numérique et les risques pour l’indépendance de la France",
+    "type": "Résolution",
+    "auteur": "PA794008",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-15",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52922",
+    "titre": "Projet de loi de financement de la sécurité sociale pour 2026",
+    "type": "Projet de loi de financement de la sécurité sociale",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/plfss2026.html",
+    "nor": "",
+    "date": "2025-12-15",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52428",
+    "titre": "Projet de loi de finances pour 2026",
+    "type": "Projet de loi de finances de l'année",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjlf2026.html",
+    "nor": "",
+    "date": "2025-12-15",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
     "id": "DLR5L17N53353",
     "titre": "L’instauration d’une journée nationale d’hommage aux travailleurs immigrés de l’après-guerre",
     "type": "Résolution Article 34-1",
@@ -160,14 +220,24 @@
     "etat": "Renvoi en commission au fond"
   },
   {
-    "id": "DLR5L17N52922",
-    "titre": "Projet de loi de financement de la sécurité sociale pour 2026",
-    "type": "Projet de loi de financement de la sécurité sociale",
-    "auteur": "PA643210",
-    "url": "http://www.senat.fr/dossier-legislatif/plfss2026.html",
+    "id": "DLR5L17N53069",
+    "titre": "Retrouver la confiance et l’équilibre dans les rapports locatifs",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA794854",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-217.html",
     "nor": "",
     "date": "2025-12-12",
-    "etat": "Décision"
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53058",
+    "titre": "Prendre des mesures d’urgence contre la vie chère en outre-mer dans le secteur des services",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA643157",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-219.html",
+    "nor": "",
+    "date": "2025-12-12",
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N51173",
@@ -210,16 +280,6 @@
     "etat": "Renvoi en commission au fond"
   },
   {
-    "id": "DLR5L17N53069",
-    "titre": "Retrouver la confiance et l’équilibre dans les rapports locatifs",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA794854",
-    "url": "",
-    "nor": "",
-    "date": "2025-12-11",
-    "etat": "Décision"
-  },
-  {
     "id": "DLR5L17N53059",
     "titre": "Garantir l'accès à l'argent liquide dans tous les territoires",
     "type": "Proposition de loi ordinaire",
@@ -230,24 +290,14 @@
     "etat": "Réunion de commission"
   },
   {
-    "id": "DLR5L17N53058",
-    "titre": "Prendre des mesures d’urgence contre la vie chère en outre-mer dans le secteur des services",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA643157",
-    "url": "",
-    "nor": "",
-    "date": "2025-12-11",
-    "etat": "Décision"
-  },
-  {
     "id": "DLR5L17N53051",
     "titre": "Protéger les mineurs isolés et à lutter contre le sans-abrisme",
     "type": "Proposition de loi ordinaire",
     "auteur": "PA840171",
-    "url": "",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-216.html",
     "nor": "",
     "date": "2025-12-11",
-    "etat": "Décision"
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N52924",
@@ -1650,16 +1700,6 @@
     "etat": "Renvoi en commission au fond"
   },
   {
-    "id": "DLR5L17N52428",
-    "titre": "Projet de loi de finances pour 2026",
-    "type": "Projet de loi de finances de l'année",
-    "auteur": "PA643210",
-    "url": "http://www.senat.fr/dossier-legislatif/pjlf2026.html",
-    "nor": "",
-    "date": "2025-11-24",
-    "etat": "Dépôt de rapport"
-  },
-  {
     "id": "DLR5L17N53231",
     "titre": "Proposition de loi autorisant la légalisation de la consommation récréative de cannabis et encadrant sa production et sa vente",
     "type": "Proposition de loi ordinaire",
@@ -2078,16 +2118,6 @@
     "nor": "",
     "date": "2025-11-18",
     "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N52729",
-    "titre": "Soutenir une politique d’interdiction de tous les néonicotinoïdes dont l’acétamipride dans l’Union européenne, soutenir fortement et durablement les agriculteurs français et européens sur des solutions alternatives validées par les instances et institutions scientifiques, mettre en place de façon urgente un programme de travail, des engagements et un calendrier précis pour enfin mettre en place des mesures miroirs sanitaires et environnementales sur l’ensemble des pesticides interdits dans l'Union européenne à l’égard des États tiers",
-    "type": "Résolution",
-    "auteur": "PA335054",
-    "url": "",
-    "nor": "",
-    "date": "2025-11-18",
-    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L17N52728",
@@ -9024,16 +9054,6 @@
     "titre": "Garantir la protection des travailleurs des métiers de la fleur coupée en réglementant les seuils de résidus de pesticides contenus dans les fleurs commercialisées en Europe",
     "type": "Résolution",
     "auteur": "PA720892",
-    "url": "",
-    "nor": "",
-    "date": "2025-05-23",
-    "etat": "Renvoi préalable"
-  },
-  {
-    "id": "DLR5L17N52132",
-    "titre": "Inscrire la mouvance des frères musulmans sur la liste européenne des organisations terroristes",
-    "type": "Résolution",
-    "auteur": "PA718784",
     "url": "",
     "nor": "",
     "date": "2025-05-23",
