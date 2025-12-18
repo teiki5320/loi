@@ -300,6 +300,46 @@
     "etat": "Discussion en séance publique"
   },
   {
+    "id": "DLR5L17N53368",
+    "titre": "Les modalités de recrutement, de formation et d’organisation des activités périscolaires et extrascolaires et sur les mécanismes de prévention et de traitement des violences commises dans ce cadre",
+    "type": "Résolution",
+    "auteur": "PA791812",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-17",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53367",
+    "titre": "Mission d'information sur la concurrence déloyale dans l'économie du ski et les enjeux pour le tourisme de montagne en France",
+    "type": "Rapport d'information sans mission",
+    "auteur": "",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-17",
+    "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N53366",
+    "titre": "Mission d'information sur la transition des modèles des stations de montagne",
+    "type": "Rapport d'information sans mission",
+    "auteur": "",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-17",
+    "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N53365",
+    "titre": "Mission d'information sur les contrôles des produits importés en France dans le cadre des politiques de réciprocité",
+    "type": "Rapport d'information sans mission",
+    "auteur": "",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-17",
+    "etat": "Dépôt de rapport"
+  },
+  {
     "id": "DLR5L17N53229",
     "titre": "Les conséquences des accords du Touquet sur l’action publique et le respect des libertés et droits fondamentaux des personnes migrantes",
     "type": "Résolution",
@@ -308,6 +348,26 @@
     "nor": "",
     "date": "2025-12-17",
     "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N53018",
+    "titre": "Proposition de loi visant à assouplir les contraintes à l'usage de dispositifs de lecture automatisée de plaques d'immatriculation et à sécuriser l'action des forces de l'ordre",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-066.html",
+    "nor": "",
+    "date": "2025-12-17",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52900",
+    "titre": "Proposition de loi relative à la sécurisation des marchés publics numériques",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-008.html",
+    "nor": "",
+    "date": "2025-12-17",
+    "etat": "Décision"
   },
   {
     "id": "DLR5L17N52820",
@@ -340,6 +400,16 @@
     "etat": "Réunion de commission"
   },
   {
+    "id": "DLR5L17N52636",
+    "titre": "Proposition de loi visant à intégrer les accompagnants des élèves en situation de handicap dans la fonction publique et à garantir une meilleure inclusion des élèves en situation de handicap et à besoins éducatifs particuliers",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-872.html",
+    "nor": "",
+    "date": "2025-12-17",
+    "etat": "Dépôt de rapport"
+  },
+  {
     "id": "DLR5L17N52429",
     "titre": "Projet de loi autorisant l’approbation de la convention de coopération judiciaire internationale entre la France et le Myanmar",
     "type": "Projet de ratification des traités et conventions",
@@ -347,7 +417,7 @@
     "url": "",
     "nor": "",
     "date": "2025-12-17",
-    "etat": "Discussion en séance publique"
+    "etat": "Décision"
   },
   {
     "id": "DLR5L17N52099",
@@ -357,7 +427,27 @@
     "url": "",
     "nor": "",
     "date": "2025-12-17",
-    "etat": "Discussion en séance publique"
+    "etat": "Décision"
+  },
+  {
+    "id": "DLR5L17N51863",
+    "titre": "Proposition de loi visant à revaloriser les métiers du travail social",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-501.html",
+    "nor": "",
+    "date": "2025-12-17",
+    "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N51676",
+    "titre": "Reconnaissance d'un droit fondamental à l'eau et à l'assainissement de qualité au sein de l'Union européenne",
+    "type": "Résolution",
+    "auteur": "PA794906",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-17",
+    "etat": "Décision"
   },
   {
     "id": "DLR5L17N51519",
@@ -367,7 +457,7 @@
     "url": "http://www.senat.fr/dossier-legislatif/pjl24-345.html",
     "nor": "",
     "date": "2025-12-17",
-    "etat": "Discussion en séance publique"
+    "etat": "Décision"
   },
   {
     "id": "DLR5L17N53364",
@@ -411,12 +501,32 @@
   },
   {
     "id": "DLR5L17N51597",
-    "titre": "Proposition de loi visant à intégrer les centres experts en santé mentale dans le code de la santé publique",
+    "titre": "Proposition de loi visant à reconnaître le rôle des acteurs assurant des soins de troisième recours en psychiatrie",
     "type": "Proposition de loi ordinaire",
     "auteur": "PO78718",
     "url": "http://www.senat.fr/dossier-legislatif/ppl24-385.html",
     "nor": "",
     "date": "2025-12-16",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N51352",
+    "titre": "Ratification de plusieurs conventions-cadres relatives aux bureaux à contrôles nationaux juxtaposés, aux contrôles en cours de route et aux gares communes ou d’échange",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA410",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl24-853.html",
+    "nor": "",
+    "date": "2025-12-16",
+    "etat": "Promulgation d'une loi"
+  },
+  {
+    "id": "DLR5L17N53362",
+    "titre": "Proposition de loi relative à l'assouplissement des conditions d'inscription sur les listes électorales",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-223.html",
+    "nor": "",
+    "date": "2025-12-15",
     "etat": "Renvoi en commission au fond"
   },
   {
@@ -448,6 +558,16 @@
     "nor": "",
     "date": "2025-12-15",
     "etat": "Convocation d'une CMP"
+  },
+  {
+    "id": "DLR5L17N53363",
+    "titre": "Proposition de loi visant à autoriser le traitement algorithmique des images de vidéoprotection dans les transports en commun",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-221.html",
+    "nor": "",
+    "date": "2025-12-12",
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N53359",
@@ -680,16 +800,6 @@
     "etat": "Dépôt de rapport"
   },
   {
-    "id": "DLR5L17N53018",
-    "titre": "Proposition de loi visant à assouplir les contraintes à l'usage de dispositifs de lecture automatisée de plaques d'immatriculation et à sécuriser l'action des forces de l'ordre",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl25-066.html",
-    "nor": "",
-    "date": "2025-12-10",
-    "etat": "Dépôt de rapport"
-  },
-  {
     "id": "DLR5L17N53012",
     "titre": "Création d'un Défenseur de la laïcité et définition de ce principe",
     "type": "Projet ou proposition de loi constitutionnelle",
@@ -708,16 +818,6 @@
     "nor": "",
     "date": "2025-12-10",
     "etat": "Décision"
-  },
-  {
-    "id": "DLR5L17N52900",
-    "titre": "Proposition de loi relative à la sécurisation des marchés publics numériques",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl25-008.html",
-    "nor": "",
-    "date": "2025-12-10",
-    "etat": "Dépôt de rapport"
   },
   {
     "id": "DLR5L17N52462",
@@ -745,16 +845,6 @@
     "type": "Résolution",
     "auteur": "PA841633",
     "url": "",
-    "nor": "",
-    "date": "2025-12-10",
-    "etat": "Décision"
-  },
-  {
-    "id": "DLR5L17N51352",
-    "titre": "Ratification de plusieurs conventions-cadres relatives aux bureaux à contrôles nationaux juxtaposés, aux contrôles en cours de route et aux gares communes ou d’échange",
-    "type": "Projet de ratification des traités et conventions",
-    "auteur": "PA410",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl24-853.html",
     "nor": "",
     "date": "2025-12-10",
     "etat": "Décision"
@@ -2875,16 +2965,6 @@
     "type": "Projet de ratification des traités et conventions",
     "auteur": "PA410",
     "url": "http://www.senat.fr/dossier-legislatif/pjl24-553.html",
-    "nor": "",
-    "date": "2025-10-29",
-    "etat": "Réunion de commission"
-  },
-  {
-    "id": "DLR5L17N51676",
-    "titre": "Reconnaissance d'un droit fondamental à l'eau et à l'assainissement de qualité au sein de l'Union européenne",
-    "type": "Résolution",
-    "auteur": "PA794906",
-    "url": "",
     "nor": "",
     "date": "2025-10-29",
     "etat": "Réunion de commission"
@@ -5745,16 +5825,6 @@
     "type": "Proposition de loi ordinaire",
     "auteur": "PO78718",
     "url": "http://www.senat.fr/dossier-legislatif/ppl24-873.html",
-    "nor": "",
-    "date": "2025-07-31",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N52636",
-    "titre": "Proposition de loi visant à intégrer les accompagnants des élèves en situation de handicap dans la fonction publique et à garantir une meilleure inclusion des élèves en situation de handicap et à besoins éducatifs particuliers",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-872.html",
     "nor": "",
     "date": "2025-07-31",
     "etat": "Renvoi en commission au fond"
@@ -11218,16 +11288,6 @@
     "nor": "",
     "date": "2025-04-02",
     "etat": "Dépôt de rapport"
-  },
-  {
-    "id": "DLR5L17N51863",
-    "titre": "Proposition de loi visant à revaloriser les métiers du travail social",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-501.html",
-    "nor": "",
-    "date": "2025-04-01",
-    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N51850",
