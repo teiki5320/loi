@@ -100,6 +100,36 @@
     "etat": "Discussion en séance publique"
   },
   {
+    "id": "DLR5L17N52884",
+    "titre": "Allocations chômage des travailleurs frontaliers",
+    "type": "Résolution",
+    "auteur": "PA720552",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-21",
+    "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N52577",
+    "titre": "Le télétravail frontalier",
+    "type": "Résolution",
+    "auteur": "PA720552",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-21",
+    "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N52576",
+    "titre": "L'affiliation sociale des enfants de travailleurs frontaliers",
+    "type": "Résolution",
+    "auteur": "PA720552",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-21",
+    "etat": "Réunion de commission"
+  },
+  {
     "id": "DLR5L17N53279",
     "titre": "Mettre fin au devoir conjugal",
     "type": "Proposition de loi ordinaire",
@@ -250,11 +280,41 @@
     "etat": "Discussion en séance publique"
   },
   {
+    "id": "DLR5L17N53229",
+    "titre": "Les conséquences des accords du Touquet sur l’action publique et le respect des libertés et droits fondamentaux des personnes migrantes",
+    "type": "Résolution",
+    "auteur": "PA721896",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-08",
+    "etat": "Réunion de commission"
+  },
+  {
     "id": "DLR5L17N52354",
     "titre": "Projet de loi autorisant l’approbation de l’accord sous forme d’échange de notes verbales entre le Gouvernement de la République française et le Gouvernement de la République de Moldavie relatif à l'échange de permis de conduire",
     "type": "Projet de ratification des traités et conventions",
     "auteur": "PA410",
     "url": "http://www.senat.fr/dossier-legislatif/pjl24-764.html",
+    "nor": "",
+    "date": "2026-01-07",
+    "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N52036",
+    "titre": "Sauvegarder la pêche française de Méditerranée",
+    "type": "Résolution",
+    "auteur": "PA793904",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-07",
+    "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N51755",
+    "titre": "Promouvoir une pratique de la pêche durable et respectueuse des ressources halieutiques et des océans",
+    "type": "Résolution",
+    "auteur": "PA794270",
+    "url": "",
     "nor": "",
     "date": "2026-01-07",
     "etat": "Réunion de commission"
@@ -300,6 +360,106 @@
     "etat": "Discussion en séance publique"
   },
   {
+    "id": "DLR5L17N53376",
+    "titre": "Proposer au Président de la République, sur le fondement de l’article 11 de la Constitution, l’organisation d’un référendum sur l’accord commercial entre l’Union européenne et les pays du Mercosur",
+    "type": "Résolution Article 34-1",
+    "auteur": "PA840889",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-18",
+    "etat": "1er dépôt d'une initiative."
+  },
+  {
+    "id": "DLR5L17N53375",
+    "titre": "Consacrer l’exclusivité de la révision constitutionnelle par la procédure prévue à l’article 89 de la Constitution",
+    "type": "Projet ou proposition de loi constitutionnelle",
+    "auteur": "PA610968",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-18",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53374",
+    "titre": "Instaurer un référendum d’initiative citoyenne délibératif",
+    "type": "Projet ou proposition de loi constitutionnelle",
+    "auteur": "PA793664",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-18",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53373",
+    "titre": "La politique monétaire de la zone euro face au défi climatique",
+    "type": "Rapport d'information sans mission",
+    "auteur": "",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-18",
+    "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N52922",
+    "titre": "Projet de loi de financement de la sécurité sociale pour 2026",
+    "type": "Projet de loi de financement de la sécurité sociale",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/plfss2026.html",
+    "nor": "",
+    "date": "2025-12-18",
+    "etat": "Saisine du conseil constitutionnel"
+  },
+  {
+    "id": "DLR5L17N52900",
+    "titre": "Proposition de loi relative à la sécurisation des marchés publics numériques",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-008.html",
+    "nor": "",
+    "date": "2025-12-18",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52460",
+    "titre": "Proposition de loi visant à protéger les jeunes de l'exposition excessive et précoce aux écrans et des méfaits des réseaux sociaux",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-744.html",
+    "nor": "",
+    "date": "2025-12-18",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52429",
+    "titre": "Projet de loi autorisant l’approbation de la convention de coopération judiciaire internationale entre la France et le Myanmar",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA410",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl25-239.html",
+    "nor": "",
+    "date": "2025-12-18",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N51580",
+    "titre": "Libération des prisonniers arméniens détenus par l’Azerbaïdjan",
+    "type": "Résolution Article 34-1",
+    "auteur": "PA267285",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-18",
+    "etat": "Retrait d'une initiative"
+  },
+  {
+    "id": "DLR5L17N51329",
+    "titre": "Simplifier la sortie de l’indivision successorale",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA794810",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-415.html",
+    "nor": "",
+    "date": "2025-12-18",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
     "id": "DLR5L17N53368",
     "titre": "Les modalités de recrutement, de formation et d’organisation des activités périscolaires et extrascolaires et sur les mécanismes de prévention et de traitement des violences commises dans ce cadre",
     "type": "Résolution",
@@ -340,16 +500,6 @@
     "etat": "Dépôt de rapport"
   },
   {
-    "id": "DLR5L17N53229",
-    "titre": "Les conséquences des accords du Touquet sur l’action publique et le respect des libertés et droits fondamentaux des personnes migrantes",
-    "type": "Résolution",
-    "auteur": "PA721896",
-    "url": "",
-    "nor": "",
-    "date": "2025-12-17",
-    "etat": "Réunion de commission"
-  },
-  {
     "id": "DLR5L17N53018",
     "titre": "Proposition de loi visant à assouplir les contraintes à l'usage de dispositifs de lecture automatisée de plaques d'immatriculation et à sécuriser l'action des forces de l'ordre",
     "type": "Proposition de loi ordinaire",
@@ -358,16 +508,6 @@
     "nor": "",
     "date": "2025-12-17",
     "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N52900",
-    "titre": "Proposition de loi relative à la sécurisation des marchés publics numériques",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl25-008.html",
-    "nor": "",
-    "date": "2025-12-17",
-    "etat": "Décision"
   },
   {
     "id": "DLR5L17N52820",
@@ -408,16 +548,6 @@
     "nor": "",
     "date": "2025-12-17",
     "etat": "Dépôt de rapport"
-  },
-  {
-    "id": "DLR5L17N52429",
-    "titre": "Projet de loi autorisant l’approbation de la convention de coopération judiciaire internationale entre la France et le Myanmar",
-    "type": "Projet de ratification des traités et conventions",
-    "auteur": "PA410",
-    "url": "",
-    "nor": "",
-    "date": "2025-12-17",
-    "etat": "Décision"
   },
   {
     "id": "DLR5L17N52099",
@@ -470,16 +600,6 @@
     "etat": "Dépôt de rapport"
   },
   {
-    "id": "DLR5L17N52922",
-    "titre": "Projet de loi de financement de la sécurité sociale pour 2026",
-    "type": "Projet de loi de financement de la sécurité sociale",
-    "auteur": "PA643210",
-    "url": "http://www.senat.fr/dossier-legislatif/plfss2026.html",
-    "nor": "",
-    "date": "2025-12-16",
-    "etat": "Décision"
-  },
-  {
     "id": "DLR5L17N52575",
     "titre": "Soutenir l’Arménie dans ses efforts de paix avec l’Azerbaïdjan, en signant un partenariat stratégique et en demandant la libération des prisonniers politiques d’Artsakh détenus en Azerbaïdjan",
     "type": "Résolution",
@@ -488,16 +608,6 @@
     "nor": "",
     "date": "2025-12-16",
     "etat": "Retrait d'une initiative"
-  },
-  {
-    "id": "DLR5L17N52460",
-    "titre": "Proposition de loi visant à protéger les jeunes de l'exposition excessive et précoce aux écrans et des méfaits des réseaux sociaux",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-744.html",
-    "nor": "",
-    "date": "2025-12-16",
-    "etat": "Le gouvernement déclare l'urgence / engage la procédure accélérée"
   },
   {
     "id": "DLR5L17N51597",
@@ -750,6 +860,16 @@
     "etat": "Décision"
   },
   {
+    "id": "DLR5L17N53369",
+    "titre": "Proposition de loi visant à garantir l'équilibre économique de l'exploitation des réseaux d'initiative publique par un mécanisme de péréquation",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-210.html",
+    "nor": "",
+    "date": "2025-12-10",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
     "id": "DLR5L17N53356",
     "titre": "Proposition de loi visant à mettre la commande publique au service de la souveraineté économique",
     "type": "Proposition de loi ordinaire",
@@ -848,16 +968,6 @@
     "nor": "",
     "date": "2025-12-10",
     "etat": "Décision"
-  },
-  {
-    "id": "DLR5L17N51329",
-    "titre": "Simplifier la sortie de l’indivision successorale",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA794810",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-415.html",
-    "nor": "",
-    "date": "2025-12-10",
-    "etat": "Dépôt de rapport"
   },
   {
     "id": "DLR5L17N50817",
@@ -1260,16 +1370,6 @@
     "etat": "Réunion de commission"
   },
   {
-    "id": "DLR5L17N52884",
-    "titre": "Allocations chômage des travailleurs frontaliers",
-    "type": "Résolution",
-    "auteur": "PA720552",
-    "url": "",
-    "nor": "",
-    "date": "2025-12-03",
-    "etat": "Réunion de commission"
-  },
-  {
     "id": "DLR5L17N52716",
     "titre": "La coopération européenne dans la lutte contre la cyberpédocriminalité pour la défense des droits des enfants à l’ère numérique",
     "type": "Résolution",
@@ -1278,26 +1378,6 @@
     "nor": "",
     "date": "2025-12-03",
     "etat": "Décision"
-  },
-  {
-    "id": "DLR5L17N52577",
-    "titre": "Le télétravail frontalier",
-    "type": "Résolution",
-    "auteur": "PA720552",
-    "url": "",
-    "nor": "",
-    "date": "2025-12-03",
-    "etat": "Réunion de commission"
-  },
-  {
-    "id": "DLR5L17N52576",
-    "titre": "L'affiliation sociale des enfants de travailleurs frontaliers",
-    "type": "Résolution",
-    "auteur": "PA720552",
-    "url": "",
-    "nor": "",
-    "date": "2025-12-03",
-    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L17N53316",
@@ -10000,16 +10080,6 @@
     "etat": "Renvoi en commission au fond"
   },
   {
-    "id": "DLR5L17N52036",
-    "titre": "Sauvegarder la pêche française de Méditerranée",
-    "type": "Résolution",
-    "auteur": "PA793904",
-    "url": "",
-    "nor": "",
-    "date": "2025-05-07",
-    "etat": "Renvoi préalable"
-  },
-  {
     "id": "DLR5L17N52035",
     "titre": "Garantir le droit du sol comme fondement de l'acquisition de la nationalité française",
     "type": "Projet ou proposition de loi constitutionnelle",
@@ -11840,16 +11910,6 @@
     "etat": "Renvoi en commission au fond"
   },
   {
-    "id": "DLR5L17N51755",
-    "titre": "Promouvoir une pratique de la pêche durable et respectueuse des ressources halieutiques et des océans",
-    "type": "Résolution",
-    "auteur": "PA794270",
-    "url": "",
-    "nor": "",
-    "date": "2025-03-24",
-    "etat": "Renvoi préalable"
-  },
-  {
     "id": "DLR5L17N51161",
     "titre": "Proroger le dispositif d’expérimentation favorisant l’égalité des chances pour l’accès à certaines écoles de service public",
     "type": "Proposition de loi ordinaire",
@@ -13248,16 +13308,6 @@
     "nor": "",
     "date": "2025-02-28",
     "etat": "Promulgation d'une loi"
-  },
-  {
-    "id": "DLR5L17N51580",
-    "titre": "Libération des prisonniers arméniens détenus par l’Azerbaïdjan",
-    "type": "Résolution Article 34-1",
-    "auteur": "PA267285",
-    "url": "",
-    "nor": "",
-    "date": "2025-02-27",
-    "etat": "1er dépôt d'une initiative."
   },
   {
     "id": "DLR5L16N49455",
