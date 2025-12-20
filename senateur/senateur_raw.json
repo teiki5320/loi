@@ -6359,16 +6359,6 @@
     "libelle": "Commission de vérification des fonds spéciaux",
     "ordre": 16999
   },{
-    "code": "DELEGA-RENSEIGNEMEN",
-    "type": "DELEGATION/OFFICE",
-    "libelle": "Délégation parlementaire au renseignement ",
-    "ordre": 16007
-  },{
-    "code": "ETUDES-948",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Forêt et filière bois",
-    "ordre": 50001
-  },{
     "code": "ETUDES-907",
     "type": "ETUDE",
     "libelle": "Groupe d'études Chasse et pêche",
@@ -6382,6 +6372,11 @@
     "code": "ETUDES-919",
     "type": "ETUDE",
     "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-948",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Forêt et filière bois",
     "ordre": 50001
   },{
     "code": "MISINFCOM-BREXIT3",
@@ -8078,16 +8073,6 @@
     "libelle": "Commission spéciale sur le projet de loi relatif à la résilience des activités d'importance vitale, à la protection des infrastructures critiques, à la cybersécurité et à la résilience opérationnelle numérique du secteur financier",
     "ordre": 24999
   },{
-    "code": "DELEGA-RENSEIGNEMEN",
-    "type": "DELEGATION/OFFICE",
-    "libelle": "Délégation parlementaire au renseignement ",
-    "ordre": 16007
-  },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
-  },{
     "code": "ETUDES-934",
     "type": "ETUDE",
     "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
@@ -8101,6 +8086,11 @@
     "code": "ETUDES-906",
     "type": "ETUDE",
     "libelle": "Groupe d'études Énergie",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   },{
     "code": "OFFICE-EXPORTARM",
@@ -10475,11 +10465,6 @@
     "type": "DELEGATION/OFFICE",
     "libelle": "Commission de vérification des fonds spéciaux",
     "ordre": 16999
-  },{
-    "code": "DELEGA-RENSEIGNEMEN",
-    "type": "DELEGATION/OFFICE",
-    "libelle": "Délégation parlementaire au renseignement ",
-    "ordre": 16007
   },{
     "code": "ETUDES-908",
     "type": "ETUDE",
@@ -13813,16 +13798,6 @@
     "libelle": "Délégation sénatoriale aux collectivités territoriales et à la décentralisation",
     "ordre": 16002
   },{
-    "code": "DELEGA-RENSEIGNEMEN",
-    "type": "DELEGATION/OFFICE",
-    "libelle": "Délégation parlementaire au renseignement ",
-    "ordre": 16007
-  },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
-  },{
     "code": "ETUDES-1014",
     "type": "ETUDE",
     "libelle": "Groupe d'études Handicap",
@@ -13831,6 +13806,11 @@
     "code": "ETUDES-1015",
     "type": "ETUDE",
     "libelle": "Groupe d'études Pêche et produits de la mer",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   }],
   "groupe": {
