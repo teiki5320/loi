@@ -1,5 +1,15 @@
 [
   {
+    "id": "DLR5L17N52561",
+    "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et le Gouvernement du Monténégro relatif à la coopération dans le domaine de la défense",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA410",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl24-857.html",
+    "nor": "",
+    "date": "2026-02-04",
+    "etat": "Réunion de commission"
+  },
+  {
     "id": "DLR5L17N53341",
     "titre": "Interdire le maintien dans l’hébergement d’urgence aux immigrés illégaux",
     "type": "Proposition de loi ordinaire",
@@ -266,7 +276,7 @@
     "auteur": "PA643210",
     "url": "",
     "nor": "",
-    "date": "2026-01-14",
+    "date": "2026-01-13",
     "etat": "Réunion de commission"
   },
   {
@@ -295,6 +305,16 @@
     "type": "Projet de ratification des traités et conventions",
     "auteur": "PA410",
     "url": "http://www.senat.fr/dossier-legislatif/pjl24-764.html",
+    "nor": "",
+    "date": "2026-01-07",
+    "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N52103",
+    "titre": "Projet de loi autorisant l’approbation de l’avenant à la convention d’entraide judiciaire en matière pénale du 28 mai 1996 entre le Gouvernement de la République française et le Gouvernement de la République fédérative du Brésil",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA410",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl24-629.html",
     "nor": "",
     "date": "2026-01-07",
     "etat": "Réunion de commission"
@@ -330,34 +350,34 @@
     "etat": "Réunion de commission"
   },
   {
-    "id": "DLR5L17N52100",
-    "titre": "Projet de loi relatif à l’organisation des jeux Olympiques et Paralympiques de 2030",
-    "type": "Projet de loi ordinaire",
-    "auteur": "PA410",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl24-630.html",
+    "id": "DLR5L17N53379",
+    "titre": "Agir pour garantir l’accès à l’autoconservation d’ovocytes",
+    "type": "Résolution Article 34-1",
+    "auteur": "PA793872",
+    "url": "",
     "nor": "",
     "date": "2025-12-19",
-    "etat": "Discussion en séance publique"
+    "etat": "1er dépôt d'une initiative."
   },
   {
-    "id": "DLR5L17N51351",
-    "titre": "Proposition de loi visant à reconnaître le préjudice subi par les personnes condamnées sur le fondement de la législation pénalisant l’avortement, et par toutes les femmes, avant la loi n° 75-17 du 17 janvier 1975 relative à l’interruption volontaire de la grossesse",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-244.html",
+    "id": "DLR5L17N53378",
+    "titre": "Libération des prisonniers arméniens détenus par l’Azerbaïdjan",
+    "type": "Résolution Article 34-1",
+    "auteur": "PA267285",
+    "url": "",
     "nor": "",
     "date": "2025-12-19",
-    "etat": "Discussion en séance publique"
+    "etat": "1er dépôt d'une initiative."
   },
   {
-    "id": "DLR5L16N46127",
-    "titre": "Proposition de loi portant réparation des personnes condamnées pour homosexualité entre 1945 et 1982",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl21-864.html",
+    "id": "DLR5L17N52428",
+    "titre": "Projet de loi de finances pour 2026",
+    "type": "Projet de loi de finances de l'année",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjlf2026.html",
     "nor": "",
     "date": "2025-12-19",
-    "etat": "Discussion en séance publique"
+    "etat": "Dépôt du rapport d'une CMP"
   },
   {
     "id": "DLR5L17N53376",
@@ -440,6 +460,16 @@
     "etat": "Renvoi en commission au fond"
   },
   {
+    "id": "DLR5L17N52100",
+    "titre": "Projet de loi relatif à l’organisation des jeux Olympiques et Paralympiques de 2030",
+    "type": "Projet de loi ordinaire",
+    "auteur": "PA410",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl24-630.html",
+    "nor": "",
+    "date": "2025-12-18",
+    "etat": "Discussion en séance publique"
+  },
+  {
     "id": "DLR5L17N51580",
     "titre": "Libération des prisonniers arméniens détenus par l’Azerbaïdjan",
     "type": "Résolution Article 34-1",
@@ -448,6 +478,16 @@
     "nor": "",
     "date": "2025-12-18",
     "etat": "Retrait d'une initiative"
+  },
+  {
+    "id": "DLR5L17N51351",
+    "titre": "Proposition de loi visant à reconnaître le préjudice subi par les personnes condamnées sur le fondement de la législation pénalisant l’avortement, et par toutes les femmes, avant la loi n° 75-17 du 17 janvier 1975 relative à l’interruption volontaire de la grossesse",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-244.html",
+    "nor": "",
+    "date": "2025-12-18",
+    "etat": "Décision"
   },
   {
     "id": "DLR5L17N51329",
@@ -460,6 +500,16 @@
     "etat": "Renvoi en commission au fond"
   },
   {
+    "id": "DLR5L16N46127",
+    "titre": "Proposition de loi portant réparation des personnes condamnées pour homosexualité entre 1945 et 1982",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl21-864.html",
+    "nor": "",
+    "date": "2025-12-18",
+    "etat": "Décision"
+  },
+  {
     "id": "DLR5L17N53368",
     "titre": "Les modalités de recrutement, de formation et d’organisation des activités périscolaires et extrascolaires et sur les mécanismes de prévention et de traitement des violences commises dans ce cadre",
     "type": "Résolution",
@@ -468,16 +518,6 @@
     "nor": "",
     "date": "2025-12-17",
     "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N53367",
-    "titre": "Mission d'information sur la concurrence déloyale dans l'économie du ski et les enjeux pour le tourisme de montagne en France",
-    "type": "Rapport d'information sans mission",
-    "auteur": "",
-    "url": "",
-    "nor": "",
-    "date": "2025-12-17",
-    "etat": "Dépôt de rapport"
   },
   {
     "id": "DLR5L17N53366",
@@ -630,6 +670,16 @@
     "etat": "Promulgation d'une loi"
   },
   {
+    "id": "DLR5L17N53377",
+    "titre": "Proposition de loi visant à renforcer le fonds national de péréquation des droits de mutation à titre onéreux",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-224.html",
+    "nor": "",
+    "date": "2025-12-15",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
     "id": "DLR5L17N53362",
     "titre": "Proposition de loi relative à l'assouplissement des conditions d'inscription sur les listes électorales",
     "type": "Proposition de loi ordinaire",
@@ -658,16 +708,6 @@
     "nor": "",
     "date": "2025-12-15",
     "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N52428",
-    "titre": "Projet de loi de finances pour 2026",
-    "type": "Projet de loi de finances de l'année",
-    "auteur": "PA643210",
-    "url": "http://www.senat.fr/dossier-legislatif/pjlf2026.html",
-    "nor": "",
-    "date": "2025-12-15",
-    "etat": "Convocation d'une CMP"
   },
   {
     "id": "DLR5L17N53363",
@@ -834,17 +874,7 @@
     "titre": "Assurer le droit de chaque enfant à disposer d’un avocat dans le cadre d’une mesure d’assistance éducative et de protection de l’enfance",
     "type": "Proposition de loi ordinaire",
     "auteur": "PA842263",
-    "url": "",
-    "nor": "",
-    "date": "2025-12-11",
-    "etat": "Décision"
-  },
-  {
-    "id": "DLR5L17N52561",
-    "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et le Gouvernement du Monténégro relatif à la coopération dans le domaine de la défense",
-    "type": "Projet de ratification des traités et conventions",
-    "auteur": "PA410",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl24-857.html",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-214.html",
     "nor": "",
     "date": "2025-12-11",
     "etat": "Renvoi en commission au fond"
@@ -7728,16 +7758,6 @@
     "nor": "",
     "date": "2025-06-23",
     "etat": "Décision"
-  },
-  {
-    "id": "DLR5L17N52103",
-    "titre": "Projet de loi autorisant l’approbation de l’avenant à la convention d’entraide judiciaire en matière pénale du 28 mai 1996 entre le Gouvernement de la République française et le Gouvernement de la République fédérative du Brésil",
-    "type": "Projet de ratification des traités et conventions",
-    "auteur": "PA410",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl24-629.html",
-    "nor": "",
-    "date": "2025-06-23",
-    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N51919",
