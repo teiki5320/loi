@@ -270,6 +270,16 @@
     "etat": "Discussion en séance publique"
   },
   {
+    "id": "DLR5L17N53075",
+    "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et le Gouvernement de la République de Moldova relatif à la coopération dans le domaine de la défense",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA643210",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-14",
+    "etat": "Réunion de commission"
+  },
+  {
     "id": "DLR5L17N53259",
     "titre": "L’approbation de l’accord entre le Gouvernement de la République française et l’Agence spatiale européenne concernant les installations de l’Agence spatiale européenne en France",
     "type": "Projet de ratification des traités et conventions",
@@ -378,6 +388,16 @@
     "nor": "",
     "date": "2025-12-19",
     "etat": "Dépôt du rapport d'une CMP"
+  },
+  {
+    "id": "DLR5L17N53380",
+    "titre": "Proposition de loi organique portant loi spéciale en matière de financement de la sécurité sociale",
+    "type": "Projet ou proposition de loi organique",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-243.html",
+    "nor": "",
+    "date": "2025-12-18",
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N53376",
@@ -628,6 +648,16 @@
     "nor": "",
     "date": "2025-12-17",
     "etat": "Décision"
+  },
+  {
+    "id": "DLR5L17N53381",
+    "titre": "Proposition de loi visant à lutter contre la cabanisation",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-225.html",
+    "nor": "",
+    "date": "2025-12-16",
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N53364",
@@ -3028,16 +3058,6 @@
     "nor": "",
     "date": "2025-10-29",
     "etat": "Renvoi préalable"
-  },
-  {
-    "id": "DLR5L17N53075",
-    "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et le Gouvernement de la République de Moldova relatif à la coopération dans le domaine de la défense",
-    "type": "Projet de ratification des traités et conventions",
-    "auteur": "PA643210",
-    "url": "",
-    "nor": "",
-    "date": "2025-10-29",
-    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N53074",
