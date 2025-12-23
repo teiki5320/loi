@@ -360,6 +360,36 @@
     "etat": "Réunion de commission"
   },
   {
+    "id": "DLR5L17N53386",
+    "titre": "DOSSIER : projet de loi spéciale prévue par l'article 45 de la loi organique n°2001-692 du 1er août 2001 relative aux lois de finances",
+    "type": "Projet de loi ordinaire",
+    "auteur": "PA643210",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-23",
+    "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N53384",
+    "titre": "Agir pour garantir l’accès à la procréation médicalement assistée",
+    "type": "Résolution Article 34-1",
+    "auteur": "PA795310",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-22",
+    "etat": "1er dépôt d'une initiative."
+  },
+  {
+    "id": "DLR5L17N52305",
+    "titre": "Garantir l’attribution post 2030 de la bande de fréquences inférieure à 700 mégahertz à la télévision numérique terrestre",
+    "type": "Résolution",
+    "auteur": "PA795982",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-22",
+    "etat": "Décision"
+  },
+  {
     "id": "DLR5L17N53379",
     "titre": "Agir pour garantir l’accès à l’autoconservation d’ovocytes",
     "type": "Résolution Article 34-1",
@@ -2848,16 +2878,6 @@
     "nor": "",
     "date": "2025-11-05",
     "etat": "Création d'une mission d'information"
-  },
-  {
-    "id": "DLR5L17N52305",
-    "titre": "Garantir l’attribution post 2030 de la bande de fréquences inférieure à 700 mégahertz à la télévision numérique terrestre",
-    "type": "Résolution",
-    "auteur": "PA795982",
-    "url": "",
-    "nor": "",
-    "date": "2025-11-05",
-    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L17N53113",
