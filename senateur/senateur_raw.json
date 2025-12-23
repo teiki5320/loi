@@ -105,20 +105,15 @@
     "libelle": "Comité de déontologie parlementaire du Sénat",
     "ordre": 18011
   },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
-  },{
     "code": "ETUDES-909",
     "type": "ETUDE",
     "libelle": "Groupe d'études Vigne et vin",
     "ordre": 50001
   },{
-    "code": "MISINFCOM-BIOCARBU",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « Le développement d'une filière de biocarburants, carburants synthétiques durables et hydrogène vert »",
-    "ordre": 42999
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
   }],
   "groupe": {
     "code": "RDSE",
@@ -153,11 +148,6 @@
     "type": "COMMISSION",
     "libelle": "Commission de la culture, de l'éducation, de la communication et du sport",
     "ordre": 7005
-  },{
-    "code": "COMSPE-CINC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à renforcer la prévention et la lutte contre l'intensification et l'extension du risque incendie",
-    "ordre": 24999
   },{
     "code": "COMSPE-SIMP",
     "type": "TEMPORAIRE",
@@ -240,11 +230,6 @@
     "libelle": "Commission des affaires économiques",
     "ordre": 7001
   },{
-    "code": "COMENQ-RENOV",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission d'enquête sur l'efficacité des politiques publiques en matière de rénovation énergétique",
-    "ordre": 25999
-  },{
     "code": "COMEUR-AFEU",
     "type": "COMMISSION",
     "libelle": "Commission des affaires européennes",
@@ -288,15 +273,15 @@
   "urlAvatar": "/senimg/demilly_stephane17229f_carre.jpg",
   "facebook": "1684842056",
   "organismes": [{
-    "code": "AUTRES-SFAPF",
-    "type": "AUTRE",
-    "libelle": "Section française de l'Assemblée parlementaire de la francophonie (A.P.F.)",
-    "ordre": 60017
-  },{
     "code": "AUTRES-UIP",
     "type": "AUTRE",
     "libelle": "Groupe français de l'Union Interparlementaire (U.I.P.)",
     "ordre": 60018
+  },{
+    "code": "AUTRES-SFAPF",
+    "type": "AUTRE",
+    "libelle": "Section française de l'Assemblée parlementaire de la francophonie (A.P.F.)",
+    "ordre": 60017
   },{
     "code": "COM-CDD",
     "type": "COMMISSION",
@@ -313,20 +298,15 @@
     "libelle": "Délégation sénatoriale aux outre-mer",
     "ordre": 16005
   },{
-    "code": "ETUDES-933",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Aviation civile",
-    "ordre": 50001
-  },{
     "code": "ETUDES-919",
     "type": "ETUDE",
     "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   },{
-    "code": "MISINFCOM-BIOCARBU",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « Le développement d'une filière de biocarburants, carburants synthétiques durables et hydrogène vert »",
-    "ordre": 42999
+    "code": "ETUDES-933",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Aviation civile",
+    "ordre": 50001
   }],
   "groupe": {
     "code": "UC",
@@ -367,9 +347,9 @@
     "libelle": "Délégation sénatoriale à la prospective",
     "ordre": 16006
   },{
-    "code": "ETUDES-1004",
+    "code": "ETUDES-919",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Cancer",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   },{
     "code": "ETUDES-1014",
@@ -377,25 +357,20 @@
     "libelle": "Groupe d'études Handicap",
     "ordre": 50001
   },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
-  },{
     "code": "ETUDES-934",
     "type": "ETUDE",
     "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-1004",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Cancer",
     "ordre": 50001
   },{
     "code": "MECSS-MECSS",
     "type": "AUTRE",
     "libelle": "Mission d'évaluation et de contrôle de la sécurité sociale",
     "ordre": 21001
-  },{
-    "code": "MISINFCOM-AVENCOMM",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur l'avenir de la commune et du maire en France",
-    "ordre": 42999
   }],
   "groupe": {
     "code": "UMP",
@@ -509,16 +484,6 @@
     "libelle": "Commission des finances",
     "ordre": 7006
   },{
-    "code": "COMENQ-TIKTO",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission d'enquête sur l'utilisation du réseau social tiktok, son exploitation des données, sa stratégie d'influence",
-    "ordre": 25999
-  },{
-    "code": "COMENQ-RENOV",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission d'enquête sur l'efficacité des politiques publiques en matière de rénovation énergétique",
-    "ordre": 25999
-  },{
     "code": "COMEUR-AFEU",
     "type": "COMMISSION",
     "libelle": "Commission des affaires européennes",
@@ -539,11 +504,6 @@
     "libelle": "Délégation sénatoriale à la prospective",
     "ordre": 16006
   },{
-    "code": "ETUDES-1006",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Francophonie",
-    "ordre": 50001
-  },{
     "code": "ETUDES-906",
     "type": "ETUDE",
     "libelle": "Groupe d'études Énergie",
@@ -557,6 +517,11 @@
     "code": "ETUDES-934",
     "type": "ETUDE",
     "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-1006",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Francophonie",
     "ordre": 50001
   }],
   "groupe": {
@@ -597,11 +562,6 @@
     "type": "COMMISSION",
     "libelle": "Commission de l'aménagement du territoire et du développement durable",
     "ordre": 7004
-  },{
-    "code": "COMENQ-RENOV",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission d'enquête sur l'efficacité des politiques publiques en matière de rénovation énergétique",
-    "ordre": 25999
   },{
     "code": "DELEGA-DSOM",
     "type": "DELEGATION/OFFICE",
@@ -662,21 +622,6 @@
     "libelle": "Délégation sénatoriale aux collectivités territoriales et à la décentralisation",
     "ordre": 16002
   },{
-    "code": "ETUDES-908",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Mer et littoral",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-1015",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Pêche et produits de la mer",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-918",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Développement économique de la montagne",
-    "ordre": 50001
-  },{
     "code": "ETUDES-919",
     "type": "ETUDE",
     "libelle": "Groupe d'études Agriculture, élevage et alimentation",
@@ -687,10 +632,20 @@
     "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
     "ordre": 50001
   },{
-    "code": "MISINFCOM-BATI",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « le bâti scolaire à l'épreuve de la transition écologique »",
-    "ordre": 42999
+    "code": "ETUDES-1015",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Pêche et produits de la mer",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-908",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Mer et littoral",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-918",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Développement économique de la montagne",
+    "ordre": 50001
   }],
   "groupe": {
     "code": "UMP",
@@ -807,15 +762,15 @@
     "libelle": "Commission des affaires étrangères, de la défense et des forces armées",
     "ordre": 7002
   },{
-    "code": "COMENQ-TIKTO",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission d'enquête sur l'utilisation du réseau social tiktok, son exploitation des données, sa stratégie d'influence",
-    "ordre": 25999
-  },{
     "code": "COMSPE-CYBE",
     "type": "TEMPORAIRE",
     "libelle": "Commission spéciale sur le projet de loi relatif à la résilience des activités d'importance vitale, à la protection des infrastructures critiques, à la cybersécurité et à la résilience opérationnelle numérique du secteur financier",
     "ordre": 24999
+  },{
+    "code": "ETUDES-928",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Monde combattant et mémoire",
+    "ordre": 50001
   },{
     "code": "ETUDES-1008",
     "type": "ETUDE",
@@ -832,19 +787,14 @@
     "libelle": "Groupe d'études Francophonie",
     "ordre": 50001
   },{
-    "code": "ETUDES-928",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Monde combattant et mémoire",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
-  },{
     "code": "ETUDES-1015",
     "type": "ETUDE",
     "libelle": "Groupe d'études Pêche et produits de la mer",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-908",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Mer et littoral",
     "ordre": 50001
   },{
     "code": "ETUDES-907",
@@ -852,9 +802,9 @@
     "libelle": "Groupe d'études Chasse et pêche",
     "ordre": 50001
   },{
-    "code": "ETUDES-908",
+    "code": "ETUDES-919",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Mer et littoral",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   },{
     "code": "BUR",
@@ -949,25 +899,20 @@
   "urlAvatar": "/senimg/carlotti_marie_arlette12028b_carre.jpg",
   "twitter": "MACarlotti",
   "organismes": [{
-    "code": "AUTRES-APM",
-    "type": "AUTRE",
-    "libelle": "Assemblée parlementaire de la Méditerranée",
-    "ordre": 60051
-  },{
     "code": "AUTRES-SFAPF",
     "type": "AUTRE",
     "libelle": "Section française de l'Assemblée parlementaire de la francophonie (A.P.F.)",
     "ordre": 60017
   },{
+    "code": "AUTRES-APM",
+    "type": "AUTRE",
+    "libelle": "Assemblée parlementaire de la Méditerranée",
+    "ordre": 60051
+  },{
     "code": "COM-ETRD",
     "type": "COMMISSION",
     "libelle": "Commission des affaires étrangères, de la défense et des forces armées",
     "ordre": 7002
-  },{
-    "code": "MISINFCOM-BATI",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « le bâti scolaire à l'épreuve de la transition écologique »",
-    "ordre": 42999
   },{
     "code": "BUR",
     "type": "INTERNE",
@@ -1013,24 +958,9 @@
     "libelle": "Commission de la culture, de l'éducation, de la communication et du sport",
     "ordre": 7005
   },{
-    "code": "COMSPE-ESNU",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi visant à sécuriser et réguler l'espace numérique",
-    "ordre": 24999
-  },{
-    "code": "ETUDES-938",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Arctique, Antarctique et Terres australes",
-    "ordre": 50001
-  },{
     "code": "ETUDES-1007",
     "type": "ETUDE",
     "libelle": "Groupe d'études Métiers d'art",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-966",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Arts de la scène, arts de la rue et festivals en régions ",
     "ordre": 50001
   },{
     "code": "ETUDES-1008",
@@ -1038,10 +968,15 @@
     "libelle": "Groupe Numérique",
     "ordre": 50001
   },{
-    "code": "MISINFCOM-GEAU",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « gestion durable de l'eau : l'urgence d'agir pour nos usages, nos territoires et notre environnement »",
-    "ordre": 42999
+    "code": "ETUDES-938",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Arctique, Antarctique et Terres australes",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-966",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Arts de la scène, arts de la rue et festivals en régions ",
+    "ordre": 50001
   },{
     "code": "BUR",
     "type": "INTERNE",
@@ -1299,11 +1234,6 @@
     "libelle": "Commission des affaires sociales",
     "ordre": 7003
   },{
-    "code": "COMENQ-MEDIC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission d'enquête sur la pénurie de médicaments et les choix de l'industrie pharmaceutique française",
-    "ordre": 25999
-  },{
     "code": "DELEGA-211",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation aux droits des femmes et à l'égalité des chances entre les hommes et les femmes",
@@ -1416,20 +1346,15 @@
     "libelle": "Délégation sénatoriale aux outre-mer",
     "ordre": 16005
   },{
-    "code": "ETUDES-1014",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Handicap",
-    "ordre": 50001
-  },{
     "code": "ETUDES-928",
     "type": "ETUDE",
     "libelle": "Groupe d'études Monde combattant et mémoire",
     "ordre": 50001
   },{
-    "code": "MISINFCOM-BATI",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « le bâti scolaire à l'épreuve de la transition écologique »",
-    "ordre": 42999
+    "code": "ETUDES-1014",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Handicap",
+    "ordre": 50001
   }],
   "groupe": {
     "code": "UC",
@@ -1504,20 +1429,10 @@
     "libelle": "Commission des affaires sociales",
     "ordre": 7003
   },{
-    "code": "COMENQ-MEDIC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission d'enquête sur la pénurie de médicaments et les choix de l'industrie pharmaceutique française",
-    "ordre": 25999
-  },{
     "code": "COMEUR-AFEU",
     "type": "COMMISSION",
     "libelle": "Commission des affaires européennes",
     "ordre": 8001
-  },{
-    "code": "COMSPE-ESNU",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi visant à sécuriser et réguler l'espace numérique",
-    "ordre": 24999
   },{
     "code": "COMSPE-SIMP",
     "type": "TEMPORAIRE",
@@ -1529,6 +1444,11 @@
     "libelle": "Délégation sénatoriale aux collectivités territoriales et à la décentralisation",
     "ordre": 16002
   },{
+    "code": "ETUDES-909",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Vigne et vin",
+    "ordre": 50001
+  },{
     "code": "ETUDES-907",
     "type": "ETUDE",
     "libelle": "Groupe d'études Chasse et pêche",
@@ -1537,11 +1457,6 @@
     "code": "ETUDES-1006",
     "type": "ETUDE",
     "libelle": "Groupe d'études Francophonie",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-909",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Vigne et vin",
     "ordre": 50001
   },{
     "code": "ETUDES-919",
@@ -1656,20 +1571,15 @@
     "libelle": "Délégation sénatoriale aux outre-mer",
     "ordre": 16005
   },{
-    "code": "ETUDES-907",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Chasse et pêche",
-    "ordre": 50001
-  },{
     "code": "ETUDES-909",
     "type": "ETUDE",
     "libelle": "Groupe d'études Vigne et vin",
     "ordre": 50001
   },{
-    "code": "MISINFCOM-LOCA",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur \"l'impact des décisions réglementaires et budgétaires de l'Etat sur l'équilibre financier des collectivités locales\"",
-    "ordre": 42999
+    "code": "ETUDES-907",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Chasse et pêche",
+    "ordre": 50001
   },{
     "code": "BUR",
     "type": "INTERNE",
@@ -1826,14 +1736,9 @@
     "libelle": "Commission des affaires économiques",
     "ordre": 7001
   },{
-    "code": "ETUDES-928",
+    "code": "ETUDES-933",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Monde combattant et mémoire",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-1007",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Métiers d'art",
+    "libelle": "Groupe d'études Aviation civile",
     "ordre": 50001
   },{
     "code": "ETUDES-922",
@@ -1866,14 +1771,14 @@
     "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   },{
+    "code": "ETUDES-928",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Monde combattant et mémoire",
+    "ordre": 50001
+  },{
     "code": "ETUDES-1015",
     "type": "ETUDE",
     "libelle": "Groupe d'études Pêche et produits de la mer",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-933",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Aviation civile",
     "ordre": 50001
   },{
     "code": "ETUDES-934",
@@ -1916,10 +1821,10 @@
     "libelle": "Groupe d'études Francophonie",
     "ordre": 50001
   },{
-    "code": "MISINFCOM-BIOCARBU",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « Le développement d'une filière de biocarburants, carburants synthétiques durables et hydrogène vert »",
-    "ordre": 42999
+    "code": "ETUDES-1007",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Métiers d'art",
+    "ordre": 50001
   },{
     "code": "OFFICE-206",
     "type": "DELEGATION/OFFICE",
@@ -2050,11 +1955,6 @@
     "type": "ETUDE",
     "libelle": "Groupe d'études Monde combattant et mémoire",
     "ordre": 50001
-  },{
-    "code": "MISINFCOM-BIOCARBU",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « Le développement d'une filière de biocarburants, carburants synthétiques durables et hydrogène vert »",
-    "ordre": 42999
   }],
   "groupe": {
     "code": "UMP",
@@ -2095,20 +1995,15 @@
     "libelle": "Délégation sénatoriale aux collectivités territoriales et à la décentralisation",
     "ordre": 16002
   },{
-    "code": "ETUDES-1015",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Pêche et produits de la mer",
-    "ordre": 50001
-  },{
     "code": "ETUDES-1014",
     "type": "ETUDE",
     "libelle": "Groupe d'études Handicap",
     "ordre": 50001
   },{
-    "code": "MISINFCOM-BATI",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « le bâti scolaire à l'épreuve de la transition écologique »",
-    "ordre": 42999
+    "code": "ETUDES-1015",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Pêche et produits de la mer",
+    "ordre": 50001
   },{
     "code": "BUR",
     "type": "INTERNE",
@@ -2256,11 +2151,6 @@
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale aux collectivités territoriales et à la décentralisation",
     "ordre": 16002
-  },{
-    "code": "MISINFCOM-GEAU",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « gestion durable de l'eau : l'urgence d'agir pour nos usages, nos territoires et notre environnement »",
-    "ordre": 42999
   }],
   "groupe": {
     "code": "SOC",
@@ -2338,11 +2228,6 @@
     "type": "COMMISSION",
     "libelle": "Commission des affaires économiques",
     "ordre": 7001
-  },{
-    "code": "COMENQ-RENOV",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission d'enquête sur l'efficacité des politiques publiques en matière de rénovation énergétique",
-    "ordre": 25999
   },{
     "code": "DELEGA-COLTER",
     "type": "DELEGATION/OFFICE",
@@ -2505,20 +2390,10 @@
     "libelle": "Commission des lois constitutionnelles, de législation, du suffrage universel, du Règlement et d'administration générale",
     "ordre": 7007
   },{
-    "code": "COMENQ-MEDIC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission d'enquête sur la pénurie de médicaments et les choix de l'industrie pharmaceutique française",
-    "ordre": 25999
-  },{
     "code": "COMITE-COMITEDEONTO",
     "type": "INTERNE",
     "libelle": "Comité de déontologie parlementaire du Sénat",
     "ordre": 18011
-  },{
-    "code": "COMSPE-CINC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à renforcer la prévention et la lutte contre l'intensification et l'extension du risque incendie",
-    "ordre": 24999
   },{
     "code": "ETUDES-948",
     "type": "ETUDE",
@@ -2588,16 +2463,6 @@
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale aux outre-mer",
     "ordre": 16005
-  },{
-    "code": "MISINFCOM-AVENCOMM",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur l'avenir de la commune et du maire en France",
-    "ordre": 42999
-  },{
-    "code": "MISINFCOM-LOCA",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur \"l'impact des décisions réglementaires et budgétaires de l'Etat sur l'équilibre financier des collectivités locales\"",
-    "ordre": 42999
   }],
   "groupe": {
     "code": "LREM",
@@ -2633,34 +2498,19 @@
     "libelle": "Commission des lois constitutionnelles, de législation, du suffrage universel, du Règlement et d'administration générale",
     "ordre": 7007
   },{
-    "code": "COMENQ-MEDIC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission d'enquête sur la pénurie de médicaments et les choix de l'industrie pharmaceutique française",
-    "ordre": 25999
-  },{
-    "code": "COMSPE-CINC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à renforcer la prévention et la lutte contre l'intensification et l'extension du risque incendie",
-    "ordre": 24999
-  },{
     "code": "DELEGA-COLTER",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale aux collectivités territoriales et à la décentralisation",
     "ordre": 16002
-  },{
-    "code": "ETUDES-928",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Monde combattant et mémoire",
-    "ordre": 50001
   },{
     "code": "ETUDES-919",
     "type": "ETUDE",
     "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   },{
-    "code": "ETUDES-909",
+    "code": "ETUDES-928",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Vigne et vin",
+    "libelle": "Groupe d'études Monde combattant et mémoire",
     "ordre": 50001
   },{
     "code": "ETUDES-948",
@@ -2671,6 +2521,11 @@
     "code": "ETUDES-907",
     "type": "ETUDE",
     "libelle": "Groupe d'études Chasse et pêche",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-909",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Vigne et vin",
     "ordre": 50001
   }],
   "groupe": {
@@ -2873,11 +2728,6 @@
     "libelle": "Commission spéciale sur le projet de loi relatif à la résilience des activités d'importance vitale, à la protection des infrastructures critiques, à la cybersécurité et à la résilience opérationnelle numérique du secteur financier",
     "ordre": 24999
   },{
-    "code": "COMSPE-ESNU",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi visant à sécuriser et réguler l'espace numérique",
-    "ordre": 24999
-  },{
     "code": "DELEGA-PROS",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale à la prospective",
@@ -2892,11 +2742,6 @@
     "type": "ETUDE",
     "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
     "ordre": 50001
-  },{
-    "code": "MISINFCOM-BATI",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « le bâti scolaire à l'épreuve de la transition écologique »",
-    "ordre": 42999
   }],
   "groupe": {
     "code": "RDSE",
@@ -3058,34 +2903,19 @@
     "libelle": "Commission de la culture, de l'éducation, de la communication et du sport",
     "ordre": 7005
   },{
-    "code": "COMENQ-TIKTO",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission d'enquête sur l'utilisation du réseau social tiktok, son exploitation des données, sa stratégie d'influence",
-    "ordre": 25999
-  },{
     "code": "COMEUR-AFEU",
     "type": "COMMISSION",
     "libelle": "Commission des affaires européennes",
     "ordre": 8001
-  },{
-    "code": "COMSPE-ESNU",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi visant à sécuriser et réguler l'espace numérique",
-    "ordre": 24999
   },{
     "code": "COMSPE-CYBE",
     "type": "TEMPORAIRE",
     "libelle": "Commission spéciale sur le projet de loi relatif à la résilience des activités d'importance vitale, à la protection des infrastructures critiques, à la cybersécurité et à la résilience opérationnelle numérique du secteur financier",
     "ordre": 24999
   },{
-    "code": "ETUDES-1008",
+    "code": "ETUDES-1007",
     "type": "ETUDE",
-    "libelle": "Groupe Numérique",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-948",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Forêt et filière bois",
+    "libelle": "Groupe d'études Métiers d'art",
     "ordre": 50001
   },{
     "code": "ETUDES-908",
@@ -3093,14 +2923,19 @@
     "libelle": "Groupe d'études Mer et littoral",
     "ordre": 50001
   },{
+    "code": "ETUDES-948",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Forêt et filière bois",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-1008",
+    "type": "ETUDE",
+    "libelle": "Groupe Numérique",
+    "ordre": 50001
+  },{
     "code": "ETUDES-1006",
     "type": "ETUDE",
     "libelle": "Groupe d'études Francophonie",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-1007",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Métiers d'art",
     "ordre": 50001
   },{
     "code": "MISINFCOM-BREXIT3",
@@ -3342,11 +3177,6 @@
     "libelle": "Commission des affaires sociales",
     "ordre": 7003
   },{
-    "code": "COMENQ-MEDIC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission d'enquête sur la pénurie de médicaments et les choix de l'industrie pharmaceutique française",
-    "ordre": 25999
-  },{
     "code": "CONEUR-DELCONEUR",
     "type": "AUTRE",
     "libelle": "Délégation française à l'Assemblée parlementaire du Conseil de l'Europe",
@@ -3504,11 +3334,6 @@
     "libelle": "Commission des affaires étrangères, de la défense et des forces armées",
     "ordre": 7002
   },{
-    "code": "COMENQ-MEDIC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission d'enquête sur la pénurie de médicaments et les choix de l'industrie pharmaceutique française",
-    "ordre": 25999
-  },{
     "code": "ETUDES-919",
     "type": "ETUDE",
     "libelle": "Groupe d'études Agriculture, élevage et alimentation",
@@ -3551,11 +3376,6 @@
     "type": "ETUDE",
     "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
     "ordre": 50001
-  },{
-    "code": "MISINFCOM-BATI",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « le bâti scolaire à l'épreuve de la transition écologique »",
-    "ordre": 42999
   }],
   "groupe": {
     "code": "UMP",
@@ -3627,11 +3447,6 @@
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale aux entreprises",
     "ordre": 16004
-  },{
-    "code": "MISINFCOM-GEAU",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « gestion durable de l'eau : l'urgence d'agir pour nos usages, nos territoires et notre environnement »",
-    "ordre": 42999
   }],
   "groupe": {
     "code": "UMP",
@@ -3672,34 +3487,24 @@
     "libelle": "Commission des lois constitutionnelles, de législation, du suffrage universel, du Règlement et d'administration générale",
     "ordre": 7007
   },{
-    "code": "COMSPE-CINC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à renforcer la prévention et la lutte contre l'intensification et l'extension du risque incendie",
-    "ordre": 24999
-  },{
     "code": "COMSPE-SIMP",
     "type": "TEMPORAIRE",
     "libelle": "Commission spéciale sur le projet de loi simplification",
     "ordre": 24999
-  },{
-    "code": "ETUDES-1004",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Cancer",
-    "ordre": 50001
   },{
     "code": "ETUDES-1010",
     "type": "ETUDE",
     "libelle": "Groupe d'études Statut, rôle et place des Français établis hors de France",
     "ordre": 50001
   },{
+    "code": "ETUDES-1004",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Cancer",
+    "ordre": 50001
+  },{
     "code": "ETUDES-928",
     "type": "ETUDE",
     "libelle": "Groupe d'études Monde combattant et mémoire",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   },{
     "code": "ETUDES-1014",
@@ -3710,6 +3515,11 @@
     "code": "ETUDES-909",
     "type": "ETUDE",
     "libelle": "Groupe d'études Vigne et vin",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   }],
   "groupe": {
@@ -3745,24 +3555,9 @@
     "libelle": "Commission de l'aménagement du territoire et du développement durable",
     "ordre": 7004
   },{
-    "code": "COMSPE-CINC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à renforcer la prévention et la lutte contre l'intensification et l'extension du risque incendie",
-    "ordre": 24999
-  },{
-    "code": "ETUDES-906",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Énergie",
-    "ordre": 50001
-  },{
     "code": "ETUDES-948",
     "type": "ETUDE",
     "libelle": "Groupe d'études Forêt et filière bois",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-907",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Chasse et pêche",
     "ordre": 50001
   },{
     "code": "ETUDES-919",
@@ -3770,10 +3565,15 @@
     "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   },{
-    "code": "MISINFCOM-GEAU",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « gestion durable de l'eau : l'urgence d'agir pour nos usages, nos territoires et notre environnement »",
-    "ordre": 42999
+    "code": "ETUDES-906",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Énergie",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-907",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Chasse et pêche",
+    "ordre": 50001
   }],
   "groupe": {
     "code": "UMP",
@@ -3851,35 +3651,20 @@
     "libelle": "Commission de l'aménagement du territoire et du développement durable",
     "ordre": 7004
   },{
-    "code": "COMSPE-CINC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à renforcer la prévention et la lutte contre l'intensification et l'extension du risque incendie",
-    "ordre": 24999
-  },{
-    "code": "COMSPE-CZAN",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à faciliter la mise en oeuvre des objectifs de « zéro artificialisation nette » au coeur des territoires",
-    "ordre": 24999
-  },{
     "code": "DELEGA-211",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation aux droits des femmes et à l'égalité des chances entre les hommes et les femmes",
     "ordre": 16003
-  },{
-    "code": "ETUDES-948",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Forêt et filière bois",
-    "ordre": 50001
   },{
     "code": "ETUDES-919",
     "type": "ETUDE",
     "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   },{
-    "code": "MISINFCOM-GEAU",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « gestion durable de l'eau : l'urgence d'agir pour nos usages, nos territoires et notre environnement »",
-    "ordre": 42999
+    "code": "ETUDES-948",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Forêt et filière bois",
+    "ordre": 50001
   }],
   "groupe": {
     "code": "CRC",
@@ -3915,11 +3700,6 @@
     "libelle": "Commission des finances",
     "ordre": 7006
   },{
-    "code": "COMSPE-ESNU",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi visant à sécuriser et réguler l'espace numérique",
-    "ordre": 24999
-  },{
     "code": "COMSPEAPU-COMSPEAPU",
     "type": "INTERNE",
     "libelle": "Commission spéciale chargée du contrôle des comptes et de l'évaluation interne ",
@@ -3929,11 +3709,6 @@
     "type": "ETUDE",
     "libelle": "Groupe Numérique",
     "ordre": 50001
-  },{
-    "code": "MISINFCOM-LOCA",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur \"l'impact des décisions réglementaires et budgétaires de l'Etat sur l'équilibre financier des collectivités locales\"",
-    "ordre": 42999
   }],
   "groupe": {
     "code": "CRC",
@@ -3969,30 +3744,10 @@
     "libelle": "Commission de l'aménagement du territoire et du développement durable",
     "ordre": 7004
   },{
-    "code": "COMSPE-CINC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à renforcer la prévention et la lutte contre l'intensification et l'extension du risque incendie",
-    "ordre": 24999
-  },{
     "code": "DELEGA-COLTER",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale aux collectivités territoriales et à la décentralisation",
     "ordre": 16002
-  },{
-    "code": "ETUDES-922",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Economie circulaire",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-998",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Économie sociale et solidaire",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-906",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Énergie",
-    "ordre": 50001
   },{
     "code": "ETUDES-908",
     "type": "ETUDE",
@@ -4009,10 +3764,20 @@
     "libelle": "Groupe d'études Forêt et filière bois",
     "ordre": 50001
   },{
-    "code": "MISINFCOM-GEAU",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « gestion durable de l'eau : l'urgence d'agir pour nos usages, nos territoires et notre environnement »",
-    "ordre": 42999
+    "code": "ETUDES-998",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Économie sociale et solidaire",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-922",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Economie circulaire",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-906",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Énergie",
+    "ordre": 50001
   }],
   "groupe": {
     "code": "SOC",
@@ -4047,11 +3812,6 @@
     "type": "COMMISSION",
     "libelle": "Commission des affaires sociales",
     "ordre": 7003
-  },{
-    "code": "COMENQ-MEDIC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission d'enquête sur la pénurie de médicaments et les choix de l'industrie pharmaceutique française",
-    "ordre": 25999
   },{
     "code": "MECSS-MECSS",
     "type": "AUTRE",
@@ -4112,11 +3872,6 @@
     "libelle": "Délégation française à l'Assemblée parlementaire du Conseil de l'Europe",
     "ordre": 19012
   },{
-    "code": "MISINFCOM-AVENCOMM",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur l'avenir de la commune et du maire en France",
-    "ordre": 42999
-  },{
     "code": "MISINFCOM-BREXIT3",
     "type": "TEMPORAIRE",
     "libelle": "Groupe de suivi de la nouvelle relation euro-britannique",
@@ -4160,11 +3915,6 @@
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale aux outre-mer",
     "ordre": 16005
-  },{
-    "code": "MISINFCOM-LOCA",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur \"l'impact des décisions réglementaires et budgétaires de l'Etat sur l'équilibre financier des collectivités locales\"",
-    "ordre": 42999
   }],
   "groupe": {
     "code": "SOC",
@@ -4249,11 +3999,6 @@
     "libelle": "Commission des finances",
     "ordre": 7006
   },{
-    "code": "COMSPE-ESNU",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi visant à sécuriser et réguler l'espace numérique",
-    "ordre": 24999
-  },{
     "code": "ETUDES-1010",
     "type": "ETUDE",
     "libelle": "Groupe d'études Statut, rôle et place des Français établis hors de France",
@@ -4307,16 +4052,6 @@
     "type": "COMMISSION",
     "libelle": "Commission des affaires sociales",
     "ordre": 7003
-  },{
-    "code": "COMENQ-TIKTO",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission d'enquête sur l'utilisation du réseau social tiktok, son exploitation des données, sa stratégie d'influence",
-    "ordre": 25999
-  },{
-    "code": "COMSPE-ESNU",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi visant à sécuriser et réguler l'espace numérique",
-    "ordre": 24999
   },{
     "code": "DELEGA-211",
     "type": "DELEGATION/OFFICE",
@@ -4401,20 +4136,10 @@
     "libelle": "Commission des affaires sociales",
     "ordre": 7003
   },{
-    "code": "COMSPE-ESNU",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi visant à sécuriser et réguler l'espace numérique",
-    "ordre": 24999
-  },{
     "code": "ETUDES-1014",
     "type": "ETUDE",
     "libelle": "Groupe d'études Handicap",
     "ordre": 50001
-  },{
-    "code": "MISINFCOM-BATI",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « le bâti scolaire à l'épreuve de la transition écologique »",
-    "ordre": 42999
   },{
     "code": "BUR",
     "type": "INTERNE",
@@ -4463,11 +4188,6 @@
     "libelle": "Commission spéciale sur le projet de loi relatif à la résilience des activités d'importance vitale, à la protection des infrastructures critiques, à la cybersécurité et à la résilience opérationnelle numérique du secteur financier",
     "ordre": 24999
   },{
-    "code": "COMSPE-CINC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à renforcer la prévention et la lutte contre l'intensification et l'extension du risque incendie",
-    "ordre": 24999
-  },{
     "code": "COMSPE-SIMP",
     "type": "TEMPORAIRE",
     "libelle": "Commission spéciale sur le projet de loi simplification",
@@ -4477,41 +4197,6 @@
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale à la prospective",
     "ordre": 16006
-  },{
-    "code": "ETUDES-906",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Énergie",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-1014",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Handicap",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-922",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Economie circulaire",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-1015",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Pêche et produits de la mer",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-907",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Chasse et pêche",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-908",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Mer et littoral",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
   },{
     "code": "ETUDES-938",
     "type": "ETUDE",
@@ -4538,15 +4223,40 @@
     "libelle": "Groupe d'études Cancer",
     "ordre": 50001
   },{
-    "code": "MISINFCOM-BIOCARBU",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « Le développement d'une filière de biocarburants, carburants synthétiques durables et hydrogène vert »",
-    "ordre": 42999
+    "code": "ETUDES-1014",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Handicap",
+    "ordre": 50001
   },{
-    "code": "MISINFCOM-BATI",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « le bâti scolaire à l'épreuve de la transition écologique »",
-    "ordre": 42999
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-1015",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Pêche et produits de la mer",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-907",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Chasse et pêche",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-906",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Énergie",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-922",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Economie circulaire",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-908",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Mer et littoral",
+    "ordre": 50001
   }],
   "groupe": {
     "code": "LREM",
@@ -4577,15 +4287,15 @@
   "twitter": "bernard_buis",
   "facebook": "100008837088741",
   "organismes": [{
-    "code": "AUTRES-SFAPF",
-    "type": "AUTRE",
-    "libelle": "Section française de l'Assemblée parlementaire de la francophonie (A.P.F.)",
-    "ordre": 60017
-  },{
     "code": "AUTRES-OTAN",
     "type": "AUTRE",
     "libelle": "Délégation française à l'Assemblée parlementaire de l'OTAN",
     "ordre": 60016
+  },{
+    "code": "AUTRES-SFAPF",
+    "type": "AUTRE",
+    "libelle": "Section française de l'Assemblée parlementaire de la francophonie (A.P.F.)",
+    "ordre": 60017
   },{
     "code": "AUTRES-UIP",
     "type": "AUTRE",
@@ -4597,20 +4307,10 @@
     "libelle": "Commission des affaires économiques",
     "ordre": 7001
   },{
-    "code": "COMSPE-CINC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à renforcer la prévention et la lutte contre l'intensification et l'extension du risque incendie",
-    "ordre": 24999
-  },{
     "code": "DELEGA-COLTER",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale aux collectivités territoriales et à la décentralisation",
     "ordre": 16002
-  },{
-    "code": "ETUDES-907",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Chasse et pêche",
-    "ordre": 50001
   },{
     "code": "ETUDES-919",
     "type": "ETUDE",
@@ -4622,20 +4322,20 @@
     "libelle": "Groupe d'études Industrie",
     "ordre": 50563
   },{
-    "code": "ETUDES-909",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Vigne et vin",
-    "ordre": 50001
-  },{
     "code": "ETUDES-906",
     "type": "ETUDE",
     "libelle": "Groupe d'études Énergie",
     "ordre": 50001
   },{
-    "code": "MISINFCOM-BIOCARBU",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « Le développement d'une filière de biocarburants, carburants synthétiques durables et hydrogène vert »",
-    "ordre": 42999
+    "code": "ETUDES-907",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Chasse et pêche",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-909",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Vigne et vin",
+    "ordre": 50001
   },{
     "code": "BUR",
     "type": "INTERNE",
@@ -4684,11 +4384,6 @@
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale aux collectivités territoriales et à la décentralisation",
     "ordre": 16002
-  },{
-    "code": "MISINFCOM-LOCA",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur \"l'impact des décisions réglementaires et budgétaires de l'Etat sur l'équilibre financier des collectivités locales\"",
-    "ordre": 42999
   }],
   "groupe": {
     "code": "RDSE",
@@ -4722,11 +4417,6 @@
     "type": "COMMISSION",
     "libelle": "Commission des affaires étrangères, de la défense et des forces armées",
     "ordre": 7002
-  },{
-    "code": "COMSPE-CINC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à renforcer la prévention et la lutte contre l'intensification et l'extension du risque incendie",
-    "ordre": 24999
   },{
     "code": "OFFICE-206",
     "type": "DELEGATION/OFFICE",
@@ -4911,30 +4601,20 @@
     "libelle": "Commission des affaires économiques",
     "ordre": 7001
   },{
-    "code": "COMENQ-MEDIC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission d'enquête sur la pénurie de médicaments et les choix de l'industrie pharmaceutique française",
-    "ordre": 25999
-  },{
     "code": "DELEGA-PROS",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale à la prospective",
     "ordre": 16006
-  },{
-    "code": "ETUDES-957",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Industrie",
-    "ordre": 50563
   },{
     "code": "ETUDES-948",
     "type": "ETUDE",
     "libelle": "Groupe d'études Forêt et filière bois",
     "ordre": 50001
   },{
-    "code": "ETUDES-918",
+    "code": "ETUDES-957",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Développement économique de la montagne",
-    "ordre": 50001
+    "libelle": "Groupe d'études Industrie",
+    "ordre": 50563
   },{
     "code": "ETUDES-1007",
     "type": "ETUDE",
@@ -4944,6 +4624,11 @@
     "code": "ETUDES-906",
     "type": "ETUDE",
     "libelle": "Groupe d'études Énergie",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-918",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Développement économique de la montagne",
     "ordre": 50001
   }],
   "groupe": {
@@ -4975,34 +4660,24 @@
   "twitter": "loichervepublic",
   "facebook": "100058025893615",
   "organismes": [{
-    "code": "AUTRES-UIP",
-    "type": "AUTRE",
-    "libelle": "Groupe français de l'Union Interparlementaire (U.I.P.)",
-    "ordre": 60018
-  },{
     "code": "AUTRES-SFAPF",
     "type": "AUTRE",
     "libelle": "Section française de l'Assemblée parlementaire de la francophonie (A.P.F.)",
     "ordre": 60017
+  },{
+    "code": "AUTRES-UIP",
+    "type": "AUTRE",
+    "libelle": "Groupe français de l'Union Interparlementaire (U.I.P.)",
+    "ordre": 60018
   },{
     "code": "COM-ETRD",
     "type": "COMMISSION",
     "libelle": "Commission des affaires étrangères, de la défense et des forces armées",
     "ordre": 7002
   },{
-    "code": "COMENQ-TIKTO",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission d'enquête sur l'utilisation du réseau social tiktok, son exploitation des données, sa stratégie d'influence",
-    "ordre": 25999
-  },{
     "code": "COMSPE-CYBE",
     "type": "TEMPORAIRE",
     "libelle": "Commission spéciale sur le projet de loi relatif à la résilience des activités d'importance vitale, à la protection des infrastructures critiques, à la cybersécurité et à la résilience opérationnelle numérique du secteur financier",
-    "ordre": 24999
-  },{
-    "code": "COMSPE-ESNU",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi visant à sécuriser et réguler l'espace numérique",
     "ordre": 24999
   },{
     "code": "DELEGA-211",
@@ -5010,20 +4685,20 @@
     "libelle": "Délégation aux droits des femmes et à l'égalité des chances entre les hommes et les femmes",
     "ordre": 16003
   },{
-    "code": "ETUDES-957",
+    "code": "ETUDES-934",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Industrie",
-    "ordre": 50563
+    "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
+    "ordre": 50001
   },{
     "code": "ETUDES-948",
     "type": "ETUDE",
     "libelle": "Groupe d'études Forêt et filière bois",
     "ordre": 50001
   },{
-    "code": "ETUDES-934",
+    "code": "ETUDES-957",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
-    "ordre": 50001
+    "libelle": "Groupe d'études Industrie",
+    "ordre": 50563
   },{
     "code": "ETUDES-933",
     "type": "ETUDE",
@@ -5040,11 +4715,6 @@
     "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   },{
-    "code": "ETUDES-918",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Développement économique de la montagne",
-    "ordre": 50001
-  },{
     "code": "ETUDES-1006",
     "type": "ETUDE",
     "libelle": "Groupe d'études Francophonie",
@@ -5053,6 +4723,11 @@
     "code": "ETUDES-907",
     "type": "ETUDE",
     "libelle": "Groupe d'études Chasse et pêche",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-918",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Développement économique de la montagne",
     "ordre": 50001
   },{
     "code": "BUR",
@@ -5147,21 +4822,6 @@
     "libelle": "Délégation sénatoriale aux outre-mer",
     "ordre": 16005
   },{
-    "code": "ETUDES-909",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Vigne et vin",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-1007",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Métiers d'art",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
-  },{
     "code": "ETUDES-928",
     "type": "ETUDE",
     "libelle": "Groupe d'études Monde combattant et mémoire",
@@ -5172,10 +4832,20 @@
     "libelle": "Groupe d'études Forêt et filière bois",
     "ordre": 50001
   },{
-    "code": "MISINFCOM-GEAU",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « gestion durable de l'eau : l'urgence d'agir pour nos usages, nos territoires et notre environnement »",
-    "ordre": 42999
+    "code": "ETUDES-1007",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Métiers d'art",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-909",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Vigne et vin",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
   }],
   "groupe": {
     "code": "UC",
@@ -5274,20 +4944,15 @@
     "libelle": "Commission des finances",
     "ordre": 7006
   },{
-    "code": "COMENQ-RENOV",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission d'enquête sur l'efficacité des politiques publiques en matière de rénovation énergétique",
-    "ordre": 25999
-  },{
     "code": "COMSPE-SIMP",
     "type": "TEMPORAIRE",
     "libelle": "Commission spéciale sur le projet de loi simplification",
     "ordre": 24999
   },{
-    "code": "COMSPE-ESNU",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi visant à sécuriser et réguler l'espace numérique",
-    "ordre": 24999
+    "code": "DELEGA-211",
+    "type": "DELEGATION/OFFICE",
+    "libelle": "Délégation aux droits des femmes et à l'égalité des chances entre les hommes et les femmes",
+    "ordre": 16003
   },{
     "code": "DELEGA-COLTER",
     "type": "DELEGATION/OFFICE",
@@ -5299,29 +4964,9 @@
     "libelle": "Délégation sénatoriale aux outre-mer",
     "ordre": 16005
   },{
-    "code": "DELEGA-211",
-    "type": "DELEGATION/OFFICE",
-    "libelle": "Délégation aux droits des femmes et à l'égalité des chances entre les hommes et les femmes",
-    "ordre": 16003
-  },{
-    "code": "ETUDES-906",
+    "code": "ETUDES-1014",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Énergie",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-907",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Chasse et pêche",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-948",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Forêt et filière bois",
+    "libelle": "Groupe d'études Handicap",
     "ordre": 50001
   },{
     "code": "ETUDES-957",
@@ -5329,14 +4974,29 @@
     "libelle": "Groupe d'études Industrie",
     "ordre": 50563
   },{
-    "code": "ETUDES-1014",
+    "code": "ETUDES-948",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Handicap",
+    "libelle": "Groupe d'études Forêt et filière bois",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-907",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Chasse et pêche",
     "ordre": 50001
   },{
     "code": "ETUDES-1015",
     "type": "ETUDE",
     "libelle": "Groupe d'études Pêche et produits de la mer",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-906",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Énergie",
     "ordre": 50001
   }],
   "groupe": {
@@ -5446,16 +5106,6 @@
     "type": "ETUDE",
     "libelle": "Groupe d'études Vigne et vin",
     "ordre": 50001
-  },{
-    "code": "MISINFCOM-AVENCOMM",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur l'avenir de la commune et du maire en France",
-    "ordre": 42999
-  },{
-    "code": "MISINFCOM-GEAU",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « gestion durable de l'eau : l'urgence d'agir pour nos usages, nos territoires et notre environnement »",
-    "ordre": 42999
   }],
   "groupe": {
     "code": "UMP",
@@ -5699,11 +5349,6 @@
     "libelle": "Commission des finances",
     "ordre": 7006
   },{
-    "code": "COMSPE-CZAN",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à faciliter la mise en oeuvre des objectifs de « zéro artificialisation nette » au coeur des territoires",
-    "ordre": 24999
-  },{
     "code": "DELEGA-COLTER",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale aux collectivités territoriales et à la décentralisation",
@@ -5757,31 +5402,6 @@
     "libelle": "Délégation sénatoriale à la prospective",
     "ordre": 16006
   },{
-    "code": "ETUDES-907",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Chasse et pêche",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-906",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Énergie",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-1007",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Métiers d'art",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-933",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Aviation civile",
-    "ordre": 50001
-  },{
     "code": "ETUDES-938",
     "type": "ETUDE",
     "libelle": "Groupe d'études Arctique, Antarctique et Terres australes",
@@ -5797,10 +5417,30 @@
     "libelle": "Groupe Numérique",
     "ordre": 50001
   },{
-    "code": "MISINFCOM-GEAU",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « gestion durable de l'eau : l'urgence d'agir pour nos usages, nos territoires et notre environnement »",
-    "ordre": 42999
+    "code": "ETUDES-933",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Aviation civile",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-1007",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Métiers d'art",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-906",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Énergie",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-907",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Chasse et pêche",
+    "ordre": 50001
   }],
   "groupe": {
     "code": "UMP",
@@ -5996,30 +5636,10 @@
     "libelle": "Commission des lois constitutionnelles, de législation, du suffrage universel, du Règlement et d'administration générale",
     "ordre": 7007
   },{
-    "code": "COMSPE-CZAN",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à faciliter la mise en oeuvre des objectifs de « zéro artificialisation nette » au coeur des territoires",
-    "ordre": 24999
-  },{
     "code": "DELEGA-PROS",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale à la prospective",
     "ordre": 16006
-  },{
-    "code": "ETUDES-907",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Chasse et pêche",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-948",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Forêt et filière bois",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-909",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Vigne et vin",
-    "ordre": 50001
   },{
     "code": "ETUDES-919",
     "type": "ETUDE",
@@ -6036,10 +5656,20 @@
     "libelle": "Groupe d'études Arctique, Antarctique et Terres australes",
     "ordre": 50001
   },{
-    "code": "MISINFCOM-AVENCOMM",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur l'avenir de la commune et du maire en France",
-    "ordre": 42999
+    "code": "ETUDES-948",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Forêt et filière bois",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-907",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Chasse et pêche",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-909",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Vigne et vin",
+    "ordre": 50001
   }],
   "groupe": {
     "code": "CRC",
@@ -6191,11 +5821,6 @@
     "type": "INTERNE",
     "libelle": "Commission spéciale chargée du contrôle des comptes et de l'évaluation interne ",
     "ordre": 15001
-  },{
-    "code": "MISINFCOM-LOCA",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur \"l'impact des décisions réglementaires et budgétaires de l'Etat sur l'équilibre financier des collectivités locales\"",
-    "ordre": 42999
   }],
   "groupe": {
     "code": "SOC",
@@ -6270,15 +5895,15 @@
     "libelle": "Commission des lois constitutionnelles, de législation, du suffrage universel, du Règlement et d'administration générale",
     "ordre": 7007
   },{
-    "code": "COMSPE-CZAN",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à faciliter la mise en oeuvre des objectifs de « zéro artificialisation nette » au coeur des territoires",
-    "ordre": 24999
-  },{
     "code": "DELEGA-COLTER",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale aux collectivités territoriales et à la décentralisation",
     "ordre": 16002
+  },{
+    "code": "ETUDES-1008",
+    "type": "ETUDE",
+    "libelle": "Groupe Numérique",
+    "ordre": 50001
   },{
     "code": "ETUDES-1015",
     "type": "ETUDE",
@@ -6289,16 +5914,6 @@
     "type": "ETUDE",
     "libelle": "Groupe d'études Forêt et filière bois",
     "ordre": 50001
-  },{
-    "code": "ETUDES-1008",
-    "type": "ETUDE",
-    "libelle": "Groupe Numérique",
-    "ordre": 50001
-  },{
-    "code": "MISINFCOM-AVENCOMM",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur l'avenir de la commune et du maire en France",
-    "ordre": 42999
   }],
   "groupe": {
     "code": "SOC",
@@ -6344,11 +5959,6 @@
     "libelle": "Commission des affaires européennes",
     "ordre": 8001
   },{
-    "code": "COMSPE-CINC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à renforcer la prévention et la lutte contre l'intensification et l'extension du risque incendie",
-    "ordre": 24999
-  },{
     "code": "CSCE-CSCE",
     "type": "AUTRE",
     "libelle": "Délégation française à l'Assemblée parlementaire de l'Organisation pour la Sécurité et la Coopération en Europe (O.S.C.E.)",
@@ -6358,6 +5968,11 @@
     "type": "DELEGATION/OFFICE",
     "libelle": "Commission de vérification des fonds spéciaux",
     "ordre": 16999
+  },{
+    "code": "ETUDES-948",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Forêt et filière bois",
+    "ordre": 50001
   },{
     "code": "ETUDES-907",
     "type": "ETUDE",
@@ -6372,11 +5987,6 @@
     "code": "ETUDES-919",
     "type": "ETUDE",
     "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-948",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Forêt et filière bois",
     "ordre": 50001
   },{
     "code": "MISINFCOM-BREXIT3",
@@ -6438,25 +6048,15 @@
     "libelle": "Délégation sénatoriale aux collectivités territoriales et à la décentralisation",
     "ordre": 16002
   },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
-  },{
     "code": "ETUDES-909",
     "type": "ETUDE",
     "libelle": "Groupe d'études Vigne et vin",
     "ordre": 50001
   },{
-    "code": "MISINFCOM-LOCA",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur \"l'impact des décisions réglementaires et budgétaires de l'Etat sur l'équilibre financier des collectivités locales\"",
-    "ordre": 42999
-  },{
-    "code": "MISINFCOM-BIOCARBU",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « Le développement d'une filière de biocarburants, carburants synthétiques durables et hydrogène vert »",
-    "ordre": 42999
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
   }],
   "groupe": {
     "code": "SOC",
@@ -6497,20 +6097,20 @@
     "libelle": "Commission des lois constitutionnelles, de législation, du suffrage universel, du Règlement et d'administration générale",
     "ordre": 7007
   },{
-    "code": "COMENQ-MEDIC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission d'enquête sur la pénurie de médicaments et les choix de l'industrie pharmaceutique française",
-    "ordre": 25999
-  },{
-    "code": "COMSPE-CINC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à renforcer la prévention et la lutte contre l'intensification et l'extension du risque incendie",
-    "ordre": 24999
-  },{
     "code": "DELEGA-211",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation aux droits des femmes et à l'égalité des chances entre les hommes et les femmes",
     "ordre": 16003
+  },{
+    "code": "ETUDES-928",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Monde combattant et mémoire",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-948",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Forêt et filière bois",
+    "ordre": 50001
   },{
     "code": "ETUDES-966",
     "type": "ETUDE",
@@ -6527,24 +6127,14 @@
     "libelle": "Groupe d'études Francophonie",
     "ordre": 50001
   },{
-    "code": "ETUDES-948",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Forêt et filière bois",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-928",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Monde combattant et mémoire",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
-  },{
     "code": "ETUDES-1007",
     "type": "ETUDE",
     "libelle": "Groupe d'études Métiers d'art",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-909",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Vigne et vin",
     "ordre": 50001
   },{
     "code": "ETUDES-908",
@@ -6552,9 +6142,9 @@
     "libelle": "Groupe d'études Mer et littoral",
     "ordre": 50001
   },{
-    "code": "ETUDES-909",
+    "code": "ETUDES-919",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Vigne et vin",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   }],
   "groupe": {
@@ -6724,24 +6314,19 @@
     "libelle": "Commission des finances",
     "ordre": 7006
   },{
-    "code": "COMSPE-CZAN",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à faciliter la mise en oeuvre des objectifs de « zéro artificialisation nette » au coeur des territoires",
-    "ordre": 24999
+    "code": "DELEGA-COLTER",
+    "type": "DELEGATION/OFFICE",
+    "libelle": "Délégation sénatoriale aux collectivités territoriales et à la décentralisation",
+    "ordre": 16002
   },{
     "code": "DELEGA-PROS",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale à la prospective",
     "ordre": 16006
   },{
-    "code": "DELEGA-COLTER",
-    "type": "DELEGATION/OFFICE",
-    "libelle": "Délégation sénatoriale aux collectivités territoriales et à la décentralisation",
-    "ordre": 16002
-  },{
-    "code": "ETUDES-918",
+    "code": "ETUDES-933",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Développement économique de la montagne",
+    "libelle": "Groupe d'études Aviation civile",
     "ordre": 50001
   },{
     "code": "ETUDES-928",
@@ -6749,14 +6334,14 @@
     "libelle": "Groupe d'études Monde combattant et mémoire",
     "ordre": 50001
   },{
-    "code": "ETUDES-933",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Aviation civile",
-    "ordre": 50001
-  },{
     "code": "ETUDES-934",
     "type": "ETUDE",
     "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-918",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Développement économique de la montagne",
     "ordre": 50001
   }],
   "groupe": {
@@ -6895,9 +6480,9 @@
     "libelle": "Commission des affaires sociales",
     "ordre": 7003
   },{
-    "code": "ETUDES-909",
+    "code": "ETUDES-918",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Vigne et vin",
+    "libelle": "Groupe d'études Développement économique de la montagne",
     "ordre": 50001
   },{
     "code": "ETUDES-934",
@@ -6905,15 +6490,10 @@
     "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
     "ordre": 50001
   },{
-    "code": "ETUDES-918",
+    "code": "ETUDES-909",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Développement économique de la montagne",
+    "libelle": "Groupe d'études Vigne et vin",
     "ordre": 50001
-  },{
-    "code": "MISINFCOM-AVENCOMM",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur l'avenir de la commune et du maire en France",
-    "ordre": 42999
   }],
   "groupe": {
     "code": "RDSE",
@@ -6948,21 +6528,6 @@
     "type": "COMMISSION",
     "libelle": "Commission de l'aménagement du territoire et du développement durable",
     "ordre": 7004
-  },{
-    "code": "COMSPE-ESNU",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi visant à sécuriser et réguler l'espace numérique",
-    "ordre": 24999
-  },{
-    "code": "COMSPE-CZAN",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à faciliter la mise en oeuvre des objectifs de « zéro artificialisation nette » au coeur des territoires",
-    "ordre": 24999
-  },{
-    "code": "MISINFCOM-GEAU",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « gestion durable de l'eau : l'urgence d'agir pour nos usages, nos territoires et notre environnement »",
-    "ordre": 42999
   }],
   "groupe": {
     "code": "RDSE",
@@ -7210,11 +6775,6 @@
     "libelle": "Commission des affaires étrangères, de la défense et des forces armées",
     "ordre": 7002
   },{
-    "code": "COMSPE-CINC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à renforcer la prévention et la lutte contre l'intensification et l'extension du risque incendie",
-    "ordre": 24999
-  },{
     "code": "BUR",
     "type": "INTERNE",
     "libelle": "Bureau du Sénat",
@@ -7419,40 +6979,30 @@
   "twitter": "MartadeCidrac",
   "facebook": "715289729",
   "organismes": [{
-    "code": "AUTRES-ACMN",
+    "code": "AUTRES-UIP",
     "type": "AUTRE",
-    "libelle": "Assemblée parlementaire de la coopération économique de la Mer noire",
-    "ordre": 60052
+    "libelle": "Groupe français de l'Union Interparlementaire (U.I.P.)",
+    "ordre": 60018
   },{
     "code": "AUTRES-SFAPF",
     "type": "AUTRE",
     "libelle": "Section française de l'Assemblée parlementaire de la francophonie (A.P.F.)",
     "ordre": 60017
   },{
-    "code": "AUTRES-UIP",
+    "code": "AUTRES-ACMN",
     "type": "AUTRE",
-    "libelle": "Groupe français de l'Union Interparlementaire (U.I.P.)",
-    "ordre": 60018
+    "libelle": "Assemblée parlementaire de la coopération économique de la Mer noire",
+    "ordre": 60052
   },{
     "code": "COM-CDD",
     "type": "COMMISSION",
     "libelle": "Commission de l'aménagement du territoire et du développement durable",
     "ordre": 7004
   },{
-    "code": "COMENQ-RENOV",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission d'enquête sur l'efficacité des politiques publiques en matière de rénovation énergétique",
-    "ordre": 25999
-  },{
     "code": "COMEUR-AFEU",
     "type": "COMMISSION",
     "libelle": "Commission des affaires européennes",
     "ordre": 8001
-  },{
-    "code": "COMSPE-CINC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à renforcer la prévention et la lutte contre l'intensification et l'extension du risque incendie",
-    "ordre": 24999
   },{
     "code": "ETUDES-919",
     "type": "ETUDE",
@@ -7503,24 +7053,14 @@
     "libelle": "Commission des affaires économiques",
     "ordre": 7001
   },{
-    "code": "COMENQ-RENOV",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission d'enquête sur l'efficacité des politiques publiques en matière de rénovation énergétique",
-    "ordre": 25999
-  },{
-    "code": "ETUDES-1007",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Métiers d'art",
-    "ordre": 50001
-  },{
     "code": "ETUDES-919",
     "type": "ETUDE",
     "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   },{
-    "code": "ETUDES-909",
+    "code": "ETUDES-1007",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Vigne et vin",
+    "libelle": "Groupe d'études Métiers d'art",
     "ordre": 50001
   },{
     "code": "ETUDES-1015",
@@ -7531,6 +7071,11 @@
     "code": "ETUDES-907",
     "type": "ETUDE",
     "libelle": "Groupe d'études Chasse et pêche",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-909",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Vigne et vin",
     "ordre": 50001
   }],
   "groupe": {
@@ -7641,14 +7186,14 @@
     "libelle": "Commission de l'aménagement du territoire et du développement durable",
     "ordre": 7004
   },{
-    "code": "COMSPE-CYBE",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi relatif à la résilience des activités d'importance vitale, à la protection des infrastructures critiques, à la cybersécurité et à la résilience opérationnelle numérique du secteur financier",
-    "ordre": 24999
-  },{
     "code": "COMSPE-SIMP",
     "type": "TEMPORAIRE",
     "libelle": "Commission spéciale sur le projet de loi simplification",
+    "ordre": 24999
+  },{
+    "code": "COMSPE-CYBE",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission spéciale sur le projet de loi relatif à la résilience des activités d'importance vitale, à la protection des infrastructures critiques, à la cybersécurité et à la résilience opérationnelle numérique du secteur financier",
     "ordre": 24999
   },{
     "code": "COMSPEAPU-COMSPEAPU",
@@ -7661,6 +7206,11 @@
     "libelle": "Délégation sénatoriale aux collectivités territoriales et à la décentralisation",
     "ordre": 16002
   },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
+  },{
     "code": "ETUDES-907",
     "type": "ETUDE",
     "libelle": "Groupe d'études Chasse et pêche",
@@ -7670,16 +7220,6 @@
     "type": "ETUDE",
     "libelle": "Groupe d'études Vigne et vin",
     "ordre": 50001
-  },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
-  },{
-    "code": "MISINFCOM-GEAU",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « gestion durable de l'eau : l'urgence d'agir pour nos usages, nos territoires et notre environnement »",
-    "ordre": 42999
   }],
   "groupe": {
     "code": "UMP",
@@ -7714,11 +7254,6 @@
     "type": "COMMISSION",
     "libelle": "Commission des finances",
     "ordre": 7006
-  },{
-    "code": "COMENQ-TIKTO",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission d'enquête sur l'utilisation du réseau social tiktok, son exploitation des données, sa stratégie d'influence",
-    "ordre": 25999
   },{
     "code": "DELEGA-ENTREPRISES",
     "type": "DELEGATION/OFFICE",
@@ -7764,11 +7299,6 @@
     "libelle": "Commission des lois constitutionnelles, de législation, du suffrage universel, du Règlement et d'administration générale",
     "ordre": 7007
   },{
-    "code": "COMSPE-ESNU",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi visant à sécuriser et réguler l'espace numérique",
-    "ordre": 24999
-  },{
     "code": "COMSPE-SIMP",
     "type": "TEMPORAIRE",
     "libelle": "Commission spéciale sur le projet de loi simplification",
@@ -7784,6 +7314,21 @@
     "libelle": "Délégation sénatoriale aux collectivités territoriales et à la décentralisation",
     "ordre": 16002
   },{
+    "code": "ETUDES-1008",
+    "type": "ETUDE",
+    "libelle": "Groupe Numérique",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-957",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Industrie",
+    "ordre": 50563
+  },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
+  },{
     "code": "ETUDES-1010",
     "type": "ETUDE",
     "libelle": "Groupe d'études Statut, rôle et place des Français établis hors de France",
@@ -7792,21 +7337,6 @@
     "code": "ETUDES-909",
     "type": "ETUDE",
     "libelle": "Groupe d'études Vigne et vin",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-957",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Industrie",
-    "ordre": 50563
-  },{
-    "code": "ETUDES-1008",
-    "type": "ETUDE",
-    "libelle": "Groupe Numérique",
     "ordre": 50001
   }],
   "groupe": {
@@ -7905,11 +7435,6 @@
     "libelle": "Commission des finances",
     "ordre": 7006
   },{
-    "code": "COMSPE-CZAN",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à faciliter la mise en oeuvre des objectifs de « zéro artificialisation nette » au coeur des territoires",
-    "ordre": 24999
-  },{
     "code": "COMSPE-SIMP",
     "type": "TEMPORAIRE",
     "libelle": "Commission spéciale sur le projet de loi simplification",
@@ -7920,6 +7445,16 @@
     "libelle": "Délégation sénatoriale à la prospective",
     "ordre": 16006
   },{
+    "code": "ETUDES-938",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Arctique, Antarctique et Terres australes",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
+  },{
     "code": "ETUDES-1008",
     "type": "ETUDE",
     "libelle": "Groupe Numérique",
@@ -7929,21 +7464,6 @@
     "type": "ETUDE",
     "libelle": "Groupe d'études Chasse et pêche",
     "ordre": 50001
-  },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-938",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Arctique, Antarctique et Terres australes",
-    "ordre": 50001
-  },{
-    "code": "MISINFCOM-LOCA",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur \"l'impact des décisions réglementaires et budgétaires de l'Etat sur l'équilibre financier des collectivités locales\"",
-    "ordre": 42999
   }],
   "groupe": {
     "code": "UMP",
@@ -7989,25 +7509,10 @@
     "libelle": "Commission des affaires européennes",
     "ordre": 8001
   },{
-    "code": "COMSPE-ESNU",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi visant à sécuriser et réguler l'espace numérique",
-    "ordre": 24999
-  },{
-    "code": "COMSPE-CZAN",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à faciliter la mise en oeuvre des objectifs de « zéro artificialisation nette » au coeur des territoires",
-    "ordre": 24999
-  },{
     "code": "DELEGA-211",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation aux droits des femmes et à l'égalité des chances entre les hommes et les femmes",
     "ordre": 16003
-  },{
-    "code": "ETUDES-1006",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Francophonie",
-    "ordre": 50001
   },{
     "code": "ETUDES-919",
     "type": "ETUDE",
@@ -8017,6 +7522,11 @@
     "code": "ETUDES-1010",
     "type": "ETUDE",
     "libelle": "Groupe d'études Statut, rôle et place des Français établis hors de France",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-1006",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Francophonie",
     "ordre": 50001
   }],
   "groupe": {
@@ -8048,35 +7558,25 @@
   "twitter": "cperrin90",
   "facebook": "100063778643519",
   "organismes": [{
-    "code": "AUTRES-SFAPF",
-    "type": "AUTRE",
-    "libelle": "Section française de l'Assemblée parlementaire de la francophonie (A.P.F.)",
-    "ordre": 60017
-  },{
     "code": "AUTRES-OTAN",
     "type": "AUTRE",
     "libelle": "Délégation française à l'Assemblée parlementaire de l'OTAN",
     "ordre": 60016
+  },{
+    "code": "AUTRES-SFAPF",
+    "type": "AUTRE",
+    "libelle": "Section française de l'Assemblée parlementaire de la francophonie (A.P.F.)",
+    "ordre": 60017
   },{
     "code": "COM-ETRD",
     "type": "COMMISSION",
     "libelle": "Commission des affaires étrangères, de la défense et des forces armées",
     "ordre": 7002
   },{
-    "code": "COMENQ-TIKTO",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission d'enquête sur l'utilisation du réseau social tiktok, son exploitation des données, sa stratégie d'influence",
-    "ordre": 25999
-  },{
     "code": "COMSPE-CYBE",
     "type": "TEMPORAIRE",
     "libelle": "Commission spéciale sur le projet de loi relatif à la résilience des activités d'importance vitale, à la protection des infrastructures critiques, à la cybersécurité et à la résilience opérationnelle numérique du secteur financier",
     "ordre": 24999
-  },{
-    "code": "ETUDES-934",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
-    "ordre": 50001
   },{
     "code": "ETUDES-1010",
     "type": "ETUDE",
@@ -8091,6 +7591,11 @@
     "code": "ETUDES-919",
     "type": "ETUDE",
     "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-934",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
     "ordre": 50001
   },{
     "code": "OFFICE-EXPORTARM",
@@ -8250,11 +7755,6 @@
     "code": "COMSPE-CYBE",
     "type": "TEMPORAIRE",
     "libelle": "Commission spéciale sur le projet de loi relatif à la résilience des activités d'importance vitale, à la protection des infrastructures critiques, à la cybersécurité et à la résilience opérationnelle numérique du secteur financier",
-    "ordre": 24999
-  },{
-    "code": "COMSPE-CINC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à renforcer la prévention et la lutte contre l'intensification et l'extension du risque incendie",
     "ordre": 24999
   },{
     "code": "COMSPE-SIMP",
@@ -8558,14 +8058,9 @@
     "libelle": "Délégation aux droits des femmes et à l'égalité des chances entre les hommes et les femmes",
     "ordre": 16003
   },{
-    "code": "ETUDES-909",
+    "code": "ETUDES-919",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Vigne et vin",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-1014",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Handicap",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   },{
     "code": "ETUDES-918",
@@ -8573,15 +8068,15 @@
     "libelle": "Groupe d'études Développement économique de la montagne",
     "ordre": 50001
   },{
-    "code": "ETUDES-919",
+    "code": "ETUDES-1014",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "libelle": "Groupe d'études Handicap",
     "ordre": 50001
   },{
-    "code": "MISINFCOM-BATI",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « le bâti scolaire à l'épreuve de la transition écologique »",
-    "ordre": 42999
+    "code": "ETUDES-909",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Vigne et vin",
+    "ordre": 50001
   }],
   "groupe": {
     "code": "SOC",
@@ -9052,11 +8547,6 @@
     "type": "ETUDE",
     "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
     "ordre": 50001
-  },{
-    "code": "MISINFCOM-LOCA",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur \"l'impact des décisions réglementaires et budgétaires de l'Etat sur l'équilibre financier des collectivités locales\"",
-    "ordre": 42999
   }],
   "groupe": {
     "code": "LREM",
@@ -9300,30 +8790,25 @@
   "twitter": "pjverzelen",
   "facebook": "100063453024506",
   "organismes": [{
-    "code": "AUTRES-SFAPF",
+    "code": "AUTRES-UIP",
     "type": "AUTRE",
-    "libelle": "Section française de l'Assemblée parlementaire de la francophonie (A.P.F.)",
-    "ordre": 60017
+    "libelle": "Groupe français de l'Union Interparlementaire (U.I.P.)",
+    "ordre": 60018
   },{
     "code": "AUTRES-OTAN",
     "type": "AUTRE",
     "libelle": "Délégation française à l'Assemblée parlementaire de l'OTAN",
     "ordre": 60016
   },{
-    "code": "AUTRES-UIP",
+    "code": "AUTRES-SFAPF",
     "type": "AUTRE",
-    "libelle": "Groupe français de l'Union Interparlementaire (U.I.P.)",
-    "ordre": 60018
+    "libelle": "Section française de l'Assemblée parlementaire de la francophonie (A.P.F.)",
+    "ordre": 60017
   },{
     "code": "COM-AFCL",
     "type": "COMMISSION",
     "libelle": "Commission de la culture, de l'éducation, de la communication et du sport",
     "ordre": 7005
-  },{
-    "code": "COMSPE-ESNU",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi visant à sécuriser et réguler l'espace numérique",
-    "ordre": 24999
   },{
     "code": "DELEGA-DSOM",
     "type": "DELEGATION/OFFICE",
@@ -9378,11 +8863,6 @@
     "type": "ETUDE",
     "libelle": "Groupe d'études Aviation civile",
     "ordre": 50001
-  },{
-    "code": "MISINFCOM-BIOCARBU",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « Le développement d'une filière de biocarburants, carburants synthétiques durables et hydrogène vert »",
-    "ordre": 42999
   }],
   "groupe": {
     "code": "UC",
@@ -9426,11 +8906,6 @@
     "type": "ETUDE",
     "libelle": "Groupe d'études Énergie",
     "ordre": 50001
-  },{
-    "code": "MISINFCOM-LOCA",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur \"l'impact des décisions réglementaires et budgétaires de l'Etat sur l'équilibre financier des collectivités locales\"",
-    "ordre": 42999
   }],
   "groupe": {
     "code": "UC",
@@ -9742,26 +9217,6 @@
     "libelle": "Délégation sénatoriale aux entreprises",
     "ordre": 16004
   },{
-    "code": "ETUDES-906",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Énergie",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-957",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Industrie",
-    "ordre": 50563
-  },{
-    "code": "ETUDES-907",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Chasse et pêche",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
-  },{
     "code": "ETUDES-928",
     "type": "ETUDE",
     "libelle": "Groupe d'études Monde combattant et mémoire",
@@ -9772,10 +9227,25 @@
     "libelle": "Groupe d'études Forêt et filière bois",
     "ordre": 50001
   },{
-    "code": "MISINFCOM-BIOCARBU",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « Le développement d'une filière de biocarburants, carburants synthétiques durables et hydrogène vert »",
-    "ordre": 42999
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-957",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Industrie",
+    "ordre": 50563
+  },{
+    "code": "ETUDES-906",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Énergie",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-907",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Chasse et pêche",
+    "ordre": 50001
   }],
   "groupe": {
     "code": "UC",
@@ -9815,11 +9285,6 @@
     "type": "COMMISSION",
     "libelle": "Commission des affaires sociales",
     "ordre": 7003
-  },{
-    "code": "COMSPE-CINC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à renforcer la prévention et la lutte contre l'intensification et l'extension du risque incendie",
-    "ordre": 24999
   },{
     "code": "DELEGA-PROS",
     "type": "DELEGATION/OFFICE",
@@ -9905,15 +9370,15 @@
     "libelle": "Commission des lois constitutionnelles, de législation, du suffrage universel, du Règlement et d'administration générale",
     "ordre": 7007
   },{
-    "code": "COMSPE-CZAN",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à faciliter la mise en oeuvre des objectifs de « zéro artificialisation nette » au coeur des territoires",
-    "ordre": 24999
-  },{
     "code": "DELEGA-COLTER",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale aux collectivités territoriales et à la décentralisation",
     "ordre": 16002
+  },{
+    "code": "ETUDES-933",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Aviation civile",
+    "ordre": 50001
   },{
     "code": "ETUDES-934",
     "type": "ETUDE",
@@ -9930,19 +9395,14 @@
     "libelle": "Groupe d'études Francophonie",
     "ordre": 50001
   },{
-    "code": "ETUDES-933",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Aviation civile",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
-  },{
     "code": "ETUDES-1007",
     "type": "ETUDE",
     "libelle": "Groupe d'études Métiers d'art",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-907",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Chasse et pêche",
     "ordre": 50001
   },{
     "code": "ETUDES-906",
@@ -9950,9 +9410,9 @@
     "libelle": "Groupe d'études Énergie",
     "ordre": 50001
   },{
-    "code": "ETUDES-907",
+    "code": "ETUDES-919",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Chasse et pêche",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   },{
     "code": "BUR",
@@ -9999,24 +9459,19 @@
     "libelle": "Commission spéciale sur le projet de loi simplification",
     "ordre": 24999
   },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
+  },{
     "code": "ETUDES-906",
     "type": "ETUDE",
     "libelle": "Groupe d'études Énergie",
     "ordre": 50001
   },{
-    "code": "ETUDES-1008",
-    "type": "ETUDE",
-    "libelle": "Groupe Numérique",
-    "ordre": 50001
-  },{
     "code": "ETUDES-1014",
     "type": "ETUDE",
     "libelle": "Groupe d'études Handicap",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   },{
     "code": "ETUDES-934",
@@ -10029,10 +9484,10 @@
     "libelle": "Groupe d'études Industrie",
     "ordre": 50563
   },{
-    "code": "MISINFCOM-LOCA",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur \"l'impact des décisions réglementaires et budgétaires de l'Etat sur l'équilibre financier des collectivités locales\"",
-    "ordre": 42999
+    "code": "ETUDES-1008",
+    "type": "ETUDE",
+    "libelle": "Groupe Numérique",
+    "ordre": 50001
   },{
     "code": "OFFICE-206",
     "type": "DELEGATION/OFFICE",
@@ -10072,24 +9527,9 @@
     "libelle": "Commission de l'aménagement du territoire et du développement durable",
     "ordre": 7004
   },{
-    "code": "COMSPE-CINC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à renforcer la prévention et la lutte contre l'intensification et l'extension du risque incendie",
-    "ordre": 24999
-  },{
-    "code": "ETUDES-906",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Énergie",
-    "ordre": 50001
-  },{
     "code": "ETUDES-1010",
     "type": "ETUDE",
     "libelle": "Groupe d'études Statut, rôle et place des Français établis hors de France",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-907",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Chasse et pêche",
     "ordre": 50001
   },{
     "code": "ETUDES-919",
@@ -10102,10 +9542,15 @@
     "libelle": "Groupe d'études Forêt et filière bois",
     "ordre": 50001
   },{
-    "code": "MISINFCOM-GEAU",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « gestion durable de l'eau : l'urgence d'agir pour nos usages, nos territoires et notre environnement »",
-    "ordre": 42999
+    "code": "ETUDES-906",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Énergie",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-907",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Chasse et pêche",
+    "ordre": 50001
   }],
   "groupe": {
     "code": "UMP",
@@ -10140,19 +9585,9 @@
     "libelle": "Commission des affaires sociales",
     "ordre": 7003
   },{
-    "code": "COMENQ-RENOV",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission d'enquête sur l'efficacité des politiques publiques en matière de rénovation énergétique",
-    "ordre": 25999
-  },{
     "code": "COMSPE-CYBE",
     "type": "TEMPORAIRE",
     "libelle": "Commission spéciale sur le projet de loi relatif à la résilience des activités d'importance vitale, à la protection des infrastructures critiques, à la cybersécurité et à la résilience opérationnelle numérique du secteur financier",
-    "ordre": 24999
-  },{
-    "code": "COMSPE-CINC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à renforcer la prévention et la lutte contre l'intensification et l'extension du risque incendie",
     "ordre": 24999
   },{
     "code": "DELEGA-COLTER",
@@ -10160,9 +9595,9 @@
     "libelle": "Délégation sénatoriale aux collectivités territoriales et à la décentralisation",
     "ordre": 16002
   },{
-    "code": "ETUDES-1014",
+    "code": "ETUDES-919",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Handicap",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   },{
     "code": "ETUDES-1004",
@@ -10170,19 +9605,14 @@
     "libelle": "Groupe d'études Cancer",
     "ordre": 50001
   },{
-    "code": "ETUDES-919",
+    "code": "ETUDES-1014",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "libelle": "Groupe d'études Handicap",
     "ordre": 50001
   },{
     "code": "ETUDES-909",
     "type": "ETUDE",
     "libelle": "Groupe d'études Vigne et vin",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-908",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Mer et littoral",
     "ordre": 50001
   },{
     "code": "ETUDES-1015",
@@ -10193,6 +9623,11 @@
     "code": "ETUDES-907",
     "type": "ETUDE",
     "libelle": "Groupe d'études Chasse et pêche",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-908",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Mer et littoral",
     "ordre": 50001
   }],
   "groupe": {
@@ -10239,11 +9674,6 @@
     "libelle": "Groupe d'études Chasse et pêche",
     "ordre": 50001
   },{
-    "code": "ETUDES-1014",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Handicap",
-    "ordre": 50001
-  },{
     "code": "ETUDES-906",
     "type": "ETUDE",
     "libelle": "Groupe d'études Énergie",
@@ -10269,10 +9699,10 @@
     "libelle": "Groupe d'études Cancer",
     "ordre": 50001
   },{
-    "code": "MISINFCOM-AVENCOMM",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur l'avenir de la commune et du maire en France",
-    "ordre": 42999
+    "code": "ETUDES-1014",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Handicap",
+    "ordre": 50001
   },{
     "code": "MISINFCOM-BREXIT3",
     "type": "TEMPORAIRE",
@@ -10313,15 +9743,15 @@
     "libelle": "Commission de l'aménagement du territoire et du développement durable",
     "ordre": 7004
   },{
-    "code": "COMSPE-CZAN",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à faciliter la mise en oeuvre des objectifs de « zéro artificialisation nette » au coeur des territoires",
-    "ordre": 24999
-  },{
     "code": "DELEGA-COLTER",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale aux collectivités territoriales et à la décentralisation",
     "ordre": 16002
+  },{
+    "code": "ETUDES-948",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Forêt et filière bois",
+    "ordre": 50001
   },{
     "code": "ETUDES-909",
     "type": "ETUDE",
@@ -10338,14 +9768,9 @@
     "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   },{
-    "code": "ETUDES-907",
+    "code": "ETUDES-906",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Chasse et pêche",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-948",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Forêt et filière bois",
+    "libelle": "Groupe d'études Énergie",
     "ordre": 50001
   },{
     "code": "ETUDES-922",
@@ -10353,9 +9778,9 @@
     "libelle": "Groupe d'études Economie circulaire",
     "ordre": 50001
   },{
-    "code": "ETUDES-906",
+    "code": "ETUDES-907",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Énergie",
+    "libelle": "Groupe d'études Chasse et pêche",
     "ordre": 50001
   }],
   "groupe": {
@@ -10396,11 +9821,6 @@
     "type": "COMMISSION",
     "libelle": "Commission des affaires étrangères, de la défense et des forces armées",
     "ordre": 7002
-  },{
-    "code": "COMENQ-TIKTO",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission d'enquête sur l'utilisation du réseau social tiktok, son exploitation des données, sa stratégie d'influence",
-    "ordre": 25999
   },{
     "code": "COMEUR-AFEU",
     "type": "COMMISSION",
@@ -10470,11 +9890,6 @@
     "type": "ETUDE",
     "libelle": "Groupe d'études Mer et littoral",
     "ordre": 50001
-  },{
-    "code": "MISINFCOM-LOCA",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur \"l'impact des décisions réglementaires et budgétaires de l'Etat sur l'équilibre financier des collectivités locales\"",
-    "ordre": 42999
   }],
   "groupe": {
     "code": "UMP",
@@ -10576,11 +9991,6 @@
     "type": "ETUDE",
     "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
     "ordre": 50001
-  },{
-    "code": "MISINFCOM-AVENCOMM",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur l'avenir de la commune et du maire en France",
-    "ordre": 42999
   }],
   "groupe": {
     "code": "UMP",
@@ -10630,11 +10040,6 @@
     "type": "ETUDE",
     "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
-  },{
-    "code": "MISINFCOM-LOCA",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur \"l'impact des décisions réglementaires et budgétaires de l'Etat sur l'équilibre financier des collectivités locales\"",
-    "ordre": 42999
   },{
     "code": "OFFICE-206",
     "type": "DELEGATION/OFFICE",
@@ -10878,16 +10283,6 @@
     "libelle": "Commission de la culture, de l'éducation, de la communication et du sport",
     "ordre": 7005
   },{
-    "code": "COMENQ-TIKTO",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission d'enquête sur l'utilisation du réseau social tiktok, son exploitation des données, sa stratégie d'influence",
-    "ordre": 25999
-  },{
-    "code": "COMSPE-ESNU",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi visant à sécuriser et réguler l'espace numérique",
-    "ordre": 24999
-  },{
     "code": "ETUDES-1006",
     "type": "ETUDE",
     "libelle": "Groupe d'études Francophonie",
@@ -11043,30 +10438,15 @@
     "libelle": "Commission d'enquête portant sur les marges des industriels et de la grande distribution",
     "ordre": 25001
   },{
-    "code": "COMENQ-TIKTO",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission d'enquête sur l'utilisation du réseau social tiktok, son exploitation des données, sa stratégie d'influence",
-    "ordre": 25999
-  },{
     "code": "COMSPE-CYBE",
     "type": "TEMPORAIRE",
     "libelle": "Commission spéciale sur le projet de loi relatif à la résilience des activités d'importance vitale, à la protection des infrastructures critiques, à la cybersécurité et à la résilience opérationnelle numérique du secteur financier",
-    "ordre": 24999
-  },{
-    "code": "COMSPE-ESNU",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi visant à sécuriser et réguler l'espace numérique",
     "ordre": 24999
   },{
     "code": "DELEGA-PROS",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale à la prospective",
     "ordre": 16006
-  },{
-    "code": "ETUDES-1008",
-    "type": "ETUDE",
-    "libelle": "Groupe Numérique",
-    "ordre": 50001
   },{
     "code": "ETUDES-919",
     "type": "ETUDE",
@@ -11077,6 +10457,11 @@
     "type": "ETUDE",
     "libelle": "Groupe d'études Industrie",
     "ordre": 50563
+  },{
+    "code": "ETUDES-1008",
+    "type": "ETUDE",
+    "libelle": "Groupe Numérique",
+    "ordre": 50001
   }],
   "groupe": {
     "code": "SOC",
@@ -11230,25 +10615,10 @@
     "libelle": "Commission spéciale sur le projet de loi relatif à la résilience des activités d'importance vitale, à la protection des infrastructures critiques, à la cybersécurité et à la résilience opérationnelle numérique du secteur financier",
     "ordre": 24999
   },{
-    "code": "COMSPE-CINC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à renforcer la prévention et la lutte contre l'intensification et l'extension du risque incendie",
-    "ordre": 24999
-  },{
-    "code": "COMSPE-ESNU",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi visant à sécuriser et réguler l'espace numérique",
-    "ordre": 24999
-  },{
     "code": "ETUDES-998",
     "type": "ETUDE",
     "libelle": "Groupe d'études Économie sociale et solidaire",
     "ordre": 50001
-  },{
-    "code": "MISINFCOM-GEAU",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « gestion durable de l'eau : l'urgence d'agir pour nos usages, nos territoires et notre environnement »",
-    "ordre": 42999
   }],
   "groupe": {
     "code": "SOC",
@@ -11281,11 +10651,6 @@
     "type": "COMMISSION",
     "libelle": "Commission des affaires étrangères, de la défense et des forces armées",
     "ordre": 7002
-  },{
-    "code": "COMSPE-CZAN",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à faciliter la mise en oeuvre des objectifs de « zéro artificialisation nette » au coeur des territoires",
-    "ordre": 24999
   },{
     "code": "DELEGA-COLTER",
     "type": "DELEGATION/OFFICE",
@@ -11508,11 +10873,6 @@
     "libelle": "Commission des affaires européennes",
     "ordre": 8001
   },{
-    "code": "COMSPE-ESNU",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi visant à sécuriser et réguler l'espace numérique",
-    "ordre": 24999
-  },{
     "code": "ETUDES-1004",
     "type": "ETUDE",
     "libelle": "Groupe d'études Cancer",
@@ -11664,11 +11024,6 @@
     "libelle": "Commission des finances",
     "ordre": 7006
   },{
-    "code": "COMENQ-TIKTO",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission d'enquête sur l'utilisation du réseau social tiktok, son exploitation des données, sa stratégie d'influence",
-    "ordre": 25999
-  },{
     "code": "COMSPE-SIMP",
     "type": "TEMPORAIRE",
     "libelle": "Commission spéciale sur le projet de loi simplification",
@@ -11677,11 +11032,6 @@
     "code": "COMSPE-CYBE",
     "type": "TEMPORAIRE",
     "libelle": "Commission spéciale sur le projet de loi relatif à la résilience des activités d'importance vitale, à la protection des infrastructures critiques, à la cybersécurité et à la résilience opérationnelle numérique du secteur financier",
-    "ordre": 24999
-  },{
-    "code": "COMSPE-ESNU",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi visant à sécuriser et réguler l'espace numérique",
     "ordre": 24999
   },{
     "code": "ETUDES-1008",
@@ -11969,16 +11319,6 @@
     "libelle": "Commission des finances",
     "ordre": 7006
   },{
-    "code": "COMENQ-MEDIC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission d'enquête sur la pénurie de médicaments et les choix de l'industrie pharmaceutique française",
-    "ordre": 25999
-  },{
-    "code": "COMSPE-CINC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à renforcer la prévention et la lutte contre l'intensification et l'extension du risque incendie",
-    "ordre": 24999
-  },{
     "code": "COMSPE-CYBE",
     "type": "TEMPORAIRE",
     "libelle": "Commission spéciale sur le projet de loi relatif à la résilience des activités d'importance vitale, à la protection des infrastructures critiques, à la cybersécurité et à la résilience opérationnelle numérique du secteur financier",
@@ -11989,14 +11329,14 @@
     "libelle": "Délégation sénatoriale à la prospective",
     "ordre": 16006
   },{
-    "code": "ETUDES-948",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Forêt et filière bois",
-    "ordre": 50001
-  },{
     "code": "ETUDES-909",
     "type": "ETUDE",
     "libelle": "Groupe d'études Vigne et vin",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-948",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Forêt et filière bois",
     "ordre": 50001
   }],
   "groupe": {
@@ -12091,20 +11431,10 @@
     "libelle": "Commission spéciale sur le projet de loi relatif à la résilience des activités d'importance vitale, à la protection des infrastructures critiques, à la cybersécurité et à la résilience opérationnelle numérique du secteur financier",
     "ordre": 24999
   },{
-    "code": "COMSPE-ESNU",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi visant à sécuriser et réguler l'espace numérique",
-    "ordre": 24999
-  },{
     "code": "CSCE-CSCE",
     "type": "AUTRE",
     "libelle": "Délégation française à l'Assemblée parlementaire de l'Organisation pour la Sécurité et la Coopération en Europe (O.S.C.E.)",
     "ordre": 20015
-  },{
-    "code": "MISINFCOM-GEAU",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « gestion durable de l'eau : l'urgence d'agir pour nos usages, nos territoires et notre environnement »",
-    "ordre": 42999
   },{
     "code": "OFFICE-206",
     "type": "DELEGATION/OFFICE",
@@ -12145,20 +11475,15 @@
     "libelle": "Commission de la culture, de l'éducation, de la communication et du sport",
     "ordre": 7005
   },{
-    "code": "COMENQ-MEDIC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission d'enquête sur la pénurie de médicaments et les choix de l'industrie pharmaceutique française",
-    "ordre": 25999
-  },{
-    "code": "COMSPE-CZAN",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à faciliter la mise en oeuvre des objectifs de « zéro artificialisation nette » au coeur des territoires",
-    "ordre": 24999
-  },{
     "code": "DELEGA-COLTER",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale aux collectivités territoriales et à la décentralisation",
     "ordre": 16002
+  },{
+    "code": "ETUDES-1004",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Cancer",
+    "ordre": 50001
   },{
     "code": "ETUDES-919",
     "type": "ETUDE",
@@ -12168,11 +11493,6 @@
     "code": "ETUDES-966",
     "type": "ETUDE",
     "libelle": "Groupe d'études Arts de la scène, arts de la rue et festivals en régions ",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-1004",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Cancer",
     "ordre": 50001
   },{
     "code": "OFFICE-206",
@@ -12224,35 +11544,10 @@
     "libelle": "Commission des affaires européennes",
     "ordre": 8001
   },{
-    "code": "COMSPE-ESNU",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi visant à sécuriser et réguler l'espace numérique",
-    "ordre": 24999
-  },{
     "code": "DELEGA-211",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation aux droits des femmes et à l'égalité des chances entre les hommes et les femmes",
     "ordre": 16003
-  },{
-    "code": "ETUDES-918",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Développement économique de la montagne",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-1014",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Handicap",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-933",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Aviation civile",
-    "ordre": 50001
   },{
     "code": "ETUDES-934",
     "type": "ETUDE",
@@ -12269,10 +11564,25 @@
     "libelle": "Groupe d'études Économie sociale et solidaire",
     "ordre": 50001
   },{
-    "code": "MISINFCOM-AVENCOMM",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur l'avenir de la commune et du maire en France",
-    "ordre": 42999
+    "code": "ETUDES-933",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Aviation civile",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-1014",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Handicap",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-918",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Développement économique de la montagne",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
   },{
     "code": "BUR",
     "type": "INTERNE",
@@ -12328,11 +11638,6 @@
     "libelle": "Mission d'évaluation et de contrôle de la sécurité sociale",
     "ordre": 21001
   },{
-    "code": "MISINFCOM-LOCA",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur \"l'impact des décisions réglementaires et budgétaires de l'Etat sur l'équilibre financier des collectivités locales\"",
-    "ordre": 42999
-  },{
     "code": "OFFICE-206",
     "type": "DELEGATION/OFFICE",
     "libelle": "Office parlementaire d'évaluation des choix scientifiques et technologiques",
@@ -12386,11 +11691,6 @@
     "type": "ETUDE",
     "libelle": "Groupe d'études Énergie",
     "ordre": 50001
-  },{
-    "code": "MISINFCOM-LOCA",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur \"l'impact des décisions réglementaires et budgétaires de l'Etat sur l'équilibre financier des collectivités locales\"",
-    "ordre": 42999
   }],
   "groupe": {
     "code": "UC",
@@ -12479,11 +11779,6 @@
     "type": "COMMISSION",
     "libelle": "Commission de l'aménagement du territoire et du développement durable",
     "ordre": 7004
-  },{
-    "code": "COMSPE-CINC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à renforcer la prévention et la lutte contre l'intensification et l'extension du risque incendie",
-    "ordre": 24999
   },{
     "code": "DELEGA-COLTER",
     "type": "DELEGATION/OFFICE",
@@ -12625,24 +11920,9 @@
     "libelle": "Délégation sénatoriale aux collectivités territoriales et à la décentralisation",
     "ordre": 16002
   },{
-    "code": "ETUDES-909",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Vigne et vin",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-907",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Chasse et pêche",
-    "ordre": 50001
-  },{
     "code": "ETUDES-1014",
     "type": "ETUDE",
     "libelle": "Groupe d'études Handicap",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   },{
     "code": "ETUDES-928",
@@ -12660,10 +11940,20 @@
     "libelle": "Groupe d'études Cancer",
     "ordre": 50001
   },{
-    "code": "MISINFCOM-BIOCARBU",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « Le développement d'une filière de biocarburants, carburants synthétiques durables et hydrogène vert »",
-    "ordre": 42999
+    "code": "ETUDES-909",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Vigne et vin",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-907",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Chasse et pêche",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
   }],
   "groupe": {
     "code": "UC",
@@ -12699,15 +11989,20 @@
     "libelle": "Commission des lois constitutionnelles, de législation, du suffrage universel, du Règlement et d'administration générale",
     "ordre": 7007
   },{
-    "code": "COMSPE-CZAN",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à faciliter la mise en oeuvre des objectifs de « zéro artificialisation nette » au coeur des territoires",
-    "ordre": 24999
-  },{
     "code": "DELEGA-PROS",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale à la prospective",
     "ordre": 16006
+  },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-909",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Vigne et vin",
+    "ordre": 50001
   },{
     "code": "ETUDES-1010",
     "type": "ETUDE",
@@ -12718,21 +12013,6 @@
     "type": "ETUDE",
     "libelle": "Groupe d'études Chasse et pêche",
     "ordre": 50001
-  },{
-    "code": "ETUDES-909",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Vigne et vin",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
-  },{
-    "code": "MISINFCOM-BATI",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « le bâti scolaire à l'épreuve de la transition écologique »",
-    "ordre": 42999
   }],
   "groupe": {
     "code": "UMP",
@@ -12777,11 +12057,6 @@
     "libelle": "Commission de l'aménagement du territoire et du développement durable",
     "ordre": 7004
   },{
-    "code": "COMSPE-CZAN",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à faciliter la mise en oeuvre des objectifs de « zéro artificialisation nette » au coeur des territoires",
-    "ordre": 24999
-  },{
     "code": "DELEGA-COLTER",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale aux collectivités territoriales et à la décentralisation",
@@ -12792,6 +12067,16 @@
     "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
     "ordre": 50001
   },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-909",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Vigne et vin",
+    "ordre": 50001
+  },{
     "code": "ETUDES-1006",
     "type": "ETUDE",
     "libelle": "Groupe d'études Francophonie",
@@ -12800,16 +12085,6 @@
     "code": "ETUDES-906",
     "type": "ETUDE",
     "libelle": "Groupe d'études Énergie",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-909",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Vigne et vin",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   },{
     "code": "BUR",
@@ -13049,24 +12324,14 @@
     "libelle": "Commission des lois constitutionnelles, de législation, du suffrage universel, du Règlement et d'administration générale",
     "ordre": 7007
   },{
-    "code": "COMENQ-TIKTO",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission d'enquête sur l'utilisation du réseau social tiktok, son exploitation des données, sa stratégie d'influence",
-    "ordre": 25999
-  },{
-    "code": "COMSPE-ESNU",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi visant à sécuriser et réguler l'espace numérique",
-    "ordre": 24999
-  },{
     "code": "DELEGA-211",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation aux droits des femmes et à l'égalité des chances entre les hommes et les femmes",
     "ordre": 16003
   },{
-    "code": "ETUDES-1014",
+    "code": "ETUDES-966",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Handicap",
+    "libelle": "Groupe d'études Arts de la scène, arts de la rue et festivals en régions ",
     "ordre": 50001
   },{
     "code": "ETUDES-1010",
@@ -13074,19 +12339,14 @@
     "libelle": "Groupe d'études Statut, rôle et place des Français établis hors de France",
     "ordre": 50001
   },{
-    "code": "ETUDES-966",
+    "code": "ETUDES-1014",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Arts de la scène, arts de la rue et festivals en régions ",
+    "libelle": "Groupe d'études Handicap",
     "ordre": 50001
   },{
     "code": "ETUDES-938",
     "type": "ETUDE",
     "libelle": "Groupe d'études Arctique, Antarctique et Terres australes",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-934",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
     "ordre": 50001
   },{
     "code": "ETUDES-1007",
@@ -13097,6 +12357,11 @@
     "code": "ETUDES-909",
     "type": "ETUDE",
     "libelle": "Groupe d'études Vigne et vin",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-934",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
     "ordre": 50001
   }],
   "groupe": {
@@ -13187,24 +12452,14 @@
     "libelle": "Commission de la culture, de l'éducation, de la communication et du sport",
     "ordre": 7005
   },{
-    "code": "COMENQ-MEDIC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission d'enquête sur la pénurie de médicaments et les choix de l'industrie pharmaceutique française",
-    "ordre": 25999
-  },{
-    "code": "COMSPE-ESNU",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi visant à sécuriser et réguler l'espace numérique",
-    "ordre": 24999
+    "code": "ETUDES-918",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Développement économique de la montagne",
+    "ordre": 50001
   },{
     "code": "ETUDES-1004",
     "type": "ETUDE",
     "libelle": "Groupe d'études Cancer",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-918",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Développement économique de la montagne",
     "ordre": 50001
   },{
     "code": "ETUDES-919",
@@ -13361,26 +12616,6 @@
     "libelle": "Délégation sénatoriale aux collectivités territoriales et à la décentralisation",
     "ordre": 16002
   },{
-    "code": "ETUDES-928",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Monde combattant et mémoire",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-1006",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Francophonie",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-934",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
-    "ordre": 50001
-  },{
     "code": "ETUDES-957",
     "type": "ETUDE",
     "libelle": "Groupe d'études Industrie",
@@ -13396,10 +12631,25 @@
     "libelle": "Groupe d'études Handicap",
     "ordre": 50001
   },{
-    "code": "MISINFCOM-AVENCOMM",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur l'avenir de la commune et du maire en France",
-    "ordre": 42999
+    "code": "ETUDES-934",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-1006",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Francophonie",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-928",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Monde combattant et mémoire",
+    "ordre": 50001
   }],
   "groupe": {
     "code": "UMP",
@@ -13439,35 +12689,10 @@
     "libelle": "Commission de la culture, de l'éducation, de la communication et du sport",
     "ordre": 7005
   },{
-    "code": "COMSPE-CINC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à renforcer la prévention et la lutte contre l'intensification et l'extension du risque incendie",
-    "ordre": 24999
-  },{
     "code": "DELEGA-PROS",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale à la prospective",
     "ordre": 16006
-  },{
-    "code": "ETUDES-909",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Vigne et vin",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-1007",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Métiers d'art",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-934",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
-    "ordre": 50001
   },{
     "code": "ETUDES-966",
     "type": "ETUDE",
@@ -13479,10 +12704,25 @@
     "libelle": "Groupe d'études Handicap",
     "ordre": 50001
   },{
-    "code": "MISINFCOM-BATI",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « le bâti scolaire à l'épreuve de la transition écologique »",
-    "ordre": 42999
+    "code": "ETUDES-934",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-1007",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Métiers d'art",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-909",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Vigne et vin",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
   }],
   "groupe": {
     "code": "UMP",
@@ -13527,26 +12767,6 @@
     "libelle": "Délégation aux droits des femmes et à l'égalité des chances entre les hommes et les femmes",
     "ordre": 16003
   },{
-    "code": "ETUDES-908",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Mer et littoral",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-1015",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Pêche et produits de la mer",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-934",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
-    "ordre": 50001
-  },{
     "code": "ETUDES-966",
     "type": "ETUDE",
     "libelle": "Groupe d'études Arts de la scène, arts de la rue et festivals en régions ",
@@ -13557,10 +12777,25 @@
     "libelle": "Groupe d'études Métiers d'art",
     "ordre": 50001
   },{
-    "code": "MISINFCOM-BIOCARBU",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « Le développement d'une filière de biocarburants, carburants synthétiques durables et hydrogène vert »",
-    "ordre": 42999
+    "code": "ETUDES-934",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-1015",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Pêche et produits de la mer",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-908",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Mer et littoral",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
   }],
   "groupe": {
     "code": "UMP",
@@ -13595,25 +12830,25 @@
     "libelle": "Commission des affaires sociales",
     "ordre": 7003
   },{
-    "code": "COMENQ-MEDIC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission d'enquête sur la pénurie de médicaments et les choix de l'industrie pharmaceutique française",
-    "ordre": 25999
-  },{
     "code": "COMSPE-CYBE",
     "type": "TEMPORAIRE",
     "libelle": "Commission spéciale sur le projet de loi relatif à la résilience des activités d'importance vitale, à la protection des infrastructures critiques, à la cybersécurité et à la résilience opérationnelle numérique du secteur financier",
     "ordre": 24999
   },{
-    "code": "COMSPE-ESNU",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi visant à sécuriser et réguler l'espace numérique",
-    "ordre": 24999
+    "code": "ETUDES-1007",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Métiers d'art",
+    "ordre": 50001
   },{
-    "code": "COMSPE-CINC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à renforcer la prévention et la lutte contre l'intensification et l'extension du risque incendie",
-    "ordre": 24999
+    "code": "ETUDES-934",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-966",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Arts de la scène, arts de la rue et festivals en régions ",
+    "ordre": 50001
   },{
     "code": "ETUDES-1004",
     "type": "ETUDE",
@@ -13625,24 +12860,9 @@
     "libelle": "Groupe d'études Francophonie",
     "ordre": 50001
   },{
-    "code": "ETUDES-966",
+    "code": "ETUDES-919",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Arts de la scène, arts de la rue et festivals en régions ",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-934",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-933",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Aviation civile",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-1007",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Métiers d'art",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   },{
     "code": "ETUDES-909",
@@ -13650,9 +12870,9 @@
     "libelle": "Groupe d'études Vigne et vin",
     "ordre": 50001
   },{
-    "code": "ETUDES-919",
+    "code": "ETUDES-933",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "libelle": "Groupe d'études Aviation civile",
     "ordre": 50001
   }],
   "groupe": {
@@ -13845,29 +13065,19 @@
     "libelle": "Commission des finances",
     "ordre": 7006
   },{
-    "code": "COMSPE-CINC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à renforcer la prévention et la lutte contre l'intensification et l'extension du risque incendie",
-    "ordre": 24999
-  },{
     "code": "DELEGA-COLTER",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale aux collectivités territoriales et à la décentralisation",
     "ordre": 16002
-  },{
-    "code": "ETUDES-934",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
-    "ordre": 50001
   },{
     "code": "ETUDES-933",
     "type": "ETUDE",
     "libelle": "Groupe d'études Aviation civile",
     "ordre": 50001
   },{
-    "code": "ETUDES-919",
+    "code": "ETUDES-934",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
     "ordre": 50001
   },{
     "code": "ETUDES-1008",
@@ -13878,6 +13088,11 @@
     "code": "ETUDES-907",
     "type": "ETUDE",
     "libelle": "Groupe d'études Chasse et pêche",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   }],
   "groupe": {
@@ -13928,11 +13143,6 @@
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale aux collectivités territoriales et à la décentralisation",
     "ordre": 16002
-  },{
-    "code": "MISINFCOM-BIOCARBU",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « Le développement d'une filière de biocarburants, carburants synthétiques durables et hydrogène vert »",
-    "ordre": 42999
   }],
   "groupe": {
     "code": "CRC",
@@ -13967,29 +13177,24 @@
     "libelle": "Commission de l'aménagement du territoire et du développement durable",
     "ordre": 7004
   },{
-    "code": "COMENQ-RENOV",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission d'enquête sur l'efficacité des politiques publiques en matière de rénovation énergétique",
-    "ordre": 25999
+    "code": "ETUDES-1014",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Handicap",
+    "ordre": 50001
   },{
     "code": "ETUDES-928",
     "type": "ETUDE",
     "libelle": "Groupe d'études Monde combattant et mémoire",
     "ordre": 50001
   },{
-    "code": "ETUDES-908",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Mer et littoral",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-1014",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Handicap",
-    "ordre": 50001
-  },{
     "code": "ETUDES-906",
     "type": "ETUDE",
     "libelle": "Groupe d'études Énergie",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-908",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Mer et littoral",
     "ordre": 50001
   }],
   "groupe": {
@@ -14074,11 +13279,6 @@
     "libelle": "Commission des affaires économiques",
     "ordre": 7001
   },{
-    "code": "COMENQ-RENOV",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission d'enquête sur l'efficacité des politiques publiques en matière de rénovation énergétique",
-    "ordre": 25999
-  },{
     "code": "DELEGA-PROS",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale à la prospective",
@@ -14143,20 +13343,15 @@
     "libelle": "Commission des affaires économiques",
     "ordre": 7001
   },{
-    "code": "COMSPE-CZAN",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à faciliter la mise en oeuvre des objectifs de « zéro artificialisation nette » au coeur des territoires",
-    "ordre": 24999
-  },{
-    "code": "COMSPE-ESNU",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi visant à sécuriser et réguler l'espace numérique",
-    "ordre": 24999
-  },{
     "code": "DELEGA-PROS",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale à la prospective",
     "ordre": 16006
+  },{
+    "code": "ETUDES-948",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Forêt et filière bois",
+    "ordre": 50001
   },{
     "code": "ETUDES-1008",
     "type": "ETUDE",
@@ -14167,16 +13362,6 @@
     "type": "ETUDE",
     "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
-  },{
-    "code": "ETUDES-948",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Forêt et filière bois",
-    "ordre": 50001
-  },{
-    "code": "MISINFCOM-AVENCOMM",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur l'avenir de la commune et du maire en France",
-    "ordre": 42999
   }],
   "groupe": {
     "code": "SOC",
@@ -14342,29 +13527,24 @@
     "libelle": "Commission des affaires sociales",
     "ordre": 7003
   },{
-    "code": "COMSPE-CINC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à renforcer la prévention et la lutte contre l'intensification et l'extension du risque incendie",
-    "ordre": 24999
+    "code": "ETUDES-1015",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Pêche et produits de la mer",
+    "ordre": 50001
   },{
     "code": "ETUDES-998",
     "type": "ETUDE",
     "libelle": "Groupe d'études Économie sociale et solidaire",
     "ordre": 50001
   },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-1015",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Pêche et produits de la mer",
-    "ordre": 50001
-  },{
     "code": "ETUDES-906",
     "type": "ETUDE",
     "libelle": "Groupe d'études Énergie",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   }],
   "groupe": {
@@ -14400,16 +13580,6 @@
     "type": "COMMISSION",
     "libelle": "Commission des finances",
     "ordre": 7006
-  },{
-    "code": "COMSPE-CZAN",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à faciliter la mise en oeuvre des objectifs de « zéro artificialisation nette » au coeur des territoires",
-    "ordre": 24999
-  },{
-    "code": "MISINFCOM-AVENCOMM",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur l'avenir de la commune et du maire en France",
-    "ordre": 42999
   }],
   "groupe": {
     "code": "SOC",
@@ -14595,9 +13765,9 @@
     "libelle": "Commission des lois constitutionnelles, de législation, du suffrage universel, du Règlement et d'administration générale",
     "ordre": 7007
   },{
-    "code": "ETUDES-909",
+    "code": "ETUDES-948",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Vigne et vin",
+    "libelle": "Groupe d'études Forêt et filière bois",
     "ordre": 50001
   },{
     "code": "ETUDES-998",
@@ -14605,15 +13775,10 @@
     "libelle": "Groupe d'études Économie sociale et solidaire",
     "ordre": 50001
   },{
-    "code": "ETUDES-948",
+    "code": "ETUDES-909",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Forêt et filière bois",
+    "libelle": "Groupe d'études Vigne et vin",
     "ordre": 50001
-  },{
-    "code": "MISINFCOM-AVENCOMM",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur l'avenir de la commune et du maire en France",
-    "ordre": 42999
   },{
     "code": "BUR",
     "type": "INTERNE",
@@ -14653,11 +13818,6 @@
     "type": "COMMISSION",
     "libelle": "Commission des affaires étrangères, de la défense et des forces armées",
     "ordre": 7002
-  },{
-    "code": "COMENQ-RENOV",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission d'enquête sur l'efficacité des politiques publiques en matière de rénovation énergétique",
-    "ordre": 25999
   },{
     "code": "DELEGA-ENTREPRISES",
     "type": "DELEGATION/OFFICE",
@@ -14717,11 +13877,6 @@
     "type": "COMMISSION",
     "libelle": "Commission des lois constitutionnelles, de législation, du suffrage universel, du Règlement et d'administration générale",
     "ordre": 7007
-  },{
-    "code": "COMENQ-MEDIC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission d'enquête sur la pénurie de médicaments et les choix de l'industrie pharmaceutique française",
-    "ordre": 25999
   },{
     "code": "DELEGA-PROS",
     "type": "DELEGATION/OFFICE",
@@ -14976,11 +14131,6 @@
     "libelle": "Comité de déontologie parlementaire du Sénat",
     "ordre": 18011
   },{
-    "code": "COMSPE-CZAN",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à faciliter la mise en oeuvre des objectifs de « zéro artificialisation nette » au coeur des territoires",
-    "ordre": 24999
-  },{
     "code": "COMSPE-SIMP",
     "type": "TEMPORAIRE",
     "libelle": "Commission spéciale sur le projet de loi simplification",
@@ -15113,16 +14263,6 @@
     "libelle": "Commission des affaires étrangères, de la défense et des forces armées",
     "ordre": 7002
   },{
-    "code": "COMENQ-TIKTO",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission d'enquête sur l'utilisation du réseau social tiktok, son exploitation des données, sa stratégie d'influence",
-    "ordre": 25999
-  },{
-    "code": "COMSPE-ESNU",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi visant à sécuriser et réguler l'espace numérique",
-    "ordre": 24999
-  },{
     "code": "COMSPE-CYBE",
     "type": "TEMPORAIRE",
     "libelle": "Commission spéciale sur le projet de loi relatif à la résilience des activités d'importance vitale, à la protection des infrastructures critiques, à la cybersécurité et à la résilience opérationnelle numérique du secteur financier",
@@ -15246,24 +14386,34 @@
     "libelle": "Commission spéciale sur le projet de loi relatif à la résilience des activités d'importance vitale, à la protection des infrastructures critiques, à la cybersécurité et à la résilience opérationnelle numérique du secteur financier",
     "ordre": 24999
   },{
-    "code": "COMSPE-ESNU",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi visant à sécuriser et réguler l'espace numérique",
-    "ordre": 24999
-  },{
     "code": "DELEGA-ENTREPRISES",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale aux entreprises",
     "ordre": 16004
+  },{
+    "code": "ETUDES-1008",
+    "type": "ETUDE",
+    "libelle": "Groupe Numérique",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-957",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Industrie",
+    "ordre": 50563
+  },{
+    "code": "ETUDES-934",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
+    "ordre": 50001
   },{
     "code": "ETUDES-919",
     "type": "ETUDE",
     "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   },{
-    "code": "ETUDES-1008",
+    "code": "ETUDES-918",
     "type": "ETUDE",
-    "libelle": "Groupe Numérique",
+    "libelle": "Groupe d'études Développement économique de la montagne",
     "ordre": 50001
   },{
     "code": "ETUDES-1014",
@@ -15275,31 +14425,6 @@
     "type": "ETUDE",
     "libelle": "Groupe d'études Economie circulaire",
     "ordre": 50001
-  },{
-    "code": "ETUDES-918",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Développement économique de la montagne",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-934",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-957",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Industrie",
-    "ordre": 50563
-  },{
-    "code": "MISINFCOM-GEAU",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « gestion durable de l'eau : l'urgence d'agir pour nos usages, nos territoires et notre environnement »",
-    "ordre": 42999
-  },{
-    "code": "MISINFCOM-BIOCARBU",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « Le développement d'une filière de biocarburants, carburants synthétiques durables et hydrogène vert »",
-    "ordre": 42999
   }],
   "groupe": {
     "code": "RTLI",
@@ -15347,11 +14472,6 @@
     "type": "ETUDE",
     "libelle": "Groupe d'études Mer et littoral",
     "ordre": 50001
-  },{
-    "code": "MISINFCOM-AVENCOMM",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur l'avenir de la commune et du maire en France",
-    "ordre": 42999
   }],
   "groupe": {
     "code": "UC",
@@ -15435,20 +14555,10 @@
     "libelle": "Commission de l'aménagement du territoire et du développement durable",
     "ordre": 7004
   },{
-    "code": "COMSPE-CZAN",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à faciliter la mise en oeuvre des objectifs de « zéro artificialisation nette » au coeur des territoires",
-    "ordre": 24999
-  },{
     "code": "ETUDES-1007",
     "type": "ETUDE",
     "libelle": "Groupe d'études Métiers d'art",
     "ordre": 50001
-  },{
-    "code": "MISINFCOM-GEAU",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « gestion durable de l'eau : l'urgence d'agir pour nos usages, nos territoires et notre environnement »",
-    "ordre": 42999
   }],
   "groupe": {
     "code": "UC",
@@ -15731,11 +14841,6 @@
     "libelle": "Délégation sénatoriale à la prospective",
     "ordre": 16006
   },{
-    "code": "ETUDES-934",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
-    "ordre": 50001
-  },{
     "code": "ETUDES-909",
     "type": "ETUDE",
     "libelle": "Groupe d'études Vigne et vin",
@@ -15746,10 +14851,10 @@
     "libelle": "Groupe d'études Aviation civile",
     "ordre": 50001
   },{
-    "code": "MISINFCOM-LOCA",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur \"l'impact des décisions réglementaires et budgétaires de l'Etat sur l'équilibre financier des collectivités locales\"",
-    "ordre": 42999
+    "code": "ETUDES-934",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
+    "ordre": 50001
   },{
     "code": "OFFICE-EXPORTARM",
     "type": "DELEGATION/OFFICE",
@@ -15891,20 +14996,10 @@
     "libelle": "Commission des affaires européennes",
     "ordre": 8001
   },{
-    "code": "COMSPE-CINC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à renforcer la prévention et la lutte contre l'intensification et l'extension du risque incendie",
-    "ordre": 24999
-  },{
     "code": "DELEGA-ENTREPRISES",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale aux entreprises",
     "ordre": 16004
-  },{
-    "code": "MISINFCOM-AVENCOMM",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur l'avenir de la commune et du maire en France",
-    "ordre": 42999
   }],
   "groupe": {
     "code": "UC",
@@ -16055,11 +15150,6 @@
     "libelle": "Commission de l'aménagement du territoire et du développement durable",
     "ordre": 7004
   },{
-    "code": "COMSPE-CZAN",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à faciliter la mise en oeuvre des objectifs de « zéro artificialisation nette » au coeur des territoires",
-    "ordre": 24999
-  },{
     "code": "ETUDES-1014",
     "type": "ETUDE",
     "libelle": "Groupe d'études Handicap",
@@ -16113,11 +15203,6 @@
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale aux entreprises",
     "ordre": 16004
-  },{
-    "code": "MISINFCOM-AVENCOMM",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur l'avenir de la commune et du maire en France",
-    "ordre": 42999
   }],
   "groupe": {
     "code": "UMP",
@@ -16152,15 +15237,10 @@
     "libelle": "Commission des affaires économiques",
     "ordre": 7001
   },{
-    "code": "COMSPE-CZAN",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à faciliter la mise en oeuvre des objectifs de « zéro artificialisation nette » au coeur des territoires",
-    "ordre": 24999
-  },{
-    "code": "COMSPE-ESNU",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi visant à sécuriser et réguler l'espace numérique",
-    "ordre": 24999
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
   },{
     "code": "ETUDES-957",
     "type": "ETUDE",
@@ -16171,16 +15251,6 @@
     "type": "ETUDE",
     "libelle": "Groupe d'études Chasse et pêche",
     "ordre": 50001
-  },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
-  },{
-    "code": "MISINFCOM-AVENCOMM",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur l'avenir de la commune et du maire en France",
-    "ordre": 42999
   }],
   "groupe": {
     "code": "UMP",
@@ -16256,11 +15326,6 @@
     "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   },{
-    "code": "MISINFCOM-BIOCARBU",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « Le développement d'une filière de biocarburants, carburants synthétiques durables et hydrogène vert »",
-    "ordre": 42999
-  },{
     "code": "MISINFCOM-BREXIT3",
     "type": "TEMPORAIRE",
     "libelle": "Groupe de suivi de la nouvelle relation euro-britannique",
@@ -16300,16 +15365,6 @@
     "libelle": "Commission des affaires économiques",
     "ordre": 7001
   },{
-    "code": "ETUDES-909",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Vigne et vin",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-907",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Chasse et pêche",
-    "ordre": 50001
-  },{
     "code": "ETUDES-1007",
     "type": "ETUDE",
     "libelle": "Groupe d'études Métiers d'art",
@@ -16325,10 +15380,15 @@
     "libelle": "Groupe d'études Industrie",
     "ordre": 50563
   },{
-    "code": "MISINFCOM-AVENCOMM",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur l'avenir de la commune et du maire en France",
-    "ordre": 42999
+    "code": "ETUDES-907",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Chasse et pêche",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-909",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Vigne et vin",
+    "ordre": 50001
   },{
     "code": "BUR",
     "type": "INTERNE",
@@ -16368,11 +15428,6 @@
     "type": "COMMISSION",
     "libelle": "Commission des affaires sociales",
     "ordre": 7003
-  },{
-    "code": "COMENQ-MEDIC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission d'enquête sur la pénurie de médicaments et les choix de l'industrie pharmaceutique française",
-    "ordre": 25999
   },{
     "code": "COMITE-COMITEDEONTO",
     "type": "INTERNE",
@@ -16493,29 +15548,19 @@
     "libelle": "Commission d'enquête portant sur les marges des industriels et de la grande distribution",
     "ordre": 25001
   },{
-    "code": "COMENQ-MEDIC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission d'enquête sur la pénurie de médicaments et les choix de l'industrie pharmaceutique française",
-    "ordre": 25999
-  },{
     "code": "COMEUR-AFEU",
     "type": "COMMISSION",
     "libelle": "Commission des affaires européennes",
     "ordre": 8001
-  },{
-    "code": "COMSPE-CINC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à renforcer la prévention et la lutte contre l'intensification et l'extension du risque incendie",
-    "ordre": 24999
   },{
     "code": "DELEGA-PROS",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale à la prospective",
     "ordre": 16006
   },{
-    "code": "ETUDES-1008",
+    "code": "ETUDES-934",
     "type": "ETUDE",
-    "libelle": "Groupe Numérique",
+    "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
     "ordre": 50001
   },{
     "code": "ETUDES-938",
@@ -16523,9 +15568,9 @@
     "libelle": "Groupe d'études Arctique, Antarctique et Terres australes",
     "ordre": 50001
   },{
-    "code": "ETUDES-934",
+    "code": "ETUDES-1008",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
+    "libelle": "Groupe Numérique",
     "ordre": 50001
   },{
     "code": "ETUDES-933",
@@ -16543,11 +15588,6 @@
     "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   },{
-    "code": "ETUDES-907",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Chasse et pêche",
-    "ordre": 50001
-  },{
     "code": "ETUDES-1006",
     "type": "ETUDE",
     "libelle": "Groupe d'études Francophonie",
@@ -16556,6 +15596,11 @@
     "code": "ETUDES-906",
     "type": "ETUDE",
     "libelle": "Groupe d'études Énergie",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-907",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Chasse et pêche",
     "ordre": 50001
   }],
   "groupe": {
@@ -16640,16 +15685,6 @@
     "type": "TEMPORAIRE",
     "libelle": "Commission spéciale sur le projet de loi relatif à la résilience des activités d'importance vitale, à la protection des infrastructures critiques, à la cybersécurité et à la résilience opérationnelle numérique du secteur financier",
     "ordre": 24999
-  },{
-    "code": "COMSPE-CZAN",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à faciliter la mise en oeuvre des objectifs de « zéro artificialisation nette » au coeur des territoires",
-    "ordre": 24999
-  },{
-    "code": "MISINFCOM-LOCA",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur \"l'impact des décisions réglementaires et budgétaires de l'Etat sur l'équilibre financier des collectivités locales\"",
-    "ordre": 42999
   }],
   "groupe": {
     "code": "UMP",
@@ -16700,24 +15735,19 @@
     "libelle": "Délégation française à l'Assemblée parlementaire du Conseil de l'Europe",
     "ordre": 19012
   },{
-    "code": "ETUDES-1015",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Pêche et produits de la mer",
-    "ordre": 50001
-  },{
     "code": "ETUDES-957",
     "type": "ETUDE",
     "libelle": "Groupe d'études Industrie",
     "ordre": 50563
   },{
+    "code": "ETUDES-1015",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Pêche et produits de la mer",
+    "ordre": 50001
+  },{
     "code": "MISINFCOM-BREXIT3",
     "type": "TEMPORAIRE",
     "libelle": "Groupe de suivi de la nouvelle relation euro-britannique",
-    "ordre": 42999
-  },{
-    "code": "MISINFCOM-GEAU",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « gestion durable de l'eau : l'urgence d'agir pour nos usages, nos territoires et notre environnement »",
     "ordre": 42999
   }],
   "groupe": {
@@ -16753,11 +15783,6 @@
     "type": "COMMISSION",
     "libelle": "Commission des finances",
     "ordre": 7006
-  },{
-    "code": "COMSPE-CZAN",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à faciliter la mise en oeuvre des objectifs de « zéro artificialisation nette » au coeur des territoires",
-    "ordre": 24999
   },{
     "code": "DELEGA-PROS",
     "type": "DELEGATION/OFFICE",
@@ -16808,11 +15833,6 @@
     "libelle": "Commission de la culture, de l'éducation, de la communication et du sport",
     "ordre": 7005
   },{
-    "code": "COMSPE-CINC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à renforcer la prévention et la lutte contre l'intensification et l'extension du risque incendie",
-    "ordre": 24999
-  },{
     "code": "DELEGA-211",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation aux droits des femmes et à l'égalité des chances entre les hommes et les femmes",
@@ -16822,31 +15842,6 @@
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale aux entreprises",
     "ordre": 16004
-  },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-907",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Chasse et pêche",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-918",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Développement économique de la montagne",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-1007",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Métiers d'art",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-928",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Monde combattant et mémoire",
-    "ordre": 50001
   },{
     "code": "ETUDES-933",
     "type": "ETUDE",
@@ -16878,10 +15873,30 @@
     "libelle": "Groupe d'études Handicap",
     "ordre": 50001
   },{
-    "code": "MISINFCOM-BATI",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « le bâti scolaire à l'épreuve de la transition écologique »",
-    "ordre": 42999
+    "code": "ETUDES-1007",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Métiers d'art",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-918",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Développement économique de la montagne",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-907",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Chasse et pêche",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-928",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Monde combattant et mémoire",
+    "ordre": 50001
   }],
   "groupe": {
     "code": "UMP",
@@ -16925,31 +15940,6 @@
     "libelle": "Commission des affaires européennes",
     "ordre": 8001
   },{
-    "code": "COMSPE-CINC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à renforcer la prévention et la lutte contre l'intensification et l'extension du risque incendie",
-    "ordre": 24999
-  },{
-    "code": "ETUDES-906",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Énergie",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-922",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Economie circulaire",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-1015",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Pêche et produits de la mer",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-907",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Chasse et pêche",
-    "ordre": 50001
-  },{
     "code": "ETUDES-918",
     "type": "ETUDE",
     "libelle": "Groupe d'études Développement économique de la montagne",
@@ -16970,10 +15960,25 @@
     "libelle": "Groupe d'études Industrie",
     "ordre": 50563
   },{
-    "code": "MISINFCOM-LOCA",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur \"l'impact des décisions réglementaires et budgétaires de l'Etat sur l'équilibre financier des collectivités locales\"",
-    "ordre": 42999
+    "code": "ETUDES-1015",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Pêche et produits de la mer",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-906",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Énergie",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-922",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Economie circulaire",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-907",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Chasse et pêche",
+    "ordre": 50001
   }],
   "groupe": {
     "code": "UMP",
@@ -17018,6 +16023,16 @@
     "libelle": "Délégation sénatoriale aux entreprises",
     "ordre": 16004
   },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-907",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Chasse et pêche",
+    "ordre": 50001
+  },{
     "code": "ETUDES-948",
     "type": "ETUDE",
     "libelle": "Groupe d'études Forêt et filière bois",
@@ -17027,21 +16042,6 @@
     "type": "ETUDE",
     "libelle": "Groupe d'études Énergie",
     "ordre": 50001
-  },{
-    "code": "ETUDES-907",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Chasse et pêche",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
-  },{
-    "code": "MISINFCOM-BATI",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « le bâti scolaire à l'épreuve de la transition écologique »",
-    "ordre": 42999
   }],
   "groupe": {
     "code": "UMP",
@@ -17082,40 +16082,10 @@
     "libelle": "Commission spéciale sur le projet de loi relatif à la résilience des activités d'importance vitale, à la protection des infrastructures critiques, à la cybersécurité et à la résilience opérationnelle numérique du secteur financier",
     "ordre": 24999
   },{
-    "code": "COMSPE-CINC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à renforcer la prévention et la lutte contre l'intensification et l'extension du risque incendie",
-    "ordre": 24999
-  },{
-    "code": "COMSPE-ESNU",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi visant à sécuriser et réguler l'espace numérique",
-    "ordre": 24999
-  },{
     "code": "DELEGA-PROS",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale à la prospective",
     "ordre": 16006
-  },{
-    "code": "ETUDES-918",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Développement économique de la montagne",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-1007",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Métiers d'art",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-948",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Forêt et filière bois",
-    "ordre": 50001
   },{
     "code": "ETUDES-1008",
     "type": "ETUDE",
@@ -17132,10 +16102,25 @@
     "libelle": "Groupe d'études Handicap",
     "ordre": 50001
   },{
-    "code": "MISINFCOM-BIOCARBU",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « Le développement d'une filière de biocarburants, carburants synthétiques durables et hydrogène vert »",
-    "ordre": 42999
+    "code": "ETUDES-948",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Forêt et filière bois",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-1007",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Métiers d'art",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-918",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Développement économique de la montagne",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
   }],
   "groupe": {
     "code": "UMP",
@@ -17291,11 +16276,6 @@
     "libelle": "Commission des affaires économiques",
     "ordre": 7001
   },{
-    "code": "COMSPE-ESNU",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi visant à sécuriser et réguler l'espace numérique",
-    "ordre": 24999
-  },{
     "code": "DELEGA-DSOM",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale aux outre-mer",
@@ -17345,14 +16325,9 @@
     "libelle": "Commission des affaires sociales",
     "ordre": 7003
   },{
-    "code": "COMSPE-CINC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à renforcer la prévention et la lutte contre l'intensification et l'extension du risque incendie",
-    "ordre": 24999
-  },{
-    "code": "ETUDES-919",
+    "code": "ETUDES-934",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
     "ordre": 50001
   },{
     "code": "ETUDES-907",
@@ -17365,14 +16340,14 @@
     "libelle": "Groupe d'études Vigne et vin",
     "ordre": 50001
   },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
+  },{
     "code": "ETUDES-1014",
     "type": "ETUDE",
     "libelle": "Groupe d'études Handicap",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-934",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
     "ordre": 50001
   },{
     "code": "ETUDES-948",
@@ -17437,11 +16412,6 @@
     "code": "COMSPE-CYBE",
     "type": "TEMPORAIRE",
     "libelle": "Commission spéciale sur le projet de loi relatif à la résilience des activités d'importance vitale, à la protection des infrastructures critiques, à la cybersécurité et à la résilience opérationnelle numérique du secteur financier",
-    "ordre": 24999
-  },{
-    "code": "COMSPE-ESNU",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi visant à sécuriser et réguler l'espace numérique",
     "ordre": 24999
   },{
     "code": "ETUDES-906",
@@ -17566,15 +16536,20 @@
     "libelle": "Commission des affaires économiques",
     "ordre": 7001
   },{
-    "code": "COMSPE-CZAN",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à faciliter la mise en oeuvre des objectifs de « zéro artificialisation nette » au coeur des territoires",
-    "ordre": 24999
-  },{
     "code": "DELEGA-DSOM",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale aux outre-mer",
     "ordre": 16005
+  },{
+    "code": "ETUDES-934",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
   },{
     "code": "ETUDES-938",
     "type": "ETUDE",
@@ -17585,21 +16560,6 @@
     "type": "ETUDE",
     "libelle": "Groupe d'études Développement économique de la montagne",
     "ordre": 50001
-  },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-934",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
-    "ordre": 50001
-  },{
-    "code": "MISINFCOM-LOCA",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur \"l'impact des décisions réglementaires et budgétaires de l'Etat sur l'équilibre financier des collectivités locales\"",
-    "ordre": 42999
   }],
   "groupe": {
     "code": "SOC",
@@ -17694,20 +16654,15 @@
     "libelle": "Délégation sénatoriale aux entreprises",
     "ordre": 16004
   },{
-    "code": "ETUDES-909",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Vigne et vin",
-    "ordre": 50001
-  },{
     "code": "ETUDES-907",
     "type": "ETUDE",
     "libelle": "Groupe d'études Chasse et pêche",
     "ordre": 50001
   },{
-    "code": "MISINFCOM-BIOCARBU",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « Le développement d'une filière de biocarburants, carburants synthétiques durables et hydrogène vert »",
-    "ordre": 42999
+    "code": "ETUDES-909",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Vigne et vin",
+    "ordre": 50001
   }],
   "groupe": {
     "code": "SOC",
@@ -17753,11 +16708,6 @@
     "libelle": "Délégation sénatoriale aux entreprises",
     "ordre": 16004
   },{
-    "code": "ETUDES-948",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Forêt et filière bois",
-    "ordre": 50001
-  },{
     "code": "ETUDES-909",
     "type": "ETUDE",
     "libelle": "Groupe d'études Vigne et vin",
@@ -17768,10 +16718,10 @@
     "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   },{
-    "code": "MISINFCOM-BIOCARBU",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « Le développement d'une filière de biocarburants, carburants synthétiques durables et hydrogène vert »",
-    "ordre": 42999
+    "code": "ETUDES-948",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Forêt et filière bois",
+    "ordre": 50001
   }],
   "groupe": {
     "code": "SOC",
@@ -17820,11 +16770,6 @@
     "type": "ETUDE",
     "libelle": "Groupe d'études Aviation civile",
     "ordre": 50001
-  },{
-    "code": "MISINFCOM-BIOCARBU",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « Le développement d'une filière de biocarburants, carburants synthétiques durables et hydrogène vert »",
-    "ordre": 42999
   }],
   "groupe": {
     "code": "SOC",
@@ -17967,11 +16912,6 @@
     "type": "ETUDE",
     "libelle": "Groupe d'études Statut, rôle et place des Français établis hors de France",
     "ordre": 50001
-  },{
-    "code": "MISINFCOM-BATI",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « le bâti scolaire à l'épreuve de la transition écologique »",
-    "ordre": 42999
   }],
   "groupe": {
     "code": "SOC",
@@ -18065,11 +17005,6 @@
     "type": "COMMISSION",
     "libelle": "Commission de l'aménagement du territoire et du développement durable",
     "ordre": 7004
-  },{
-    "code": "COMSPE-CZAN",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à faciliter la mise en oeuvre des objectifs de « zéro artificialisation nette » au coeur des territoires",
-    "ordre": 24999
   },{
     "code": "ETUDES-908",
     "type": "ETUDE",
@@ -18168,11 +17103,6 @@
     "libelle": "Groupe d'études Énergie",
     "ordre": 50001
   },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
-  },{
     "code": "ETUDES-948",
     "type": "ETUDE",
     "libelle": "Groupe d'études Forêt et filière bois",
@@ -18183,10 +17113,10 @@
     "libelle": "Groupe d'études Chasse et pêche",
     "ordre": 50001
   },{
-    "code": "MISINFCOM-BIOCARBU",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « Le développement d'une filière de biocarburants, carburants synthétiques durables et hydrogène vert »",
-    "ordre": 42999
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
   },{
     "code": "OFFICE-206",
     "type": "DELEGATION/OFFICE",
@@ -18340,11 +17270,6 @@
     "libelle": "Commission de la culture, de l'éducation, de la communication et du sport",
     "ordre": 7005
   },{
-    "code": "COMSPE-CINC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à renforcer la prévention et la lutte contre l'intensification et l'extension du risque incendie",
-    "ordre": 24999
-  },{
     "code": "ETUDES-1007",
     "type": "ETUDE",
     "libelle": "Groupe d'études Métiers d'art",
@@ -18354,11 +17279,6 @@
     "type": "ETUDE",
     "libelle": "Groupe d'études Arts de la scène, arts de la rue et festivals en régions ",
     "ordre": 50001
-  },{
-    "code": "MISINFCOM-BATI",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « le bâti scolaire à l'épreuve de la transition écologique »",
-    "ordre": 42999
   }],
   "groupe": {
     "code": "GEST",
@@ -18633,19 +17553,9 @@
     "libelle": "Commission des affaires étrangères, de la défense et des forces armées",
     "ordre": 7002
   },{
-    "code": "COMENQ-RENOV",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission d'enquête sur l'efficacité des politiques publiques en matière de rénovation énergétique",
-    "ordre": 25999
-  },{
     "code": "ETUDES-906",
     "type": "ETUDE",
     "libelle": "Groupe d'études Énergie",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-933",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Aviation civile",
     "ordre": 50001
   },{
     "code": "ETUDES-934",
@@ -18663,10 +17573,10 @@
     "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   },{
-    "code": "MISINFCOM-GEAU",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « gestion durable de l'eau : l'urgence d'agir pour nos usages, nos territoires et notre environnement »",
-    "ordre": 42999
+    "code": "ETUDES-933",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Aviation civile",
+    "ordre": 50001
   },{
     "code": "OFFICE-206",
     "type": "DELEGATION/OFFICE",
@@ -18750,19 +17660,9 @@
     "libelle": "Commission des lois constitutionnelles, de législation, du suffrage universel, du Règlement et d'administration générale",
     "ordre": 7007
   },{
-    "code": "ETUDES-934",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
-    "ordre": 50001
-  },{
     "code": "ETUDES-1008",
     "type": "ETUDE",
     "libelle": "Groupe Numérique",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-938",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Arctique, Antarctique et Terres australes",
     "ordre": 50001
   },{
     "code": "ETUDES-957",
@@ -18770,10 +17670,15 @@
     "libelle": "Groupe d'études Industrie",
     "ordre": 50563
   },{
-    "code": "MISINFCOM-LOCA",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur \"l'impact des décisions réglementaires et budgétaires de l'Etat sur l'équilibre financier des collectivités locales\"",
-    "ordre": 42999
+    "code": "ETUDES-934",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-938",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Arctique, Antarctique et Terres australes",
+    "ordre": 50001
   }],
   "groupe": {
     "code": "RTLI",
@@ -18819,20 +17724,10 @@
     "libelle": "Comité de déontologie parlementaire du Sénat",
     "ordre": 18011
   },{
-    "code": "COMSPE-ESNU",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi visant à sécuriser et réguler l'espace numérique",
-    "ordre": 24999
-  },{
     "code": "DELEGA-ENTREPRISES",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale aux entreprises",
     "ordre": 16004
-  },{
-    "code": "ETUDES-966",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Arts de la scène, arts de la rue et festivals en régions ",
-    "ordre": 50001
   },{
     "code": "ETUDES-933",
     "type": "ETUDE",
@@ -18844,10 +17739,10 @@
     "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
     "ordre": 50001
   },{
-    "code": "MISINFCOM-BIOCARBU",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « Le développement d'une filière de biocarburants, carburants synthétiques durables et hydrogène vert »",
-    "ordre": 42999
+    "code": "ETUDES-966",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Arts de la scène, arts de la rue et festivals en régions ",
+    "ordre": 50001
   }],
   "groupe": {
     "code": "UC",
@@ -19023,20 +17918,20 @@
     "libelle": "Commission de la culture, de l'éducation, de la communication et du sport",
     "ordre": 7005
   },{
-    "code": "COMENQ-TIKTO",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission d'enquête sur l'utilisation du réseau social tiktok, son exploitation des données, sa stratégie d'influence",
-    "ordre": 25999
-  },{
-    "code": "COMSPE-ESNU",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi visant à sécuriser et réguler l'espace numérique",
-    "ordre": 24999
-  },{
     "code": "DELEGA-211",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation aux droits des femmes et à l'égalité des chances entre les hommes et les femmes",
     "ordre": 16003
+  },{
+    "code": "ETUDES-928",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Monde combattant et mémoire",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-1015",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Pêche et produits de la mer",
+    "ordre": 50001
   },{
     "code": "ETUDES-957",
     "type": "ETUDE",
@@ -19063,16 +17958,6 @@
     "libelle": "Groupe d'études Métiers d'art",
     "ordre": 50001
   },{
-    "code": "ETUDES-934",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-1015",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Pêche et produits de la mer",
-    "ordre": 50001
-  },{
     "code": "ETUDES-919",
     "type": "ETUDE",
     "libelle": "Groupe d'études Agriculture, élevage et alimentation",
@@ -19083,9 +17968,9 @@
     "libelle": "Groupe d'études Mer et littoral",
     "ordre": 50001
   },{
-    "code": "ETUDES-928",
+    "code": "ETUDES-934",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Monde combattant et mémoire",
+    "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
     "ordre": 50001
   }],
   "groupe": {
@@ -19127,21 +18012,6 @@
     "libelle": "Commission d'enquête portant sur les marges des industriels et de la grande distribution",
     "ordre": 25001
   },{
-    "code": "COMSPE-CZAN",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à faciliter la mise en oeuvre des objectifs de « zéro artificialisation nette » au coeur des territoires",
-    "ordre": 24999
-  },{
-    "code": "COMSPE-ESNU",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi visant à sécuriser et réguler l'espace numérique",
-    "ordre": 24999
-  },{
-    "code": "COMSPE-CINC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à renforcer la prévention et la lutte contre l'intensification et l'extension du risque incendie",
-    "ordre": 24999
-  },{
     "code": "COMSPE-CYBE",
     "type": "TEMPORAIRE",
     "libelle": "Commission spéciale sur le projet de loi relatif à la résilience des activités d'importance vitale, à la protection des infrastructures critiques, à la cybersécurité et à la résilience opérationnelle numérique du secteur financier",
@@ -19157,6 +18027,11 @@
     "libelle": "Délégation sénatoriale aux collectivités territoriales et à la décentralisation",
     "ordre": 16002
   },{
+    "code": "ETUDES-909",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Vigne et vin",
+    "ordre": 50001
+  },{
     "code": "ETUDES-919",
     "type": "ETUDE",
     "libelle": "Groupe d'études Agriculture, élevage et alimentation",
@@ -19167,20 +18042,10 @@
     "libelle": "Groupe d'études Forêt et filière bois",
     "ordre": 50001
   },{
-    "code": "ETUDES-909",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Vigne et vin",
-    "ordre": 50001
-  },{
     "code": "ETUDES-1008",
     "type": "ETUDE",
     "libelle": "Groupe Numérique",
     "ordre": 50001
-  },{
-    "code": "MISINFCOM-GEAU",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « gestion durable de l'eau : l'urgence d'agir pour nos usages, nos territoires et notre environnement »",
-    "ordre": 42999
   },{
     "code": "OFFICE-206",
     "type": "DELEGATION/OFFICE",
@@ -19236,24 +18101,19 @@
     "libelle": "Commission des affaires étrangères, de la défense et des forces armées",
     "ordre": 7002
   },{
-    "code": "COMENQ-RENOV",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission d'enquête sur l'efficacité des politiques publiques en matière de rénovation énergétique",
-    "ordre": 25999
-  },{
     "code": "DELEGA-DSOM",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale aux outre-mer",
     "ordre": 16005
   },{
-    "code": "ETUDES-948",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Forêt et filière bois",
-    "ordre": 50001
-  },{
     "code": "ETUDES-938",
     "type": "ETUDE",
     "libelle": "Groupe d'études Arctique, Antarctique et Terres australes",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-948",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Forêt et filière bois",
     "ordre": 50001
   },{
     "code": "ETUDES-934",
@@ -19271,11 +18131,6 @@
     "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   },{
-    "code": "ETUDES-909",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Vigne et vin",
-    "ordre": 50001
-  },{
     "code": "ETUDES-1006",
     "type": "ETUDE",
     "libelle": "Groupe d'études Francophonie",
@@ -19284,6 +18139,11 @@
     "code": "ETUDES-907",
     "type": "ETUDE",
     "libelle": "Groupe d'études Chasse et pêche",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-909",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Vigne et vin",
     "ordre": 50001
   }],
   "groupe": {
@@ -19416,11 +18276,6 @@
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale aux collectivités territoriales et à la décentralisation",
     "ordre": 16002
-  },{
-    "code": "MISINFCOM-BATI",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « le bâti scolaire à l'épreuve de la transition écologique »",
-    "ordre": 42999
   }],
   "groupe": {
     "code": "UC",
@@ -19454,11 +18309,6 @@
     "type": "COMMISSION",
     "libelle": "Commission de l'aménagement du territoire et du développement durable",
     "ordre": 7004
-  },{
-    "code": "MISINFCOM-BATI",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « le bâti scolaire à l'épreuve de la transition écologique »",
-    "ordre": 42999
   }],
   "groupe": {
     "code": "UC",
@@ -19498,11 +18348,6 @@
     "type": "COMMISSION",
     "libelle": "Commission des affaires étrangères, de la défense et des forces armées",
     "ordre": 7002
-  },{
-    "code": "COMSPE-CINC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à renforcer la prévention et la lutte contre l'intensification et l'extension du risque incendie",
-    "ordre": 24999
   },{
     "code": "ETUDES-906",
     "type": "ETUDE",
@@ -19585,11 +18430,6 @@
     "libelle": "Commission des finances",
     "ordre": 7006
   },{
-    "code": "COMENQ-MEDIC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission d'enquête sur la pénurie de médicaments et les choix de l'industrie pharmaceutique française",
-    "ordre": 25999
-  },{
     "code": "COMENQ-DIST",
     "type": "TEMPORAIRE",
     "libelle": "Commission d'enquête portant sur les marges des industriels et de la grande distribution",
@@ -19610,24 +18450,9 @@
     "libelle": "Délégation sénatoriale aux entreprises",
     "ordre": 16004
   },{
-    "code": "ETUDES-906",
+    "code": "ETUDES-948",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Énergie",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-907",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Chasse et pêche",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-909",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Vigne et vin",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "libelle": "Groupe d'études Forêt et filière bois",
     "ordre": 50001
   },{
     "code": "ETUDES-928",
@@ -19635,15 +18460,30 @@
     "libelle": "Groupe d'études Monde combattant et mémoire",
     "ordre": 50001
   },{
-    "code": "ETUDES-948",
+    "code": "ETUDES-919",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Forêt et filière bois",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-909",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Vigne et vin",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-907",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Chasse et pêche",
     "ordre": 50001
   },{
     "code": "ETUDES-957",
     "type": "ETUDE",
     "libelle": "Groupe d'études Industrie",
     "ordre": 50563
+  },{
+    "code": "ETUDES-906",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Énergie",
+    "ordre": 50001
   }],
   "groupe": {
     "code": "UMP",
@@ -19678,11 +18518,6 @@
     "type": "COMMISSION",
     "libelle": "Commission de la culture, de l'éducation, de la communication et du sport",
     "ordre": 7005
-  },{
-    "code": "COMENQ-RENOV",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission d'enquête sur l'efficacité des politiques publiques en matière de rénovation énergétique",
-    "ordre": 25999
   },{
     "code": "ETUDES-919",
     "type": "ETUDE",
@@ -20086,15 +18921,15 @@
     "libelle": "Commission des affaires économiques",
     "ordre": 7001
   },{
-    "code": "COMSPE-ESNU",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi visant à sécuriser et réguler l'espace numérique",
-    "ordre": 24999
-  },{
     "code": "DELEGA-COLTER",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale aux collectivités territoriales et à la décentralisation",
     "ordre": 16002
+  },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
   },{
     "code": "ETUDES-957",
     "type": "ETUDE",
@@ -20105,16 +18940,6 @@
     "type": "ETUDE",
     "libelle": "Groupe d'études Développement économique de la montagne",
     "ordre": 50001
-  },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
-  },{
-    "code": "MISINFCOM-GEAU",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « gestion durable de l'eau : l'urgence d'agir pour nos usages, nos territoires et notre environnement »",
-    "ordre": 42999
   }],
   "groupe": {
     "code": "UMP",
@@ -20302,11 +19127,6 @@
     "type": "COMMISSION",
     "libelle": "Commission des affaires économiques",
     "ordre": 7001
-  },{
-    "code": "COMSPE-CINC",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à renforcer la prévention et la lutte contre l'intensification et l'extension du risque incendie",
-    "ordre": 24999
   },{
     "code": "COMSPE-SIMP",
     "type": "TEMPORAIRE",
@@ -20572,11 +19392,6 @@
     "type": "ETUDE",
     "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
-  },{
-    "code": "MISINFCOM-BIOCARBU",
-    "type": "TEMPORAIRE",
-    "libelle": "Mission d'information sur le thème : « Le développement d'une filière de biocarburants, carburants synthétiques durables et hydrogène vert »",
-    "ordre": 42999
   }],
   "groupe": {
     "code": "UMP",
@@ -20615,16 +19430,6 @@
     "type": "COMMISSION",
     "libelle": "Commission de l'aménagement du territoire et du développement durable",
     "ordre": 7004
-  },{
-    "code": "COMENQ-TIKTO",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission d'enquête sur l'utilisation du réseau social tiktok, son exploitation des données, sa stratégie d'influence",
-    "ordre": 25999
-  },{
-    "code": "COMSPE-CZAN",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à faciliter la mise en oeuvre des objectifs de « zéro artificialisation nette » au coeur des territoires",
-    "ordre": 24999
   },{
     "code": "DELEGA-COLTER",
     "type": "DELEGATION/OFFICE",
@@ -20776,15 +19581,15 @@
     "libelle": "Commission de la culture, de l'éducation, de la communication et du sport",
     "ordre": 7005
   },{
-    "code": "COMSPE-CZAN",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur la proposition de loi visant à faciliter la mise en oeuvre des objectifs de « zéro artificialisation nette » au coeur des territoires",
-    "ordre": 24999
-  },{
     "code": "DELEGA-COLTER",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale aux collectivités territoriales et à la décentralisation",
     "ordre": 16002
+  },{
+    "code": "ETUDES-934",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
+    "ordre": 50001
   },{
     "code": "ETUDES-948",
     "type": "ETUDE",
@@ -20801,19 +19606,14 @@
     "libelle": "Groupe d'études Statut, rôle et place des Français établis hors de France",
     "ordre": 50001
   },{
-    "code": "ETUDES-934",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
-  },{
     "code": "ETUDES-1014",
     "type": "ETUDE",
     "libelle": "Groupe d'études Handicap",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-918",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Développement économique de la montagne",
     "ordre": 50001
   },{
     "code": "ETUDES-909",
@@ -20821,9 +19621,9 @@
     "libelle": "Groupe d'études Vigne et vin",
     "ordre": 50001
   },{
-    "code": "ETUDES-918",
+    "code": "ETUDES-919",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Développement économique de la montagne",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   }],
   "groupe": {
