@@ -110,6 +110,36 @@
     "etat": "Discussion en séance publique"
   },
   {
+    "id": "DLR5L17N53279",
+    "titre": "Mettre fin au devoir conjugal",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA642868",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-21",
+    "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N53276",
+    "titre": "Reconnaître les victimes de l'exposition aux essais nucléaires français et améliorer leur indemnisation",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA795240",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-21",
+    "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N53005",
+    "titre": "Le traitement judiciaire des violences sexuelles incestueuses parentales commises contre les enfants et la situation des parents protecteurs, notamment des mères protectrices",
+    "type": "Résolution",
+    "auteur": "PA643143",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-21",
+    "etat": "Discussion en séance publique"
+  },
+  {
     "id": "DLR5L17N52884",
     "titre": "Allocations chômage des travailleurs frontaliers",
     "type": "Résolution",
@@ -118,6 +148,26 @@
     "nor": "",
     "date": "2026-01-21",
     "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N52746",
+    "titre": "Moderniser la gestion du patrimoine immobilier de l'État",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA793940",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-21",
+    "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N52744",
+    "titre": "Garantir la gratuité des parkings des hôpitaux publics pour les patients, les visiteurs et les personnels sur leur temps de travail",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA841471",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-21",
+    "etat": "Discussion en séance publique"
   },
   {
     "id": "DLR5L17N52577",
@@ -140,63 +190,13 @@
     "etat": "Réunion de commission"
   },
   {
-    "id": "DLR5L17N53279",
-    "titre": "Mettre fin au devoir conjugal",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA642868",
-    "url": "",
-    "nor": "",
-    "date": "2026-01-20",
-    "etat": "Discussion en séance publique"
-  },
-  {
-    "id": "DLR5L17N53276",
-    "titre": "Reconnaître les victimes de l'exposition aux essais nucléaires français et améliorer leur indemnisation",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA795240",
-    "url": "",
-    "nor": "",
-    "date": "2026-01-20",
-    "etat": "Discussion en séance publique"
-  },
-  {
-    "id": "DLR5L17N53005",
-    "titre": "Le traitement judiciaire des violences sexuelles incestueuses parentales commises contre les enfants et la situation des parents protecteurs, notamment des mères protectrices",
-    "type": "Résolution",
-    "auteur": "PA643143",
-    "url": "",
-    "nor": "",
-    "date": "2026-01-20",
-    "etat": "Discussion en séance publique"
-  },
-  {
-    "id": "DLR5L17N52746",
-    "titre": "Moderniser la gestion du patrimoine immobilier de l'État",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA793940",
-    "url": "",
-    "nor": "",
-    "date": "2026-01-20",
-    "etat": "Discussion en séance publique"
-  },
-  {
-    "id": "DLR5L17N52744",
-    "titre": "Garantir la gratuité des parkings des hôpitaux publics pour les patients, les visiteurs et les personnels sur leur temps de travail",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA841471",
-    "url": "",
-    "nor": "",
-    "date": "2026-01-20",
-    "etat": "Discussion en séance publique"
-  },
-  {
     "id": "DLR5L17N51962",
     "titre": "Exercer l’accès à l’emploi, pérenniser et étendre progressivement l’expérimentation Territoires zéro chômeur longue durée comme solution de retour à l’emploi pour les personnes privées durablement d’emploi",
     "type": "Proposition de loi ordinaire",
     "auteur": "PA721474",
     "url": "",
     "nor": "",
-    "date": "2026-01-20",
+    "date": "2026-01-21",
     "etat": "Discussion en séance publique"
   },
   {
@@ -206,7 +206,7 @@
     "auteur": "PA774962",
     "url": "",
     "nor": "",
-    "date": "2026-01-20",
+    "date": "2026-01-21",
     "etat": "Discussion en séance publique"
   },
   {
@@ -216,7 +216,7 @@
     "auteur": "PA720560",
     "url": "",
     "nor": "",
-    "date": "2026-01-20",
+    "date": "2026-01-21",
     "etat": "Discussion en séance publique"
   },
   {
@@ -290,6 +290,16 @@
     "etat": "Réunion de commission"
   },
   {
+    "id": "DLR5L17N52100",
+    "titre": "Projet de loi relatif à l’organisation des jeux Olympiques et Paralympiques de 2030",
+    "type": "Projet de loi ordinaire",
+    "auteur": "PA410",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl24-630.html",
+    "nor": "",
+    "date": "2026-01-13",
+    "etat": "Discussion en séance publique"
+  },
+  {
     "id": "DLR5L17N51968",
     "titre": "Améliorer l'accès au logement des travailleurs des services publics",
     "type": "Proposition de loi ordinaire",
@@ -360,11 +370,431 @@
     "etat": "Réunion de commission"
   },
   {
+    "id": "DLR5L17N53429",
+    "titre": "Garantir le droit d’accès aux origines personnelles",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA721916",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-23",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53428",
+    "titre": "Produire autrement, en garantissant un partage de la valeur et en réconciliant le monde agricole et la société",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA607553",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-23",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53427",
+    "titre": "Améliorer la protection des personnes ciblées par les réseaux de criminalité organisée",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA794778",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-23",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53426",
+    "titre": "Accélérer la prévention cardio-neuro-vasculaire et anticiper un risque sanitaire et social majeur",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA794038",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-23",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53425",
+    "titre": "Protéger l'eau potable",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA794154",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-23",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53424",
+    "titre": "Pour une génération sans sucre",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA795808",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-23",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53423",
+    "titre": "Instaurer un meilleur cadre pour le pacte Dutreil",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA605745",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-23",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53422",
+    "titre": "Diverses mesures visant à favoriser l’écoute professionnelle",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA795050",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-23",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53421",
+    "titre": "Interdire la neige artificielle décorative sous forme de microplastiques",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA720162",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-23",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53420",
+    "titre": "Permettre aux maires de loger les habitants en mobilisant les logements vacants",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA796018",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-23",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53419",
+    "titre": "Répondre à l’urgence face aux factures d’électricité",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA795516",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-23",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53418",
+    "titre": "Protéger l’alimentation des Français et des Françaises des contaminations au cadmium",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA840997",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-23",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53417",
+    "titre": "Interdiction des scooters thermiques de livraison en centres-villes",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA842141",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-23",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53416",
+    "titre": "Interdire l'écriture inclusive dans l’enseignement supérieur et la recherche",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA793166",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-23",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53415",
+    "titre": "Encadrer la production et la vente de sachets de nicotine",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA793230",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-23",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53414",
+    "titre": "Permettre la liberté effective des funérailles",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA793756",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-23",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53413",
+    "titre": "Empêcher le dévoiement du statut de groupement d’intérêt économique par des entités agissant en société mère",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA795164",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-23",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53412",
+    "titre": "Supprimer la métropole Aix-Marseille Provence",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA793464",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-23",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53411",
+    "titre": "Renforcer l’encadrement de la pause méridienne à l’école",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA793464",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-23",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53410",
+    "titre": "Pour une accessibilité totale des réseaux de transports collectifs",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA793464",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-23",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53409",
+    "titre": "Garantir le caractère public et national de la propriété et de l’exploitation publique des barrages hydroélectriques",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA794166",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-23",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53408",
+    "titre": "Responsabiliser les bénéficiaires d’opérations de secours et d’assistance consulaire à l’étranger",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA608826",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-23",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53407",
+    "titre": "Renforcer le contrôle de nos importations et faire respecter nos normes afin de mieux protéger nos consommateurs, nos entreprises et notre environnement",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA842195",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-23",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53406",
+    "titre": "Lutter contre le gaspillage immobilier",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA719922",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-23",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53405",
+    "titre": "Élargir le bénéfice de la protection fonctionnelle aux forces de sécurité victimes d'atteintes involontaires dans le cadre de délits routiers",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA793904",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-23",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53404",
+    "titre": "Mettre en place un décompte annuel des personnes sans abri dans chaque commune",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA841717",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-23",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53403",
+    "titre": "Rendre effectifs les droits des personnes LGBTQIA, lutter contre les violences faites aux enfants intersexes et faciliter la reconnaissance du genre à l’état civil",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA840171",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-23",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53402",
+    "titre": "Garantir une protection effective des voyageurs et des familles en cas d’annulation de vol",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA793322",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-23",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53401",
+    "titre": "Pour l’égalité d’accès aux soins des ressortissants ultramarins en hexagone",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA795240",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-23",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53400",
+    "titre": "Créer un registre national des sépultures des soldats mort pour la France dispersées dans les cimetières communaux",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA841873",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-23",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53399",
+    "titre": "Instituer un Contrôleur général des lieux de placement",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA794686",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-23",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53398",
+    "titre": "Sécuriser les transports scolaires à Mayotte par l’installation de caméras embarquées",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA842279",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-23",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53397",
+    "titre": "Renforcer la protection du secret des sources des journalistes",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA841729",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-23",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53396",
+    "titre": "Assurer la qualité et la pérennité des raccordements aux réseaux de communications électroniques à très haut débit en fibre optique, renforcer la responsabilité des opérateurs d’infrastructures de réseaux et supprimer la sous-traitance dans les dispositifs d’installation de la fibre optique",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA795672",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-23",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53395",
+    "titre": "Reconnaître la lutte contre la précarité matérielle et à l’inscrire dans le code de l’action sociale et des familles",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA841713",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-23",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53394",
+    "titre": "Réaffirmer le principe de neutralité dans l’enseignement supérieur public et lutter contre les dérives communautaristes et l’entrisme islamiste",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA795552",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-23",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53393",
+    "titre": "Reconnaître et soutenir les familles des agents de la sécurité nationale et de la défense",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA840773",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-23",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53392",
+    "titre": "Améliorer la transparence sur les risques associés aux produits cosmétiques",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA841701",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-23",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53391",
+    "titre": "Renforcer la transparence des dépenses de soutien aux aéroports",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA793780",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-23",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53390",
+    "titre": "Rétablir un régime déclaratif pour l’instruction en famille",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA722390",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-23",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53389",
+    "titre": "Reconnaître et protéger la crèche de Noël en tant qu’élément du patrimoine culturel immatériel français",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA840809",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-23",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53387",
+    "titre": "Condamner les atteintes aux droits fondamentaux des personnes migrantes en Tunisie et appeler à la libération immédiate et inconditionnelle des personnes détenues pour leur engagement humanitaire et en faveur des droits humains",
+    "type": "Résolution",
+    "auteur": "PA721960",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-23",
+    "etat": "Renvoi préalable"
+  },
+  {
     "id": "DLR5L17N53386",
-    "titre": "DOSSIER : projet de loi spéciale prévue par l'article 45 de la loi organique n°2001-692 du 1er août 2001 relative aux lois de finances",
+    "titre": "Projet de loi spéciale prévue par l'article 45 de la loi organique n°2001-692 du 1er août 2001 relative aux lois de finances",
     "type": "Projet de loi ordinaire",
     "auteur": "PA643210",
-    "url": "",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl25-248.html",
     "nor": "",
     "date": "2025-12-23",
     "etat": "Réunion de commission"
@@ -388,6 +818,36 @@
     "nor": "",
     "date": "2025-12-22",
     "etat": "Décision"
+  },
+  {
+    "id": "DLR5L17N51581",
+    "titre": "Proposition de loi élargissant la possibilité pour les collectivités territoriales et leurs groupements d'avoir recours au modèle de la société portuaire pour l'exploitation de leurs ports",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-319.html",
+    "nor": "",
+    "date": "2025-12-22",
+    "etat": "Promulgation d'une loi"
+  },
+  {
+    "id": "DLR5L17N51457",
+    "titre": "Proposition de loi relative à la protection sociale complémentaire des agents publics territoriaux",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-300.html",
+    "nor": "",
+    "date": "2025-12-22",
+    "etat": "Promulgation d'une loi"
+  },
+  {
+    "id": "DLR5L16N49280",
+    "titre": "Proposition de loi portant création d'un statut de l'élu local",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl23-263.html",
+    "nor": "",
+    "date": "2025-12-22",
+    "etat": "Promulgation d'une loi"
   },
   {
     "id": "DLR5L17N53379",
@@ -418,6 +878,16 @@
     "nor": "",
     "date": "2025-12-19",
     "etat": "Dépôt du rapport d'une CMP"
+  },
+  {
+    "id": "DLR5L17N53385",
+    "titre": "Proposition de loi constitutionnelle visant à préciser la procédure d'examen des textes budgétaires, à renforcer la place du Parlement et à sécuriser le périmètre et la constitutionnalité des dispositions mises en oeuvre par les ordonnances mentionnées aux articles 47 et 47 1 de la Constitution",
+    "type": "Projet ou proposition de loi constitutionnelle",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-242.html",
+    "nor": "",
+    "date": "2025-12-18",
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N53380",
@@ -510,14 +980,14 @@
     "etat": "Renvoi en commission au fond"
   },
   {
-    "id": "DLR5L17N52100",
-    "titre": "Projet de loi relatif à l’organisation des jeux Olympiques et Paralympiques de 2030",
-    "type": "Projet de loi ordinaire",
+    "id": "DLR5L17N52099",
+    "titre": "Approbation de la résolution n° F/BG/2023/04 relative aux amendements à l’accord portant création du Fonds africain de développement",
+    "type": "Projet de ratification des traités et conventions",
     "auteur": "PA410",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl24-630.html",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl25-240.html",
     "nor": "",
     "date": "2025-12-18",
-    "etat": "Discussion en séance publique"
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N51580",
@@ -638,16 +1108,6 @@
     "nor": "",
     "date": "2025-12-17",
     "etat": "Dépôt de rapport"
-  },
-  {
-    "id": "DLR5L17N52099",
-    "titre": "Approbation de la résolution n° F/BG/2023/04 relative aux amendements à l’accord portant création du Fonds africain de développement",
-    "type": "Projet de ratification des traités et conventions",
-    "auteur": "PA410",
-    "url": "",
-    "nor": "",
-    "date": "2025-12-17",
-    "etat": "Décision"
   },
   {
     "id": "DLR5L17N51863",
@@ -938,16 +1398,6 @@
     "nor": "",
     "date": "2025-12-11",
     "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N51457",
-    "titre": "Proposition de loi relative à la protection sociale complémentaire des agents publics territoriaux",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-300.html",
-    "nor": "",
-    "date": "2025-12-11",
-    "etat": "Décision"
   },
   {
     "id": "DLR5L17N53369",
@@ -1280,16 +1730,6 @@
     "etat": "Renvoi en commission au fond"
   },
   {
-    "id": "DLR5L17N51581",
-    "titre": "Proposition de loi élargissant la possibilité pour les collectivités territoriales et leurs groupements d'avoir recours au modèle de la société portuaire pour l'exploitation de leurs ports",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-319.html",
-    "nor": "",
-    "date": "2025-12-09",
-    "etat": "Décision"
-  },
-  {
     "id": "DLR5L17N53135",
     "titre": "Projet de loi de finances de fin de gestion pour 2025",
     "type": "Projet de loi de finances rectificative",
@@ -1298,16 +1738,6 @@
     "nor": "",
     "date": "2025-12-08",
     "etat": "Promulgation d'une loi"
-  },
-  {
-    "id": "DLR5L16N49280",
-    "titre": "Proposition de loi portant création d'un statut de l'élu local",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl23-263.html",
-    "nor": "",
-    "date": "2025-12-08",
-    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L17N53315",
