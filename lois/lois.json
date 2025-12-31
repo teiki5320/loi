@@ -370,6 +370,26 @@
     "etat": "Réunion de commission"
   },
   {
+    "id": "DLR5L17N52922",
+    "titre": "Projet de loi de financement de la sécurité sociale pour 2026",
+    "type": "Projet de loi de financement de la sécurité sociale",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/plfss2026.html",
+    "nor": "",
+    "date": "2025-12-30",
+    "etat": "Conclusion du conseil constitutionnel"
+  },
+  {
+    "id": "DLR5L17N51173",
+    "titre": "Proposition de loi organique tendant à modifier le II de l’article 43 de la loi organique n° 2004-192 du 27 février 2004 portant statut d’autonomie de la Polynésie française",
+    "type": "Projet ou proposition de loi organique",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-223.html",
+    "nor": "",
+    "date": "2025-12-30",
+    "etat": "Conclusion du conseil constitutionnel"
+  },
+  {
     "id": "DLR5L17N53435",
     "titre": "Rétablir la légalité du régime indemnitaire des membres du Conseil constitutionnel",
     "type": "Projet ou proposition de loi organique",
@@ -378,6 +398,26 @@
     "nor": "",
     "date": "2025-12-29",
     "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N51351",
+    "titre": "Proposition de loi visant à reconnaître le préjudice subi par les personnes condamnées sur le fondement de la législation pénalisant l’avortement, et par toutes les femmes, avant la loi n° 75-17 du 17 janvier 1975 relative à l’interruption volontaire de la grossesse",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-244.html",
+    "nor": "",
+    "date": "2025-12-29",
+    "etat": "Promulgation d'une loi"
+  },
+  {
+    "id": "DLR5L17N53386",
+    "titre": "Projet de loi spéciale prévue par l'article 45 de la loi organique n°2001-692 du 1er août 2001 relative aux lois de finances",
+    "type": "Projet de loi ordinaire",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl25-248.html",
+    "nor": "",
+    "date": "2025-12-26",
+    "etat": "Promulgation d'une loi"
   },
   {
     "id": "DLR5L17N51519",
@@ -810,14 +850,14 @@
     "etat": "Renvoi préalable"
   },
   {
-    "id": "DLR5L17N53386",
-    "titre": "Projet de loi spéciale prévue par l'article 45 de la loi organique n°2001-692 du 1er août 2001 relative aux lois de finances",
-    "type": "Projet de loi ordinaire",
-    "auteur": "PA643210",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl25-248.html",
+    "id": "DLR5L16N46127",
+    "titre": "Proposition de loi portant réparation des personnes condamnées pour homosexualité entre 1945 et 1982",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl21-864.html",
     "nor": "",
     "date": "2025-12-23",
-    "etat": "Réunion de commission"
+    "etat": "Convocation d'une CMP"
   },
   {
     "id": "DLR5L17N53384",
@@ -960,16 +1000,6 @@
     "etat": "Dépôt de rapport"
   },
   {
-    "id": "DLR5L17N52922",
-    "titre": "Projet de loi de financement de la sécurité sociale pour 2026",
-    "type": "Projet de loi de financement de la sécurité sociale",
-    "auteur": "PA643210",
-    "url": "http://www.senat.fr/dossier-legislatif/plfss2026.html",
-    "nor": "",
-    "date": "2025-12-18",
-    "etat": "Saisine du conseil constitutionnel"
-  },
-  {
     "id": "DLR5L17N52900",
     "titre": "Proposition de loi relative à la sécurisation des marchés publics numériques",
     "type": "Proposition de loi ordinaire",
@@ -1020,16 +1050,6 @@
     "etat": "Retrait d'une initiative"
   },
   {
-    "id": "DLR5L17N51351",
-    "titre": "Proposition de loi visant à reconnaître le préjudice subi par les personnes condamnées sur le fondement de la législation pénalisant l’avortement, et par toutes les femmes, avant la loi n° 75-17 du 17 janvier 1975 relative à l’interruption volontaire de la grossesse",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-244.html",
-    "nor": "",
-    "date": "2025-12-18",
-    "etat": "Décision"
-  },
-  {
     "id": "DLR5L17N51329",
     "titre": "Simplifier la sortie de l’indivision successorale",
     "type": "Proposition de loi ordinaire",
@@ -1038,16 +1058,6 @@
     "nor": "",
     "date": "2025-12-18",
     "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L16N46127",
-    "titre": "Proposition de loi portant réparation des personnes condamnées pour homosexualité entre 1945 et 1982",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl21-864.html",
-    "nor": "",
-    "date": "2025-12-18",
-    "etat": "Décision"
   },
   {
     "id": "DLR5L17N53388",
@@ -1318,16 +1328,6 @@
     "nor": "",
     "date": "2025-12-12",
     "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N51173",
-    "titre": "Proposition de loi organique tendant à modifier le II de l’article 43 de la loi organique n° 2004-192 du 27 février 2004 portant statut d’autonomie de la Polynésie française",
-    "type": "Projet ou proposition de loi organique",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-223.html",
-    "nor": "",
-    "date": "2025-12-12",
-    "etat": "Saisine du conseil constitutionnel"
   },
   {
     "id": "DLR5L17N53358",
