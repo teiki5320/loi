@@ -17499,16 +17499,6 @@
     "libelle": "Groupe d'études Chasse et pêche",
     "ordre": 50001
   },{
-    "code": "ETUDES-928",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Monde combattant et mémoire",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-1004",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Cancer",
-    "ordre": 50001
-  },{
     "code": "MECSS-MECSS",
     "type": "AUTRE",
     "libelle": "Mission d'évaluation et de contrôle de la sécurité sociale",
