@@ -10,46 +10,6 @@
     "etat": "Réunion de commission"
   },
   {
-    "id": "DLR5L17N53341",
-    "titre": "Interdire le maintien dans l’hébergement d’urgence aux immigrés illégaux",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA720386",
-    "url": "",
-    "nor": "",
-    "date": "2026-01-22",
-    "etat": "Discussion en séance publique"
-  },
-  {
-    "id": "DLR5L17N53335",
-    "titre": "Faire assumer à chacun les conséquences de ses actes en permettant la saisie des amendes non payées sur les minimas sociaux",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA720386",
-    "url": "",
-    "nor": "",
-    "date": "2026-01-22",
-    "etat": "Discussion en séance publique"
-  },
-  {
-    "id": "DLR5L17N53330",
-    "titre": "Déblocage exceptionnel de la participation et de l’intéressement en 2026",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA719968",
-    "url": "",
-    "nor": "",
-    "date": "2026-01-22",
-    "etat": "Discussion en séance publique"
-  },
-  {
-    "id": "DLR5L17N53300",
-    "titre": "Suspendre toute nouvelle création d’instances administratives pour lutter contre le phénomène d’agencification de l’État et rendre plus lisible le fonctionnement de l’administration française",
-    "type": "Résolution Article 34-1",
-    "auteur": "PA774954",
-    "url": "",
-    "nor": "",
-    "date": "2026-01-22",
-    "etat": "Discussion en séance publique"
-  },
-  {
     "id": "DLR5L17N53271",
     "titre": "Interdire le voilement des mineures dans l’espace public",
     "type": "Proposition de loi ordinaire",
@@ -80,16 +40,6 @@
     "etat": "Discussion en séance publique"
   },
   {
-    "id": "DLR5L17N51987",
-    "titre": "Proposition de loi visant à permettre aux salariés de certains établissements et services de travailler le 1er mai",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-550.html",
-    "nor": "",
-    "date": "2026-01-22",
-    "etat": "Discussion en séance publique"
-  },
-  {
     "id": "DLR5L17N51037",
     "titre": "Reconnaître une présomption de légitime défense pour les forces de l'ordre, dans l'exercice de leurs fonctions",
     "type": "Proposition de loi ordinaire",
@@ -114,16 +64,6 @@
     "titre": "Mettre fin au devoir conjugal",
     "type": "Proposition de loi ordinaire",
     "auteur": "PA642868",
-    "url": "",
-    "nor": "",
-    "date": "2026-01-21",
-    "etat": "Discussion en séance publique"
-  },
-  {
-    "id": "DLR5L17N53276",
-    "titre": "Reconnaître les victimes de l'exposition aux essais nucléaires français et améliorer leur indemnisation",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA795240",
     "url": "",
     "nor": "",
     "date": "2026-01-21",
@@ -160,16 +100,6 @@
     "etat": "Discussion en séance publique"
   },
   {
-    "id": "DLR5L17N52744",
-    "titre": "Garantir la gratuité des parkings des hôpitaux publics pour les patients, les visiteurs et les personnels sur leur temps de travail",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA841471",
-    "url": "",
-    "nor": "",
-    "date": "2026-01-21",
-    "etat": "Discussion en séance publique"
-  },
-  {
     "id": "DLR5L17N52577",
     "titre": "Le télétravail frontalier",
     "type": "Résolution",
@@ -194,26 +124,6 @@
     "titre": "Exercer l’accès à l’emploi, pérenniser et étendre progressivement l’expérimentation Territoires zéro chômeur longue durée comme solution de retour à l’emploi pour les personnes privées durablement d’emploi",
     "type": "Proposition de loi ordinaire",
     "auteur": "PA721474",
-    "url": "",
-    "nor": "",
-    "date": "2026-01-21",
-    "etat": "Discussion en séance publique"
-  },
-  {
-    "id": "DLR5L17N51845",
-    "titre": "Réparer les préjudices causés par la transplantation de mineurs de La Réunion en France hexagonale de 1962 à 1984",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA774962",
-    "url": "",
-    "nor": "",
-    "date": "2026-01-21",
-    "etat": "Discussion en séance publique"
-  },
-  {
-    "id": "DLR5L17N51655",
-    "titre": "L’intérêt des enfants",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA720560",
     "url": "",
     "nor": "",
     "date": "2026-01-21",
@@ -260,14 +170,24 @@
     "etat": "Discussion en séance publique"
   },
   {
-    "id": "DLR5L17N52985",
-    "titre": "Projet de loi relatif à la lutte contre les fraudes sociales et fiscales",
-    "type": "Projet de loi ordinaire",
-    "auteur": "PA643210",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl25-024.html",
+    "id": "DLR5L17N53341",
+    "titre": "Interdire le maintien dans l’hébergement d’urgence aux immigrés illégaux",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA720386",
+    "url": "",
     "nor": "",
-    "date": "2026-01-16",
-    "etat": "Discussion en séance publique"
+    "date": "2026-01-14",
+    "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N53335",
+    "titre": "Faire assumer à chacun les conséquences de ses actes en permettant la saisie des amendes non payées sur les minimas sociaux",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA720386",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-14",
+    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L17N53075",
@@ -300,6 +220,36 @@
     "etat": "Discussion en séance publique"
   },
   {
+    "id": "DLR5L17N53330",
+    "titre": "Déblocage exceptionnel de la participation et de l’intéressement en 2026",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA719968",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-12",
+    "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N52744",
+    "titre": "Garantir la gratuité des parkings des hôpitaux publics pour les patients, les visiteurs et les personnels sur leur temps de travail",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA841471",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-12",
+    "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N51987",
+    "titre": "Proposition de loi visant à permettre aux salariés de certains établissements et services de travailler le 1er mai",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-550.html",
+    "nor": "",
+    "date": "2026-01-12",
+    "etat": "Réunion de commission"
+  },
+  {
     "id": "DLR5L17N51968",
     "titre": "Améliorer l'accès au logement des travailleurs des services publics",
     "type": "Proposition de loi ordinaire",
@@ -308,6 +258,26 @@
     "nor": "",
     "date": "2026-01-12",
     "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N51845",
+    "titre": "Réparer les préjudices causés par la transplantation de mineurs de La Réunion en France hexagonale de 1962 à 1984",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA774962",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-12",
+    "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N51655",
+    "titre": "L’intérêt des enfants",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA720560",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-12",
+    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L17N53229",
@@ -378,6 +348,26 @@
     "nor": "",
     "date": "2026-01-07",
     "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N53476",
+    "titre": "Les transferts, exportations, transit et transbordements d'armes classiques et autres matériels et technologies militaires, ou à double-usage, français à l’État d'Israël",
+    "type": "Résolution",
+    "auteur": "PA721896",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-05",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52728",
+    "titre": "Empêcher la ratification de l’accord entre l'Union européenne et le Mercosur en demandant à l’État français la saisine de la Cour de justice de l’Union européenne pour cause d’incompatibilité de l’accord avec les traités européens",
+    "type": "Résolution",
+    "auteur": "PA722142",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-05",
+    "etat": "Décision"
   },
   {
     "id": "DLR5L17N52922",
@@ -1110,6 +1100,16 @@
     "etat": "Dépôt de rapport"
   },
   {
+    "id": "DLR5L17N53276",
+    "titre": "Reconnaître les victimes de l'exposition aux essais nucléaires français et améliorer leur indemnisation",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA795240",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-17",
+    "etat": "Réunion de commission"
+  },
+  {
     "id": "DLR5L17N53018",
     "titre": "Proposition de loi visant à assouplir les contraintes à l'usage de dispositifs de lecture automatisée de plaques d'immatriculation et à sécuriser l'action des forces de l'ordre",
     "type": "Proposition de loi ordinaire",
@@ -1118,6 +1118,16 @@
     "nor": "",
     "date": "2025-12-17",
     "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52985",
+    "titre": "Projet de loi relatif à la lutte contre les fraudes sociales et fiscales",
+    "type": "Projet de loi ordinaire",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl25-024.html",
+    "nor": "",
+    "date": "2025-12-17",
+    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L17N52820",
@@ -1778,6 +1788,16 @@
     "nor": "",
     "date": "2025-12-04",
     "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53300",
+    "titre": "Suspendre toute nouvelle création d’instances administratives pour lutter contre le phénomène d’agencification de l’État et rendre plus lisible le fonctionnement de l’administration française",
+    "type": "Résolution Article 34-1",
+    "auteur": "PA774954",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-04",
+    "etat": "1er dépôt d'une initiative."
   },
   {
     "id": "DLR5L17N53355",
@@ -3008,16 +3028,6 @@
     "nor": "",
     "date": "2025-11-18",
     "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N52728",
-    "titre": "Empêcher la ratification de l’accord entre l'Union européenne et le Mercosur en demandant à l’État français la saisine de la Cour de justice de l’Union européenne pour cause d’incompatibilité de l’accord avec les traités européens",
-    "type": "Résolution",
-    "auteur": "PA722142",
-    "url": "",
-    "nor": "",
-    "date": "2025-11-18",
-    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L17N53155",
