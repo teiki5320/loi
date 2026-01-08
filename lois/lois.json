@@ -370,6 +370,36 @@
     "etat": "Réunion de commission"
   },
   {
+    "id": "DLR5L17N53500",
+    "titre": "Les transfèrements et extractions",
+    "type": "Rapport d'information sans mission",
+    "auteur": "",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-07",
+    "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N53456",
+    "titre": "Proposition de loi visant à faciliter la création et le fonctionnement des communes nouvelles",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-251.html",
+    "nor": "",
+    "date": "2026-01-07",
+    "etat": "Le gouvernement déclare l'urgence / engage la procédure accélérée"
+  },
+  {
+    "id": "DLR5L17N53159",
+    "titre": "Proposition de loi visant à améliorer les moyens d'action de l'Agence de gestion et de recouvrement des avoirs saisis et confisqués et à faciliter l'exercice des missions d'expert judiciaire",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-128.html",
+    "nor": "",
+    "date": "2026-01-07",
+    "etat": "Dépôt de rapport"
+  },
+  {
     "id": "DLR5L17N52354",
     "titre": "Projet de loi autorisant l’approbation de l’accord sous forme d’échange de notes verbales entre le Gouvernement de la République française et le Gouvernement de la République de Moldavie relatif à l'échange de permis de conduire",
     "type": "Projet de ratification des traités et conventions",
@@ -400,6 +430,16 @@
     "etat": "Réunion de commission"
   },
   {
+    "id": "DLR5L17N51863",
+    "titre": "Proposition de loi visant à revaloriser les métiers du travail social",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-501.html",
+    "nor": "",
+    "date": "2026-01-07",
+    "etat": "Décision"
+  },
+  {
     "id": "DLR5L17N51755",
     "titre": "Promouvoir une pratique de la pêche durable et respectueuse des ressources halieutiques et des océans",
     "type": "Résolution",
@@ -410,6 +450,26 @@
     "etat": "Réunion de commission"
   },
   {
+    "id": "DLR5L17N51672",
+    "titre": "Soins palliatifs et d’accompagnement",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA722102",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-662.html",
+    "nor": "",
+    "date": "2026-01-07",
+    "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N51670",
+    "titre": "Fin de vie",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA605694",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-661.html",
+    "nor": "",
+    "date": "2026-01-07",
+    "etat": "Dépôt de rapport"
+  },
+  {
     "id": "DLR5L17N50794",
     "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et l’Observatoire du réseau d’antennes d’un kilomètre carré (SKAO) relatif à l’adhésion de la France à l’Observatoire",
     "type": "Projet de ratification des traités et conventions",
@@ -418,6 +478,56 @@
     "nor": "",
     "date": "2026-01-07",
     "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L16N49138",
+    "titre": "Confidentialité des consultations des juristes d’entreprise",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA721584",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl23-569.html",
+    "nor": "",
+    "date": "2026-01-07",
+    "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N53370",
+    "titre": "Commission d'enquête visant à lever les incertitudes budgétaires en matière de sécurité sociale",
+    "type": "Commission d'enquête",
+    "auteur": "",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-06",
+    "etat": "Nomination de rapporteur"
+  },
+  {
+    "id": "DLR5L17N53292",
+    "titre": "Proposition de loi visant à conforter l'habitat, l'offre de logements et la construction",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-171.html",
+    "nor": "",
+    "date": "2026-01-06",
+    "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N53497",
+    "titre": "Projet de loi ratifiant l’ordonnance n° 2025-1154 du 2 décembre 2025 relative au crédit à la consommation",
+    "type": "Projet de loi ordinaire",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl25-253.html",
+    "nor": "",
+    "date": "2026-01-05",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53496",
+    "titre": "Projet de loi ratifiant l’ordonnance n°2025-1073 du 10 novembre 2025 portant extension et adaptation des dispositions de la loi n° 2025-796 du 11 août 2025 visant à faciliter le maintien en rétention des personnes condamnées pour des faits d’une particulière gravité et présentant de forts risques de récidive à Saint-Barthélemy, à Saint-Martin, dans les îles Wallis et Futuna, en Polynésie française et en Nouvelle-Calédonie",
+    "type": "Projet de loi ordinaire",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl25-254.html",
+    "nor": "",
+    "date": "2026-01-05",
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N53476",
@@ -478,16 +588,6 @@
     "nor": "",
     "date": "2025-12-29",
     "etat": "Promulgation d'une loi"
-  },
-  {
-    "id": "DLR5L17N53456",
-    "titre": "Proposition de loi visant à faciliter la création et le fonctionnement des communes nouvelles",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl25-251.html",
-    "nor": "",
-    "date": "2025-12-26",
-    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N53386",
@@ -1225,16 +1325,6 @@
     "type": "Proposition de loi ordinaire",
     "auteur": "PO78718",
     "url": "http://www.senat.fr/dossier-legislatif/ppl24-872.html",
-    "nor": "",
-    "date": "2025-12-17",
-    "etat": "Dépôt de rapport"
-  },
-  {
-    "id": "DLR5L17N51863",
-    "titre": "Proposition de loi visant à revaloriser les métiers du travail social",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-501.html",
     "nor": "",
     "date": "2025-12-17",
     "etat": "Dépôt de rapport"
@@ -2360,16 +2450,6 @@
     "etat": "Renvoi en commission au fond"
   },
   {
-    "id": "DLR5L17N53292",
-    "titre": "Proposition de loi visant à conforter l'habitat, l'offre de logements et la construction",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl25-171.html",
-    "nor": "",
-    "date": "2025-11-28",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
     "id": "DLR5L17N53233",
     "titre": "Garantir le droit de vote et d’éligibilité aux élections locales aux personnes étrangères résidentes en France",
     "type": "Projet ou proposition de loi constitutionnelle",
@@ -3095,16 +3175,6 @@
     "type": "Proposition de loi ordinaire",
     "auteur": "PO78718",
     "url": "http://www.senat.fr/dossier-legislatif/ppl25-127.html",
-    "nor": "",
-    "date": "2025-11-14",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N53159",
-    "titre": "Proposition de loi visant à améliorer les moyens d'action de l'Agence de gestion et de recouvrement des avoirs saisis et confisqués et à faciliter l'exercice des missions d'expert judiciaire",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl25-128.html",
     "nor": "",
     "date": "2025-11-14",
     "etat": "Renvoi en commission au fond"
@@ -9775,26 +9845,6 @@
     "type": "Proposition de loi ordinaire",
     "auteur": "PO78718",
     "url": "http://www.senat.fr/dossier-legislatif/ppl24-658.html",
-    "nor": "",
-    "date": "2025-05-27",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N51672",
-    "titre": "Soins palliatifs et d’accompagnement",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA722102",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-662.html",
-    "nor": "",
-    "date": "2025-05-27",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N51670",
-    "titre": "Fin de vie",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA605694",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-661.html",
     "nor": "",
     "date": "2025-05-27",
     "etat": "Renvoi en commission au fond"
