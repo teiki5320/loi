@@ -77,7 +77,7 @@
     "url": "",
     "nor": "",
     "date": "2026-02-03",
-    "etat": "Discussion en séance publique"
+    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L17N51962",
@@ -97,7 +97,7 @@
     "url": "",
     "nor": "",
     "date": "2026-02-03",
-    "etat": "Discussion en séance publique"
+    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L17N51845",
@@ -117,7 +117,7 @@
     "url": "",
     "nor": "",
     "date": "2026-02-03",
-    "etat": "Discussion en séance publique"
+    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L17N51679",
@@ -257,7 +257,7 @@
     "url": "",
     "nor": "",
     "date": "2026-01-22",
-    "etat": "Discussion en séance publique"
+    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L17N51987",
@@ -320,8 +320,8 @@
     "etat": "Réunion de commission"
   },
   {
-    "id": "DLR5L17N53075",
-    "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et le Gouvernement de la République de Moldova relatif à la coopération dans le domaine de la défense",
+    "id": "DLR5L17N53259",
+    "titre": "L’approbation de l’accord entre le Gouvernement de la République française et l’Agence spatiale européenne concernant les installations de l’Agence spatiale européenne en France",
     "type": "Projet de ratification des traités et conventions",
     "auteur": "PA643210",
     "url": "",
@@ -330,13 +330,13 @@
     "etat": "Réunion de commission"
   },
   {
-    "id": "DLR5L17N53259",
-    "titre": "L’approbation de l’accord entre le Gouvernement de la République française et l’Agence spatiale européenne concernant les installations de l’Agence spatiale européenne en France",
+    "id": "DLR5L17N53075",
+    "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et le Gouvernement de la République de Moldova relatif à la coopération dans le domaine de la défense",
     "type": "Projet de ratification des traités et conventions",
     "auteur": "PA643210",
     "url": "",
     "nor": "",
-    "date": "2026-01-13",
+    "date": "2026-01-14",
     "etat": "Réunion de commission"
   },
   {
@@ -368,6 +368,16 @@
     "nor": "",
     "date": "2026-01-08",
     "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N51863",
+    "titre": "Proposition de loi visant à revaloriser les métiers du travail social",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-501.html",
+    "nor": "",
+    "date": "2026-01-08",
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N53500",
@@ -430,16 +440,6 @@
     "etat": "Réunion de commission"
   },
   {
-    "id": "DLR5L17N51863",
-    "titre": "Proposition de loi visant à revaloriser les métiers du travail social",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-501.html",
-    "nor": "",
-    "date": "2026-01-07",
-    "etat": "Décision"
-  },
-  {
     "id": "DLR5L17N51755",
     "titre": "Promouvoir une pratique de la pêche durable et respectueuse des ressources halieutiques et des océans",
     "type": "Résolution",
@@ -468,6 +468,16 @@
     "nor": "",
     "date": "2026-01-07",
     "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N51173",
+    "titre": "Proposition de loi organique tendant à modifier le II de l’article 43 de la loi organique n° 2004-192 du 27 février 2004 portant statut d’autonomie de la Polynésie française",
+    "type": "Projet ou proposition de loi organique",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-223.html",
+    "nor": "",
+    "date": "2026-01-07",
+    "etat": "Promulgation d'une loi"
   },
   {
     "id": "DLR5L17N50794",
@@ -558,16 +568,6 @@
     "nor": "",
     "date": "2025-12-30",
     "etat": "Promulgation d'une loi"
-  },
-  {
-    "id": "DLR5L17N51173",
-    "titre": "Proposition de loi organique tendant à modifier le II de l’article 43 de la loi organique n° 2004-192 du 27 février 2004 portant statut d’autonomie de la Polynésie française",
-    "type": "Projet ou proposition de loi organique",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-223.html",
-    "nor": "",
-    "date": "2025-12-30",
-    "etat": "Conclusion du conseil constitutionnel"
   },
   {
     "id": "DLR5L17N53435",
