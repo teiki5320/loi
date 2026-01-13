@@ -1,5 +1,25 @@
 [
   {
+    "id": "DLR5L17N53387",
+    "titre": "Condamner les atteintes aux droits fondamentaux des personnes migrantes en Tunisie et appeler à la libération immédiate et inconditionnelle des personnes détenues pour leur engagement humanitaire et en faveur des droits humains",
+    "type": "Résolution",
+    "auteur": "PA721960",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-11",
+    "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N52715",
+    "titre": "Octroyer le statut d’animaux de compagnie aux animaux de rente dès lors qu’ils sont sortis définitivement du circuit de la chaîne alimentaire du fait de leur viande ou produit d’origine animale déclarés impropres à la consommation",
+    "type": "Résolution",
+    "auteur": "PA794906",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-04",
+    "etat": "Réunion de commission"
+  },
+  {
     "id": "DLR5L17N52561",
     "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et le Gouvernement du Monténégro relatif à la coopération dans le domaine de la défense",
     "type": "Projet de ratification des traités et conventions",
@@ -350,6 +370,56 @@
     "etat": "Discussion en séance publique"
   },
   {
+    "id": "DLR5L17N53518",
+    "titre": "Promouvoir, au niveau de l’Union européenne, un renforcement de la lutte contre les structures portant atteinte aux valeurs européennes",
+    "type": "Résolution",
+    "auteur": "PA840889",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-12",
+    "etat": "Renvoi préalable"
+  },
+  {
+    "id": "DLR5L17N53517",
+    "titre": "Motion de censure déposée en application de l'article 49, alinéa 2, de la Constitution par Mme Marine Le Pen et 57 de ses collègues",
+    "type": "Engagement de la responsabilité gouvernementale",
+    "auteur": "",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-12",
+    "etat": "Motion de censure"
+  },
+  {
+    "id": "DLR5L17N53315",
+    "titre": "Proposition de loi visant à instaurer une procédure simplifiée de recouvrement des créances commerciales incontestées",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-187.html",
+    "nor": "",
+    "date": "2026-01-12",
+    "etat": "Le gouvernement déclare l'urgence / engage la procédure accélérée"
+  },
+  {
+    "id": "DLR5L17N53225",
+    "titre": "Proposition de loi organique portant renforcement de la chaîne pénale criminelle et diverses dispositions de modernisation du corps judiciaire",
+    "type": "Projet ou proposition de loi organique",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-071.html",
+    "nor": "",
+    "date": "2026-01-12",
+    "etat": "Le gouvernement déclare l'urgence / engage la procédure accélérée"
+  },
+  {
+    "id": "DLR5L17N52803",
+    "titre": "Garantir l'intégrité de l'information sur le changement climatique face à la désinformation climatique et aux ingérences étrangères",
+    "type": "Résolution",
+    "auteur": "PA736201",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-12",
+    "etat": "Décision"
+  },
+  {
     "id": "DLR5L17N51968",
     "titre": "Améliorer l'accès au logement des travailleurs des services publics",
     "type": "Proposition de loi ordinaire",
@@ -357,7 +427,7 @@
     "url": "",
     "nor": "",
     "date": "2026-01-12",
-    "etat": "Discussion en séance publique"
+    "etat": "Décision"
   },
   {
     "id": "DLR5L17N53516",
@@ -1030,16 +1100,6 @@
     "etat": "Renvoi en commission au fond"
   },
   {
-    "id": "DLR5L17N53387",
-    "titre": "Condamner les atteintes aux droits fondamentaux des personnes migrantes en Tunisie et appeler à la libération immédiate et inconditionnelle des personnes détenues pour leur engagement humanitaire et en faveur des droits humains",
-    "type": "Résolution",
-    "auteur": "PA721960",
-    "url": "",
-    "nor": "",
-    "date": "2025-12-23",
-    "etat": "Renvoi préalable"
-  },
-  {
     "id": "DLR5L16N46127",
     "titre": "Proposition de loi portant réparation des personnes condamnées pour homosexualité entre 1945 et 1982",
     "type": "Proposition de loi ordinaire",
@@ -1314,16 +1374,6 @@
     "titre": "Soutenir une politique d’interdiction de tous les néonicotinoïdes dont l’acétamipride dans l’Union européenne, soutenir fortement et durablement les agriculteurs français et européens sur des solutions alternatives validées par les instances et institutions scientifiques, mettre en place de façon urgente un programme de travail, des engagements et un calendrier précis pour enfin mettre en place des mesures miroirs sanitaires et environnementales sur l’ensemble des pesticides interdits dans l'Union européenne à l’égard des États tiers",
     "type": "Résolution",
     "auteur": "PA335054",
-    "url": "",
-    "nor": "",
-    "date": "2025-12-17",
-    "etat": "Réunion de commission"
-  },
-  {
-    "id": "DLR5L17N52715",
-    "titre": "Octroyer le statut d’animaux de compagnie aux animaux de rente dès lors qu’ils sont sortis définitivement du circuit de la chaîne alimentaire du fait de leur viande ou produit d’origine animale déclarés impropres à la consommation",
-    "type": "Résolution",
-    "auteur": "PA794906",
     "url": "",
     "nor": "",
     "date": "2025-12-17",
@@ -1938,16 +1988,6 @@
     "nor": "",
     "date": "2025-12-08",
     "etat": "Promulgation d'une loi"
-  },
-  {
-    "id": "DLR5L17N53315",
-    "titre": "Proposition de loi visant à instaurer une procédure simplifiée de recouvrement des créances commerciales incontestées",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl25-187.html",
-    "nor": "",
-    "date": "2025-12-04",
-    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N53355",
@@ -2644,16 +2684,6 @@
     "titre": "Exonérer les apprentis de la CSG-CRDS",
     "type": "Proposition de loi ordinaire",
     "auteur": "PA794686",
-    "url": "",
-    "nor": "",
-    "date": "2025-11-26",
-    "etat": "Réunion de commission"
-  },
-  {
-    "id": "DLR5L17N52803",
-    "titre": "Garantir l'intégrité de l'information sur le changement climatique face à la désinformation climatique et aux ingérences étrangères",
-    "type": "Résolution",
-    "auteur": "PA736201",
     "url": "",
     "nor": "",
     "date": "2025-11-26",
@@ -4098,16 +4128,6 @@
     "nor": "",
     "date": "2025-10-24",
     "etat": "Promulgation d'une loi"
-  },
-  {
-    "id": "DLR5L17N53225",
-    "titre": "Proposition de loi organique portant renforcement de la chaîne pénale criminelle et diverses dispositions de modernisation du corps judiciaire",
-    "type": "Projet ou proposition de loi organique",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl25-071.html",
-    "nor": "",
-    "date": "2025-10-23",
-    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N53013",
