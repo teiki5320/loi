@@ -10995,11 +10995,6 @@
     "libelle": "Commission des affaires économiques",
     "ordre": 7001
   },{
-    "code": "DELEGA-PROS",
-    "type": "DELEGATION/OFFICE",
-    "libelle": "Délégation sénatoriale à la prospective",
-    "ordre": 16006
-  },{
     "code": "ETUDES-957",
     "type": "ETUDE",
     "libelle": "Groupe d'études Industrie",
@@ -11048,6 +11043,11 @@
     "type": "TEMPORAIRE",
     "libelle": "Commission spéciale sur le projet de loi relatif à la résilience des activités d'importance vitale, à la protection des infrastructures critiques, à la cybersécurité et à la résilience opérationnelle numérique du secteur financier",
     "ordre": 24999
+  },{
+    "code": "DELEGA-PROS",
+    "type": "DELEGATION/OFFICE",
+    "libelle": "Délégation sénatoriale à la prospective",
+    "ordre": 16006
   },{
     "code": "ETUDES-1008",
     "type": "ETUDE",
