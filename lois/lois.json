@@ -370,6 +370,16 @@
     "etat": "Réunion de commission"
   },
   {
+    "id": "DLR5L17N53536",
+    "titre": "Ratifier l’Accord régissant les activités des États sur la Lune et les autres corps célestes",
+    "type": "Résolution Article 34-1",
+    "auteur": "PA841845",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-14",
+    "etat": "1er dépôt d'une initiative."
+  },
+  {
     "id": "DLR5L17N53517",
     "titre": "Motion de censure déposée en application de l'article 49, alinéa 2, de la Constitution par Mme Marine Le Pen et 57 de ses collègues",
     "type": "Engagement de la responsabilité gouvernementale",
@@ -400,6 +410,16 @@
     "etat": "Réunion de commission"
   },
   {
+    "id": "DLR5L17N53159",
+    "titre": "Proposition de loi visant à améliorer les moyens d'action de l'Agence de gestion et de recouvrement des avoirs saisis et confisqués et à faciliter l'exercice des missions d'expert judiciaire",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-128.html",
+    "nor": "",
+    "date": "2026-01-14",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
     "id": "DLR5L17N53075",
     "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et le Gouvernement de la République de Moldova relatif à la coopération dans le domaine de la défense",
     "type": "Projet de ratification des traités et conventions",
@@ -408,6 +428,16 @@
     "nor": "",
     "date": "2026-01-14",
     "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L16N49138",
+    "titre": "Confidentialité des consultations des juristes d’entreprise",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA721584",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl23-569.html",
+    "nor": "",
+    "date": "2026-01-14",
+    "etat": "Décision"
   },
   {
     "id": "DLR5L17N53530",
@@ -584,20 +614,10 @@
     "titre": "Améliorer l'accès au logement des travailleurs des services publics",
     "type": "Proposition de loi ordinaire",
     "auteur": "PA795950",
-    "url": "",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-273.html",
     "nor": "",
     "date": "2026-01-12",
-    "etat": "Décision"
-  },
-  {
-    "id": "DLR5L17N53159",
-    "titre": "Proposition de loi visant à améliorer les moyens d'action de l'Agence de gestion et de recouvrement des avoirs saisis et confisqués et à faciliter l'exercice des missions d'expert judiciaire",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl25-128.html",
-    "nor": "",
-    "date": "2026-01-09",
-    "etat": "Le gouvernement déclare l'urgence / engage la procédure accélérée"
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N53531",
@@ -627,6 +647,16 @@
     "url": "http://www.senat.fr/dossier-legislatif/ppl24-501.html",
     "nor": "",
     "date": "2026-01-08",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53532",
+    "titre": "Proposition de loi relative à la reconnaissance de la Langue française Parlée Complétée dans le parcours scolaire des élèves sourds",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-268.html",
+    "nor": "",
+    "date": "2026-01-07",
     "etat": "Renvoi en commission au fond"
   },
   {
@@ -728,16 +758,6 @@
     "nor": "",
     "date": "2026-01-07",
     "etat": "Réunion de commission"
-  },
-  {
-    "id": "DLR5L16N49138",
-    "titre": "Confidentialité des consultations des juristes d’entreprise",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA721584",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl23-569.html",
-    "nor": "",
-    "date": "2026-01-07",
-    "etat": "Dépôt de rapport"
   },
   {
     "id": "DLR5L17N53370",
