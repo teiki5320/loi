@@ -140,6 +140,26 @@
     "etat": "Discussion en séance publique"
   },
   {
+    "id": "DLR5L17N53420",
+    "titre": "Permettre aux maires de loger les habitants en mobilisant les logements vacants",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA796018",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-04",
+    "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N53418",
+    "titre": "Protéger l’alimentation des Français et des Françaises des contaminations au cadmium",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA840997",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-04",
+    "etat": "Réunion de commission"
+  },
+  {
     "id": "DLR5L17N52715",
     "titre": "Octroyer le statut d’animaux de compagnie aux animaux de rente dès lors qu’ils sont sortis définitivement du circuit de la chaîne alimentaire du fait de leur viande ou produit d’origine animale déclarés impropres à la consommation",
     "type": "Résolution",
@@ -190,6 +210,16 @@
     "etat": "Discussion en séance publique"
   },
   {
+    "id": "DLR5L17N53360",
+    "titre": "Les dépendances structurelles et les vulnérabilités systémiques dans le secteur du numérique et les risques pour l’indépendance de la France",
+    "type": "Résolution",
+    "auteur": "PA794008",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-28",
+    "etat": "Réunion de commission"
+  },
+  {
     "id": "DLR5L17N53201",
     "titre": "Renforcer le pilotage et la cohérence de la politique nationale du sport",
     "type": "Résolution Article 34-1",
@@ -217,7 +247,7 @@
     "url": "",
     "nor": "",
     "date": "2026-01-26",
-    "etat": "Discussion en séance publique"
+    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L17N50906",
@@ -370,6 +400,66 @@
     "etat": "Réunion de commission"
   },
   {
+    "id": "DLR5L17N53284",
+    "titre": "Renforcer la sécurité, la rétention administrative et la prévention des risques d’attentat",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA795528",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-20",
+    "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N53259",
+    "titre": "L’approbation de l’accord entre le Gouvernement de la République française et l’Agence spatiale européenne concernant les installations de l’Agence spatiale européenne en France",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA643210",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-20",
+    "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N52354",
+    "titre": "Projet de loi autorisant l’approbation de l’accord sous forme d’échange de notes verbales entre le Gouvernement de la République française et le Gouvernement de la République de Moldavie relatif à l'échange de permis de conduire",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA410",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl24-764.html",
+    "nor": "",
+    "date": "2026-01-20",
+    "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N50794",
+    "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et l’Observatoire du réseau d’antennes d’un kilomètre carré (SKAO) relatif à l’adhésion de la France à l’Observatoire",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA368",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl24-104.html",
+    "nor": "",
+    "date": "2026-01-20",
+    "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N53530",
+    "titre": "Relancer les investissements dans le secteur de l’hydroélectricité pour contribuer à la transition énergétique",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA342415",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-15",
+    "etat": "Le gouvernement déclare l'urgence / engage la procédure accélérée"
+  },
+  {
+    "id": "DLR5L16N46127",
+    "titre": "Proposition de loi portant réparation des personnes condamnées pour homosexualité entre 1945 et 1982",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl21-864.html",
+    "nor": "",
+    "date": "2026-01-15",
+    "etat": "Dépôt du rapport d'une CMP"
+  },
+  {
     "id": "DLR5L17N53536",
     "titre": "Ratifier l’Accord régissant les activités des États sur la Lune et les autres corps célestes",
     "type": "Résolution Article 34-1",
@@ -400,16 +490,6 @@
     "etat": "Discussion en séance publique"
   },
   {
-    "id": "DLR5L17N53259",
-    "titre": "L’approbation de l’accord entre le Gouvernement de la République française et l’Agence spatiale européenne concernant les installations de l’Agence spatiale européenne en France",
-    "type": "Projet de ratification des traités et conventions",
-    "auteur": "PA643210",
-    "url": "",
-    "nor": "",
-    "date": "2026-01-14",
-    "etat": "Réunion de commission"
-  },
-  {
     "id": "DLR5L17N53159",
     "titre": "Proposition de loi visant à améliorer les moyens d'action de l'Agence de gestion et de recouvrement des avoirs saisis et confisqués et à faciliter l'exercice des missions d'expert judiciaire",
     "type": "Proposition de loi ordinaire",
@@ -438,16 +518,6 @@
     "nor": "",
     "date": "2026-01-14",
     "etat": "Décision"
-  },
-  {
-    "id": "DLR5L17N53530",
-    "titre": "Relancer les investissements dans le secteur de l’hydroélectricité pour contribuer à la transition énergétique",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA342415",
-    "url": "",
-    "nor": "",
-    "date": "2026-01-13",
-    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N53529",
@@ -620,6 +690,26 @@
     "etat": "Renvoi en commission au fond"
   },
   {
+    "id": "DLR5L17N53534",
+    "titre": "Proposition de loi visant à encadrer l'utilisation des téléphones portables et produits associés pendant le temps périscolaire et dans les accueils collectifs de mineurs",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-272.html",
+    "nor": "",
+    "date": "2026-01-09",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53535",
+    "titre": "Proposition de loi visant à autoriser le balisage circonstancié des éoliennes en cas de passage d'aéronefs civils",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-271.html",
+    "nor": "",
+    "date": "2026-01-08",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
     "id": "DLR5L17N53531",
     "titre": "Proposition de loi constitutionnelle visant à restreindre certaines prérogatives du Président de la République et à renforcer celles du Premier ministre, responsable devant le Parlement",
     "type": "Projet ou proposition de loi constitutionnelle",
@@ -680,16 +770,6 @@
     "etat": "Le gouvernement déclare l'urgence / engage la procédure accélérée"
   },
   {
-    "id": "DLR5L17N52354",
-    "titre": "Projet de loi autorisant l’approbation de l’accord sous forme d’échange de notes verbales entre le Gouvernement de la République française et le Gouvernement de la République de Moldavie relatif à l'échange de permis de conduire",
-    "type": "Projet de ratification des traités et conventions",
-    "auteur": "PA410",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl24-764.html",
-    "nor": "",
-    "date": "2026-01-07",
-    "etat": "Réunion de commission"
-  },
-  {
     "id": "DLR5L17N52103",
     "titre": "Projet de loi autorisant l’approbation de l’avenant à la convention d’entraide judiciaire en matière pénale du 28 mai 1996 entre le Gouvernement de la République française et le Gouvernement de la République fédérative du Brésil",
     "type": "Projet de ratification des traités et conventions",
@@ -748,16 +828,6 @@
     "nor": "",
     "date": "2026-01-07",
     "etat": "Promulgation d'une loi"
-  },
-  {
-    "id": "DLR5L17N50794",
-    "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et l’Observatoire du réseau d’antennes d’un kilomètre carré (SKAO) relatif à l’adhésion de la France à l’Observatoire",
-    "type": "Projet de ratification des traités et conventions",
-    "auteur": "PA368",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl24-104.html",
-    "nor": "",
-    "date": "2026-01-07",
-    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L17N53370",
@@ -960,30 +1030,10 @@
     "etat": "Renvoi en commission au fond"
   },
   {
-    "id": "DLR5L17N53420",
-    "titre": "Permettre aux maires de loger les habitants en mobilisant les logements vacants",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA796018",
-    "url": "",
-    "nor": "",
-    "date": "2025-12-23",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
     "id": "DLR5L17N53419",
     "titre": "Répondre à l’urgence face aux factures d’électricité",
     "type": "Proposition de loi ordinaire",
     "auteur": "PA795516",
-    "url": "",
-    "nor": "",
-    "date": "2025-12-23",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N53418",
-    "titre": "Protéger l’alimentation des Français et des Françaises des contaminations au cadmium",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA840997",
     "url": "",
     "nor": "",
     "date": "2025-12-23",
@@ -1278,16 +1328,6 @@
     "nor": "",
     "date": "2025-12-23",
     "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L16N46127",
-    "titre": "Proposition de loi portant réparation des personnes condamnées pour homosexualité entre 1945 et 1982",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl21-864.html",
-    "nor": "",
-    "date": "2025-12-23",
-    "etat": "Convocation d'une CMP"
   },
   {
     "id": "DLR5L17N53384",
@@ -1654,16 +1694,6 @@
     "titre": "Les violences commises sur les mineurs dans les temps périscolaires et extrascolaires",
     "type": "Résolution",
     "auteur": "PA795962",
-    "url": "",
-    "nor": "",
-    "date": "2025-12-15",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N53360",
-    "titre": "Les dépendances structurelles et les vulnérabilités systémiques dans le secteur du numérique et les risques pour l’indépendance de la France",
-    "type": "Résolution",
-    "auteur": "PA794008",
     "url": "",
     "nor": "",
     "date": "2025-12-15",
@@ -2420,16 +2450,6 @@
     "etat": "Renvoi en commission au fond"
   },
   {
-    "id": "DLR5L17N53284",
-    "titre": "Renforcer la sécurité, la rétention administrative et la prévention des risques d’attentat",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA795528",
-    "url": "",
-    "nor": "",
-    "date": "2025-12-02",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
     "id": "DLR5L17N53283",
     "titre": "L'extension de la fiducie aux transmissions de patrimoine",
     "type": "Proposition de loi ordinaire",
@@ -3028,16 +3048,6 @@
     "nor": "",
     "date": "2025-11-19",
     "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N53068",
-    "titre": "Réguler l’installation des consignes automatiques de livraison dans les communes et à soutenir les commerces de proximité",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA793816",
-    "url": "",
-    "nor": "",
-    "date": "2025-11-19",
-    "etat": "Nomination de rapporteur"
   },
   {
     "id": "DLR5L17N53198",
@@ -3944,6 +3954,16 @@
     "titre": "Garantir l’accès à l’école dans les communes de moins de cinq cents habitants et situées en zone de montagne",
     "type": "Proposition de loi ordinaire",
     "auteur": "PA841381",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-28",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53068",
+    "titre": "Réguler l’installation des consignes automatiques de livraison dans les communes et à soutenir les commerces de proximité",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA793816",
     "url": "",
     "nor": "",
     "date": "2025-10-28",
