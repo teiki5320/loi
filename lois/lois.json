@@ -460,6 +460,56 @@
     "etat": "Discussion en séance publique"
   },
   {
+    "id": "DLR5L17N53599",
+    "titre": "Les modalités de mise en place à Brest d’un Institut Océan de l’Université des Nations unies et d’une unité en Polynésie française",
+    "type": "Rapport d'information sans mission",
+    "auteur": "",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-21",
+    "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N53598",
+    "titre": "S’opposer à la dérégulation des plantes issues des nouvelles techniques génomiques et défendre un cadre européen strict de protection sanitaire, environnementale et démocratique",
+    "type": "Résolution",
+    "auteur": "PA719578",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-21",
+    "etat": "Renvoi préalable"
+  },
+  {
+    "id": "DLR5L17N53388",
+    "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et le Gouvernement de la République du Kazakhstan sur la réadmission des personnes",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl25-236.html",
+    "nor": "",
+    "date": "2026-01-21",
+    "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N53315",
+    "titre": "Proposition de loi visant à instaurer une procédure simplifiée de recouvrement des créances commerciales incontestées",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-187.html",
+    "nor": "",
+    "date": "2026-01-21",
+    "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N53304",
+    "titre": "Proposition de loi visant à lever, dans les territoires d'outre-mer, l'interdiction de recherche, d'exploration et d'exploitation des hydrocarbures",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-185.html",
+    "nor": "",
+    "date": "2026-01-21",
+    "etat": "Dépôt de rapport"
+  },
+  {
     "id": "DLR5L17N53284",
     "titre": "Renforcer la sécurité, la rétention administrative et la prévention des risques d’attentat",
     "type": "Proposition de loi ordinaire",
@@ -470,34 +520,24 @@
     "etat": "Réunion de commission"
   },
   {
-    "id": "DLR5L17N52884",
-    "titre": "Allocations chômage des travailleurs frontaliers",
-    "type": "Résolution",
-    "auteur": "PA720552",
-    "url": "",
+    "id": "DLR5L17N53235",
+    "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et la Communauté des Caraïbes relatif à l’adhésion au protocole sur les privilèges et immunités de la Communauté des Caraïbes du 14 janvier 1985",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl25-160.html",
     "nor": "",
     "date": "2026-01-21",
-    "etat": "Réunion de commission"
+    "etat": "Dépôt de rapport"
   },
   {
-    "id": "DLR5L17N52577",
-    "titre": "Le télétravail frontalier",
-    "type": "Résolution",
-    "auteur": "PA720552",
-    "url": "",
+    "id": "DLR5L17N52635",
+    "titre": "Projet de loi relatif à la restitution de biens culturels provenant d’États qui, du fait d’une appropriation illicite, en ont été privés",
+    "type": "Projet de loi ordinaire",
+    "auteur": "PA410",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl24-871.html",
     "nor": "",
     "date": "2026-01-21",
-    "etat": "Réunion de commission"
-  },
-  {
-    "id": "DLR5L17N52576",
-    "titre": "L'affiliation sociale des enfants de travailleurs frontaliers",
-    "type": "Résolution",
-    "auteur": "PA720552",
-    "url": "",
-    "nor": "",
-    "date": "2026-01-21",
-    "etat": "Réunion de commission"
+    "etat": "Dépôt de rapport"
   },
   {
     "id": "DLR5L17N53597",
@@ -521,7 +561,7 @@
   },
   {
     "id": "DLR5L17N53292",
-    "titre": "Proposition de loi visant à conforter l'habitat, l'offre de logements et la construction",
+    "titre": "Proposition de loi visant à conforter l’habitat, l’offre de logements et la construction",
     "type": "Proposition de loi ordinaire",
     "auteur": "PO78718",
     "url": "http://www.senat.fr/dossier-legislatif/ppl25-171.html",
@@ -798,16 +838,6 @@
     "nor": "",
     "date": "2026-01-12",
     "etat": "Renvoi préalable"
-  },
-  {
-    "id": "DLR5L17N53315",
-    "titre": "Proposition de loi visant à instaurer une procédure simplifiée de recouvrement des créances commerciales incontestées",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl25-187.html",
-    "nor": "",
-    "date": "2026-01-12",
-    "etat": "Le gouvernement déclare l'urgence / engage la procédure accélérée"
   },
   {
     "id": "DLR5L17N53225",
@@ -1640,16 +1670,6 @@
     "etat": "Renvoi en commission au fond"
   },
   {
-    "id": "DLR5L17N53388",
-    "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et le Gouvernement de la République du Kazakhstan sur la réadmission des personnes",
-    "type": "Projet de ratification des traités et conventions",
-    "auteur": "PA643210",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl25-236.html",
-    "nor": "",
-    "date": "2025-12-17",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
     "id": "DLR5L17N53368",
     "titre": "Les modalités de recrutement, de formation et d’organisation des activités périscolaires et extrascolaires et sur les mécanismes de prévention et de traitement des violences commises dans ce cadre",
     "type": "Résolution",
@@ -2350,16 +2370,6 @@
     "etat": "Renvoi en commission au fond"
   },
   {
-    "id": "DLR5L17N53304",
-    "titre": "Proposition de loi visant à lever, dans les territoires d'outre-mer, l'interdiction de recherche, d'exploration et d'exploitation des hydrocarbures",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl25-185.html",
-    "nor": "",
-    "date": "2025-12-03",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
     "id": "DLR5L17N53303",
     "titre": "Proposition de loi définissant le transport ferroviaire de voyageurs comme un bien de première nécessité",
     "type": "Proposition de loi ordinaire",
@@ -2450,6 +2460,16 @@
     "etat": "Réunion de commission"
   },
   {
+    "id": "DLR5L17N52884",
+    "titre": "Allocations chômage des travailleurs frontaliers",
+    "type": "Résolution",
+    "auteur": "PA720552",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-03",
+    "etat": "Réunion de commission"
+  },
+  {
     "id": "DLR5L17N52716",
     "titre": "La coopération européenne dans la lutte contre la cyberpédocriminalité pour la défense des droits des enfants à l’ère numérique",
     "type": "Résolution",
@@ -2458,6 +2478,26 @@
     "nor": "",
     "date": "2025-12-03",
     "etat": "Décision"
+  },
+  {
+    "id": "DLR5L17N52577",
+    "titre": "Le télétravail frontalier",
+    "type": "Résolution",
+    "auteur": "PA720552",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-03",
+    "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N52576",
+    "titre": "L'affiliation sociale des enfants de travailleurs frontaliers",
+    "type": "Résolution",
+    "auteur": "PA720552",
+    "url": "",
+    "nor": "",
+    "date": "2025-12-03",
+    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L17N53316",
@@ -2925,16 +2965,6 @@
     "type": "Proposition de loi ordinaire",
     "auteur": "PO78718",
     "url": "http://www.senat.fr/dossier-legislatif/ppl25-154.html",
-    "nor": "",
-    "date": "2025-11-26",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N53235",
-    "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et la Communauté des Caraïbes relatif à l’adhésion au protocole sur les privilèges et immunités de la Communauté des Caraïbes du 14 janvier 1985",
-    "type": "Projet de ratification des traités et conventions",
-    "auteur": "PA643210",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl25-160.html",
     "nor": "",
     "date": "2025-11-26",
     "etat": "Renvoi en commission au fond"
@@ -6878,16 +6908,6 @@
     "nor": "",
     "date": "2025-07-31",
     "etat": "Promulgation d'une loi"
-  },
-  {
-    "id": "DLR5L17N52635",
-    "titre": "Projet de loi relatif à la restitution de biens culturels provenant d’États qui, du fait d’une appropriation illicite, en ont été privés",
-    "type": "Projet de loi ordinaire",
-    "auteur": "PA410",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl24-871.html",
-    "nor": "",
-    "date": "2025-07-30",
-    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N52599",
