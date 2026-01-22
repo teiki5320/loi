@@ -61,6 +61,11 @@
     "libelle": "Commission des lois constitutionnelles, de législation, du suffrage universel, du Règlement et d'administration générale",
     "ordre": 7007
   },{
+    "code": "COMENQ-MER",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête sur les inégalités systémiques auxquelles sont confrontées les collectivités ultra-marines et leurs habitants pour répondre aux enjeux de développement social et durable",
+    "ordre": 25003
+  },{
     "code": "DELEGA-DSOM",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale aux outre-mer",
@@ -273,20 +278,25 @@
   "urlAvatar": "/senimg/demilly_stephane17229f_carre.jpg",
   "facebook": "1684842056",
   "organismes": [{
-    "code": "AUTRES-UIP",
-    "type": "AUTRE",
-    "libelle": "Groupe français de l'Union Interparlementaire (U.I.P.)",
-    "ordre": 60018
-  },{
     "code": "AUTRES-SFAPF",
     "type": "AUTRE",
     "libelle": "Section française de l'Assemblée parlementaire de la francophonie (A.P.F.)",
     "ordre": 60017
   },{
+    "code": "AUTRES-UIP",
+    "type": "AUTRE",
+    "libelle": "Groupe français de l'Union Interparlementaire (U.I.P.)",
+    "ordre": 60018
+  },{
     "code": "COM-CDD",
     "type": "COMMISSION",
     "libelle": "Commission de l'aménagement du territoire et du développement durable",
     "ordre": 7004
+  },{
+    "code": "COMENQ-MER",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête sur les inégalités systémiques auxquelles sont confrontées les collectivités ultra-marines et leurs habitants pour répondre aux enjeux de développement social et durable",
+    "ordre": 25003
   },{
     "code": "CSCE-CSCE",
     "type": "AUTRE",
@@ -298,14 +308,14 @@
     "libelle": "Délégation sénatoriale aux outre-mer",
     "ordre": 16005
   },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
-  },{
     "code": "ETUDES-933",
     "type": "ETUDE",
     "libelle": "Groupe d'études Aviation civile",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   }],
   "groupe": {
@@ -347,9 +357,9 @@
     "libelle": "Délégation sénatoriale à la prospective",
     "ordre": 16006
   },{
-    "code": "ETUDES-919",
+    "code": "ETUDES-1004",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "libelle": "Groupe d'études Cancer",
     "ordre": 50001
   },{
     "code": "ETUDES-1014",
@@ -357,20 +367,25 @@
     "libelle": "Groupe d'études Handicap",
     "ordre": 50001
   },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
+  },{
     "code": "ETUDES-934",
     "type": "ETUDE",
     "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-1004",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Cancer",
     "ordre": 50001
   },{
     "code": "MECSS-MECSS",
     "type": "AUTRE",
     "libelle": "Mission d'évaluation et de contrôle de la sécurité sociale",
     "ordre": 21001
+  },{
+    "code": "MISINFCOM-LITT",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « Loi Littoral, Loi Montagne : 40 ans après, quelle différenciation ? »",
+    "ordre": 42005
   }],
   "groupe": {
     "code": "UMP",
@@ -563,6 +578,11 @@
     "libelle": "Commission de l'aménagement du territoire et du développement durable",
     "ordre": 7004
   },{
+    "code": "COMENQ-MER",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête sur les inégalités systémiques auxquelles sont confrontées les collectivités ultra-marines et leurs habitants pour répondre aux enjeux de développement social et durable",
+    "ordre": 25003
+  },{
     "code": "DELEGA-DSOM",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale aux outre-mer",
@@ -678,6 +698,11 @@
     "type": "COMMISSION",
     "libelle": "Commission de l'aménagement du territoire et du développement durable",
     "ordre": 7004
+  },{
+    "code": "COMENQ-FPP",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête sur les mécanismes de financement des politiques publiques par des organismes, sociétés ou fondations de droit privé et des risques en matière d'influence, d'absence de transparence financière et d'entrave au fonctionnement de la démocratie ",
+    "ordre": 25002
   },{
     "code": "ETUDES-1008",
     "type": "ETUDE",
@@ -846,6 +871,11 @@
     "libelle": "Commission des affaires sociales",
     "ordre": 7003
   },{
+    "code": "COMENQ-MER",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête sur les inégalités systémiques auxquelles sont confrontées les collectivités ultra-marines et leurs habitants pour répondre aux enjeux de développement social et durable",
+    "ordre": 25003
+  },{
     "code": "COMSPE-SIMP",
     "type": "TEMPORAIRE",
     "libelle": "Commission spéciale sur le projet de loi simplification",
@@ -958,24 +988,29 @@
     "libelle": "Commission de la culture, de l'éducation, de la communication et du sport",
     "ordre": 7005
   },{
-    "code": "ETUDES-1007",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Métiers d'art",
-    "ordre": 50001
+    "code": "COMENQ-FPP",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête sur les mécanismes de financement des politiques publiques par des organismes, sociétés ou fondations de droit privé et des risques en matière d'influence, d'absence de transparence financière et d'entrave au fonctionnement de la démocratie ",
+    "ordre": 25002
   },{
     "code": "ETUDES-1008",
     "type": "ETUDE",
     "libelle": "Groupe Numérique",
     "ordre": 50001
   },{
-    "code": "ETUDES-938",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Arctique, Antarctique et Terres australes",
-    "ordre": 50001
-  },{
     "code": "ETUDES-966",
     "type": "ETUDE",
     "libelle": "Groupe d'études Arts de la scène, arts de la rue et festivals en régions ",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-1007",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Métiers d'art",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-938",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Arctique, Antarctique et Terres australes",
     "ordre": 50001
   },{
     "code": "BUR",
@@ -1190,15 +1225,20 @@
     "libelle": "Commission des affaires économiques",
     "ordre": 7001
   },{
-    "code": "ETUDES-1015",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Pêche et produits de la mer",
-    "ordre": 50001
+    "code": "COMENQ-MER",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête sur les inégalités systémiques auxquelles sont confrontées les collectivités ultra-marines et leurs habitants pour répondre aux enjeux de développement social et durable",
+    "ordre": 25003
   },{
     "code": "ETUDES-957",
     "type": "ETUDE",
     "libelle": "Groupe d'études Industrie",
     "ordre": 50563
+  },{
+    "code": "ETUDES-1015",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Pêche et produits de la mer",
+    "ordre": 50001
   }],
   "groupe": {
     "code": "RDSE",
@@ -1346,6 +1386,11 @@
     "libelle": "Commission des affaires sociales",
     "ordre": 7003
   },{
+    "code": "COMENQ-MER",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête sur les inégalités systémiques auxquelles sont confrontées les collectivités ultra-marines et leurs habitants pour répondre aux enjeux de développement social et durable",
+    "ordre": 25003
+  },{
     "code": "DELEGA-DSOM",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale aux outre-mer",
@@ -1454,6 +1499,11 @@
     "libelle": "Groupe d'études Vigne et vin",
     "ordre": 50001
   },{
+    "code": "ETUDES-1014",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Handicap",
+    "ordre": 50001
+  },{
     "code": "ETUDES-907",
     "type": "ETUDE",
     "libelle": "Groupe d'études Chasse et pêche",
@@ -1489,15 +1539,15 @@
     "libelle": "Groupe d'études Statut, rôle et place des Français établis hors de France",
     "ordre": 50001
   },{
-    "code": "ETUDES-1014",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Handicap",
-    "ordre": 50001
-  },{
     "code": "MECSS-MECSS",
     "type": "AUTRE",
     "libelle": "Mission d'évaluation et de contrôle de la sécurité sociale",
     "ordre": 21001
+  },{
+    "code": "MISINFCOM-PSY",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « La souffrance psychique au travail : un défi sociétal et collectif à relever »",
+    "ordre": 42004
   }],
   "groupe": {
     "code": "UMP",
@@ -1630,6 +1680,11 @@
     "libelle": "Commission des affaires étrangères, de la défense et des forces armées",
     "ordre": 7002
   },{
+    "code": "COMENQ-FPP",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête sur les mécanismes de financement des politiques publiques par des organismes, sociétés ou fondations de droit privé et des risques en matière d'influence, d'absence de transparence financière et d'entrave au fonctionnement de la démocratie ",
+    "ordre": 25002
+  },{
     "code": "COMSPEAPU-COMSPEAPU",
     "type": "INTERNE",
     "libelle": "Commission spéciale chargée du contrôle des comptes et de l'évaluation interne ",
@@ -1741,9 +1796,14 @@
     "libelle": "Commission des affaires économiques",
     "ordre": 7001
   },{
-    "code": "ETUDES-933",
+    "code": "ETUDES-928",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Aviation civile",
+    "libelle": "Groupe d'études Monde combattant et mémoire",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-1007",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Métiers d'art",
     "ordre": 50001
   },{
     "code": "ETUDES-922",
@@ -1776,14 +1836,14 @@
     "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   },{
-    "code": "ETUDES-928",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Monde combattant et mémoire",
-    "ordre": 50001
-  },{
     "code": "ETUDES-1015",
     "type": "ETUDE",
     "libelle": "Groupe d'études Pêche et produits de la mer",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-933",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Aviation civile",
     "ordre": 50001
   },{
     "code": "ETUDES-934",
@@ -1826,10 +1886,10 @@
     "libelle": "Groupe d'études Francophonie",
     "ordre": 50001
   },{
-    "code": "ETUDES-1007",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Métiers d'art",
-    "ordre": 50001
+    "code": "MISINFCOM-DIPL",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « la diplomatie climatique française à l'épreuve d'un monde en tension »",
+    "ordre": 42006
   },{
     "code": "OFFICE-206",
     "type": "DELEGATION/OFFICE",
@@ -2308,20 +2368,25 @@
     "libelle": "Délégation aux droits des femmes et à l'égalité des chances entre les hommes et les femmes",
     "ordre": 16003
   },{
-    "code": "ETUDES-1014",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Handicap",
-    "ordre": 50001
-  },{
     "code": "ETUDES-919",
     "type": "ETUDE",
     "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-1014",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Handicap",
     "ordre": 50001
   },{
     "code": "MECSS-MECSS",
     "type": "AUTRE",
     "libelle": "Mission d'évaluation et de contrôle de la sécurité sociale",
     "ordre": 21001
+  },{
+    "code": "MISINFCOM-PSY",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « La souffrance psychique au travail : un défi sociétal et collectif à relever »",
+    "ordre": 42004
   }],
   "groupe": {
     "code": "SOC",
@@ -2688,6 +2753,11 @@
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale aux outre-mer",
     "ordre": 16005
+  },{
+    "code": "MISINFCOM-PSY",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « La souffrance psychique au travail : un défi sociétal et collectif à relever »",
+    "ordre": 42004
   }],
   "groupe": {
     "code": "RDSE",
@@ -3055,6 +3125,11 @@
     "libelle": "Commission des finances",
     "ordre": 7006
   },{
+    "code": "COMENQ-FPP",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête sur les mécanismes de financement des politiques publiques par des organismes, sociétés ou fondations de droit privé et des risques en matière d'influence, d'absence de transparence financière et d'entrave au fonctionnement de la démocratie ",
+    "ordre": 25002
+  },{
     "code": "COMEUR-AFEU",
     "type": "COMMISSION",
     "libelle": "Commission des affaires européennes",
@@ -3144,6 +3219,11 @@
     "libelle": "Groupe d'études Monde combattant et mémoire",
     "ordre": 50001
   },{
+    "code": "MISINFCOM-DIPL",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « la diplomatie climatique française à l'épreuve d'un monde en tension »",
+    "ordre": 42006
+  },{
     "code": "MISINFCOM-BREXIT3",
     "type": "TEMPORAIRE",
     "libelle": "Groupe de suivi de la nouvelle relation euro-britannique",
@@ -3201,6 +3281,11 @@
     "type": "AUTRE",
     "libelle": "Mission d'évaluation et de contrôle de la sécurité sociale",
     "ordre": 21001
+  },{
+    "code": "MISINFCOM-PSY",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « La souffrance psychique au travail : un défi sociétal et collectif à relever »",
+    "ordre": 42004
   }],
   "groupe": {
     "code": "UMP",
@@ -3560,9 +3645,19 @@
     "libelle": "Commission de l'aménagement du territoire et du développement durable",
     "ordre": 7004
   },{
+    "code": "ETUDES-906",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Énergie",
+    "ordre": 50001
+  },{
     "code": "ETUDES-948",
     "type": "ETUDE",
     "libelle": "Groupe d'études Forêt et filière bois",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-907",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Chasse et pêche",
     "ordre": 50001
   },{
     "code": "ETUDES-919",
@@ -3570,15 +3665,10 @@
     "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   },{
-    "code": "ETUDES-906",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Énergie",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-907",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Chasse et pêche",
-    "ordre": 50001
+    "code": "MISINFCOM-LITT",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « Loi Littoral, Loi Montagne : 40 ans après, quelle différenciation ? »",
+    "ordre": 42005
   }],
   "groupe": {
     "code": "UMP",
@@ -3916,6 +4006,11 @@
     "libelle": "Commission des finances",
     "ordre": 7006
   },{
+    "code": "COMENQ-MER",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête sur les inégalités systémiques auxquelles sont confrontées les collectivités ultra-marines et leurs habitants pour répondre aux enjeux de développement social et durable",
+    "ordre": 25003
+  },{
     "code": "DELEGA-DSOM",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale aux outre-mer",
@@ -4058,6 +4153,11 @@
     "libelle": "Commission des affaires sociales",
     "ordre": 7003
   },{
+    "code": "COMENQ-FPP",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête sur les mécanismes de financement des politiques publiques par des organismes, sociétés ou fondations de droit privé et des risques en matière d'influence, d'absence de transparence financière et d'entrave au fonctionnement de la démocratie ",
+    "ordre": 25002
+  },{
     "code": "DELEGA-211",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation aux droits des femmes et à l'égalité des chances entre les hommes et les femmes",
@@ -4101,6 +4201,11 @@
     "type": "COMMISSION",
     "libelle": "Commission des lois constitutionnelles, de législation, du suffrage universel, du Règlement et d'administration générale",
     "ordre": 7007
+  },{
+    "code": "MISINFCOM-PSY",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « La souffrance psychique au travail : un défi sociétal et collectif à relever »",
+    "ordre": 42004
   }],
   "groupe": {
     "code": "SOC",
@@ -4203,6 +4308,36 @@
     "libelle": "Délégation sénatoriale à la prospective",
     "ordre": 16006
   },{
+    "code": "ETUDES-907",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Chasse et pêche",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-922",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Economie circulaire",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-906",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Énergie",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-1015",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Pêche et produits de la mer",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-908",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Mer et littoral",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
+  },{
     "code": "ETUDES-938",
     "type": "ETUDE",
     "libelle": "Groupe d'études Arctique, Antarctique et Terres australes",
@@ -4233,35 +4368,10 @@
     "libelle": "Groupe d'études Handicap",
     "ordre": 50001
   },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-1015",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Pêche et produits de la mer",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-907",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Chasse et pêche",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-906",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Énergie",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-922",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Economie circulaire",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-908",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Mer et littoral",
-    "ordre": 50001
+    "code": "MISINFCOM-LITT",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « Loi Littoral, Loi Montagne : 40 ans après, quelle différenciation ? »",
+    "ordre": 42005
   }],
   "groupe": {
     "code": "LREM",
@@ -4571,6 +4681,11 @@
     "type": "ETUDE",
     "libelle": "Groupe d'études Économie sociale et solidaire",
     "ordre": 50001
+  },{
+    "code": "MISINFCOM-LITT",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « Loi Littoral, Loi Montagne : 40 ans après, quelle différenciation ? »",
+    "ordre": 42005
   }],
   "groupe": {
     "code": "UC",
@@ -4665,20 +4780,25 @@
   "twitter": "loichervepublic",
   "facebook": "100058025893615",
   "organismes": [{
-    "code": "AUTRES-SFAPF",
-    "type": "AUTRE",
-    "libelle": "Section française de l'Assemblée parlementaire de la francophonie (A.P.F.)",
-    "ordre": 60017
-  },{
     "code": "AUTRES-UIP",
     "type": "AUTRE",
     "libelle": "Groupe français de l'Union Interparlementaire (U.I.P.)",
     "ordre": 60018
   },{
+    "code": "AUTRES-SFAPF",
+    "type": "AUTRE",
+    "libelle": "Section française de l'Assemblée parlementaire de la francophonie (A.P.F.)",
+    "ordre": 60017
+  },{
     "code": "COM-ETRD",
     "type": "COMMISSION",
     "libelle": "Commission des affaires étrangères, de la défense et des forces armées",
     "ordre": 7002
+  },{
+    "code": "COMENQ-FPP",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête sur les mécanismes de financement des politiques publiques par des organismes, sociétés ou fondations de droit privé et des risques en matière d'influence, d'absence de transparence financière et d'entrave au fonctionnement de la démocratie ",
+    "ordre": 25002
   },{
     "code": "COMSPE-CYBE",
     "type": "TEMPORAIRE",
@@ -4690,11 +4810,6 @@
     "libelle": "Délégation aux droits des femmes et à l'égalité des chances entre les hommes et les femmes",
     "ordre": 16003
   },{
-    "code": "ETUDES-934",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
-    "ordre": 50001
-  },{
     "code": "ETUDES-948",
     "type": "ETUDE",
     "libelle": "Groupe d'études Forêt et filière bois",
@@ -4704,6 +4819,11 @@
     "type": "ETUDE",
     "libelle": "Groupe d'études Industrie",
     "ordre": 50563
+  },{
+    "code": "ETUDES-934",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
+    "ordre": 50001
   },{
     "code": "ETUDES-933",
     "type": "ETUDE",
@@ -4827,6 +4947,21 @@
     "libelle": "Délégation sénatoriale aux outre-mer",
     "ordre": 16005
   },{
+    "code": "ETUDES-909",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Vigne et vin",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-1007",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Métiers d'art",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
+  },{
     "code": "ETUDES-928",
     "type": "ETUDE",
     "libelle": "Groupe d'études Monde combattant et mémoire",
@@ -4837,20 +4972,10 @@
     "libelle": "Groupe d'études Forêt et filière bois",
     "ordre": 50001
   },{
-    "code": "ETUDES-1007",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Métiers d'art",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-909",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Vigne et vin",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
+    "code": "MISINFCOM-DIPL",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « la diplomatie climatique française à l'épreuve d'un monde en tension »",
+    "ordre": 42006
   }],
   "groupe": {
     "code": "UC",
@@ -4895,16 +5020,6 @@
     "libelle": "Délégation sénatoriale aux entreprises",
     "ordre": 16004
   },{
-    "code": "ETUDES-918",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Développement économique de la montagne",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-909",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Vigne et vin",
-    "ordre": 50001
-  },{
     "code": "ETUDES-919",
     "type": "ETUDE",
     "libelle": "Groupe d'études Agriculture, élevage et alimentation",
@@ -4914,6 +5029,21 @@
     "type": "ETUDE",
     "libelle": "Groupe d'études Mer et littoral",
     "ordre": 50001
+  },{
+    "code": "ETUDES-909",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Vigne et vin",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-918",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Développement économique de la montagne",
+    "ordre": 50001
+  },{
+    "code": "MISINFCOM-LITT",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « Loi Littoral, Loi Montagne : 40 ans après, quelle différenciation ? »",
+    "ordre": 42005
   }],
   "groupe": {
     "code": "UMP",
@@ -4959,39 +5089,19 @@
     "libelle": "Délégation aux droits des femmes et à l'égalité des chances entre les hommes et les femmes",
     "ordre": 16003
   },{
-    "code": "DELEGA-COLTER",
-    "type": "DELEGATION/OFFICE",
-    "libelle": "Délégation sénatoriale aux collectivités territoriales et à la décentralisation",
-    "ordre": 16002
-  },{
     "code": "DELEGA-DSOM",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale aux outre-mer",
     "ordre": 16005
   },{
-    "code": "ETUDES-1014",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Handicap",
-    "ordre": 50001
+    "code": "DELEGA-COLTER",
+    "type": "DELEGATION/OFFICE",
+    "libelle": "Délégation sénatoriale aux collectivités territoriales et à la décentralisation",
+    "ordre": 16002
   },{
-    "code": "ETUDES-957",
+    "code": "ETUDES-906",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Industrie",
-    "ordre": 50563
-  },{
-    "code": "ETUDES-948",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Forêt et filière bois",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-907",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Chasse et pêche",
+    "libelle": "Groupe d'études Énergie",
     "ordre": 50001
   },{
     "code": "ETUDES-1015",
@@ -4999,10 +5109,35 @@
     "libelle": "Groupe d'études Pêche et produits de la mer",
     "ordre": 50001
   },{
-    "code": "ETUDES-906",
+    "code": "ETUDES-907",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Énergie",
+    "libelle": "Groupe d'études Chasse et pêche",
     "ordre": 50001
+  },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-948",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Forêt et filière bois",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-957",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Industrie",
+    "ordre": 50563
+  },{
+    "code": "ETUDES-1014",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Handicap",
+    "ordre": 50001
+  },{
+    "code": "MISINFCOM-LITT",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « Loi Littoral, Loi Montagne : 40 ans après, quelle différenciation ? »",
+    "ordre": 42005
   }],
   "groupe": {
     "code": "UMP",
@@ -5038,6 +5173,16 @@
     "libelle": "Commission des affaires sociales",
     "ordre": 7003
   },{
+    "code": "ETUDES-918",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Développement économique de la montagne",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-907",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Chasse et pêche",
+    "ordre": 50001
+  },{
     "code": "ETUDES-1014",
     "type": "ETUDE",
     "libelle": "Groupe d'études Handicap",
@@ -5053,15 +5198,10 @@
     "libelle": "Groupe d'études Industrie",
     "ordre": 50563
   },{
-    "code": "ETUDES-907",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Chasse et pêche",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-918",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Développement économique de la montagne",
-    "ordre": 50001
+    "code": "MISINFCOM-PSY",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « La souffrance psychique au travail : un défi sociétal et collectif à relever »",
+    "ordre": 42004
   }],
   "groupe": {
     "code": "UMP",
@@ -5354,6 +5494,11 @@
     "libelle": "Commission des finances",
     "ordre": 7006
   },{
+    "code": "COMENQ-FPP",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête sur les mécanismes de financement des politiques publiques par des organismes, sociétés ou fondations de droit privé et des risques en matière d'influence, d'absence de transparence financière et d'entrave au fonctionnement de la démocratie ",
+    "ordre": 25002
+  },{
     "code": "DELEGA-COLTER",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale aux collectivités territoriales et à la décentralisation",
@@ -5407,6 +5552,31 @@
     "libelle": "Délégation sénatoriale à la prospective",
     "ordre": 16006
   },{
+    "code": "ETUDES-907",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Chasse et pêche",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-906",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Énergie",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-1007",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Métiers d'art",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-933",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Aviation civile",
+    "ordre": 50001
+  },{
     "code": "ETUDES-938",
     "type": "ETUDE",
     "libelle": "Groupe d'études Arctique, Antarctique et Terres australes",
@@ -5422,30 +5592,10 @@
     "libelle": "Groupe Numérique",
     "ordre": 50001
   },{
-    "code": "ETUDES-933",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Aviation civile",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-1007",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Métiers d'art",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-906",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Énergie",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-907",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Chasse et pêche",
-    "ordre": 50001
+    "code": "MISINFCOM-DIPL",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « la diplomatie climatique française à l'épreuve d'un monde en tension »",
+    "ordre": 42006
   }],
   "groupe": {
     "code": "UMP",
@@ -5710,6 +5860,11 @@
     "libelle": "Commission des finances",
     "ordre": 7006
   },{
+    "code": "COMITE-COMITEDEONTO",
+    "type": "INTERNE",
+    "libelle": "Comité de déontologie parlementaire du Sénat",
+    "ordre": 18011
+  },{
     "code": "COMSPE-SIMP",
     "type": "TEMPORAIRE",
     "libelle": "Commission spéciale sur le projet de loi simplification",
@@ -5787,6 +5942,11 @@
     "type": "AUTRE",
     "libelle": "Délégation française à l'Assemblée parlementaire du Conseil de l'Europe",
     "ordre": 19012
+  },{
+    "code": "MISINFCOM-PSY",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « La souffrance psychique au travail : un défi sociétal et collectif à relever »",
+    "ordre": 42004
   }],
   "groupe": {
     "code": "CRC",
@@ -6112,6 +6272,26 @@
     "libelle": "Délégation aux droits des femmes et à l'égalité des chances entre les hommes et les femmes",
     "ordre": 16003
   },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-908",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Mer et littoral",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-909",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Vigne et vin",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-1007",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Métiers d'art",
+    "ordre": 50001
+  },{
     "code": "ETUDES-928",
     "type": "ETUDE",
     "libelle": "Groupe d'études Monde combattant et mémoire",
@@ -6137,25 +6317,10 @@
     "libelle": "Groupe d'études Francophonie",
     "ordre": 50001
   },{
-    "code": "ETUDES-1007",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Métiers d'art",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-909",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Vigne et vin",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-908",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Mer et littoral",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
+    "code": "MISINFCOM-LITT",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « Loi Littoral, Loi Montagne : 40 ans après, quelle différenciation ? »",
+    "ordre": 42005
   }],
   "groupe": {
     "code": "SOC",
@@ -6255,15 +6420,15 @@
   "twitter": "RachidTemal",
   "facebook": "100004551222221",
   "organismes": [{
-    "code": "AUTRES-SFAPF",
-    "type": "AUTRE",
-    "libelle": "Section française de l'Assemblée parlementaire de la francophonie (A.P.F.)",
-    "ordre": 60017
-  },{
     "code": "AUTRES-OTAN",
     "type": "AUTRE",
     "libelle": "Délégation française à l'Assemblée parlementaire de l'OTAN",
     "ordre": 60016
+  },{
+    "code": "AUTRES-SFAPF",
+    "type": "AUTRE",
+    "libelle": "Section française de l'Assemblée parlementaire de la francophonie (A.P.F.)",
+    "ordre": 60017
   },{
     "code": "COM-ETRD",
     "type": "COMMISSION",
@@ -6275,20 +6440,25 @@
     "libelle": "Délégation sénatoriale aux outre-mer",
     "ordre": 16005
   },{
-    "code": "ETUDES-933",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Aviation civile",
-    "ordre": 50001
-  },{
     "code": "ETUDES-938",
     "type": "ETUDE",
     "libelle": "Groupe d'études Arctique, Antarctique et Terres australes",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-933",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Aviation civile",
     "ordre": 50001
   },{
     "code": "ETUDES-928",
     "type": "ETUDE",
     "libelle": "Groupe d'études Monde combattant et mémoire",
     "ordre": 50001
+  },{
+    "code": "MISINFCOM-DIPL",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « la diplomatie climatique française à l'épreuve d'un monde en tension »",
+    "ordre": 42006
   }],
   "groupe": {
     "code": "SOC",
@@ -6397,6 +6567,11 @@
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale aux entreprises",
     "ordre": 16004
+  },{
+    "code": "MISINFCOM-PSY",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « La souffrance psychique au travail : un défi sociétal et collectif à relever »",
+    "ordre": 42004
   }],
   "groupe": {
     "code": "LREM",
@@ -6437,14 +6612,9 @@
     "libelle": "Délégation sénatoriale aux collectivités territoriales et à la décentralisation",
     "ordre": 16002
   },{
-    "code": "ETUDES-919",
+    "code": "ETUDES-907",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-918",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Développement économique de la montagne",
+    "libelle": "Groupe d'études Chasse et pêche",
     "ordre": 50001
   },{
     "code": "ETUDES-1008",
@@ -6452,10 +6622,20 @@
     "libelle": "Groupe Numérique",
     "ordre": 50001
   },{
-    "code": "ETUDES-907",
+    "code": "ETUDES-918",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Chasse et pêche",
+    "libelle": "Groupe d'études Développement économique de la montagne",
     "ordre": 50001
+  },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
+  },{
+    "code": "MISINFCOM-LITT",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « Loi Littoral, Loi Montagne : 40 ans après, quelle différenciation ? »",
+    "ordre": 42005
   }],
   "groupe": {
     "code": "RDSE",
@@ -6571,6 +6751,11 @@
     "libelle": "Commission des finances",
     "ordre": 7006
   },{
+    "code": "COMENQ-FPP",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête sur les mécanismes de financement des politiques publiques par des organismes, sociétés ou fondations de droit privé et des risques en matière d'influence, d'absence de transparence financière et d'entrave au fonctionnement de la démocratie ",
+    "ordre": 25002
+  },{
     "code": "COMSPEAPU-COMSPEAPU",
     "type": "INTERNE",
     "libelle": "Commission spéciale chargée du contrôle des comptes et de l'évaluation interne ",
@@ -6581,9 +6766,9 @@
     "libelle": "Délégation sénatoriale à la prospective",
     "ordre": 16006
   },{
-    "code": "ETUDES-948",
+    "code": "ETUDES-907",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Forêt et filière bois",
+    "libelle": "Groupe d'études Chasse et pêche",
     "ordre": 50001
   },{
     "code": "ETUDES-919",
@@ -6591,15 +6776,15 @@
     "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   },{
+    "code": "ETUDES-948",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Forêt et filière bois",
+    "ordre": 50001
+  },{
     "code": "ETUDES-957",
     "type": "ETUDE",
     "libelle": "Groupe d'études Industrie",
     "ordre": 50563
-  },{
-    "code": "ETUDES-907",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Chasse et pêche",
-    "ordre": 50001
   }],
   "groupe": {
     "code": "RDSE",
@@ -6664,6 +6849,11 @@
     "type": "ETUDE",
     "libelle": "Groupe d'études Statut, rôle et place des Français établis hors de France",
     "ordre": 50001
+  },{
+    "code": "MISINFCOM-DIPL",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « la diplomatie climatique française à l'épreuve d'un monde en tension »",
+    "ordre": 42006
   }],
   "groupe": {
     "code": "RDSE",
@@ -6785,6 +6975,11 @@
     "libelle": "Commission des affaires étrangères, de la défense et des forces armées",
     "ordre": 7002
   },{
+    "code": "MISINFCOM-DIPL",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « la diplomatie climatique française à l'épreuve d'un monde en tension »",
+    "ordre": 42006
+  },{
     "code": "BUR",
     "type": "INTERNE",
     "libelle": "Bureau du Sénat",
@@ -6891,21 +7086,6 @@
     "libelle": "Délégation sénatoriale aux entreprises",
     "ordre": 16004
   },{
-    "code": "ETUDES-957",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Industrie",
-    "ordre": 50563
-  },{
-    "code": "ETUDES-938",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Arctique, Antarctique et Terres australes",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
-  },{
     "code": "ETUDES-1004",
     "type": "ETUDE",
     "libelle": "Groupe d'études Cancer",
@@ -6915,6 +7095,26 @@
     "type": "ETUDE",
     "libelle": "Groupe d'études Vigne et vin",
     "ordre": 50001
+  },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-938",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Arctique, Antarctique et Terres australes",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-957",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Industrie",
+    "ordre": 50563
+  },{
+    "code": "MISINFCOM-PSY",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « La souffrance psychique au travail : un défi sociétal et collectif à relever »",
+    "ordre": 42004
   }],
   "groupe": {
     "code": "UC",
@@ -6984,20 +7184,20 @@
   "twitter": "MartadeCidrac",
   "facebook": "715289729",
   "organismes": [{
-    "code": "AUTRES-UIP",
+    "code": "AUTRES-ACMN",
     "type": "AUTRE",
-    "libelle": "Groupe français de l'Union Interparlementaire (U.I.P.)",
-    "ordre": 60018
+    "libelle": "Assemblée parlementaire de la coopération économique de la Mer noire",
+    "ordre": 60052
   },{
     "code": "AUTRES-SFAPF",
     "type": "AUTRE",
     "libelle": "Section française de l'Assemblée parlementaire de la francophonie (A.P.F.)",
     "ordre": 60017
   },{
-    "code": "AUTRES-ACMN",
+    "code": "AUTRES-UIP",
     "type": "AUTRE",
-    "libelle": "Assemblée parlementaire de la coopération économique de la Mer noire",
-    "ordre": 60052
+    "libelle": "Groupe français de l'Union Interparlementaire (U.I.P.)",
+    "ordre": 60018
   },{
     "code": "COM-CDD",
     "type": "COMMISSION",
@@ -7018,6 +7218,11 @@
     "type": "ETUDE",
     "libelle": "Groupe d'études Economie circulaire",
     "ordre": 50001
+  },{
+    "code": "MISINFCOM-DIPL",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « la diplomatie climatique française à l'épreuve d'un monde en tension »",
+    "ordre": 42006
   }],
   "groupe": {
     "code": "UMP",
@@ -7127,6 +7332,11 @@
     "libelle": "Groupe d'études Énergie",
     "ordre": 50001
   },{
+    "code": "ETUDES-1004",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Cancer",
+    "ordre": 50001
+  },{
     "code": "ETUDES-1014",
     "type": "ETUDE",
     "libelle": "Groupe d'études Handicap",
@@ -7142,15 +7352,15 @@
     "libelle": "Groupe d'études Monde combattant et mémoire",
     "ordre": 50001
   },{
-    "code": "ETUDES-1004",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Cancer",
-    "ordre": 50001
-  },{
     "code": "MECSS-MECSS",
     "type": "AUTRE",
     "libelle": "Mission d'évaluation et de contrôle de la sécurité sociale",
     "ordre": 21001
+  },{
+    "code": "MISINFCOM-PSY",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « La souffrance psychique au travail : un défi sociétal et collectif à relever »",
+    "ordre": 42004
   }],
   "groupe": {
     "code": "UMP",
@@ -7450,16 +7660,6 @@
     "libelle": "Délégation sénatoriale à la prospective",
     "ordre": 16006
   },{
-    "code": "ETUDES-938",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Arctique, Antarctique et Terres australes",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
-  },{
     "code": "ETUDES-1008",
     "type": "ETUDE",
     "libelle": "Groupe Numérique",
@@ -7469,6 +7669,21 @@
     "type": "ETUDE",
     "libelle": "Groupe d'études Chasse et pêche",
     "ordre": 50001
+  },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-938",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Arctique, Antarctique et Terres australes",
+    "ordre": 50001
+  },{
+    "code": "MISINFCOM-LITT",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « Loi Littoral, Loi Montagne : 40 ans après, quelle différenciation ? »",
+    "ordre": 42005
   }],
   "groupe": {
     "code": "UMP",
@@ -7825,6 +8040,11 @@
     "libelle": "Commission de la culture, de l'éducation, de la communication et du sport",
     "ordre": 7005
   },{
+    "code": "COMENQ-MER",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête sur les inégalités systémiques auxquelles sont confrontées les collectivités ultra-marines et leurs habitants pour répondre aux enjeux de développement social et durable",
+    "ordre": 25003
+  },{
     "code": "DELEGA-211",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation aux droits des femmes et à l'égalité des chances entre les hommes et les femmes",
@@ -7962,6 +8182,21 @@
     "libelle": "Commission spéciale sur le projet de loi simplification",
     "ordre": 24999
   },{
+    "code": "ETUDES-906",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Énergie",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-1015",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Pêche et produits de la mer",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-908",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Mer et littoral",
+    "ordre": 50001
+  },{
     "code": "ETUDES-919",
     "type": "ETUDE",
     "libelle": "Groupe d'études Agriculture, élevage et alimentation",
@@ -7972,20 +8207,10 @@
     "libelle": "Groupe Numérique",
     "ordre": 50001
   },{
-    "code": "ETUDES-1015",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Pêche et produits de la mer",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-906",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Énergie",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-908",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Mer et littoral",
-    "ordre": 50001
+    "code": "MISINFCOM-LITT",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « Loi Littoral, Loi Montagne : 40 ans après, quelle différenciation ? »",
+    "ordre": 42005
   }],
   "groupe": {
     "code": "SOC",
@@ -8178,6 +8403,11 @@
     "type": "COMMISSION",
     "libelle": "Commission de la culture, de l'éducation, de la communication et du sport",
     "ordre": 7005
+  },{
+    "code": "MISINFCOM-DIPL",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « la diplomatie climatique française à l'épreuve d'un monde en tension »",
+    "ordre": 42006
   }],
   "groupe": {
     "code": "SOC",
@@ -8218,6 +8448,21 @@
     "libelle": "Délégation sénatoriale aux entreprises",
     "ordre": 16004
   },{
+    "code": "ETUDES-922",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Economie circulaire",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-1015",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Pêche et produits de la mer",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-908",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Mer et littoral",
+    "ordre": 50001
+  },{
     "code": "ETUDES-928",
     "type": "ETUDE",
     "libelle": "Groupe d'études Monde combattant et mémoire",
@@ -8228,20 +8473,10 @@
     "libelle": "Groupe d'études Arctique, Antarctique et Terres australes",
     "ordre": 50001
   },{
-    "code": "ETUDES-1015",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Pêche et produits de la mer",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-922",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Economie circulaire",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-908",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Mer et littoral",
-    "ordre": 50001
+    "code": "MISINFCOM-LITT",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « Loi Littoral, Loi Montagne : 40 ans après, quelle différenciation ? »",
+    "ordre": 42005
   }],
   "groupe": {
     "code": "SOC",
@@ -8281,6 +8516,11 @@
     "type": "ETUDE",
     "libelle": "Groupe d'études Vigne et vin",
     "ordre": 50001
+  },{
+    "code": "MISINFCOM-DIPL",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « la diplomatie climatique française à l'épreuve d'un monde en tension »",
+    "ordre": 42006
   }],
   "groupe": {
     "code": "SOC",
@@ -8454,6 +8694,31 @@
     "libelle": "Délégation sénatoriale aux outre-mer",
     "ordre": 16005
   },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-908",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Mer et littoral",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-909",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Vigne et vin",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-1007",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Métiers d'art",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-928",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Monde combattant et mémoire",
+    "ordre": 50001
+  },{
     "code": "ETUDES-933",
     "type": "ETUDE",
     "libelle": "Groupe d'études Aviation civile",
@@ -8484,30 +8749,10 @@
     "libelle": "Groupe d'études Francophonie",
     "ordre": 50001
   },{
-    "code": "ETUDES-1007",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Métiers d'art",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-909",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Vigne et vin",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-908",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Mer et littoral",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-928",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Monde combattant et mémoire",
-    "ordre": 50001
+    "code": "MISINFCOM-DIPL",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « la diplomatie climatique française à l'épreuve d'un monde en tension »",
+    "ordre": 42006
   }],
   "groupe": {
     "code": "LREM",
@@ -8547,6 +8792,11 @@
     "type": "COMMISSION",
     "libelle": "Commission des affaires étrangères, de la défense et des forces armées",
     "ordre": 7002
+  },{
+    "code": "COMENQ-FPP",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête sur les mécanismes de financement des politiques publiques par des organismes, sociétés ou fondations de droit privé et des risques en matière d'influence, d'absence de transparence financière et d'entrave au fonctionnement de la démocratie ",
+    "ordre": 25002
   },{
     "code": "CONEUR-DELCONEUR",
     "type": "AUTRE",
@@ -8602,9 +8852,24 @@
     "libelle": "Groupe d'études Vigne et vin",
     "ordre": 50001
   },{
+    "code": "ETUDES-922",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Economie circulaire",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-906",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Énergie",
+    "ordre": 50001
+  },{
     "code": "ETUDES-1014",
     "type": "ETUDE",
     "libelle": "Groupe d'études Handicap",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   },{
     "code": "ETUDES-934",
@@ -8627,20 +8892,10 @@
     "libelle": "Groupe Numérique",
     "ordre": 50001
   },{
-    "code": "ETUDES-906",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Énergie",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-922",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Economie circulaire",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
+    "code": "MISINFCOM-PSY",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « La souffrance psychique au travail : un défi sociétal et collectif à relever »",
+    "ordre": 42004
   }],
   "groupe": {
     "code": "RTLI",
@@ -8916,6 +9171,11 @@
     "type": "ETUDE",
     "libelle": "Groupe d'études Énergie",
     "ordre": 50001
+  },{
+    "code": "MISINFCOM-PSY",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « La souffrance psychique au travail : un défi sociétal et collectif à relever »",
+    "ordre": 42004
   }],
   "groupe": {
     "code": "UC",
@@ -9109,6 +9369,11 @@
     "libelle": "Délégation aux droits des femmes et à l'égalité des chances entre les hommes et les femmes",
     "ordre": 16003
   },{
+    "code": "ETUDES-1006",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Francophonie",
+    "ordre": 50001
+  },{
     "code": "ETUDES-1008",
     "type": "ETUDE",
     "libelle": "Groupe Numérique",
@@ -9119,10 +9384,10 @@
     "libelle": "Groupe d'études Statut, rôle et place des Français établis hors de France",
     "ordre": 50001
   },{
-    "code": "ETUDES-1006",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Francophonie",
-    "ordre": 50001
+    "code": "MISINFCOM-DIPL",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « la diplomatie climatique française à l'épreuve d'un monde en tension »",
+    "ordre": 42006
   }],
   "groupe": {
     "code": "UC",
@@ -9335,6 +9600,11 @@
     "type": "AUTRE",
     "libelle": "Mission d'évaluation et de contrôle de la sécurité sociale",
     "ordre": 21001
+  },{
+    "code": "MISINFCOM-PSY",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « La souffrance psychique au travail : un défi sociétal et collectif à relever »",
+    "ordre": 42004
   },{
     "code": "BUR",
     "type": "INTERNE",
@@ -9595,6 +9865,11 @@
     "libelle": "Commission des affaires sociales",
     "ordre": 7003
   },{
+    "code": "COMENQ-FPP",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête sur les mécanismes de financement des politiques publiques par des organismes, sociétés ou fondations de droit privé et des risques en matière d'influence, d'absence de transparence financière et d'entrave au fonctionnement de la démocratie ",
+    "ordre": 25002
+  },{
     "code": "COMSPE-CYBE",
     "type": "TEMPORAIRE",
     "libelle": "Commission spéciale sur le projet de loi relatif à la résilience des activités d'importance vitale, à la protection des infrastructures critiques, à la cybersécurité et à la résilience opérationnelle numérique du secteur financier",
@@ -9605,11 +9880,6 @@
     "libelle": "Délégation sénatoriale aux collectivités territoriales et à la décentralisation",
     "ordre": 16002
   },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
-  },{
     "code": "ETUDES-1004",
     "type": "ETUDE",
     "libelle": "Groupe d'études Cancer",
@@ -9618,6 +9888,11 @@
     "code": "ETUDES-1014",
     "type": "ETUDE",
     "libelle": "Groupe d'études Handicap",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   },{
     "code": "ETUDES-909",
@@ -9758,9 +10033,24 @@
     "libelle": "Délégation sénatoriale aux collectivités territoriales et à la décentralisation",
     "ordre": 16002
   },{
+    "code": "ETUDES-906",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Énergie",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-922",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Economie circulaire",
+    "ordre": 50001
+  },{
     "code": "ETUDES-948",
     "type": "ETUDE",
     "libelle": "Groupe d'études Forêt et filière bois",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-907",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Chasse et pêche",
     "ordre": 50001
   },{
     "code": "ETUDES-909",
@@ -9778,20 +10068,10 @@
     "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   },{
-    "code": "ETUDES-906",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Énergie",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-922",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Economie circulaire",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-907",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Chasse et pêche",
-    "ordre": 50001
+    "code": "MISINFCOM-LITT",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « Loi Littoral, Loi Montagne : 40 ans après, quelle différenciation ? »",
+    "ordre": 42005
   }],
   "groupe": {
     "code": "UMP",
@@ -9891,20 +10171,25 @@
     "libelle": "Délégation sénatoriale aux outre-mer",
     "ordre": 16005
   },{
-    "code": "DELEGA-RENSEIGNEMEN",
-    "type": "DELEGATION/OFFICE",
-    "libelle": "Délégation parlementaire au renseignement ",
-    "ordre": 16007
-  },{
     "code": "DELEGA-CVFS",
     "type": "DELEGATION/OFFICE",
     "libelle": "Commission de vérification des fonds spéciaux",
     "ordre": 16999
   },{
+    "code": "DELEGA-RENSEIGNEMEN",
+    "type": "DELEGATION/OFFICE",
+    "libelle": "Délégation parlementaire au renseignement ",
+    "ordre": 16007
+  },{
     "code": "ETUDES-908",
     "type": "ETUDE",
     "libelle": "Groupe d'études Mer et littoral",
     "ordre": 50001
+  },{
+    "code": "MISINFCOM-LITT",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « Loi Littoral, Loi Montagne : 40 ans après, quelle différenciation ? »",
+    "ordre": 42005
   }],
   "groupe": {
     "code": "UMP",
@@ -10154,6 +10439,11 @@
     "libelle": "Commission de la culture, de l'éducation, de la communication et du sport",
     "ordre": 7005
   },{
+    "code": "COMENQ-MER",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête sur les inégalités systémiques auxquelles sont confrontées les collectivités ultra-marines et leurs habitants pour répondre aux enjeux de développement social et durable",
+    "ordre": 25003
+  },{
     "code": "DELEGA-DSOM",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale aux outre-mer",
@@ -10197,10 +10487,20 @@
     "libelle": "Commission des lois constitutionnelles, de législation, du suffrage universel, du Règlement et d'administration générale",
     "ordre": 7007
   },{
+    "code": "COMENQ-MER",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête sur les inégalités systémiques auxquelles sont confrontées les collectivités ultra-marines et leurs habitants pour répondre aux enjeux de développement social et durable",
+    "ordre": 25003
+  },{
     "code": "DELEGA-DSOM",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale aux outre-mer",
     "ordre": 16005
+  },{
+    "code": "ETUDES-909",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Vigne et vin",
+    "ordre": 50001
   },{
     "code": "ETUDES-1010",
     "type": "ETUDE",
@@ -10210,11 +10510,6 @@
     "code": "ETUDES-1007",
     "type": "ETUDE",
     "libelle": "Groupe d'études Métiers d'art",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-909",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Vigne et vin",
     "ordre": 50001
   }],
   "groupe": {
@@ -10248,6 +10543,11 @@
     "type": "COMMISSION",
     "libelle": "Commission de la culture, de l'éducation, de la communication et du sport",
     "ordre": 7005
+  },{
+    "code": "COMENQ-MER",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête sur les inégalités systémiques auxquelles sont confrontées les collectivités ultra-marines et leurs habitants pour répondre aux enjeux de développement social et durable",
+    "ordre": 25003
   },{
     "code": "DELEGA-DSOM",
     "type": "DELEGATION/OFFICE",
@@ -10371,6 +10671,11 @@
     "type": "AUTRE",
     "libelle": "Délégation française à l'Assemblée parlementaire du Conseil de l'Europe",
     "ordre": 19012
+  },{
+    "code": "MISINFCOM-DIPL",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « la diplomatie climatique française à l'épreuve d'un monde en tension »",
+    "ordre": 42006
   }],
   "groupe": {
     "code": "CRC",
@@ -10512,10 +10817,20 @@
     "libelle": "Commission de la culture, de l'éducation, de la communication et du sport",
     "ordre": 7005
   },{
+    "code": "COMENQ-FPP",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête sur les mécanismes de financement des politiques publiques par des organismes, sociétés ou fondations de droit privé et des risques en matière d'influence, d'absence de transparence financière et d'entrave au fonctionnement de la démocratie ",
+    "ordre": 25002
+  },{
     "code": "DELEGA-211",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation aux droits des femmes et à l'égalité des chances entre les hommes et les femmes",
     "ordre": 16003
+  },{
+    "code": "ETUDES-966",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Arts de la scène, arts de la rue et festivals en régions ",
+    "ordre": 50001
   },{
     "code": "ETUDES-1006",
     "type": "ETUDE",
@@ -10525,11 +10840,6 @@
     "code": "ETUDES-1007",
     "type": "ETUDE",
     "libelle": "Groupe d'études Métiers d'art",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-966",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Arts de la scène, arts de la rue et festivals en régions ",
     "ordre": 50001
   }],
   "groupe": {
@@ -10716,15 +11026,20 @@
     "libelle": "Commission spéciale sur le projet de loi simplification",
     "ordre": 24999
   },{
+    "code": "ETUDES-948",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Forêt et filière bois",
+    "ordre": 50001
+  },{
     "code": "ETUDES-938",
     "type": "ETUDE",
     "libelle": "Groupe d'études Arctique, Antarctique et Terres australes",
     "ordre": 50001
   },{
-    "code": "ETUDES-948",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Forêt et filière bois",
-    "ordre": 50001
+    "code": "MISINFCOM-DIPL",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « la diplomatie climatique française à l'épreuve d'un monde en tension »",
+    "ordre": 42006
   },{
     "code": "OFFICE-206",
     "type": "DELEGATION/OFFICE",
@@ -10769,6 +11084,11 @@
     "type": "COMMISSION",
     "libelle": "Commission de la culture, de l'éducation, de la communication et du sport",
     "ordre": 7005
+  },{
+    "code": "COMENQ-FPP",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête sur les mécanismes de financement des politiques publiques par des organismes, sociétés ou fondations de droit privé et des risques en matière d'influence, d'absence de transparence financière et d'entrave au fonctionnement de la démocratie ",
+    "ordre": 25002
   },{
     "code": "COMEUR-AFEU",
     "type": "COMMISSION",
@@ -10818,6 +11138,11 @@
     "type": "COMMISSION",
     "libelle": "Commission des lois constitutionnelles, de législation, du suffrage universel, du Règlement et d'administration générale",
     "ordre": 7007
+  },{
+    "code": "COMENQ-MER",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête sur les inégalités systémiques auxquelles sont confrontées les collectivités ultra-marines et leurs habitants pour répondre aux enjeux de développement social et durable",
+    "ordre": 25003
   },{
     "code": "DELEGA-PROS",
     "type": "DELEGATION/OFFICE",
@@ -11275,6 +11600,21 @@
     "libelle": "Commission des affaires étrangères, de la défense et des forces armées",
     "ordre": 7002
   },{
+    "code": "ETUDES-907",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Chasse et pêche",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-933",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Aviation civile",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-908",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Mer et littoral",
+    "ordre": 50001
+  },{
     "code": "ETUDES-909",
     "type": "ETUDE",
     "libelle": "Groupe d'études Vigne et vin",
@@ -11285,20 +11625,10 @@
     "libelle": "Groupe d'études Monde combattant et mémoire",
     "ordre": 50001
   },{
-    "code": "ETUDES-933",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Aviation civile",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-907",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Chasse et pêche",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-908",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Mer et littoral",
-    "ordre": 50001
+    "code": "MISINFCOM-DIPL",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « la diplomatie climatique française à l'épreuve d'un monde en tension »",
+    "ordre": 42006
   }],
   "groupe": {
     "code": "RTLI",
@@ -11334,6 +11664,11 @@
     "libelle": "Commission des finances",
     "ordre": 7006
   },{
+    "code": "COMENQ-FPP",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête sur les mécanismes de financement des politiques publiques par des organismes, sociétés ou fondations de droit privé et des risques en matière d'influence, d'absence de transparence financière et d'entrave au fonctionnement de la démocratie ",
+    "ordre": 25002
+  },{
     "code": "COMSPE-CYBE",
     "type": "TEMPORAIRE",
     "libelle": "Commission spéciale sur le projet de loi relatif à la résilience des activités d'importance vitale, à la protection des infrastructures critiques, à la cybersécurité et à la résilience opérationnelle numérique du secteur financier",
@@ -11344,14 +11679,14 @@
     "libelle": "Délégation sénatoriale à la prospective",
     "ordre": 16006
   },{
-    "code": "ETUDES-909",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Vigne et vin",
-    "ordre": 50001
-  },{
     "code": "ETUDES-948",
     "type": "ETUDE",
     "libelle": "Groupe d'études Forêt et filière bois",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-909",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Vigne et vin",
     "ordre": 50001
   }],
   "groupe": {
@@ -11490,6 +11825,11 @@
     "libelle": "Commission de la culture, de l'éducation, de la communication et du sport",
     "ordre": 7005
   },{
+    "code": "COMENQ-FPP",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête sur les mécanismes de financement des politiques publiques par des organismes, sociétés ou fondations de droit privé et des risques en matière d'influence, d'absence de transparence financière et d'entrave au fonctionnement de la démocratie ",
+    "ordre": 25002
+  },{
     "code": "DELEGA-COLTER",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale aux collectivités territoriales et à la décentralisation",
@@ -11564,6 +11904,26 @@
     "libelle": "Délégation aux droits des femmes et à l'égalité des chances entre les hommes et les femmes",
     "ordre": 16003
   },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-918",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Développement économique de la montagne",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-1014",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Handicap",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-933",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Aviation civile",
+    "ordre": 50001
+  },{
     "code": "ETUDES-934",
     "type": "ETUDE",
     "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
@@ -11579,25 +11939,10 @@
     "libelle": "Groupe d'études Économie sociale et solidaire",
     "ordre": 50001
   },{
-    "code": "ETUDES-933",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Aviation civile",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-1014",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Handicap",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-918",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Développement économique de la montagne",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
+    "code": "MISINFCOM-LITT",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « Loi Littoral, Loi Montagne : 40 ans après, quelle différenciation ? »",
+    "ordre": 42005
   },{
     "code": "BUR",
     "type": "INTERNE",
@@ -11652,6 +11997,11 @@
     "type": "AUTRE",
     "libelle": "Mission d'évaluation et de contrôle de la sécurité sociale",
     "ordre": 21001
+  },{
+    "code": "MISINFCOM-PSY",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « La souffrance psychique au travail : un défi sociétal et collectif à relever »",
+    "ordre": 42004
   },{
     "code": "OFFICE-206",
     "type": "DELEGATION/OFFICE",
@@ -11848,6 +12198,11 @@
     "type": "ETUDE",
     "libelle": "Groupe d'études Economie circulaire",
     "ordre": 50001
+  },{
+    "code": "MISINFCOM-LITT",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « Loi Littoral, Loi Montagne : 40 ans après, quelle différenciation ? »",
+    "ordre": 42005
   }],
   "groupe": {
     "code": "UC",
@@ -12082,16 +12437,6 @@
     "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
     "ordre": 50001
   },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-909",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Vigne et vin",
-    "ordre": 50001
-  },{
     "code": "ETUDES-1006",
     "type": "ETUDE",
     "libelle": "Groupe d'études Francophonie",
@@ -12101,6 +12446,21 @@
     "type": "ETUDE",
     "libelle": "Groupe d'études Énergie",
     "ordre": 50001
+  },{
+    "code": "ETUDES-909",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Vigne et vin",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
+  },{
+    "code": "MISINFCOM-DIPL",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « la diplomatie climatique française à l'épreuve d'un monde en tension »",
+    "ordre": 42006
   },{
     "code": "BUR",
     "type": "INTERNE",
@@ -12140,20 +12500,25 @@
     "libelle": "Commission des affaires sociales",
     "ordre": 7003
   },{
-    "code": "ETUDES-1014",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Handicap",
-    "ordre": 50001
-  },{
     "code": "ETUDES-919",
     "type": "ETUDE",
     "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-1014",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Handicap",
     "ordre": 50001
   },{
     "code": "MECSS-MECSS",
     "type": "AUTRE",
     "libelle": "Mission d'évaluation et de contrôle de la sécurité sociale",
     "ordre": 21001
+  },{
+    "code": "MISINFCOM-PSY",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « La souffrance psychique au travail : un défi sociétal et collectif à relever »",
+    "ordre": 42004
   }],
   "groupe": {
     "code": "UMP",
@@ -12286,11 +12651,6 @@
     "libelle": "Commission des affaires étrangères, de la défense et des forces armées",
     "ordre": 7002
   },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
-  },{
     "code": "ETUDES-1007",
     "type": "ETUDE",
     "libelle": "Groupe d'études Métiers d'art",
@@ -12300,6 +12660,16 @@
     "type": "ETUDE",
     "libelle": "Groupe d'études Vigne et vin",
     "ordre": 50001
+  },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
+  },{
+    "code": "MISINFCOM-DIPL",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « la diplomatie climatique française à l'épreuve d'un monde en tension »",
+    "ordre": 42006
   }],
   "groupe": {
     "code": "UMP",
@@ -12582,6 +12952,11 @@
     "libelle": "Commission des affaires sociales",
     "ordre": 7003
   },{
+    "code": "COMENQ-FPP",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête sur les mécanismes de financement des politiques publiques par des organismes, sociétés ou fondations de droit privé et des risques en matière d'influence, d'absence de transparence financière et d'entrave au fonctionnement de la démocratie ",
+    "ordre": 25002
+  },{
     "code": "DELEGA-PROS",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale à la prospective",
@@ -12709,6 +13084,26 @@
     "libelle": "Délégation sénatoriale à la prospective",
     "ordre": 16006
   },{
+    "code": "ETUDES-909",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Vigne et vin",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-1007",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Métiers d'art",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-934",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
+    "ordre": 50001
+  },{
     "code": "ETUDES-966",
     "type": "ETUDE",
     "libelle": "Groupe d'études Arts de la scène, arts de la rue et festivals en régions ",
@@ -12719,25 +13114,10 @@
     "libelle": "Groupe d'études Handicap",
     "ordre": 50001
   },{
-    "code": "ETUDES-934",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-1007",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Métiers d'art",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-909",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Vigne et vin",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
+    "code": "MISINFCOM-PSY",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « La souffrance psychique au travail : un défi sociétal et collectif à relever »",
+    "ordre": 42004
   }],
   "groupe": {
     "code": "UMP",
@@ -13163,6 +13543,11 @@
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale aux collectivités territoriales et à la décentralisation",
     "ordre": 16002
+  },{
+    "code": "MISINFCOM-LITT",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « Loi Littoral, Loi Montagne : 40 ans après, quelle différenciation ? »",
+    "ordre": 42005
   }],
   "groupe": {
     "code": "CRC",
@@ -13250,11 +13635,6 @@
     "type": "COMMISSION",
     "libelle": "Commission de la culture, de l'éducation, de la communication et du sport",
     "ordre": 7005
-  },{
-    "code": "COMITE-COMITEDEONTO",
-    "type": "INTERNE",
-    "libelle": "Comité de déontologie parlementaire du Sénat",
-    "ordre": 18011
   },{
     "code": "ETUDES-934",
     "type": "ETUDE",
@@ -13426,6 +13806,11 @@
     "type": "ETUDE",
     "libelle": "Groupe d'études Arctique, Antarctique et Terres australes",
     "ordre": 50001
+  },{
+    "code": "MISINFCOM-PSY",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « La souffrance psychique au travail : un défi sociétal et collectif à relever »",
+    "ordre": 42004
   }],
   "groupe": {
     "code": "SOC",
@@ -13513,6 +13898,11 @@
     "type": "COMMISSION",
     "libelle": "Commission des affaires sociales",
     "ordre": 7003
+  },{
+    "code": "MISINFCOM-PSY",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « La souffrance psychique au travail : un défi sociétal et collectif à relever »",
+    "ordre": 42004
   }],
   "groupe": {
     "code": "SOC",
@@ -13600,6 +13990,11 @@
     "type": "COMMISSION",
     "libelle": "Commission des finances",
     "ordre": 7006
+  },{
+    "code": "MISINFCOM-LITT",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « Loi Littoral, Loi Montagne : 40 ans après, quelle différenciation ? »",
+    "ordre": 42005
   }],
   "groupe": {
     "code": "SOC",
@@ -13741,6 +14136,11 @@
     "libelle": "Commission de l'aménagement du territoire et du développement durable",
     "ordre": 7004
   },{
+    "code": "COMENQ-MER",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête sur les inégalités systémiques auxquelles sont confrontées les collectivités ultra-marines et leurs habitants pour répondre aux enjeux de développement social et durable",
+    "ordre": 25003
+  },{
     "code": "DELEGA-DSOM",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale aux outre-mer",
@@ -13844,20 +14244,25 @@
     "libelle": "Délégation sénatoriale aux entreprises",
     "ordre": 16004
   },{
-    "code": "ETUDES-918",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Développement économique de la montagne",
-    "ordre": 50001
-  },{
     "code": "ETUDES-922",
     "type": "ETUDE",
     "libelle": "Groupe d'études Economie circulaire",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-918",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Développement économique de la montagne",
     "ordre": 50001
   },{
     "code": "MISINFCOM-BREXIT3",
     "type": "TEMPORAIRE",
     "libelle": "Groupe de suivi de la nouvelle relation euro-britannique",
     "ordre": 42999
+  },{
+    "code": "MISINFCOM-LITT",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « Loi Littoral, Loi Montagne : 40 ans après, quelle différenciation ? »",
+    "ordre": 42005
   }],
   "groupe": {
     "code": "GEST",
@@ -13897,6 +14302,11 @@
     "type": "COMMISSION",
     "libelle": "Commission des lois constitutionnelles, de législation, du suffrage universel, du Règlement et d'administration générale",
     "ordre": 7007
+  },{
+    "code": "COMENQ-FPP",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête sur les mécanismes de financement des politiques publiques par des organismes, sociétés ou fondations de droit privé et des risques en matière d'influence, d'absence de transparence financière et d'entrave au fonctionnement de la démocratie ",
+    "ordre": 25002
   },{
     "code": "DELEGA-PROS",
     "type": "DELEGATION/OFFICE",
@@ -14092,14 +14502,9 @@
     "libelle": "Commission des affaires sociales",
     "ordre": 7003
   },{
-    "code": "ETUDES-1004",
+    "code": "ETUDES-909",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Cancer",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "libelle": "Groupe d'études Vigne et vin",
     "ordre": 50001
   },{
     "code": "ETUDES-1014",
@@ -14107,10 +14512,20 @@
     "libelle": "Groupe d'études Handicap",
     "ordre": 50001
   },{
-    "code": "ETUDES-909",
+    "code": "ETUDES-919",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Vigne et vin",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
+  },{
+    "code": "ETUDES-1004",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Cancer",
+    "ordre": 50001
+  },{
+    "code": "MISINFCOM-PSY",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « La souffrance psychique au travail : un défi sociétal et collectif à relever »",
+    "ordre": 42004
   }],
   "groupe": {
     "code": "RTLI",
@@ -14411,29 +14826,9 @@
     "libelle": "Délégation sénatoriale aux entreprises",
     "ordre": 16004
   },{
-    "code": "ETUDES-1008",
+    "code": "ETUDES-922",
     "type": "ETUDE",
-    "libelle": "Groupe Numérique",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-957",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Industrie",
-    "ordre": 50563
-  },{
-    "code": "ETUDES-934",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-918",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Développement économique de la montagne",
+    "libelle": "Groupe d'études Economie circulaire",
     "ordre": 50001
   },{
     "code": "ETUDES-1014",
@@ -14441,10 +14836,35 @@
     "libelle": "Groupe d'études Handicap",
     "ordre": 50001
   },{
-    "code": "ETUDES-922",
+    "code": "ETUDES-918",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Economie circulaire",
+    "libelle": "Groupe d'études Développement économique de la montagne",
     "ordre": 50001
+  },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-934",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-957",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Industrie",
+    "ordre": 50563
+  },{
+    "code": "ETUDES-1008",
+    "type": "ETUDE",
+    "libelle": "Groupe Numérique",
+    "ordre": 50001
+  },{
+    "code": "MISINFCOM-LITT",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « Loi Littoral, Loi Montagne : 40 ans après, quelle différenciation ? »",
+    "ordre": 42005
   }],
   "groupe": {
     "code": "RTLI",
@@ -14737,20 +15157,45 @@
     "libelle": "Commission des finances",
     "ordre": 7006
   },{
-    "code": "COMSPE-SIMP",
-    "type": "TEMPORAIRE",
-    "libelle": "Commission spéciale sur le projet de loi simplification",
-    "ordre": 24999
-  },{
     "code": "COMSPE-CYBE",
     "type": "TEMPORAIRE",
     "libelle": "Commission spéciale sur le projet de loi relatif à la résilience des activités d'importance vitale, à la protection des infrastructures critiques, à la cybersécurité et à la résilience opérationnelle numérique du secteur financier",
+    "ordre": 24999
+  },{
+    "code": "COMSPE-SIMP",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission spéciale sur le projet de loi simplification",
     "ordre": 24999
   },{
     "code": "DELEGA-ENTREPRISES",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale aux entreprises",
     "ordre": 16004
+  },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-922",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Economie circulaire",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-906",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Énergie",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-908",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Mer et littoral",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-1015",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Pêche et produits de la mer",
+    "ordre": 50001
   },{
     "code": "ETUDES-933",
     "type": "ETUDE",
@@ -14787,30 +15232,10 @@
     "libelle": "Groupe d'études Métiers d'art",
     "ordre": 50001
   },{
-    "code": "ETUDES-1015",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Pêche et produits de la mer",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-908",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Mer et littoral",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-906",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Énergie",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-922",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Economie circulaire",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
+    "code": "MISINFCOM-LITT",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « Loi Littoral, Loi Montagne : 40 ans après, quelle différenciation ? »",
+    "ordre": 42005
   }],
   "groupe": {
     "code": "UC",
@@ -15020,6 +15445,11 @@
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale aux entreprises",
     "ordre": 16004
+  },{
+    "code": "MISINFCOM-PSY",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « La souffrance psychique au travail : un défi sociétal et collectif à relever »",
+    "ordre": 42004
   }],
   "groupe": {
     "code": "UC",
@@ -15257,9 +15687,9 @@
     "libelle": "Commission des affaires économiques",
     "ordre": 7001
   },{
-    "code": "ETUDES-919",
+    "code": "ETUDES-907",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "libelle": "Groupe d'études Chasse et pêche",
     "ordre": 50001
   },{
     "code": "ETUDES-957",
@@ -15267,10 +15697,15 @@
     "libelle": "Groupe d'études Industrie",
     "ordre": 50563
   },{
-    "code": "ETUDES-907",
+    "code": "ETUDES-919",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Chasse et pêche",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
+  },{
+    "code": "MISINFCOM-LITT",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « Loi Littoral, Loi Montagne : 40 ans après, quelle différenciation ? »",
+    "ordre": 42005
   }],
   "groupe": {
     "code": "UMP",
@@ -15662,6 +16097,11 @@
     "libelle": "Commission des affaires sociales",
     "ordre": 7003
   },{
+    "code": "COMENQ-MER",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête sur les inégalités systémiques auxquelles sont confrontées les collectivités ultra-marines et leurs habitants pour répondre aux enjeux de développement social et durable",
+    "ordre": 25003
+  },{
     "code": "DELEGA-DSOM",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale aux outre-mer",
@@ -15700,6 +16140,11 @@
     "type": "COMMISSION",
     "libelle": "Commission des lois constitutionnelles, de législation, du suffrage universel, du Règlement et d'administration générale",
     "ordre": 7007
+  },{
+    "code": "COMENQ-FPP",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête sur les mécanismes de financement des politiques publiques par des organismes, sociétés ou fondations de droit privé et des risques en matière d'influence, d'absence de transparence financière et d'entrave au fonctionnement de la démocratie ",
+    "ordre": 25002
   },{
     "code": "COMSPE-CYBE",
     "type": "TEMPORAIRE",
@@ -15745,6 +16190,11 @@
     "libelle": "Commission des affaires économiques",
     "ordre": 7001
   },{
+    "code": "COMENQ-FPP",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête sur les mécanismes de financement des politiques publiques par des organismes, sociétés ou fondations de droit privé et des risques en matière d'influence, d'absence de transparence financière et d'entrave au fonctionnement de la démocratie ",
+    "ordre": 25002
+  },{
     "code": "COMEUR-AFEU",
     "type": "COMMISSION",
     "libelle": "Commission des affaires européennes",
@@ -15755,15 +16205,15 @@
     "libelle": "Délégation française à l'Assemblée parlementaire du Conseil de l'Europe",
     "ordre": 19012
   },{
-    "code": "ETUDES-957",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Industrie",
-    "ordre": 50563
-  },{
     "code": "ETUDES-1015",
     "type": "ETUDE",
     "libelle": "Groupe d'études Pêche et produits de la mer",
     "ordre": 50001
+  },{
+    "code": "ETUDES-957",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Industrie",
+    "ordre": 50563
   },{
     "code": "MISINFCOM-BREXIT3",
     "type": "TEMPORAIRE",
@@ -15853,6 +16303,11 @@
     "libelle": "Commission de la culture, de l'éducation, de la communication et du sport",
     "ordre": 7005
   },{
+    "code": "COMENQ-FPP",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête sur les mécanismes de financement des politiques publiques par des organismes, sociétés ou fondations de droit privé et des risques en matière d'influence, d'absence de transparence financière et d'entrave au fonctionnement de la démocratie ",
+    "ordre": 25002
+  },{
     "code": "DELEGA-211",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation aux droits des femmes et à l'égalité des chances entre les hommes et les femmes",
@@ -15862,11 +16317,6 @@
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale aux entreprises",
     "ordre": 16004
-  },{
-    "code": "ETUDES-933",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Aviation civile",
-    "ordre": 50001
   },{
     "code": "ETUDES-934",
     "type": "ETUDE",
@@ -15893,14 +16343,19 @@
     "libelle": "Groupe d'études Handicap",
     "ordre": 50001
   },{
+    "code": "ETUDES-933",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Aviation civile",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-928",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Monde combattant et mémoire",
+    "ordre": 50001
+  },{
     "code": "ETUDES-1007",
     "type": "ETUDE",
     "libelle": "Groupe d'études Métiers d'art",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   },{
     "code": "ETUDES-918",
@@ -15913,9 +16368,9 @@
     "libelle": "Groupe d'études Chasse et pêche",
     "ordre": 50001
   },{
-    "code": "ETUDES-928",
+    "code": "ETUDES-919",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Monde combattant et mémoire",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   }],
   "groupe": {
@@ -16107,6 +16562,26 @@
     "libelle": "Délégation sénatoriale à la prospective",
     "ordre": 16006
   },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-918",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Développement économique de la montagne",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-1007",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Métiers d'art",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-948",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Forêt et filière bois",
+    "ordre": 50001
+  },{
     "code": "ETUDES-1008",
     "type": "ETUDE",
     "libelle": "Groupe Numérique",
@@ -16122,25 +16597,10 @@
     "libelle": "Groupe d'études Handicap",
     "ordre": 50001
   },{
-    "code": "ETUDES-948",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Forêt et filière bois",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-1007",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Métiers d'art",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-918",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Développement économique de la montagne",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
+    "code": "MISINFCOM-PSY",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « La souffrance psychique au travail : un défi sociétal et collectif à relever »",
+    "ordre": 42004
   }],
   "groupe": {
     "code": "UMP",
@@ -16227,6 +16687,21 @@
     "libelle": "Délégation sénatoriale aux entreprises",
     "ordre": 16004
   },{
+    "code": "ETUDES-909",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Vigne et vin",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-907",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Chasse et pêche",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-957",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Industrie",
+    "ordre": 50563
+  },{
     "code": "ETUDES-919",
     "type": "ETUDE",
     "libelle": "Groupe d'études Agriculture, élevage et alimentation",
@@ -16242,20 +16717,10 @@
     "libelle": "Groupe d'études Forêt et filière bois",
     "ordre": 50001
   },{
-    "code": "ETUDES-957",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Industrie",
-    "ordre": 50563
-  },{
-    "code": "ETUDES-907",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Chasse et pêche",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-909",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Vigne et vin",
-    "ordre": 50001
+    "code": "MISINFCOM-DIPL",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « la diplomatie climatique française à l'épreuve d'un monde en tension »",
+    "ordre": 42006
   }],
   "groupe": {
     "code": "UMP",
@@ -16295,6 +16760,11 @@
     "type": "COMMISSION",
     "libelle": "Commission des affaires économiques",
     "ordre": 7001
+  },{
+    "code": "COMENQ-MER",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête sur les inégalités systémiques auxquelles sont confrontées les collectivités ultra-marines et leurs habitants pour répondre aux enjeux de développement social et durable",
+    "ordre": 25003
   },{
     "code": "DELEGA-DSOM",
     "type": "DELEGATION/OFFICE",
@@ -17035,6 +17505,11 @@
     "type": "ETUDE",
     "libelle": "Groupe d'études Énergie",
     "ordre": 50001
+  },{
+    "code": "MISINFCOM-DIPL",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « la diplomatie climatique française à l'épreuve d'un monde en tension »",
+    "ordre": 42006
   }],
   "groupe": {
     "code": "GEST",
@@ -17255,6 +17730,11 @@
     "type": "AUTRE",
     "libelle": "Mission d'évaluation et de contrôle de la sécurité sociale",
     "ordre": 21001
+  },{
+    "code": "MISINFCOM-PSY",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « La souffrance psychique au travail : un défi sociétal et collectif à relever »",
+    "ordre": 42004
   }],
   "groupe": {
     "code": "GEST",
@@ -17338,6 +17818,11 @@
     "type": "COMMISSION",
     "libelle": "Commission des affaires étrangères, de la défense et des forces armées",
     "ordre": 7002
+  },{
+    "code": "COMENQ-MER",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête sur les inégalités systémiques auxquelles sont confrontées les collectivités ultra-marines et leurs habitants pour répondre aux enjeux de développement social et durable",
+    "ordre": 25003
   },{
     "code": "COMSPE-CYBE",
     "type": "TEMPORAIRE",
@@ -17563,9 +18048,19 @@
     "libelle": "Commission des affaires étrangères, de la défense et des forces armées",
     "ordre": 7002
   },{
+    "code": "COMENQ-MER",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête sur les inégalités systémiques auxquelles sont confrontées les collectivités ultra-marines et leurs habitants pour répondre aux enjeux de développement social et durable",
+    "ordre": 25003
+  },{
     "code": "ETUDES-906",
     "type": "ETUDE",
     "libelle": "Groupe d'études Énergie",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-933",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Aviation civile",
     "ordre": 50001
   },{
     "code": "ETUDES-934",
@@ -17583,10 +18078,10 @@
     "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   },{
-    "code": "ETUDES-933",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Aviation civile",
-    "ordre": 50001
+    "code": "MISINFCOM-DIPL",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « la diplomatie climatique française à l'épreuve d'un monde en tension »",
+    "ordre": 42006
   },{
     "code": "OFFICE-206",
     "type": "DELEGATION/OFFICE",
@@ -17670,24 +18165,29 @@
     "libelle": "Commission des lois constitutionnelles, de législation, du suffrage universel, du Règlement et d'administration générale",
     "ordre": 7007
   },{
-    "code": "ETUDES-1008",
-    "type": "ETUDE",
-    "libelle": "Groupe Numérique",
-    "ordre": 50001
+    "code": "COMENQ-FPP",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête sur les mécanismes de financement des politiques publiques par des organismes, sociétés ou fondations de droit privé et des risques en matière d'influence, d'absence de transparence financière et d'entrave au fonctionnement de la démocratie ",
+    "ordre": 25002
   },{
     "code": "ETUDES-957",
     "type": "ETUDE",
     "libelle": "Groupe d'études Industrie",
     "ordre": 50563
   },{
-    "code": "ETUDES-934",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
-    "ordre": 50001
-  },{
     "code": "ETUDES-938",
     "type": "ETUDE",
     "libelle": "Groupe d'études Arctique, Antarctique et Terres australes",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-1008",
+    "type": "ETUDE",
+    "libelle": "Groupe Numérique",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-934",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
     "ordre": 50001
   }],
   "groupe": {
@@ -17729,6 +18229,11 @@
     "libelle": "Commission de la culture, de l'éducation, de la communication et du sport",
     "ordre": 7005
   },{
+    "code": "COMENQ-FPP",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête sur les mécanismes de financement des politiques publiques par des organismes, sociétés ou fondations de droit privé et des risques en matière d'influence, d'absence de transparence financière et d'entrave au fonctionnement de la démocratie ",
+    "ordre": 25002
+  },{
     "code": "COMITE-COMITEDEONTO",
     "type": "INTERNE",
     "libelle": "Comité de déontologie parlementaire du Sénat",
@@ -17739,6 +18244,11 @@
     "libelle": "Délégation sénatoriale aux entreprises",
     "ordre": 16004
   },{
+    "code": "ETUDES-966",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Arts de la scène, arts de la rue et festivals en régions ",
+    "ordre": 50001
+  },{
     "code": "ETUDES-933",
     "type": "ETUDE",
     "libelle": "Groupe d'études Aviation civile",
@@ -17747,11 +18257,6 @@
     "code": "ETUDES-934",
     "type": "ETUDE",
     "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-966",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Arts de la scène, arts de la rue et festivals en régions ",
     "ordre": 50001
   }],
   "groupe": {
@@ -17835,6 +18340,11 @@
     "libelle": "Commission des lois constitutionnelles, de législation, du suffrage universel, du Règlement et d'administration générale",
     "ordre": 7007
   },{
+    "code": "COMENQ-MER",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête sur les inégalités systémiques auxquelles sont confrontées les collectivités ultra-marines et leurs habitants pour répondre aux enjeux de développement social et durable",
+    "ordre": 25003
+  },{
     "code": "DELEGA-DSOM",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale aux outre-mer",
@@ -17869,15 +18379,15 @@
   "twitter": "EdouardCourtial",
   "facebook": "100058240384691",
   "organismes": [{
-    "code": "AUTRES-UIP",
-    "type": "AUTRE",
-    "libelle": "Groupe français de l'Union Interparlementaire (U.I.P.)",
-    "ordre": 60018
-  },{
     "code": "AUTRES-SFAPF",
     "type": "AUTRE",
     "libelle": "Section française de l'Assemblée parlementaire de la francophonie (A.P.F.)",
     "ordre": 60017
+  },{
+    "code": "AUTRES-UIP",
+    "type": "AUTRE",
+    "libelle": "Groupe français de l'Union Interparlementaire (U.I.P.)",
+    "ordre": 60018
   },{
     "code": "COM-ETRD",
     "type": "COMMISSION",
@@ -17893,6 +18403,11 @@
     "type": "TEMPORAIRE",
     "libelle": "Groupe de suivi de la nouvelle relation euro-britannique",
     "ordre": 42999
+  },{
+    "code": "MISINFCOM-DIPL",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « la diplomatie climatique française à l'épreuve d'un monde en tension »",
+    "ordre": 42006
   }],
   "groupe": {
     "code": "UC",
@@ -18189,6 +18704,11 @@
     "type": "COMMISSION",
     "libelle": "Commission des affaires économiques",
     "ordre": 7001
+  },{
+    "code": "COMENQ-FPP",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête sur les mécanismes de financement des politiques publiques par des organismes, sociétés ou fondations de droit privé et des risques en matière d'influence, d'absence de transparence financière et d'entrave au fonctionnement de la démocratie ",
+    "ordre": 25002
   },{
     "code": "DELEGA-PROS",
     "type": "DELEGATION/OFFICE",
@@ -18529,9 +19049,9 @@
     "libelle": "Commission de la culture, de l'éducation, de la communication et du sport",
     "ordre": 7005
   },{
-    "code": "ETUDES-919",
+    "code": "ETUDES-922",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "libelle": "Groupe d'études Economie circulaire",
     "ordre": 50001
   },{
     "code": "ETUDES-1007",
@@ -18539,10 +19059,15 @@
     "libelle": "Groupe d'études Métiers d'art",
     "ordre": 50001
   },{
-    "code": "ETUDES-922",
+    "code": "ETUDES-919",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Economie circulaire",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
+  },{
+    "code": "MISINFCOM-PSY",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « La souffrance psychique au travail : un défi sociétal et collectif à relever »",
+    "ordre": 42004
   }],
   "groupe": {
     "code": "UMP",
@@ -18818,9 +19343,19 @@
     "libelle": "Groupe d'études Vigne et vin",
     "ordre": 50001
   },{
+    "code": "ETUDES-906",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Énergie",
+    "ordre": 50001
+  },{
     "code": "ETUDES-1006",
     "type": "ETUDE",
     "libelle": "Groupe d'études Francophonie",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   },{
     "code": "ETUDES-957",
@@ -18833,15 +19368,10 @@
     "libelle": "Groupe d'études Statut, rôle et place des Français établis hors de France",
     "ordre": 50001
   },{
-    "code": "ETUDES-906",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Énergie",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
+    "code": "MISINFCOM-DIPL",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « la diplomatie climatique française à l'épreuve d'un monde en tension »",
+    "ordre": 42006
   }],
   "groupe": {
     "code": "UMP",
@@ -19084,10 +19614,20 @@
     "libelle": "Commission des affaires sociales",
     "ordre": 7003
   },{
+    "code": "COMENQ-MER",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête sur les inégalités systémiques auxquelles sont confrontées les collectivités ultra-marines et leurs habitants pour répondre aux enjeux de développement social et durable",
+    "ordre": 25003
+  },{
     "code": "DELEGA-DSOM",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale aux outre-mer",
     "ordre": 16005
+  },{
+    "code": "ETUDES-928",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Monde combattant et mémoire",
+    "ordre": 50001
   },{
     "code": "ETUDES-938",
     "type": "ETUDE",
@@ -19097,11 +19637,6 @@
     "code": "ETUDES-1014",
     "type": "ETUDE",
     "libelle": "Groupe d'études Handicap",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-928",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Monde combattant et mémoire",
     "ordre": 50001
   }],
   "groupe": {
@@ -19276,6 +19811,11 @@
     "libelle": "Groupe d'études Énergie",
     "ordre": 50001
   },{
+    "code": "ETUDES-1010",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Statut, rôle et place des Français établis hors de France",
+    "ordre": 50001
+  },{
     "code": "ETUDES-1014",
     "type": "ETUDE",
     "libelle": "Groupe d'études Handicap",
@@ -19296,15 +19836,15 @@
     "libelle": "Groupe d'études Monde combattant et mémoire",
     "ordre": 50001
   },{
-    "code": "ETUDES-1010",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Statut, rôle et place des Français établis hors de France",
-    "ordre": 50001
-  },{
     "code": "MISINFCOM-BREXIT3",
     "type": "TEMPORAIRE",
     "libelle": "Groupe de suivi de la nouvelle relation euro-britannique",
     "ordre": 42999
+  },{
+    "code": "MISINFCOM-DIPL",
+    "type": "TEMPORAIRE",
+    "libelle": "Mission d'information sur le thème : « la diplomatie climatique française à l'épreuve d'un monde en tension »",
+    "ordre": 42006
   }],
   "groupe": {
     "code": "UMP",
@@ -19382,6 +19922,11 @@
     "type": "COMMISSION",
     "libelle": "Commission des affaires étrangères, de la défense et des forces armées",
     "ordre": 7002
+  },{
+    "code": "COMENQ-FPP",
+    "type": "TEMPORAIRE",
+    "libelle": "Commission d'enquête sur les mécanismes de financement des politiques publiques par des organismes, sociétés ou fondations de droit privé et des risques en matière d'influence, d'absence de transparence financière et d'entrave au fonctionnement de la démocratie ",
+    "ordre": 25002
   },{
     "code": "COMSPE-CYBE",
     "type": "TEMPORAIRE",
