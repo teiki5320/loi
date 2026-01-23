@@ -100,6 +100,36 @@
     "etat": "Réunion de commission"
   },
   {
+    "id": "DLR5L17N53284",
+    "titre": "Renforcer la sécurité, la rétention administrative et la prévention des risques d’attentat",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA795528",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-11",
+    "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N52561",
+    "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et le Gouvernement du Monténégro relatif à la coopération dans le domaine de la défense",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA410",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl24-857.html",
+    "nor": "",
+    "date": "2026-02-11",
+    "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N52103",
+    "titre": "Projet de loi autorisant l’approbation de l’avenant à la convention d’entraide judiciaire en matière pénale du 28 mai 1996 entre le Gouvernement de la République française et le Gouvernement de la République fédérative du Brésil",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA410",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl24-629.html",
+    "nor": "",
+    "date": "2026-02-11",
+    "etat": "Réunion de commission"
+  },
+  {
     "id": "DLR5L17N53530",
     "titre": "Relancer les investissements dans le secteur de l’hydroélectricité pour contribuer à la transition énergétique",
     "type": "Proposition de loi ordinaire",
@@ -260,16 +290,6 @@
     "etat": "Réunion de commission"
   },
   {
-    "id": "DLR5L17N52561",
-    "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et le Gouvernement du Monténégro relatif à la coopération dans le domaine de la défense",
-    "type": "Projet de ratification des traités et conventions",
-    "auteur": "PA410",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl24-857.html",
-    "nor": "",
-    "date": "2026-02-04",
-    "etat": "Réunion de commission"
-  },
-  {
     "id": "DLR5L17N53171",
     "titre": "Expérimentation pour l’instauration d’un enseignement d’éducation à l’alimentation à l’école",
     "type": "Proposition de loi ordinaire",
@@ -277,7 +297,7 @@
     "url": "",
     "nor": "",
     "date": "2026-02-02",
-    "etat": "Discussion en séance publique"
+    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L17N51720",
@@ -297,7 +317,17 @@
     "url": "",
     "nor": "",
     "date": "2026-02-02",
-    "etat": "Discussion en séance publique"
+    "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N53618",
+    "titre": "Inscrire le Corps des Gardiens de la Révolution Islamique sur la liste européenne des organisations terroristes",
+    "type": "Résolution",
+    "auteur": "PA345722",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-28",
+    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L17N53360",
@@ -347,7 +377,7 @@
     "url": "",
     "nor": "",
     "date": "2026-01-26",
-    "etat": "Discussion en séance publique"
+    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L17N52428",
@@ -397,7 +427,7 @@
     "url": "",
     "nor": "",
     "date": "2026-01-22",
-    "etat": "Discussion en séance publique"
+    "etat": "Décision"
   },
   {
     "id": "DLR5L17N53271",
@@ -510,16 +540,6 @@
     "etat": "Dépôt de rapport"
   },
   {
-    "id": "DLR5L17N53284",
-    "titre": "Renforcer la sécurité, la rétention administrative et la prévention des risques d’attentat",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA795528",
-    "url": "",
-    "nor": "",
-    "date": "2026-01-21",
-    "etat": "Réunion de commission"
-  },
-  {
     "id": "DLR5L17N53235",
     "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et la Communauté des Caraïbes relatif à l’adhésion au protocole sur les privilèges et immunités de la Communauté des Caraïbes du 14 janvier 1985",
     "type": "Projet de ratification des traités et conventions",
@@ -538,6 +558,16 @@
     "nor": "",
     "date": "2026-01-21",
     "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N53616",
+    "titre": "Proposition de loi relative à la présence de distributeurs automatiques de billets dans les communes",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-284.html",
+    "nor": "",
+    "date": "2026-01-20",
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N53597",
@@ -574,10 +604,10 @@
     "titre": "L’approbation de l’accord entre le Gouvernement de la République française et l’Agence spatiale européenne concernant les installations de l’Agence spatiale européenne en France",
     "type": "Projet de ratification des traités et conventions",
     "auteur": "PA643210",
-    "url": "",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl25-285.html",
     "nor": "",
     "date": "2026-01-20",
-    "etat": "Décision"
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N52354",
@@ -610,6 +640,16 @@
     "etat": "Dépôt du rapport d'une CMP"
   },
   {
+    "id": "DLR5L17N53600",
+    "titre": "Projet de loi portant habilitation de l’assemblée de Martinique à fixer elle-même des règles applicables sur son territoire en application de l’article 73 de la Constitution en matière d’énergie, d’eau et d’assainissement",
+    "type": "Projet de loi ordinaire",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl25-283.html",
+    "nor": "",
+    "date": "2026-01-19",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
     "id": "DLR5L17N53576",
     "titre": "Inscrire le Corps des gardiens de la révolution islamique sur la liste européenne des organisations terroristes et reconnaître au nom de la France l’opposition iranienne comme le seul interlocuteur légitime pour l’avenir de l’Iran",
     "type": "Résolution Article 34-1",
@@ -627,6 +667,16 @@
     "url": "",
     "nor": "",
     "date": "2026-01-19",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53617",
+    "titre": "Proposition de loi visant à garantir la clarté et l'unité de la langue française dans les usages officiels",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-282.html",
+    "nor": "",
+    "date": "2026-01-16",
     "etat": "Renvoi en commission au fond"
   },
   {
@@ -718,6 +768,16 @@
     "nor": "",
     "date": "2026-01-14",
     "etat": "Décision"
+  },
+  {
+    "id": "DLR5L17N53601",
+    "titre": "Proposition de loi visant à harmoniser les règles de participation financière des communes aux écoles privées",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-275.html",
+    "nor": "",
+    "date": "2026-01-13",
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N53529",
@@ -958,16 +1018,6 @@
     "nor": "",
     "date": "2026-01-07",
     "etat": "Le gouvernement déclare l'urgence / engage la procédure accélérée"
-  },
-  {
-    "id": "DLR5L17N52103",
-    "titre": "Projet de loi autorisant l’approbation de l’avenant à la convention d’entraide judiciaire en matière pénale du 28 mai 1996 entre le Gouvernement de la République française et le Gouvernement de la République fédérative du Brésil",
-    "type": "Projet de ratification des traités et conventions",
-    "auteur": "PA410",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl24-629.html",
-    "nor": "",
-    "date": "2026-01-07",
-    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L17N52036",
