@@ -7910,6 +7910,11 @@
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation aux droits des femmes et à l'égalité des chances entre les hommes et les femmes",
     "ordre": 16003
+  },{
+    "code": "ETUDES-928",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Monde combattant et mémoire",
+    "ordre": 50001
   }],
   "groupe": {
     "code": "UMP",
