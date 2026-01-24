@@ -380,6 +380,26 @@
     "etat": "Réunion de commission"
   },
   {
+    "id": "DLR5L17N53619",
+    "titre": "Engagement de la responsabilité du Gouvernement sur la deuxième partie du projet de loi de finances pour 2026 de M. le Premier ministre",
+    "type": "Engagement de la responsabilité gouvernementale",
+    "auteur": "PA643210",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-23",
+    "etat": "Motion de censure"
+  },
+  {
+    "id": "DLR5L17N53597",
+    "titre": "Engagement de la responsabilité du Gouvernement sur la première partie du projet de loi de finances pour 2026",
+    "type": "Engagement de la responsabilité gouvernementale",
+    "auteur": "PA643210",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-23",
+    "etat": "Discussion en séance publique"
+  },
+  {
     "id": "DLR5L17N52428",
     "titre": "Projet de loi de finances pour 2026",
     "type": "Projet de loi de finances de l'année",
@@ -390,34 +410,14 @@
     "etat": "Réunion de commission"
   },
   {
-    "id": "DLR5L17N53341",
-    "titre": "Interdire le maintien dans l’hébergement d’urgence aux immigrés illégaux",
+    "id": "DLR5L16N49138",
+    "titre": "Confidentialité des consultations des juristes d’entreprise",
     "type": "Proposition de loi ordinaire",
-    "auteur": "PA720386",
-    "url": "",
+    "auteur": "PA721584",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl23-569.html",
     "nor": "",
-    "date": "2026-01-22",
-    "etat": "Discussion en séance publique"
-  },
-  {
-    "id": "DLR5L17N53335",
-    "titre": "Faire assumer à chacun les conséquences de ses actes en permettant la saisie des amendes non payées sur les minimas sociaux",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA720386",
-    "url": "",
-    "nor": "",
-    "date": "2026-01-22",
-    "etat": "Discussion en séance publique"
-  },
-  {
-    "id": "DLR5L17N53330",
-    "titre": "Déblocage exceptionnel de la participation et de l’intéressement en 2026",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA719968",
-    "url": "",
-    "nor": "",
-    "date": "2026-01-22",
-    "etat": "Discussion en séance publique"
+    "date": "2026-01-23",
+    "etat": "Saisine du conseil constitutionnel"
   },
   {
     "id": "DLR5L17N53300",
@@ -430,26 +430,6 @@
     "etat": "Décision"
   },
   {
-    "id": "DLR5L17N53271",
-    "titre": "Interdire le voilement des mineures dans l’espace public",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA267285",
-    "url": "",
-    "nor": "",
-    "date": "2026-01-22",
-    "etat": "Discussion en séance publique"
-  },
-  {
-    "id": "DLR5L17N52293",
-    "titre": "Suspendre les droits aux prestations et aux aides publiques pour les personnes reconnues coupables d’exactions lors de rassemblements ou de manifestations",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA840979",
-    "url": "",
-    "nor": "",
-    "date": "2026-01-22",
-    "etat": "Discussion en séance publique"
-  },
-  {
     "id": "DLR5L17N52132",
     "titre": "Inscrire la mouvance des frères musulmans sur la liste européenne des organisations terroristes",
     "type": "Résolution",
@@ -460,31 +440,11 @@
     "etat": "Réunion de commission"
   },
   {
-    "id": "DLR5L17N51987",
-    "titre": "Proposition de loi visant à permettre aux salariés de certains établissements et services de travailler le 1er mai",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-550.html",
-    "nor": "",
-    "date": "2026-01-22",
-    "etat": "Discussion en séance publique"
-  },
-  {
     "id": "DLR5L17N51037",
     "titre": "Reconnaître une présomption de légitime défense pour les forces de l'ordre, dans l'exercice de leurs fonctions",
     "type": "Proposition de loi ordinaire",
     "auteur": "PA718784",
     "url": "",
-    "nor": "",
-    "date": "2026-01-22",
-    "etat": "Discussion en séance publique"
-  },
-  {
-    "id": "DLR5L16N49452",
-    "titre": "Proposition de loi visant à concilier la continuité du service public de transports avec l’exercice du droit de grève",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl23-344.html",
     "nor": "",
     "date": "2026-01-22",
     "etat": "Discussion en séance publique"
@@ -520,6 +480,36 @@
     "etat": "Dépôt de rapport"
   },
   {
+    "id": "DLR5L17N53341",
+    "titre": "Interdire le maintien dans l’hébergement d’urgence aux immigrés illégaux",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA720386",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-21",
+    "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N53335",
+    "titre": "Faire assumer à chacun les conséquences de ses actes en permettant la saisie des amendes non payées sur les minimas sociaux",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA720386",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-21",
+    "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N53330",
+    "titre": "Déblocage exceptionnel de la participation et de l’intéressement en 2026",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA719968",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-21",
+    "etat": "Réunion de commission"
+  },
+  {
     "id": "DLR5L17N53315",
     "titre": "Proposition de loi visant à instaurer une procédure simplifiée de recouvrement des créances commerciales incontestées",
     "type": "Proposition de loi ordinaire",
@@ -538,6 +528,16 @@
     "nor": "",
     "date": "2026-01-21",
     "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N53271",
+    "titre": "Interdire le voilement des mineures dans l’espace public",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA267285",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-21",
+    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L17N53235",
@@ -560,6 +560,26 @@
     "etat": "Dépôt de rapport"
   },
   {
+    "id": "DLR5L17N52293",
+    "titre": "Suspendre les droits aux prestations et aux aides publiques pour les personnes reconnues coupables d’exactions lors de rassemblements ou de manifestations",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA840979",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-21",
+    "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N51987",
+    "titre": "Proposition de loi visant à permettre aux salariés de certains établissements et services de travailler le 1er mai",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-550.html",
+    "nor": "",
+    "date": "2026-01-21",
+    "etat": "Réunion de commission"
+  },
+  {
     "id": "DLR5L17N53616",
     "titre": "Proposition de loi relative à la présence de distributeurs automatiques de billets dans les communes",
     "type": "Proposition de loi ordinaire",
@@ -568,16 +588,6 @@
     "nor": "",
     "date": "2026-01-20",
     "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N53597",
-    "titre": "Engagement de la responsabilité du Gouvernement sur la première partie du projet de loi de finances pour 2026",
-    "type": "Engagement de la responsabilité gouvernementale",
-    "auteur": "PA643210",
-    "url": "",
-    "nor": "",
-    "date": "2026-01-20",
-    "etat": "Motion de censure"
   },
   {
     "id": "DLR5L17N53596",
@@ -760,14 +770,14 @@
     "etat": "Réunion de commission"
   },
   {
-    "id": "DLR5L16N49138",
-    "titre": "Confidentialité des consultations des juristes d’entreprise",
+    "id": "DLR5L16N49452",
+    "titre": "Proposition de loi visant à concilier la continuité du service public de transports avec l’exercice du droit de grève",
     "type": "Proposition de loi ordinaire",
-    "auteur": "PA721584",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl23-569.html",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl23-344.html",
     "nor": "",
     "date": "2026-01-14",
-    "etat": "Décision"
+    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L17N53601",
