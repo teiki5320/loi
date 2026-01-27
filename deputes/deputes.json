@@ -1270,6 +1270,16 @@
     "groupeLibelle": "Les Démocrates"
   },
   {
+    "id": "PA720066",
+    "nom": "Stéphanie Rist",
+    "email": "Stephanie.Rist@assemblee-nationale.fr",
+    "circo": "1",
+    "dept": "Loiret",
+    "groupe": "PO840056",
+    "groupeSigle": "NI",
+    "groupeLibelle": "Non inscrit"
+  },
+  {
     "id": "PA720092",
     "nom": "Richard Ramos",
     "email": "Richard.Ramos@assemblee-nationale.fr",
