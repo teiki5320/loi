@@ -336,8 +336,28 @@
     "auteur": "PA794008",
     "url": "",
     "nor": "",
-    "date": "2026-01-28",
+    "date": "2026-01-27",
     "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N53637",
+    "titre": "Inscrire la préservation des ressources naturelles en eau dans la Constitution, afin d’assurer une eau potable en quantité et en qualité suffisantes pour les générations futures",
+    "type": "Projet ou proposition de loi constitutionnelle",
+    "auteur": "PA721474",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-26",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53636",
+    "titre": "L’activité de l’Assemblée parlementaire de la Francophonie au cours de la session 2024-2025",
+    "type": "Rapport d'information sans mission",
+    "auteur": "",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-26",
+    "etat": "Dépôt de rapport"
   },
   {
     "id": "DLR5L17N53201",
@@ -370,6 +390,16 @@
     "etat": "Réunion de commission"
   },
   {
+    "id": "DLR5L17N52230",
+    "titre": "Proposition de loi visant à garantir le droit de visite des parlementaires et des bâtonniers dans les lieux de privation de liberté",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-637.html",
+    "nor": "",
+    "date": "2026-01-26",
+    "etat": "Le gouvernement déclare l'urgence / engage la procédure accélérée"
+  },
+  {
     "id": "DLR5L17N50906",
     "titre": "Lutter contre les formes renouvelées de l'antisémitisme",
     "type": "Proposition de loi ordinaire",
@@ -381,7 +411,7 @@
   },
   {
     "id": "DLR5L17N53619",
-    "titre": "Engagement de la responsabilité du Gouvernement sur la deuxième partie du projet de loi de finances pour 2026 de M. le Premier ministre",
+    "titre": "Engagement de la responsabilité du Gouvernement sur la deuxième partie et l'ensemble du projet de loi de finances pour 2026 de M. le Premier ministre",
     "type": "Engagement de la responsabilité gouvernementale",
     "auteur": "PA643210",
     "url": "",
@@ -10418,16 +10448,6 @@
     "nor": "",
     "date": "2025-05-20",
     "etat": "Retrait d'une initiative"
-  },
-  {
-    "id": "DLR5L17N52230",
-    "titre": "Proposition de loi visant à garantir le droit de visite des parlementaires et des bâtonniers dans les lieux de privation de liberté",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-637.html",
-    "nor": "",
-    "date": "2025-05-19",
-    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N52107",
