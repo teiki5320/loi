@@ -19343,9 +19343,9 @@
     "libelle": "Commission des affaires étrangères, de la défense et des forces armées",
     "ordre": 7002
   },{
-    "code": "ETUDES-909",
+    "code": "ETUDES-919",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Vigne et vin",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   },{
     "code": "ETUDES-906",
@@ -19353,14 +19353,19 @@
     "libelle": "Groupe d'études Énergie",
     "ordre": 50001
   },{
-    "code": "ETUDES-1006",
+    "code": "ETUDES-909",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Francophonie",
+    "libelle": "Groupe d'études Vigne et vin",
     "ordre": 50001
   },{
-    "code": "ETUDES-919",
+    "code": "ETUDES-1007",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "libelle": "Groupe d'études Métiers d'art",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-928",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Monde combattant et mémoire",
     "ordre": 50001
   },{
     "code": "ETUDES-957",
@@ -19371,6 +19376,11 @@
     "code": "ETUDES-1010",
     "type": "ETUDE",
     "libelle": "Groupe d'études Statut, rôle et place des Français établis hors de France",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-1006",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Francophonie",
     "ordre": 50001
   },{
     "code": "MISINFCOM-DIPL",
