@@ -11031,6 +11031,11 @@
     "libelle": "Commission spéciale sur le projet de loi simplification",
     "ordre": 24999
   },{
+    "code": "DELEGA-DSOM",
+    "type": "DELEGATION/OFFICE",
+    "libelle": "Délégation sénatoriale aux outre-mer",
+    "ordre": 16005
+  },{
     "code": "ETUDES-948",
     "type": "ETUDE",
     "libelle": "Groupe d'études Forêt et filière bois",
@@ -14039,11 +14044,6 @@
     "type": "INTERNE",
     "libelle": "Commission spéciale chargée du contrôle des comptes et de l'évaluation interne ",
     "ordre": 15001
-  },{
-    "code": "DELEGA-DSOM",
-    "type": "DELEGATION/OFFICE",
-    "libelle": "Délégation sénatoriale aux outre-mer",
-    "ordre": 16005
   }],
   "groupe": {
     "code": "SOC",
@@ -18007,6 +18007,16 @@
     "code": "ETUDES-907",
     "type": "ETUDE",
     "libelle": "Groupe d'études Chasse et pêche",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-928",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Monde combattant et mémoire",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-1004",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Cancer",
     "ordre": 50001
   },{
     "code": "MECSS-MECSS",
