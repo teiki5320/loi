@@ -160,16 +160,6 @@
     "etat": "Discussion en séance publique"
   },
   {
-    "id": "DLR5L17N53279",
-    "titre": "Mettre fin au devoir conjugal",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA642868",
-    "url": "",
-    "nor": "",
-    "date": "2026-02-05",
-    "etat": "Discussion en séance publique"
-  },
-  {
     "id": "DLR5L17N53276",
     "titre": "Reconnaître les victimes de l'exposition aux essais nucléaires français et améliorer leur indemnisation",
     "type": "Proposition de loi ordinaire",
@@ -184,26 +174,6 @@
     "titre": "Réaffirmer l’ambition climatique de la France au niveau européen",
     "type": "Résolution",
     "auteur": "PA794146",
-    "url": "",
-    "nor": "",
-    "date": "2026-02-05",
-    "etat": "Discussion en séance publique"
-  },
-  {
-    "id": "DLR5L17N53005",
-    "titre": "Le traitement judiciaire des violences sexuelles incestueuses parentales commises contre les enfants et la situation des parents protecteurs, notamment des mères protectrices",
-    "type": "Résolution",
-    "auteur": "PA643143",
-    "url": "",
-    "nor": "",
-    "date": "2026-02-05",
-    "etat": "Discussion en séance publique"
-  },
-  {
-    "id": "DLR5L17N52746",
-    "titre": "Moderniser la gestion du patrimoine immobilier de l'État",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA793940",
     "url": "",
     "nor": "",
     "date": "2026-02-05",
@@ -230,30 +200,10 @@
     "etat": "Discussion en séance publique"
   },
   {
-    "id": "DLR5L17N51962",
-    "titre": "Exercer l’accès à l’emploi, pérenniser et étendre progressivement l’expérimentation Territoires zéro chômeur longue durée comme solution de retour à l’emploi pour les personnes privées durablement d’emploi",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA721474",
-    "url": "",
-    "nor": "",
-    "date": "2026-02-05",
-    "etat": "Discussion en séance publique"
-  },
-  {
     "id": "DLR5L17N51866",
     "titre": "Pour la préservation des principes démocratiques, des libertés publiques et de l’État de droit en Turquie",
     "type": "Résolution",
     "auteur": "PA795864",
-    "url": "",
-    "nor": "",
-    "date": "2026-02-05",
-    "etat": "Discussion en séance publique"
-  },
-  {
-    "id": "DLR5L17N51845",
-    "titre": "Réparer les préjudices causés par la transplantation de mineurs de La Réunion en France hexagonale de 1962 à 1984",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA774962",
     "url": "",
     "nor": "",
     "date": "2026-02-05",
@@ -330,6 +280,26 @@
     "etat": "Réunion de commission"
   },
   {
+    "id": "DLR5L17N53683",
+    "titre": "Le déplacement d’une délégation de la commission des Affaires étrangères à New York à l’occasion de la 80ème Assemblée générale des Nations unies, à l’automne 2025",
+    "type": "Rapport d'information sans mission",
+    "auteur": "",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-28",
+    "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N53682",
+    "titre": "Condamner les violations systématiques des droits humains et les homicides commis par le Service de l’immigration et des douanes des États-Unis, sanctionner ses agents et prendre des mesures pour faire respecter le droit international",
+    "type": "Résolution Article 34-1",
+    "auteur": "PA793736",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-28",
+    "etat": "1er dépôt d'une initiative."
+  },
+  {
     "id": "DLR5L17N53618",
     "titre": "Inscrire le Corps des Gardiens de la Révolution Islamique sur la liste européenne des organisations terroristes",
     "type": "Résolution",
@@ -338,6 +308,186 @@
     "nor": "",
     "date": "2026-01-28",
     "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N53456",
+    "titre": "Proposition de loi visant à faciliter la création et le fonctionnement des communes nouvelles",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-251.html",
+    "nor": "",
+    "date": "2026-01-28",
+    "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N53388",
+    "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et le Gouvernement de la République du Kazakhstan sur la réadmission des personnes",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl25-236.html",
+    "nor": "",
+    "date": "2026-01-28",
+    "etat": "Décision"
+  },
+  {
+    "id": "DLR5L17N53279",
+    "titre": "Mettre fin au devoir conjugal",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA642868",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-28",
+    "etat": "Décision"
+  },
+  {
+    "id": "DLR5L17N53235",
+    "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et la Communauté des Caraïbes relatif à l’adhésion au protocole sur les privilèges et immunités de la Communauté des Caraïbes du 14 janvier 1985",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl25-160.html",
+    "nor": "",
+    "date": "2026-01-28",
+    "etat": "Décision"
+  },
+  {
+    "id": "DLR5L17N53096",
+    "titre": "Projet de loi relatif à l’extension des prérogatives, des moyens, de l’organisation et du contrôle des polices municipales et des gardes champêtres",
+    "type": "Projet de loi ordinaire",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl25-097.html",
+    "nor": "",
+    "date": "2026-01-28",
+    "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N53005",
+    "titre": "Le traitement judiciaire des violences sexuelles incestueuses parentales commises contre les enfants et la situation des parents protecteurs, notamment des mères protectrices",
+    "type": "Résolution",
+    "auteur": "PA643143",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-28",
+    "etat": "Décision"
+  },
+  {
+    "id": "DLR5L17N52884",
+    "titre": "Allocations chômage des travailleurs frontaliers",
+    "type": "Résolution",
+    "auteur": "PA720552",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-28",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52746",
+    "titre": "Moderniser la gestion du patrimoine immobilier de l'État",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA793940",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-28",
+    "etat": "Décision"
+  },
+  {
+    "id": "DLR5L17N52635",
+    "titre": "Projet de loi relatif à la restitution de biens culturels provenant d’États qui, du fait d’une appropriation illicite, en ont été privés",
+    "type": "Projet de loi ordinaire",
+    "auteur": "PA410",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl24-871.html",
+    "nor": "",
+    "date": "2026-01-28",
+    "etat": "Décision"
+  },
+  {
+    "id": "DLR5L17N52596",
+    "titre": "Projet de loi relatif à la régulation de l'enseignement supérieur privé",
+    "type": "Projet de loi ordinaire",
+    "auteur": "PA410",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-28",
+    "etat": "Le gouvernement déclare l'urgence / engage la procédure accélérée"
+  },
+  {
+    "id": "DLR5L17N52577",
+    "titre": "Le télétravail frontalier",
+    "type": "Résolution",
+    "auteur": "PA720552",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-28",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52576",
+    "titre": "L'affiliation sociale des enfants de travailleurs frontaliers",
+    "type": "Résolution",
+    "auteur": "PA720552",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-28",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52428",
+    "titre": "Projet de loi de finances pour 2026",
+    "type": "Projet de loi de finances de l'année",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjlf2026.html",
+    "nor": "",
+    "date": "2026-01-28",
+    "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N52100",
+    "titre": "Projet de loi relatif à l’organisation des jeux Olympiques et Paralympiques de 2030",
+    "type": "Projet de loi ordinaire",
+    "auteur": "PA410",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl24-630.html",
+    "nor": "",
+    "date": "2026-01-28",
+    "etat": "Décision de la CMP"
+  },
+  {
+    "id": "DLR5L17N51962",
+    "titre": "Exercer l’accès à l’emploi, pérenniser et étendre progressivement l’expérimentation Territoires zéro chômeur longue durée comme solution de retour à l’emploi pour les personnes privées durablement d’emploi",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA721474",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-311.html",
+    "nor": "",
+    "date": "2026-01-28",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N51845",
+    "titre": "Réparer les préjudices causés par la transplantation de mineurs de La Réunion en France hexagonale de 1962 à 1984",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA774962",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-28",
+    "etat": "Décision"
+  },
+  {
+    "id": "DLR5L17N51672",
+    "titre": "Soins palliatifs et d’accompagnement",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA722102",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-662.html",
+    "nor": "",
+    "date": "2026-01-28",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N51670",
+    "titre": "Fin de vie",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA605694",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-661.html",
+    "nor": "",
+    "date": "2026-01-28",
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N53681",
@@ -620,26 +770,6 @@
     "etat": "Renvoi en commission au fond"
   },
   {
-    "id": "DLR5L17N52428",
-    "titre": "Projet de loi de finances pour 2026",
-    "type": "Projet de loi de finances de l'année",
-    "auteur": "PA643210",
-    "url": "http://www.senat.fr/dossier-legislatif/pjlf2026.html",
-    "nor": "",
-    "date": "2026-01-27",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N52100",
-    "titre": "Projet de loi relatif à l’organisation des jeux Olympiques et Paralympiques de 2030",
-    "type": "Projet de loi ordinaire",
-    "auteur": "PA410",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl24-630.html",
-    "nor": "",
-    "date": "2026-01-27",
-    "etat": "Dépôt du rapport d'une CMP"
-  },
-  {
     "id": "DLR5L17N53637",
     "titre": "Inscrire la préservation des ressources naturelles en eau dans la Constitution, afin d’assurer une eau potable en quantité et en qualité suffisantes pour les générations futures",
     "type": "Projet ou proposition de loi constitutionnelle",
@@ -740,6 +870,16 @@
     "etat": "Discussion en séance publique"
   },
   {
+    "id": "DLR5L17N53656",
+    "titre": "Proposition de loi portant une gouvernance claire, juste et solidaire pour la gestion des milieux aquatiques et la prévention des inondations (GEMAPI)",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-299.html",
+    "nor": "",
+    "date": "2026-01-21",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
     "id": "DLR5L17N53599",
     "titre": "Les modalités de mise en place à Brest d’un Institut Océan de l’Université des Nations unies et d’une unité en Polynésie française",
     "type": "Rapport d'information sans mission",
@@ -758,16 +898,6 @@
     "nor": "",
     "date": "2026-01-21",
     "etat": "Renvoi préalable"
-  },
-  {
-    "id": "DLR5L17N53388",
-    "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et le Gouvernement de la République du Kazakhstan sur la réadmission des personnes",
-    "type": "Projet de ratification des traités et conventions",
-    "auteur": "PA643210",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl25-236.html",
-    "nor": "",
-    "date": "2026-01-21",
-    "etat": "Dépôt de rapport"
   },
   {
     "id": "DLR5L17N53341",
@@ -828,26 +958,6 @@
     "nor": "",
     "date": "2026-01-21",
     "etat": "Réunion de commission"
-  },
-  {
-    "id": "DLR5L17N53235",
-    "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et la Communauté des Caraïbes relatif à l’adhésion au protocole sur les privilèges et immunités de la Communauté des Caraïbes du 14 janvier 1985",
-    "type": "Projet de ratification des traités et conventions",
-    "auteur": "PA643210",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl25-160.html",
-    "nor": "",
-    "date": "2026-01-21",
-    "etat": "Dépôt de rapport"
-  },
-  {
-    "id": "DLR5L17N52635",
-    "titre": "Projet de loi relatif à la restitution de biens culturels provenant d’États qui, du fait d’une appropriation illicite, en ont été privés",
-    "type": "Projet de loi ordinaire",
-    "auteur": "PA410",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl24-871.html",
-    "nor": "",
-    "date": "2026-01-21",
-    "etat": "Dépôt de rapport"
   },
   {
     "id": "DLR5L17N52293",
@@ -1310,16 +1420,6 @@
     "etat": "Dépôt de rapport"
   },
   {
-    "id": "DLR5L17N53456",
-    "titre": "Proposition de loi visant à faciliter la création et le fonctionnement des communes nouvelles",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl25-251.html",
-    "nor": "",
-    "date": "2026-01-07",
-    "etat": "Le gouvernement déclare l'urgence / engage la procédure accélérée"
-  },
-  {
     "id": "DLR5L17N52036",
     "titre": "Sauvegarder la pêche française de Méditerranée",
     "type": "Résolution",
@@ -1338,26 +1438,6 @@
     "nor": "",
     "date": "2026-01-07",
     "etat": "Réunion de commission"
-  },
-  {
-    "id": "DLR5L17N51672",
-    "titre": "Soins palliatifs et d’accompagnement",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA722102",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-662.html",
-    "nor": "",
-    "date": "2026-01-07",
-    "etat": "Dépôt de rapport"
-  },
-  {
-    "id": "DLR5L17N51670",
-    "titre": "Fin de vie",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA605694",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-661.html",
-    "nor": "",
-    "date": "2026-01-07",
-    "etat": "Dépôt de rapport"
   },
   {
     "id": "DLR5L17N51173",
@@ -2810,16 +2890,6 @@
     "etat": "Réunion de commission"
   },
   {
-    "id": "DLR5L17N52884",
-    "titre": "Allocations chômage des travailleurs frontaliers",
-    "type": "Résolution",
-    "auteur": "PA720552",
-    "url": "",
-    "nor": "",
-    "date": "2025-12-03",
-    "etat": "Réunion de commission"
-  },
-  {
     "id": "DLR5L17N52716",
     "titre": "La coopération européenne dans la lutte contre la cyberpédocriminalité pour la défense des droits des enfants à l’ère numérique",
     "type": "Résolution",
@@ -2828,26 +2898,6 @@
     "nor": "",
     "date": "2025-12-03",
     "etat": "Décision"
-  },
-  {
-    "id": "DLR5L17N52577",
-    "titre": "Le télétravail frontalier",
-    "type": "Résolution",
-    "auteur": "PA720552",
-    "url": "",
-    "nor": "",
-    "date": "2025-12-03",
-    "etat": "Réunion de commission"
-  },
-  {
-    "id": "DLR5L17N52576",
-    "titre": "L'affiliation sociale des enfants de travailleurs frontaliers",
-    "type": "Résolution",
-    "auteur": "PA720552",
-    "url": "",
-    "nor": "",
-    "date": "2025-12-03",
-    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L17N53316",
@@ -4328,16 +4378,6 @@
     "nor": "",
     "date": "2025-10-30",
     "etat": "Discussion en séance publique"
-  },
-  {
-    "id": "DLR5L17N53096",
-    "titre": "Projet de loi relatif à l’extension des prérogatives, des moyens, de l’organisation et du contrôle des polices municipales et des gardes champêtres",
-    "type": "Projet de loi ordinaire",
-    "auteur": "PA643210",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl25-097.html",
-    "nor": "",
-    "date": "2025-10-29",
-    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N53095",
@@ -7285,16 +7325,6 @@
     "type": "Projet ou proposition de loi constitutionnelle",
     "auteur": "PA410",
     "url": "http://www.senat.fr/dossier-legislatif/pjl24-869.html",
-    "nor": "",
-    "date": "2025-07-30",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N52596",
-    "titre": "Projet de loi relatif à la régulation de l'enseignement supérieur privé",
-    "type": "Projet de loi ordinaire",
-    "auteur": "PA410",
-    "url": "",
     "nor": "",
     "date": "2025-07-30",
     "etat": "Renvoi en commission au fond"
