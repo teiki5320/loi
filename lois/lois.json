@@ -140,6 +140,16 @@
     "etat": "Réunion de commission"
   },
   {
+    "id": "DLR5L17N51670",
+    "titre": "Fin de vie",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA605694",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-661.html",
+    "nor": "",
+    "date": "2026-02-06",
+    "etat": "Réunion de commission"
+  },
+  {
     "id": "DLR5L17N53530",
     "titre": "Relancer les investissements dans le secteur de l’hydroélectricité pour contribuer à la transition énergétique",
     "type": "Proposition de loi ordinaire",
@@ -160,30 +170,10 @@
     "etat": "Discussion en séance publique"
   },
   {
-    "id": "DLR5L17N53276",
-    "titre": "Reconnaître les victimes de l'exposition aux essais nucléaires français et améliorer leur indemnisation",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA795240",
-    "url": "",
-    "nor": "",
-    "date": "2026-02-05",
-    "etat": "Discussion en séance publique"
-  },
-  {
     "id": "DLR5L17N53014",
     "titre": "Réaffirmer l’ambition climatique de la France au niveau européen",
     "type": "Résolution",
     "auteur": "PA794146",
-    "url": "",
-    "nor": "",
-    "date": "2026-02-05",
-    "etat": "Discussion en séance publique"
-  },
-  {
-    "id": "DLR5L17N52744",
-    "titre": "Garantir la gratuité des parkings des hôpitaux publics pour les patients, les visiteurs et les personnels sur leur temps de travail",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA841471",
     "url": "",
     "nor": "",
     "date": "2026-02-05",
@@ -230,16 +220,6 @@
     "etat": "Discussion en séance publique"
   },
   {
-    "id": "DLR5L17N51655",
-    "titre": "L’intérêt des enfants",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA720560",
-    "url": "",
-    "nor": "",
-    "date": "2026-02-05",
-    "etat": "Discussion en séance publique"
-  },
-  {
     "id": "DLR5L17N52715",
     "titre": "Octroyer le statut d’animaux de compagnie aux animaux de rente dès lors qu’ils sont sortis définitivement du circuit de la chaîne alimentaire du fait de leur viande ou produit d’origine animale déclarés impropres à la consommation",
     "type": "Résolution",
@@ -267,7 +247,7 @@
     "url": "",
     "nor": "",
     "date": "2026-02-02",
-    "etat": "Discussion en séance publique"
+    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L17N51713",
@@ -278,6 +258,106 @@
     "nor": "",
     "date": "2026-02-02",
     "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N53688",
+    "titre": "Inscrire à l'ordre du jour de l'Assemblée nationale la proposition de loi relative à la Trajectoire de réduction de l’artificialisation concertée avec les élus locaux",
+    "type": "Résolution Article 34-1",
+    "auteur": "PA840721",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-29",
+    "etat": "1er dépôt d'une initiative."
+  },
+  {
+    "id": "DLR5L17N53687",
+    "titre": "Les apports de la science pour lutter contre la dermatose nodulaire contagieuse",
+    "type": "Rapport d'information sans mission",
+    "auteur": "",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-29",
+    "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N53686",
+    "titre": "Renforcer la participation citoyenne à la dépense publique",
+    "type": "Projet ou proposition de loi constitutionnelle",
+    "auteur": "PA793322",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-29",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53315",
+    "titre": "Proposition de loi visant à instaurer une procédure simplifiée de recouvrement des créances commerciales incontestées",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-187.html",
+    "nor": "",
+    "date": "2026-01-29",
+    "etat": "Décision"
+  },
+  {
+    "id": "DLR5L17N53304",
+    "titre": "Proposition de loi visant à lever, dans les territoires d'outre-mer, l'interdiction de recherche, d'exploration et d'exploitation des hydrocarbures",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-185.html",
+    "nor": "",
+    "date": "2026-01-29",
+    "etat": "Décision"
+  },
+  {
+    "id": "DLR5L17N53276",
+    "titre": "Reconnaître les victimes de l'exposition aux essais nucléaires français et améliorer leur indemnisation",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA795240",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-29",
+    "etat": "Décision"
+  },
+  {
+    "id": "DLR5L17N52744",
+    "titre": "Garantir la gratuité des parkings des hôpitaux publics pour les patients, les visiteurs et les personnels sur leur temps de travail",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA841471",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-29",
+    "etat": "Décision"
+  },
+  {
+    "id": "DLR5L17N52635",
+    "titre": "Projet de loi relatif à la restitution de biens culturels provenant d’États qui, du fait d’une appropriation illicite, en ont été privés",
+    "type": "Projet de loi ordinaire",
+    "auteur": "PA410",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl24-871.html",
+    "nor": "",
+    "date": "2026-01-29",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52428",
+    "titre": "Projet de loi de finances pour 2026",
+    "type": "Projet de loi de finances de l'année",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjlf2026.html",
+    "nor": "",
+    "date": "2026-01-29",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N51655",
+    "titre": "L’intérêt des enfants",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA720560",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-29",
+    "etat": "Décision"
   },
   {
     "id": "DLR5L17N53683",
@@ -390,16 +470,6 @@
     "etat": "Décision"
   },
   {
-    "id": "DLR5L17N52635",
-    "titre": "Projet de loi relatif à la restitution de biens culturels provenant d’États qui, du fait d’une appropriation illicite, en ont été privés",
-    "type": "Projet de loi ordinaire",
-    "auteur": "PA410",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl24-871.html",
-    "nor": "",
-    "date": "2026-01-28",
-    "etat": "Décision"
-  },
-  {
     "id": "DLR5L17N52596",
     "titre": "Projet de loi relatif à la régulation de l'enseignement supérieur privé",
     "type": "Projet de loi ordinaire",
@@ -430,14 +500,14 @@
     "etat": "Renvoi en commission au fond"
   },
   {
-    "id": "DLR5L17N52428",
-    "titre": "Projet de loi de finances pour 2026",
-    "type": "Projet de loi de finances de l'année",
-    "auteur": "PA643210",
-    "url": "http://www.senat.fr/dossier-legislatif/pjlf2026.html",
+    "id": "DLR5L17N52354",
+    "titre": "Projet de loi autorisant l’approbation de l’accord sous forme d’échange de notes verbales entre le Gouvernement de la République française et le Gouvernement de la République de Moldavie relatif à l'échange de permis de conduire",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA410",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl24-764.html",
     "nor": "",
     "date": "2026-01-28",
-    "etat": "Dépôt de rapport"
+    "etat": "Promulgation d'une loi"
   },
   {
     "id": "DLR5L17N52100",
@@ -475,16 +545,6 @@
     "type": "Proposition de loi ordinaire",
     "auteur": "PA722102",
     "url": "http://www.senat.fr/dossier-legislatif/ppl24-662.html",
-    "nor": "",
-    "date": "2026-01-28",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N51670",
-    "titre": "Fin de vie",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA605694",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-661.html",
     "nor": "",
     "date": "2026-01-28",
     "etat": "Renvoi en commission au fond"
@@ -930,26 +990,6 @@
     "etat": "Réunion de commission"
   },
   {
-    "id": "DLR5L17N53315",
-    "titre": "Proposition de loi visant à instaurer une procédure simplifiée de recouvrement des créances commerciales incontestées",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl25-187.html",
-    "nor": "",
-    "date": "2026-01-21",
-    "etat": "Dépôt de rapport"
-  },
-  {
-    "id": "DLR5L17N53304",
-    "titre": "Proposition de loi visant à lever, dans les territoires d'outre-mer, l'interdiction de recherche, d'exploration et d'exploitation des hydrocarbures",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl25-185.html",
-    "nor": "",
-    "date": "2026-01-21",
-    "etat": "Dépôt de rapport"
-  },
-  {
     "id": "DLR5L17N53271",
     "titre": "Interdire le voilement des mineures dans l’espace public",
     "type": "Proposition de loi ordinaire",
@@ -1018,16 +1058,6 @@
     "nor": "",
     "date": "2026-01-20",
     "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N52354",
-    "titre": "Projet de loi autorisant l’approbation de l’accord sous forme d’échange de notes verbales entre le Gouvernement de la République française et le Gouvernement de la République de Moldavie relatif à l'échange de permis de conduire",
-    "type": "Projet de ratification des traités et conventions",
-    "auteur": "PA410",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl24-764.html",
-    "nor": "",
-    "date": "2026-01-20",
-    "etat": "Décision"
   },
   {
     "id": "DLR5L17N50794",
