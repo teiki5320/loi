@@ -27,7 +27,7 @@
     "url": "",
     "nor": "",
     "date": "2026-02-12",
-    "etat": "Discussion en séance publique"
+    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L17N53424",
@@ -237,7 +237,7 @@
     "url": "",
     "nor": "",
     "date": "2026-02-02",
-    "etat": "Réunion de commission"
+    "etat": "Discussion en séance publique"
   },
   {
     "id": "DLR5L17N51720",
@@ -258,6 +258,66 @@
     "nor": "",
     "date": "2026-02-02",
     "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N53689",
+    "titre": "Engagement de la responsabilité du Gouvernement sur le vote en lecture définitive du projet de loi de finances pour 2026",
+    "type": "Engagement de la responsabilité gouvernementale",
+    "auteur": "PA643210",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-30",
+    "etat": "Motion de censure"
+  },
+  {
+    "id": "DLR5L17N53388",
+    "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et le Gouvernement de la République du Kazakhstan sur la réadmission des personnes",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl25-236.html",
+    "nor": "",
+    "date": "2026-01-30",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53315",
+    "titre": "Proposition de loi visant à instaurer une procédure simplifiée de recouvrement des créances commerciales incontestées",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-187.html",
+    "nor": "",
+    "date": "2026-01-30",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53304",
+    "titre": "Proposition de loi visant à lever dans les territoires d’outre-mer l’interdiction de recherche, d’exploration et d’exploitation des hydrocarbures",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-185.html",
+    "nor": "",
+    "date": "2026-01-30",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53235",
+    "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et la Communauté des Caraïbes relatif à l’adhésion au protocole sur les privilèges et immunités de la Communauté des Caraïbes du 14 janvier 1985",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl25-160.html",
+    "nor": "",
+    "date": "2026-01-30",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52428",
+    "titre": "Projet de loi de finances pour 2026",
+    "type": "Projet de loi de finances de l'année",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjlf2026.html",
+    "nor": "",
+    "date": "2026-01-30",
+    "etat": "Motion de censure"
   },
   {
     "id": "DLR5L17N53688",
@@ -290,26 +350,6 @@
     "etat": "Renvoi en commission au fond"
   },
   {
-    "id": "DLR5L17N53315",
-    "titre": "Proposition de loi visant à instaurer une procédure simplifiée de recouvrement des créances commerciales incontestées",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl25-187.html",
-    "nor": "",
-    "date": "2026-01-29",
-    "etat": "Décision"
-  },
-  {
-    "id": "DLR5L17N53304",
-    "titre": "Proposition de loi visant à lever, dans les territoires d'outre-mer, l'interdiction de recherche, d'exploration et d'exploitation des hydrocarbures",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl25-185.html",
-    "nor": "",
-    "date": "2026-01-29",
-    "etat": "Décision"
-  },
-  {
     "id": "DLR5L17N53276",
     "titre": "Reconnaître les victimes de l'exposition aux essais nucléaires français et améliorer leur indemnisation",
     "type": "Proposition de loi ordinaire",
@@ -324,10 +364,10 @@
     "titre": "Garantir la gratuité des parkings des hôpitaux publics pour les patients, les visiteurs et les personnels sur leur temps de travail",
     "type": "Proposition de loi ordinaire",
     "auteur": "PA841471",
-    "url": "",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-323.html",
     "nor": "",
     "date": "2026-01-29",
-    "etat": "Décision"
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N52635",
@@ -340,11 +380,11 @@
     "etat": "Renvoi en commission au fond"
   },
   {
-    "id": "DLR5L17N52428",
-    "titre": "Projet de loi de finances pour 2026",
-    "type": "Projet de loi de finances de l'année",
-    "auteur": "PA643210",
-    "url": "http://www.senat.fr/dossier-legislatif/pjlf2026.html",
+    "id": "DLR5L17N51845",
+    "titre": "Réparer les préjudices causés par la transplantation de mineurs de La Réunion en France hexagonale de 1962 à 1984",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA774962",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-320.html",
     "nor": "",
     "date": "2026-01-29",
     "etat": "Renvoi en commission au fond"
@@ -358,6 +398,16 @@
     "nor": "",
     "date": "2026-01-29",
     "etat": "Décision"
+  },
+  {
+    "id": "DLR5L17N50794",
+    "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et l’Observatoire du réseau d’antennes d’un kilomètre carré (SKAO) relatif à l’adhésion de la France à l’Observatoire",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA368",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl24-104.html",
+    "nor": "",
+    "date": "2026-01-29",
+    "etat": "Promulgation d'une loi"
   },
   {
     "id": "DLR5L17N53683",
@@ -400,31 +450,11 @@
     "etat": "Dépôt de rapport"
   },
   {
-    "id": "DLR5L17N53388",
-    "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et le Gouvernement de la République du Kazakhstan sur la réadmission des personnes",
-    "type": "Projet de ratification des traités et conventions",
-    "auteur": "PA643210",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl25-236.html",
-    "nor": "",
-    "date": "2026-01-28",
-    "etat": "Décision"
-  },
-  {
     "id": "DLR5L17N53279",
     "titre": "Mettre fin au devoir conjugal",
     "type": "Proposition de loi ordinaire",
     "auteur": "PA642868",
     "url": "",
-    "nor": "",
-    "date": "2026-01-28",
-    "etat": "Décision"
-  },
-  {
-    "id": "DLR5L17N53235",
-    "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et la Communauté des Caraïbes relatif à l’adhésion au protocole sur les privilèges et immunités de la Communauté des Caraïbes du 14 janvier 1985",
-    "type": "Projet de ratification des traités et conventions",
-    "auteur": "PA643210",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl25-160.html",
     "nor": "",
     "date": "2026-01-28",
     "etat": "Décision"
@@ -464,10 +494,10 @@
     "titre": "Moderniser la gestion du patrimoine immobilier de l'État",
     "type": "Proposition de loi ordinaire",
     "auteur": "PA793940",
-    "url": "",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-319.html",
     "nor": "",
     "date": "2026-01-28",
-    "etat": "Décision"
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N52596",
@@ -528,16 +558,6 @@
     "nor": "",
     "date": "2026-01-28",
     "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N51845",
-    "titre": "Réparer les préjudices causés par la transplantation de mineurs de La Réunion en France hexagonale de 1962 à 1984",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA774962",
-    "url": "",
-    "nor": "",
-    "date": "2026-01-28",
-    "etat": "Décision"
   },
   {
     "id": "DLR5L17N51672",
@@ -1058,16 +1078,6 @@
     "nor": "",
     "date": "2026-01-20",
     "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N50794",
-    "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et l’Observatoire du réseau d’antennes d’un kilomètre carré (SKAO) relatif à l’adhésion de la France à l’Observatoire",
-    "type": "Projet de ratification des traités et conventions",
-    "auteur": "PA368",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl24-104.html",
-    "nor": "",
-    "date": "2026-01-20",
-    "etat": "Décision"
   },
   {
     "id": "DLR5L16N49868",
