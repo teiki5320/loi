@@ -260,6 +260,16 @@
     "etat": "Réunion de commission"
   },
   {
+    "id": "DLR5L17N53690",
+    "titre": "Proposition de loi visant à permettre le remboursement des honoraires d'expert-comptable aux candidats",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-328.html",
+    "nor": "",
+    "date": "2026-01-30",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
     "id": "DLR5L17N53689",
     "titre": "Engagement de la responsabilité du Gouvernement sur le vote en lecture définitive du projet de loi de finances pour 2026",
     "type": "Engagement de la responsabilité gouvernementale",
@@ -567,6 +577,16 @@
     "url": "http://www.senat.fr/dossier-legislatif/ppl24-662.html",
     "nor": "",
     "date": "2026-01-28",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53691",
+    "titre": "Proposition de loi visant à adapter le régime d'autorisation des casinos dans les départements et les régions d'outre-mer régis par l'article 73 de la Constitution",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-305.html",
+    "nor": "",
+    "date": "2026-01-27",
     "etat": "Renvoi en commission au fond"
   },
   {
