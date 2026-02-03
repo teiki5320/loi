@@ -1,5 +1,25 @@
 [
   {
+    "id": "DLR5L17N51672",
+    "titre": "Soins palliatifs et d’accompagnement",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA722102",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-662.html",
+    "nor": "",
+    "date": "2026-02-24",
+    "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N51670",
+    "titre": "Fin de vie",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA605694",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-661.html",
+    "nor": "",
+    "date": "2026-02-24",
+    "etat": "Discussion en séance publique"
+  },
+  {
     "id": "DLR5L17N53192",
     "titre": "Faciliter l’exercice en France des médecins diplômés au Royaume-Uni avant le Brexit",
     "type": "Proposition de loi ordinaire",
@@ -140,16 +160,6 @@
     "etat": "Réunion de commission"
   },
   {
-    "id": "DLR5L17N51670",
-    "titre": "Fin de vie",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA605694",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-661.html",
-    "nor": "",
-    "date": "2026-02-06",
-    "etat": "Réunion de commission"
-  },
-  {
     "id": "DLR5L17N53530",
     "titre": "Relancer les investissements dans le secteur de l’hydroélectricité pour contribuer à la transition énergétique",
     "type": "Proposition de loi ordinaire",
@@ -230,6 +240,36 @@
     "etat": "Réunion de commission"
   },
   {
+    "id": "DLR5L17N53697",
+    "titre": "L’imposition des plus hauts patrimoines et des revenus les plus élevés et leur contribution au financement des services publics",
+    "type": "Résolution",
+    "auteur": "PA942",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-02",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53696",
+    "titre": "Renforcer la protection de l’Union face aux effets des législations extraterritoriales étrangères",
+    "type": "Résolution",
+    "auteur": "PA720952",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-02",
+    "etat": "Renvoi préalable"
+  },
+  {
+    "id": "DLR5L17N53690",
+    "titre": "Proposition de loi visant à permettre le remboursement des honoraires d'expert-comptable aux candidats",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-328.html",
+    "nor": "",
+    "date": "2026-02-02",
+    "etat": "Le gouvernement déclare l'urgence / engage la procédure accélérée"
+  },
+  {
     "id": "DLR5L17N53171",
     "titre": "Expérimentation pour l’instauration d’un enseignement d’éducation à l’alimentation à l’école",
     "type": "Proposition de loi ordinaire",
@@ -238,6 +278,16 @@
     "nor": "",
     "date": "2026-02-02",
     "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N52428",
+    "titre": "Projet de loi de finances pour 2026",
+    "type": "Projet de loi de finances de l'année",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjlf2026.html",
+    "nor": "",
+    "date": "2026-02-02",
+    "etat": "Décision"
   },
   {
     "id": "DLR5L17N51720",
@@ -258,16 +308,6 @@
     "nor": "",
     "date": "2026-02-02",
     "etat": "Réunion de commission"
-  },
-  {
-    "id": "DLR5L17N53690",
-    "titre": "Proposition de loi visant à permettre le remboursement des honoraires d'expert-comptable aux candidats",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl25-328.html",
-    "nor": "",
-    "date": "2026-01-30",
-    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N53689",
@@ -320,16 +360,6 @@
     "etat": "Renvoi en commission au fond"
   },
   {
-    "id": "DLR5L17N52428",
-    "titre": "Projet de loi de finances pour 2026",
-    "type": "Projet de loi de finances de l'année",
-    "auteur": "PA643210",
-    "url": "http://www.senat.fr/dossier-legislatif/pjlf2026.html",
-    "nor": "",
-    "date": "2026-01-30",
-    "etat": "Motion de censure"
-  },
-  {
     "id": "DLR5L17N53688",
     "titre": "Inscrire à l'ordre du jour de l'Assemblée nationale la proposition de loi relative à la Trajectoire de réduction de l’artificialisation concertée avec les élus locaux",
     "type": "Résolution Article 34-1",
@@ -364,10 +394,10 @@
     "titre": "Reconnaître les victimes de l'exposition aux essais nucléaires français et améliorer leur indemnisation",
     "type": "Proposition de loi ordinaire",
     "auteur": "PA795240",
-    "url": "",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-324.html",
     "nor": "",
     "date": "2026-01-29",
-    "etat": "Décision"
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N52744",
@@ -404,10 +434,10 @@
     "titre": "L’intérêt des enfants",
     "type": "Proposition de loi ordinaire",
     "auteur": "PA720560",
-    "url": "",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-326.html",
     "nor": "",
     "date": "2026-01-29",
-    "etat": "Décision"
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N50794",
@@ -565,16 +595,6 @@
     "type": "Proposition de loi ordinaire",
     "auteur": "PA721474",
     "url": "http://www.senat.fr/dossier-legislatif/ppl25-311.html",
-    "nor": "",
-    "date": "2026-01-28",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N51672",
-    "titre": "Soins palliatifs et d’accompagnement",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA722102",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-662.html",
     "nor": "",
     "date": "2026-01-28",
     "etat": "Renvoi en commission au fond"
