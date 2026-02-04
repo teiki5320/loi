@@ -1,5 +1,15 @@
 [
   {
+    "id": "DLR5L17N52985",
+    "titre": "Projet de loi relatif à la lutte contre les fraudes sociales et fiscales",
+    "type": "Projet de loi ordinaire",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl25-024.html",
+    "nor": "",
+    "date": "2026-02-27",
+    "etat": "Discussion en séance publique"
+  },
+  {
     "id": "DLR5L17N51672",
     "titre": "Soins palliatifs et d’accompagnement",
     "type": "Proposition de loi ordinaire",
@@ -20,10 +30,50 @@
     "etat": "Discussion en séance publique"
   },
   {
+    "id": "DLR5L17N53201",
+    "titre": "Renforcer le pilotage et la cohérence de la politique nationale du sport",
+    "type": "Résolution Article 34-1",
+    "auteur": "PA722382",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-16",
+    "etat": "Discussion en séance publique"
+  },
+  {
     "id": "DLR5L17N53192",
     "titre": "Faciliter l’exercice en France des médecins diplômés au Royaume-Uni avant le Brexit",
     "type": "Proposition de loi ordinaire",
     "auteur": "PA842311",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-16",
+    "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N53171",
+    "titre": "Expérimentation pour l’instauration d’un enseignement d’éducation à l’alimentation à l’école",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA721764",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-16",
+    "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N51720",
+    "titre": "Améliorer la protection des commerçants grâce à l’usage d’outils numériques",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA795664",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-16",
+    "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N51713",
+    "titre": "Extension de la possibilité de préemption de baux commerciaux dans les mairies aux sociétés civiles immobilières",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA795864",
     "url": "",
     "nor": "",
     "date": "2026-02-16",
@@ -170,16 +220,6 @@
     "etat": "Discussion en séance publique"
   },
   {
-    "id": "DLR5L17N53378",
-    "titre": "Libération des prisonniers arméniens détenus par l’Azerbaïdjan",
-    "type": "Résolution Article 34-1",
-    "auteur": "PA267285",
-    "url": "",
-    "nor": "",
-    "date": "2026-02-05",
-    "etat": "Discussion en séance publique"
-  },
-  {
     "id": "DLR5L17N53014",
     "titre": "Réaffirmer l’ambition climatique de la France au niveau européen",
     "type": "Résolution",
@@ -195,6 +235,16 @@
     "type": "Résolution",
     "auteur": "PA842271",
     "url": "",
+    "nor": "",
+    "date": "2026-02-05",
+    "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N52100",
+    "titre": "Projet de loi relatif à l’organisation des jeux Olympiques et Paralympiques de 2030",
+    "type": "Projet de loi ordinaire",
+    "auteur": "PA410",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl24-630.html",
     "nor": "",
     "date": "2026-02-05",
     "etat": "Discussion en séance publique"
@@ -230,14 +280,54 @@
     "etat": "Discussion en séance publique"
   },
   {
-    "id": "DLR5L17N52715",
-    "titre": "Octroyer le statut d’animaux de compagnie aux animaux de rente dès lors qu’ils sont sortis définitivement du circuit de la chaîne alimentaire du fait de leur viande ou produit d’origine animale déclarés impropres à la consommation",
+    "id": "DLR5L17N53703",
+    "titre": "Évaluer la responsabilité des multinationales dans les contaminations alimentaires et la stratégie de l’État pour les anticiper et y faire face",
     "type": "Résolution",
-    "auteur": "PA794906",
+    "auteur": "PA794082",
     "url": "",
     "nor": "",
-    "date": "2026-02-04",
-    "etat": "Réunion de commission"
+    "date": "2026-02-03",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53702",
+    "titre": "La souveraineté alimentaire et agricole",
+    "type": "Projet ou proposition de loi constitutionnelle",
+    "auteur": "PA642988",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-03",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53701",
+    "titre": "Renforcer la participation citoyenne à la dépense publique",
+    "type": "Projet ou proposition de loi organique",
+    "auteur": "PA793322",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-03",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53700",
+    "titre": "Inviter le Gouvernement à engager des mesures urgentes pour répondre à la crise du secteur de la psychiatrie et de la santé mentale",
+    "type": "Résolution Article 34-1",
+    "auteur": "PA720154",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-03",
+    "etat": "1er dépôt d'une initiative."
+  },
+  {
+    "id": "DLR5L17N53378",
+    "titre": "Libération des prisonniers arméniens détenus par l’Azerbaïdjan",
+    "type": "Résolution Article 34-1",
+    "auteur": "PA267285",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-03",
+    "etat": "Décision"
   },
   {
     "id": "DLR5L17N53697",
@@ -270,10 +360,10 @@
     "etat": "Le gouvernement déclare l'urgence / engage la procédure accélérée"
   },
   {
-    "id": "DLR5L17N53171",
-    "titre": "Expérimentation pour l’instauration d’un enseignement d’éducation à l’alimentation à l’école",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA721764",
+    "id": "DLR5L17N53689",
+    "titre": "Engagement de la responsabilité du Gouvernement sur le vote en lecture définitive du projet de loi de finances pour 2026",
+    "type": "Engagement de la responsabilité gouvernementale",
+    "auteur": "PA643210",
     "url": "",
     "nor": "",
     "date": "2026-02-02",
@@ -290,34 +380,14 @@
     "etat": "Décision"
   },
   {
-    "id": "DLR5L17N51720",
-    "titre": "Améliorer la protection des commerçants grâce à l’usage d’outils numériques",
+    "id": "DLR5L17N53698",
+    "titre": "Proposition de loi visant à atténuer une surtransposition relative à l'utilisation de produits phytopharmaceutiques afin d'éviter la disparition de certaines filières agricoles",
     "type": "Proposition de loi ordinaire",
-    "auteur": "PA795664",
-    "url": "",
-    "nor": "",
-    "date": "2026-02-02",
-    "etat": "Réunion de commission"
-  },
-  {
-    "id": "DLR5L17N51713",
-    "titre": "Extension de la possibilité de préemption de baux commerciaux dans les mairies aux sociétés civiles immobilières",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA795864",
-    "url": "",
-    "nor": "",
-    "date": "2026-02-02",
-    "etat": "Réunion de commission"
-  },
-  {
-    "id": "DLR5L17N53689",
-    "titre": "Engagement de la responsabilité du Gouvernement sur le vote en lecture définitive du projet de loi de finances pour 2026",
-    "type": "Engagement de la responsabilité gouvernementale",
-    "auteur": "PA643210",
-    "url": "",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-330.html",
     "nor": "",
     "date": "2026-01-30",
-    "etat": "Motion de censure"
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N53388",
@@ -357,6 +427,16 @@
     "url": "http://www.senat.fr/dossier-legislatif/pjl25-160.html",
     "nor": "",
     "date": "2026-01-30",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53699",
+    "titre": "Proposition de loi visant à la mise en oeuvre d'une procédure de déblocage exceptionnelle de l'épargne salariale",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-325.html",
+    "nor": "",
+    "date": "2026-01-29",
     "etat": "Renvoi en commission au fond"
   },
   {
@@ -578,16 +658,6 @@
     "nor": "",
     "date": "2026-01-28",
     "etat": "Promulgation d'une loi"
-  },
-  {
-    "id": "DLR5L17N52100",
-    "titre": "Projet de loi relatif à l’organisation des jeux Olympiques et Paralympiques de 2030",
-    "type": "Projet de loi ordinaire",
-    "auteur": "PA410",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl24-630.html",
-    "nor": "",
-    "date": "2026-01-28",
-    "etat": "Décision de la CMP"
   },
   {
     "id": "DLR5L17N51962",
@@ -2220,16 +2290,6 @@
     "etat": "Renvoi en commission au fond"
   },
   {
-    "id": "DLR5L17N52985",
-    "titre": "Projet de loi relatif à la lutte contre les fraudes sociales et fiscales",
-    "type": "Projet de loi ordinaire",
-    "auteur": "PA643210",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl25-024.html",
-    "nor": "",
-    "date": "2025-12-17",
-    "etat": "Réunion de commission"
-  },
-  {
     "id": "DLR5L17N52820",
     "titre": "Condamner la dérive illibérale et autoritaire du gouvernement géorgien et réaffirmer notre soutien au destin européen de la Géorgie",
     "type": "Résolution",
@@ -3640,16 +3700,6 @@
     "etat": "Renvoi préalable"
   },
   {
-    "id": "DLR5L17N53201",
-    "titre": "Renforcer le pilotage et la cohérence de la politique nationale du sport",
-    "type": "Résolution Article 34-1",
-    "auteur": "PA722382",
-    "url": "",
-    "nor": "",
-    "date": "2025-11-20",
-    "etat": "1er dépôt d'une initiative."
-  },
-  {
     "id": "DLR5L17N53200",
     "titre": "Les défaillances de l’État dans la lutte contre les féminicides et les liens entre les féminicides et la domination patriarcale en vue d’en finir avec ces crimes",
     "type": "Résolution",
@@ -4488,6 +4538,16 @@
     "nor": "",
     "date": "2025-10-29",
     "etat": "1er dépôt d'une initiative."
+  },
+  {
+    "id": "DLR5L17N52715",
+    "titre": "Octroyer le statut d’animaux de compagnie aux animaux de rente dès lors qu’ils sont sortis définitivement du circuit de la chaîne alimentaire du fait de leur viande ou produit d’origine animale déclarés impropres à la consommation",
+    "type": "Résolution",
+    "auteur": "PA794906",
+    "url": "",
+    "nor": "",
+    "date": "2025-10-29",
+    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L17N52600",
