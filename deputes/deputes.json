@@ -5750,6 +5750,16 @@
     "groupeLibelle": "Droite Républicaine"
   },
   {
+    "id": "PA878242",
+    "nom": "Antoine Valentin",
+    "email": "antoine.valentin@assemblee-nationale.fr",
+    "circo": "3",
+    "dept": "Haute-Savoie",
+    "groupe": "PO872880",
+    "groupeSigle": "UDR",
+    "groupeLibelle": "Union des droites pour la République"
+  },
+  {
     "id": "PA942",
     "nom": "Charles de Courson",
     "email": "Charles.deCourson@assemblee-nationale.fr",
