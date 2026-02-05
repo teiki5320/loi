@@ -220,14 +220,234 @@
     "etat": "Discussion en séance publique"
   },
   {
+    "id": "DLR5L17N53726",
+    "titre": "Mettre à l'honneur les naissances dans les communes rurales",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA793852",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-04",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53725",
+    "titre": "Garantir la continuité des droits des mineurs non accompagnés et des jeunes majeurs anciennement confiés au service de l’aide sociale à l’enfance",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA840171",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-04",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53724",
+    "titre": "Renforcer le pluralisme politique dans les médias audiovisuels en améliorant la prise en compte des temps d’interventions",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA794562",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-04",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53723",
+    "titre": "Prévenir et lutter contre les violences en milieu scolaire",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA794486",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-04",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53722",
+    "titre": "Interdire les téléphones mobiles dans les lycées et simplifier les conditions de leur confiscation",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA643089",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-04",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53721",
+    "titre": "Instaurer des zones d'accélération de la souveraineté alimentaire",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA793520",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-04",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53720",
+    "titre": "Renforcer le contrôle, la gouvernance et la responsabilité financière des agences et opérateurs de l’État",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA720728",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-04",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53719",
+    "titre": "Lutter contre le morcellement du suivi médical",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA793322",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-04",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53718",
+    "titre": "Encourager la construction durable et la valorisation des ressources naturelles dans le secteur du bâtiment",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA793322",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-04",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53717",
+    "titre": "Interdire les sucres ajoutés aliments destinés aux nourrissons et aux enfants en bas âge",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA722374",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-04",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53716",
+    "titre": "Promouvoir une société accueillante pour les enfants",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA841359",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-04",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53715",
+    "titre": "Renforcer la place des agriculteurs dans l’aménagement du territoire et à sécuriser l’exercice des activités agricoles face au changement climatique",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA794830",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-04",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53714",
+    "titre": "Incriminer l'usage récréatif du protoxyde d'azote et prévenir les risques pour la sécurité routière",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA841587",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-04",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53713",
+    "titre": "Promouvoir la restauration française du \"fait maison\"",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA721474",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-04",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53712",
+    "titre": "Soutenir les communes rurales dans l’entretien des routes communales",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA721474",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-04",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53711",
+    "titre": "Encourager, simplifier et promouvoir la vie associative, ses dirigeants et ses bénévoles",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA721474",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-04",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53710",
+    "titre": "Protéger nos enfants contre la surexposition aux écrans",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA795362",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-04",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53709",
+    "titre": "Lutter contre les placements d’enfants injustifiés",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA795900",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-04",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53708",
+    "titre": "Renforcer le droit des parents dans les procédures relatives à une mesure d’assistance éducative",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA795900",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-04",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53707",
+    "titre": "Lutte contre le piratage des événements sportifs",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA719640",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-04",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53523",
+    "titre": "Création d’une déclaration de beau-parentalité",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA267200",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-04",
+    "etat": "Nomination de rapporteur"
+  },
+  {
+    "id": "DLR5L17N53235",
+    "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et la Communauté des Caraïbes relatif à l’adhésion au protocole sur les privilèges et immunités de la Communauté des Caraïbes du 14 janvier 1985",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl25-160.html",
+    "nor": "",
+    "date": "2026-02-04",
+    "etat": "Réunion de commission"
+  },
+  {
     "id": "DLR5L17N53014",
     "titre": "Réaffirmer l’ambition climatique de la France au niveau européen",
     "type": "Résolution",
     "auteur": "PA794146",
     "url": "",
     "nor": "",
-    "date": "2026-02-05",
-    "etat": "Discussion en séance publique"
+    "date": "2026-02-04",
+    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L17N52598",
@@ -236,18 +456,18 @@
     "auteur": "PA842271",
     "url": "",
     "nor": "",
-    "date": "2026-02-05",
-    "etat": "Discussion en séance publique"
+    "date": "2026-02-04",
+    "etat": "Décision"
   },
   {
-    "id": "DLR5L17N52100",
-    "titre": "Projet de loi relatif à l’organisation des jeux Olympiques et Paralympiques de 2030",
-    "type": "Projet de loi ordinaire",
-    "auteur": "PA410",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl24-630.html",
+    "id": "DLR5L17N52428",
+    "titre": "Projet de loi de finances pour 2026",
+    "type": "Projet de loi de finances de l'année",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjlf2026.html",
     "nor": "",
-    "date": "2026-02-05",
-    "etat": "Discussion en séance publique"
+    "date": "2026-02-04",
+    "etat": "Saisine du conseil constitutionnel"
   },
   {
     "id": "DLR5L17N51866",
@@ -256,28 +476,8 @@
     "auteur": "PA795864",
     "url": "",
     "nor": "",
-    "date": "2026-02-05",
-    "etat": "Discussion en séance publique"
-  },
-  {
-    "id": "DLR5L17N51777",
-    "titre": "Soutenir le Danemark et le Groenland et œuvrer en faveur d’une plus grande coopération en matière de défense",
-    "type": "Résolution",
-    "auteur": "PA842311",
-    "url": "",
-    "nor": "",
-    "date": "2026-02-05",
-    "etat": "Discussion en séance publique"
-  },
-  {
-    "id": "DLR5L17N51679",
-    "titre": "Sauvegarder et renforcer le financement en faveur de la lutte contre le virus de l'immunodéficience humaine",
-    "type": "Résolution",
-    "auteur": "PA793394",
-    "url": "",
-    "nor": "",
-    "date": "2026-02-05",
-    "etat": "Discussion en séance publique"
+    "date": "2026-02-04",
+    "etat": "Décision"
   },
   {
     "id": "DLR5L17N53703",
@@ -330,6 +530,36 @@
     "etat": "Décision"
   },
   {
+    "id": "DLR5L17N52100",
+    "titre": "Projet de loi relatif à l’organisation des jeux Olympiques et Paralympiques de 2030",
+    "type": "Projet de loi ordinaire",
+    "auteur": "PA410",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl24-630.html",
+    "nor": "",
+    "date": "2026-02-03",
+    "etat": "Décision"
+  },
+  {
+    "id": "DLR5L17N51777",
+    "titre": "Soutenir le Danemark et le Groenland et œuvrer en faveur d’une plus grande coopération en matière de défense",
+    "type": "Résolution",
+    "auteur": "PA842311",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-03",
+    "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N51679",
+    "titre": "Sauvegarder et renforcer le financement en faveur de la lutte contre le virus de l'immunodéficience humaine",
+    "type": "Résolution",
+    "auteur": "PA793394",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-03",
+    "etat": "Décision"
+  },
+  {
     "id": "DLR5L17N53697",
     "titre": "L’imposition des plus hauts patrimoines et des revenus les plus élevés et leur contribution au financement des services publics",
     "type": "Résolution",
@@ -368,16 +598,6 @@
     "nor": "",
     "date": "2026-02-02",
     "etat": "Discussion en séance publique"
-  },
-  {
-    "id": "DLR5L17N52428",
-    "titre": "Projet de loi de finances pour 2026",
-    "type": "Projet de loi de finances de l'année",
-    "auteur": "PA643210",
-    "url": "http://www.senat.fr/dossier-legislatif/pjlf2026.html",
-    "nor": "",
-    "date": "2026-02-02",
-    "etat": "Décision"
   },
   {
     "id": "DLR5L17N53698",
@@ -420,16 +640,6 @@
     "etat": "Renvoi en commission au fond"
   },
   {
-    "id": "DLR5L17N53235",
-    "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et la Communauté des Caraïbes relatif à l’adhésion au protocole sur les privilèges et immunités de la Communauté des Caraïbes du 14 janvier 1985",
-    "type": "Projet de ratification des traités et conventions",
-    "auteur": "PA643210",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl25-160.html",
-    "nor": "",
-    "date": "2026-01-30",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
     "id": "DLR5L17N53699",
     "titre": "Proposition de loi visant à la mise en oeuvre d'une procédure de déblocage exceptionnelle de l'épargne salariale",
     "type": "Proposition de loi ordinaire",
@@ -465,6 +675,16 @@
     "type": "Projet ou proposition de loi constitutionnelle",
     "auteur": "PA793322",
     "url": "",
+    "nor": "",
+    "date": "2026-01-29",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53279",
+    "titre": "Mettre fin au devoir conjugal",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA642868",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-321.html",
     "nor": "",
     "date": "2026-01-29",
     "etat": "Renvoi en commission au fond"
@@ -530,6 +750,16 @@
     "etat": "Promulgation d'une loi"
   },
   {
+    "id": "DLR5L17N53706",
+    "titre": "Projet de loi autorisant l’approbation de la convention entre le Gouvernement de la République française et le Gouvernement de la République de Chypre pour l’élimination de la double imposition en matière d’impôts sur le revenu et la prévention de l’évasion et de la fraude fiscales",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl25-314.html",
+    "nor": "",
+    "date": "2026-01-28",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
     "id": "DLR5L17N53683",
     "titre": "Le déplacement d’une délégation de la commission des Affaires étrangères à New York à l’occasion de la 80ème Assemblée générale des Nations unies, à l’automne 2025",
     "type": "Rapport d'information sans mission",
@@ -568,16 +798,6 @@
     "nor": "",
     "date": "2026-01-28",
     "etat": "Dépôt de rapport"
-  },
-  {
-    "id": "DLR5L17N53279",
-    "titre": "Mettre fin au devoir conjugal",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA642868",
-    "url": "",
-    "nor": "",
-    "date": "2026-01-28",
-    "etat": "Décision"
   },
   {
     "id": "DLR5L17N53096",
@@ -1394,16 +1614,6 @@
     "titre": "Nationalisation de LDR Médical",
     "type": "Proposition de loi ordinaire",
     "auteur": "PA793736",
-    "url": "",
-    "nor": "",
-    "date": "2026-01-13",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N53523",
-    "titre": "Création d’une déclaration de beau-parentalité",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA267200",
     "url": "",
     "nor": "",
     "date": "2026-01-13",
