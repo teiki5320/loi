@@ -1,5 +1,25 @@
 [
   {
+    "id": "DLR5L17N52036",
+    "titre": "Sauvegarder la pêche française de Méditerranée",
+    "type": "Résolution",
+    "auteur": "PA793904",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-28",
+    "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N51755",
+    "titre": "Promouvoir une pratique de la pêche durable et respectueuse des ressources halieutiques et des océans",
+    "type": "Résolution",
+    "auteur": "PA794270",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-28",
+    "etat": "Réunion de commission"
+  },
+  {
     "id": "DLR5L17N52985",
     "titre": "Projet de loi relatif à la lutte contre les fraudes sociales et fiscales",
     "type": "Projet de loi ordinaire",
@@ -8,6 +28,26 @@
     "nor": "",
     "date": "2026-02-27",
     "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N53388",
+    "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et le Gouvernement de la République du Kazakhstan sur la réadmission des personnes",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl25-236.html",
+    "nor": "",
+    "date": "2026-02-25",
+    "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N53715",
+    "titre": "Renforcer la place des agriculteurs dans l’aménagement du territoire et à sécuriser l’exercice des activités agricoles face au changement climatique",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA794830",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-24",
+    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L17N51672",
@@ -28,6 +68,16 @@
     "nor": "",
     "date": "2026-02-24",
     "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N52549",
+    "titre": "Projet de loi autorisant l’approbation de la convention entre le Gouvernement de la République française et le Gouvernement de la République de Finlande pour l’élimination de la double imposition en matière d’impôts sur le revenu et la prévention de l’évasion et de la fraude fiscales et l’approbation de l’avenant à la convention entre le Gouvernement de la République française et le Gouvernement du Royaume de Suède en vue d’éviter les doubles impositions et de prévenir l’évasion fiscale en matière d’impôts sur le revenu et sur la fortune",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA410",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl24-855.html",
+    "nor": "",
+    "date": "2026-02-18",
+    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L17N53201",
@@ -170,6 +220,16 @@
     "etat": "Discussion en séance publique"
   },
   {
+    "id": "DLR5L17N53697",
+    "titre": "L’imposition des plus hauts patrimoines et des revenus les plus élevés et leur contribution au financement des services publics",
+    "type": "Résolution",
+    "auteur": "PA942",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-11",
+    "etat": "Réunion de commission"
+  },
+  {
     "id": "DLR5L17N53387",
     "titre": "Condamner les atteintes aux droits fondamentaux des personnes migrantes en Tunisie et appeler à la libération immédiate et inconditionnelle des personnes détenues pour leur engagement humanitaire et en faveur des droits humains",
     "type": "Résolution",
@@ -210,6 +270,26 @@
     "etat": "Réunion de commission"
   },
   {
+    "id": "DLR5L17N53729",
+    "titre": "Les implications en France de l’affaire Epstein",
+    "type": "Résolution",
+    "auteur": "PA795746",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-05",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53676",
+    "titre": "Renforcer la sécurité sur les domaines skiables et créer des sanctions contre les skieurs sous l'effet de drogues et d'alcool",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA793322",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-05",
+    "etat": "Retrait d'une initiative"
+  },
+  {
     "id": "DLR5L17N53530",
     "titre": "Relancer les investissements dans le secteur de l’hydroélectricité pour contribuer à la transition énergétique",
     "type": "Proposition de loi ordinaire",
@@ -217,7 +297,37 @@
     "url": "",
     "nor": "",
     "date": "2026-02-05",
-    "etat": "Discussion en séance publique"
+    "etat": "Décision"
+  },
+  {
+    "id": "DLR5L17N53456",
+    "titre": "Proposition de loi visant à faciliter la création et le fonctionnement des communes nouvelles",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-251.html",
+    "nor": "",
+    "date": "2026-02-05",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52428",
+    "titre": "Projet de loi de finances pour 2026",
+    "type": "Projet de loi de finances de l'année",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjlf2026.html",
+    "nor": "",
+    "date": "2026-02-05",
+    "etat": "Saisine du conseil constitutionnel"
+  },
+  {
+    "id": "DLR5L17N52100",
+    "titre": "Projet de loi relatif à l’organisation des jeux Olympiques et Paralympiques de 2030",
+    "type": "Projet de loi ordinaire",
+    "auteur": "PA410",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl24-630.html",
+    "nor": "",
+    "date": "2026-02-05",
+    "etat": "Décision"
   },
   {
     "id": "DLR5L17N53726",
@@ -311,7 +421,7 @@
   },
   {
     "id": "DLR5L17N53717",
-    "titre": "Interdire les sucres ajoutés aliments destinés aux nourrissons et aux enfants en bas âge",
+    "titre": "Interdire les sucres ajoutés dans les aliments destinés aux nourrissons et aux enfants en bas âge",
     "type": "Proposition de loi ordinaire",
     "auteur": "PA722374",
     "url": "",
@@ -324,16 +434,6 @@
     "titre": "Promouvoir une société accueillante pour les enfants",
     "type": "Proposition de loi ordinaire",
     "auteur": "PA841359",
-    "url": "",
-    "nor": "",
-    "date": "2026-02-04",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N53715",
-    "titre": "Renforcer la place des agriculteurs dans l’aménagement du territoire et à sécuriser l’exercice des activités agricoles face au changement climatique",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA794830",
     "url": "",
     "nor": "",
     "date": "2026-02-04",
@@ -430,6 +530,16 @@
     "etat": "Nomination de rapporteur"
   },
   {
+    "id": "DLR5L17N53358",
+    "titre": "Proposition de loi relative à la lutte contre les installations illicites des gens du voyage",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-212.html",
+    "nor": "",
+    "date": "2026-02-04",
+    "etat": "Dépôt de rapport"
+  },
+  {
     "id": "DLR5L17N53235",
     "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et la Communauté des Caraïbes relatif à l’adhésion au protocole sur les privilèges et immunités de la Communauté des Caraïbes du 14 janvier 1985",
     "type": "Projet de ratification des traités et conventions",
@@ -438,6 +548,36 @@
     "nor": "",
     "date": "2026-02-04",
     "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N53225",
+    "titre": "Proposition de loi organique portant renforcement de la chaîne pénale criminelle et diverses dispositions de modernisation du corps judiciaire",
+    "type": "Projet ou proposition de loi organique",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-071.html",
+    "nor": "",
+    "date": "2026-02-04",
+    "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N53198",
+    "titre": "Proposition de loi visant à prohiber l'achat de services sexuels virtuels personnalisés et à lutter contre le proxénétisme en ligne",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-133.html",
+    "nor": "",
+    "date": "2026-02-04",
+    "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N53140",
+    "titre": "Projet de loi portant diverses dispositions d'adaptation au droit de l’Union européenne en matière économique, financière, environnementale, énergétique, d’information, de transport, de santé, d’agriculture et de pêche",
+    "type": "Projet de loi ordinaire",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl25-118.html",
+    "nor": "",
+    "date": "2026-02-04",
+    "etat": "Dépôt de rapport"
   },
   {
     "id": "DLR5L17N53014",
@@ -460,14 +600,24 @@
     "etat": "Décision"
   },
   {
-    "id": "DLR5L17N52428",
-    "titre": "Projet de loi de finances pour 2026",
-    "type": "Projet de loi de finances de l'année",
-    "auteur": "PA643210",
-    "url": "http://www.senat.fr/dossier-legislatif/pjlf2026.html",
+    "id": "DLR5L17N52116",
+    "titre": "Proposition de loi visant à un meilleur encadrement de l'enseignement supérieur privé à but lucratif pour mieux protéger les étudiants",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-625.html",
     "nor": "",
     "date": "2026-02-04",
-    "etat": "Saisine du conseil constitutionnel"
+    "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N51983",
+    "titre": "Proposition de loi visant à garantir la liberté académique des chercheurs et des enseignants-chercheurs, l'indépendance des travaux de recherche et la transparence des fonds privés affectés à l'enseignement supérieur et à la recherche",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-543.html",
+    "nor": "",
+    "date": "2026-02-04",
+    "etat": "Dépôt de rapport"
   },
   {
     "id": "DLR5L17N51866",
@@ -478,6 +628,16 @@
     "nor": "",
     "date": "2026-02-04",
     "etat": "Décision"
+  },
+  {
+    "id": "DLR5L17N50604",
+    "titre": "Création d’un centre hospitalier universitaire en Corse",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA719286",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-178.html",
+    "nor": "",
+    "date": "2026-02-04",
+    "etat": "Dépôt de rapport"
   },
   {
     "id": "DLR5L17N53703",
@@ -530,16 +690,6 @@
     "etat": "Décision"
   },
   {
-    "id": "DLR5L17N52100",
-    "titre": "Projet de loi relatif à l’organisation des jeux Olympiques et Paralympiques de 2030",
-    "type": "Projet de loi ordinaire",
-    "auteur": "PA410",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl24-630.html",
-    "nor": "",
-    "date": "2026-02-03",
-    "etat": "Décision"
-  },
-  {
     "id": "DLR5L17N51777",
     "titre": "Soutenir le Danemark et le Groenland et œuvrer en faveur d’une plus grande coopération en matière de défense",
     "type": "Résolution",
@@ -558,16 +708,6 @@
     "nor": "",
     "date": "2026-02-03",
     "etat": "Décision"
-  },
-  {
-    "id": "DLR5L17N53697",
-    "titre": "L’imposition des plus hauts patrimoines et des revenus les plus élevés et leur contribution au financement des services publics",
-    "type": "Résolution",
-    "auteur": "PA942",
-    "url": "",
-    "nor": "",
-    "date": "2026-02-02",
-    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N53696",
@@ -605,16 +745,6 @@
     "type": "Proposition de loi ordinaire",
     "auteur": "PO78718",
     "url": "http://www.senat.fr/dossier-legislatif/ppl25-330.html",
-    "nor": "",
-    "date": "2026-01-30",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N53388",
-    "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et le Gouvernement de la République du Kazakhstan sur la réadmission des personnes",
-    "type": "Projet de ratification des traités et conventions",
-    "auteur": "PA643210",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl25-236.html",
     "nor": "",
     "date": "2026-01-30",
     "etat": "Renvoi en commission au fond"
@@ -790,16 +920,6 @@
     "etat": "Réunion de commission"
   },
   {
-    "id": "DLR5L17N53456",
-    "titre": "Proposition de loi visant à faciliter la création et le fonctionnement des communes nouvelles",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl25-251.html",
-    "nor": "",
-    "date": "2026-01-28",
-    "etat": "Dépôt de rapport"
-  },
-  {
     "id": "DLR5L17N53096",
     "titre": "Projet de loi relatif à l’extension des prérogatives, des moyens, de l’organisation et du contrôle des polices municipales et des gardes champêtres",
     "type": "Projet de loi ordinaire",
@@ -944,16 +1064,6 @@
     "titre": "Structurer durablement la lutte contre l'endométriose autour de la prévention et de la reconnaissance sociale",
     "type": "Proposition de loi ordinaire",
     "auteur": "PA608016",
-    "url": "",
-    "nor": "",
-    "date": "2026-01-27",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N53676",
-    "titre": "Renforcer la sécurité sur les domaines skiables et créer des sanctions contre les skieurs sous l'effet de drogues et d'alcool",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA793322",
     "url": "",
     "nor": "",
     "date": "2026-01-27",
@@ -1158,6 +1268,16 @@
     "nor": "",
     "date": "2026-01-27",
     "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N53533",
+    "titre": "Commission d'enquête relative aux conséquences des accords du Touquet sur l'action publique et le respect des libertés et droits fondamentaux des personnes migrantes",
+    "type": "Commission d'enquête",
+    "auteur": "",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-27",
+    "etat": "Nomination de rapporteur"
   },
   {
     "id": "DLR5L17N53360",
@@ -1670,16 +1790,6 @@
     "etat": "Renvoi préalable"
   },
   {
-    "id": "DLR5L17N53225",
-    "titre": "Proposition de loi organique portant renforcement de la chaîne pénale criminelle et diverses dispositions de modernisation du corps judiciaire",
-    "type": "Projet ou proposition de loi organique",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl25-071.html",
-    "nor": "",
-    "date": "2026-01-12",
-    "etat": "Le gouvernement déclare l'urgence / engage la procédure accélérée"
-  },
-  {
     "id": "DLR5L17N52803",
     "titre": "Garantir l'intégrité de l'information sur le changement climatique face à la désinformation climatique et aux ingérences étrangères",
     "type": "Résolution",
@@ -1778,26 +1888,6 @@
     "nor": "",
     "date": "2026-01-07",
     "etat": "Dépôt de rapport"
-  },
-  {
-    "id": "DLR5L17N52036",
-    "titre": "Sauvegarder la pêche française de Méditerranée",
-    "type": "Résolution",
-    "auteur": "PA793904",
-    "url": "",
-    "nor": "",
-    "date": "2026-01-07",
-    "etat": "Réunion de commission"
-  },
-  {
-    "id": "DLR5L17N51755",
-    "titre": "Promouvoir une pratique de la pêche durable et respectueuse des ressources halieutiques et des océans",
-    "type": "Résolution",
-    "auteur": "PA794270",
-    "url": "",
-    "nor": "",
-    "date": "2026-01-07",
-    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L17N51173",
@@ -2687,16 +2777,6 @@
     "url": "http://www.senat.fr/dossier-legislatif/ppl25-218.html",
     "nor": "",
     "date": "2025-12-12",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N53358",
-    "titre": "Proposition de loi relative à la lutte contre les installations illicites des gens du voyage",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl25-212.html",
-    "nor": "",
-    "date": "2025-12-11",
     "etat": "Renvoi en commission au fond"
   },
   {
@@ -3940,16 +4020,6 @@
     "etat": "Renvoi en commission au fond"
   },
   {
-    "id": "DLR5L17N53198",
-    "titre": "Proposition de loi visant à prohiber l'achat de services sexuels virtuels personnalisés et à lutter contre le proxénétisme en ligne",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl25-133.html",
-    "nor": "",
-    "date": "2025-11-18",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
     "id": "DLR5L17N53195",
     "titre": "Projet de loi de finances pour 2026",
     "type": "Rapport d'information sans mission",
@@ -4390,16 +4460,6 @@
     "etat": "Nomination de rapporteur"
   },
   {
-    "id": "DLR5L17N53140",
-    "titre": "Projet de loi portant diverses dispositions d'adaptation au droit de l’Union européenne en matière économique, financière, environnementale, énergétique, d’information, de transport, de santé, d’agriculture et de pêche",
-    "type": "Projet de loi ordinaire",
-    "auteur": "PA643210",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl25-118.html",
-    "nor": "",
-    "date": "2025-11-10",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
     "id": "DLR5L17N53136",
     "titre": "Rapport sur la pétition n° 3014 du 10 juillet 2025 « Non à la loi Duplomb, pour la santé, la sécurité, l’intelligence collective »",
     "type": "Pétitions",
@@ -4698,16 +4758,6 @@
     "nor": "",
     "date": "2025-10-30",
     "etat": "Décision"
-  },
-  {
-    "id": "DLR5L17N52549",
-    "titre": "Projet de loi autorisant l’approbation de la convention entre le Gouvernement de la République française et le Gouvernement de la République de Finlande pour l’élimination de la double imposition en matière d’impôts sur le revenu et la prévention de l’évasion et de la fraude fiscales et l’approbation de l’avenant à la convention entre le Gouvernement de la République française et le Gouvernement du Royaume de Suède en vue d’éviter les doubles impositions et de prévenir l’évasion fiscale en matière d’impôts sur le revenu et sur la fortune",
-    "type": "Projet de ratification des traités et conventions",
-    "auteur": "PA410",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl24-855.html",
-    "nor": "",
-    "date": "2025-10-30",
-    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N51255",
@@ -11220,16 +11270,6 @@
     "etat": "Renvoi en commission au fond"
   },
   {
-    "id": "DLR5L17N52116",
-    "titre": "Proposition de loi visant à un meilleur encadrement de l'enseignement supérieur privé à but lucratif pour mieux protéger les étudiants",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-625.html",
-    "nor": "",
-    "date": "2025-05-14",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
     "id": "DLR5L17N52101",
     "titre": "Proposition de loi tendant à sanctionner la vente d'objets liés au nazisme",
     "type": "Proposition de loi ordinaire",
@@ -12037,16 +12077,6 @@
     "url": "",
     "nor": "",
     "date": "2025-04-22",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N51983",
-    "titre": "Proposition de loi visant à garantir la liberté académique des chercheurs et des enseignants-chercheurs, l'indépendance des travaux de recherche et la transparence des fonds privés affectés à l'enseignement supérieur et à la recherche",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-543.html",
-    "nor": "",
-    "date": "2025-04-18",
     "etat": "Renvoi en commission au fond"
   },
   {
@@ -18338,16 +18368,6 @@
     "nor": "",
     "date": "2024-12-03",
     "etat": "1er dépôt d'une initiative."
-  },
-  {
-    "id": "DLR5L17N50604",
-    "titre": "Création d’un centre hospitalier universitaire en Corse",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA719286",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-178.html",
-    "nor": "",
-    "date": "2024-12-03",
-    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N50976",
