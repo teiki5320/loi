@@ -149,6 +149,11 @@
   "twitter": "n_delattre",
   "facebook": "100057732863453",
   "organismes": [{
+    "code": "AUTRES-SFAPF",
+    "type": "AUTRE",
+    "libelle": "Section française de l'Assemblée parlementaire de la francophonie (A.P.F.)",
+    "ordre": 60017
+  },{
     "code": "COM-AFCL",
     "type": "COMMISSION",
     "libelle": "Commission de la culture, de l'éducation, de la communication et du sport",
@@ -1474,6 +1479,11 @@
   "twitter": "PascaleGruny02",
   "facebook": "100000736606812",
   "organismes": [{
+    "code": "AUTRES-SFAPF",
+    "type": "AUTRE",
+    "libelle": "Section française de l'Assemblée parlementaire de la francophonie (A.P.F.)",
+    "ordre": 60017
+  },{
     "code": "COM-SOCI",
     "type": "COMMISSION",
     "libelle": "Commission des affaires sociales",
@@ -1494,9 +1504,9 @@
     "libelle": "Délégation sénatoriale aux collectivités territoriales et à la décentralisation",
     "ordre": 16002
   },{
-    "code": "ETUDES-909",
+    "code": "ETUDES-907",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Vigne et vin",
+    "libelle": "Groupe d'études Chasse et pêche",
     "ordre": 50001
   },{
     "code": "ETUDES-1014",
@@ -1504,14 +1514,14 @@
     "libelle": "Groupe d'études Handicap",
     "ordre": 50001
   },{
-    "code": "ETUDES-907",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Chasse et pêche",
-    "ordre": 50001
-  },{
     "code": "ETUDES-1006",
     "type": "ETUDE",
     "libelle": "Groupe d'études Francophonie",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-909",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Vigne et vin",
     "ordre": 50001
   },{
     "code": "ETUDES-919",
