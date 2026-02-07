@@ -15654,6 +15654,11 @@
   "twitter": "LGarnier44",
   "facebook": "100060185894411",
   "organismes": [{
+    "code": "AUTRES-UIP",
+    "type": "AUTRE",
+    "libelle": "Groupe français de l'Union Interparlementaire (U.I.P.)",
+    "ordre": 60018
+  },{
     "code": "COM-AFCL",
     "type": "COMMISSION",
     "libelle": "Commission de la culture, de l'éducation, de la communication et du sport",
