@@ -220,6 +220,16 @@
     "etat": "Discussion en séance publique"
   },
   {
+    "id": "DLR5L17N53720",
+    "titre": "Renforcer le contrôle, la gouvernance et la responsabilité financière des agences et opérateurs de l’État",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA720728",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-11",
+    "etat": "Réunion de commission"
+  },
+  {
     "id": "DLR5L17N53697",
     "titre": "L’imposition des plus hauts patrimoines et des revenus les plus élevés et leur contribution au financement des services publics",
     "type": "Résolution",
@@ -330,6 +340,16 @@
     "etat": "Décision"
   },
   {
+    "id": "DLR5L17N53730",
+    "titre": "Projet de loi Projet de loi autorisant l'approbation de la Convention entre le Gouvernement de la République française et le Gouvernement de la République italienne relative à l’entretien courant et à l’exploitation de la section située en territoire français de la ligne ferroviaire Coni-Breil-Vintimille",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl25-355.html",
+    "nor": "",
+    "date": "2026-02-04",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
     "id": "DLR5L17N53726",
     "titre": "Mettre à l'honneur les naissances dans les communes rurales",
     "type": "Proposition de loi ordinaire",
@@ -384,16 +404,6 @@
     "titre": "Instaurer des zones d'accélération de la souveraineté alimentaire",
     "type": "Proposition de loi ordinaire",
     "auteur": "PA793520",
-    "url": "",
-    "nor": "",
-    "date": "2026-02-04",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N53720",
-    "titre": "Renforcer le contrôle, la gouvernance et la responsabilité financière des agences et opérateurs de l’État",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA720728",
     "url": "",
     "nor": "",
     "date": "2026-02-04",
@@ -710,6 +720,16 @@
     "etat": "Décision"
   },
   {
+    "id": "DLR5L17N53728",
+    "titre": "Proposition de loi visant à garantir la liberté de choix des familles dans l'organisation des obsèques",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-332.html",
+    "nor": "",
+    "date": "2026-02-02",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
     "id": "DLR5L17N53696",
     "titre": "Renforcer la protection de l’Union face aux effets des législations extraterritoriales étrangères",
     "type": "Résolution",
@@ -738,6 +758,16 @@
     "nor": "",
     "date": "2026-02-02",
     "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N53731",
+    "titre": "Proposition de loi relative à la mutualisation publique des risques majeurs des collectivités territoriales",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-329.html",
+    "nor": "",
+    "date": "2026-01-30",
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N53698",
