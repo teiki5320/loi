@@ -220,16 +220,6 @@
     "etat": "Discussion en séance publique"
   },
   {
-    "id": "DLR5L17N53720",
-    "titre": "Renforcer le contrôle, la gouvernance et la responsabilité financière des agences et opérateurs de l’État",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA720728",
-    "url": "",
-    "nor": "",
-    "date": "2026-02-11",
-    "etat": "Réunion de commission"
-  },
-  {
     "id": "DLR5L17N53697",
     "titre": "L’imposition des plus hauts patrimoines et des revenus les plus élevés et leur contribution au financement des services publics",
     "type": "Résolution",
@@ -404,6 +394,16 @@
     "titre": "Instaurer des zones d'accélération de la souveraineté alimentaire",
     "type": "Proposition de loi ordinaire",
     "auteur": "PA793520",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-04",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53720",
+    "titre": "Renforcer le contrôle, la gouvernance et la responsabilité financière des agences et opérateurs de l’État",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA720728",
     "url": "",
     "nor": "",
     "date": "2026-02-04",
@@ -758,6 +758,16 @@
     "nor": "",
     "date": "2026-02-02",
     "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N53732",
+    "titre": "Proposition de loi facilitant les constructions liées à l'activité agricole ou forestière à proximité du rivage",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-331.html",
+    "nor": "",
+    "date": "2026-01-30",
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N53731",
