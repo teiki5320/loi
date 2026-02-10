@@ -1,25 +1,5 @@
 [
   {
-    "id": "DLR5L17N52036",
-    "titre": "Sauvegarder la pêche française de Méditerranée",
-    "type": "Résolution",
-    "auteur": "PA793904",
-    "url": "",
-    "nor": "",
-    "date": "2026-02-28",
-    "etat": "Réunion de commission"
-  },
-  {
-    "id": "DLR5L17N51755",
-    "titre": "Promouvoir une pratique de la pêche durable et respectueuse des ressources halieutiques et des océans",
-    "type": "Résolution",
-    "auteur": "PA794270",
-    "url": "",
-    "nor": "",
-    "date": "2026-02-28",
-    "etat": "Réunion de commission"
-  },
-  {
     "id": "DLR5L17N52985",
     "titre": "Projet de loi relatif à la lutte contre les fraudes sociales et fiscales",
     "type": "Projet de loi ordinaire",
@@ -35,6 +15,26 @@
     "type": "Projet de ratification des traités et conventions",
     "auteur": "PA643210",
     "url": "http://www.senat.fr/dossier-legislatif/pjl25-236.html",
+    "nor": "",
+    "date": "2026-02-25",
+    "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N52036",
+    "titre": "Sauvegarder la pêche française de Méditerranée",
+    "type": "Résolution",
+    "auteur": "PA793904",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-25",
+    "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N51755",
+    "titre": "Promouvoir une pratique de la pêche durable et respectueuse des ressources halieutiques et des océans",
+    "type": "Résolution",
+    "auteur": "PA794270",
+    "url": "",
     "nor": "",
     "date": "2026-02-25",
     "etat": "Réunion de commission"
@@ -270,6 +270,56 @@
     "etat": "Réunion de commission"
   },
   {
+    "id": "DLR5L17N53735",
+    "titre": "Rapport relatif au débat sur le contrôle de l’application des lois",
+    "type": "Rapport d'information sans mission",
+    "auteur": "",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-09",
+    "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N53734",
+    "titre": "Faire de la lutte contre le harcèlement scolaire une grande cause pour 2027",
+    "type": "Résolution Article 34-1",
+    "auteur": "PA608016",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-09",
+    "etat": "1er dépôt d'une initiative."
+  },
+  {
+    "id": "DLR5L17N53402",
+    "titre": "Garantir une protection effective des voyageurs et des familles en cas d’annulation de vol",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA793322",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-09",
+    "etat": "Retrait d'une initiative"
+  },
+  {
+    "id": "DLR5L17N53198",
+    "titre": "Proposition de loi visant à prohiber l'achat de services sexuels virtuels personnalisés et à lutter contre le proxénétisme en ligne",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-133.html",
+    "nor": "",
+    "date": "2026-02-09",
+    "etat": "Le gouvernement déclare l'urgence / engage la procédure accélérée"
+  },
+  {
+    "id": "DLR5L17N52428",
+    "titre": "Projet de loi de finances pour 2026",
+    "type": "Projet de loi de finances de l'année",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjlf2026.html",
+    "nor": "",
+    "date": "2026-02-06",
+    "etat": "Saisine du conseil constitutionnel"
+  },
+  {
     "id": "DLR5L17N53729",
     "titre": "Les implications en France de l’affaire Epstein",
     "type": "Résolution",
@@ -308,16 +358,6 @@
     "nor": "",
     "date": "2026-02-05",
     "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N52428",
-    "titre": "Projet de loi de finances pour 2026",
-    "type": "Projet de loi de finances de l'année",
-    "auteur": "PA643210",
-    "url": "http://www.senat.fr/dossier-legislatif/pjlf2026.html",
-    "nor": "",
-    "date": "2026-02-05",
-    "etat": "Saisine du conseil constitutionnel"
   },
   {
     "id": "DLR5L17N52100",
@@ -565,16 +605,6 @@
     "type": "Projet ou proposition de loi organique",
     "auteur": "PO78718",
     "url": "http://www.senat.fr/dossier-legislatif/ppl25-071.html",
-    "nor": "",
-    "date": "2026-02-04",
-    "etat": "Dépôt de rapport"
-  },
-  {
-    "id": "DLR5L17N53198",
-    "titre": "Proposition de loi visant à prohiber l'achat de services sexuels virtuels personnalisés et à lutter contre le proxénétisme en ligne",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl25-133.html",
     "nor": "",
     "date": "2026-02-04",
     "etat": "Dépôt de rapport"
@@ -2254,16 +2284,6 @@
     "titre": "Rendre effectifs les droits des personnes LGBTQIA, lutter contre les violences faites aux enfants intersexes et faciliter la reconnaissance du genre à l’état civil",
     "type": "Proposition de loi ordinaire",
     "auteur": "PA840171",
-    "url": "",
-    "nor": "",
-    "date": "2025-12-23",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N53402",
-    "titre": "Garantir une protection effective des voyageurs et des familles en cas d’annulation de vol",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA793322",
     "url": "",
     "nor": "",
     "date": "2025-12-23",
