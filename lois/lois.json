@@ -1,5 +1,105 @@
 [
   {
+    "id": "DLR5L17N53720",
+    "titre": "Renforcer le contrôle, la gouvernance et la responsabilité financière des agences et opérateurs de l’État",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA720728",
+    "url": "",
+    "nor": "",
+    "date": "2026-03-26",
+    "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N53717",
+    "titre": "Interdire les sucres ajoutés dans les aliments destinés aux nourrissons et aux enfants en bas âge",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA722374",
+    "url": "",
+    "nor": "",
+    "date": "2026-03-26",
+    "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N53715",
+    "titre": "Renforcer la place des agriculteurs dans l’aménagement du territoire et à sécuriser l’exercice des activités agricoles face au changement climatique",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA794830",
+    "url": "",
+    "nor": "",
+    "date": "2026-03-26",
+    "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N53672",
+    "titre": "Renforcer l’enseignement à la défense nationale dans le cadre du parcours de citoyenneté",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA719024",
+    "url": "",
+    "nor": "",
+    "date": "2026-03-26",
+    "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N52900",
+    "titre": "Proposition de loi relative à la sécurisation des marchés publics numériques",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-008.html",
+    "nor": "",
+    "date": "2026-03-26",
+    "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N51346",
+    "titre": "Création du cadre d'emploi des personnels de santé des services d’incendie et de secours",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA267318",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-413.html",
+    "nor": "",
+    "date": "2026-03-26",
+    "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N51330",
+    "titre": "Renforcer l’effectivité des droits voisins de la presse",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA719558",
+    "url": "",
+    "nor": "",
+    "date": "2026-03-26",
+    "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N51329",
+    "titre": "Simplifier la sortie de l’indivision successorale",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA794810",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-415.html",
+    "nor": "",
+    "date": "2026-03-26",
+    "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N51285",
+    "titre": "Proposition de loi visant à rééquilibrer la filière à responsabilité élargie du producteur des produits et matériaux de construction du secteur du bâtiment au profit des produits du bois",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-242.html",
+    "nor": "",
+    "date": "2026-03-26",
+    "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N51175",
+    "titre": "Proposition de loi visant à soutenir les collectivités territoriales dans la prévention et la gestion des inondations",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-226.html",
+    "nor": "",
+    "date": "2026-03-26",
+    "etat": "Discussion en séance publique"
+  },
+  {
     "id": "DLR5L17N52985",
     "titre": "Projet de loi relatif à la lutte contre les fraudes sociales et fiscales",
     "type": "Projet de loi ordinaire",
@@ -40,14 +140,24 @@
     "etat": "Réunion de commission"
   },
   {
-    "id": "DLR5L17N53715",
-    "titre": "Renforcer la place des agriculteurs dans l’aménagement du territoire et à sécuriser l’exercice des activités agricoles face au changement climatique",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA794830",
-    "url": "",
+    "id": "DLR5L17N52561",
+    "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et le Gouvernement du Monténégro relatif à la coopération dans le domaine de la défense",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA410",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl24-857.html",
     "nor": "",
     "date": "2026-02-24",
-    "etat": "Réunion de commission"
+    "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N52103",
+    "titre": "Projet de loi autorisant l’approbation de l’avenant à la convention d’entraide judiciaire en matière pénale du 28 mai 1996 entre le Gouvernement de la République française et le Gouvernement de la République fédérative du Brésil",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA410",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl24-629.html",
+    "nor": "",
+    "date": "2026-02-24",
+    "etat": "Discussion en séance publique"
   },
   {
     "id": "DLR5L17N51672",
@@ -250,24 +360,74 @@
     "etat": "Réunion de commission"
   },
   {
-    "id": "DLR5L17N52561",
-    "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et le Gouvernement du Monténégro relatif à la coopération dans le domaine de la défense",
-    "type": "Projet de ratification des traités et conventions",
-    "auteur": "PA410",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl24-857.html",
+    "id": "DLR5L17N53739",
+    "titre": "La reconnaissance du pastoralisme comme activité économique essentielle des territoires et élément fondamental de la transition écologique au sein de la politique agricole commune et des politiques européennes de développement durable",
+    "type": "Résolution",
+    "auteur": "PA841381",
+    "url": "",
     "nor": "",
-    "date": "2026-02-11",
-    "etat": "Réunion de commission"
+    "date": "2026-02-10",
+    "etat": "Renvoi préalable"
   },
   {
-    "id": "DLR5L17N52103",
-    "titre": "Projet de loi autorisant l’approbation de l’avenant à la convention d’entraide judiciaire en matière pénale du 28 mai 1996 entre le Gouvernement de la République française et le Gouvernement de la République fédérative du Brésil",
-    "type": "Projet de ratification des traités et conventions",
-    "auteur": "PA410",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl24-629.html",
+    "id": "DLR5L17N53738",
+    "titre": "DOSSIER : rapport d'information déposé par la délégation de l'Assemblée nationale aux droits des femmes et à l'égalité des chances entre les hommes et les femmes sur la diplomatie féministe",
+    "type": "Rapport d'information sans mission",
+    "auteur": "",
+    "url": "",
     "nor": "",
-    "date": "2026-02-11",
-    "etat": "Réunion de commission"
+    "date": "2026-02-10",
+    "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N53737",
+    "titre": "Réaffirmer les droits des enfants et refuser leur exclusion d’espaces communs ou de services en raison de discrimination liée à l’âge",
+    "type": "Résolution Article 34-1",
+    "auteur": "PA794008",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-10",
+    "etat": "1er dépôt d'une initiative."
+  },
+  {
+    "id": "DLR5L17N53736",
+    "titre": "Protéger les financements destinés aux banques alimentaires dans le cadre de la réforme du Fonds social européen plus",
+    "type": "Résolution",
+    "auteur": "PA719822",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-10",
+    "etat": "Renvoi préalable"
+  },
+  {
+    "id": "DLR5L17N53358",
+    "titre": "Proposition de loi relative à la lutte contre les installations illicites des gens du voyage",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-212.html",
+    "nor": "",
+    "date": "2026-02-10",
+    "etat": "Décision"
+  },
+  {
+    "id": "DLR5L17N53198",
+    "titre": "Proposition de loi visant à prohiber l'achat de services sexuels virtuels personnalisés et à lutter contre le proxénétisme en ligne",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-133.html",
+    "nor": "",
+    "date": "2026-02-10",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53096",
+    "titre": "Projet de loi relatif à l’extension des prérogatives, des moyens, de l’organisation et du contrôle des polices municipales et des gardes champêtres",
+    "type": "Projet de loi ordinaire",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl25-097.html",
+    "nor": "",
+    "date": "2026-02-10",
+    "etat": "Décision"
   },
   {
     "id": "DLR5L17N53735",
@@ -298,16 +458,6 @@
     "nor": "",
     "date": "2026-02-09",
     "etat": "Retrait d'une initiative"
-  },
-  {
-    "id": "DLR5L17N53198",
-    "titre": "Proposition de loi visant à prohiber l'achat de services sexuels virtuels personnalisés et à lutter contre le proxénétisme en ligne",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl25-133.html",
-    "nor": "",
-    "date": "2026-02-09",
-    "etat": "Le gouvernement déclare l'urgence / engage la procédure accélérée"
   },
   {
     "id": "DLR5L17N52428",
@@ -440,16 +590,6 @@
     "etat": "Renvoi en commission au fond"
   },
   {
-    "id": "DLR5L17N53720",
-    "titre": "Renforcer le contrôle, la gouvernance et la responsabilité financière des agences et opérateurs de l’État",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA720728",
-    "url": "",
-    "nor": "",
-    "date": "2026-02-04",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
     "id": "DLR5L17N53719",
     "titre": "Lutter contre le morcellement du suivi médical",
     "type": "Proposition de loi ordinaire",
@@ -464,16 +604,6 @@
     "titre": "Encourager la construction durable et la valorisation des ressources naturelles dans le secteur du bâtiment",
     "type": "Proposition de loi ordinaire",
     "auteur": "PA793322",
-    "url": "",
-    "nor": "",
-    "date": "2026-02-04",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N53717",
-    "titre": "Interdire les sucres ajoutés dans les aliments destinés aux nourrissons et aux enfants en bas âge",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA722374",
     "url": "",
     "nor": "",
     "date": "2026-02-04",
@@ -578,16 +708,6 @@
     "nor": "",
     "date": "2026-02-04",
     "etat": "Nomination de rapporteur"
-  },
-  {
-    "id": "DLR5L17N53358",
-    "titre": "Proposition de loi relative à la lutte contre les installations illicites des gens du voyage",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl25-212.html",
-    "nor": "",
-    "date": "2026-02-04",
-    "etat": "Dépôt de rapport"
   },
   {
     "id": "DLR5L17N53235",
@@ -990,16 +1110,6 @@
     "etat": "Réunion de commission"
   },
   {
-    "id": "DLR5L17N53096",
-    "titre": "Projet de loi relatif à l’extension des prérogatives, des moyens, de l’organisation et du contrôle des polices municipales et des gardes champêtres",
-    "type": "Projet de loi ordinaire",
-    "auteur": "PA643210",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl25-097.html",
-    "nor": "",
-    "date": "2026-01-28",
-    "etat": "Dépôt de rapport"
-  },
-  {
     "id": "DLR5L17N53005",
     "titre": "Le traitement judiciaire des violences sexuelles incestueuses parentales commises contre les enfants et la situation des parents protecteurs, notamment des mères protectrices",
     "type": "Résolution",
@@ -1164,16 +1274,6 @@
     "titre": "Réduire les conditions et délais d'expulsion dans le cadre d'occupations illicites",
     "type": "Proposition de loi ordinaire",
     "auteur": "PA721486",
-    "url": "",
-    "nor": "",
-    "date": "2026-01-27",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N53672",
-    "titre": "Renforcer l’enseignement à la défense nationale dans le cadre du parcours de citoyenneté",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA719024",
     "url": "",
     "nor": "",
     "date": "2026-01-27",
@@ -2540,16 +2640,6 @@
     "etat": "Dépôt de rapport"
   },
   {
-    "id": "DLR5L17N52900",
-    "titre": "Proposition de loi relative à la sécurisation des marchés publics numériques",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl25-008.html",
-    "nor": "",
-    "date": "2025-12-18",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
     "id": "DLR5L17N52460",
     "titre": "Proposition de loi visant à protéger les jeunes de l'exposition excessive et précoce aux écrans et des méfaits des réseaux sociaux",
     "type": "Proposition de loi ordinaire",
@@ -2588,16 +2678,6 @@
     "nor": "",
     "date": "2025-12-18",
     "etat": "Retrait d'une initiative"
-  },
-  {
-    "id": "DLR5L17N51329",
-    "titre": "Simplifier la sortie de l’indivision successorale",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA794810",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-415.html",
-    "nor": "",
-    "date": "2025-12-18",
-    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N53539",
@@ -11290,16 +11370,6 @@
     "etat": "Retrait d'une initiative"
   },
   {
-    "id": "DLR5L17N51285",
-    "titre": "Proposition de loi visant à rééquilibrer la filière à responsabilité élargie du producteur des produits et matériaux de construction du secteur du bâtiment au profit des produits du bois",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-242.html",
-    "nor": "",
-    "date": "2025-05-15",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
     "id": "DLR5L17N51235",
     "titre": "Proposition de loi visant à améliorer le dispositif de protection temporaire en France",
     "type": "Proposition de loi ordinaire",
@@ -11748,16 +11818,6 @@
     "nor": "",
     "date": "2025-05-13",
     "etat": "Réunion de commission"
-  },
-  {
-    "id": "DLR5L17N51346",
-    "titre": "Création du cadre d'emploi des personnels de santé des services d’incendie et de secours",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA267318",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-413.html",
-    "nor": "",
-    "date": "2025-05-13",
-    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L16N49258",
@@ -14880,16 +14940,6 @@
     "etat": "Renvoi en commission au fond"
   },
   {
-    "id": "DLR5L17N51175",
-    "titre": "Proposition de loi visant à soutenir les collectivités territoriales dans la prévention et la gestion des inondations",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-226.html",
-    "nor": "",
-    "date": "2025-03-06",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
     "id": "DLR5L17N51095",
     "titre": "Proposition de loi visant à lutter contre la vie chère en renforçant le droit de la concurrence et de la régulation économique outre-mer",
     "type": "Proposition de loi ordinaire",
@@ -14934,16 +14984,6 @@
     "titre": "Simplifier et réorienter la politique familiale vers le premier enfant",
     "type": "Proposition de loi ordinaire",
     "auteur": "PA805166",
-    "url": "",
-    "nor": "",
-    "date": "2025-03-05",
-    "etat": "Réunion de commission"
-  },
-  {
-    "id": "DLR5L17N51330",
-    "titre": "Renforcer l’effectivité des droits voisins de la presse",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA719558",
     "url": "",
     "nor": "",
     "date": "2025-03-05",
