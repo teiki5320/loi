@@ -330,6 +330,66 @@
     "etat": "Discussion en séance publique"
   },
   {
+    "id": "DLR5L17N53744",
+    "titre": "L’avenir du projet spatial européen après Ariane 6",
+    "type": "Rapport d'information sans mission",
+    "auteur": "",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-11",
+    "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N53743",
+    "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et le Gouvernement de la République de Moldavie dans le domaine de la sécurité sociale",
+    "type": "Projet de loi ordinaire",
+    "auteur": "PA643210",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-11",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53742",
+    "titre": "L’arme du génie",
+    "type": "Rapport d'information sans mission",
+    "auteur": "",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-11",
+    "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N53741",
+    "titre": "L’élaboration d’une doctrine française en matière de diplomatie parlementaire",
+    "type": "Rapport d'information sans mission",
+    "auteur": "",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-11",
+    "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N53740",
+    "titre": "L’évaluation de la loi n° 2022-296 du 2 mars 2022 visant à démocratiser le sport en France",
+    "type": "Rapport d'information sans mission",
+    "auteur": "",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-11",
+    "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N53736",
+    "titre": "Protéger les financements destinés aux banques alimentaires dans le cadre de la réforme du Fonds social européen plus",
+    "type": "Résolution",
+    "auteur": "PA719822",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-11",
+    "etat": "Réunion de commission"
+  },
+  {
     "id": "DLR5L17N53697",
     "titre": "L’imposition des plus hauts patrimoines et des revenus les plus élevés et leur contribution au financement des services publics",
     "type": "Résolution",
@@ -350,6 +410,16 @@
     "etat": "Réunion de commission"
   },
   {
+    "id": "DLR5L17N53358",
+    "titre": "Proposition de loi relative à la lutte contre les installations illicites des gens du voyage",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-212.html",
+    "nor": "",
+    "date": "2026-02-11",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
     "id": "DLR5L17N53284",
     "titre": "Renforcer la sécurité, la rétention administrative et la prévention des risques d’attentat",
     "type": "Proposition de loi ordinaire",
@@ -358,6 +428,56 @@
     "nor": "",
     "date": "2026-02-11",
     "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N53096",
+    "titre": "Projet de loi relatif à l’extension des prérogatives, des moyens, de l’organisation et du contrôle des polices municipales et des gardes champêtres",
+    "type": "Projet de loi ordinaire",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl25-097.html",
+    "nor": "",
+    "date": "2026-02-11",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52785",
+    "titre": "Créer une autorité unique de l’eau et de l'assainissement en Martinique",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA610654",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-11",
+    "etat": "Retrait d'une initiative"
+  },
+  {
+    "id": "DLR5L17N52119",
+    "titre": "Mission d’information sur les causes et conséquences de la baisse de la natalité en France",
+    "type": "Mission d'information",
+    "auteur": "PO846702",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-11",
+    "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N52116",
+    "titre": "Proposition de loi visant à un meilleur encadrement de l'enseignement supérieur privé à but lucratif pour mieux protéger les étudiants",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-625.html",
+    "nor": "",
+    "date": "2026-02-11",
+    "etat": "Décision"
+  },
+  {
+    "id": "DLR5L17N51983",
+    "titre": "Proposition de loi visant à garantir la liberté académique des chercheurs et des enseignants-chercheurs, l'indépendance des travaux de recherche et la transparence des fonds privés affectés à l'enseignement supérieur et à la recherche",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-543.html",
+    "nor": "",
+    "date": "2026-02-11",
+    "etat": "Décision"
   },
   {
     "id": "DLR5L17N53739",
@@ -390,26 +510,6 @@
     "etat": "1er dépôt d'une initiative."
   },
   {
-    "id": "DLR5L17N53736",
-    "titre": "Protéger les financements destinés aux banques alimentaires dans le cadre de la réforme du Fonds social européen plus",
-    "type": "Résolution",
-    "auteur": "PA719822",
-    "url": "",
-    "nor": "",
-    "date": "2026-02-10",
-    "etat": "Renvoi préalable"
-  },
-  {
-    "id": "DLR5L17N53358",
-    "titre": "Proposition de loi relative à la lutte contre les installations illicites des gens du voyage",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl25-212.html",
-    "nor": "",
-    "date": "2026-02-10",
-    "etat": "Décision"
-  },
-  {
     "id": "DLR5L17N53198",
     "titre": "Proposition de loi visant à prohiber l'achat de services sexuels virtuels personnalisés et à lutter contre le proxénétisme en ligne",
     "type": "Proposition de loi ordinaire",
@@ -418,16 +518,6 @@
     "nor": "",
     "date": "2026-02-10",
     "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N53096",
-    "titre": "Projet de loi relatif à l’extension des prérogatives, des moyens, de l’organisation et du contrôle des polices municipales et des gardes champêtres",
-    "type": "Projet de loi ordinaire",
-    "auteur": "PA643210",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl25-097.html",
-    "nor": "",
-    "date": "2026-02-10",
-    "etat": "Décision"
   },
   {
     "id": "DLR5L17N53735",
@@ -758,26 +848,6 @@
     "nor": "",
     "date": "2026-02-04",
     "etat": "Décision"
-  },
-  {
-    "id": "DLR5L17N52116",
-    "titre": "Proposition de loi visant à un meilleur encadrement de l'enseignement supérieur privé à but lucratif pour mieux protéger les étudiants",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-625.html",
-    "nor": "",
-    "date": "2026-02-04",
-    "etat": "Dépôt de rapport"
-  },
-  {
-    "id": "DLR5L17N51983",
-    "titre": "Proposition de loi visant à garantir la liberté académique des chercheurs et des enseignants-chercheurs, l'indépendance des travaux de recherche et la transparence des fonds privés affectés à l'enseignement supérieur et à la recherche",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-543.html",
-    "nor": "",
-    "date": "2026-02-04",
-    "etat": "Dépôt de rapport"
   },
   {
     "id": "DLR5L17N51866",
@@ -7034,16 +7104,6 @@
     "titre": "Interdire les décrets scélérats attentatoires à la santé publique",
     "type": "Proposition de loi ordinaire",
     "auteur": "PA793736",
-    "url": "",
-    "nor": "",
-    "date": "2025-09-16",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N52785",
-    "titre": "Créer une autorité unique de l’eau et de l'assainissement en Martinique",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA610654",
     "url": "",
     "nor": "",
     "date": "2025-09-16",
