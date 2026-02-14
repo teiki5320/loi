@@ -250,6 +250,16 @@
     "etat": "Réunion de commission"
   },
   {
+    "id": "DLR5L17N52600",
+    "titre": "Projet de loi de lutte contre la vie chère dans les outre-mer",
+    "type": "Projet de loi ordinaire",
+    "auteur": "PA410",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl24-870.html",
+    "nor": "",
+    "date": "2026-02-18",
+    "etat": "Nomination de rapporteur"
+  },
+  {
     "id": "DLR5L17N52549",
     "titre": "Projet de loi autorisant l’approbation de la convention entre le Gouvernement de la République française et le Gouvernement de la République de Finlande pour l’élimination de la double imposition en matière d’impôts sur le revenu et la prévention de l’évasion et de la fraude fiscales et l’approbation de l’avenant à la convention entre le Gouvernement de la République française et le Gouvernement du Royaume de Suède en vue d’éviter les doubles impositions et de prévenir l’évasion fiscale en matière d’impôts sur le revenu et sur la fortune",
     "type": "Projet de ratification des traités et conventions",
@@ -360,36 +370,6 @@
     "etat": "Réunion de commission"
   },
   {
-    "id": "DLR5L17N53424",
-    "titre": "Pour une génération sans sucre",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA795808",
-    "url": "",
-    "nor": "",
-    "date": "2026-02-12",
-    "etat": "Discussion en séance publique"
-  },
-  {
-    "id": "DLR5L17N53420",
-    "titre": "Permettre aux maires de loger les habitants en mobilisant les logements vacants",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA796018",
-    "url": "",
-    "nor": "",
-    "date": "2026-02-12",
-    "etat": "Discussion en séance publique"
-  },
-  {
-    "id": "DLR5L17N53418",
-    "titre": "Protéger l’alimentation des Français et des Françaises des contaminations au cadmium",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA840997",
-    "url": "",
-    "nor": "",
-    "date": "2026-02-12",
-    "etat": "Discussion en séance publique"
-  },
-  {
     "id": "DLR5L17N53329",
     "titre": "Empêcher la constitution de monopoles économiques dans les secteurs des médias",
     "type": "Proposition de loi ordinaire",
@@ -410,26 +390,6 @@
     "etat": "Renvoi en commission au fond"
   },
   {
-    "id": "DLR5L17N53194",
-    "titre": "Instaurer un référendum d’initiative citoyenne délibératif",
-    "type": "Projet ou proposition de loi constitutionnelle",
-    "auteur": "PA793664",
-    "url": "",
-    "nor": "",
-    "date": "2026-02-12",
-    "etat": "Discussion en séance publique"
-  },
-  {
-    "id": "DLR5L17N52392",
-    "titre": "Reconnaître l'éducation au dehors et en contact avec la nature et réaffirmer la place de la transition écologique à l'école",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA719338",
-    "url": "",
-    "nor": "",
-    "date": "2026-02-12",
-    "etat": "Discussion en séance publique"
-  },
-  {
     "id": "DLR5L17N52116",
     "titre": "Proposition de loi visant à un meilleur encadrement de l'enseignement supérieur privé à but lucratif pour mieux protéger les étudiants",
     "type": "Proposition de loi ordinaire",
@@ -441,7 +401,7 @@
   },
   {
     "id": "DLR5L17N51983",
-    "titre": "Proposition de loi visant à garantir la liberté académique des chercheurs et des enseignants-chercheurs, l'indépendance des travaux de recherche et la transparence des fonds privés affectés à l'enseignement supérieur et à la recherche",
+    "titre": "Proposition de loi visant à mieux reconnaître et protéger la liberté académique des enseignants-chercheurs, des enseignants et des chercheurs",
     "type": "Proposition de loi ordinaire",
     "auteur": "PO78718",
     "url": "http://www.senat.fr/dossier-legislatif/ppl24-543.html",
@@ -458,16 +418,6 @@
     "nor": "",
     "date": "2026-02-12",
     "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L11N19503",
-    "titre": "Droit de vote et éligibilité des étrangers aux élections",
-    "type": "Projet ou proposition de loi constitutionnelle",
-    "auteur": "PA294",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl99-329.html",
-    "nor": "",
-    "date": "2026-02-12",
-    "etat": "Discussion en séance publique"
   },
   {
     "id": "DLR5L17N53744",
@@ -560,6 +510,36 @@
     "etat": "Dépôt de rapport"
   },
   {
+    "id": "DLR5L17N53424",
+    "titre": "Pour une génération sans sucre",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA795808",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-11",
+    "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N53420",
+    "titre": "Permettre aux maires de loger les habitants en mobilisant les logements vacants",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA796018",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-11",
+    "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N53418",
+    "titre": "Protéger l’alimentation des Français et des Françaises des contaminations au cadmium",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA840997",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-11",
+    "etat": "Réunion de commission"
+  },
+  {
     "id": "DLR5L17N53387",
     "titre": "Condamner les atteintes aux droits fondamentaux des personnes migrantes en Tunisie et appeler à la libération immédiate et inconditionnelle des personnes détenues pour leur engagement humanitaire et en faveur des droits humains",
     "type": "Résolution",
@@ -584,6 +564,16 @@
     "titre": "Renforcer la sécurité, la rétention administrative et la prévention des risques d’attentat",
     "type": "Proposition de loi ordinaire",
     "auteur": "PA795528",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-11",
+    "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N53194",
+    "titre": "Instaurer un référendum d’initiative citoyenne délibératif",
+    "type": "Projet ou proposition de loi constitutionnelle",
+    "auteur": "PA793664",
     "url": "",
     "nor": "",
     "date": "2026-02-11",
@@ -690,6 +680,16 @@
     "etat": "Rapport sur l'application des lois"
   },
   {
+    "id": "DLR5L11N19503",
+    "titre": "Droit de vote et éligibilité des étrangers aux élections",
+    "type": "Projet ou proposition de loi constitutionnelle",
+    "auteur": "PA294",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl99-329.html",
+    "nor": "",
+    "date": "2026-02-11",
+    "etat": "Réunion de commission"
+  },
+  {
     "id": "DLR5L17N53739",
     "titre": "La reconnaissance du pastoralisme comme activité économique essentielle des territoires et élément fondamental de la transition écologique au sein de la politique agricole commune et des politiques européennes de développement durable",
     "type": "Résolution",
@@ -760,6 +760,46 @@
     "etat": "Retrait d'une initiative"
   },
   {
+    "id": "DLR5L17N53752",
+    "titre": "Proposition de loi visant à instituer une journée nationale de la laïcité",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-361.html",
+    "nor": "",
+    "date": "2026-02-06",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53751",
+    "titre": "Proposition de loi visant à assurer une gestion équilibrée du foncier funéraire outre-mer en protégeant et en valorisant les cimetières familiaux",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-364.html",
+    "nor": "",
+    "date": "2026-02-06",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53750",
+    "titre": "Proposition de loi visant à lutter contre les violences conjugales, intrafamiliales, sexistes et sexuelles à l'étranger",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-358.html",
+    "nor": "",
+    "date": "2026-02-06",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53748",
+    "titre": "Proposition de loi constitutionnelle visant à ajouter le principe de laïcité à notre devise nationale",
+    "type": "Projet ou proposition de loi constitutionnelle",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-360.html",
+    "nor": "",
+    "date": "2026-02-06",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
     "id": "DLR5L17N52428",
     "titre": "Projet de loi de finances pour 2026",
     "type": "Projet de loi de finances de l'année",
@@ -768,6 +808,16 @@
     "nor": "",
     "date": "2026-02-06",
     "etat": "Saisine du conseil constitutionnel"
+  },
+  {
+    "id": "DLR5L17N53749",
+    "titre": "Proposition de loi visant à généraliser la vérification de l'honorabilité des personnes intervenant au contact des mineurs",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-357.html",
+    "nor": "",
+    "date": "2026-02-05",
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N53729",
@@ -808,6 +858,16 @@
     "nor": "",
     "date": "2026-02-05",
     "etat": "Décision"
+  },
+  {
+    "id": "DLR5L17N53753",
+    "titre": "Proposition de loi tendant à créer un répertoire national des compétences",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-356.html",
+    "nor": "",
+    "date": "2026-02-04",
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N53726",
@@ -1008,6 +1068,16 @@
     "nor": "",
     "date": "2026-02-04",
     "etat": "Décision"
+  },
+  {
+    "id": "DLR5L17N52392",
+    "titre": "Reconnaître l'éducation au dehors et en contact avec la nature et réaffirmer la place de la transition écologique à l'école",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA719338",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-04",
+    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L17N51866",
@@ -5068,16 +5138,6 @@
     "nor": "",
     "date": "2025-10-29",
     "etat": "Réunion de commission"
-  },
-  {
-    "id": "DLR5L17N52600",
-    "titre": "Projet de loi de lutte contre la vie chère dans les outre-mer",
-    "type": "Projet de loi ordinaire",
-    "auteur": "PA410",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl24-870.html",
-    "nor": "",
-    "date": "2025-10-29",
-    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N52001",
