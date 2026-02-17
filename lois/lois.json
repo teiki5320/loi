@@ -270,6 +270,26 @@
     "etat": "Réunion de commission"
   },
   {
+    "id": "DLR5L17N53757",
+    "titre": "Perte de compétitivité des filières agricoles françaises, au rôle de l’industrie agroalimentaire et causes de la balance commerciale agricole française déficitaire",
+    "type": "Résolution",
+    "auteur": "PA721474",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-16",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53756",
+    "titre": "La fermeture du ciel ukrainien",
+    "type": "Résolution Article 34-1",
+    "auteur": "PA721182",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-16",
+    "etat": "1er dépôt d'une initiative."
+  },
+  {
     "id": "DLR5L17N53201",
     "titre": "Renforcer le pilotage et la cohérence de la politique nationale du sport",
     "type": "Résolution Article 34-1",
@@ -277,7 +297,7 @@
     "url": "",
     "nor": "",
     "date": "2026-02-16",
-    "etat": "Discussion en séance publique"
+    "etat": "Décision"
   },
   {
     "id": "DLR5L17N53192",
@@ -287,7 +307,7 @@
     "url": "",
     "nor": "",
     "date": "2026-02-16",
-    "etat": "Discussion en séance publique"
+    "etat": "Décision"
   },
   {
     "id": "DLR5L17N53171",
@@ -297,7 +317,7 @@
     "url": "",
     "nor": "",
     "date": "2026-02-16",
-    "etat": "Discussion en séance publique"
+    "etat": "Décision"
   },
   {
     "id": "DLR5L17N51720",
@@ -307,7 +327,7 @@
     "url": "",
     "nor": "",
     "date": "2026-02-16",
-    "etat": "Discussion en séance publique"
+    "etat": "Décision"
   },
   {
     "id": "DLR5L17N51713",
@@ -317,7 +337,7 @@
     "url": "",
     "nor": "",
     "date": "2026-02-16",
-    "etat": "Discussion en séance publique"
+    "etat": "Décision"
   },
   {
     "id": "DLR5L17N53754",
@@ -417,6 +437,16 @@
     "url": "http://www.senat.fr/dossier-legislatif/ppl24-178.html",
     "nor": "",
     "date": "2026-02-12",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53760",
+    "titre": "Projet de loi ratifiant l’ordonnance n° 2025-1095 du 19 novembre 2025 étendant et adaptant en Polynésie française et en Nouvelle-Calédonie les dispositions de la loi n° 2025-444 du 21 mai 2025 visant à harmoniser le mode de scrutin aux élections municipales afin de garantir la vitalité démocratique, la cohésion municipale et la parité",
+    "type": "Projet de loi ordinaire",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl25-396.html",
+    "nor": "",
+    "date": "2026-02-11",
     "etat": "Renvoi en commission au fond"
   },
   {
