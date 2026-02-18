@@ -1,5 +1,15 @@
 [
   {
+    "id": "DLR5L17N53456",
+    "titre": "Proposition de loi visant à faciliter la création et le fonctionnement des communes nouvelles",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-251.html",
+    "nor": "",
+    "date": "2026-03-30",
+    "etat": "Discussion en séance publique"
+  },
+  {
     "id": "DLR5L17N53720",
     "titre": "Renforcer le contrôle, la gouvernance et la responsabilité financière des agences et opérateurs de l’État",
     "type": "Proposition de loi ordinaire",
@@ -140,16 +150,6 @@
     "etat": "Réunion de commission"
   },
   {
-    "id": "DLR5L17N53456",
-    "titre": "Proposition de loi visant à faciliter la création et le fonctionnement des communes nouvelles",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl25-251.html",
-    "nor": "",
-    "date": "2026-02-25",
-    "etat": "Réunion de commission"
-  },
-  {
     "id": "DLR5L17N53388",
     "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et le Gouvernement de la République du Kazakhstan sur la réadmission des personnes",
     "type": "Projet de ratification des traités et conventions",
@@ -270,6 +270,236 @@
     "etat": "Réunion de commission"
   },
   {
+    "id": "DLR5L17N53784",
+    "titre": "Produire autrement, en garantissant un partage de la valeur et en réconciliant le monde agricole et la société",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA607553",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-17",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53783",
+    "titre": "La pérennisation du dispositif des structures d’exercice coordonné participatives",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA793736",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-17",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53782",
+    "titre": "Permettre l'ouverture des boulangeries tous les jours de la semaine",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA722134",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-17",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53781",
+    "titre": "Permettre le recours aux expulsions administratives en cas d’occupations de terrains privés",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA643089",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-17",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53780",
+    "titre": "Statut et un cadre juridiques du risque naturel environnemental des algues sargasses",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA795820",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-17",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53779",
+    "titre": "Garantir l’honorabilité des personnes intervenant auprès des mineurs",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA841885",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-17",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53778",
+    "titre": "Lutter contre la vacance des locaux commerciaux",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA795422",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-17",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53777",
+    "titre": "Prévenir les pollutions de la ressource en eau",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA817211",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-17",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53776",
+    "titre": "Intégrer les périodes de bénévolat dans le calcul de la retraite",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA841151",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-17",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53775",
+    "titre": "Encadrer les regroupements pédagogiques intercommunaux afin de garantir l’égalité d’accès à l’école en milieu rural",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA722070",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-17",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53774",
+    "titre": "La création d’une carte famille ouverte dès le deuxième enfant",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA793398",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-17",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53773",
+    "titre": "Sécurisation des ressources des familles monoparentales par une pension alimentaire garantie",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA642868",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-17",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53772",
+    "titre": "Garantir le bénéfice des prestations familiales aux enfants placés",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA841431",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-17",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53771",
+    "titre": "Prévenir l’utilisation de contrats d’énergie pour légitimer des occupations illicites",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA687214",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-17",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53770",
+    "titre": "Simplifier la gestion de la commande publique par les acheteurs publics et les opérateurs économiques",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA842125",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-17",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53769",
+    "titre": "Protéger les élevages contre les intrusions",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA840979",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-17",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53768",
+    "titre": "Renforcer la sécurité sur les domaines skiables et créer des sanctions contre les skieurs sous l'effet de drogues et d'alcool",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA793322",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-17",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53767",
+    "titre": "Suppression de Parcoursup et à la réforme de l'accès à l'enseignement supérieur",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA330240",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-17",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53766",
+    "titre": "Étendre la protection fonctionnelle des secrétaires de mairie",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA569",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-17",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53765",
+    "titre": "Renforcement des outils de contrôle des cessions en nue-propriété",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA342196",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-17",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53764",
+    "titre": "Mettre fin aux démolitions de logements sociaux, valoriser ce patrimoine et lutter contre l’éviction des habitantes et habitants historiques dans les projets de rénovation urbaine",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA841729",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-17",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53763",
+    "titre": "La situation et les perspectives de l’espace Schengen",
+    "type": "Rapport d'information sans mission",
+    "auteur": "",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-17",
+    "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N53736",
+    "titre": "Protéger les financements destinés aux banques alimentaires dans le cadre de la réforme du Fonds social européen plus",
+    "type": "Résolution",
+    "auteur": "PA719822",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-17",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
     "id": "DLR5L17N53757",
     "titre": "Perte de compétitivité des filières agricoles françaises, au rôle de l’industrie agroalimentaire et causes de la balance commerciale agricole française déficitaire",
     "type": "Résolution",
@@ -338,6 +568,16 @@
     "nor": "",
     "date": "2026-02-16",
     "etat": "Décision"
+  },
+  {
+    "id": "DLR5L17N53761",
+    "titre": "Proposition de loi visant à renforcer l'attractivité de la fonction publique territoriale par l'instauration d'une prime de treizième mois",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-398.html",
+    "nor": "",
+    "date": "2026-02-12",
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N53754",
@@ -450,6 +690,26 @@
     "etat": "Renvoi en commission au fond"
   },
   {
+    "id": "DLR5L17N53759",
+    "titre": "Proposition de loi organique visant à instaurer le mode de scrutin proportionnel aux élections législatives",
+    "type": "Projet ou proposition de loi organique",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-374.html",
+    "nor": "",
+    "date": "2026-02-11",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53758",
+    "titre": "Proposition de loi visant à instaurer le mode de scrutin proportionnel aux élections législatives",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-375.html",
+    "nor": "",
+    "date": "2026-02-11",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
     "id": "DLR5L17N53744",
     "titre": "L’avenir du projet spatial européen après Ariane 6",
     "type": "Rapport d'information sans mission",
@@ -488,16 +748,6 @@
     "nor": "",
     "date": "2026-02-11",
     "etat": "Dépôt de rapport"
-  },
-  {
-    "id": "DLR5L17N53736",
-    "titre": "Protéger les financements destinés aux banques alimentaires dans le cadre de la réforme du Fonds social européen plus",
-    "type": "Résolution",
-    "auteur": "PA719822",
-    "url": "",
-    "nor": "",
-    "date": "2026-02-11",
-    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L17N53730",
@@ -874,10 +1124,10 @@
     "titre": "Relancer les investissements dans le secteur de l’hydroélectricité pour contribuer à la transition énergétique",
     "type": "Proposition de loi ordinaire",
     "auteur": "PA342415",
-    "url": "",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-359.html",
     "nor": "",
     "date": "2026-02-05",
-    "etat": "Décision"
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N52100",
