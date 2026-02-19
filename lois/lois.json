@@ -230,6 +230,36 @@
     "etat": "Discussion en séance publique"
   },
   {
+    "id": "DLR5L17N53790",
+    "titre": "S’opposer à la révision de la directive retour et assurer une mise en œuvre du Pacte asile et migration respectueuse de la dignité humaine et conforme aux obligations françaises et européennes relatives aux droits humains",
+    "type": "Résolution",
+    "auteur": "PA840903",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-18",
+    "etat": "Renvoi préalable"
+  },
+  {
+    "id": "DLR5L17N53789",
+    "titre": "La guerre électronique",
+    "type": "Rapport d'information sans mission",
+    "auteur": "",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-18",
+    "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N53788",
+    "titre": "La territorialisation et le portage des politiques publiques en termes d’aménagement du territoire et de transition énergétique et écologique",
+    "type": "Rapport d'information sans mission",
+    "auteur": "",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-18",
+    "etat": "Dépôt de rapport"
+  },
+  {
     "id": "DLR5L17N53743",
     "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et le Gouvernement de la République de Moldavie dans le domaine de la sécurité sociale",
     "type": "Projet de loi ordinaire",
@@ -240,24 +270,74 @@
     "etat": "Réunion de commission"
   },
   {
-    "id": "DLR5L17N53075",
-    "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et le Gouvernement de la République de Moldova relatif à la coopération dans le domaine de la défense",
+    "id": "DLR5L17N53730",
+    "titre": "Projet de loi Projet de loi autorisant l'approbation de la Convention entre le Gouvernement de la République française et le Gouvernement de la République italienne relative à l’entretien courant et à l’exploitation de la section située en territoire français de la ligne ferroviaire Coni-Breil-Vintimille",
     "type": "Projet de ratification des traités et conventions",
     "auteur": "PA643210",
-    "url": "",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl25-355.html",
     "nor": "",
     "date": "2026-02-18",
-    "etat": "Réunion de commission"
+    "etat": "Renvoi en commission au fond"
   },
   {
-    "id": "DLR5L17N52600",
-    "titre": "Projet de loi de lutte contre la vie chère dans les outre-mer",
-    "type": "Projet de loi ordinaire",
-    "auteur": "PA410",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl24-870.html",
+    "id": "DLR5L17N53531",
+    "titre": "Proposition de loi constitutionnelle visant à restreindre certaines prérogatives du Président de la République et à renforcer celles du Premier ministre, responsable devant le Parlement",
+    "type": "Projet ou proposition de loi constitutionnelle",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-269.html",
     "nor": "",
     "date": "2026-02-18",
-    "etat": "Nomination de rapporteur"
+    "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N53385",
+    "titre": "Proposition de loi constitutionnelle visant à préciser la procédure d'examen des textes budgétaires, à renforcer la place du Parlement et à sécuriser le périmètre et la constitutionnalité des dispositions mises en oeuvre par les ordonnances mentionnées aux articles 47 et 47 1 de la Constitution",
+    "type": "Projet ou proposition de loi constitutionnelle",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-242.html",
+    "nor": "",
+    "date": "2026-02-18",
+    "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N53160",
+    "titre": "Proposition de loi visant à réserver la vente de protoxyde d'azote aux seuls professionnels",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-125.html",
+    "nor": "",
+    "date": "2026-02-18",
+    "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N53095",
+    "titre": "Projet de loi autorisant l’approbation de la convention d’extradition entre le Gouvernement de la République française et le Gouvernement de la République de Colombie",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl25-098.html",
+    "nor": "",
+    "date": "2026-02-18",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52984",
+    "titre": "Projet de loi constitutionnelle relatif à la Nouvelle-Calédonie",
+    "type": "Projet ou proposition de loi constitutionnelle",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl25-023.html",
+    "nor": "",
+    "date": "2026-02-18",
+    "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N52977",
+    "titre": "Nationalisation d'ArcelorMittal France",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA795164",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-170.html",
+    "nor": "",
+    "date": "2026-02-18",
+    "etat": "Dépôt de rapport"
   },
   {
     "id": "DLR5L17N52549",
@@ -268,6 +348,36 @@
     "nor": "",
     "date": "2026-02-18",
     "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N52099",
+    "titre": "Approbation de la résolution n° F/BG/2023/04 relative aux amendements à l’accord portant création du Fonds africain de développement",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA410",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl25-240.html",
+    "nor": "",
+    "date": "2026-02-18",
+    "etat": "Décision"
+  },
+  {
+    "id": "DLR5L17N50444",
+    "titre": "Optimiser la protection et l'accompagnement des parents d'enfants atteints de cancers, de maladies graves et de handicaps",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA722336",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-180.html",
+    "nor": "",
+    "date": "2026-02-18",
+    "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L16N49138",
+    "titre": "Confidentialité des consultations des juristes d’entreprise",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA721584",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl23-569.html",
+    "nor": "",
+    "date": "2026-02-18",
+    "etat": "Conclusion du conseil constitutionnel"
   },
   {
     "id": "DLR5L17N53784",
@@ -500,6 +610,16 @@
     "etat": "Renvoi en commission au fond"
   },
   {
+    "id": "DLR5L17N53791",
+    "titre": "Proposition de loi visant à encadrer la nomination du premier président de la Cour des comptes",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-404.html",
+    "nor": "",
+    "date": "2026-02-16",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
     "id": "DLR5L17N53757",
     "titre": "Perte de compétitivité des filières agricoles françaises, au rôle de l’industrie agroalimentaire et causes de la balance commerciale agricole française déficitaire",
     "type": "Résolution",
@@ -564,10 +684,10 @@
     "titre": "Extension de la possibilité de préemption de baux commerciaux dans les mairies aux sociétés civiles immobilières",
     "type": "Proposition de loi ordinaire",
     "auteur": "PA795864",
-    "url": "",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-403.html",
     "nor": "",
     "date": "2026-02-16",
-    "etat": "Décision"
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N53761",
@@ -680,6 +800,16 @@
     "etat": "Renvoi en commission au fond"
   },
   {
+    "id": "DLR5L17N53785",
+    "titre": "Projet de loi Projet de loi-cadre relatif au développement des transports",
+    "type": "Projet de loi ordinaire",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl25-394.html",
+    "nor": "",
+    "date": "2026-02-11",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
     "id": "DLR5L17N53760",
     "titre": "Projet de loi ratifiant l’ordonnance n° 2025-1095 du 19 novembre 2025 étendant et adaptant en Polynésie française et en Nouvelle-Calédonie les dispositions de la loi n° 2025-444 du 21 mai 2025 visant à harmoniser le mode de scrutin aux élections municipales afin de garantir la vitalité démocratique, la cohésion municipale et la parité",
     "type": "Projet de loi ordinaire",
@@ -745,16 +875,6 @@
     "type": "Rapport d'information sans mission",
     "auteur": "",
     "url": "",
-    "nor": "",
-    "date": "2026-02-11",
-    "etat": "Dépôt de rapport"
-  },
-  {
-    "id": "DLR5L17N53730",
-    "titre": "Projet de loi Projet de loi autorisant l'approbation de la Convention entre le Gouvernement de la République française et le Gouvernement de la République italienne relative à l’entretien courant et à l’exploitation de la section située en territoire français de la ligne ferroviaire Coni-Breil-Vintimille",
-    "type": "Projet de ratification des traités et conventions",
-    "auteur": "PA643210",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl25-355.html",
     "nor": "",
     "date": "2026-02-11",
     "etat": "Dépôt de rapport"
@@ -880,16 +1000,6 @@
     "etat": "Renvoi en commission au fond"
   },
   {
-    "id": "DLR5L17N53095",
-    "titre": "Projet de loi autorisant l’approbation de la convention d’extradition entre le Gouvernement de la République française et le Gouvernement de la République de Colombie",
-    "type": "Projet de ratification des traités et conventions",
-    "auteur": "PA643210",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl25-098.html",
-    "nor": "",
-    "date": "2026-02-11",
-    "etat": "Dépôt de rapport"
-  },
-  {
     "id": "DLR5L17N52785",
     "titre": "Créer une autorité unique de l’eau et de l'assainissement en Martinique",
     "type": "Proposition de loi ordinaire",
@@ -925,16 +1035,6 @@
     "type": "Mission d'information",
     "auteur": "PO846702",
     "url": "",
-    "nor": "",
-    "date": "2026-02-11",
-    "etat": "Dépôt de rapport"
-  },
-  {
-    "id": "DLR5L17N52099",
-    "titre": "Approbation de la résolution n° F/BG/2023/04 relative aux amendements à l’accord portant création du Fonds africain de développement",
-    "type": "Projet de ratification des traités et conventions",
-    "auteur": "PA410",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl25-240.html",
     "nor": "",
     "date": "2026-02-11",
     "etat": "Dépôt de rapport"
@@ -2050,16 +2150,6 @@
     "etat": "Discussion en séance publique"
   },
   {
-    "id": "DLR5L16N49138",
-    "titre": "Confidentialité des consultations des juristes d’entreprise",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA721584",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl23-569.html",
-    "nor": "",
-    "date": "2026-01-23",
-    "etat": "Saisine du conseil constitutionnel"
-  },
-  {
     "id": "DLR5L17N53638",
     "titre": "Proposition de loi visant à étendre à toutes les communes le remboursement par l'État des frais de propagande électorale engagés par les candidats aux élections municipales",
     "type": "Proposition de loi ordinaire",
@@ -2340,6 +2430,16 @@
     "etat": "Renvoi en commission au fond"
   },
   {
+    "id": "DLR5L17N53075",
+    "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et le Gouvernement de la République de Moldova relatif à la coopération dans le domaine de la défense",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA643210",
+    "url": "",
+    "nor": "",
+    "date": "2026-01-14",
+    "etat": "Réunion de commission"
+  },
+  {
     "id": "DLR5L16N49452",
     "titre": "Proposition de loi visant à concilier la continuité du service public de transports avec l’exercice du droit de grève",
     "type": "Proposition de loi ordinaire",
@@ -2520,16 +2620,6 @@
     "etat": "Renvoi en commission au fond"
   },
   {
-    "id": "DLR5L17N53531",
-    "titre": "Proposition de loi constitutionnelle visant à restreindre certaines prérogatives du Président de la République et à renforcer celles du Premier ministre, responsable devant le Parlement",
-    "type": "Projet ou proposition de loi constitutionnelle",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl25-269.html",
-    "nor": "",
-    "date": "2026-01-08",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
     "id": "DLR5L17N53229",
     "titre": "Les conséquences des accords du Touquet sur l’action publique et le respect des libertés et droits fondamentaux des personnes migrantes",
     "type": "Résolution",
@@ -2588,6 +2678,16 @@
     "nor": "",
     "date": "2026-01-06",
     "etat": "Nomination de rapporteur"
+  },
+  {
+    "id": "DLR5L17N53762",
+    "titre": "Projet de loi ratifiant l’ordonnance n° 2025-979 du 14 octobre 2025 portant transposition des articles 7, 26 et 27 de la directive (UE) 2023/1791 du Parlement européen et du Conseil du 13 septembre 2023 relative à l'efficacité énergétique",
+    "type": "Projet de loi ordinaire",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl25-252.html",
+    "nor": "",
+    "date": "2026-01-05",
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N53497",
@@ -3078,16 +3178,6 @@
     "nor": "",
     "date": "2025-12-19",
     "etat": "1er dépôt d'une initiative."
-  },
-  {
-    "id": "DLR5L17N53385",
-    "titre": "Proposition de loi constitutionnelle visant à préciser la procédure d'examen des textes budgétaires, à renforcer la place du Parlement et à sécuriser le périmètre et la constitutionnalité des dispositions mises en oeuvre par les ordonnances mentionnées aux articles 47 et 47 1 de la Constitution",
-    "type": "Projet ou proposition de loi constitutionnelle",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl25-242.html",
-    "nor": "",
-    "date": "2025-12-18",
-    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N53380",
@@ -4310,16 +4400,6 @@
     "etat": "Renvoi en commission au fond"
   },
   {
-    "id": "DLR5L17N52977",
-    "titre": "Nationalisation d'ArcelorMittal France",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA795164",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl25-170.html",
-    "nor": "",
-    "date": "2025-11-28",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
     "id": "DLR5L17N53258",
     "titre": "Proposition de loi visant à soutenir et valoriser les commerces de proximité",
     "type": "Proposition de loi ordinaire",
@@ -5010,16 +5090,6 @@
     "etat": "Renvoi en commission au fond"
   },
   {
-    "id": "DLR5L17N53160",
-    "titre": "Proposition de loi visant à réserver la vente de protoxyde d'azote aux seuls professionnels",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl25-125.html",
-    "nor": "",
-    "date": "2025-11-13",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
     "id": "DLR5L17N53144",
     "titre": "La place des outre-mer dans la diplomatie française",
     "type": "Rapport d'information sans mission",
@@ -5418,6 +5488,16 @@
     "nor": "",
     "date": "2025-10-29",
     "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N52600",
+    "titre": "Projet de loi de lutte contre la vie chère dans les outre-mer",
+    "type": "Projet de loi ordinaire",
+    "auteur": "PA410",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl24-870.html",
+    "nor": "",
+    "date": "2025-10-29",
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N52001",
@@ -6155,16 +6235,6 @@
     "type": "Projet de loi ordinaire",
     "auteur": "PA643210",
     "url": "http://www.senat.fr/dossier-legislatif/pjl25-022.html",
-    "nor": "",
-    "date": "2025-10-14",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N52984",
-    "titre": "Projet de loi constitutionnelle relatif à la Nouvelle-Calédonie",
-    "type": "Projet ou proposition de loi constitutionnelle",
-    "auteur": "PA643210",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl25-023.html",
     "nor": "",
     "date": "2025-10-14",
     "etat": "Renvoi en commission au fond"
@@ -18508,16 +18578,6 @@
     "nor": "",
     "date": "2024-12-04",
     "etat": "Réunion de commission"
-  },
-  {
-    "id": "DLR5L17N50444",
-    "titre": "Optimiser la protection et l'accompagnement des parents d'enfants atteints de cancers, de maladies graves et de handicaps",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA722336",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-180.html",
-    "nor": "",
-    "date": "2024-12-04",
-    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N50370",
