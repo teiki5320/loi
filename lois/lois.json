@@ -1,5 +1,15 @@
 [
   {
+    "id": "DLR5L17N53771",
+    "titre": "Prévenir l’utilisation de contrats d’énergie pour légitimer des occupations illicites",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA687214",
+    "url": "",
+    "nor": "",
+    "date": "2026-04-01",
+    "etat": "Réunion de commission"
+  },
+  {
     "id": "DLR5L17N53456",
     "titre": "Proposition de loi visant à faciliter la création et le fonctionnement des communes nouvelles",
     "type": "Proposition de loi ordinaire",
@@ -160,6 +170,16 @@
     "etat": "Réunion de commission"
   },
   {
+    "id": "DLR5L17N53096",
+    "titre": "Projet de loi relatif à l’extension des prérogatives, des moyens, de l’organisation et du contrôle des polices municipales et des gardes champêtres",
+    "type": "Projet de loi ordinaire",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl25-097.html",
+    "nor": "",
+    "date": "2026-02-25",
+    "etat": "Réunion de commission"
+  },
+  {
     "id": "DLR5L17N52635",
     "titre": "Projet de loi relatif à la restitution de biens culturels provenant d’États qui, du fait d’une appropriation illicite, en ont été privés",
     "type": "Projet de loi ordinaire",
@@ -230,6 +250,86 @@
     "etat": "Discussion en séance publique"
   },
   {
+    "id": "DLR5L17N53793",
+    "titre": "Élargir la reconnaissance des maladies professionnelles provoquées par l’exposition aux rayonnements ionisants",
+    "type": "Résolution Article 34-1",
+    "auteur": "PA795516",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-19",
+    "etat": "1er dépôt d'une initiative."
+  },
+  {
+    "id": "DLR5L17N53706",
+    "titre": "Projet de loi autorisant l’approbation de la convention entre le Gouvernement de la République française et le Gouvernement de la République de Chypre pour l’élimination de la double imposition en matière d’impôts sur le revenu et la prévention de l’évasion et de la fraude fiscales",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl25-314.html",
+    "nor": "",
+    "date": "2026-02-19",
+    "etat": "Décision"
+  },
+  {
+    "id": "DLR5L17N53697",
+    "titre": "L’imposition des plus hauts patrimoines et des revenus les plus élevés et leur contribution au financement des services publics",
+    "type": "Résolution",
+    "auteur": "PA942",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-19",
+    "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N53690",
+    "titre": "Proposition de loi visant à permettre le remboursement des honoraires d'expert-comptable aux candidats",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-328.html",
+    "nor": "",
+    "date": "2026-02-19",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53660",
+    "titre": "Qualifier la soustraction frauduleuse de l’animal domestique, apprivoisé ou tenu en captivité d’autrui en vol aggravé",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA720668",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-19",
+    "etat": "Retrait d'une initiative"
+  },
+  {
+    "id": "DLR5L17N53099",
+    "titre": "Proposition de loi visant à réduire les retards de paiement afin de lutter contre les défaillances d'entreprises",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-083.html",
+    "nor": "",
+    "date": "2026-02-19",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52428",
+    "titre": "Projet de loi de finances pour 2026",
+    "type": "Projet de loi de finances de l'année",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjlf2026.html",
+    "nor": "",
+    "date": "2026-02-19",
+    "etat": "Conclusion du conseil constitutionnel"
+  },
+  {
+    "id": "DLR5L17N52230",
+    "titre": "Proposition de loi visant à garantir le droit de visite des parlementaires et des bâtonniers dans les lieux de privation de liberté",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-637.html",
+    "nor": "",
+    "date": "2026-02-19",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
     "id": "DLR5L17N53790",
     "titre": "S’opposer à la révision de la directive retour et assurer une mise en œuvre du Pacte asile et migration respectueuse de la dignité humaine et conforme aux obligations françaises et européennes relatives aux droits humains",
     "type": "Résolution",
@@ -271,7 +371,7 @@
   },
   {
     "id": "DLR5L17N53730",
-    "titre": "Projet de loi Projet de loi autorisant l'approbation de la Convention entre le Gouvernement de la République française et le Gouvernement de la République italienne relative à l’entretien courant et à l’exploitation de la section située en territoire français de la ligne ferroviaire Coni-Breil-Vintimille",
+    "titre": "Projet de loi autorisant l'approbation de la Convention entre le Gouvernement de la République française et le Gouvernement de la République italienne relative à l’entretien courant et à l’exploitation de la section située en territoire français de la lign",
     "type": "Projet de ratification des traités et conventions",
     "auteur": "PA643210",
     "url": "http://www.senat.fr/dossier-legislatif/pjl25-355.html",
@@ -308,6 +408,16 @@
     "nor": "",
     "date": "2026-02-18",
     "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N53140",
+    "titre": "Projet de loi portant diverses dispositions d'adaptation au droit de l’Union européenne en matière économique, financière, environnementale, énergétique, d’information, de transport, de santé, d’agriculture et de pêche",
+    "type": "Projet de loi ordinaire",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl25-118.html",
+    "nor": "",
+    "date": "2026-02-18",
+    "etat": "Décision"
   },
   {
     "id": "DLR5L17N53095",
@@ -510,16 +620,6 @@
     "etat": "Renvoi en commission au fond"
   },
   {
-    "id": "DLR5L17N53771",
-    "titre": "Prévenir l’utilisation de contrats d’énergie pour légitimer des occupations illicites",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA687214",
-    "url": "",
-    "nor": "",
-    "date": "2026-02-17",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
     "id": "DLR5L17N53770",
     "titre": "Simplifier la gestion de la commande publique par les acheteurs publics et les opérateurs économiques",
     "type": "Proposition de loi ordinaire",
@@ -610,6 +710,16 @@
     "etat": "Renvoi en commission au fond"
   },
   {
+    "id": "DLR5L17N53794",
+    "titre": "Proposition de loi pour un régime de responsabilité civile plus juste et adapté en matière de fêtes traditionnelles",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-400.html",
+    "nor": "",
+    "date": "2026-02-16",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
     "id": "DLR5L17N53791",
     "titre": "Proposition de loi visant à encadrer la nomination du premier président de la Cour des comptes",
     "type": "Proposition de loi ordinaire",
@@ -654,10 +764,10 @@
     "titre": "Faciliter l’exercice en France des médecins diplômés au Royaume-Uni avant le Brexit",
     "type": "Proposition de loi ordinaire",
     "auteur": "PA842311",
-    "url": "",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-401.html",
     "nor": "",
     "date": "2026-02-16",
-    "etat": "Décision"
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N53171",
@@ -674,10 +784,10 @@
     "titre": "Améliorer la protection des commerçants grâce à l’usage d’outils numériques",
     "type": "Proposition de loi ordinaire",
     "auteur": "PA795664",
-    "url": "",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-402.html",
     "nor": "",
     "date": "2026-02-16",
-    "etat": "Décision"
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N51713",
@@ -687,6 +797,16 @@
     "url": "http://www.senat.fr/dossier-legislatif/ppl25-403.html",
     "nor": "",
     "date": "2026-02-16",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53787",
+    "titre": "Proposition de loi visant à coordonner le droit des entreprises publiques locales avec la loi n° 2025-1249 du 22 décembre 2025 portant création d'un statut de l'élu local",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-399.html",
+    "nor": "",
+    "date": "2026-02-13",
     "etat": "Renvoi en commission au fond"
   },
   {
@@ -800,6 +920,16 @@
     "etat": "Renvoi en commission au fond"
   },
   {
+    "id": "DLR5L17N53786",
+    "titre": "Proposition de loi réformant la prescription de l'action publique en matière criminelle et actualisant la notion d'obstacle insurmontable",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-395.html",
+    "nor": "",
+    "date": "2026-02-11",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
     "id": "DLR5L17N53785",
     "titre": "Projet de loi Projet de loi-cadre relatif au développement des transports",
     "type": "Projet de loi ordinaire",
@@ -880,36 +1010,6 @@
     "etat": "Dépôt de rapport"
   },
   {
-    "id": "DLR5L17N53706",
-    "titre": "Projet de loi autorisant l’approbation de la convention entre le Gouvernement de la République française et le Gouvernement de la République de Chypre pour l’élimination de la double imposition en matière d’impôts sur le revenu et la prévention de l’évasion et de la fraude fiscales",
-    "type": "Projet de ratification des traités et conventions",
-    "auteur": "PA643210",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl25-314.html",
-    "nor": "",
-    "date": "2026-02-11",
-    "etat": "Dépôt de rapport"
-  },
-  {
-    "id": "DLR5L17N53697",
-    "titre": "L’imposition des plus hauts patrimoines et des revenus les plus élevés et leur contribution au financement des services publics",
-    "type": "Résolution",
-    "auteur": "PA942",
-    "url": "",
-    "nor": "",
-    "date": "2026-02-11",
-    "etat": "Réunion de commission"
-  },
-  {
-    "id": "DLR5L17N53690",
-    "titre": "Proposition de loi visant à permettre le remboursement des honoraires d'expert-comptable aux candidats",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl25-328.html",
-    "nor": "",
-    "date": "2026-02-11",
-    "etat": "Dépôt de rapport"
-  },
-  {
     "id": "DLR5L17N53424",
     "titre": "Pour une génération sans sucre",
     "type": "Proposition de loi ordinaire",
@@ -980,26 +1080,6 @@
     "etat": "Réunion de commission"
   },
   {
-    "id": "DLR5L17N53099",
-    "titre": "Proposition de loi visant à réduire les retards de paiement afin de lutter contre les défaillances d'entreprises",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl25-083.html",
-    "nor": "",
-    "date": "2026-02-11",
-    "etat": "Dépôt de rapport"
-  },
-  {
-    "id": "DLR5L17N53096",
-    "titre": "Projet de loi relatif à l’extension des prérogatives, des moyens, de l’organisation et du contrôle des polices municipales et des gardes champêtres",
-    "type": "Projet de loi ordinaire",
-    "auteur": "PA643210",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl25-097.html",
-    "nor": "",
-    "date": "2026-02-11",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
     "id": "DLR5L17N52785",
     "titre": "Créer une autorité unique de l’eau et de l'assainissement en Martinique",
     "type": "Proposition de loi ordinaire",
@@ -1015,16 +1095,6 @@
     "type": "Projet de ratification des traités et conventions",
     "auteur": "PA410",
     "url": "http://www.senat.fr/dossier-legislatif/pjl25-239.html",
-    "nor": "",
-    "date": "2026-02-11",
-    "etat": "Dépôt de rapport"
-  },
-  {
-    "id": "DLR5L17N52230",
-    "titre": "Proposition de loi visant à garantir le droit de visite des parlementaires et des bâtonniers dans les lieux de privation de liberté",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-637.html",
     "nor": "",
     "date": "2026-02-11",
     "etat": "Dépôt de rapport"
@@ -1068,6 +1138,16 @@
     "nor": "",
     "date": "2026-02-11",
     "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N53795",
+    "titre": "Proposition de loi relative à la prévention des risques et des dommages liés à la pratique du chemsex",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-368.html",
+    "nor": "",
+    "date": "2026-02-10",
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N53739",
@@ -1178,16 +1258,6 @@
     "nor": "",
     "date": "2026-02-06",
     "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N52428",
-    "titre": "Projet de loi de finances pour 2026",
-    "type": "Projet de loi de finances de l'année",
-    "auteur": "PA643210",
-    "url": "http://www.senat.fr/dossier-legislatif/pjlf2026.html",
-    "nor": "",
-    "date": "2026-02-06",
-    "etat": "Saisine du conseil constitutionnel"
   },
   {
     "id": "DLR5L17N53749",
@@ -1420,16 +1490,6 @@
     "etat": "Renvoi en commission au fond"
   },
   {
-    "id": "DLR5L17N53140",
-    "titre": "Projet de loi portant diverses dispositions d'adaptation au droit de l’Union européenne en matière économique, financière, environnementale, énergétique, d’information, de transport, de santé, d’agriculture et de pêche",
-    "type": "Projet de loi ordinaire",
-    "auteur": "PA643210",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl25-118.html",
-    "nor": "",
-    "date": "2026-02-04",
-    "etat": "Dépôt de rapport"
-  },
-  {
     "id": "DLR5L17N53014",
     "titre": "Réaffirmer l’ambition climatique de la France au niveau européen",
     "type": "Résolution",
@@ -1621,7 +1681,7 @@
   },
   {
     "id": "DLR5L17N53699",
-    "titre": "Proposition de loi visant à la mise en oeuvre d'une procédure de déblocage exceptionnelle de l'épargne salariale",
+    "titre": "Proposition de loi visant au renforcement de l'attractivité de l'épargne salariale et à la mise en oeuvre d'une procédure de déblocage exceptionnelle",
     "type": "Proposition de loi ordinaire",
     "auteur": "PO78718",
     "url": "http://www.senat.fr/dossier-legislatif/ppl25-325.html",
@@ -2024,16 +2084,6 @@
     "titre": "Empêcher la reconstitution d’associations dissoutes portant atteinte aux principes de la République et renforcer le gel administratif des avoirs",
     "type": "Proposition de loi ordinaire",
     "auteur": "PA840889",
-    "url": "",
-    "nor": "",
-    "date": "2026-01-27",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N53660",
-    "titre": "Qualifier la soustraction frauduleuse de l’animal domestique, apprivoisé ou tenu en captivité d’autrui en vol aggravé",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA720668",
     "url": "",
     "nor": "",
     "date": "2026-01-27",
@@ -2668,6 +2718,16 @@
     "nor": "",
     "date": "2026-01-07",
     "etat": "Promulgation d'une loi"
+  },
+  {
+    "id": "DLR5L17N53796",
+    "titre": "Proposition de loi pour une politique funéraire territoriale simplifiée et respectueuse de la volonté des défunts",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-255.html",
+    "nor": "",
+    "date": "2026-01-06",
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N53370",
