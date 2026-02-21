@@ -140,6 +140,16 @@
     "etat": "Réunion de commission"
   },
   {
+    "id": "DLR5L17N52230",
+    "titre": "Proposition de loi visant à garantir le droit de visite des parlementaires et des bâtonniers dans les lieux de privation de liberté",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-637.html",
+    "nor": "",
+    "date": "2026-03-23",
+    "etat": "Réunion de commission"
+  },
+  {
     "id": "DLR5L17N52985",
     "titre": "Projet de loi relatif à la lutte contre les fraudes sociales et fiscales",
     "type": "Projet de loi ordinaire",
@@ -148,6 +158,16 @@
     "nor": "",
     "date": "2026-02-27",
     "etat": "Discussion en séance publique"
+  },
+  {
+    "id": "DLR5L17N53816",
+    "titre": "Promouvoir une pratique de la pêche durable et respectueuse des ressources halieutiques et des océans",
+    "type": "Résolution",
+    "auteur": "PA794270",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-25",
+    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L17N53523",
@@ -175,6 +195,26 @@
     "type": "Projet de loi ordinaire",
     "auteur": "PA643210",
     "url": "http://www.senat.fr/dossier-legislatif/pjl25-097.html",
+    "nor": "",
+    "date": "2026-02-25",
+    "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N53095",
+    "titre": "Projet de loi autorisant l’approbation de la convention d’extradition entre le Gouvernement de la République française et le Gouvernement de la République de Colombie",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl25-098.html",
+    "nor": "",
+    "date": "2026-02-25",
+    "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N53075",
+    "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et le Gouvernement de la République de Moldova relatif à la coopération dans le domaine de la défense",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA643210",
+    "url": "",
     "nor": "",
     "date": "2026-02-25",
     "etat": "Réunion de commission"
@@ -250,14 +290,24 @@
     "etat": "Discussion en séance publique"
   },
   {
-    "id": "DLR5L17N53793",
-    "titre": "Élargir la reconnaissance des maladies professionnelles provoquées par l’exposition aux rayonnements ionisants",
-    "type": "Résolution Article 34-1",
-    "auteur": "PA795516",
+    "id": "DLR5L17N53820",
+    "titre": "Les dépendances critiques de la France à l’égard des États-Unis",
+    "type": "Résolution",
+    "auteur": "PA793444",
     "url": "",
     "nor": "",
-    "date": "2026-02-19",
-    "etat": "1er dépôt d'une initiative."
+    "date": "2026-02-20",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53739",
+    "titre": "La reconnaissance du pastoralisme comme activité économique essentielle des territoires et élément fondamental de la transition écologique au sein de la politique agricole commune et des politiques européennes de développement durable",
+    "type": "Résolution",
+    "auteur": "PA841381",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-20",
+    "etat": "Retrait d'une initiative"
   },
   {
     "id": "DLR5L17N53706",
@@ -266,8 +316,38 @@
     "auteur": "PA643210",
     "url": "http://www.senat.fr/dossier-legislatif/pjl25-314.html",
     "nor": "",
+    "date": "2026-02-20",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53140",
+    "titre": "Projet de loi portant diverses dispositions d'adaptation au droit de l’Union européenne en matière économique, financière, environnementale, énergétique, d’information, de transport, de santé, d’agriculture et de pêche",
+    "type": "Projet de loi ordinaire",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl25-118.html",
+    "nor": "",
+    "date": "2026-02-20",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53817",
+    "titre": "Proposition de loi relative au renforcement de l'évaluation et du suivi psychologique des agents de police municipale autorisés au port d'armes de poing de catégorie B",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-422.html",
+    "nor": "",
     "date": "2026-02-19",
-    "etat": "Décision"
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53793",
+    "titre": "Élargir la reconnaissance des maladies professionnelles provoquées par l’exposition aux rayonnements ionisants",
+    "type": "Résolution Article 34-1",
+    "auteur": "PA795516",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-19",
+    "etat": "1er dépôt d'une initiative."
   },
   {
     "id": "DLR5L17N53697",
@@ -317,16 +397,26 @@
     "url": "http://www.senat.fr/dossier-legislatif/pjlf2026.html",
     "nor": "",
     "date": "2026-02-19",
-    "etat": "Conclusion du conseil constitutionnel"
+    "etat": "Promulgation d'une loi"
   },
   {
-    "id": "DLR5L17N52230",
-    "titre": "Proposition de loi visant à garantir le droit de visite des parlementaires et des bâtonniers dans les lieux de privation de liberté",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-637.html",
+    "id": "DLR5L17N52100",
+    "titre": "Projet de loi relatif à l’organisation des jeux Olympiques et Paralympiques de 2030",
+    "type": "Projet de loi ordinaire",
+    "auteur": "PA410",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl24-630.html",
     "nor": "",
     "date": "2026-02-19",
+    "etat": "Saisine du conseil constitutionnel"
+  },
+  {
+    "id": "DLR5L17N53819",
+    "titre": "Proposition de loi renforçant le principe de liberté de choix de l'opérateur funéraire par les familles endeuillées",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-420.html",
+    "nor": "",
+    "date": "2026-02-18",
     "etat": "Renvoi en commission au fond"
   },
   {
@@ -410,26 +500,6 @@
     "etat": "Dépôt de rapport"
   },
   {
-    "id": "DLR5L17N53140",
-    "titre": "Projet de loi portant diverses dispositions d'adaptation au droit de l’Union européenne en matière économique, financière, environnementale, énergétique, d’information, de transport, de santé, d’agriculture et de pêche",
-    "type": "Projet de loi ordinaire",
-    "auteur": "PA643210",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl25-118.html",
-    "nor": "",
-    "date": "2026-02-18",
-    "etat": "Décision"
-  },
-  {
-    "id": "DLR5L17N53095",
-    "titre": "Projet de loi autorisant l’approbation de la convention d’extradition entre le Gouvernement de la République française et le Gouvernement de la République de Colombie",
-    "type": "Projet de ratification des traités et conventions",
-    "auteur": "PA643210",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl25-098.html",
-    "nor": "",
-    "date": "2026-02-18",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
     "id": "DLR5L17N52984",
     "titre": "Projet de loi constitutionnelle relatif à la Nouvelle-Calédonie",
     "type": "Projet ou proposition de loi constitutionnelle",
@@ -488,6 +558,16 @@
     "nor": "",
     "date": "2026-02-18",
     "etat": "Conclusion du conseil constitutionnel"
+  },
+  {
+    "id": "DLR5L17N53818",
+    "titre": "Proposition de loi visant à permettre la mise en place d'une enquête administrative et le contrôle des antécédents judiciaires des personnels d'encadrement des enfants",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-408.html",
+    "nor": "",
+    "date": "2026-02-17",
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N53784",
@@ -1150,16 +1230,6 @@
     "etat": "Renvoi en commission au fond"
   },
   {
-    "id": "DLR5L17N53739",
-    "titre": "La reconnaissance du pastoralisme comme activité économique essentielle des territoires et élément fondamental de la transition écologique au sein de la politique agricole commune et des politiques européennes de développement durable",
-    "type": "Résolution",
-    "auteur": "PA841381",
-    "url": "",
-    "nor": "",
-    "date": "2026-02-10",
-    "etat": "Renvoi préalable"
-  },
-  {
     "id": "DLR5L17N53738",
     "titre": "DOSSIER : rapport d'information déposé par la délégation de l'Assemblée nationale aux droits des femmes et à l'égalité des chances entre les hommes et les femmes sur la diplomatie féministe",
     "type": "Rapport d'information sans mission",
@@ -1298,16 +1368,6 @@
     "nor": "",
     "date": "2026-02-05",
     "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N52100",
-    "titre": "Projet de loi relatif à l’organisation des jeux Olympiques et Paralympiques de 2030",
-    "type": "Projet de loi ordinaire",
-    "auteur": "PA410",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl24-630.html",
-    "nor": "",
-    "date": "2026-02-05",
-    "etat": "Décision"
   },
   {
     "id": "DLR5L17N53753",
@@ -2478,16 +2538,6 @@
     "nor": "",
     "date": "2026-01-14",
     "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N53075",
-    "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et le Gouvernement de la République de Moldova relatif à la coopération dans le domaine de la défense",
-    "type": "Projet de ratification des traités et conventions",
-    "auteur": "PA643210",
-    "url": "",
-    "nor": "",
-    "date": "2026-01-14",
-    "etat": "Réunion de commission"
   },
   {
     "id": "DLR5L16N49452",
