@@ -290,6 +290,56 @@
     "etat": "Discussion en séance publique"
   },
   {
+    "id": "DLR5L17N53822",
+    "titre": "Motion de censure déposée en application de l'article 49, alinéa 2, de la Constitution par Mathilde Panot et 57 de ses collègues",
+    "type": "Engagement de la responsabilité gouvernementale",
+    "auteur": "",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-23",
+    "etat": "Motion de censure"
+  },
+  {
+    "id": "DLR5L17N53821",
+    "titre": "Motion de censure déposée en application de l'article 49, alinéa 2, de la Constitution par Jean-Philippe Tanguy et 59 de ses collègues",
+    "type": "Engagement de la responsabilité gouvernementale",
+    "auteur": "",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-23",
+    "etat": "Motion de censure"
+  },
+  {
+    "id": "DLR5L17N53825",
+    "titre": "Proposition de loi relative à la personnalité juridique et aux droits de la Seine",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-424.html",
+    "nor": "",
+    "date": "2026-02-20",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53824",
+    "titre": "Proposition de loi visant à renforcer l'indépendance de la Cour des comptes",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-425.html",
+    "nor": "",
+    "date": "2026-02-20",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53823",
+    "titre": "Proposition de loi organique visant à renforcer l'indépendance de la Cour des comptes",
+    "type": "Projet ou proposition de loi organique",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-423.html",
+    "nor": "",
+    "date": "2026-02-20",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
     "id": "DLR5L17N53820",
     "titre": "Les dépendances critiques de la France à l’égard des États-Unis",
     "type": "Résolution",
