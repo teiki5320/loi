@@ -320,6 +320,36 @@
     "etat": "Réunion de commission"
   },
   {
+    "id": "DLR5L17N53838",
+    "titre": "DOSSIER : rapport d'information déposé par la commission des affaires européennes sur la politique de la pêche",
+    "type": "Rapport d'information sans mission",
+    "auteur": "",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-25",
+    "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N53837",
+    "titre": "Reconnaître la lutte contre le cancer de l'enfant, grande cause nationale 2027",
+    "type": "Résolution Article 34-1",
+    "auteur": "PA793342",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-25",
+    "etat": "1er dépôt d'une initiative."
+  },
+  {
+    "id": "DLR5L17N53836",
+    "titre": "Renforcer et pérenniser la diplomatie féministe de la France face à la montée des mouvements anti-droits",
+    "type": "Résolution Article 34-1",
+    "auteur": "PA721296",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-25",
+    "etat": "1er dépôt d'une initiative."
+  },
+  {
     "id": "DLR5L17N53822",
     "titre": "Motion de censure déposée en application de l'article 49, alinéa 2, de la Constitution par Mathilde Panot et 57 de ses collègues",
     "type": "Engagement de la responsabilité gouvernementale",
@@ -370,6 +400,16 @@
     "etat": "Réunion de commission"
   },
   {
+    "id": "DLR5L17N53258",
+    "titre": "Proposition de loi visant à soutenir et valoriser les commerces de proximité",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-169.html",
+    "nor": "",
+    "date": "2026-02-25",
+    "etat": "Dépôt de rapport"
+  },
+  {
     "id": "DLR5L17N53096",
     "titre": "Projet de loi relatif à l’extension des prérogatives, des moyens, de l’organisation et du contrôle des polices municipales et des gardes champêtres",
     "type": "Projet de loi ordinaire",
@@ -400,6 +440,26 @@
     "etat": "Réunion de commission"
   },
   {
+    "id": "DLR5L17N52984",
+    "titre": "Projet de loi constitutionnelle relatif à la Nouvelle-Calédonie",
+    "type": "Projet ou proposition de loi constitutionnelle",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl25-023.html",
+    "nor": "",
+    "date": "2026-02-25",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52977",
+    "titre": "Nationalisation d'ArcelorMittal France",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA795164",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-170.html",
+    "nor": "",
+    "date": "2026-02-25",
+    "etat": "Décision"
+  },
+  {
     "id": "DLR5L17N52635",
     "titre": "Projet de loi relatif à la restitution de biens culturels provenant d’États qui, du fait d’une appropriation illicite, en ont été privés",
     "type": "Projet de loi ordinaire",
@@ -417,7 +477,7 @@
     "url": "http://www.senat.fr/dossier-legislatif/pjl24-857.html",
     "nor": "",
     "date": "2026-02-25",
-    "etat": "Discussion en séance publique"
+    "etat": "Décision"
   },
   {
     "id": "DLR5L17N52103",
@@ -427,7 +487,7 @@
     "url": "http://www.senat.fr/dossier-legislatif/pjl24-629.html",
     "nor": "",
     "date": "2026-02-25",
-    "etat": "Discussion en séance publique"
+    "etat": "Décision"
   },
   {
     "id": "DLR5L17N52036",
@@ -437,7 +497,7 @@
     "url": "",
     "nor": "",
     "date": "2026-02-25",
-    "etat": "Réunion de commission"
+    "etat": "Dépôt de rapport"
   },
   {
     "id": "DLR5L17N51755",
@@ -457,7 +517,7 @@
     "url": "http://www.senat.fr/dossier-legislatif/ppl24-662.html",
     "nor": "",
     "date": "2026-02-25",
-    "etat": "Discussion en séance publique"
+    "etat": "Décision"
   },
   {
     "id": "DLR5L17N51670",
@@ -467,17 +527,17 @@
     "url": "http://www.senat.fr/dossier-legislatif/ppl24-661.html",
     "nor": "",
     "date": "2026-02-25",
-    "etat": "Discussion en séance publique"
+    "etat": "Décision"
   },
   {
-    "id": "DLR5L17N52984",
-    "titre": "Projet de loi constitutionnelle relatif à la Nouvelle-Calédonie",
-    "type": "Projet ou proposition de loi constitutionnelle",
-    "auteur": "PA643210",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl25-023.html",
+    "id": "DLR5L16N49138",
+    "titre": "Confidentialité des consultations des juristes d’entreprise",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA721584",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl23-569.html",
     "nor": "",
-    "date": "2026-02-24",
-    "etat": "Décision"
+    "date": "2026-02-23",
+    "etat": "Promulgation d'une loi"
   },
   {
     "id": "DLR5L17N53825",
@@ -700,16 +760,6 @@
     "etat": "Dépôt de rapport"
   },
   {
-    "id": "DLR5L17N52977",
-    "titre": "Nationalisation d'ArcelorMittal France",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA795164",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl25-170.html",
-    "nor": "",
-    "date": "2026-02-18",
-    "etat": "Dépôt de rapport"
-  },
-  {
     "id": "DLR5L17N52549",
     "titre": "Projet de loi autorisant l’approbation de la convention entre le Gouvernement de la République française et le Gouvernement de la République de Finlande pour l’élimination de la double imposition en matière d’impôts sur le revenu et la prévention de l’évasion et de la fraude fiscales et l’approbation de l’avenant à la convention entre le Gouvernement de la République française et le Gouvernement du Royaume de Suède en vue d’éviter les doubles impositions et de prévenir l’évasion fiscale en matière d’impôts sur le revenu et sur la fortune",
     "type": "Projet de ratification des traités et conventions",
@@ -738,16 +788,6 @@
     "nor": "",
     "date": "2026-02-18",
     "etat": "Dépôt de rapport"
-  },
-  {
-    "id": "DLR5L16N49138",
-    "titre": "Confidentialité des consultations des juristes d’entreprise",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA721584",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl23-569.html",
-    "nor": "",
-    "date": "2026-02-18",
-    "etat": "Conclusion du conseil constitutionnel"
   },
   {
     "id": "DLR5L17N53818",
@@ -1501,7 +1541,7 @@
   },
   {
     "id": "DLR5L17N53753",
-    "titre": "Proposition de loi tendant à créer un répertoire national des compétences",
+    "titre": "Proposition de loi tendant à créer une plateforme nationale d'action et de coordination des talents engagés",
     "type": "Proposition de loi ordinaire",
     "auteur": "PO78718",
     "url": "http://www.senat.fr/dossier-legislatif/ppl25-356.html",
@@ -4597,16 +4637,6 @@
     "url": "",
     "nor": "",
     "date": "2025-11-28",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N53258",
-    "titre": "Proposition de loi visant à soutenir et valoriser les commerces de proximité",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl25-169.html",
-    "nor": "",
-    "date": "2025-11-27",
     "etat": "Renvoi en commission au fond"
   },
   {
