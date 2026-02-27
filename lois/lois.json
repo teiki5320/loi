@@ -320,6 +320,76 @@
     "etat": "Réunion de commission"
   },
   {
+    "id": "DLR5L17N52984",
+    "titre": "Projet de loi constitutionnelle relatif à la Nouvelle-Calédonie",
+    "type": "Projet ou proposition de loi constitutionnelle",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl25-023.html",
+    "nor": "",
+    "date": "2026-02-27",
+    "etat": "Réunion de commission"
+  },
+  {
+    "id": "DLR5L17N53843",
+    "titre": "La reconnaissance du traumatisme psychique conséquent au vécu raciste",
+    "type": "Résolution Article 34-1",
+    "auteur": "PA721960",
+    "url": "",
+    "nor": "",
+    "date": "2026-02-26",
+    "etat": "1er dépôt d'une initiative."
+  },
+  {
+    "id": "DLR5L17N53385",
+    "titre": "Proposition de loi constitutionnelle visant à préciser la procédure d'examen des textes budgétaires, à renforcer la place du Parlement et à sécuriser le périmètre et la constitutionnalité des dispositions mises en oeuvre par les ordonnances mentionnées aux articles 47 et 47 1 de la Constitution",
+    "type": "Projet ou proposition de loi constitutionnelle",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-242.html",
+    "nor": "",
+    "date": "2026-02-26",
+    "etat": "Décision"
+  },
+  {
+    "id": "DLR5L17N53160",
+    "titre": "Proposition de loi visant à réserver la vente de protoxyde d'azote aux seuls professionnels",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-125.html",
+    "nor": "",
+    "date": "2026-02-26",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N52977",
+    "titre": "Nationalisation d'ArcelorMittal France",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA795164",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-170.html",
+    "nor": "",
+    "date": "2026-02-26",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N50444",
+    "titre": "Optimiser la protection et l'accompagnement des parents d'enfants atteints de cancers, de maladies graves et de handicaps",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PA722336",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-180.html",
+    "nor": "",
+    "date": "2026-02-26",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53844",
+    "titre": "Projet de loi autorisant l’approbation de l’accord de partenariat et de coopération renforcé\rentre l'Union européenne et ses Etats membres, d'une part, et la République kirghize, d'autre part",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl25-432.html",
+    "nor": "",
+    "date": "2026-02-25",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
     "id": "DLR5L17N53838",
     "titre": "DOSSIER : rapport d'information déposé par la commission des affaires européennes sur la politique de la pêche",
     "type": "Rapport d'information sans mission",
@@ -440,26 +510,6 @@
     "etat": "Réunion de commission"
   },
   {
-    "id": "DLR5L17N52984",
-    "titre": "Projet de loi constitutionnelle relatif à la Nouvelle-Calédonie",
-    "type": "Projet ou proposition de loi constitutionnelle",
-    "auteur": "PA643210",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl25-023.html",
-    "nor": "",
-    "date": "2026-02-25",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N52977",
-    "titre": "Nationalisation d'ArcelorMittal France",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA795164",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl25-170.html",
-    "nor": "",
-    "date": "2026-02-25",
-    "etat": "Décision"
-  },
-  {
     "id": "DLR5L17N52635",
     "titre": "Projet de loi relatif à la restitution de biens culturels provenant d’États qui, du fait d’une appropriation illicite, en ont été privés",
     "type": "Projet de loi ordinaire",
@@ -528,6 +578,26 @@
     "nor": "",
     "date": "2026-02-25",
     "etat": "Décision"
+  },
+  {
+    "id": "DLR5L17N51569",
+    "titre": "Proposition de loi visant à encadrer l'implantation des centres de données sur le territoire français",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl24-348.html",
+    "nor": "",
+    "date": "2026-02-25",
+    "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N53845",
+    "titre": "Proposition de loi visant à accélérer la mobilité dans les zones peu denses",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-429.html",
+    "nor": "",
+    "date": "2026-02-24",
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L16N49138",
@@ -740,26 +810,6 @@
     "etat": "Dépôt de rapport"
   },
   {
-    "id": "DLR5L17N53385",
-    "titre": "Proposition de loi constitutionnelle visant à préciser la procédure d'examen des textes budgétaires, à renforcer la place du Parlement et à sécuriser le périmètre et la constitutionnalité des dispositions mises en oeuvre par les ordonnances mentionnées aux articles 47 et 47 1 de la Constitution",
-    "type": "Projet ou proposition de loi constitutionnelle",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl25-242.html",
-    "nor": "",
-    "date": "2026-02-18",
-    "etat": "Dépôt de rapport"
-  },
-  {
-    "id": "DLR5L17N53160",
-    "titre": "Proposition de loi visant à réserver la vente de protoxyde d'azote aux seuls professionnels",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl25-125.html",
-    "nor": "",
-    "date": "2026-02-18",
-    "etat": "Dépôt de rapport"
-  },
-  {
     "id": "DLR5L17N52549",
     "titre": "Projet de loi autorisant l’approbation de la convention entre le Gouvernement de la République française et le Gouvernement de la République de Finlande pour l’élimination de la double imposition en matière d’impôts sur le revenu et la prévention de l’évasion et de la fraude fiscales et l’approbation de l’avenant à la convention entre le Gouvernement de la République française et le Gouvernement du Royaume de Suède en vue d’éviter les doubles impositions et de prévenir l’évasion fiscale en matière d’impôts sur le revenu et sur la fortune",
     "type": "Projet de ratification des traités et conventions",
@@ -778,16 +828,6 @@
     "nor": "",
     "date": "2026-02-18",
     "etat": "Décision"
-  },
-  {
-    "id": "DLR5L17N50444",
-    "titre": "Optimiser la protection et l'accompagnement des parents d'enfants atteints de cancers, de maladies graves et de handicaps",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PA722336",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-180.html",
-    "nor": "",
-    "date": "2026-02-18",
-    "etat": "Dépôt de rapport"
   },
   {
     "id": "DLR5L17N53818",
@@ -16167,16 +16207,6 @@
     "url": "",
     "nor": "",
     "date": "2025-02-18",
-    "etat": "Renvoi en commission au fond"
-  },
-  {
-    "id": "DLR5L17N51569",
-    "titre": "Proposition de loi visant à encadrer l'implantation des centres de données sur le territoire français",
-    "type": "Proposition de loi ordinaire",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl24-348.html",
-    "nor": "",
-    "date": "2025-02-17",
     "etat": "Renvoi en commission au fond"
   },
   {
