@@ -1,5 +1,15 @@
 [
   {
+    "id": "DLR5L17N53096",
+    "titre": "Projet de loi relatif à l’extension des prérogatives, des moyens, de l’organisation et du contrôle des polices municipales et des gardes champêtres",
+    "type": "Projet de loi ordinaire",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl25-097.html",
+    "nor": "",
+    "date": "2026-04-15",
+    "etat": "Réunion de commission"
+  },
+  {
     "id": "DLR5L17N53782",
     "titre": "Permettre l'ouverture des boulangeries tous les jours de la semaine",
     "type": "Proposition de loi ordinaire",
@@ -310,6 +320,16 @@
     "etat": "Réunion de commission"
   },
   {
+    "id": "DLR5L17N52984",
+    "titre": "Projet de loi constitutionnelle relatif à la Nouvelle-Calédonie",
+    "type": "Projet ou proposition de loi constitutionnelle",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl25-023.html",
+    "nor": "",
+    "date": "2026-03-24",
+    "etat": "Réunion de commission"
+  },
+  {
     "id": "DLR5L14N29665",
     "titre": "Compétence territoriale du juge français pour les infractions visées par le statut de la CPI",
     "type": "Proposition de loi ordinaire",
@@ -320,14 +340,14 @@
     "etat": "Réunion de commission"
   },
   {
-    "id": "DLR5L17N52984",
-    "titre": "Projet de loi constitutionnelle relatif à la Nouvelle-Calédonie",
+    "id": "DLR5L17N53385",
+    "titre": "Proposition de loi constitutionnelle visant à préciser la procédure d’examen des textes budgétaires, à renforcer la place du Parlement et à sécuriser le périmètre et la constitutionnalité des dispositions mises en œuvre par les ordonnances mentionnées aux articles 47 et 47-1 de la Constitution",
     "type": "Projet ou proposition de loi constitutionnelle",
-    "auteur": "PA643210",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl25-023.html",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-242.html",
     "nor": "",
     "date": "2026-02-27",
-    "etat": "Réunion de commission"
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N53843",
@@ -338,16 +358,6 @@
     "nor": "",
     "date": "2026-02-26",
     "etat": "1er dépôt d'une initiative."
-  },
-  {
-    "id": "DLR5L17N53385",
-    "titre": "Proposition de loi constitutionnelle visant à préciser la procédure d'examen des textes budgétaires, à renforcer la place du Parlement et à sécuriser le périmètre et la constitutionnalité des dispositions mises en oeuvre par les ordonnances mentionnées aux articles 47 et 47 1 de la Constitution",
-    "type": "Projet ou proposition de loi constitutionnelle",
-    "auteur": "PO78718",
-    "url": "http://www.senat.fr/dossier-legislatif/ppl25-242.html",
-    "nor": "",
-    "date": "2026-02-26",
-    "etat": "Décision"
   },
   {
     "id": "DLR5L17N53160",
@@ -380,6 +390,26 @@
     "etat": "Renvoi en commission au fond"
   },
   {
+    "id": "DLR5L17N53848",
+    "titre": "Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et le Gouvernement du Royaume des Pays-Bas portant délimitation de la frontière entre la République française (Saint-Martin) et le Royaume des Pays-Bas (Sint Maarten)",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl25-437.html",
+    "nor": "",
+    "date": "2026-02-25",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53847",
+    "titre": "Projet de loi portant diverses mesures urgentes de sécurisation du droit de la fonction publique",
+    "type": "Projet de loi ordinaire",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl25-438.html",
+    "nor": "",
+    "date": "2026-02-25",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
     "id": "DLR5L17N53844",
     "titre": "Projet de loi autorisant l’approbation de l’accord de partenariat et de coopération renforcé\rentre l'Union européenne et ses Etats membres, d'une part, et la République kirghize, d'autre part",
     "type": "Projet de ratification des traités et conventions",
@@ -391,7 +421,7 @@
   },
   {
     "id": "DLR5L17N53838",
-    "titre": "DOSSIER : rapport d'information déposé par la commission des affaires européennes sur la politique de la pêche",
+    "titre": "La politique de la pêche",
     "type": "Rapport d'information sans mission",
     "auteur": "",
     "url": "",
@@ -480,16 +510,6 @@
     "etat": "Dépôt de rapport"
   },
   {
-    "id": "DLR5L17N53096",
-    "titre": "Projet de loi relatif à l’extension des prérogatives, des moyens, de l’organisation et du contrôle des polices municipales et des gardes champêtres",
-    "type": "Projet de loi ordinaire",
-    "auteur": "PA643210",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl25-097.html",
-    "nor": "",
-    "date": "2026-02-25",
-    "etat": "Réunion de commission"
-  },
-  {
     "id": "DLR5L17N53095",
     "titre": "Projet de loi autorisant l’approbation de la convention d’extradition entre le Gouvernement de la République française et le Gouvernement de la République de Colombie",
     "type": "Projet de ratification des traités et conventions",
@@ -567,7 +587,7 @@
     "url": "http://www.senat.fr/dossier-legislatif/ppl24-662.html",
     "nor": "",
     "date": "2026-02-25",
-    "etat": "Décision"
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N51670",
@@ -608,6 +628,16 @@
     "nor": "",
     "date": "2026-02-23",
     "etat": "Promulgation d'une loi"
+  },
+  {
+    "id": "DLR5L17N53846",
+    "titre": "Proposition de loi concernant la représentativité au sein des unions régionales des professionnels de santé",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-427.html",
+    "nor": "",
+    "date": "2026-02-20",
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N53825",
