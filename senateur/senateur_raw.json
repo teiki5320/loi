@@ -998,24 +998,14 @@
     "libelle": "Commission d'enquête sur les mécanismes de financement des politiques publiques par des organismes, sociétés ou fondations de droit privé et des risques en matière d'influence, d'absence de transparence financière et d'entrave au fonctionnement de la démocratie ",
     "ordre": 25002
   },{
-    "code": "ETUDES-1008",
-    "type": "ETUDE",
-    "libelle": "Groupe Numérique",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-966",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Arts de la scène, arts de la rue et festivals en régions ",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-1007",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Métiers d'art",
-    "ordre": 50001
-  },{
     "code": "ETUDES-938",
     "type": "ETUDE",
     "libelle": "Groupe d'études Arctique, Antarctique et Terres australes",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-1008",
+    "type": "ETUDE",
+    "libelle": "Groupe Numérique",
     "ordre": 50001
   },{
     "code": "BUR",
@@ -7278,9 +7268,9 @@
     "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   },{
-    "code": "ETUDES-1007",
+    "code": "ETUDES-909",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Métiers d'art",
+    "libelle": "Groupe d'études Vigne et vin",
     "ordre": 50001
   },{
     "code": "ETUDES-1015",
@@ -7291,11 +7281,6 @@
     "code": "ETUDES-907",
     "type": "ETUDE",
     "libelle": "Groupe d'études Chasse et pêche",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-909",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Vigne et vin",
     "ordre": 50001
   }],
   "groupe": {
@@ -9680,24 +9665,14 @@
     "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
     "ordre": 50001
   },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "ordre": 50001
+  },{
     "code": "ETUDES-1008",
     "type": "ETUDE",
     "libelle": "Groupe Numérique",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-1006",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Francophonie",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-1007",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Métiers d'art",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-907",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Chasse et pêche",
     "ordre": 50001
   },{
     "code": "ETUDES-906",
@@ -9705,9 +9680,9 @@
     "libelle": "Groupe d'études Énergie",
     "ordre": 50001
   },{
-    "code": "ETUDES-919",
+    "code": "ETUDES-907",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "libelle": "Groupe d'études Chasse et pêche",
     "ordre": 50001
   },{
     "code": "BUR",
@@ -12736,19 +12711,9 @@
     "libelle": "Délégation aux droits des femmes et à l'égalité des chances entre les hommes et les femmes",
     "ordre": 16003
   },{
-    "code": "ETUDES-966",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Arts de la scène, arts de la rue et festivals en régions ",
-    "ordre": 50001
-  },{
     "code": "ETUDES-1010",
     "type": "ETUDE",
     "libelle": "Groupe d'études Statut, rôle et place des Français établis hors de France",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-1014",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Handicap",
     "ordre": 50001
   },{
     "code": "ETUDES-938",
@@ -12756,19 +12721,19 @@
     "libelle": "Groupe d'études Arctique, Antarctique et Terres australes",
     "ordre": 50001
   },{
-    "code": "ETUDES-1007",
+    "code": "ETUDES-934",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Métiers d'art",
+    "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-1014",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Handicap",
     "ordre": 50001
   },{
     "code": "ETUDES-909",
     "type": "ETUDE",
     "libelle": "Groupe d'études Vigne et vin",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-934",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
     "ordre": 50001
   }],
   "groupe": {
@@ -16330,24 +16295,19 @@
     "libelle": "Commission d'enquête sur les mécanismes de financement des politiques publiques par des organismes, sociétés ou fondations de droit privé et des risques en matière d'influence, d'absence de transparence financière et d'entrave au fonctionnement de la démocratie ",
     "ordre": 25002
   },{
-    "code": "DELEGA-211",
-    "type": "DELEGATION/OFFICE",
-    "libelle": "Délégation aux droits des femmes et à l'égalité des chances entre les hommes et les femmes",
-    "ordre": 16003
-  },{
     "code": "DELEGA-ENTREPRISES",
     "type": "DELEGATION/OFFICE",
     "libelle": "Délégation sénatoriale aux entreprises",
     "ordre": 16004
   },{
+    "code": "DELEGA-211",
+    "type": "DELEGATION/OFFICE",
+    "libelle": "Délégation aux droits des femmes et à l'égalité des chances entre les hommes et les femmes",
+    "ordre": 16003
+  },{
     "code": "ETUDES-934",
     "type": "ETUDE",
     "libelle": "Groupe d'études Pratiques sportives et grands événements sportifs",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-966",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Arts de la scène, arts de la rue et festivals en régions ",
     "ordre": 50001
   },{
     "code": "ETUDES-1008",
@@ -16584,19 +16544,19 @@
     "libelle": "Délégation sénatoriale à la prospective",
     "ordre": 16006
   },{
-    "code": "ETUDES-919",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
-    "ordre": 50001
-  },{
     "code": "ETUDES-918",
     "type": "ETUDE",
     "libelle": "Groupe d'études Développement économique de la montagne",
     "ordre": 50001
   },{
-    "code": "ETUDES-1007",
+    "code": "ETUDES-1014",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Métiers d'art",
+    "libelle": "Groupe d'études Handicap",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   },{
     "code": "ETUDES-948",
@@ -16612,11 +16572,6 @@
     "code": "ETUDES-1004",
     "type": "ETUDE",
     "libelle": "Groupe d'études Cancer",
-    "ordre": 50001
-  },{
-    "code": "ETUDES-1014",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Handicap",
     "ordre": 50001
   },{
     "code": "MISINFCOM-PSY",
@@ -19208,14 +19163,14 @@
     "libelle": "Délégation sénatoriale aux outre-mer",
     "ordre": 16005
   },{
-    "code": "ETUDES-909",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Vigne et vin",
-    "ordre": 50001
-  },{
     "code": "ETUDES-1015",
     "type": "ETUDE",
     "libelle": "Groupe d'études Pêche et produits de la mer",
+    "ordre": 50001
+  },{
+    "code": "ETUDES-919",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
     "ordre": 50001
   },{
     "code": "ETUDES-938",
@@ -19233,11 +19188,6 @@
     "libelle": "Groupe d'études Handicap",
     "ordre": 50001
   },{
-    "code": "ETUDES-1007",
-    "type": "ETUDE",
-    "libelle": "Groupe d'études Métiers d'art",
-    "ordre": 50001
-  },{
     "code": "ETUDES-908",
     "type": "ETUDE",
     "libelle": "Groupe d'études Mer et littoral",
@@ -19248,9 +19198,9 @@
     "libelle": "Groupe d'études Chasse et pêche",
     "ordre": 50001
   },{
-    "code": "ETUDES-919",
+    "code": "ETUDES-909",
     "type": "ETUDE",
-    "libelle": "Groupe d'études Agriculture, élevage et alimentation",
+    "libelle": "Groupe d'études Vigne et vin",
     "ordre": 50001
   }],
   "groupe": {
