@@ -340,6 +340,36 @@
     "etat": "Réunion de commission"
   },
   {
+    "id": "DLR5L17N53850",
+    "titre": "Instaurer une journée de commémoration du génocide des Roms, Sintis, Gitans, Manouches, Yéniches et Voyageurs le 2 août",
+    "type": "Résolution",
+    "auteur": "PA794778",
+    "url": "",
+    "nor": "",
+    "date": "2026-03-02",
+    "etat": "Renvoi préalable"
+  },
+  {
+    "id": "DLR5L17N53849",
+    "titre": "Les manquements et dysfonctionnements du Comité national d’accueil et d’actions pour les Réunionnais en mobilité",
+    "type": "Résolution",
+    "auteur": "PA774962",
+    "url": "",
+    "nor": "",
+    "date": "2026-03-02",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53851",
+    "titre": "Proposition de loi visant à remobiliser le bâti rural",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-444.html",
+    "nor": "",
+    "date": "2026-02-27",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
     "id": "DLR5L17N53385",
     "titre": "Proposition de loi constitutionnelle visant à préciser la procédure d’examen des textes budgétaires, à renforcer la place du Parlement et à sécuriser le périmètre et la constitutionnalité des dispositions mises en œuvre par les ordonnances mentionnées aux articles 47 et 47-1 de la Constitution",
     "type": "Projet ou proposition de loi constitutionnelle",
@@ -597,7 +627,7 @@
     "url": "http://www.senat.fr/dossier-legislatif/ppl24-661.html",
     "nor": "",
     "date": "2026-02-25",
-    "etat": "Décision"
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N51569",
@@ -608,6 +638,16 @@
     "nor": "",
     "date": "2026-02-25",
     "etat": "Dépôt de rapport"
+  },
+  {
+    "id": "DLR5L17N53852",
+    "titre": "Proposition de loi visant à garantir la sérénité des événements politiques dans les universités et les autres établissements d'enseignement supérieur",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-430.html",
+    "nor": "",
+    "date": "2026-02-24",
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N53845",
