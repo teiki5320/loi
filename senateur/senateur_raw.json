@@ -362,6 +362,11 @@
     "libelle": "Délégation sénatoriale à la prospective",
     "ordre": 16006
   },{
+    "code": "ETUDES-909",
+    "type": "ETUDE",
+    "libelle": "Groupe d'études Vigne et vin",
+    "ordre": 50001
+  },{
     "code": "ETUDES-1004",
     "type": "ETUDE",
     "libelle": "Groupe d'études Cancer",
