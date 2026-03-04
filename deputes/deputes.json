@@ -180,16 +180,6 @@
     "groupeLibelle": "Libertés, Indépendants, Outre-mer et Territoires"
   },
   {
-    "id": "PA2960",
-    "nom": "Éric Woerth",
-    "email": "Eric.Woerth@assemblee-nationale.fr",
-    "circo": "4",
-    "dept": "Oise",
-    "groupe": "PO845407",
-    "groupeSigle": "EPR",
-    "groupeLibelle": "Ensemble pour la République"
-  },
-  {
     "id": "PA309643",
     "nom": "Véronique Besse",
     "email": "veronique.besse@assemblee-nationale.fr",
@@ -3208,6 +3198,16 @@
     "groupe": "PO845401",
     "groupeSigle": "RN",
     "groupeLibelle": "Rassemblement National"
+  },
+  {
+    "id": "PA794578",
+    "nom": "Véronique Ludmann",
+    "email": "veronique.ludmann@assemblee-nationale.fr",
+    "circo": "4",
+    "dept": "Oise",
+    "groupe": "PO840056",
+    "groupeSigle": "NI",
+    "groupeLibelle": "Non inscrit"
   },
   {
     "id": "PA794582",
