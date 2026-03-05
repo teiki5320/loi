@@ -340,6 +340,26 @@
     "etat": "Réunion de commission"
   },
   {
+    "id": "DLR5L17N53882",
+    "titre": "Projet de loi ratifiant l’ordonnance n° 2025-1247 du 17 décembre 2025 portant recodification de la taxe sur la valeur ajoutée et diverses modifications du code des impositions sur les biens et services",
+    "type": "Projet de loi ordinaire",
+    "auteur": "PA643210",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl25-449.html",
+    "nor": "",
+    "date": "2026-03-04",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53881",
+    "titre": "Prendre la mesure de l'emprise qu'exercent les fonds spéculatifs sur notre dette publique et renforcer notre réglementation le cas échéant",
+    "type": "Résolution",
+    "auteur": "PA605745",
+    "url": "",
+    "nor": "",
+    "date": "2026-03-04",
+    "etat": "Renvoi préalable"
+  },
+  {
     "id": "DLR5L17N53879",
     "titre": "Transmettre au Parlement les avis du Conseil d’État sur les projets de loi",
     "type": "Projet ou proposition de loi organique",
@@ -610,6 +630,16 @@
     "etat": "Renvoi en commission au fond"
   },
   {
+    "id": "DLR5L17N52103",
+    "titre": "Projet de loi autorisant l’approbation de l’avenant à la convention d’entraide judiciaire en matière pénale du 28 mai 1996 entre le Gouvernement de la République française et le Gouvernement de la République fédérative du Brésil",
+    "type": "Projet de ratification des traités et conventions",
+    "auteur": "PA410",
+    "url": "http://www.senat.fr/dossier-legislatif/pjl24-629.html",
+    "nor": "",
+    "date": "2026-03-03",
+    "etat": "Promulgation d'une loi"
+  },
+  {
     "id": "DLR5L17N53850",
     "titre": "Instaurer une journée de commémoration du génocide des Roms, Sintis, Gitans, Manouches, Yéniches et Voyageurs le 2 août",
     "type": "Résolution",
@@ -865,16 +895,6 @@
     "type": "Projet de ratification des traités et conventions",
     "auteur": "PA410",
     "url": "http://www.senat.fr/dossier-legislatif/pjl24-857.html",
-    "nor": "",
-    "date": "2026-02-25",
-    "etat": "Décision"
-  },
-  {
-    "id": "DLR5L17N52103",
-    "titre": "Projet de loi autorisant l’approbation de l’avenant à la convention d’entraide judiciaire en matière pénale du 28 mai 1996 entre le Gouvernement de la République française et le Gouvernement de la République fédérative du Brésil",
-    "type": "Projet de ratification des traités et conventions",
-    "auteur": "PA410",
-    "url": "http://www.senat.fr/dossier-legislatif/pjl24-629.html",
     "nor": "",
     "date": "2026-02-25",
     "etat": "Décision"
@@ -3818,6 +3838,16 @@
     "nor": "",
     "date": "2025-12-19",
     "etat": "1er dépôt d'une initiative."
+  },
+  {
+    "id": "DLR5L17N53883",
+    "titre": "Proposition de loi constitutionnelle visant à inscrire les conventions citoyennes dans la Constitution",
+    "type": "Projet ou proposition de loi constitutionnelle",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-244.html",
+    "nor": "",
+    "date": "2025-12-18",
+    "etat": "Renvoi en commission au fond"
   },
   {
     "id": "DLR5L17N53380",
