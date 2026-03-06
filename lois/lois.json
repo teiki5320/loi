@@ -640,6 +640,26 @@
     "etat": "Promulgation d'une loi"
   },
   {
+    "id": "DLR5L17N53885",
+    "titre": "Proposition de loi visant à lutter contre les effets discriminatoires de Parcoursup",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-447.html",
+    "nor": "",
+    "date": "2026-03-02",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53884",
+    "titre": "Proposition de loi visant à renforcer l'activité physique à l'école",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-448.html",
+    "nor": "",
+    "date": "2026-03-02",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
     "id": "DLR5L17N53850",
     "titre": "Instaurer une journée de commémoration du génocide des Roms, Sintis, Gitans, Manouches, Yéniches et Voyageurs le 2 août",
     "type": "Résolution",
@@ -670,6 +690,26 @@
     "etat": "Promulgation d'une loi"
   },
   {
+    "id": "DLR5L17N53887",
+    "titre": "Proposition de loi constitutionnelle visant à supprimer le mot « race » de la Constitution",
+    "type": "Projet ou proposition de loi constitutionnelle",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-445.html",
+    "nor": "",
+    "date": "2026-02-27",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53886",
+    "titre": "Proposition de loi visant à assouplir la procédure d'autorisation des établissements et services médico-sociaux à caractère expérimental",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-446.html",
+    "nor": "",
+    "date": "2026-02-27",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
     "id": "DLR5L17N53880",
     "titre": "Proposition de loi relative aux soins psychiatriques sans consentement et à leur contrôle",
     "type": "Proposition de loi ordinaire",
@@ -697,6 +737,16 @@
     "url": "http://www.senat.fr/dossier-legislatif/ppl25-242.html",
     "nor": "",
     "date": "2026-02-27",
+    "etat": "Renvoi en commission au fond"
+  },
+  {
+    "id": "DLR5L17N53888",
+    "titre": "Proposition de loi visant à confier à la recherche publique une mission de collecte, de diffusion et de conservation des données scientifiques sur la Terre, le climat et l'environnement",
+    "type": "Proposition de loi ordinaire",
+    "auteur": "PO78718",
+    "url": "http://www.senat.fr/dossier-legislatif/ppl25-442.html",
+    "nor": "",
+    "date": "2026-02-26",
     "etat": "Renvoi en commission au fond"
   },
   {
